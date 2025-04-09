@@ -5,14 +5,14 @@ tags: []
 index: 52
 ---
 
-# IoT DEVICES
+# Iot devices
 
 IoT devices can be classified in different categories given the following characteristics
 
 - energy consumption
 - networking capabilities
 
-## NETWORK CLASSIFICATION
+## Network classification
 
 | CATEGORY | CARACTERISTICS                                                                                  |
 | -------- | ----------------------------------------------------------------------------------------------- |
@@ -20,7 +20,7 @@ IoT devices can be classified in different categories given the following charac
 | C1       | devices with some communication capabilities but they don't implement the full ip/tcp stack     |
 | C2       | devices with full ip/tcp capabilities, they may benefit from the use of simple protocols        |
 
-## ENERGY CLASSIFICATION
+## Energy classification
 
 | CATEGORY | CARACTERISTICS             |
 | -------- | -------------------------- |

@@ -5,11 +5,11 @@ tags: []
 index: 64
 ---
 
-# EVENTS
+# Events
 
 Events can be defined as temporary constrained massages that needs to be processed as quickly as possible
 
-## EVENTS VS [MESSAGES](mobile_systems/MESSAGING.md)
+## Events vs [messages](mobile_systems/messaging.md)
 
 In a mobile environment events and messages show the same characteristics and can be handled by similar systems
 
@@ -21,7 +21,7 @@ All consideration for [messages](mobile_systems/MESSAGING.md) are valid also for
 - **Possibility to use filters** (on headers or entire messages)
 - **Different topologies for routing** and different semantics associated to event sending/notification
 -  **non-blocking operations** (polling, callback)
-## GENERAL ARCHITECTURE OF A EVENT SYSTEM
+## General architecture of a event system
 
 An event system is based on a central [pub/sub service](mobile_systems/PUB_SUB_MODEL.md) to achieve decoupling of the publisher and subscribers
 
@@ -48,7 +48,7 @@ E --subscribe request response--> pub_sub_service
 ```
 
 
-## EVENT ROUTER
+## Event router
 
 Entity that implements the [pub/sub service](mobile_systems/PUB_SUB_MODEL.md), the router achieves decoupling, implement filters trough the use of routing tables and other QoS functionalities (*delivery with deadlines,fault-tollerance,ordering* )
 
@@ -59,7 +59,7 @@ Possible topologies can be:
 - cyclic acyclic
 - based on [rendezvous points](DESIGN%20PATTERN%20AND%20ARCHITECTURES.md#RENDEZVOUS)
 
-## ROUTING POLICIES
+## Routing policies
 
 - **simple routing**  every broker has the same routing table
 - **covering-based routing** only the more general subscription are routed, exploiting the fact that general subscription are supersets of more specific ones
@@ -67,7 +67,7 @@ Possible topologies can be:
 
 The more sophisticated routing strategies show problems in the un-subscription phase and force the routing table to take tracks of which subscription an entry is done for
 
-## MESSAGE ROUTING FILTERS
+## Message routing filters
 
 Filters can be implemented at different levels:
 
@@ -76,7 +76,7 @@ Filters can be implemented at different levels:
 - **Header-based** depending on a set of fields. (*For example, SOAP supports header-based routing for its messages*)
 - **Content-based** possibly depending on the whole message content. Higher expressive power, higher costs
 
-## JAVA EVENTS
+## Java events
 
 Java implements a solution for event based distribution based on RMI (*e.g. [apache river (jini)](SERVICE_DISCOVERY.md#APACHE%20RIVER%20(JINI))*) where a remote event listener notifies registered consumers with a remote object:
 
@@ -92,12 +92,12 @@ public class RemoteEvent {
 
 there is also a lease mechanism and the possibility to define adapters to implement QoS and filters (*no already given implementation*)
 
-## OMG DISTRIBUTED DATA SERVICE (DDS)
+## Omg distributed data service (dds)
 
 OMG specification  for data distribution service designed for real-time systems.
 The system is designed for [pub/sub](mobile_systems/PUB_SUB_MODEL.md) oriented communications where the data space is accessed trough a middleware that offers general API. Content filtering and QoS negotiation are supported
 
-### PARTITIONS
+### Partitions
 
 Partitions are namespaces to allow the logical splitting of a DDS domain where publisher/subscribers can decide **at runtime**  on which partitions to publish/subscribe data.
 
@@ -105,13 +105,13 @@ For a reader to receive data there is the need to share the same topic and parti
 
 ![](mobile_systems/Pasted%20image%2020240618175718.png)
 
-### RELIABILITY
+### Reliability
 
 Possibility to enforce policy on message delivery
 
 - **BEST_EFFORT** NOT guaranteed that all messages are received, NOT guaranteed delivery order
 - **RELIABLE** – guranteed that all messages are received and delivery order. Via Publishers that re-send data to Subscribers if needed and via Subscribers that send reception feedback (ack)
-### DURABILITY
+### Durability
 
 Three possible specification for message storing
 
@@ -119,7 +119,7 @@ Three possible specification for message storing
 - **transient** message are stored in central memory
 - **persistent** message are stored in persistent memory
 
-## GENERAL EVENT NOTIFICATION ARCHITECTURE (GENA)
+## General event notification architecture (gena)
 
 Primary used solution in [UPnP](SERVICE_DISCOVERY.md#UNIVERSAL%20PLUG%20AND%20PLAY%20(UPnP)), for event notification, control nodes subscribe to events trough a SOAP http request and receive unicast notification
 

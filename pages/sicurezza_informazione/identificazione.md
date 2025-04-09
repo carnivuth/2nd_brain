@@ -57,7 +57,7 @@ I protocolli di identificazione possono essere classificati in 2 tipologie:
 - **protocolli passivi**: il segreto e sempre uno e invariato in tutte le sessioni di identificazione (*e.g. identificazione con password*)
 - **protocolli attivi**: il segreto utilizzato cambia a ogni sessione di identificazione, in questa tipologia ricadono OTP, sfida risposta,e protocolli zero knowledge
 
-## Protocollo one time password (OTP)
+## Protocollo one time password (otp)
 
 Protocollo basato su una funzione nota $F(x)$ one-way che le due parti conoscono, quando un utente vuole identificarsi invia al server l'output di $F^n(x)$ e a ogni identificazione la funzione scala di un esponente
 

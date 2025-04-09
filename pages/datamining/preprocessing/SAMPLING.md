@@ -5,7 +5,7 @@ tags: []
 index: 8
 ---
 
-# SAMPLING
+# Sampling
 
 the process of reducing the dataset dimensions making samples, the goals are:
 
@@ -14,7 +14,7 @@ the process of reducing the dataset dimensions making samples, the goals are:
 
 a sample of a dataset **can be usefull if it is representative**
 
-## TYPES
+## Types
 
 - ### SIMPLE RANDOM
 
@@ -32,13 +32,13 @@ a sample of a dataset **can be usefull if it is representative**
 
 	split data into several partitions according to some criteria, then draw the random samples from each partition
 
-## SAMPLE SIZE
+## Sample size
 
 select the sample size is a tradeoff between data reduction and precision, there are techniques to get the optimal sample size and a sample that has meaning
 
 
 
-## MISSING CLASSES
+## Missing classes
 
 the probability of sampling at least an element for each class is independent from the size of the dataset (**if using replacement**)
 

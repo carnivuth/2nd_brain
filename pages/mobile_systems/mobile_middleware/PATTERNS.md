@@ -5,17 +5,17 @@ tags: []
 index: 34
 ---
 
-# PATTERNS
+# Patterns
 
 Mobile environment can exploit several patterns for different tasks typologies
 
-## ARCHITECTURAL PATTERNS
+## Architectural patterns
 
 inherited from non mobile environments, patterns for application's architectures that describes how component should interact
 ### Level-based
 
 Multi-layer sw architecture with different responsibilities “rigidly” allocated to different layers
-### Client-Server
+### Client-server
 
 Most frequent pattern in distributed computing: clients use resources and services offered by server
 ### Peer-to-peer
@@ -30,7 +30,7 @@ Client-server architecture where applications are run by a multiplicity of diffe
 ### Blackboard
 
 A common knowledge base (blackboard) is updated iteratively by different knowledge sources, starting from including problem specification and then evolving to solution results
-### Publish/Subscribe
+### Publish/subscribe
 
 Different nodes publish data to a broker that can be received from different nodes acting as subscribers
 

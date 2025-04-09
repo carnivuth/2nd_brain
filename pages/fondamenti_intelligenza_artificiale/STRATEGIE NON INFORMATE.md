@@ -24,7 +24,7 @@
 	- ((640b1c4b-fe83-4c82-be38-9c458cd40b5d))
 		- la strategia non è ottimale
 	- ![image.png](../assets/image_1678452245301_0.png)
-#### RICERCA AD APPROFONDIMENTO ITERATIVO
+#### Ricerca ad approfondimento iterativo
 	- TODO approfondire nelle slide
 -
 	-

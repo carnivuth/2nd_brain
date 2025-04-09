@@ -5,11 +5,11 @@ tags: []
 index: 13
 ---
 
-# AD HOC ON DEMAND DISTANCE VECTOR
+# Ad hoc on demand distance vector
 
 AODV tries to address the problem of the variable sized header of [DSR](mobile_systems/DINAMIC_SOURCE_ROUTING.md) by maintain a reduced routing table suitable for manets
 
-## LIMIT THE ROUTING PROBLEMS OF MANETS
+## Limit the routing problems of manets
 
 In order to avoid limit the header lenght problem, 2 routing tables are used:
 
@@ -37,18 +37,18 @@ b --> c
 c --> d
 ```
 
-## ROUTE ERROR
+## Route error
 
 In the route error scenario the node that detects the route error situation informs the other nodes like in [DSR](mobile_systems/DYNAMIC%20SOURCE%20ROUTING.md) and they update their routing table, the message is broadcast to the neighbors route error to inform them
 
-## LINK FAILURE DETECTION
+## Link failure detection
 
 Extension that force all nodes to send hello messages to the neighbors in order to discover broken routing table lines
 
-## AVOID THE FLOODING PROPAGATION
+## Avoid the flooding propagation
 
 In order to avoid the excessive flooding if an intermediate node has already the route information can respond with  a route reply, this generate some loop problems
 
-### USING DSN TO AVOID LOOPS
+### Using dsn to avoid loops
 
 So in order to avoid loops, an integer value is introduced (DSN) that is incremented with each propagation of a route request packet, if the

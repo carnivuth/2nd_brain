@@ -5,7 +5,7 @@ tags: []
 index: 47
 ---
 
-# IoT PLATFORMS
+# Iot platforms
 
 Platforms for interaction with IoT environment, The main objectives are:
 

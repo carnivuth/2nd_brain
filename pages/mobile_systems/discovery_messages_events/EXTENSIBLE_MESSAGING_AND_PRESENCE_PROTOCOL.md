@@ -5,13 +5,13 @@ tags: []
 index: 63
 ---
 
-# EXTENSIBLE MESSAGING AND PRESENCE PROTOCOL (XMPP)
+# Extensible messaging and presence protocol (xmpp)
 
 Protocol develop for large scale distributed application to notify if a user is connected to the application (*online status*).It's  a [pub/sub](mobile_systems/PUB_SUB_MODEL.md) protocol with messages codified in xml format
 
 XMPP is based on the client server model of interaction, where client send XML encoded data flows to the server after parameter negotiation.
 
-## INTERACTION SEMANTICS
+## Interaction semantics
 
 The protocol manages one-to-one and one-to-many communication
 
@@ -19,7 +19,7 @@ The protocol manages one-to-one and one-to-many communication
 - presence stanza one-to-many mechanism based on pub/sub
 - info/query stanza request-response mechanism
 
-## NOT SPECIFIC DESIGNED FOR THE PURPOSE
+## Not specific designed for the purpose
 
 XMPP is not designed for message exchange but given the popularity is a good candidate with some major flaws
 

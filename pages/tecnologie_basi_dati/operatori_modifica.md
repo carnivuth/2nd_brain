@@ -34,7 +34,7 @@ Il costo di modifica conseguente degli indici e stimabile come segue
 - $2*f*N$ se le eliminazioni sono indipendenti
 - $2\Phi(KD,L)$ se si ordinano i record per valore della chiave
 
-## Costo dell'aggiornamento: la sindrome di Halloween
+## Costo dell'aggiornamento: la sindrome di halloween
 
 In caso di query di update come segue
 

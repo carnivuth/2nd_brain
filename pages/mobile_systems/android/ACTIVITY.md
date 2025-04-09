@@ -5,11 +5,11 @@ tags: []
 index: 39
 ---
 
-# ACTIVITY
+# Activity
 
 Activities are the main component of an android application, they can interact with the user and are put into execution by the android runtime
 
-## ACTIVITY LIFECICLE
+## Activity lifecicle
 
 Activities follow a specific lifecicle graph managed by the android runtime, where activities cycle a set of states:
 
@@ -22,19 +22,19 @@ Activities follow a specific lifecicle graph managed by the android runtime, whe
 
 In general **only one activity is in the running state where it can interact with the user**,but many activities can be processed by the runtime, when an activity is not more visible it transits in the paused/stopped state where it can recover state thanks to the **BUNDLE** object that the android runtime calls back when the activity is resumed
 
-### ACTIVITY PRIORITIES
+### Activity priorities
 
 Activities can have different priorities that change the scheduling:
 
 
 
-## HOW ACTIVITIES INTERACT: TASKS
+## How activities interact: tasks
 
 The android runtime supports the interaction between activities by tasks, when an activity triggers another trough an intent, the current activity is inserted in a stack where the at the top resides the current running activities, as the activities are terminated by the user they are also removed from the activity stack
 
 ![](mobile_systems/Pasted%20image%2020240618110358.png)
 
-## TRIGGER AN ACTIVITY TO RUN: INTENT
+## Trigger an activity to run: intent
 
 An activity can trigger another one by sending an intent that can be of two types:
 
@@ -51,7 +51,7 @@ A --parameter specified--> B
 end
 ```
 
-### INTENT FILTER EXAMPLE
+### Intent filter example
 
 ```xml
 <activity android:name="IntentActivity">
@@ -64,7 +64,7 @@ end
 </activity>
 ```
 
-## BROADCAST VS INTENTS
+## Broadcast vs intents
 
 Broadcast are an  alternative to implicit intents, they are sent when an event occurs, wrapped into an intent object can be of 2 types
 
@@ -77,13 +77,13 @@ multiple ways to send a broadcast:
 - **normal broadcast** received by all subscribers with no established order
 - **local broadcast** received by local components of the application
 
-### BROADCAST RECEIVER
+### Broadcast receiver
 
 Application component that handles the broadcast message, they register to different broadcast in 2 possible ways
 
 - **static receivers** using manifest
 - **dynamic receivers** using app or activities context
-### SECURITY ASPECTS
+### Security aspects
 
 it's important to limit the range of the broadcast messages to avoid leaks and enforce permissions
 

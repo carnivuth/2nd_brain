@@ -5,7 +5,7 @@ tags: []
 index: 30
 ---
 
-# ZERO CROSSING EDGE DETECTION
+# Zero crossing edge detection
 
 Edge detection can also be done by detecting the zero crossing point of the second derivative
 

@@ -1,11 +1,11 @@
 ---
 index: 17
 ---
-# LAMBDA CALCOLO
+# Lambda calcolo
 
 Nasce contemporaneamente alla macchina di Turing con l'obbiettivo di descrivere ogni algoritmo (*Turing-equivalente*), e **basato sul solo concetto di funzione**
 
-## SINTASSI E SEMANTICA
+## Sintassi e semantica
 
 $$
 L::= \lambda x.L \vert x \vert LL
@@ -38,7 +38,7 @@ oppure:
 
 *funzione di parametro $x$ e corpo $xy$ $\lambda x.(xy)$*
 
-## LAMBDA CALCOLO IN JAVASCRIPT
+## Lambda calcolo in javascript
 
 [javascript](linguaggi_modelli_computazionali/JAVASCRIPT.md) risulta essere pratico per l'implementazione del lambda calcolo in quanto vi e la possibilità di definire funzioni anonime e [chiusure](JAVASCRIPT.md#CHIUSURE)
 
@@ -51,7 +51,7 @@ y=5
 console.log(f(y))
 ```
 
-## FUNZIONI A PIÙ ARGOMENTI
+## Funzioni a più argomenti
 
 Funzioni a piu argomenti possono essere rappresentate come funzioni di funzioni sfruttando il [currying](JAVASCRIPT.md#CURRYING), di conseguenza una funzione a piu argomenti:
 
@@ -61,7 +61,7 @@ $$
 
 Viene interpretata come una **funzione di parametro $x$ e corpo una funzione di parametro $y$ e corpo $xy$**
 
-## FUNZIONI NOTEVOLI
+## Funzioni notevoli
 
 Esistono alcune funzioni notevoli cosi definite:
 
@@ -73,7 +73,7 @@ Esistono alcune funzioni notevoli cosi definite:
 
 >[!NOTE] l'operatore $\Omega$ riproduce sempre se stesso
 
-## FORMA NORMALE
+## Forma normale
 
 Un lambda termine e in forma normale se non si possono applicare riduzioni ulteriori, ma dato che la grammatica e ambigua questa proprieta **dipende dall'ordine di riduzione**
 
@@ -104,13 +104,13 @@ f(2)
 
 ![](linguaggi_modelli_computazionali/Pasted%20image%2020241031114431.png)
 
-### TEOREMA DI CHURCH-ROSSER
+### Teorema di church-rosser
 
 **Ogni lambda termine ha al piu una forma normale**
 
 Da questo si deriva che il lambda calcolo e deterministico, i grafi hanno una e una sola foglia (*se sono aciclici*)
 
-## LOGICA BOOLEANA CON IL LAMBDA CALCOLO
+## Logica booleana con il lambda calcolo
 
 Per rappresentare la logica booleana sono necessari:
 
@@ -142,11 +142,11 @@ console.log(o(t)(f))
 
 >[!NOTE] notare che i simboli `T` e `F` sono esistessi definiti come termini funzione, anche se riducibili, a testimonianza del fatto che il  lambda calcolo e capace di rappresentare qualunque struttura dati e algoritmo con un solo formalismo sintattico :)
 
-## STRATEGIE DI RIDUZIONE
+## Strategie di riduzione
 
 Come mostrato prima la procedura di riduzione non e detto porti sempre a una forma normale, e pertanto importante determinare la strategia con cui si decide di ridurre la frase:
 
-### STRATEGIE EAGER
+### Strategie eager
 
 Basate sul concetto di sviluppare il prima possibile i termini sulla destra
 
@@ -154,7 +154,7 @@ Basate sul concetto di sviluppare il prima possibile i termini sulla destra
 - Call by value 
 - Call by reference
 - Call by copy-restore
-### STRATEGIE LAZY
+### Strategie lazy
 
 Basate sul applicazione dell'argomento alla funzione piuttosto che alla risoluzione dell'argomento stesso
 
@@ -163,7 +163,7 @@ Basate sul applicazione dell'argomento alla funzione piuttosto che alla risoluzi
 - Call by need
 - Call by macro
 
-## TURING EQUIVALENZA
+## Turing equivalenza
 
 Il lambda calcolo e Turing equivalente, ovvero e in grado di rappresentare
 
@@ -173,7 +173,7 @@ Il lambda calcolo e Turing equivalente, ovvero e in grado di rappresentare
 - il concetto di composizione $f(g(x))$
 - la ricorsione
 
-### RICORSIONE NEL LAMBDA CALCOLO
+### Ricorsione nel lambda calcolo
 
 Per poter rappresentare la ricorsione e necessario poter richiamare le funzioni per nome, tuttavia nel lambda calcolo le funzioni sono anonime ergo questo non e possibile.
 
@@ -205,7 +205,7 @@ function Y(f) {
 
 E necessario simulare la [call by name](PROCESSI_COMPUTAZIONALI.md#ALTERNATIVA,%20MODELLO%20CALL%20BY%20NAME) come già visto
 
-### COMBINATORE DI PUNTO FISSO RIVISITATO $Z$
+### Combinatore di punto fisso rivisitato $z$
 
 Per poter operare con la call by value e necessario ridefinire l'operatore di punto fisso come segue
 
@@ -226,7 +226,7 @@ function Z(f) {
 }
 ```
 
-### IMPLEMENTAZIONE DELLA RICORSIONE
+### Implementazione della ricorsione
 
 Dato l'operatore di punto fisso per ricreare la ricorsione e necessario:
 
@@ -253,7 +253,7 @@ FactGen = f => x => (x==0) ? 1: x*f(x-1)
 console.log(Z(FactGen)(3))
 ```
 
-## IN CONCLUSIONE
+## In conclusione
 
 Il lambda calcolo e un formalismo estremamente potente che ha permesso di formalizzare le funzionalità che oggi vantano i linguaggi mainstream ma non e pensato per essere utilizzato direttamente dagli utenti finali
 

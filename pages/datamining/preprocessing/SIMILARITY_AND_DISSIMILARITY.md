@@ -5,13 +5,13 @@ tags: []
 index: 3
 ---
 
-# SIMILARITY AND DISSIMILARITY
+# Similarity and dissimilarity
 
-## SIMILARITY
+## Similarity
 
 numerical measure of how alike two data objects are, higher when objects are more alike ( range of $[0-1]$ )
 
-## DISSIMILARITY
+## Dissimilarity
 
 numerical measure of how different two data objects are, lower when objects are more alike ( minimum value  $0$ upper bound varies )
 
@@ -22,39 +22,39 @@ numerical measure of how different two data objects are, lower when objects are 
 | INTERVAL | $$\|p-q\|$$ | $$\frac{1}{1+d}$$ |
 
 
-## PROPERTIES OF SIMILARITY
+## Properties of similarity
 
 - $Sim(p, q) = 1 \iff p = q$
 - $Sim(p, q) = Sim(q, p)$
 
 
 
-## SIMILARITY BETWEEN VECTORS
+## Similarity between vectors
 
 
 
-### SIMPLE MATCHING COEFFICIENT
+### Simple matching coefficient
 
 the ratio between the number of matches and the number of attributes
 
 $$
 \frac{M_{00} + M_{11}}{M_{00}+M_{10}+M_{01}+M_{11}}
 $$
-### JACCARD COEFFICIENT
+### Jaccard coefficient
 
 the ratio between the number of $11$ matches and the number of non $00$ attributes
 
 $$
 \frac{M_{11}}{M_{10}+M_{01}+M_{11}}
 $$
-### COSINE COEFFICIENT
+### Cosine coefficient
 
 the cosine between the vectors
 
 $$
 \frac{p*q}{|p|*|q|}
 $$
-### EXTENDED JACCARD COEFFICIENT TANIMOTO
+### Extended jaccard coefficient tanimoto
 
 the jaccard coefficient for continuous attributes
 

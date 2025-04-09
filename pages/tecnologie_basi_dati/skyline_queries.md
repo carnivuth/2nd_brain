@@ -76,7 +76,7 @@ Un miglioramento lo si ha  sfruttando un blocco di memoria di dimensione $w$  e 
 
 Evidenze sperimentali hanno dimostrato che BNL e CPU intensive e con un basso costo di I/O, inoltre la dimensione $w$ della window degrada le performance in quanto  si effettuano più controlli sulle tuple
 
-## SFS Sort-Filter-Skyline
+## Sfs sort-filter-skyline
 
 L'idea e quella di ridurre il numero di confronti, per fare ciò si introduce un ordinamento topologico completo che garantisce che $$t \succ t^{'} \Rightarrow t \lt t^{'}$$ in questo modo si ha che una tupla letta **non può dominarne una già letta**
 
@@ -121,7 +121,7 @@ Molte situazioni reali prevedono che gli attributi di interesse per la skyline a
 
 In questo caso si possono sfruttare le peculiarità di questi domini
 
-## Algoritmo LS-B
+## Algoritmo ls-b
 
 Viene predisposta una matrice data da tutte le possibili combinazioni degli attributi di interesse
 

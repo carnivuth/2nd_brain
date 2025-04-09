@@ -5,7 +5,7 @@ tags: []
 index: 9
 ---
 
-# MANET (MOBILE AD HOC NETWORK)
+# Manet (mobile ad hoc network)
 
 Manets are network with the following caracteristics
 

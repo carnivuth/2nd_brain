@@ -23,7 +23,7 @@ $$
 S \rightarrow aSBC\rightarrow abFC \rightarrow abcG \rightarrow abc
 $$
 
-## RAMI DI DERIVAZIONE MORTI
+## Rami di derivazione morti
 
 nelle grammatiche di Tipo 0 è possibile arrivare a una **stringa in cui non è possibile applicare altre produzioni**, in questo caso si parla di ramo di derivazione morto
 

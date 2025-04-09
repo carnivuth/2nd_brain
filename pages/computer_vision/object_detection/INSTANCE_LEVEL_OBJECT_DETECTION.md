@@ -5,7 +5,7 @@ tags: []
 index: 40
 ---
 
-# INSTANCE LEVEL OBJECT DETECTION
+# Instance level object detection
 
 Instance level object detection is a common problem in computer vision industrial application, it can be formulated as follows:
 

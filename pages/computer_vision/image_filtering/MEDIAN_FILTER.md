@@ -5,7 +5,7 @@ tags:
 index: 18
 ---
 
-# MEDIAN FILTER
+# Median filter
 
 Median filter is a non linear filter which replace the intensity value with the median of the neighborhood.
 Note that this is not a liner filter because

@@ -5,7 +5,7 @@ tags: []
 index: 9
 ---
 
-# FEATURE CREATION
+# Feature creation
 
 the process of creating new feature from existing ones, the goals of this transformation are:
 

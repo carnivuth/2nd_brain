@@ -5,13 +5,13 @@ tags: []
 index: 49
 ---
 
-# AZURE IoT PLATFORM
+# Azure iot platform
 
 Microsoft cloud solution for IoT application, the main component is the azure IoT hub that communicates with the IoT devices and redirect the dataflow to the cloud components
 
 ![](mobile_systems/Pasted%20image%2020240613162421.png)
 
-## AZURE IoT EDGE
+## Azure iot edge
 
 azure IoT offers also the possibility to perform edge computing tasks thanks to the edge runtime, the edge device can run azure modules, that are the smallest computational entities of an azure IoT solution (*e.g. docker compatible containers*)
 

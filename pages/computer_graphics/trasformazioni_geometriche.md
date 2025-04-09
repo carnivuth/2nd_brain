@@ -11,7 +11,7 @@ Le trasformazioni geometriche sono operazioni che prendono in input un oggetto e
 
 >[!NOTE] Ma cos'e' un oggetto 3D?
 
-## Oggetto 3D
+## Oggetto 3d
 
 Un oggetto 3D e un elemento di uno spazio cartesiano tridimensionale con sistema di riferimento destrorso **descritto dalle coordinate dei suoi vertici**
 

@@ -1,6 +1,6 @@
-# COMPUTER VISION
+# Computer vision
 
-## FROM THE CAMERA TO THE IMAGE
+## From the camera to the image
 
 - [transform the 3D view in a 2D image](computer_vision/image_formation_acquisition/PERSPECTIVE_PROJECTION.md)
 - [camera physical parameters](computer_vision/image_formation_acquisition/CAMERA_PARAMETERS.md)
@@ -17,7 +17,7 @@
 - [calibrate a stereo camera system](computer_vision/image_formation_acquisition/STEREO_CAMERA_CALIBRATION.md)
 - [warping in computer vision](computer_vision/image_formation_acquisition/IMAGE_WARPING.md)
 
-## IMPROVE THE IMAGE BEFORE PROCESSING IT
+## Improve the image before processing it
 
 - [image filters](computer_vision/image_filtering/IMAGE_FILTERS.md)
 - [mean filter](computer_vision/image_filtering/MEAN_FILTER.md)
@@ -26,7 +26,7 @@
 - [bilateral filter](computer_vision/image_filtering/BILATERAL_FILTER.md)
 - [non-local mean filter](computer_vision/image_filtering/NON-LOCAL_MEAN_FILTER.md)
 
-## PROCESS IMAGES
+## Process images
 
 - [industrial computer vision pipeline](computer_vision/image_segmentation_blob_analysis/COMPUTER_VISION_INDUSTRIAL_WORKFLOW.md)
 - [binarization](computer_vision/image_segmentation_blob_analysis/BINARIZATION.md)
@@ -48,7 +48,7 @@
 - [sift descriptor](computer_vision/local_features/SIFT_DESCRIPTOR.md)
 - [matching process](computer_vision/local_features/MATCHING_PROCESS.md)
 
-## DETECTING OBJECTS IN IMAGES
+## Detecting objects in images
 
 - [instance level object detection](computer_vision/object_detection/INSTANCE_LEVEL_OBJECT_DETECTION.md)
 - [template pattern matching](computer_vision/object_detection/TEMPLATE_PATTERN_MATCHING.md)
@@ -57,7 +57,7 @@
 - [generalized hugh transform](computer_vision/object_detection/GENERALIZED_HUGH_TRANSFORM.md)
 - [object detection pipeline](computer_vision/object_detection/OBJECT_DETECTION_PIPELINE.md)
 
-## MACHINE LEARNING IN COMPUTER VISION
+## Machine learning in computer vision
 - [why machine learning is used](computer_vision/machine_learning_cv/MACHINE_LEARNING_IN_COMPUTER_VISION.md)
 - [image classifiers](computer_vision/machine_learning_cv/CREATING_A_CLASSIFIER.md)
 - [neural networks for images](computer_vision/machine_learning_cv/DEEP_LEARNING_AND_NEURAL_NETWORKS.md)

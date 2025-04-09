@@ -5,17 +5,17 @@ tags: []
 index: 2
 ---
 
-# CLUSTERING SCHEME EVALUATION
+# Clustering scheme evaluation
 
 Clustering scheme evaluation is important in order to comprehend the quality of a clustering scheme, it's also used to compere clustering scheme
 
-## MEASUREMENT CRITERIA
+## Measurement criteria
 
-### COHESION [(SSE)](K-MEANS.md#DISTORTION_(*SUM_OF_SQUARE_ERRORS_SSE*))
+### Cohesion [(sse)](k-means.md#distortion_(*sum_of_square_errors_sse*))
 
 the sum of the proximities between the element of the clusters and the geometric center (**prototype**), the prototype could be a [centroid](CLUSTERING.md#CENTROID) or a medoid in context where mean is not defined
 
-### SEPARATION (SSB)
+### Separation (ssb)
 
 The distance between 2 clusters (proximity between prototypes)
 
@@ -23,7 +23,7 @@ $$
 \sum_{i=1}^{K}{N_{i}Dist(c_{i},c)}^2
 $$
 
-### TOTAL SUM OF SQUARES (TSS)
+### Total sum of squares (tss)
 
 Sum of square distances between the points and the global center
 
@@ -33,7 +33,7 @@ $$
 TTS=SSE+SSB
 $$
 
-### SILHOUETTE
+### Silhouette
 
 Is a measure of how much a point contributes to separation between clusters and increasing cohesion following formulas considers  silhouette value for a point $x_{i}$
 
@@ -56,14 +56,14 @@ the global scores of silhouette are given by the average of the scores of all th
 silhouette is a lot expensive to compute due to it's nature
 
 
-## SEARCHING FOR THE BEST $k$ VALUE (the elbow method)
+## Searching for the best $k$ value (the elbow method)
 
 [silhouette](#SILHOUETTE) and [sse](K-MEANS.md#DISTORTION_(*SUM_OF_SQUARE_ERRORS_SSE*)) can be used in order to find the best value parameter, the best points to look are the minimums of the relation between sse and $k$ and the maximums in the relation between silhouette and $k$
 
 ![](datamining/Pasted_image_20240116140806.png)
 
 
-## COMPARING CLUSTERING SCHEMES
+## Comparing clustering schemes
 
 The concept is similar to the ones used to test [classification](CLASSIFICATION.md#CLASSIFICATION_WORKFLOW), there is a known partition of the dataset similar to the data to be clustered called **gold standard** and a labeling scheme $y_{g}(.)$
 

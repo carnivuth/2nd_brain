@@ -5,7 +5,7 @@ tags: []
 index: 4
 ---
 
-# HIERARCHICAL CLUSTERING
+# Hierarchical clustering
 
 Type of clustering that revolves around creating a nested structure of clustering, there are 2 types of hierarchical clustering:
 
@@ -30,7 +30,7 @@ flowchart TD
 	B-->|repeat until the best \n clustering scheme|A
 ```
 
-## COMPLEXITY
+## Complexity
 
 the complexity of hierarchical clustering is $\mathcal{O}(N^2)$ for the computation and storage of the distance matrix
 
@@ -38,7 +38,7 @@ for the single step iteration the complexity is $\mathcal{O}((N-1)^2)$
 
 so in conclusion the time complexity is $\mathcal{O}(N^3)$
 
-## CONS
+## Cons
 
  - poor scaling due to high complexity
  - no global objective function

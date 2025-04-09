@@ -1,7 +1,7 @@
 ---
 index: 1
 ---
-# TEORIA DELLA COMPUTABILITÀ
+# Teoria della computabilità
 
 Partiamo dalla **TESI DI CHURCH-TURING**
 
@@ -11,7 +11,7 @@ Da questo si deduce che se la MdT non può risolvere un dato problema quel **pro
 
 Ma cosa succede se una MdT non e in grado di risolvere un problema? **essa stessa si blocca in un loop** e non produce output di conseguenza si può dare una definizione di **PROBLEMA RISOLUBILE** come segue
 
-### PROBLEMA RISOLUBILE
+### Problema risolubile
 
 un problema la cui soluzione può essere espressa da una MdT (*o formalismo equivalente*)
 
@@ -30,7 +30,7 @@ $$
 
 Con questo formalismo definito si può traslare la il problema della ricerca dei problemi risolubili su quello delle funzioni computabili e, riprendendo la tesi di Church-Turing:
 
-### FUNZIONE COMPUTABILE 
+### Funzione computabile 
 
 Una funzione $f: A\rightarrow B$ è computabile se esiste una MdT che
 - data sul nastro una rappresentazione di $x\in A$ dopo un **numero finito di passi**
@@ -48,7 +48,7 @@ non e numerabile a differenza di quello delle funzioni computabili, dato che la 
 
 Di conseguenza **la gran parte delle funzioni definibili non e computabile**, tuttavia questo non risulta essere un problema dato che le funzioni che sono interessanti per una macchina che deve riconoscere un linguaggio sono quelle definite su un insieme finito di simboli, tuttavia neanche questo sottoinsieme e '*fortunato*'
 
-### PROBLEMA DELL’ HALT DELLA MACCHINA DI TURING
+### Problema dell’ halt della macchina di turing
 
 *Stabilire se una data macchina di Turing $T$, con un generico ingresso $X$, si ferma oppure no.*
 
@@ -58,19 +58,19 @@ Tale problema, perfettamente definibile e tuttavia non computabile
 
 Poiché un linguaggio è un insieme di frasi, ci interessa indagare in generale il problema della **generabilità vs. decidibilità di un insieme**. 
 
-### INSIEME NUMERABILE
+### Insieme numerabile
 
 Insieme per cui esiste una funzione $f:N\rightarrow I$ (*mappa l'insieme dei naturali in elementi dell'insieme*)
 
 Tuttavia non e sufficiente, la funzione deve essere [computabile](#FUNZIONE%20COMPUTABILE)
 
-### INSIEME RICORSIVAMENTE NUMERABILE (SEMI-DECIDIBILE)
+### Insieme ricorsivamente numerabile (semi-decidibile)
 
 Un insieme si dice ricorsivamente numerabile se $f: N\rightarrow I$ puo essere computata da una macchina di touring.
 
 In questo caso l'automa esecutore e in grado di rispondere affermativamente quando una determinata frase appartiene al linguaggio, ma **non e in grado di stabilire se una frase non vi appartiene** (*esempio dei numeri pari e dispari*)
 
-### INSIEME DECIDIBILE
+### Insieme decidibile
 
 Un insieme $S$ e' detto decidibile se sia $S$ che il complemento $N-S$ sono [semidecidibili](#INSIEME%20RICORSIVAMENTE%20NUMERABILE%20(SEMI-DECIDIBILE)).
 

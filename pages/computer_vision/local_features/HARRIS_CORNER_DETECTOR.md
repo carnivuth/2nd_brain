@@ -5,7 +5,7 @@ tags: []
 index: 32
 ---
 
-# HARRIS CORNER DETECTOR
+# Harris corner detector
 
 This detector relies on a continuous reformulation of the [Moravec](computer_vision/MORAVEC_CORNER_DETECTOR.md) neighbor differences.
 A generic infinitesimal shift from the point location can be described as

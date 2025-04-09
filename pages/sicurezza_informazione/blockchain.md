@@ -5,7 +5,7 @@ tags:
 index: 15
 ---
 
-# BLOCKCHAIN
+# Blockchain
 
 E una infrastruttura dati in modalità append only distribuita in una rete di nodi P2P decentralizzata.
 Composta da blocchi immutabili resi sicuri da algoritmi di encryption hashing e firma digitale

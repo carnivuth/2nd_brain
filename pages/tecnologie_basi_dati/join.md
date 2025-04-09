@@ -56,7 +56,7 @@ for Rpage in R:
 				# add to result
 ```
 
-## Sfruttando i buffer, Block nested loops join
+## Sfruttando i buffer, block nested loops join
 
 Gli algoritmi sopracitati non tengono in conto la dimensione del buffer, in caso di $B$ pagine di buffer si possono utilizzare $B-2$ pagine per la relazione esterna $1$ per la relazione interna e $1$ per l'output
 
@@ -80,8 +80,8 @@ K((H))
 end
 N[(relazione S)]
 A ~~~ central_memory ~~~ N
- F --> G & H & I & J ~~~ K 
- K --> G
+ F --> g & h & i & j ~~~ k 
+ K --> g
 ```
 
 ## Sfruttando gli indici: index nested loop join

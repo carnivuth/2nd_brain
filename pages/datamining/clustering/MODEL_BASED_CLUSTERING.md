@@ -5,11 +5,11 @@ tags: []
 index: 5
 ---
 
-# MODEL BASED CLUSTERING
+# Model based clustering
 
 The objective is to estimate the parameter of a statistical model
 
-## EXPECTATION MAXIMIZATION
+## Expectation maximization
 
 ```mermaid
 flowchart TD

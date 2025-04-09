@@ -5,7 +5,7 @@ tags: []
 index: 6
 ---
 
-# LENS DISTORTION
+# Lens distortion
 
 In real case scenarios there is the need to model the effect of lens distortion on the image
 

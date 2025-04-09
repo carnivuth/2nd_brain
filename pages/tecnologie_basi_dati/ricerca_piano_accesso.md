@@ -88,13 +88,13 @@ A --> B -- H --> C & D & E
 
 il numero di valori distinti viene quindi stimato come $NK(A) = Bln(B/Z)$
 
-## Superare l'ipotesi della distribuzione uniforme: Istogrammi
+## Superare l'ipotesi della distribuzione uniforme: istogrammi
 
 Fino ad ora si e dato per ipotesi che i dati di un dato attributo fossero distribuiti in maniera uniforme ma nella realtà questo e un caso molto raro, per superare questa limitazione si fa l'utilizzo di istogrammi
 
 ![](tecnologie_basi_dati/Pasted%20image%2020250215184151.png)
 
-### Istogrammi: Tipologie
+### Istogrammi: tipologie
 
 Ci sono diverse tipologie di istogrammi
 
@@ -133,7 +133,7 @@ La tecnica più utilizzata per ridurre lo spazio di ricerca e basata sul **princ
 
 Questo permette di ignorare tutti i percorsi figli di uno non ottimale
 
-### Algoritmo DP
+### Algoritmo dp
 
 L'algoritmo sfrutta il principio di ottimalita per escludere ad ogni passo i piani non ottimali:
 

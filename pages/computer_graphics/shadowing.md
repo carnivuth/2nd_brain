@@ -44,7 +44,7 @@ $$
 
 Nel caso in cui il piano non sia cartesiano e necessario proiettare i vertici del poligono sul piano arbitrario
 
-## Ombre nello [z-buffer](real_time_rendering.md#ALGORITMO%20Z-BUFFER): shadow-buffer
+## Ombre nello [z-buffer](real_time_rendering.md#algoritmo%20z-buffer): shadow-buffer
 
 Per implementare le ombre nello [z-buffer](real_time_rendering.md#ALGORITMO%20Z-BUFFER) si ricorre a un algoritmo detto **shadow-buffer**
 

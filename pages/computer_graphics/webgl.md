@@ -5,7 +5,7 @@ aliases:
 index: 13
 ---
 
-# WebGL
+# Webgl
 
 [WebGL](https://it.wikipedia.org/wiki/WebGL) e una libreria grafica basata su [openGL](https://www.opengl.org/) per l'implementazione della grafica 3D in un browser, la pipeline di rendering offerta da WebGL può essere riassunta come segue:
 

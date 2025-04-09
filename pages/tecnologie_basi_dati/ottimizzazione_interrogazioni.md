@@ -107,7 +107,7 @@ Una volta determinato il piano di accesso questo deve essere eseguito per ottene
 - **esecuzione in pipeline** ogni operatore fornisce un record all'operatore padre non appena disponibile
 >[!WARNING] non e sempre possibile, per esempio l' operatore [sort](tecnologie_basi_dati/sorting.md) necessita di visionare tutto l'input prima di fornire la prima tupla di output
 
-### Implementare l'esecuzione in pipeline: Interfaccia a iteratore
+### Implementare l'esecuzione in pipeline: interfaccia a iteratore
 
 Per implementare l'esecuzione in pipeline gli operatori fisici sono implementati come **iteratori**  con la seguente interfaccia
 

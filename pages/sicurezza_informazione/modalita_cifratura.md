@@ -9,7 +9,7 @@ index: 3
 
 Esistono diverse modalità per l'implementazione di cifrari a blocchi:
 
-## Electronic code book (ECB)
+## Electronic code book (ecb)
 
 Modalità standard di implementazione dei [cifrari a blocchi](cifrari_simmetrici.md#CIFRARI%20A%20BLOCCHI) questa si presenta a diverse vulnerabilità tra cui:
 
@@ -20,7 +20,7 @@ Modalità standard di implementazione dei [cifrari a blocchi](cifrari_simmetrici
 
 La modalità ECB risulta efficace solo nel caso in cui si ha un **messaggio breve** (*e.g. un blocco*) e **fortemente aleatorio** (*chiave*)
 
-## Cipher block chaining (CBC)
+## Cipher block chaining (cbc)
 
 Modalità di cifratura che prevede di combinare l'output della precedente cifratura con l'input del successivo blocco per mezzo dell'operazione di xor, questo permette di incrementare l' aleatorietà del cifrato.
 
@@ -69,7 +69,7 @@ end
 
 CBC fa utilizzo di un vettore di inizializzazione per impedire la ripetizione di blocchi cifrati, il vettore $IV$ deve essere usato una sola volta, deve essere casuale e imprevedibile (*proprietà di un [PRNG sicuro](Note%20Domande.md#PRNG%20crittograficamente%20sicuri)*)
 
-### ECB vs CBC
+### Ecb vs cbc
 
 | ECB                         | CBC                                                             |
 | --------------------------- | --------------------------------------------------------------- |
@@ -78,22 +78,22 @@ CBC fa utilizzo di un vettore di inizializzazione per impedire la ripetizione di
 | no propagazione dell'errore | propagazione dell'errore                                        |
 | no vettori di init $IV$     | necessario un vettore di init $IV$ noto a entrambe le parti     |
 
-## Cipher feedback (CFB)
+## Cipher feedback (cfb)
 
 Modalità di cifratura che si rifa ai [cifrari a flusso autosincronizzanti](cifrari_simmetrici.md#CIFRARI%20A%20FLUSSO) con l'utilizzo di un vettore $IV$  molto adatta alla comunicazione di flussi di dati.
 Il flusso di chiave viene ottenuto per mezzo di uno shift register (inizializzato per mezzo di $IV$) che viene cifrato con la chiave concordata
 
-## Output feedback (OFB)
+## Output feedback (ofb)
 
 Variante del [CFB](#CIPHER%20FEEDBACK%20(CFB))  in cui pero la retroazione non prevede il cifrato al passo precedente ma il flusso di chiave stesso, adatta alla trasmissione in canali rumorosi
 
-## Counter (CTR)
+## Counter (ctr)
 
 Simile a [ECB](#ELECTRONIC%20CODE%20BOOK%20(ECB)), introduce il concetto di aleatorietà per mezzo di un flusso di chiave incrementale generato da un contatore cifrato, inizializzato con un seme
 
 ## Attacchi a modalità di cifratura
 
-### Beast attack - browser exploit against SSL/TLS
+### Beast attack - browser exploit against ssl/tls
 
 Sfrutta l'uso scorretto del vettore di inizializzazione $IV$, nelle implementazioni di SSL/TLS in particolare, vettori prevedibili.
 

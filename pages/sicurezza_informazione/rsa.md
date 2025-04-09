@@ -5,7 +5,7 @@ tags: []
 index: 8
 ---
 
-# RIVEST–SHAMIR–ADLEMAN (RSA)
+# Rivest–shamir–adleman (rsa)
 
 cifrario asimmetrico che sfrutta il problema della [fattorizzazione di un numero primo](problemi_difficili.md#FATTORIZZAZIONE%20DI%20UN%20NUMERO%20PRIMO) in cui La chiave pubblica e formata da due numeri $n,e$ (*noti*) e la privata da $n,d$ (*privati*)
 
@@ -58,7 +58,7 @@ Per ricercare un numero primo per la generazione dei segreti previsti per RSA e 
 - **deterministico** più oneroso ma garantisce di trovare un numero primo
 - **probabilistico**  meno oneroso ma non c'e certezza di trovare un numero primo
 
-## Attacchi a RSA
+## Attacchi a rsa
 
 L'algoritmo RSA e vulnerabile a diverse tipologie di attacco:
 
@@ -67,7 +67,7 @@ L'algoritmo RSA e vulnerabile a diverse tipologie di attacco:
 - **Attacchi a tempo**: difficilissima da fare ma è stata dimostrata, esistono contromisure che possono essere adottate (es tecniche di padding)
 - **Attacchi a testo cifrato scelto**: posso evitare se utilizzo il padding oaet (probabilistico)
 
-## Firma con RSA
+## Firma con rsa
 
 RSA e un algoritmo di cifratura con recupero (*e.g. che necessita di frammentare il messaggio e firmare i singoli pezzi*), questo lo rende meno adatto a eseguire la firma di testi in quanto essa può essere trasportata da un file ad un altro se i blocchi sono identici.
 

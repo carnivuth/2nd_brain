@@ -5,7 +5,7 @@ tags: []
 index: 1
 ---
 
-# CLUSTERING
+# Clustering
 
 Clustering manage the problem of arrange data in a series of $k$ cluster such as the intra-cluster [similarity](SIMILARITY_AND_DISSIMILARITY.md#SIMILARITY) is maximized.
 
@@ -19,7 +19,7 @@ $$
 \forall x_{1},x_{2} \in X clust(x_{1}) \neq clust(x_{2})\space if \space x_{1}\space is \space not \space similar \space to \space x_{2}
 $$
 
-## CENTROID
+## Centroid
 
 A point which is the center of gravity of the cluster, for each cluster $k$ and dimension $d$, the $d$ coordinate of the centroid is
 

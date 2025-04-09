@@ -1,4 +1,4 @@
-# MOBILE SYSTEMS
+# Mobile systems
 
 ## Wireless connectivity
 
@@ -11,7 +11,7 @@
 - [IEEE 802.15.1: bluetooth](mobile_systems/wireless/BLUETOOTH.md)
 - [IEEE 802.15.4: zigbee](mobile_systems/wireless/ZIGBEE.md)
 
-## Mobile ad HOC Networks
+## Mobile ad hoc networks
 
 - [connect mobile devices on the fly: MANETS](mobile_systems/manets/MANETS.md)
 - [wifi solution for manets: wifi direct](mobile_systems/manets/WIFI_DIRECT.md)
@@ -31,7 +31,7 @@
 - [ekahau](mobile_systems/positioning_systems/EKAHAU.md)
 - [combining different positioning systems](mobile_systems/positioning_systems/MULTIPLE_POSITIONING_SYSTEMS_SOLUTIONS.md)
 
-## Mobility in IP networks
+## Mobility in ip networks
 
 - [why ip and mobility are not friends](mobile_systems/mobility/MOBILITY_IP_NETWORKS.md)
 - [host identity protocol](mobile_systems/mobility/HOST_IDENTITY_PROTOCOL.md)
@@ -40,7 +40,7 @@
 - [proxy hierarchical mobile ipv6](mobile_systems/mobility/PROXY_HIERARCHICAL_MOBILE_IPV6.md)
 - [i tcp](mobile_systems/mobility/I_TCP.md)
 
-## Mobile Middleware
+## Mobile middleware
 
 - [resolve challenges in mobile environments: mobile middleware](mobile_systems/mobile_middleware/MOBILE_MIDDLEWARE.md)
 - [mobile middleware principles](mobile_systems/mobile_middleware/MOBILE_MIDDLEWARE_PRINCIPLES.md)
@@ -59,7 +59,7 @@
 - [alarms](mobile_systems/android/ALARMS.md)
 - [sockets](mobile_systems/android/SOCKETS.md)
 
-## Internet of things IoT
+## Internet of things iot
 
 - [what is Iot](mobile_systems/IoT/IOT.md)
 - [an hold Iot solution: scada](mobile_systems/IoT/SCADA.md)
@@ -76,7 +76,7 @@
 - [rest](mobile_systems/IoT/REST.md)
 - [coap](mobile_systems/IoT/COAP.md)
 
-## Service discovery and Messagging systems
+## Service discovery and messagging systems
 
 - [what is service discovery](mobile_systems/discovery_messages_events/SERVICE_DISCOVERY.md)
 - [what is messaging](mobile_systems/discovery_messages_events/MESSAGING.md)

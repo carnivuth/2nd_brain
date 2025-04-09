@@ -44,7 +44,7 @@ La chiave di sessione viene generata dal mittente e inviata sul canale insicuro 
 
 Una sola master key condivisa non si presta bene a situazioni con alto numero di utenti dove il numero di chiavi da distribuire scala secondo $N^2$
 
-## Key distribution center (KDC)
+## Key distribution center (kdc)
 
 Soluzione che cerca di risolvere il problema di scalabilità della master key introducendo una terza entità il KEY DISTRIBUTION CENTER, i membri della rete concordano con il KDC una master key e quando un mittente vuole intraprendere una comunicazione chiede la master key del destinatario e fornisce al KDC la chiave di sessione.
 

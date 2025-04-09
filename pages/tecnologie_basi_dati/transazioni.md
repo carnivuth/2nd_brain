@@ -43,7 +43,7 @@ L'esecuzione concorrente delle transazioni può portare a 4 tipologie di inconsi
 - **Unrepeatable Read** intervallare letture a scritture
 - **Phantom Row** dati inseriti non appaiono in fase di lettura della query
 
-## Determinare l'ordine nelle transazioni: Schedule
+## Determinare l'ordine nelle transazioni: schedule
 
 Il DBMS può organizzare le operazioni di due transazioni in molteplici ordini, la struttura che mostra tale ordinamento si chiama **schedule**
 
@@ -78,7 +78,7 @@ il [transaction manager](struttura_database.md#Struttura%20fisica) concede la il
 >[!TIP] in breve non si puo accedere in scrittura se qualcuno sta usando la risorsa, mentre si puo accedere in lettura se tutti stanno leggendo
 
 >[!NOTE] i lock funzionano solo se le operazioni di **acquisizione e rilascio sono atomiche**
-## Gestire i lock: Strict 2-phase lock protocol
+## Gestire i lock: strict 2-phase lock protocol
 
 L'isolamento di una transazione e garantito se essa acquisisce tutti i lock necessari ad operare subito e li rilascia alla fine (*sia in caso di commit che di rollback*)
 
@@ -86,7 +86,7 @@ L'isolamento di una transazione e garantito se essa acquisisce tutti i lock nece
 
 Tuttavia questo può portare a situazioni di **deadlock** che possono essere risolte abortendo una transazione
 
-## Modellare i conflitti: Grafo di serializzabilita
+## Modellare i conflitti: grafo di serializzabilita
 
 Per poter comprendere se un insieme di transazioni genera un deadlock si introduce il grafo di serializzabilita, ogni transazione viene modellata come un nodo del grafo e un arco tra due transazioni $T_i$ e $T_j$ simboleggia un conflitto tra le azioni delle due transazioni. un **deadlock si presenta se il grafo non e aciclico**
 
@@ -99,7 +99,7 @@ A --> B --> A & C
 A --> C
 ```
 
-## Migliorando [S2PL](#Gestire%20i%20lock%20Strict%202-phase%20lock%20protocol): 2-phase lock protocol
+## Migliorando [s2pl](#gestire%20i%20lock%20strict%202-phase%20lock%20protocol): 2-phase lock protocol
 
 In questa variante una transazione non può richiedere altri lock nel momento in cui libera ne libera uno, ne consegue che la vita di una transazione si divide in due fasi:
 

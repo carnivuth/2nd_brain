@@ -5,7 +5,7 @@ tags: []
 index: 18
 ---
 
-# TAXONOMY
+# Taxonomy
 
 Positioning systems can be classified in different categories
 
@@ -18,7 +18,7 @@ Positioning systems can be classified in different categories
 | **CENTRALIZED**   | one nodes computes positions of the other nodes            |
 | **DECENTRALIZED** | each nodes compute is own position                         |
 
-## CHARACTERISTICS
+## Characteristics
 
 There are several characteristics to aim for a positioning system
 

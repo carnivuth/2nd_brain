@@ -5,13 +5,13 @@ tags: []
 index: 5
 ---
 
-# FEATURE SUBSET SELECTION
+# Feature subset selection
 
 the process of selecting a subset of attributes from the dataset, it could be used to
 - remove redundant attributes
 - remove irrelevant attributes
 
-## TYPES OF FEATURE SUBSET SELECTION
+## Types of feature subset selection
 
 - ### BRUTE FORCE
 

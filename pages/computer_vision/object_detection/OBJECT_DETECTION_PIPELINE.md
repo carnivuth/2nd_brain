@@ -5,7 +5,7 @@ tags:
 index: 45
 ---
 
-# OBJECT DETECTION PIPELINE
+# Object detection pipeline
 
 ```mermaid
 flowchart LR

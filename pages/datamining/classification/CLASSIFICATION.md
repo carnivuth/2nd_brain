@@ -5,11 +5,11 @@ tags: []
 index: 1
 ---
 
-# CLASSIFICATION
+# Classification
 
 a procedure which computes an unknown parameter for a given element
 
-## CLASSIFICATION MODEL
+## Classification model
 
 An algorithm which, given an individual for which the class is not known, computes the class. The algorithm make use of parameters for tuning
 
@@ -27,11 +27,11 @@ where $\theta$ is a **set of values for the parameters** of the decision functio
 
 ![](datamining/Pasted_image_20231227172912.png)
 
-## VAPNIK-CHERVONENKIS DIMENSION
+## Vapnik-chervonenkis dimension
 
 if a [classification model](#CLASSIFICATION_MODEL) is able to shatter all possible problems with N elements it's  Vapnik-Chervonenkis dimension is equal to $N$
 
-## CLASSIFICATION WORKFLOW
+## Classification workflow
 
 - use the training dataset for tuning parameters
 
@@ -40,7 +40,7 @@ if a [classification model](#CLASSIFICATION_MODEL) is able to shatter all possib
 ![](datamining/Pasted_image_20231227174100.png)
 
 
-## CLASSIFICATION TYPES
+## Classification types
 
 - ### CRISP
 

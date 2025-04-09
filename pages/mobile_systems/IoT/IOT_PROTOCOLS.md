@@ -5,11 +5,11 @@ tags: []
 index: 53
 ---
 
-# IoT PROTOCOLS
+# Iot protocols
 
 IoT communication protocol can be divided in 2 groups
 
-## WIRELESS COMMUNICATION PROTOCOLS
+## Wireless communication protocols
 
 layer 2 solutions that are used to communicate with the IoT nodes
 
@@ -17,7 +17,7 @@ layer 2 solutions that are used to communicate with the IoT nodes
 - [ZIGBEE](mobile_systems/ZIGBEE.md)
 -
 
-## DATA EXCHANGE PROTOCOLS
+## Data exchange protocols
 
 protocols for data exchange that can be used at all the levels of the architecture
 

@@ -5,7 +5,7 @@ tags: []
 index: 7
 ---
 
-# STEREO IMAGE ACQUISITION
+# Stereo image acquisition
 
 In order to address the loss of depth information, given 2 images of a 3D scene and correspondence in points the depth of a point can be recovered using triangulation.
 
@@ -51,7 +51,7 @@ $$
 d = b*\frac{f}{z} \Rightarrow z = b*\frac{f}{d}
 $$
 
-## THE PROBLEM OF FINDING CORRESPONDENCES
+## The problem of finding correspondences
 
 In order to apply this model the **correspondences between the points of the 2 images need to be computed**, this is not an easy task nether computationally or conceptually, also the models **relays on the 2 images being horizontally aligned**, and to obtained this some computation is needed.
 

@@ -5,7 +5,7 @@ tags: []
 index: 20
 ---
 
-# NON-LOCAL MEAN FILTER
+# Non-local mean filter
 
 Non linear filter which exploits similarities between different patches of the image
 

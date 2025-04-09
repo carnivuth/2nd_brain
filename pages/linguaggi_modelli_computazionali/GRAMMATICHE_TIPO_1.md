@@ -4,7 +4,7 @@ aliases: []
 tags: []
 index: 5
 ---
-# GRAMMATICHE DI TIPO 1
+# Grammatiche di tipo 1
 
 grammatiche in cui le produzioni non ammettono la *accorciatura* della frase (*nessuna produzione ammette mai la stringa vuota*):
 

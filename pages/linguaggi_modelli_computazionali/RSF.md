@@ -5,7 +5,7 @@ aliases:
 tags: []
 index: 10
 ---
-# AUTOMA A STATI FINITI
+# Automa a stati finiti
 
 Per riconoscere linguaggio di livello 3 e necessario un **automa a stati finiti**, questo può essere definito come
 
@@ -36,14 +36,14 @@ A --b--> F
 A --a--> A
 ```
 
-### LINGUAGGI E RICONOSCITORI
+### Linguaggi e riconoscitori
 
 Un linguaggio di di tipo 3 e **non vuoto**  se il riconoscitore accetta una stringa x di lunghezza $L_x$ minore del numero di stati $N$
 
 Un linguaggio di di tipo 3 e **infinito** se il riconoscitore accetta una stringa x di lunghezza $N \lt L_x \lt 2N$ dove $N$ e il numero di stati del automa
 
 
-## DA RICONOSCITORI A GENERATORI
+## Da riconoscitori a generatori
 
 La differenza fra riconoscitori di un linguaggio a generatori dello stesso e dipende da un cambio di prospettiva nella loro descrizione, riprendendo l'esempio di cui sopra:
 

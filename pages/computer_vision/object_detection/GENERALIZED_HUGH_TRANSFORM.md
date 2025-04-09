@@ -5,7 +5,7 @@ tags: ["ght process","sift descriptor","object detection"]
 index: 44
 ---
 
-# Generalized Hough transform
+# Generalized hough transform
 
 The Generalized Hough transform (**GHT**) is a generalization aimed to apply **[HT](computer_vision/HOUGH_TRANSFORM.md)** to non analytical shapes.
 
@@ -36,11 +36,11 @@ end
 
 ![](computer_vision/Pasted_image_20240427172424.png)
 
-## GHT with local invariant features
+## Ght with local invariant features
 
 The most popular computer vision pipeline relies on combining GHT with local invariant features such as the [SIFT DESCRIPTOR](computer_vision/SIFT_DESCRIPTOR.md). In this pipeline Local invariant features are used instead of edges.
 
-### GHT: offline phase
+### Ght: offline phase
 
 Detect keypoints (e.g. [DOG](DOG_DETECTOR.md)) and compute descriptors (e.g. [SIFT](computer_vision/SIFT_DESCRIPTOR.md)) in the model image:
 
@@ -68,7 +68,7 @@ $$
 F_i = (P_i,D_i,\phi_i,S_i,V_i)
 $$
 
-### GHT: online phase
+### Ght: online phase
 
 Detect [keypoints](FINDING_CORRESPONDENCES.md#KEYPOINTS) on the target image and compute descriptors :
 

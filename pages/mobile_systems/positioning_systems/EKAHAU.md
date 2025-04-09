@@ -5,7 +5,7 @@ tags: []
 index: 24
 ---
 
-# EKAHAU
+# Ekahau
 
 Positioning system that exploits a stochastic model of the environment to compute position avoiding the signal measurement error, the approach is based on [scene analysis](BASE_TECHNIQUES.md#SCENE%20ANALYSIS) approach
 

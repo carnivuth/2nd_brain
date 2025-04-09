@@ -5,7 +5,7 @@ tags: []
 index: 25
 ---
 
-# MULTI POSITIONING SYSTEM SOLUTION
+# Multi positioning system solution
 
 In modern devices multiple positioning system are available so there is the need to combine in some way information coming from the different positioning solutions
 
@@ -22,7 +22,7 @@ where:
 
 ![](mobile_systems/Pasted%20image%2020240609161400.png)
 
-## JAVA WORLD SOLUTION
+## Java world solution
 
 Java as determined a standard for positioning systems called PoSIM, under the UNIBO implementation architechture
 

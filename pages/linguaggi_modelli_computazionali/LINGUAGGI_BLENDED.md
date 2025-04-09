@@ -1,11 +1,11 @@
 ---
 index: 18
 ---
-# LINGUAGGI BLENDED
+# Linguaggi blended
 
 Sono linguaggi frutto di un mix intelligente fra i vecchi paradigmi e gli approcci dei linguaggi funzionali senza forzare la mano verso questi ultimi l'asciando allo sviluppatore la possibilita di scegliere come approcciare il problema, due degli esempi principali sono [scala](https://www.scala-lang.org/) e [kotlin](https://kotlinlang.org/)
 
-## CARATTERISTICHE
+## Caratteristiche
 
 Sia scala che kotlin sono pensati per poter interoperare con java (*compilano in bytecode eseguibile dalla JVM ma non solo*) inoltre alcune delle caratteristiche ereditate dal modello funzionale sono:
 
@@ -29,7 +29,7 @@ println(a sumVec b);
 
 > [!NOTE] Invece in kotlin e possibile ridefinire gli operatori esistenti ma non crearne di nuovi
 
-## TIPI
+## Tipi
 
 Sia in scala che in kotlin vengono rimossi i tipi primitivi, la gerarchia di tipi ha come radice un nodo comune che si specializza in nodi specifici per gli '*oggetti valore*' e gli '*oggetti riferimento*', inoltre le gerarchie di tipi sono chiuse dal basso con un apposita classe (*scala: `notin/null`,kotlin:`nothing`*)
 
@@ -81,7 +81,7 @@ print(y)
 ```
 >[!SUCCESS] l'oggetto fa parte della gerarchia nullable
 
-## FUNZIONI
+## Funzioni
 
 Le funzioni sono introdotte da una parola chiave prefissa (*scala:`def`,kotlin:`func`*) possono essere definite anche a top level (*senza classi wrapper*)   Inoltre la specifica di tipo e postfissa a differenza di java per facilitare l'uso del **motore di type inference** (*molto avanzato*) come gia specificato le funzioni sono [first class entities](PROCESSI_COMPUTAZIONALI.md#FUNZIONI%20COME%20FIRST%20CLASS%20ENTITIES)
 
@@ -89,25 +89,25 @@ Inoltre entrambi i linguaggi attuano [ottimizzazione della tail recursion](PROCE
 
 >[!NOTE] in scala e abilitata di default disattivabile con un opzione mentre in kotlin e disabilitata di default attivabile con la keyword `tailrec`
 
-## CLASSI
+## Classi
 
 Definite con la keyword class, prevedono un costruttore primario definito in linea  con la classe (*si evita boilerplate code `this.name=name`*), inoltre in scala i membri di una classe sono public per default (*a differenza di java dove hanno visibilità package*) 
 
-### CLASSI DATI
+### Classi dati
 
 Particolari classi adatte a catturare oggetti con soli dati per queste vengono generati automaticamente i metodi standard di supporto (`toString`,`equals`,`hashcode`) inoltre possono essere utilizzate per **effettuare pattern matching avanzato** (*scala keyword `case class` kotlin keyword: `data class`*)
 
-## OGGETTI E PATTERN SINGLETON
+## Oggetti e pattern singleton
 
 Possono essere definiti oggetti senza specificarne una classe, questo consente il **pieno supporto al pattern singleton** che vengono anche utilizzati per rimpiazzare i metodi statici di una classe per mezzo di un omonimo oggetto, il **companion object**
 
-## EVOLUZIONE DELLE INTERFACCE
+## Evoluzione delle interfacce
 
 Le interfacce vengono estese dal concetto java, infatti possono contenere anche codice e evitano il dilagare di adapters per '*aggiustare*' un interfaccia troppo ricca
 
 Inoltre scala consente un'evoluzione del concetto di ereditarietà per superare il problema dell'ereditarietà multipla
 
-## PACKAGE
+## Package
 
 I package possono essere innestati
 
@@ -121,7 +121,7 @@ package ed {
 
 L'operatore `import` può importare oggetti,classi,interfacce e altri package, inoltre e **ricorsivo sui sottopackage**
 
-## EXTENSION METHODS
+## Extension methods
 
 Vi e la possibilità di estendere la definizione di una classe in un altro punto aggiungendo metodi e proprietà 
 
@@ -134,7 +134,7 @@ extension (i: Int)
 fun Int.toFraction() = Fraction(this)
 ```
 
-### DA GRANDE POTERE....
+### Da grande potere....
 
 Questo rende si le classi ridefinibili dinamicamente ma riduce la leggibilità del software (*metodi definiti chissà dove, debugging più complesso*)
 

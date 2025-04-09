@@ -1,9 +1,9 @@
-# INNOVAZIONE  RADICALE (Anderson & Thushmann)
+# Innovazione  radicale (anderson & thushmann)
 
 Innovazione che stravolge la vita degli acquirenti (*avvento del telefonino*) 
 
 queste innovazioni rappresentano una novità assoluta e comportano anche un certo rischio di impresa
-# INNOVAZIONE INCREMENTALE
+# Innovazione incrementale
 
 Innovazione che migliora una soluzione già esistente, non molto impattante sulla vita degli acquirenti (*passaggio da iphone 12 a 13*)
 

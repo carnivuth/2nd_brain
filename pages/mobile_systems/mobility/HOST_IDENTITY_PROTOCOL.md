@@ -5,7 +5,7 @@ tags: []
 index: 27
 ---
 
-# HOST IDENTITY PROTOCOL
+# Host identity protocol
 
 Complete revision of the ip protocol in order to separate location and identity of a node, the protocol integrates cryptographic Host Identifiers in the ip stack, ipv4,ipv6 interoperability
 

@@ -5,7 +5,7 @@ aliases:
 index: 15
 ---
 
-# ThreeJS
+# Threejs
 
 [ThreeJS](https://threejs.org/) e un wrapper di [webgl](computer_graphics/webgl.md) per l'implementazione di applicazioni grafiche 3D che sfruttano lo stack web, si basa sul concetto di grafo di rendering
 

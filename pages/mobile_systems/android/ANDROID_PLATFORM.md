@@ -5,7 +5,7 @@ tags: []
 index: 38
 ---
 
-# ANDROID PLATFORM
+# Android platform
 
 Android is a complex platform that offers developers with a mobile middleware that handles common mobile problems, it's composed by 4 layers,
 
@@ -16,7 +16,7 @@ Android is a complex platform that offers developers with a mobile middleware th
 
 In the android platform applications must follow the threading model offered by the platform and must be written in JAVA android compatible
 
-## ANDROID IS LINUX? YES TO SOME EXTENT
+## Android is linux? yes to some extent
 
 The kernel part is based on the linux kernel with some additions and some things that got removed
 
@@ -34,21 +34,21 @@ Feature removed from the linux system are
 
 so for this **android is not a fully compatible linux extension**
 
-## POWER MANAGEMENT WITH WAKELOCKS
+## Power management with wakelocks
 
 applications can through the wakelocks java API can influence the behavior of the kernel power management ( *this is an example of [cross layering pattern](MOBILE_MIDDLEWARE_PRINCIPLES.md#CROSS%20LAYERING%20PRINCIPLE)* )
 
-## NOT ALL THE SYSTEM IS JAVA BASED
+## Not all the system is java based
 
 Some performance critical components are implemented in C/C++ to improve performance for example the multimedia stack
 
 ![](mobile_systems/Pasted%20image%2020240507125214.png)
 
-## DALVIK VIRTUAL MACHINE
+## Dalvik virtual machine
 
 Implemented in a registry-based model (in order to exploit the ARM architecture of smartphones ), it also run different bytecode of the JAVA standard in order to improve performance (*called .dex also instructions are reduced by 30%* )
 
-## ANDROID SDK MAIN COMPONENT
+## Android sdk main component
 
 Android offers to developers some main concept to interact with the android runtime
 

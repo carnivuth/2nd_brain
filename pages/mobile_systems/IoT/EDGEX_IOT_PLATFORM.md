@@ -5,7 +5,7 @@ tags: []
 index: 51
 ---
 
-# EDGEX FOUNDRY
+# Edgex foundry
 
 Infrastructure to manage communication with different IoT devices that abstracts from the protocol details and offers a northbound API for application and CLOUD infrastructure
 

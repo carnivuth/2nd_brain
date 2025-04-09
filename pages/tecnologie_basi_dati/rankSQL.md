@@ -5,7 +5,7 @@ aliases:
 index: 24
 ---
 
-# Introdurre il Concetto di rank nei DBMS
+# Introdurre il concetto di rank nei dbms
 
 Una delle sfide nelle query [top k](tecnologie_basi_dati/top_k_queries.md) e quello  di introdurre nei DBMS il concetto di ranking, come first class citizen, un primo approccio al problema e stato fornito dal progetto RankDB definendo i seguenti concetti:
 

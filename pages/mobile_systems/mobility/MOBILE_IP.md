@@ -5,7 +5,7 @@ tags: []
 index: 28
 ---
 
-# MOBILE IP
+# Mobile ip
 
 IP based protocol to handle mobility of the connections, one of the goals of mobile IP is to not modify the IP stack but works on top of that trying to be more transparent
 
@@ -18,7 +18,7 @@ the mobile IP relies on 3 entities
 The communication between the HA and FA is done trough IP in IP tunneling
 
 In order to keep track of visitor nodes on his network the FA maintains a visitor table, The home agent maintains a table with the last **CoA** given from the mobile
-## TRIANGULAR ROUTING
+## Triangular routing
 
 This solution falls on the problem of triangular routing
 
@@ -32,14 +32,14 @@ D --> A --> B --> C
 C --> B --> D
 ```
 
-## CARE OF ADDRESS (CoA)
+## Care of address (coa)
 
 There are 2 types of CoA:
 
 - **Foreign agent CoA**  same ip address of the FA, it exploits level 2 routing to route packets through the correct MH
 - **co-located CoA** CoA is assigned to the mobile node direclty (*e.g. through DHCP*) and can be used for traffic forwarding
 
-## IN THE CASE OF FIREWALLS
+## In the case of firewalls
 
 Mobile IP suffers when in/out filters are present in the network such as perimeter firewalls cause:
 

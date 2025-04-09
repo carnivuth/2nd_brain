@@ -5,11 +5,11 @@ tags: []
 index: 12
 ---
 
-# GRAMMATICHE $LL(k)$
+# Grammatiche $ll(k)$
 
 Le grammatiche $LL(k)$ sono grammatiche che risultano deterministiche al patto di poter *"sbirciare"* $k$ simboli di input, caso eccellente quello in cui $k=1$
 
-## STARTER SYMBOLS SET
+## Starter symbols set
 
 Lo starter symbols set di una riscrittura $\alpha$ e l'insieme:
 
@@ -19,11 +19,11 @@ $$
 
 ovvero l'insieme di simboli terminali iniziali delle produzioni che coinvolgono il metasimbolo $\alpha$ sulla sinistra
 
-## COME OTTENERE UNA GRAMMATICA $LL(1)$
+## Come ottenere una grammatica $ll(1)$
 
 Condizione **necessaria** (sufficiente per le grammatiche senza $\epsilon -rules$) per far si che una grammatica sia $LL(1)$ e che gli **starter symbols** (*ovvero gli elementi iniziali della parte destra di una produzione*) **di un metasimbolo siano tutti diversi fra loro**
 
-## IL PROBLEMA DELLE $\epsilon$
+## Il problema delle $\epsilon$
 
 Le grammatiche che presentano produzioni in grado di annullare un metasimbolo non sono considerate dalla definizione di [starter symbols set](#STARTER%20SYMBOLS%20SET), dato che in caso di produzione vuota e necessario considerare il metasimbolo successivo per verificare il determinismo della produzione
 
@@ -39,7 +39,7 @@ $$
 
 in questa grammatica lo [starter symbols set](#STARTER%20SYMBOLS%20SET) di $S$ e dipendente anche dal metasimbolo $B$ perché e necessario considerare che il metasimbolo $A$ può essere eliminato
 
-## DIRECTOR SYMBOLS SET
+## Director symbols set
 
 Per ovviare a questo problema si estende la nozione di [starter symbols set](#STARTER%20SYMBOLS%20SET), dato l'insieme $SS(\alpha)$ e l'insieme $FOLLOW(A)$ definito:
 
@@ -56,11 +56,11 @@ $$
 
 ovvero la troncatura a un carattere della concatenazione dei due insiemi.
 
-## COME OTTENERE UNA GRAMMATICA $LL(1)$
+## Come ottenere una grammatica $ll(1)$
 
 Condizione necessaria e sufficiente per ottenere una grammatica $LL(1)$ e che il [director symbols set](#DIRECTOR%20SYMBOLS%20SET) relativi alle produzioni siano disgiunti
 
-## GRAMMATICHE $LL(1)$ IL PROBLEMA DELLA [IL PROBLEMA DELLA RICORSIONE SINISTRA](GRAMMATICHE_TIPO_2.md#IL%20PROBLEMA%20DELLA%20RICORSIONE%20SINISTRA)
+## Grammatiche $ll(1)$ il problema della [il problema della ricorsione sinistra](grammatiche_tipo_2.md#il%20problema%20della%20ricorsione%20sinistra)
 
 Le grammatiche $LL(k)$ non sono compatibili con la ricorsione a sinistra delle produzioni $A \rightarrow A\alpha | a$, che tuttavia [può essere sempre rimossa](GRAMMATICHE_TIPO_2.md#ELIMINAZIONE%20DELLA%20RICORSIONE%20SINISTRA) a patto di poter fare a meno della sua capacita espressiva (*no necessita di dare una semantica alla frase*)
 

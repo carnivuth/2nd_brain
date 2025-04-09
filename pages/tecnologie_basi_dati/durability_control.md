@@ -5,7 +5,7 @@ aliases:
 index: 9
 ---
 
-# Garantire la Durabilità di una transazione
+# Garantire la durabilità di una transazione
 
 Per poter garantire le proprietà di [atomicità e durabilità](transazioni.md#transazioni) di una transazione e necessario garantire che gli effetti di una transazione sopravvivano a un crash del sistema:
 
@@ -69,7 +69,7 @@ Nel momento in cui le modifiche registrate in un record di update vengono elimin
 | ------------------------- | ----------------------------------------------------- | -------------------- | ----------------------------------------- | --------------------------- | ---------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | id univoco del record<br> | indice del' record di log precedente che riguarda $T$ | id della transazione | tipo del record (*in questo caso update*) | PID della pagina modificata | immagine di P prima della modifica | id del prossimo record da annullare, per esempio se si annulla il record $U$ allora $undoNextLSN = prevLSN(U)$ |
 
-## Quando scrivere nel log: protocollo WAL
+## Quando scrivere nel log: protocollo wal
 
 Per far si che il log risulti efficace il DBMS per ogni operazione deve scrivere sul log **PRIMA** di salvare le modifiche di una pagina sul disco (*write-ahead logging*)
 
@@ -106,13 +106,13 @@ D -- no --> F
 end
 ```
 
-### Record di Checkpoint
+### Record di checkpoint
 
 Per ottimizzare la procedura di [restore](#Log%20e%20gestione%20dei%20fallimenti%20di%20sistema) da un fallimento di sistema si introduce nel log un record di checkpoint periodicamente, dove vengono inserite la **tabella delle dirty pages** e la **tabella delle transazioni**
 
 >[!TIP] in questo modo set $T$ e stata committata prima del record di checkpoint non deve essere rifatta
 
-## Algoritmo ARIES e gestione della recovery
+## Algoritmo aries e gestione della recovery
 
 L'algoritmo di ARIES consente l'utilizzo di politiche di [steal](#Politiche%20di%20gestione%20del%20buffer) e [no force](#Commit%20di%20una%20transazione), si divide in 3 fasi principali
 

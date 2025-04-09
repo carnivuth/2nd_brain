@@ -5,11 +5,11 @@ tags: []
 index: 60
 ---
 
-# MESSAGE MANAGEMENT IN MOBILE ENVIRONMENTS
+# Message management in mobile environments
 
 One of the main principles of messages solution in mobile environment is decoupling resources involved in communication, this can be achieved by the use of standard and open formats
 
-## MESSAGE EXTENSIBILITY
+## Message extensibility
 
 One important key factor is also the possibility to extend the messaging system for improved semantics, different systems can be used to achieve this
 
@@ -17,14 +17,14 @@ One important key factor is also the possibility to extend the messaging system 
 - messaging formats with extension points
 - forward compatibility with the possibility to ignore unknown parts of the protocol
 
-## MARSHALLING/UNMARSHALLING MANAGEMENT
+## Marshalling/unmarshalling management
 
 A messaging solution needs to take into account the marshal/unmarshal operations, possibile solutions are:
 
 - marshal/unmarshal code can be generated from the message format specifications (*e.g. Interface Description Language (IDL)*)
 - use of introspection that is more expressive but more expensive at runtime
 
-## DATA FORMATS
+## Data formats
 
 Different techniques available for data format agreement:
 
@@ -32,7 +32,7 @@ Different techniques available for data format agreement:
 - **Negotiation** the two parts negotiate the data format at runtime
 - **Receiver-makes-right** sender uses its native formats and specifies metadata to indicate which formats are used
 
-## PROTOCOL ASPECTS
+## Protocol aspects
 
 There are also protocol characteristics that need to be take into account
 
@@ -40,21 +40,21 @@ There are also protocol characteristics that need to be take into account
 - end to end principle or not at the application level
 - store and forward approach
 
-## COMMUNICATION SCHEMES
+## Communication schemes
 
 Also the semantics with witch the communication is handled by the application component is important:
 
 - **blocking vs non blocking semantics**  implemented with promises or callbacks
 - **different level behavior**  the application can perform the role of the listener at the transport layer and not necessary the same role at the application layer
 
-## LOCATORS
+## Locators
 
 Also locators plays a role given the fact that nodes are mobile is not always possible to use locators as IP/TCP addresses, two principle type of locator are defined:
 
 - **transparent** locators implemented as URI ( *e.g. as in [REST](mobile_systems/REST.md)* )
 - **opaque** need of a middleware to generate and use locators
 
-## GENERAL CONSIDERATIONS
+## General considerations
 
 other general considerations can be made:
 
@@ -63,7 +63,7 @@ other general considerations can be made:
 - **durability** in the message exchange phase even if the node is mobile
 - **NAT problems** when nodes that wants to offer services are mobile
 
-## RELIABILITY AND QoS
+## Reliability and qos
 
 also QoS politics need to be taken into account, possible solution can be ACK based
 

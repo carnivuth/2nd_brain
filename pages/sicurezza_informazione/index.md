@@ -4,7 +4,7 @@ Appunti personali sul corso di sicurezza dell'informazione della professoressa M
 
 pubblico questo contenuto con la speranza possa essere di aiuto, non esitate a aprire una issue sulla repository se volete contribuire ho trovate imprecisioni.
 
-## Fondamenti Crittografici
+## Fondamenti crittografici
 
 - [trasformazioni](sicurezza_informazione/trasformazioni.md)
 - [cifrari_simmetrici](sicurezza_informazione/cifrari_simmetrici.md)

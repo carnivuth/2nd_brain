@@ -4,7 +4,7 @@ aliases: []
 tags: []
 index: 11
 ---
-# IPSEC
+# Ipsec
 
 È un servizio di sicurezza a livello di rete che nasce per risolvere alcuni problemi che altrimenti non possono essere risolti:
 
@@ -24,7 +24,7 @@ I protocolli utilizzati sono i seguenti
 
 IPSEC non è solo un insieme di protocolli,  ma prevede una serie di elementi architetturali tra cui
 
-### Security associations (SA)
+### Security associations (sa)
 
 Struttura dati che stabilisce quali sono i parametri di sicurezza che i due interlocutori devono utilizzare per la comunicazione seguente, composto da diversi elementi:
 
@@ -32,7 +32,7 @@ Struttura dati che stabilisce quali sono i parametri di sicurezza che i due inte
 - **Ip destination Address**
 - **Security Protocol Identifier**: Tipo di protocollo applicato
 
-### Security policy database (SPD)
+### Security policy database (spd)
 
 Database in cui vengono mantenute le security policy, queste vengono applicate alla comunicazione in base a differenti parametri della connessione stessa (*destination address, source address*)
 

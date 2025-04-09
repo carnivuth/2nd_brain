@@ -5,7 +5,7 @@ tags: []
 index: 17
 ---
 
-# GAUSSIAN FILTER
+# Gaussian filter
 
 Gaussian filter is an [LTE operator](computer_vision/LTE_OPERATORS.md) with a 2D Gaussian function as a impulse response (with $\mu = 0$ and a constant diagonal covariance matrix)
 
@@ -17,7 +17,7 @@ $$
 
 The effect of increasing $\sigma$ can be seen as reducing the importance of the closest points and increasing the importance of farther points smoothing the image
 
-## CHOOSING KERNEL SIZE
+## Choosing kernel size
 
 In a real implementation the Gaussian function need to be approximated by a discrete representation by sampling the function in a kernel matrix, so the matrix size need to be set
 
@@ -32,7 +32,7 @@ $$
 
 as $3\sigma$ covers the 99% of the area of the function (energy)
 
-## EXPLOITING SEPARABILITY TO IMPROVE PERFORMANCE
+## Exploiting separability to improve performance
 
 To improve the computational complexity, the separability of the 2D Gaussian function can be used as $G(x,y) = G(x)G(y)$
 

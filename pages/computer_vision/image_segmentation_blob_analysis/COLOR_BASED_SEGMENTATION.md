@@ -5,7 +5,7 @@ tags: []
 index: 23
 ---
 
-# COLOR BASED SEGMENTATION
+# Color based segmentation
 
 Given a pixel $p$, and the color intensity is defined as $I(p) = \begin{bmatrix}I_r(p)\\ I_g(p)\\ I_b(p)\\ \end{bmatrix}$ the segmentation can be done by calculating the distance from each color vector from a reference background color $\mu$
 
@@ -30,7 +30,7 @@ and then the segmentation become a classification task where the foreground pixe
 
 ![](computer_vision/Pasted_image_20240303160809.png)
 
-## MAHALANOBIS DISTANCE
+## Mahalanobis distance
 
 A more precise way of making color based segmentation is to consider the covariance also with means, the covariance matrix is obtained in the training phase as follows
 

@@ -1,4 +1,4 @@
-# TECHNOLOGY READINESS LEVELS
+# Technology readiness levels
 
 Scala di misurazione del livello di maturità di una tecnologia, inventata dalla NASA negli anni 90
 

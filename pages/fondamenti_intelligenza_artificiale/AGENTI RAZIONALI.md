@@ -1,10 +1,10 @@
-# AGENTI RAZIONALI
+# Agenti razionali
 
 agenti in grado di interagire con un ambiente
 
 ![image.png](../assets/image_1678352853974_0.png)
 
-## ENGINE DI UN AGENTE RAZIONALE
+## Engine di un agente razionale
 
  il workflow di un agente razionale si puo riassumere come segue:
 

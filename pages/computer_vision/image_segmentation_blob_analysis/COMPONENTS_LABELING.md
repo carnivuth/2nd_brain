@@ -5,11 +5,11 @@ tags: []
 index: 25
 ---
 
-# COMPONENTS LABELING
+# Components labeling
 
 In this process elements that belongs to different connected component are given different labels
 
-## CONNECTIVITY AND CONNECTED COMPONENTS
+## Connectivity and connected components
 
 given a connectivity neighborhood defined as follows
 
@@ -35,7 +35,7 @@ A connected region is a connected (foreground/background) region if all pixels i
 
 **A connected component of a binary image is a maximal connected foreground region**
 
-## LABELING BY FLOOD-FILL
+## Labeling by flood-fill
 
 A new label is propagated throughout a connected component starting from a “seed” pixel. Propagation is typically carried out by a iterative procedure which requires scanning the image multiple times.this solution is not efficient
 

@@ -5,11 +5,11 @@ tags: []
 index: 6
 ---
 
-# REGRESSION
+# Regression
 
 It's a supervised task used on numeric variables with the objective of **minimize the error of the prediction**  using the other variables for the prediction
 
-## LINEAR REGRESSION
+## Linear regression
 
 given a data set $X$ with $N$ rows and $D$ columns:
 
@@ -30,7 +30,7 @@ $$
 
 ![](datamining/Pasted_image_20240102171514.png)
 
-## QUALITY INDICATORS
+## Quality indicators
 
 - Mean of the observed data
 
@@ -62,7 +62,7 @@ if the model does not follow the trend of the data the $R^2$ value can be also n
 
 when the number of feature is high overfitting is possible
 
-## POLYNOMIAL REGRESSION
+## Polynomial regression
 
 the target is influenced by a single feature and the relationship can't be describe by a straight line
 

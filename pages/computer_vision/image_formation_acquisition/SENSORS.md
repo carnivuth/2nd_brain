@@ -5,7 +5,7 @@ tags: []
 index: 4
 ---
 
-# SENSORS
+# Sensors
 
 there are 2 main technologies for camera sensors, **CCD** and **CMOS**
 

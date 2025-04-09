@@ -1,9 +1,9 @@
-# LABEL ENCODING
+# Label encoding
 
 Transforming in a numerical quantity the features that represent categories.
 
 there are 2 types of encoders
-## ENCODERS APPLIED TO PREDICTORS
+## Encoders applied to predictors
 
 - ### ONE HOT ENCODER  
   		   
@@ -38,7 +38,7 @@ oe.fit(X) # fit the data
 oe.categories_ # show categories founded
 oe.transform(X) # apply the transformation
 ```
-## ENCODERS APPLIED TO TARGET
+## Encoders applied to target
 
 The most famous is **LabelEncoder**.
 It's similar to OrdinalEncoding, but it's applied to the targed instead of the predictor.

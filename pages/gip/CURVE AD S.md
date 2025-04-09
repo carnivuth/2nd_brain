@@ -1,30 +1,30 @@
-# CURVE AD S
+# Curve ad s
 
 Modello per rappresentare la crescita e la diffusione di un innovazione all'interno del mercato
 
-## SVILUPPO DELL'INNOVAZIONE
+## Sviluppo dell'innovazione
 
 lo sviluppo dell'innovazione può essere suddiviso in 4 fasi 
 
 ![](gip/Pasted%20image%2020231214174652.png)
 
-### FASE DI FERMENTO
+### Fase di fermento
 
 In questa fase l'innovazione è ai primi passi e lo sviluppo è lento anche per una scarsa comprensione della tecnologia
 
-### FASE DI SVILUPPO
+### Fase di sviluppo
 
 In questa fase lo sviluppo accelera e raggiunge il suo picco e aumenta la conoscenza della tecnologia
 
-### FASE DI MATURITÀ
+### Fase di maturità
 
 In questa fase l'innovazione raggiunge il suo limite fisico e la performance raggiunge il limite
 
-### FASE DI DISTRUZIONE
+### Fase di distruzione
 
 in questa fase l'impresa deve saltare su una nuova curva ad S rappresentante un'altra innovazione, le **performance della nuova curva sono sempre inferiori di quella precedente**, questo rende per le imprese incumbent più complesso effettuare il passo da un'innovazione all'altra in quanto i guadagni sono ignoti ma si e certi di una riduzione iniziale di quelli attuali
 
-## STAGNAZIONE DELL'INNOVAZIONE
+## Stagnazione dell'innovazione
 
 Il rapporto tra performance e impegno non è lineare, questo risulta in una stagnazione delle performance in caso non si sia più in grado di saltare a una curva a s successiva
 
@@ -39,7 +39,7 @@ Le curve ad S hanno molte limitazioni, tra cui:
 
 - Le imprese che seguono il modello della curva fino in fondo rischiano di passare alla nuova tecnologia troppo presto o troppo tardi
 
-### STRATEGIE PER AZIENDE INCUMBENT
+### Strategie per aziende incumbent
 
 Per sopravvivere a innovazioni disruptive le aziende devono adottare delle strategie:
 

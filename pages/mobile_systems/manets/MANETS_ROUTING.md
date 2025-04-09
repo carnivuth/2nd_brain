@@ -5,7 +5,7 @@ tags: []
 index: 11
 ---
 
-# MANET ROUTING
+# Manet routing
 
 Manet routing is a big challenge cause there are no fixed assumptions that can be made on the network characteristics so a lot of routing protocols where been proposed.
 
@@ -13,7 +13,7 @@ Manet routing is a big challenge cause there are no fixed assumptions that can b
 - Ad hoc On-demand Distance Vector routing (**AODV**)
 - Greedy Perimeter Stateless Routing (**GPSR**)
 
-### MANET PROTOCOLS CLASSIFICATION
+### Manet protocols classification
 
 | **NAME**       | DESCRIPTION                                                                                          |
 | -------------- | ---------------------------------------------------------------------------------------------------- |
@@ -24,7 +24,7 @@ Manet routing is a big challenge cause there are no fixed assumptions that can b
 
 Manet routing protocols are **REACTIVE** because the nature of the MANET create
 
-## FLOODING (level 0 solution)
+## Flooding (level 0 solution)
 
 Simple method of routing with a lot of stupid assumption that allow to extrapolates the problems in man routing
 
@@ -48,7 +48,7 @@ e ---> d
 
 each node send the packet to all of the nodes in his visibility
 
-### ADVANTAGES
+### Advantages
 
 In this iteration a lot of problems occurs as it is a very bad performance solution but it has some advantages:
 
@@ -56,7 +56,7 @@ In this iteration a lot of problems occurs as it is a very bad performance solut
 - the protocol is extremely simple
 - higher reliability due to the fact that multiple paths are discovered
 
-### DISADVANTAGES
+### Disadvantages
 
 There are a lot of disadvantages of course
 

@@ -4,7 +4,7 @@ aliases: []
 tags: []
 index: 8
 ---
-# ESPRESSIONI REGOLARI
+# Espressioni regolari
 
 Le espressioni regolari sono un formalismo per distinguere una particolare tipologia di grammatiche dove
 
@@ -12,7 +12,7 @@ Le espressioni regolari sono un formalismo per distinguere una particolare tipol
 - dato un alfabeto $A$ se $a\in A$ allora $a$ e un espressione regolare
 - se $X$ e $Y$ sono espressioni regolari allora $X+ Y$ (*unione*), $X\bullet Y$ (*concatenazione*), $X^*$, (*chiusura*) sono anch'esse espressioni regolari
 
-## ESPRESSIONI REGOLARI E GRAMMATICHE
+## Espressioni regolari e grammatiche
 
 Ogni espressione regolare coincide con una corrispondente [grammatica regolare](linguaggi_modelli_computazionali/GRAMMATICHE_REGOLARI.md), rispetto a una grammatica di tipo 3, **l'espressione regolare mostra cosa si ottiene da un linguaggio** mentre la **grammatica mostra il come si ottiene**
 

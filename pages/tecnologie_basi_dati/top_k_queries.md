@@ -66,7 +66,7 @@ flowchart TD
 top_operator --> filter --> Relation_R
 ```
 
-## Implementazione dell'operatore Top $\tau_{k,S}$
+## Implementazione dell'operatore top $\tau_{k,s}$
 
 L'operatore top può essere implementato in due modalità
 
@@ -146,7 +146,7 @@ $$
 Reg(q) \cap Reg(N) \neq \emptyset \Leftrightarrow d_{MIN}(q,Reg(N)) \leq r
 $$
 
-### Risolvere le query top-$k$: algoritmo KNNOptimal
+### Risolvere le query top-$k$: algoritmo knnoptimal
 
 Per risolvere le query con il modello sopracitato si introduce l'algoritmo KNNOptimal, l'algoritmo scandisce l'albero considerando i nodi $d_{MIN}(q,Reg(N)) < r$ e memorizza la tupla $t$ con $d(q,t)$ minore
 
@@ -154,7 +154,7 @@ Per risolvere le query con il modello sopracitato si introduce l'algoritmo KNNOp
 # query point input
 q = {} 
 
-# Initialize PQ with [ptr(RN),0];
+# Initialize pq with [ptr(rn),0];
 PQ = []
 PQ.append({ptr(RN),0})
 rNN = 10000000;
@@ -181,7 +181,7 @@ return result, rNN
 
 L'algoritmo KNNOptimal e corretto e I/O-ottimale in quanto accede solo pagine in cui e possibile trovare foglie vicine al risultato
 
-### KNNOptimal e query top-$k$ con filtro
+### Knnoptimal e query top-$k$ con filtro
 
 In caso di query della forma
 

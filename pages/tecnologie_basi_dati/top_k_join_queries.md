@@ -76,7 +76,7 @@ Alcune scelte comuni di scoring function sono:
 - `MIN(Minimum)`
 - `MAX(Maximum)`
 
-## Algoritmo $B_0$
+## Algoritmo $b_0$
 
 in caso di funzione di scoring `MAX` la query e risolvibile per mezzo dell'algoritmo $B_0$, l'idea di base e quella di recuperare i primi $k$ migliori risultati parziali da ogni sorgente (ogni accesso e detto **round**) e computare il risultato senza effettuare accessi random
 
@@ -111,18 +111,18 @@ E possibile fermare l'algoritmo prima di effettuare $k$ round a patto che sia ve
 
 >[!CITE] un algoritmo per top-$k$ 1-1 join queries che usa la funzione `MAX` come scoring function può essere stoppato se $Res[k].score \geq \max_j(p_j)$ 
 
-## Migliorando [B0](#Algoritmo%20$B_0$): MaxOptimal
+## Migliorando [b0](#algoritmo%20$b_0$): maxoptimal
 
 Il teorema di cui sopra si può applicare seguendo un principio simile a quello visto per [KNNOptimal](top_k_queries.md#Risolvere%20le%20query%20top-$k$%20algoritmo%20KNNOptimal) dove ad ogni step si effettua un accesso ordinato sulla lista dove $p_j$ e massimo (*la più promettente*)
 
-## Perche [B0](#Algoritmo%20$B_0$) non funziona con altre scoring function
+## Perche [b0](#algoritmo%20$b_0$) non funziona con altre scoring function
 
 $B_0$ non funziona con funzioni diverse dalla funzione `MAX` perche al termine degli accessi sequenziali non vi e nessun limite inferiore al valore della scoring function, di conseguenza un oggetto che non e stato rilevato da un accesso sequenziale **puo essere il match migliore**
 
 >esempio con la funzione `MIN`
 ![](tecnologie_basi_dati/Pasted%20image%2020250220114742.png)
 
-## Algoritmo FA
+## Algoritmo fa
 
 L'algoritmo FA sfrutta la proprietà di monotonicita della funzione di scoring per recuperare i best match, data la definizione di funzione di scoring monotona come segue
 
@@ -132,12 +132,12 @@ $$
 
 L'algoritmo recupera i primi $k$ score parziali dalle $m$ liste e per ogni oggetto con uno score parziale esegue un accesso random per recuperare gli altri, per ogni oggetto computa $S$ e restituisce i record con lo score massimo
 
-### Problematiche dell'algoritmo FA
+### Problematiche dell'algoritmo fa
 
 L'algoritmo risulta computazionalmente esoso in quanto non viene sfruttata la funzione di scoring per ridurre lo spazio di ricerca, e non vengono anticipati i random access
 
 
-## Algoritmo TA 
+## Algoritmo ta 
 
 L'algoritmo TA e un miglioramento dell'[Algoritmo FA](#Algoritmo%20FA), basato su threshold, in particolare
 
@@ -145,8 +145,8 @@ L'algoritmo TA e un miglioramento dell'[Algoritmo FA](#Algoritmo%20FA), basato s
 - si ferma al raggiungimento di una threshold T che e un upper bound per gli oggetti non ancora visti
 
 ```python
-# Input: ranked lists Lj (j=1,…,m), integer k  1, monotone scoring function S
-# Output: the top-k objects according to S
+# Input: ranked lists lj (j=1,…,m), integer k  1, monotone scoring function s
+# Output: the top-k objects according to s
 for i in range(1,k):
 	Res[i] := [null,0]
 	for j in range(1,m):
@@ -165,7 +165,7 @@ L'algoritmo scandisce le liste fino a che la funzione di costo computata sui val
 
 ![](tecnologie_basi_dati/Pasted%20image%2020250220124511.png)
 
-### Performance di TA
+### Performance di ta
 
 Per computare correttamente le performance di TA si considerano i costi di comunicazione con il client secondo la seguente funzione di costo:
 
@@ -195,7 +195,7 @@ m + m(m-1)\frac{C_{RA}}{C_{SA}}
 $$
 >[!WARNING] Che in caso di costi randomici alti puo diventare proibitivo
 
-## Algoritmo NRA
+## Algoritmo nra
 
 L'algoritmo NRA e pensato per quando non e possibile effettuare accessi randomici, restituisce comunque le $k$ risposte corrette ma i punteggi di score potrebbero essere errati
 
@@ -214,12 +214,12 @@ $$
 
 >[!TIP] Ovvero tutti i valori visti non in res hanno un valore massimo di $S$ minore di quelli nel risultato 
 
-### Ottenere le score corrette: NRA*
+### Ottenere le score corrette: nra*
 
 In caso siano necessari i valori di scoring e sufficiente estendere NRA eseguendo tante scansioni sequenziali fino a che tutti gli oggetti non vengono trovati
 >[!WARNING] il costo e al piu uguale a [Algoritmo FA](#Algoritmo%20FA)
 
-## Algoritmo CA
+## Algoritmo ca
 
 L'idea dietro all'algoritmo CA e quella di ridurre il costo degli accessi randomici eseguendo le letture ogni $\frac{C_{RA}}{C_{SA}}$ rounds, per il resto l'algoritmo si comporta come [NRA](#Algoritmo%20NRA).
 
@@ -235,7 +235,7 @@ L'idea dietro all'algoritmo CA e quella di ridurre il costo degli accessi random
 | NRA*       | monotone                     | ordinato             | instance optimal, exact scores                                                              |
 | CA         | monotone                     | ordinato e randomico | instance optimal ratio di ottimalita indipendente da $\frac{C_{RA}}{C_{SA}}$ in alcuni casi |
 
-## Ma in caso di join M-N?
+## Ma in caso di join m-n?
 
 Gli algoritmi visti fino ad ora sono applicabili se i join sono 1-1, nel caso seguente
 
@@ -250,7 +250,7 @@ STOP AFTER 2
 ```
 > i join non sono più sulle PK delle relazioni
 
-### Caso semplice: Indici !
+### Caso semplice: indici !
 
 Se si dispone di indici per ogni attributo di join l'algoritmo risulta simile a quello [TA](#Algoritmo%20TA), sfruttando gli indici per gli accessi randomici
 

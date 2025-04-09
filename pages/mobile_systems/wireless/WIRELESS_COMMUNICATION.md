@@ -5,9 +5,9 @@ tags: []
 index: 1
 ---
 
-# WIRELESS COMMUNICATIONS
+# Wireless communications
 
-## PHYSICAL PROBLEMS OF THE MEDIUM
+## Physical problems of the medium
 
 The physical layer over wireless medium has a lot of problems due to the signal nature:
 

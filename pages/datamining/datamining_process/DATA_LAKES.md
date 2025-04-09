@@ -10,14 +10,14 @@ index: 3
 - no schema on write requirements for the input sources to make easy the injection process
 - to access data we follow a  schema on read approach for more versatility
 
-## BENEFITS
+## Benefits
 
 - higher scalability (no need to scale large computing architectures)
 - data are stored only in one place
 - support for unstructured data
 - support for machine learning workloads
 
-## USE CASES VS TECH SOLUTIONS
+## Use cases vs tech solutions
 
 | USE CASES                                                   | TECH SOLUTIONS     | FEATURES TRENDS                                                                                                                              |
 |-------------------------------------------------------------|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
@@ -26,7 +26,7 @@ index: 3
 | Staging area, data mining, searching, profiling, cataloging | Data lake/Cold     | - Less expensive HW/SW - All enterprise data - More latency - Less governance - Lower data quality - Used by data scientists                 |
 
 
-## INSIGHT DRIVEN DATA SYSTEMS VS TRADITIONAL DATA SYSTEM
+## Insight driven data systems vs traditional data system
 
 | USE CASES                      | TRADITIONAL DATA SYSTEM                                                                      | INSIGHT DRIVEN DATA SYSTEM                                                                                                                                                                               |
 |--------------------------------|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -44,12 +44,12 @@ index: 3
 
 - this new systems are cheaper to design, can handle multiple data inputs, enabling users to perform powerful operations in a large amount of data of various forms
 
-## DATA LAKES STRUCTURES
+## Data lakes structures
 
 ![](datamining/Pasted_image_20231017155132.png)
 
 
-## DATA LAKE ARCHITECTURES
+## Data lake architectures
 
 ### lambda lake
 

@@ -5,7 +5,7 @@ tags: []
 index: 3
 ---
 
-# RULES GENERATION
+# Rules generation
 
 The goal of this phase is, given an item-set $L$ to find all non empty $f$ subsets that the association rule $f \rightarrow (L-f)$ have a $conf \gt threshold$ where $threshold$ is a parameter defined from the designer
 
@@ -21,7 +21,7 @@ this means that rules confidence is anti-monotone in relation of the number of e
 
 this characteristic can be used to prune the generation tree when there is a rule with a $conf \lt threshold$
 
-## INTERESTING RULE GENERATION METRICS
+## Interesting rule generation metrics
 
 Confidence metrics can be insufficient in the rule generation process, other interesting metrics are also used
 
@@ -35,7 +35,7 @@ so given a rule in the form of $A \rightarrow C$ we can compute the **contingenc
 
 from this table we can derive some interesting measures like
 
-### LIFT
+### Lift
 
 lift is defined as
 
@@ -45,7 +45,7 @@ $$
 
 it indicates the ratio between rule true cases and independence, it tend to $1$  when the item-sets are independent
 
-### LEVERAGE
+### Leverage
 
 leverage is defined as
 
@@ -55,7 +55,7 @@ $$
 
 leverage indicates the number of additional cases, it tends to $0$ when the item-sets are independent
 
-### CONVICTION
+### Conviction
 
 conviction is defined as
 

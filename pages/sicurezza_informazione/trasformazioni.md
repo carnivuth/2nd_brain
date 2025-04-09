@@ -32,7 +32,7 @@ B --richiesta convalida--> C
 A --registrazione comunicazione--> C
 ```
 
-## Trasformazione $E$
+## Trasformazione $e$
 
 Questa trasformazione prevede che la sorgente alteri le comunicazioni in maniera da renderle irriconoscibili se non dalla sorgente. Il suo compito e quello di mantenere la **riservatezza della comunicazione**
 
@@ -46,7 +46,7 @@ A --plaintext--> B --cyphertext--> C
 
 La proprietà fondamentale e che lo sforzo per ripristinare il `plaintext`  dal `cyphertext` deve essere insostenibile per un attaccante
 
-## Trasformazione $H$
+## Trasformazione $h$
 
 La trasformazione $H$ ha il compito di preservare **l'integrita di una comunicazione**, la sorgente allega al messaggio un riassunto che consente alla destinazione di comprendere se il messaggio e stato alterato
 
@@ -83,7 +83,7 @@ D --> C
 C --risultato--> E
 A --M--> E & D
 ```
-## Trasformazione $S$
+## Trasformazione $s$
 
 Trasformazione $S$ ha il compito di assicurare **l'autenticità di un messaggio**, la sorgente allega al messaggio informazioni non imitabili e la destinazione verifica che il documento ricevuto sia di chi ha dichiarato di averlo mandato
 

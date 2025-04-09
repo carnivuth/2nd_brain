@@ -1,11 +1,11 @@
 ---
 index: 15
 ---
-# COSTRUTTI LINGUISTICI E PROCESSI COMPUTAZIONALI
+# Costrutti linguistici e processi computazionali
 
 E importante comprendere la differenza tra ciò che esprime la sintassi con il processo computazionale che la macchina adotta, spesso infatti i due non coincidono.
 
-## PROCESSO ITERATIVO VS PROCESSO RICORSIVO
+## Processo iterativo vs processo ricorsivo
 
 Un esempio e il confronto fra processo ricorsivo e processo iterativo, per il processo iterativo infatti si può dire che:
 
@@ -19,7 +19,7 @@ mentre del processo ricorsivo si può dire che:
 - ogni chiamata a funzione opera sul valore $n-1$-esimo per sintetizzare il valore $n$-esimo
 - il processo ricorsivo **opera all'indietro**, ovvero il risultato viene accumulato quando la chiamata al caso base ritorna un valore
 
-## UN CASO DI DISCREPANZA TRA SINTASSI E PROCESSO, LA TAIL RECURSION
+## Un caso di discrepanza tra sintassi e processo, la tail recursion
 
 Tuttavia non e detto che una sintassi ricorsiva generi un processo ricorsivo, e il caso della **TAIL RECURSION** ovvero quando l'operazione di ricorsione e **l'ultima cosa effettuata dalla funzione**
 
@@ -34,13 +34,13 @@ In questo caso il risultato parziale viene mantenuto in un accumulatore, che con
 
 Proprio per questo in molti linguaggi che non offrono costrutti per esprimere processi iterativi viene applicata la **ottimizzazione della tail recursion (TRO)** 
 
-### TAIL RECURSION OPTIMIZATION
+### Tail recursion optimization
 
 Processo attraverso il quale si riduce la memoria allocata da una tail recursion a un solo record di attivazione **sovrascrivendo sempre lo stesso record** in quanto i precedenti risultano ininfluenti
 
 ![](linguaggi_modelli_computazionali/Pasted%20image%2020241024171812.png)
 
-## LINGUAGGI FUNZIONALI
+## Linguaggi funzionali
 
 Con l'aumentare della complessità dei sistemi software i linguaggi funzionali si sono fatti sempre più sentire, sia puri che miscelati a linguaggi tradizionali (*blended*), le feature che li caratterizzano sono
 
@@ -52,17 +52,17 @@ Con l'aumentare della complessità dei sistemi software i linguaggi funzionali s
 - lazy evaluation vs eager evaluation
 - concisione, operatori come funzioni, null safety…
 
-### VALORI VS VARIABILI
+### Valori vs variabili
 
 Nei linguaggi funzionali non esiste il concetto di '*variabile*' come elemento modificabile, ma solo il concetto di valore come elemento immodificabile, i linguaggi blended optano per una soluzione meno drastica supportando entrambi i paradigmi (keyword `var`,`val`)
 
-### COSTRUTTI COME ESPRESSIONI
+### Costrutti come espressioni
 
 Nei linguaggi tradizionali i costrutti (`while`,`for`,`if`,`throw`...) sono intesi come istruzioni (*non restituiscono nessun valore*) questo porta a ragionare in termini di sequenza di istruzioni e variabili d'appoggio riducendo cosi la leggibilità del programma
 
 Nei linguaggi funzionali i costrutti vengono trattati esattamente come le espressioni (*ritornano valori*) evitando cosi questo problema
 
-### FUNZIONI COME FIRST CLASS ENTITIES
+### Funzioni come first class entities
 
 Nei linguaggi tradizionali le funzioni non sono altro che dei costrutti sintattici per racchiudere la logica del programma, i linguaggi funzionali invece le elevano a cittadini di prima classe ovvero:
 
@@ -71,7 +71,7 @@ Nei linguaggi tradizionali le funzioni non sono altro che dei costrutti sintatti
 - passate a un altra funzione 
 - possono essere ritornate da un altra funzione
 
-## CHIUSURA 
+## Chiusura 
 
 Se il linguaggio supporta le [funzioni come first class entities](#FUNZIONI%20COME%20FIRST%20CLASS%20ENTITIES) e le funzioni ammettono l'uso di variabili non definite localmente (*variabili libere*) allora possono essere implementate le **chiusure**
 
@@ -88,14 +88,14 @@ console.log(result(2))
 
 si ha quindi che le variabili di una chiusura devono mantenere **il tempo di vita della chiusura stessa** e non possono essere allocate sullo stack (*verrebbero rimosse inseme al record di attivazione della funzione stessa*)
 
-### VANTAGGI DELLE CHIUSURE
+### Vantaggi delle chiusure
 
 - Rappresentare e gestire uno stato privato e nascosto 
 - Creare una comunicazione nascosta 
 - Definire nuove strutture di controllo 
 - Riprogettare/semplificare API e framework di largo uso 
 
-#### CHIUSURA LESSICALE VS CHIUSURA DINAMICA
+#### Chiusura lessicale vs chiusura dinamica
 
 Se il linguaggio supporta le chiusure occorre definire quale sia [l'ambiente](INTERPRETI.md#ENVIRONMENT) della funzione stessa in cui questo deve operare:
 
@@ -125,7 +125,7 @@ console.log(testEnv())
 
 La chiusura lessicale viene preferita dalla totalità dei linguaggi mainstream (*la leggibilità del programma e un fattore chiave*)
 
-## VALUTAZIONE DI FUNZIONI
+## Valutazione di funzioni
 
 Ogni linguaggio deve stabilire un modello per la valutazione delle funzioni che specifichi:
 
@@ -133,7 +133,7 @@ Ogni linguaggio deve stabilire un modello per la valutazione delle funzioni che 
 - cosa si passa alla funzione (*valore/indirizzo*)
 - come si attiva la funzione (*sincrono/asincrono*)
 
-### MODELLO APPLICATIVO
+### Modello applicativo
 
 Il modello per la valutazione di funzioni piu utilizzato e quello applicativo
 
@@ -153,11 +153,11 @@ var b = f(3,abort() ); // Errore!!
 document.log("result =" + b);
 ```
 
-### ALTERNATIVA, MODELLO CALL BY NAME
+### Alternativa, modello call by name
 
 Per evitare questi limiti esiste una variante che computa i parametri nel momento in cui il chiamante ne fa utilizzo, in questo modo si possono superare i limiti della valutazione immediata, per realizzare tale modello i parametri passati al chiamato sono **oggetti eseguibili**
 
-#### PERCHÉ IL MODELLO CALL BY NAME NON E UTILIZZATO
+#### Perché il modello call by name non e utilizzato
 
 In molti linguaggi di programmazione non si adotta il modello call by name per una serie di motivi legati alle performance:
 

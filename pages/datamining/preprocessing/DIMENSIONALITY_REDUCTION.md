@@ -5,7 +5,7 @@ tags: []
 index: 6
 ---
 
-# DIMENSIONALITY REDUCTION
+# Dimensionality reduction
 
 when dimensionality is very high occupation of the space become sparse and discrimination based on distance becomes ineffective
 
@@ -16,7 +16,7 @@ the scope of this processing is to:
 - reduce time and memory complexity of the mining algorithms
 - improve visualization
 
-## PCA
+## Pca
 
 procedure to extract important variables from the dataset and reduce dimensionality. The new dataset will contains the attributes that capture most of the data variation
 

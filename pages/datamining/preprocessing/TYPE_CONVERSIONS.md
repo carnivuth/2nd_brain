@@ -5,7 +5,7 @@ tags: []
 index: 2
 ---
 
-# TYPE CONVERSIONS
+# Type conversions
 
 procedure to convert data types of attributes, there are many purposes such as:
 
@@ -16,9 +16,9 @@ procedure to convert data types of attributes, there are many purposes such as:
 Transforming in a numerical quantity the features that represent categories.
 
 there are 2 types of encoders
-## NOMINAL TO NUMERIC CONVERSION
+## Nominal to numeric conversion
 
-### ONE HOT ENCODER
+### One hot encoder
 
 
 It transforms a feature  with $V$ unique values in $V$ boolean feature each, if an object $X$ as the value $d$ for the feature $V$ than the corresponding new feature $d$ is set to $true$
@@ -33,8 +33,8 @@ ohe.categories_ # show categories founded
 ohe.transform(X) # apply the transformation
 ```
 
-## ORDINAL TO NUMERIC CONVERSION
-### ORDINAL ENCODER
+## Ordinal to numeric conversion
+### Ordinal encoder
 
 It transforms a ordinal feature $V$ in a numeric one preserving the order by translate the values into consecutive integers, the user can specify the sequence (lexicographic order is default)
 
@@ -47,16 +47,16 @@ oe.fit(X) # fit the data
 oe.categories_ # show categories founded
 oe.transform(X) # apply the transformation
 ```
-## NUMERIC TO BINARY CONVERSION
-### BINARIZER WITH THRESHOLD
+## Numeric to binary conversion
+### Binarizer with threshold
 
 it transform numeric values  to binary ones by using a threshold
 
-## DISCRETIZATION
+## Discretization
 
 transformation that turns continuous domains into discrete ones, there are many algorithms for the purpose, some are domain knowledge based other use thresholds
 
-### NUMERIC TO K VALUES CONVERSION
+### Numeric to k values conversion
 
 Number are discretized in a series of values from $0$ to $k-1$
 

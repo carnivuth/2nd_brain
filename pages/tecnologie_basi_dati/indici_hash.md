@@ -59,7 +59,7 @@ k(S) = \sum_{i=0}^{n-1}ord(s_i)\times b^i
 $$
 >$b$ e un coefficiente per evitare problemi con stringhe anagrammi
 
-## Valutare una hash function: Degeneracy
+## Valutare una hash function: degeneracy
 
 Un criterio per valutare le funzioni hash e l'analisi del parametro di degeneracy:
 
@@ -71,7 +71,7 @@ $$
 $$
 > [!TIP] minore il parametro migliori le performance della funzione hash
 
-## Dimensionare l'indice hash: Load factor
+## Dimensionare l'indice hash: load factor
 
 Data una stima $N$ dei record e una capacita $C$ dei bucket, determinare il parametro **load factor** $d$ definisce il numero di bucket $P$ come 
 
@@ -188,7 +188,7 @@ A --> B --> C --> D --> E
 
 Uno dei principali contro di questa strategia e che all'aumentare di SP gli split sono sempre più costosi
 
-### Recursive Linear hashing
+### Recursive linear hashing
 
 In questa modalità l'area di overflow viene gestita per mezzo del [Linear hashing](#Linear%20hashing), vengono creati multipli livelli di overflow dove il livello $h$ salva i suoi record in overflow nel livello $h+1$
 

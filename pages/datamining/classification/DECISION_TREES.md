@@ -5,7 +5,7 @@ tags: []
 index: 4
 ---
 
-# DECISION TREES
+# Decision trees
 
 Decision trees are tree shaped data structures with node and leaf
 that represents operations on the datasets used to classified data
@@ -14,9 +14,9 @@ that represents operations on the datasets used to classified data
 
 - node -> split dataset and exec leaf node with the dataset subsets
 
-## SPLITTING DATASET METHODS
+## Splitting dataset methods
 
-### INFORMATION THEORY BASED METHOD
+### Information theory based method
 
 based on the concept of entropy
 
@@ -30,17 +30,17 @@ $$
 
 the entropy of a child node is always lower of the entropy of the father node
 
-#### INFORMATION GAIN
+#### Information gain
 
 the difference between the dataset entropy and the subset entropy obtained from a threshold based split
 
 the objective is to maximize information gain in order to obtain the best split
 
-#### CHOOSING THE RIGHT ATTRIBUTE FOR THE SPLIT
+#### Choosing the right attribute for the split
 
 the attribute with the maximum [IG](#INFORMATION_GAIN) is chosen
 
-### BUILD DECISION TREE WITH BINARY SPLITS
+### Build decision tree with binary splits
 
 ```python
 procedure buildTree(dataset X , node p)
@@ -61,19 +61,19 @@ buildTree(X right , pright )
 
 ```
 
-### TRAINING SET ERROR
+### Training set error
 
 number of discordance between predictions on the training set and the actual values of the attributes
 
 it's a lower bound for the error rate of the predictions
 
-### TEST SET ERROR
+### Test set error
 
 same calculus of the  [training set error](#TRAINING_SET_ERROR)
 
 the value is more indicative of the expected behavior
 
-### OVERFITTING
+### Overfitting
 
 it happens when the hypothesis is fits too well the training data
 
@@ -89,13 +89,13 @@ possible causes of over-fitting can be the presence of noise on the data or a ba
 
 One of the possible solutions to overfitting is [decision tree pruning](datamining/DECISION_TREE_PRUNING.md)
 
-### CHOOSING ATTRIBUTE FOR SPLIT WITH THE HIGHEST PURITY
+### Choosing attribute for split with the highest purity
 
 - [INFORMATION THEORY BASED METHOD](#INFORMATION_THEORY_BASED_METHOD)
 - [GINI INDEX](#GINI_INDEX)
 - [MISCLASSIFICATION ERROR](#MISCLASSIFICATION_ERROR)
 
-### GINI INDEX
+### Gini index
 
 based on the probability of wrong classification of a random assignment based on class frequencies
 
@@ -111,7 +111,7 @@ $$
 GINI_{split}=GINI_{p} - \sum_{i=1}^{ds}{\frac{N_{p,i}}{N_{p}}*GINI(p_{i})}
 $$
 
-### MISCLASSIFICATION ERROR
+### Misclassification error
 
 
 it's complement to 1  of the highest label frequency called accuracy

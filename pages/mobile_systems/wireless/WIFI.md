@@ -5,7 +5,7 @@ tags: []
 index: 4
 ---
 
-# WIFI
+# Wifi
 
 The IEEE 802.11 standard is the most widespread solution for wireless communications, it provides 2 primary configurations
 
@@ -45,7 +45,7 @@ E  <--> B
 end
 ```
 
-## WIFI MESH NETWORK
+## Wifi mesh network
 
 The objective is to cover with wireless connectivity technology wide areas like cities with a mesh network
 

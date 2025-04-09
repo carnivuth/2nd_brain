@@ -5,7 +5,7 @@ tags: []
 index: 28
 ---
 
-# EDGES
+# Edges
 
 Edges are local features that capture important information of the semantic content of the image. They are defined as **the set of pixels laying between two image regions with different light intensity**
 
@@ -36,11 +36,11 @@ $$
 $$
  The gradient direction is the direction where the intensity function show the maximum variation
 
-### FIRST DETECTION PIPELINE
+### First detection pipeline
 
 ![](computer_vision/Pasted_image_20240307122923.png)
 
-### GRADIENT APPROXIMATION
+### Gradient approximation
 
 In order to compute the gradient efficiently a discrete approximation is needed, multiple choices are possible
 
@@ -81,7 +81,7 @@ $$
 \Vert \nabla I\Vert_{\infty} = \max{(I_x , I_y)} \space
 $$
 
-## NOISE PROBLEMS
+## Noise problems
 
 Due to the nature of the derivative operation of amplifying noise the input signal needs to be smoothed out to allow a correct edge detection
 
@@ -105,7 +105,7 @@ $$
 $$
 \overset{\sim}I_y = \mu_x(i+1,j) - \mu_x(i,j)
 $$
-### DERIVATIVE VARIANTS
+### Derivative variants
 
 There are some operator with some additional features
 
@@ -125,7 +125,7 @@ $$
 \mu_x(i,j) = \frac{1}{k+2}[I(i+1,j)+kI(i-1,j)+I(i-1,j)]
 $$
 
-## FINDING MAXIMA TO LOCALIZE EDGES
+## Finding maxima to localize edges
 
 It's difficult to localize edge in an image just by thresholding, a too low threshold could result in a poor localization of the edge (e.g. thick edges)
 
@@ -133,7 +133,7 @@ It's difficult to localize edge in an image just by thresholding, a too low thre
 
 A better way to localize the edges is to find the local maxima of the absolute value of the derivative
 
-### NON MAXIMA SUPRESSION (NMS)
+### Non maxima supression (nms)
 
 The idea is to use the discrete representation of the gradient discussed earlier to compute an algorithm that identifies local maxima points.
 
@@ -163,7 +163,7 @@ NMS(i,j) = \begin{cases}
 $$
 
 
-## FINAL EDGE DETECTOR PIPELINE
+## Final edge detector pipeline
 
 With this considerations the final edge detection pipeline looks like this
 

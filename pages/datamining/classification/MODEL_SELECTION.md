@@ -4,7 +4,7 @@ aliases: []
 tags: []
 ---
 
-# MODEL SELECTION
+# Model selection
 
 In order to select the best model for a given problem the follow parameters need to be identified:
 
@@ -12,11 +12,11 @@ In order to select the best model for a given problem the follow parameters need
 - best classification algorithm
 - best parameter configuration
 
-## EVALUATION
+## Evaluation
 
 the process for detecting the best classification model, this process is **independent from the algorithm used to create the model**
 
-### DATASET IN EVALUATION
+### Dataset in evaluation
 
 supervised data are usually scarse so the dataset must be split
 
@@ -24,11 +24,11 @@ supervised data are usually scarse so the dataset must be split
 - evaluation
 - test
 
-### TEST SET ERROR AND RUN TIME RELATIONS
+### Test set error and run time relations
 
 the bond between training dataset and the real data $X$ is subject to probabilistic variability so the  **prevision of the run time error error is the test set error ratio + confidence interval**
 
-#### CONFIDENCE INTERVAL
+#### Confidence interval
 
 the empirical frequency of error $f = \frac{S}{N}$ with $S$ the test error and $N$ the test set dimension is related with the true error frequency through **noise** that is represented with a normal distribution (for $N >= 30$ )
 

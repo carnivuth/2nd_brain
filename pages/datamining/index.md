@@ -1,5 +1,5 @@
 # Datamining
-## CONTENTS
+## Contents
 - [ASSOCIATION_RULES](datamining/association_rules/ASSOCIATION_RULES.md)
 - [CLASSIFICATION](datamining/classification/CLASSIFICATION.md)
 - [CLUSTERING](datamining/clustering/CLUSTERING.md)

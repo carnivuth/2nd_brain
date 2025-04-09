@@ -5,7 +5,7 @@ tags: []
 index: 50
 ---
 
-# LENET-5
+# Lenet-5
 
 [CNN](computer_vision/CONVOLUTIONAL_NEURAL_NETWORKS.md) to recongnize handwritten digits.
 

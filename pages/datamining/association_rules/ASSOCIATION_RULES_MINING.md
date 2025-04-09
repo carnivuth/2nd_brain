@@ -5,15 +5,15 @@ tags: []
 index: 2
 ---
 
-# ASSOCIATION RULES MINING
+# Association rules mining
 
 The goal of this procedure it's, given a list of $N$ item-set, finding association rules that have  $conf$ and $sup$ grater than some thresholds
 
-## BRUTE-FORCE APPROACH
+## Brute-force approach
 
 generate all possible combination and compute $conf$ and $sup$, this approach is always possible but is too much computational expensive
 
-## TWO STEP APPROACH
+## Two step approach
 
 this approach is based on the fact that rules that are generated from the same item-set have the same $sup$
 

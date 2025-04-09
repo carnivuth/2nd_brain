@@ -5,10 +5,10 @@ tags: []
 index: 36
 ---
 
-# RESOURCE MANAGEMENT PATTERNS
+# Resource management patterns
 
 Patterns that are developed for managing data and resources in distributed environments
-## SESSION TOKEN
+## Session token
 
 Pattern to handle session between server client communications, a token is sent to the client from the server with the following information
 
@@ -17,30 +17,30 @@ Pattern to handle session between server client communications, a token is sent 
 - session state
 - session TTL to avoid replay attacks
 
-### PROS
+### Pros
 
 - session is preserved if mobile node changes the point of attachment to the network
 - there is no overhead for the client in order to manage session
 
-### CONS
+### Cons
 
 - server needs to manage the state of the session
 
-## CACHING
+## Caching
 
 Simple concept, store acquired information from the server in order to reduce the number of communications needed to perform operation.
 When client needs a resource it ask the cache and request data to the server in case of a cache miss
 
-### EAGER ACQUISITION
+### Eager acquisition
 
 All data needed by the application are fetched at startup to avoid network communication in the long run, improving performance at runtime.
 This increase startup times and can download data that are not used in the specific session
 
-### LAZY ACQUISITION
+### Lazy acquisition
 
 Data are fetched when the application requires them explicitly, reducing the data transfered over the network.
 
-## SYNCHRONIZATION
+## Synchronization
 
 Pattern that allow to manage different data copies in different nodes, handling read write operations.
 Application delegates the read/write operations to a synchronization engine that handle the complexity of communicate to the other nodes detect and resolve conflicts
@@ -104,9 +104,9 @@ for data level synchronization some choices need to be made
 	- optimistic multiple data copies are managed by the synchronization engine
 	- pessimistic approach only a single copy of the data is writable
 
-### SYNCHRONIZATION MECHANISMS
+### Synchronization mechanisms
 
-### VERSIONING
+### Versioning
 
 Optimistic approach that relies on version numbers, that are associated to a resource, a version number is defined by the following characteristics
 - if version $B$ comes from changes $A$ are $num(B) > num(A)$
@@ -115,7 +115,7 @@ Optimistic approach that relies on version numbers, that are associated to a res
 - **update propagation**;
 - **changes detection**;
 - **reconciliation**
-### RENDEZVOUS
+### Rendezvous
 
 Pattern that allow nodes to synchronize data by meeting at randezvous points
 
@@ -128,13 +128,13 @@ A --update data--> C
 B --lookup data--> C
 ```
 
-### WHAT IN REAL ENVIRONMENTS
+### What in real environments
 
 in Real scenarios sincronization is used only between 2 nodes
 - **centralized**
 - **tree structure** nodes sync with the parent (*more flexible solution using a cyclic connected graph*)
 
-## STATE TRANSFER
+## State transfer
 
 Pattern that allows the infrastructure to manage handover situations exploiting [RENDEZVOUS](#RENDEZVOUS) to update clients
 

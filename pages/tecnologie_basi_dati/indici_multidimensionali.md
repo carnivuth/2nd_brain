@@ -47,13 +47,13 @@ In caso di ricerca si visitano tutti i rami dell'albero che contengono regioni c
 
 >[!ERROR] le eliminazioni sono estremamente complicate
 
-## Paginando il k-d-tree: k-d-B-tree
+## Paginando il k-d-tree: k-d-b-tree
 
 E la versione paginata del [K-d-tree](#K-d-tree) dove ogni nodo corrisponde a un iper-rettangolo dello spazio ottenuto come unione delle regioni figlie
 
 ![](tecnologie_basi_dati/Pasted%20image%2020250216182013.png)
 
-### K-d-B-tree: overflow
+### K-d-b-tree: overflow
 
 In caso di overflow si partizionano i nodi padri fino a risalire alla root
 

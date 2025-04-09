@@ -5,11 +5,11 @@ tags: []
 index: 1
 ---
 
-# DATA PREPROCESSING
+# Data preprocessing
 
 Operations done on the data to make them suitable for machine learning models
 
-## AGGREGATION
+## Aggregation
 
 the process of combining 2 ore more attributes into a single one, this can be done to obtain differet goals:
 

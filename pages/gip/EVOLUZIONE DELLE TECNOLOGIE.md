@@ -1,4 +1,4 @@
-# EVOLUZIONE DELLE TECNOLOGIE
+# Evoluzione delle tecnologie
 
 Una caratteristica fondamentale delle nuove tecnologie è quella di essere **disruptive** ovvero di distruggere lo status quo delle soluzioni presenti nel mercato.
 
@@ -10,7 +10,7 @@ L'innovazione ha sul mercato i seguenti effetti
 
 -  si **modificano le risorse e le competenze** richieste dal mercato
 
-## DIFFUSIONE NEL MERCATO
+## Diffusione nel mercato
 
 ci sono diversi fattori che determinano la **velocità di diffusione** di un'innovazione all'interno di un mercato tra cui:
 

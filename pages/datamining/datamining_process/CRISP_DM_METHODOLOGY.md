@@ -8,7 +8,7 @@ index: 6
 
 model for datamining process standardization, the goal is to set common names and steps to organized workloads inside the team
 
-## PHASES
+## Phases
 
 ### business understending
 

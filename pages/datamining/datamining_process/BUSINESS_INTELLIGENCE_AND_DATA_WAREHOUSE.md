@@ -9,7 +9,7 @@ index: 1
 
 ![](datamining/Pasted_image_20230928151132.png)
 
-## DATA WAREHOUSE (DWH)
+## Data warehouse (dwh)
 
 - is a repository that stores information for the decision making process
 
@@ -17,7 +17,7 @@ index: 1
 
 - it show data evolution overtime
 
-## MULTIDIMENSIONAL MODEL
+## Multidimensional model
 
 -  in a DWH data are organized in a multidimensional structure that store data based in categories
 

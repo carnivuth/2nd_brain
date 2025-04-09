@@ -6,7 +6,7 @@ tags:
 index: 8
 ---
 
-# PERSPECTIVE SPACE
+# Perspective space
 
 In a $R_{3}$ euclidean space such as the 3D world there is no way to represent a point to infinity and parallel lines does not intersect or intersect to infinity.
 
@@ -16,7 +16,7 @@ $$
 (x,y,z) = (x,y,z,k) \space \forall \space k \in \neq 0
 $$
 
-## POINT TO INFINITY REPRESENTATION
+## Point to infinity representation
 
 In this space points to infinity can be represented, so given a line equation like this:
 
@@ -71,7 +71,7 @@ $$
 
 The class $(x,y,z,0)$ represents all of the possible points to infinity. This representation it's not possible in the $R_{3}$
 
-## DEFINITION EXTENSION
+## Definition extension
 
 The perspective space definition can be extended to a $N$-dimensional space $R_{n}\rightarrow P_{n}$
 

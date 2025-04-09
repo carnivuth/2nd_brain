@@ -5,14 +5,14 @@ tags: []
 index: 59
 ---
 
-# SERVICE DISCOVERY
+# Service discovery
 Service discovery is the procedure that allow an application to search for available services in the locality of the application node, a service discovery solution must meet the following requirements
 
 - **AUTO CONFIGURATION** devices must configure themselves to participate to the the offering requesting communications
 - **DISCOVERY** advertisement of services from the service provider
 - **ACCESS** clients need to be able to communicate with services discovered
 
-## APACHE RIVER (JINI)
+## Apache river (jini)
 
 Java solution for service discovery, based on a central node playing the role of service broker where nodes register and discover services (*similar to the [pub/sub model](mobile_systems/PUB_SUB_MODEL.md)*)
 
@@ -44,11 +44,11 @@ Failures are managed trough a **lease** mechanism where the resource assigned to
 
 The protocol supports scalability by allowing the service providers to subscribe to multiple service brokers and
 
-### STUB SKEL LIMITATIONS
+### Stub skel limitations
 
 JINI overcomes stub and skeleton limitations, cause client can get the proxy objects at runtime from the broker
 
-## SERVICE LOCATION PROTOCOL (SLP)
+## Service location protocol (slp)
 
 service agents makes periodic broadcast of the available services and user agent listen for the request for the application, optionally a directory agent can be deployed for caching purposes
 
@@ -69,7 +69,7 @@ D --> C
 end
 ```
 
-## UNIVERSAL PLUG AND PLAY (UPnP)
+## Universal plug and play (upnp)
 
 De-facto standard of service discovery, microsoft developed solution to connect tv remote to the network, the UPnP supports:
 
@@ -80,11 +80,11 @@ De-facto standard of service discovery, microsoft developed solution to connect 
 - **Event management** (via Generic Eventing and Notification Architecture - GENA)
 - **Presentation** in HTML/XML
 
-### AUTOMATIC IP CONFIGURATION
+### Automatic ip configuration
 
 A UPnP node tries to connect to a network by asking a DHCP server an address, if no DHCP server is available it selects a random ip (*169.254.0.0/16 for IPv4*) in a range and exploits ARP requests to verify if other machines have the same address
 
-### DISCOVERY
+### Discovery
 
 DIscovery in UPnP is achieved with the **simple service discovery protocol** (SSDP*), that uses multicast communication on specific addresses and ports over UDP (*239.255.255.250 on port 1900*)
 
@@ -92,7 +92,7 @@ Nodes that offer services perform periodic broadcast communications on the netwo
 
 ![](mobile_systems/Pasted%20image%2020240616115828.png)
 
-### SERVICE REPRESENTATION
+### Service representation
 
 The capabilities of a device are communicated trough XML format, a device can offer different `<service>` capabilities that includes:
 
@@ -115,11 +115,11 @@ an example of file:
 </serviceList>
 ```
 
-### COMMAND CONTROL
+### Command control
 
 In order to send commands to a UPnP able device a SOAP request is performed with an XML payload to describe the request, service updates the resource and respond with a SOAP reply
 
-### EVENT MANAGEMENT
+### Event management
 
 A control node can subscribe to event to the URL specified in the service discovery phase, notifications are delievered trough the use of General Event Notification Architecture (*GENA*) standard, that includes in the XML request the variable modification that triggered the event
 

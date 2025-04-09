@@ -5,15 +5,15 @@ tags: []
 index: 14
 ---
 
-# Pretty good privacy (PGP)
+# Pretty good privacy (pgp)
 
 Protocollo di sicurezza pensato per scambiare documenti in modo sicuro (*email e file storage*), compatibile con differenti sistemi di messaggistica email, fornisce anche servizi di autenticazione per mezzo di meccanismi di [firma digitale](protocolli.md#FIRMA%20DIGITALE).
 
-## PGP e la riservatezza
+## Pgp e la riservatezza
 
 per lo scambio di informazioni viene applicato un [cifrario ibrido](cifrari_asimmetrici.md#CIFRARIO%20IBRIDO) con [rsa](sicurezza_informazione/rsa.md), i messaggi scambiati contengono il testo cifrato, la chiave k  per la cifratura simmetrica che a sua volta viene cifrata con la chiave pubblica della destinazione.
 
-## PGP e autenticazione 
+## Pgp e autenticazione 
 
 L'autenticazione si basa su hashing e signing di messaggi
 

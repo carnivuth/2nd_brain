@@ -5,7 +5,7 @@ tags: []
 index: 52
 ---
 
-# VGG
+# Vgg
 
 [CNN](computer_vision/CONVOLUTIONAL_NEURAL_NETWORKS.md) that won the second place of [ILSVRC 2014](https://www.image-net.org/challenges/LSVRC/2014/), it explores the benefits of deep and regular architectures based on a few simple design choices:
 
@@ -19,7 +19,7 @@ The architecture is designed as a **repetition of stages** where a single stage 
 
 A stage has the same receptive field as a single larger convolution but, given the same number of input/output channels, introduces more non-linearities and requires less parameters and less computation. A stage requires more memory to store the activations, though.
 
-## TRAINING PHASE
+## Training phase
 
 | HYPERPARAMETER                                      | VALUE                                                                                                                                                                                                                                                                                                                     |
 | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

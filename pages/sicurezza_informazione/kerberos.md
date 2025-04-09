@@ -5,7 +5,7 @@ tags: []
 index: 13
 ---
 
-# KERBEROS
+# Kerberos
 
 Servizio di autenticazione centralizzato per un accesso a un pull di workstation e differenziare accesso in base agli utenti.
 

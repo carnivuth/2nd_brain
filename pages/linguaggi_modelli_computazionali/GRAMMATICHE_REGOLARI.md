@@ -4,7 +4,7 @@ aliases: []
 tags: []
 index: 7
 ---
-# GRAMMATICHE REGOLARI (TIPO 3)
+# Grammatiche regolari (tipo 3)
 
 grammatiche le cui  produzioni ammettono un solo simbolo non terminale nel membro di destra.
 
@@ -13,7 +13,7 @@ grammatiche le cui  produzioni ammettono un solo simbolo non terminale nel membr
 | $$A \rightarrow \sigma  $$   | $$A \rightarrow \sigma  $$  |
 | $$A \rightarrow \sigma B  $$ | $$A \rightarrow B\sigma  $$ |
 
- I linguaggi generati dalle grammatiche regolari coincidono con quelli descritti da [ESPRESSIONI_REGOLARI](linguaggi_modelli_computazionali/ESPRESSIONI_REGOLARI.md)
+ I linguaggi generati dalle grammatiche regolari coincidono con quelli descritti da [espressioni_regolari](linguaggi_modelli_computazionali/espressioni_regolari.md)
 
 ```mermaid
 flowchart LR

@@ -5,9 +5,9 @@ tags: []
 index: 17
 ---
 
-# BASE TECHNIQUES
+# Base techniques
 
-## DISTANCE COMPUTATION
+## Distance computation
 
 In order to compute position several methods relies on computing distance between nodes, several approaches are available
 
@@ -15,11 +15,11 @@ In order to compute position several methods relies on computing distance betwee
 
 - **Received signal strength indication (RSSI)** , the distance is computed by the received signal strength
 
-## POSITION COMPUTATION
+## Position computation
 
 position can be computed using several geometrical and non geometrical approaches:
 
-### Time difference of arrival (TDoA)
+### Time difference of arrival (tdoa)
 
 given 2 reference points $ref_1,ref_2$ **TDoA** is the set of points where
 
@@ -27,11 +27,11 @@ $$ToA(ref_1)=ToA(ref_2)$$
 
 ![](mobile_systems/Pasted%20image%2020240608180440.png)
 
-### LATERATION
+### Lateration
 
 the position is determined by computing distances from 3 reference points
 
-### ANGULATION
+### Angulation
 
 based on the fact that the distance between 2 reference points is known, it computes the position using the Carnot's theorem:
 
@@ -44,13 +44,13 @@ $$
 
 ![](mobile_systems/Pasted%20image%2020240608180918.png)
 
-### PROXIMITY
+### Proximity
 
 The current position is determined by the closest reference point to the node, ToA or RSSI can be deployed
 
 ![](mobile_systems/Pasted%20image%2020240608181056.png)
 
-### SCENE ANALYSIS
+### Scene analysis
 
 This is a statistical approach based on the knowledge of the deployment environment and of a dataset of observations made of it (*e.g. RSSI*)
 
@@ -59,7 +59,7 @@ this approach is composed by two phases
 - **Preliminary phase** data are collected by observation and monitoring of the environment
 - **Operational phase** environment observation are  compared to the collected data to estimate position
 
-## ERROR SOURCES
+## Error sources
 
 Several things can cause error in position measurement such as:
 

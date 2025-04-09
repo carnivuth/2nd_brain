@@ -20,16 +20,16 @@ A --standard TCP--> C
 A --I-TCP--> B --I-TCP--> C
 ```
 
-## HANDOFF
+## Handoff
 
 The handoff procedure is dependent on the [mobile ip **one**](mobile_systems/MOBILE_IP.md), when a mobile node register is CoA at the home agent, I-TCP handoff starts and in the meantime packets are buffered at the middle node
 
-## ADVANTAGES
+## Advantages
 
 - flow and congestion control are separated in the 2 segments
 - retrocompatibility with TCP
 
-## DISADVANTAGES
+## Disadvantages
 
 - Breaks the end to end principle for witch only the endpoint of the communication are aware of the communication channel
 - the middle node maintains state

@@ -5,7 +5,7 @@ tags: []
 index: 35
 ---
 
-# SCALE NORMALIZED LOG
+# Scale normalized log
 
 One of the proposals for the research of features in a [Gaussian scale space](SCALE_INVARIANCE.md#SCALE%20SPACE) it's to find extremes of the $2^{nd}$ derivative of the normalized Gaussian function
 

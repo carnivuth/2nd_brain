@@ -17,7 +17,7 @@ Also the CORBA project offers support for messaging infrastructure, the messagin
 
 locators are implemented trough Interoperable Object Reference (IOR), with different profiles depending on binding protocol
 
-## CALLBACK VS POLLING
+## Callback vs polling
 
 For the callback approach the application defines a callback function to be called
 

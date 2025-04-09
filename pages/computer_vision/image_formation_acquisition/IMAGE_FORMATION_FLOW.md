@@ -4,7 +4,7 @@ aliases: []
 tags: []
 ---
 
-# IMAGE FORMATION FLOW
+# Image formation flow
 
 ```mermaid
 flowchart TD

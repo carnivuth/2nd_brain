@@ -1,4 +1,4 @@
-# STRUMENTI DI PROPRIETÀ INTELLETTUALE
+# Strumenti di proprietà intellettuale
 
 | Strumento        | Durata | Cosa protegge | Deposito necessario? |
 | ---------------- | ------ | ------------- | -------------------- |
@@ -24,7 +24,7 @@ Strumenti in grado di proteggere il nome o l'immagine di determinati beni e serv
 ## [BREVETTI](gip/BREVETTI.md)
 
 Strumenti in grado di proteggere invenzioni che consentono il superamento di un problema tecnico 
-## DIRITTI D'AUTORE
+## Diritti d'autore
 
 Strumenti per la protezione di opere di ingegno creativo (musica, libri, architettura, teatro, cinematografia) ma anche software e progetti ingegneristici
 
@@ -32,19 +32,19 @@ Non vi è la necessita di deposito e hanno **validità fino alla morte del deten
 
 Fanno eccezione i progetti ingegneristici che **vanno depositati e hanno durata di 20 anni**
 
-## DESIGN
+## Design
 
 Strumenti per la protezione delle caratteristiche estetiche dei prodotti (forma colore) e non caratteristiche tecniche 
 
 Deve essere depositato e ha validità di 25 anni, il design deve essere nuovo e avere carattere distintivo
 
-## TRADE SECRETS
+## Trade secrets
 
 Non sono strumenti legali, Hanno lo scopo di proteggere una base di informazioni vitali per il business (es ricetta cocacola)
 
 Per la realizzazione è necessario che ogni dipendente dell'azienda stipuli un **accordo di segretezza** riguardo al bene in questione
 
-## EFFICACIA DEI METODI DI PROTEZIONE
+## Efficacia dei metodi di protezione
 
 L'efficacia di questi sistemi varia da mercato a mercato inoltre vi è anche la problematica di garantire l'efficacia di questi strumenti.
 

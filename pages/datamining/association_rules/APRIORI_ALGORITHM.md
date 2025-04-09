@@ -11,11 +11,11 @@ tags: []
 index: 5
 ---
 
-# APRIORI ALGORITHM
+# Apriori algorithm
 
 The apriori algorithm is a strategy to prune the three of candidates of the [frequent item-set generation](datamining/FREQUENT_ITEMSET_GENERATION.md) fase it's based on the apriori priciple
 
-### APRIORI PRINCIPLE
+### Apriori principle
 If an itemset is frequent, then all of its subsets must also be frequent and viceversa.
 We can see this principle as follows:
 
@@ -25,7 +25,7 @@ $$
 
 this implies that there is no need to compute $sup$ of an itemset that contains an itemset with a $sup \lt threshold$
 
-## THE ALGORITHM
+## The algorithm
 
 The algorithm prunes sub-trees which have a root node with a $sup \lt threshold$
 

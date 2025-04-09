@@ -5,7 +5,7 @@ tags: []
 index: 41
 ---
 
-# ANDROID ASYNCHRONOUS TECHNIQUES
+# Android asynchronous techniques
 
 The android platform offers multiple ways to run tasks in concurrency with the main activity
 
@@ -18,7 +18,7 @@ The android platform offers multiple ways to run tasks in concurrency with the m
 - **AsyncQueryHandler**
 - **Loader**
 
-## SERVICE
+## Service
 
 Service are components that **share the application main thread** and can perform long running tasks with **no user interaction**, they are triggered by application intent
 
@@ -37,26 +37,26 @@ A --> B --> C --> D --the service is stopped by client or itself--> E --> F
 
 a service expose a client server interface for application to bind and send requests, when all applications are unbounded the service is terminated
 
-### FOREGROUND SERVICES
+### Foreground services
 
 more priority than background services but the user must be aware that they exists (*e.g. music players*)
 
-### INTENT SERVICES
+### Intent services
 
 Use a set of worker thread to fullfill requests and stops when done, also lifecicle is simplified
 
-## THREADS
+## Threads
 
 Similar to the java threads main differences are:
 
 - they cannot be destroyed by the invocation of `destroy`
 - they cannot work with the user interface
 
-## HANDLER
+## Handler
 
 associated with a thread and is message queue, it delivers/handle messages and can be used to schedule tasks or interact with other threads queue
 
-## ASYNC TASK
+## Async task
 
 It's created in the UI thread and work in a background thread, the **results is published in the UI thread**
 
@@ -84,7 +84,7 @@ A --> B --after call to publishProgress--> C
 UI_thread ~~~ background_thread
 ```
 
-## WHY ONLY ONE THREAD TO MANAGE UI?
+## Why only one thread to manage ui?
 
 The android UI toolkit is not thread safe so manipulation in concurrent threads are not guaranteed to be consistent
 

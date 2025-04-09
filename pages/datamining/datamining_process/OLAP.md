@@ -9,7 +9,7 @@ index: 2
 
 - navigation is done trough chains of operators
 
-## OLAP OPERATORS
+## Olap operators
 
 ### roll-up
 
@@ -46,7 +46,7 @@ index: 2
  - switches from the multidimensional data model into a operational data
  ![](datamining/Pasted_image_20231005143844.png)
 
-## EXTRACTION TRANSFORMATION AND LOADING (ETL)
+## Extraction transformation and loading (etl)
 
 The **ETL** process aims to get data from sources, improve general data quality, transform data according to the schema and loads it in the DWH
 
@@ -65,7 +65,7 @@ B --> C
 C --> D
 ```
 
-### EXTRACTION
+### Extraction
 
 The extraction phase aims to get data from the datasources, there are 2 possible approaches: **STATIC**  or **INCREMENTAL**
 
@@ -88,11 +88,11 @@ Each approach is more suitable for certain types of data:
 | structured data (from databases or formatted files ) | static (for the first DWH population operation) |
 | unstructured data (from social media)                | incremental (for the update operations on the DWH)|
 
-### CLEANSING
+### Cleansing
 
 - data are processed to improve the quality, data are standardized and mistakes are corrected
 
-#### SOLUTION FOR DATA INCONSISTENCIES
+#### Solution for data inconsistencies
 
 **Dictionary based techniques**
 
@@ -105,22 +105,22 @@ Each approach is more suitable for certain types of data:
 - needed when merging data from different sources and there is no common key
 
 ![](datamining/Pasted_image_20231008181831.png)
-### TRANSFORMATION
+### Transformation
 
 - data are altered to match the information schema on the DWH
 
-#### DENORMALIZATION
+#### Denormalization
 
  - for relational database data are rearranged to reduce the number of queries to do on manipulation fase
 
 ![](datamining/Pasted_image_20231005150109.png)
 
-### LOADING
+### Loading
 
-#### REFRESH
+#### Refresh
 
 - the DWH is completely rewritten with new data
-#### UPDATE
+#### Update
 
 - only changes on source are applied to the DWH existent data are not canceled or modified
 

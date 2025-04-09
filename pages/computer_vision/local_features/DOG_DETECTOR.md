@@ -4,7 +4,7 @@ aliases: []
 tags: []
 index: 36
 ---
-# DOG DETECTOR
+# Dog detector
 
 This detector relies on difference of Gaussian (DOG) in order to find keypoints
 
@@ -16,7 +16,7 @@ This approach is more computational efficient of computing [LOG](computer_vision
 
 ![](computer_vision/Pasted_image_20240314102352.png)
 
-## DOG COMPUTING
+## Dog computing
 
 Computation of dog is done by down-sampling and [gaussian smoothing](computer_vision/GAUSSIAN_FILTER.md) the input image in order to obtain the scale space and then by computing differences between adjacent scale levels
 
@@ -28,7 +28,7 @@ a point is detected as a feature if it's DoG is an extreme of its 26 neighbors
 
 ![](computer_vision/Pasted_image_20240314103712.png)
 
-## DOG IMPROVEMENTS WITH FILTERS
+## Dog improvements with filters
 
 In order to localize keypoints in an accurate way and remove unstable point [filter procedures](computer_vision/IMAGE_FILTERS.md) are needed
 

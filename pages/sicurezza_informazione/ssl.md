@@ -5,7 +5,7 @@ tags: []
 index: 12
 ---
 
-# Secure socket layer (SSL)
+# Secure socket layer (ssl)
 
 Soluzione a livello di trasporto per garantire la confidenzialita, l'autenticita e l'integrita tra due host che intendono comunicare
 
@@ -43,7 +43,7 @@ client ->> server: dati
 server ->> client: dati
 ```
 
-## Sessione SSL
+## Sessione ssl
 
 Una sessione e caratterizzata da uno stato definito da:
 
@@ -54,7 +54,7 @@ Una sessione e caratterizzata da uno stato definito da:
 - Cifrario ed algoritmo hash (*utilizzati per trasformare i dati*)
 - Segreto principale
 
-## Connessione SSL
+## Connessione ssl
 
 Parametri che definiscono uno stato di una connessione:
 

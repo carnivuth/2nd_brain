@@ -19,7 +19,7 @@ In queste situazioni il paradigma si sposta da un potenziamento della singola is
 
 Questo porta alla necessita di gestire i dati all'interno di cluster di macchine connesse in rete e limitare i flussi di trasferimento di dati non necessari, aumentando il numero di macchine e di componenti hardware aumentano anche le probabilità che ci siano guasti hardware e software, e necessario pensare sistemi in grado di operare in ambienti ostili
 
-## Gestire i dati in infrastrutture distribuite: Distributed Filesystem DFS
+## Gestire i dati in infrastrutture distribuite: distributed filesystem dfs
 
 Per gestire i dati in questi scenari si fa uso di filesystem distribuiti, questi adoperano secondo i seguenti principi
 
@@ -34,7 +34,7 @@ Per gestire i dati in questi scenari si fa uso di filesystem distribuiti, questi
 
 una delle implementazioni più note e quella di **HADHOOP** 
 
-## Gestire la concorrenza: Map Reduce
+## Gestire la concorrenza: map reduce
 
 Paradigma di sviluppo pensato per gestire la concorrenza in ambienti distribuiti come i datacenter, il codice viene suddiviso in due fasi:
 

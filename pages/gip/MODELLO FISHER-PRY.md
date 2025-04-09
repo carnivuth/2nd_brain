@@ -1,8 +1,8 @@
-# MODELLO FISHER-PRY
+# Modello fisher-pry
 
  modello utilizzato per prevedere l'andamento delle performance tecnologiche e del cambio tecnologico
 
-## ASSUNZIONI
+## Assunzioni
 
 il modello prevede tre assunzioni fondamentali:
 
@@ -12,7 +12,7 @@ il modello prevede tre assunzioni fondamentali:
 
 - il tasso di sostituzione e proporzionale all'ammontare della vecchia tecnologia presente sul mercato
 
-## FUNZIONE $y$
+## Funzione $y$
 
 prevede l'andamento dell'evoluzione tecnologica nel tempo
 
@@ -20,7 +20,7 @@ $$
 y=\frac{L}{1+be^{-ct} }
 $$
 
-## FUNZIONE $f$
+## Funzione $f$
 
 prevede l'andamento della sostituzione di una tecnologia con un'altra nel mercato
 
@@ -29,7 +29,7 @@ f=\frac{1}{1+be^{-ct} }
 $$
 
 
-## DIFFUSIONE NEL MERCATO
+## Diffusione nel mercato
 
 ![](gip/Pasted%20image%2020231214185032.png)
 
@@ -41,7 +41,7 @@ Il punto più complesso da raggiungere per le aziende è la fetta degli early ma
 - EARLY ADOPTERS: 13,5%
 - EARLY MAJORITY & LATE MAJORITY: 34%
 - LAGGARDS: 16%
-### STRATEGIE PER SUPERARE L'ABISSO
+### Strategie per superare l'abisso
 
 - puntare su una strategia detta a **testa di ponte** partire da un mercato di nicchia e poi espanderlo utilizzando la strategia del **marketing verticale**
 

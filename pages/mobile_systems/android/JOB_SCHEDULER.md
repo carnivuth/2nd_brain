@@ -5,7 +5,7 @@ tags: []
 index: 42
 ---
 
-# JOB SCHEDULER
+# Job scheduler
 
 Element that allow multiple background tasks to be grouped together, in order to minimize battery drain, is based on 3 components
 

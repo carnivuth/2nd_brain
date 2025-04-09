@@ -2,7 +2,7 @@
 index: 16
 ---
 >eh beh era anche ora di impararlo..... stavolta sul serio
-# JAVASCRIPT
+# Javascript
 
 Linguaggio con un approccio funzionale con funzioni e chiusure semplice e pratico, con una sintassi leggera, adotta un modello object-based senza classi, basato sul concetto di prototipo è un linguaggio interpretato, con aspetti dinamici di grande interesse
 
@@ -15,9 +15,9 @@ Ci sono anche dei contro dovuti alla giovinezza e alla crescita troppo rapida:
 - il loose typing riduce le possibilità di intercettare errori di tipo,
 - l'ereditarietà prototype-based è concettualmente potente, ma non facile da applicare per chi viene da linguaggi "class based"
 
-## CRASH COURSE: LE BASI
+## Crash course: le basi
 
-### TIPI
+### Tipi
 
 Il tipo `string` denota stringhe di caratteri Unicode **no tipo char** (*un carattere è una stringa lunga 1*), le stringhe sono **oggetti immutabili** (*java maniera*), l'operatore `+` le concatena 
 
@@ -33,7 +33,7 @@ Il tipo `number` denota un reale a 64 bit **no interi** (*la divisione è sempre
 
 Costanti boolean: `true` e `false`, Altre costanti: `null` e `undefined` (*valore indefinito restituito da funzioni che non restituiscono nulla e assegnato a variabili prima della loro valorizzazione*)
 
-### ESPRESSIONI
+### Espressioni
 
 espressioni numeriche: somma, sottrazione, prodotto, divisione (*sempre fra reali*), modulo, shift (*come in java*)
 - espressioni condizionali con ? … :
@@ -46,7 +46,7 @@ document.write(18%2)
 document.write("paolino" + 'paperino')
 ```
 
-### VARIABILI
+### Variabili
 
 Le variabili in Javascript sono **loosely typed** ovvero è possibile assegnare alla stessa variabile prima un valore di un tipo, poi un valore di un altro tipo
 
@@ -113,7 +113,7 @@ return // restituisce undefined
 18;// (statement irraggiungibile)
 ```
 
-### STRUTTURE DI CONTROLLO
+### Strutture di controllo
 
 Solite strutture `if`, `switch`, `for`, `while`
 • Costrutti per operare su oggetti: `for/in` e `with` (*il `for/in` itera sui nomi degli elementi, non sugli elementi stessi*)
@@ -128,13 +128,13 @@ for (val in array){
 }
 ```
 
-### OPERATORI
+### Operatori
 
 I Soliti  (`==`,`!=`,`>`,`<`,`>=`,`<=`)  e anche AND (`&&`), OR (`||`), NOT (`!`)
 
 Nella valutazione si considera **falso non solo il valore `false`**, ma ogni valore falsy ovvero anche `null`, `undefined`, la stringa vuota `''`, il valore `0`,`NaN` Ogni altro oggetto, inclusa la stringa `'false'`, è vero.
 
-### EVIL BROTHERS
+### Evil brothers
 
 Gli operatori `==` e `=!` applicano type coercion secondo regole innaturali, con risultati talora incomprensibili (per compensare sono stati introdotti `===` e `!==`)
 
@@ -150,7 +150,7 @@ console.log(null == undefined )//true – fulgido esempio di coerenza ☺
 console.log(' \t\r\n' == 0 )//true – perché..
 ```
 
-## FUNZIONI
+## Funzioni
 
 Le funzioni sono introdotte dalla keyword `function` (*possono non avere un nome*) oppure per mezzo di lambda expression
 
@@ -166,7 +166,7 @@ var sum = (a,b) => a+b;
 
 >[!NOTE] notare che i parametri non hanno dichiarazione di tipo
 
-### FUNCTION EXPRESSION VS FUNCTION DECLARATION
+### Function expression vs function declaration
 
 l'operazione di function expression assegna una funzione a una variabile (*possibile funzione anonima*)
 
@@ -184,7 +184,7 @@ function g(x){ return x/10; }
 g(32)
 ```
 
-## CHIUSURE
+## Chiusure
 
 javascript implementa le funzioni come [first class entities](PROCESSI_COMPUTAZIONALI.md#FUNZIONI%20COME%20FIRST%20CLASS%20ENTITIES), e dunque possibile creare [chiusure](PROCESSI_COMPUTAZIONALI.md#CHIUSURA)
 
@@ -197,7 +197,7 @@ z = a(Math.sin,2)
 console.log(z(3))
 ```
 
-### CURRYING
+### Currying
 
 Particolare caso di chiusura in cui funzioni a $n$ argomenti vengono simulate per mezzo di chiusure di funzioni a un argomento (*utilizzato per il [lambda_calcolo](linguaggi_modelli_computazionali/LAMBDA_CALCOLO.md)*)
 
@@ -214,7 +214,7 @@ console.log(a(3)(5))
 >[!NOTE] Il currying è concettualmente interessante, perché indica che l’unico '*ingrediente*' fondamentale per esprimere qualunque funzione sono le **funzioni a un argomento**
 
 
-### IMPLEMENTARE NUOVE STRUTTURE DI CONTROLLO
+### Implementare nuove strutture di controllo
 
 Grazie alle chiusure e possibile implementare nuovi '*operatori*' dove la **funzione che crea la chiusura definisce il controllo** e un **argomento di essa definisce l'azione da eseguire**
 
@@ -233,7 +233,7 @@ oddloop((k)=>(console.log(k)),5)()
 oddloop(()=>(console.log("funziona :)")),5)() 
 ```
 
-### CHIUSURE E BINDING DELLE VARIABILI
+### Chiusure e binding delle variabili
 
 Importante puntualizzare che a ogni chiusura corrisponde un istanza delle variabili quindi:
 
@@ -265,7 +265,7 @@ fillfunctionsarray(a)
 for (e in a){console.log(a[e]());}
 ```
 
-## OGGETTI
+## Oggetti
 
 Javascript adotta un modello object based in cui:
 
@@ -313,7 +313,7 @@ console.log(p.bd);
 
 >[!QUOTE] sembrano array associativi 
 
-### METODI E PROPRIETÀ DI CLASSE 
+### Metodi e proprietà di classe 
 
 In java si e abituati a scrivere cose del tipo:
 
@@ -336,7 +336,7 @@ Person.computeAge= function(){return 10}
 console.log(Person.computeAge())
 ```
 
-### PROPRIETÀ PRIVATE
+### Proprietà private
 
 A default le proprietà di un oggetto sono tutte pubbliche, e possibile implementare una proprietà privata per mezzo di una [chiusura](PROCESSI_COMPUTAZIONALI.md#CHIUSURA)
 
@@ -353,7 +353,7 @@ console.log(p.getName())
 console.log(p.name)
 ```
 
-### PROTOTIPI
+### Prototipi
 
 Ogni oggetto referenzia il suo prototipo tramite una proprietà nascosta, chiamata `__proto__`
 
@@ -453,7 +453,7 @@ classDiagram
 
 Le relazioni fra prototipi sono modificabili a runtime, ergo e possibile modificare il campo `prototipe` di un costruttore e questo si riflettera sugli oggetti costruiti da li in avanti:
 
-### TYPE AUGMENTING
+### Type augmenting
 
 Si a quando viene modificato il prototype del costruttore per aggiungere campi:
 
@@ -474,7 +474,7 @@ console.log(p.family)// undefined perche __proto__ riferisce il vecchio prototyp
 console.log(a.family)// valorizzata :)
 ```
 
-### INHERITING
+### Inheriting
 
 Questo meccanismo può essere utilizzato anche per implementare una ereditarietà prototipale nel seguente modo:
 
@@ -498,17 +498,17 @@ Student.prototype=protoStudent
 protostudent.constructor=Student
 ```
 
-### MA LE CLASSI?
+### Ma le classi?
 
 javascript introduce le classi come costrutto puramente sintattico sopra la gerarchia di prototipi, la classe stessa e la funzione costruttore
 
-### OGGETTO GLOBALE
+### Oggetto globale
 
 In javascript il contesto globale e definito da un oggetto non specificato che dipende dal environment di esecuzione (*browser: oggetto window/server: oggetto request*) questo puo essere rilevante se si usa la funzione `eval`
 
 La funzione `eval` interpreta la stringa ricevuta come programma javascript con accesso read/write agli ambienti esterni ad esso
 
-## COSTRUIRE FUNZIONI DINAMICAMENTE
+## Costruire funzioni dinamicamente
 
 In base a quanto detto prima le funzioni sono oggetti generati dalla loro funzione costruttrice `Function`.....
 
@@ -523,7 +523,7 @@ I primi $n-1$ parametri del costruttore function sono gli argomenti della funzio
 
 questo consente di generare funzioni da letteralmente qualunque cosa (*dati da api/file/database/input utente*) con un occhio di riguardo alla arbitrary code execution 
 
-### CHIAMATE INDIRETTE `call` `apply`
+### Chiamate indirette `call` `apply`
 
 Vi e anche la possibilità di eseguire funzioni per via indiretta
 
@@ -536,7 +536,7 @@ console.log(test.apply(undefined, [3,4,5] ))
 console.log(test.call(undefined, 3, 4, 5 ))
 ```
 
-## ARRAYS
+## Arrays
 
 Gli array vengono generati dal costruttore `Array` 
 

@@ -5,7 +5,7 @@ tags: []
 index: 57
 ---
 
-# REPRESENTATIONAL STATE TRANSFER (REST)
+# Representational state transfer (rest)
 
 Architectural pattern that relies on the client server communication model in order to make communications with the following characteristics
 

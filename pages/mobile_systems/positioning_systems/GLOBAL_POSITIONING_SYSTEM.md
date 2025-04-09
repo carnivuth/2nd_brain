@@ -5,7 +5,7 @@ tags: []
 index: 20
 ---
 
-# GLOBAL POSITIONING SYSTEM (GPS)
+# Global positioning system (gps)
 
 GPS is a positioning system that exploits dedicated hardware (*e.g. satellites*) for improved performance in localization capabilities
 
@@ -15,7 +15,7 @@ The concept is to use [lateration](BASE_TECHNIQUES.md#LATERATION) in combination
 
 GPS satellites needs to have a perfect synchronized clock, $1_{\mu s}$ can achive an error of around 300 meters
 
-## DIFFERENTIAL GPS
+## Differential gps
 
 to reduce the error range of GPS a base station with a fixed position is used to correct the error in the satellites measures
 

@@ -1,15 +1,15 @@
 ---
 index: 19
 ---
-# SCALA
+# Scala
 
 Scala e uno degli esempi più fiorenti di [linguaggio blended](linguaggi_modelli_computazionali/LINGUAGGI_BLENDED.md), riprende molte caratteristiche dei linguaggi funzionali e possiede inoltre un type system forte 
 
-## CARATTERISTICHE
+## Caratteristiche
 
 Scala consente di definire in un inner scope una variabile omonima a una già esistente in un outer scope (*shadowing*)
 
-### FUNZIONI
+### Funzioni
 
 le funzioni sono introdotte dalla parola chiave `def` e specifica di tipo postfissa (*anziché prefissa come in C e Java*), e solitamente omessa se può essere inferita
 
@@ -20,7 +20,7 @@ def abs( x:Float ) : Float={
 println(abs(-4))
 ```
 
-### TYPE INFERENCE
+### Type inference
 
 La specifica di tipo può essere omessa in tutti quei casi in cui possa essere inferita in modo certo
 
@@ -42,13 +42,13 @@ hello("world")
 
 scala volutamente **non supporta l’assegnamento multiplo** a tal fine, l'assegnamento è una espressione di tipo Unit che restituisce la speciale costante `()`
 
-### STRUTTURE DI CONTROLLO
+### Strutture di controllo
 
 Scala ha solo cinque strutture di controllo predefinite: `if`, `while`, `for`, `try`, `match`
 
 Questo per evitare il proliferare di costrutti, inoltre scala fornisce all'utente la possibilità di [definire nuovi costrutti](#DEFINIRE%20UN%20COSTRUTTO%20BUILTIN), in modo da arricchire il linguaggio per mezzo di nuovi costrutti anziché librerie, inoltre tutti i **costrutti sono espressioni**  in modo da favorire approcci più funzionali
 
-### PROGRAMMA STANDALONE
+### Programma standalone
 
 In Scala, il main non può stare in una classe, che non ammette membri statici: sta in un oggetto singleton (*più OOP*)
 
@@ -64,7 +64,7 @@ object Test1 {
 }
 ```
 
-### NOTAZIONE INFISSA
+### Notazione infissa
 
 scala consente di richiamare un dato operatore per mezzo della notazione infissa
 
@@ -85,7 +85,7 @@ v.update(2,"Quack!")
 println(v(2))
 ```
 
-### PROCEDURE
+### Procedure
 
 Una funzione che non restituisce nulla è di tipo `Unit`, (non `void`),gli argomenti sono sempre implicitamente `val`, non `var`
 
@@ -110,7 +110,7 @@ def myprint(args: String*)
  
 > [!NOTE] Attenzione ai tipi degli argomenti ripetuti: internamente alla funzione, l’argomento ripetuto è mappato su un array, quindi il tipo dell’argomento ripetuto è `Array` di quel tipo esternamente, però, il tipo argomento ripetuto è considerato diverso da un array e quindi incompatibile con esso
 
-### OGGETTO SINGLETON
+### Oggetto singleton
 
 scala consente la definizione di oggetti singleton introdotti dalla parola chiave `object` anziché `class`, sono strutturalmente identici a una classe ma non definiscono un tipo perché non ne esisteranno altre istanze
 
@@ -135,7 +135,7 @@ Un oggetto singleton può essere usato:
 - insieme a una classe, come suo companion object
 - nella composizione di tratti
 
-#### COMPANION OBJECT
+#### Companion object
 
 Un oggetto companion è un particolare singleton che:
 
@@ -154,7 +154,7 @@ object Counter {
 ```
 
 
-### COSTRUTTORI
+### Costruttori
 
 In Scala una classe non ha costruttori espliciti al loro posto, ha parametri di classe usati dal compilatore per generare automaticamente il costruttore primario, inoltre per ridefinire metodi ereditati e necessario il qualificatore di override
 
@@ -169,11 +169,11 @@ class Counter(v:Int) {
 ```
 
 
-### FUNZIONI E CHIUSURE
+### Funzioni e chiusure
 
 Il pieno supporto alle funzioni come [first-class objects](PROCESSI_COMPUTAZIONALI.md#FUNZIONI%20COME%20FIRST%20CLASS%20ENTITIES) comporta un altrettanto pieno supporto alle [chiusure](PROCESSI_COMPUTAZIONALI.md#CHIUSURA), per cui viene preferita la chiusura lessicale e le variabili libere **vengono chiuse per mezzo di riferimenti alle variabili esterne**, ciò significa che risentono dei cambiamenti ad esse
 
-### CONVERSIONI IMPLICITE
+### Conversioni implicite
 
 Come in C++, scala consente di definire conversioni implicite di tipo che saranno applicate automaticamente, questo torna utile per permettere l'uso commutativo degli operatori
 
@@ -249,7 +249,7 @@ object Frazione {
 }
 ```
 
-### ECCEZIONI
+### Eccezioni
 
 Le eccezioni in scala sono simili a java, con alcune differenze tra cui:
 - anche l'espressione throw ha un tipo di ritorno: `Nothing` che non sarà mai valutata e quindi non produrrà mai un "*valore*"
@@ -277,7 +277,7 @@ object TestExceptions {
 
 >[!NOTE] ogni `case` cattura un caso attraverso pattern matching
 
-### PATTERN MATCHING
+### Pattern matching
 
 In scala e possibile "*smontare*" un oggetto (*object destructuring*) in un insieme di componenti che possono poi essere riferite successivamente 
 
@@ -294,7 +294,7 @@ Questo torna molto utile insieme al `for` per accedere in maniera pulita alle co
 val persone=(("mario","rossi"),("mario","rossi"))
 for ((name,surname) <- persone) print(surname+" "+name)
 ```
-### COSTRUTTO MATCH
+### Costrutto match
 
 scala rimpiazza il costrutto switch con un ben più potente costrutto `match` con le seguenti caratteristiche:
 
@@ -320,7 +320,7 @@ object Point{
 }
 ```
 
-## DEFINIRE UN COSTRUTTO BUILTIN
+## Definire un costrutto builtin
 
 Scala ha tutti gli strumenti per consentire la definizione di costrutti builtin:
 
@@ -342,7 +342,7 @@ def repeat(n:Int)(expr: =>Unit):Unit={
 repeat(3){print("hi")}
 ```
 
-## EREDITARIETÀ ESTESA: I TRATTI
+## Ereditarietà estesa: i tratti
 
 Scala estende il concetto delle interfacce java con i **tratti**, un tratto si definisce come segue
 
@@ -352,7 +352,7 @@ trait tratto{}
 
 Come per le interfacce java un tratto non può generare istanze, ma al contrario delle stesse può definire codice e estendere altre classi 
 
-### MIXING DEI TRATTI
+### Mixing dei tratti
 
 un tratto può ereditare sia da un altro tratto che da una classe e una stessa classe può comporsi di più tratti:
 
@@ -375,7 +375,7 @@ val a = new Animale with cammina()
 val b = new Animale with respira()
 ```
 
-### TRATTI E OVERRIDE DI METODI
+### Tratti e override di metodi
 
 Un tratto puo a sua volta effettuare l'override di metodi della classe da cui eredita, per evitare ambiguita in caso di tratti che estendano lo stesso metodo, **la risoluzione della keyword `super` viene effettuata a runtime**
 
@@ -393,7 +393,7 @@ println((new Animale("asdrubale") with Cammina with Respira).toString())
 println((new Animale("ubaldo") with Respira with Cammina).toString())
 ```
 
-### RISOLUZIONE DI `super` PER MEZZO DELLA LINEARIZZAZIONE
+### Risoluzione di `super` per mezzo della linearizzazione
 
 e possibile comporre i tratti perché la risoluzione delle catene di `super` avviene a runtime sfruttando il fatto che i tratti **non possono avere costruttori** di conseguenza non ci sono ambiguità nella catena risolutiva
 
@@ -404,7 +404,7 @@ B[calls Cammina.toString]
 C[calls Animale.toString]
 A --> B --> C
 ```
-### ALGORITMO DI LINEARIZZAZIONE
+### Algoritmo di linearizzazione
 
 data una classe definita come segue
 
@@ -417,7 +417,7 @@ L'algoritmo di linearizzazione procede come segue:
 - si considera al catena della classe padre `B` (*che e sempre e solo una*)
 - si aggiungono se non presenti le catene dei tratti (*da sinistra a destra*)
 
-## COLLECTIONS
+## Collections
 
 In scala le collection sono fornite in due versioni, (*per non scoraggiare troppo le migrazioni di codebase da java*) 
 
@@ -426,7 +426,7 @@ In scala le collection sono fornite in due versioni, (*per non scoraggiare tropp
 
 tra le collection sono disponibili `List` `Array` `Tuple` `Set` `Map` 
 
-## VARIANZA E COVARIANZA
+## Varianza e covarianza
 
 In scala e possibile specificare la varianza dei tipi parametrici
 
@@ -436,11 +436,11 @@ def append[U >: T](element: U) {..}
 }
 ```
 
-## TIPO `Option`
+## Tipo `option`
 
 Scala introduce il tipo `Option` come analogo degli optional di java, questo per evitare argomenti passati come null (*si ricorda che ciò in scala non  e possibile per la [gerarchia di tipi](LINGUAGGI_BLENDED.md#TIPI)*) 
 
-## EXTRACTORS
+## Extractors
 
 Le funzionalità di [pattern matching](#PATTERN%20MATCHING) di scala come definite sopra sono utilizzabili solo per mezzo di [classi dati](LINGUAGGI_BLENDED.md#CLASSI%20DATI), per poterle utilizzare anche con oggetti generati da classi normali scala mette a disposizione gli **extractors**,  ovvero oggetti che definiscono un metodo `unapply()` duale di `apply()` che estrae i valori di un oggetto
 
@@ -461,7 +461,7 @@ def filtra(x : AnyRef) =
 ```
 
 
-## INTEROPERABILITÀ CON `JAVA`
+## Interoperabilità con `java`
 
 Scala, compilando in bytecode  e eseguendo sulla JVM e direttamente interoperabile con java, infatti alcune delle funzionalita introdotte da scala sono mappate *quasi* in corrispettive astrazioni java
 

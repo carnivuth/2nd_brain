@@ -104,7 +104,7 @@ Come mostrato in precedenza DB2 contempla la presenza [di indici non perfettamen
 
 >[!NOTE] I piani di accesso index-only non necessitano di indici clustered
 
-### Collezione di statistiche su DB2
+### Collezione di statistiche su db2
 
 Le informazioni statistiche su tabelle e indici sono fondamentali per permettere all'ottimizzatore di operare scelte accurate e per poter ragionare in fase di tuning
 
@@ -148,7 +148,7 @@ in caso di table partizionate si può partizionare anche gli indici
 
 >[!NOTE] questo per evitare in fase di update di dover scandire tutte le partizioni
 
-## Transazioni e SQL server-side
+## Transazioni e sql server-side
 
 Un aspetto fondamentale per il tuning e la gestione delle transazioni in particolare
 

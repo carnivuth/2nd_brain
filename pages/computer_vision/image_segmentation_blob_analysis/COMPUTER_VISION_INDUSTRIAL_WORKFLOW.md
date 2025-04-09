@@ -4,7 +4,7 @@ aliases: []
 tags: []
 index: 21
 ---
-# COMPUTER VISION INDUSTRIAL WORKFLOW
+# Computer vision industrial workflow
 
 Computer vision processes in industrial environment follow this schema
 

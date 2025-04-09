@@ -5,7 +5,7 @@ tags: []
 index: 48
 ---
 
-# AMAZON WEB SERVICES IoT PLATFORM
+# Amazon web services iot platform
 
 Amazon cloud solution for iot hub, that is composed of different cloud services
 

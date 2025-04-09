@@ -1,4 +1,4 @@
-# MARCHI
+# Marchi
 
 Prevedono il divieto di utilizzare una data parola con una determinata grafica da parte delle aziende che non possiedono il marchio
 

@@ -5,11 +5,11 @@ tags: []
 index: 5
 ---
 
-# DECISION TREE PRUNING
+# Decision tree pruning
 
 In order to avoid over fitting  pruning can be done
 
-## C4.5 STRATEGY
+## C4.5 strategy
 
 based on the error, it prunes the leaves if the maximum error of the root of a subtree is lower than the weighted sum of the errors of the leaves
 
@@ -20,11 +20,11 @@ where:
 $$
 ei = \sum_{leaf}{e}
 $$
-## BEFORE PRUNING
+## Before pruning
 
 ![](datamining/Pasted_image_20231230175754.png)
 
-## AFTER PRUNING
+## After pruning
 
 ![](datamining/Pasted_image_20231230175803.png)
 

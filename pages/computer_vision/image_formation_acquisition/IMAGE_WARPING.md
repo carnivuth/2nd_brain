@@ -5,7 +5,7 @@ tags: []
 index: 14
 ---
 
-# IMAGE WARPING
+# Image warping
 
 The image points are converted by a pair of functions $f_{u}(u,v),f_{v}(u,v)$ into a new image
 
@@ -27,7 +27,7 @@ v = g_{v}(u^{'},v^{'})
 \end{cases} \space \forall \space (u^{'},v^{'}): I^{'}(u^{'},v^{'}) = I(g_{u}(u^{'},v^{'}),g_{v}(u^{'},v^{'}))
 $$
 
-## WARPING TO COMPENSATE LENS DISTORTION
+## Warping to compensate lens distortion
 
 once the lens distortion parameter are computed by [camera calibration](computer_vision/CAMERA_CALIBRATION.md) it's possible to get back the un-distorted points by a backward warp
 

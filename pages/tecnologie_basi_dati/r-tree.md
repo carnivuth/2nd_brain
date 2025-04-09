@@ -18,7 +18,7 @@ I nodi interni dell'albero si presentano nella forma `(MBB, PID)`, dove la chiav
 
 ![](tecnologie_basi_dati/Pasted%20image%2020250216184643.png)
 
-## Concetto di MBB
+## Concetto di mbb
 
 La minima bounding box e definita come la regione hyper-rettangolare minima che contiene un set di punti $m$
 

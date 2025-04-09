@@ -5,7 +5,7 @@ tags: []
 index: 6
 ---
 
-# DENSITY BASED CLUSTERING
+# Density based clustering
 
 The concept is that cluster are high density regions separated by low density regions. There are 2 approaches
 

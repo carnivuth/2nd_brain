@@ -4,23 +4,23 @@ aliases: []
 tags: []
 ---
 
-# ESAME
+# Esame
 
 > data una grammatica mostrare che e riconoscibile per mezzo di $LL(1)$
-## GRAMMATICA
+## Grammatica
 
 - $S \rightarrow dSAB|BC$
 - $A \rightarrow aA|C$
 - $B \rightarrow bB|\epsilon$
 - $C \rightarrow c$
 
-### PUMPING LEMMA PER DIMOSTRARE CHE NON E DI TIPO 3
+### Pumping lemma per dimostrare che non e di tipo 3
 
 si dimostra per mezzo della stringa $d^ncc^n$ in cui non e identificabile il pezzo centrale per effettuare la scomposizione nei tre pezzi $xwy$ in quanto il pezzo centrale ripetuto non e in grado di generare le due parti della stringa
 
 >[!NOTE] si vedeva subito anche dal fatto che la prima regola di produzione presenta [self embedding](GRAMMATICHE_TIPO_2.md#SELF%20EMBEDDING) e il corrispondente automa a stati finiti avrebbe avuto infiniti stati
 
-### CALCOLO DEI [DIRECTOR SYMBOLS SET](GRAMMATICHE_LLK.md#DIRECTOR%20SYMBOLS%20SET)
+### Calcolo dei [director symbols set](grammatiche_llk.md#director%20symbols%20set)
 
 - $DSS(S -> dSAB)= \{d\}$
 - $DSS(S -> BC)= \{c,b\}$
@@ -37,7 +37,7 @@ si ha un conflitto nei [director symbol set](GRAMMATICHE_LLK.md#DIRECTOR%20SYMBO
 
 > mostrare che la ricorsione sinistra si può rimuovere ma si ottiene una grammatica diversa
 
-### RIMOZIONE DELLA RICORSIONE SINISTRA
+### Rimozione della ricorsione sinistra
 
 - $S \rightarrow dSAB|BC$
 - $A \rightarrow aA|C$
@@ -49,7 +49,7 @@ La ricorsione sinistra e rimovibile ma si ottiene una grammatica diversa, non ot
 
 > tentare l'approccio con analisi $LR(0)$  e $SLR$ per verificare se si può mantenere la ricorsione sinistra senza modificare il linguaggio
 
-### CALCOLO DEI [CONTESTI SINISTRI](GRAMMATICHE_LRK.md#CONTESTI%20SINISTRI%20DI%20UNA%20PRODUZIONE)
+### Calcolo dei [contesti sinistri](grammatiche_lrk.md#contesti%20sinistri%20di%20una%20produzione)
 
 - $LEFTCTXLR(0)(Z) = \{\epsilon\}$
 - $LEFTCTXLR(0)(S) = LEFTCTXLR(0)(Z),LEFTCTXLR(0)(S)d$
@@ -57,7 +57,7 @@ La ricorsione sinistra e rimovibile ma si ottiene una grammatica diversa, non ot
 - $LEFTCTXLR(0)(B) = LEFTCTXLR(0)(S)dSA,LEFTCTXLR(0)(S),LEFTCTXLR(0)(B)b$
 - $LEFTCTXLR(0)(C) = LEFTCTXLR(0)(A),LEFTCTXLR(0)(C),LEFTCTXLR(0)(S)B$
 
-### CALCOLO DEI [CONTESTI LR(0)](GRAMMATICHE_LRK.md#CONTESTI%20$LR\(0\)$)
+### Calcolo dei [contesti lr(0)](grammatiche_lrk.md#contesti%20$lr\(0\)$)
 
 - $CTXLR(0)(Z \rightarrow S) = \epsilon$
 - $CTXLR(0)(S \rightarrow dSAB) = d^*dSAB$
@@ -73,7 +73,7 @@ La grammatica in questione non risulta essere [lr(0)](GRAMMATICHE_LRK.md#ANALISI
 
 > [!NOTE] per essere $LR(0)$ non devono esserci ricorsioni destre del tipo $A\rightarrow aA|a$ ne produzioni dello stesso metasimbolo che iniziano con la stessa forma di frase e si differiscono per un terminale $S\rightarrow B|Ba$, neanche le produzioni della forma $B\rightarrow bB|\epsilon$ sono corrette in quanto generano nel automa conflitti shift/reduce per via dell $\epsilon$-mossa
 
-### CALCOLO DEGLI INSIEMI $FOLLOW_1$
+### Calcolo degli insiemi $follow_1$
 
 - $FOLLOW_1(S)=END,a,c$
 - $FOLLOW_1(A)=b,END,$
@@ -94,7 +94,7 @@ e i conseguenti contesti $SLR$
 
 La grammatica risulta essere $SLR$
 
-## COSTRUTTO `lesect`
+## Costrutto `lesect`
 
 costrutto per eseguire una data azione su tutti gli elementi di un array uguali a un dato target
 
@@ -102,7 +102,7 @@ costrutto per eseguire una data azione su tutti gli elementi di un array uguali 
 lesect(oggetto_da_iterare,target){funzione da svolgere sull'oggetto}
 ```
 
-### SCALA
+### Scala
 
 ```scala
 def lesect[T](a:Iterable[T],t:T)(expr:(T) =>Unit):Unit={
@@ -116,7 +116,7 @@ val a=Array("a","b","b")
 lesect(a,"b"){print}
 ```
 
-### JAVASCRIPT
+### Javascript
 
 ```javascript
 function lesect(iterable,target){
@@ -134,7 +134,7 @@ lesect(a,"b")(console.log)
 lesect(a,"c")(console.log)
 ```
 
-## IL CACCIAVITE DEL SISTEMISTA (`grep` DEI POVERI)
+## Il cacciavite del sistemista (`grep` dei poveri)
 
 con il potentissimo costrutto `lesect`  e la possibilità offerta da javascript di [costruire funzioni dinamicamente](JAVASCRIPT.md#COSTRUIRE%20FUNZIONI%20DINAMICAMENTE) si possono ricreare molti tool unix semplicemente modificando un file,
 
@@ -193,7 +193,7 @@ echo -e "a\nb\nb" | node mktool.js poorgrep.txt b
 echo -e "a\nb\nb" | node mktool.js poorsed.txt a c
 ```
 
-## TRATTI DI SCALA: LE REVERSE PIPES
+## Tratti di scala: le reverse pipes
 
 mostrare come scala risolve il problema dell'ereditarietà multipla per mezzo dei [tratti](#TRATTI%20DI%20SCALA), e le limitazioni dei tratti parametrici
 

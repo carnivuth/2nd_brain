@@ -5,7 +5,7 @@ aliases:
 index: 11
 ---
 
-# Ordinare i dati: Sort
+# Ordinare i dati: sort
 
 L'azione di sort dei dati non e un operatore dell'algebra ma risulta molto utile per risolvere alcune situazioni tra cui query `ORDER BY`, [bulk loading](b+tree.md#Bulk%20loading) degli indici e operatori di `JOIN` e `GROUP BY`.
 
@@ -59,7 +59,7 @@ C[scrivi il buffer di output sul disco]
 A --> B --> C -- ripeti per finio a che non resta una sola run --> A 
 ```
 
-### Determinare il valore di $Z$
+### Determinare il valore di $z$
 
 La scelta piu immediata per determinare il valore di $Z$ sarebbe farlo piu grande possibile cosi da massimizzarne il vantaggio, tuttavia questo a 2 limitazioni principali:
 

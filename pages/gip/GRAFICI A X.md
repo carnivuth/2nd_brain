@@ -1,4 +1,4 @@
-# GRAFICI A X
+# Grafici a x
 
 Modello che rappresenta il passaggio di mercato tra una tecnologia e l'altra
 

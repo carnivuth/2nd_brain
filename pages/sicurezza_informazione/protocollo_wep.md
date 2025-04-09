@@ -5,7 +5,7 @@ tags: []
 index: 5
 ---
 
-# Protocollo WEP
+# Protocollo wep
 
 Protocollo per la cifratura di testi per mezzo di [cifrari a flusso sincrono](cifrari_simmetrici.md#CIFRARI%20A%20FLUSSO)
 

@@ -1,13 +1,13 @@
-# LINGUAGGI E MODELLI COMPUTAZIONALI
+# Linguaggi e modelli computazionali
 
 Knowledge base personale del corso di linguaggi e modelli computazionali
 
-## TEORIA DEI LINGUAGGI
+## Teoria dei linguaggi
 
 - [teoria della computabilita](linguaggi_modelli_computazionali/COMPUTABILITA.md)
 - [linguaggi e definizioni formali](linguaggi_modelli_computazionali/LINGUAGGI_GRAMMATICHE.md)
 
-## CLASSIFICAZIONE DELLE GRAMMATICHE
+## Classificazione delle grammatiche
 
 - [classificazione delle grammatiche di Chomsky](linguaggi_modelli_computazionali/CLASSIFICAZIONE_CHOMSKY.md)
 - [grammatiche di tipo 0](linguaggi_modelli_computazionali/GRAMMATICHE_TIPO_0.md)
@@ -22,7 +22,7 @@ Knowledge base personale del corso di linguaggi e modelli computazionali
 - [riconoscere una grammatica di tipo 3](linguaggi_modelli_computazionali/RSF.md)
 - [come distinguere grammatiche di tipo 2 e 3](linguaggi_modelli_computazionali/PUMPING_LEMMA.md)
 
-## LINGUAGGI BLENDED
+## Linguaggi blended
 
 - [processi computazionali nei linguaggi](linguaggi_modelli_computazionali/PROCESSI_COMPUTAZIONALI.md)
 - [javascript](linguaggi_modelli_computazionali/JAVASCRIPT.md)
@@ -30,6 +30,6 @@ Knowledge base personale del corso di linguaggi e modelli computazionali
 - [linguaggi blended](linguaggi_modelli_computazionali/LINGUAGGI_BLENDED.md)
 - [SCALA](linguaggi_modelli_computazionali/SCALA.md)
 
-## ESAME
+## Esame
 
 - [esempi per l'esame che ho usato](linguaggi_modelli_computazionali/esame/ESAME.md)

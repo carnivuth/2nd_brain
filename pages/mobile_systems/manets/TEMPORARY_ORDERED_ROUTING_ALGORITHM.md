@@ -5,7 +5,7 @@ tags: []
 index: 15
 ---
 
-# TEMPORARY ORDERED ROUTING ALGORITHM
+# Temporary ordered routing algorithm
 
 TORA is designed to work in highly dynamic environment with a lot of mobility, ope of the main focus is to localize the control messages to a relative small portion of the network
 

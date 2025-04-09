@@ -5,7 +5,7 @@ tags:
 index: 1
 ---
 
-# PERSPECTIVE PROJECTION
+# Perspective projection
 
 The model that rules the conversion from a 3D scene  to an image is called perspective projection, it's based on the [pinhole camera model](https://en.wikipedia.org/wiki/Pinhole_camera_model) and it goes like follow:
 
@@ -22,7 +22,7 @@ $$
 
 It's important to notice that this equations are **inversely proportional** in respect to the depth of the point in the 3D world
 
-## INFORMATION LOSS
+## Information loss
 
 This set of equation is not bidirectional as we are representing a 3D world with a 2D image, so the information loss is inevitable, in the process the following informations are lost:
 
@@ -32,7 +32,7 @@ This set of equation is not bidirectional as we are representing a 3D world with
 
 In order to recover the depth information [stereo image acquisition](computer_vision/STEREO_IMAGE_ACQUISITION.md) can be used
 
-## VANISHING POINTS
+## Vanishing points
 
 The vanishing point of a 3D line is the image of the point at infinity of the line (i.e. the image
 of the point on the line which is infinitely distant from the optical center).

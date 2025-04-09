@@ -4,7 +4,7 @@ aliases:
 tags: 
 index: 2
 ---
-# LINGUAGGI E GRAMMATICHE
+# Linguaggi e grammatiche
 
 Per poter ottenere una [macchina di Turing universale](https://it.wikipedia.org/wiki/Macchina_di_Turing_universale) e necessario dare definizione formale di linguaggio, per comprendere l'inadeguatezza al riconoscimento di definizioni non formali ne citiamo una come segue
 
@@ -18,25 +18,25 @@ Da questa suddivisione si deduce quindi che una macchina di Turing universale de
 - **analisi sintattica** data una sequenza di token generare una rappresentazione interna della frase (*alberi [AST](INTERPRETI.md#INTERPRETAZIONE%20DIFFERITA%20(ABSTRACT%20SYNTAX%20TREE))*)
 - **analisi semantica** data una frase corretta applicare la semantica corretta per la data frase
 
-## STRUTTURA DI UN LINGUAGGIO
+## Struttura di un linguaggio
 
 *Ma quali sono gli elementi che compongono un linguaggio?*
 
 Per rispondere a questa domanda e necessario dare prima alcune definizioni:
 
-### ALFABETO
+### Alfabeto
 
 un alfabeto $A$ è un insieme finito e non vuoto di simboli atomici. Esempio: $A = \{ a, b \}$
 
-### STRINGA
+### Stringa
 
 un stringa è una sequenza di simboli, ossia un **elemento del prodotto cartesiano** $A^n$.
 
-### LINGUAGGIO 
+### Linguaggio 
 
 Dato un alfabeto $A$ un linguaggio $L$ definito su $A$ e un insieme di stringhe su $A$
 
-### CHIUSURA DI UN ALFABETO
+### Chiusura di un alfabeto
 
 L'insime infinito di stringhe composte per mezzo della combinazione di a (*tutti i possibili prodotti cartesiani*)
 
@@ -44,7 +44,7 @@ $$
 A^* = A^0 \cup A^1 \cup A^2 \cup A^3 .....
 $$
 
-#### CHIUSURA POSITIVA DI UN ALFABETO
+#### Chiusura positiva di un alfabeto
 
 la [chiusura](#CHIUSURA%20DI%20UN%20ALFABETO) escludendo la stringa vuota
 
@@ -56,7 +56,7 @@ Ma come si puo dare una definizione delle frasi lecite di un linguaggio costruit
 
 Se il linguaggio e infinito occorre una **notazione finita** in grado di descrivere un **insieme infinito di simboli** ovvero la **grammatica formale**
 
-## GRAMMATICHE FORMALI
+## Grammatiche formali
 
 la grammatica e una notazione formale con cui definire la sintassi di un linguaggio: espressa dalla quadrupla $<VT,VN,P,S>$ dove:
 
@@ -67,7 +67,7 @@ la grammatica e una notazione formale con cui definire la sintassi di un linguag
 
 Una stringa composta da simboli e metasimboli si dice forma di frase.
 
-## DERIVAZIONE
+## Derivazione
 
 date due forme di frase $\alpha,\beta$ si dice che $\beta$ deriva direttamente da $\alpha$ se e vero che
 
@@ -77,7 +77,7 @@ $$
 
 ed esiste una produzione $A \rightarrow \gamma$, in caso non esista una produzione ma una catena di produzioni si parla di derivazione (*non diretta*)
 
-## LINGUAGGIO GENERATO DALLA GRAMMATICA
+## Linguaggio generato dalla grammatica
 
 data una grammatica $G$ si dice linguaggio $L_G$ generato dalla grammatica $G$ **l'insieme delle frasi derivabili dal simbolo iniziale della grammatica applicando le sue produzioni**
 

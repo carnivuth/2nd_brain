@@ -5,11 +5,11 @@ tags: []
 index: 3
 ---
 
-# K-MEANS
+# K-means
 
 algorithm for finding the best clustering scheme
 
-## PROCEDURE
+## Procedure
 
 ```mermaid
 flowchart TD
@@ -24,7 +24,7 @@ flowchart TD
 
 ```
 
-## DISTORTION (*SUM OF SQUARE ERRORS SSE*)
+## Distortion (*sum of square errors sse*)
 
 is the sum of all distances between an element $x_{i}$ of the dataset and it's encoded/decoded output squared
 
@@ -52,20 +52,20 @@ $$
 - each center must be the [centroid](CLUSTERING.md#CENTROID) of the points it owns
 
 
-## CHOOSING STARTING POINT
+## Choosing starting point
 
 choosing the starting point correctly is important, some possible choices are:
 
 - select random starting points
 - choose the $2...k$ starting point as far as possible from the previious ones
 
-## CHOOSING THE $k$ NUMBER OF CLUSTERS
+## Choosing the $k$ number of clusters
 
 choosing the $k$ number of clusters correctly is important, one possible strategy is to use a quantitive evaluation of the quality of the clustering scheme.
 
 The best value to aim to is a compromise between the minimization of intra-cluster distances and the maximization of the inter-cluster distances
 
-## EMPTY CLUSTER
+## Empty cluster
 
 during the clustering some clusters can become empty, so in this case there are 2 choices:
 
@@ -73,10 +73,10 @@ during the clustering some clusters can become empty, so in this case there are 
 - choose a new [centroid](CLUSTERING.md#CENTROID) at random with the maximum **SSE** in order to split in half the cluster with the lowest quality
 
 
-## OUTLIERS
+## Outliers
 
 there can be points far away from the  [centroid](CLUSTERING.md#CENTROID), this points are a bad influence for the [SSE](#DISTORTION_(*SUM_OF_SQUARE_ERRORS_SSE*)), in some cases this points need to be removed
-## COMPLEXITY
+## Complexity
 
 the complexity of the algorithm is :
 
@@ -91,11 +91,11 @@ $$
 
 
 
-## PROS
+## Pros
 
 - kmeans is efficient nearly linear in the number of datapoints
 
-## CONS
+## Cons
 
 - k-means cannot work in space where [distance](datamining/DISTANCES.md) cannot be computed
 - cannot work with nominal data

@@ -5,7 +5,7 @@ tags: []
 index: 7
 ---
 
-# BLUETOOTH (IEEE 802.15.1)
+# Bluetooth (ieee 802.15.1)
 
 Protocol for PAN communication, based on 2.4 frequencies band,it aims to the following goals:
 
@@ -15,13 +15,13 @@ Protocol for PAN communication, based on 2.4 frequencies band,it aims to the fol
 
 This comes with the cost of lower bandwidth so lower data transfer rate
 
-## PROTOCOL STACK
+## Protocol stack
 
 Bluetooth is a complex stack of protocols at different layer and devices can implement only a subset of functionality and not all
 
 ![](mobile_systems/Pasted%20image%2020240312123425.png)
 
-## ARCHITECTURE
+## Architecture
 
 Bluetooth architecture is called PICO-NET where a node plays the role of master and manages the communication with the other nodes and between nodes
 
@@ -40,7 +40,7 @@ Where:
 - maximum of 7 active nodes
 - communication happens on a single channel using [frequency hopping](https://it.wikipedia.org/wiki/Frequency-hopping_spread_spectrum)
 
-## PREPARATION PHASE
+## Preparation phase
 
 In order to communicate 2 nodes need to complete a **preparation phase** in order to construct the topology, this phase is spit in 2 sub-phases:
 
@@ -68,7 +68,7 @@ A --> D
 
 One of the main constraint of Bluetooth communication is that **nodes need to have their clock synchronized**, this is done by imposing the master clock to the slaves that adapts their clocks
 
-## COMMUNICATION WITH MASTER
+## Communication with master
 
 Time is divided by time slots in which only 2 nodes can communicate This is done in order to avoid collisions
 
@@ -76,14 +76,14 @@ The master decide which node can communicate, the master can communicate in all 
 
 ![](mobile_systems/Pasted%20image%2020240312130107.png)
 
-### SCO CHANNELS
+### Sco channels
 
 SCO packets are sent in pre-allocated time slots, in order to guarantee a fixed bandwidth (must have for audio streaming applications)
 
 In order to avoid the consumption of all time slots the master can establish 3 SCO channels at the same time
 
 In this mode re transmissions are not allowed
-### ACL CHANNELS
+### Acl channels
 
 ACL packets are best effort communication with no guaranteed bandwidth this allow for higher bandwidth, it also support asymmetric bandwidth allocation for the  2 directions
 
@@ -91,7 +91,7 @@ In this connection types the slave can transmit only if in the previous time slo
 
 In this mode retransmissions are allowed
 
-## MULTI HOP COMMUNICATION (SCATTER NET)
+## Multi hop communication (scatter net)
 
 Bluetooth supports communication between PICO-NETs if the range allows it
 
@@ -114,11 +114,11 @@ A <--> D
 
 In this configuration a node for each net is selected as the gateway that can forward traffic to the other net. This is a possibility allowed by the protocol but it's not implemented for performance reasons
 
-## SERVICE DISCOVERY PROTOCOL
+## Service discovery protocol
 
 Bluetooth has a discovery protocol in order to identify nodes in the range, this allows also to discover what service the device can offer
 
-## BLUETOOTH LOW ENERGY BLE
+## Bluetooth low energy ble
 
 Improvements in energy consumption with the same performances different set of channels (40 2-MHz channels). Within a channel, data is transmitted using Gaussian frequency shift modulation. Bitrate is 1 Mbit/s, and the maximum transmit power is 10 mW
 
@@ -126,7 +126,7 @@ The main difference is in the protocol of discovery and advertisement on the ava
 
 All **BLE** devices implements the generic attribute (GATT) profile
 
-## BLUETOOTH VS [WIFI](mobile_systems/WIFI.md)
+## Bluetooth vs [wifi](mobile_systems/wifi.md)
 
 | WIFI                                        | BLUETOOTH                                                   |
 | ------------------------------------------- | ----------------------------------------------------------- |

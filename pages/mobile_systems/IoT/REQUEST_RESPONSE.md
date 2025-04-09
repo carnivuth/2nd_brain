@@ -5,7 +5,7 @@ tags: []
 index: 56
 ---
 
-# REQUEST RESPONSE
+# Request response
 
 Model of interaction where one of the nodes plays the role of the server listening and accepting communications by client machines that makes requests, in this model **only client can start a communication**
 

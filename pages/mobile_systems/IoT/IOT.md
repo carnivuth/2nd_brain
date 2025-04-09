@@ -5,7 +5,7 @@ tags: []
 index: 45
 ---
 
-# INTERNET OF THINGS
+# Internet of things
 
 IoT Systems are networks composed of different nodes with different communication capabilities that are interconnected through the internet, the IoT nodes can interact with the real world by sensing information or making physical actions (*read/write*), common infrastructure approach is this
 
@@ -28,7 +28,7 @@ Where a gateway mediates the traffic from the common internet and the IoT device
 
 The IoT network can have specific vertical requirements dictated by the deployment environment
 
-## TASKS OF AN IoT SYSTEM
+## Tasks of an iot system
 
 An IoT system tasks can be resumed as the following:
 

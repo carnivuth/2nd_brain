@@ -5,7 +5,7 @@ aliases:
 index: 10
 ---
 
-# Mesh 3D poligonali
+# Mesh 3d poligonali
 
 In computer graphics gli oggetti 3D vengono approssimati da una rappresentazione della loro superficie detta **B-Rep** (*Boundary representation*) 
 La superficie si assume sia una **[varietà](https://it.wikipedia.org/wiki/Variet%C3%A0_(geometria)) due-dimensionale(two-manifold)** (*l’intorno di ogni punto della superficie è omeomorfo ad un disco piano*)
@@ -80,7 +80,7 @@ D --> E & G
 
 >[!NOTE] per il salvataggio delle mesh 3D uno dei formati possibili e il formato [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) commercializzato dalla Alias-Wavefront
 
-## Editing di mesh 3D
+## Editing di mesh 3d
 
 L'editing di una mesh 3D e quel processo attraverso il quale si applicano modifiche a una mesh 3D aggiungendo rimuovendo facce,vertici e poligoni 
 

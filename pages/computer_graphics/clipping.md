@@ -11,7 +11,7 @@ Il clipping e la pratica di **rimuovere** dalla pipeline di rendering **gli ogge
 
 ![](computer_graphics/Pasted%20image%2020241217130907.png)
 
-## Algoritmo di Cohen-Sutherland
+## Algoritmo di cohen-sutherland
 
 la viewport viene estesa per includere anche le zone esterne alla viewport, alle zone viene applicata un etichetta codificata per mezzo di un valore binario
 
@@ -63,7 +63,7 @@ Il clipping dei singoli poligoni e più complicato che nel caso delle [singole l
 ![](computer_graphics/Pasted%20image%2020241217162717.png)
 >[!ERROR] in questo caso ci sono 2 poligoni risultanti :(
 
-## Stutherland-Hodgman clipping
+## Stutherland-hodgman clipping
 
 L'idea di base e quella di considerare i lati della viewport singolarmente nella fase di clipping
 
@@ -80,7 +80,7 @@ loop viewport sides
 
 L'algoritmo cosi definito può essere parallelizzato in quanto per computare un lato del poligono non e necessario computare i precedenti
 
-#### GENERALIZZAZIONE AL CASO 3D
+#### Generalizzazione al caso 3d
 
 L'algoritmo puo essere generalizzato al 3D, dato il parallelepipedo di vista (*frustum*) viene prima escluse le parti del poligono considerando il front e back plane,
 

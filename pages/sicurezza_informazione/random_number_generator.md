@@ -4,14 +4,14 @@ aliases: []
 tags: []
 ---
 
-# Random number generator (RNG)
+# Random number generator (rng)
 
 Per poter creare chiavi sicure e non deducibili e necessario un componente in grado di generare numeri casuali, l'output di questo componente deve avere le seguenti proprieta:
 
 -   Indipendenza statistica
 -   Valori equiprobabili
 
-## Strumenti per la verifica di un RNG
+## Strumenti per la verifica di un rng
 
 Per verificare la casualità sono stati definiti diversi test statistici. Lo standard FIPS 140-2 prevede su una sequenza di 20000 bit i seguenti test
 
@@ -20,7 +20,7 @@ Per verificare la casualità sono stati definiti diversi test statistici. Lo sta
 -   **Run** va a vedere le stringhe consecutive di 1 o 0, va a vedere per le varie lunghezze se il loro numero è pressoché lo stesso, non c'è una prevalenza rispetto ad un\'altra
 -   **Long Run**
 
-## True random number generator (TRNG)
+## True random number generator (trng)
 
 Generatore che usa come seme eventi del mondo reale che hanno una casualità intrinseca, tali fenomeni possono essere:
 
@@ -32,7 +32,7 @@ Generatore che usa come seme eventi del mondo reale che hanno una casualità int
 
 Il TRNG presenta una bassa frequenza di generazione, non e utilizzabile pertanto in campo applicativo, inoltre presenta una scarsa riproducibilità tra sorgente e destinazione
 
-## Pseudo random number generator (PRNG)
+## Pseudo random number generator (prng)
 
 Sistemi che utilizzano un seme di piccole dimensioni per generare una sequenza di chiavi con algoritmi deterministici, questi si basano sul calcolo dello stato futuro partendo da uno stato precedente
 
@@ -49,7 +49,7 @@ A --> D
 
 Questi sistemi soddisfano la casualità e la riproducibilità ma non l' imprevedibilità infatti la sequenza di bit successiva e deducibile a partire da un determinato valore di uscita
 
-## Cryptographically secure pseudo random bit generator (CSPRNG)
+## Cryptographically secure pseudo random bit generator (csprng)
 
 Strumento che rispetta le caratteristiche di **imprevedibilità, casualità e indeducibilità** dell' uscita.
 
@@ -67,7 +67,7 @@ Per garantire l' indeducibilità e necessario che le funzioni $F$ e/o $G$ siano 
 
 Per poter costruire un CSPRNG esistono delle linee guida definite da un RFC che prevedono la combinazione di un [PRNG](#PSEUDO%20RANDOM%20NUMBER%20GENERATOR%20(PRNG)) con un seme generato da un [TRNG](#TRUE%20RANDOM%20NUMBER%20GENERATOR%20(TRNG))
 
-## Implementazioni di PRNG sicuri
+## Implementazioni di prng sicuri
 
 Le funzioni random dei linguaggi (*e.g. C e java*) non sono utilizzabili in quanto non garantiscono le proprietà necessarie, possibili implementazioni sono realizzabili per mezzo della classe java `secure.random`
 

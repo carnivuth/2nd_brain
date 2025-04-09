@@ -5,7 +5,7 @@ tags: []
 index: 54
 ---
 
-# PUB/SUB MODEL
+# Pub/sub model
 
 model where  nodes plays the role  of publishers and subscribers, publisher send messages and subscribers subscribe to topics and receive messages based on the subscribed topics
 

@@ -5,7 +5,7 @@ tags: []
 index: 11
 ---
 
-# CAMERA CALIBRATION
+# Camera calibration
 
 It's necessary to recover the [PPM](computer_vision/PERSPECTIVE_PROJECTION_MATRIX.md) parameters from the system in order to use the camera model, this process is called camera calibration.
 

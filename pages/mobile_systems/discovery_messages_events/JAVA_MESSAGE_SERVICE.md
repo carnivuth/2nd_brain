@@ -5,7 +5,7 @@ tags: []
 index: 61
 ---
 
-# JAVA MESSAGE SERVICE (JMS)
+# Java message service (jms)
 
 Java solution for messaging systems, key features are:
 
@@ -14,7 +14,7 @@ Java solution for messaging systems, key features are:
 - Possibility of non-blocking reception via listeners
 - Messages sent within a session (via a given Session object) towards the same destination benefit from in-order delivery property
 
-## VENDOR AGNOSTIC
+## Vendor agnostic
 
 JMS is independent from specific vendor solution and allow the application to interact with them in a transparent way
 

@@ -5,7 +5,7 @@ aliases:
 index: 11
 ---
 
-# HTML5 funzioni grafiche 
+# Html5 funzioni grafiche 
 
 HTML5 introdi estende e migliora le versioni HTML precedenti e introduce delle API (Application Programming Interface) per applicazioni
 WEB complesse.
@@ -42,7 +42,7 @@ var context = canvas.getContext('2d');
 var context = canvas.getContext('webgl');
 ```
 
-## Sistema di Coordinate
+## Sistema di coordinate
 
 All'elemento `<canvas>` (*area rettangolare all'interno del browser*) è associato un sistema di coordinate cartesiane ortogonali.
 Il vertice alto a sinistra del canvas è l’origine $(0,0)$, l’asse $x$ punta a destra, l’asse $y$ punta in basso.

@@ -5,11 +5,11 @@ aliases:
 index: 5
 ---
 
-# Migliorando i [b-tree](tecnologie_basi_dati/b-tree.md): B+tree
+# Migliorando i [b-tree](tecnologie_basi_dati/b-tree.md): b+tree
 
 I b+tree sono b-tree in cui le tuple sono contenute solo nelle foglie dell'albero, le foglie sono inoltre contenute in una lista linkata(*possibilmente sfruttando il PID*) per migliorare l'accesso al file
 
-## Range search con i B+tree
+## Range search con i b+tree
 
 Dato che le foglie sono contenute in una lista linkata per effettuare ricerche range e sufficiente:
 
@@ -124,7 +124,7 @@ $$
 
 Tale modello assume pagine di dimensione infinita, che porta a una sottostima nel numero effettivo di pagine da leggere
 
-### Superando cardenas: il modello di Yao
+### Superando cardenas: il modello di yao
 
 Il modello di Yao tiene in considerazione anche la capacita $C=N/P$ delle pagine, si ha che il numero di pagine da accedere in media e dato da
 

@@ -62,7 +62,7 @@ physical_layer --> G
 Questa suddivisione va a creare due livelli di indipendenza, uno fra gli utilizzatori del database e i modellatori del database mentre l'altro fra i modellatori della struttura logica e i db admin che si occupano del tuning fisico dei parametri di accesso al disco 
 
 
-## Struttura della memoria e implicazioni per un DBMS
+## Struttura della memoria e implicazioni per un dbms
 
 La memoria di un calcolatore e divisa in 3 macro categorie
 

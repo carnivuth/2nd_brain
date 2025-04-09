@@ -5,7 +5,7 @@ tags: []
 index: 29
 ---
 
-# HIERARCHICAL MOBILE IPV6 (HMIP)
+# Hierarchical mobile ipv6 (hmip)
 
 This solution is based on a hierarchical structure of the infrastructure where foreign agents are associated with a foreign agent proxy (mobile anchor point MAP) that manages handoff procedures between foreign agents
 

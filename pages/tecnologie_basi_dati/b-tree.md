@@ -5,7 +5,7 @@ aliases:
 index: 4
 ---
 
-# La soluzione B-tree
+# La soluzione b-tree
 
 Gli indici B-tree sono strutture dati ad albero bilanciate in cui i singoli nodi rappresentano delle pagine dati, il bilanciamento e mantenuto dalle operazioni di inserimento e update.
 

@@ -5,7 +5,7 @@ tags: []
 index: 5
 ---
 
-# WIMAX
+# Wimax
 
 Technology solution for metropolitan area networks man, the idea is to connect multiple antennas (*subscriber station*) to a central base station, in order to connect areas where fiber cable would be economically impossible
 

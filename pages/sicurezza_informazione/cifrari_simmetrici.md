@@ -220,11 +220,11 @@ Gli algoritmi che si rifanno a questo modello devono definire i seguenti paramet
 - funzione $f$
 - algoritmo di generazione delle sotto chiavi
 
-### Implementando la rete di festel: DES
+### Implementando la rete di festel: des
 
 Una delle prime implementazioni della rete di Festel e DES, prevede 16 iterazioni, i blocchi sono di 64 bit e la chiave di 56bit. Algoritmo robusto ma vulnerabile per la dimensione della chiave
 
-### AES
+### Aes
 
 Algoritmo di cifratura a blocchi standard del settore, utilizza operazioni di sostituzione e trasposizione ma non si rifa alla rete di festel
 

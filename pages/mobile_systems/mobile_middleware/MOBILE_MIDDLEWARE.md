@@ -5,13 +5,13 @@ tags: []
 index: 32
 ---
 
-# MOBILE MIDDLEWARE
+# Mobile middleware
 
 Mobile Middleware general definition:
 
 *support software stack, typically cross-layer and application-agnostic, which targets issues and challenges at OSI levels >= 4*
 
-## WHY A MIDDLEWARE FOR MOBILE APPLICATIONS
+## Why a middleware for mobile applications
 
 Many of the problems that a mobile application need to resolve are always the same and are related to the **network not always available and no guaranteed performance**.
 
@@ -19,7 +19,7 @@ Given that, is not feasible for a business to address those problems each time t
 
 A Middleware can also address different environment and hardware infrastructures and offer an homogeneous interface.
 
-## MOBILE VS FIXED MIDDLEWARE
+## Mobile vs fixed middleware
 
 A mobile middleware **has lot of differences to address due to the different deployment environment**
 

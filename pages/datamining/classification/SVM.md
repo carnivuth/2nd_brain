@@ -5,7 +5,7 @@ tags: []
 index: 9
 ---
 
-# SUPPORT VECTOR MACHINE (SVM)
+# Support vector machine (svm)
 
 Studiate per superare il problema dei dataset linearmente separabili-> cerca un'ipersuperficie che divida gli individui del dataset ma la superficie è più complessa di un iperpiano.
 - prima idea: far cadere il requisito di linearità della supericie, ma si ottiene una classificazione molto dipendente dai dati del dataset con molto overfitting. Ma si può ottenere una soluzione valida mappando i punti da un dominio non llinearmente separabile a uno linearmente separabile con un numero di dimensioni maggiori del dominio originale: ![](datamining/Pasted_image_20231230124031.png) ![](Pasted_image_20231230130632.png)

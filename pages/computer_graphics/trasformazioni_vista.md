@@ -20,7 +20,7 @@ A --> B --> C
 
 ![](computer_graphics/Pasted%20image%2020241210144200.png)
 
-## DAL MONDO ALL'OSSERVATORE
+## Dal mondo all'osservatore
 
 Per poter passare al sistema di riferimento dell'osservatore e necessario identificare la matrice di cambiamento di base $VM$ (*view matrix*), composta come segue
 
@@ -67,14 +67,14 @@ VM =\begin{bmatrix}
 \end{bmatrix}
 $$
 
-### PARAMETRI DELLA MATRICE $VM$
+### Parametri della matrice $vm$
 
 i 3 coefficienti  $\theta,\phi,D$ controllano la posizione dell'osservatore, in particolare:
 
 - variando $\theta$ e $\phi$ si può osservare l'oggetto da angolazioni differenti
 - variando $D$ si può allontanare o avvicinare il punto di vista dell'osservatore
 
-## DALL'OSSERVATORE ALLA WINDOW
+## Dall'osservatore alla window
 
 Per poter portare l'immagine sulla window e necessario effettuare una proiezione geometrica, ne esistono di tante tipologie a seconda del punto di vista dell'osservatore
 
@@ -96,7 +96,7 @@ C --> E & F & G
 H --> I & J 
 ```
 
-### PROIEZIONE A 3 PUNTI DI FUGA
+### Proiezione a 3 punti di fuga
 
 La proiezione a 3 punti di fuga si ha quando l'osservatore non e allineato con nessun asse del sistema di riferimento del mondo (*caso più generale*)
 
@@ -107,7 +107,7 @@ In questo tipo di proiezione si ha che:
 - $y_w=\frac{d\times Y_e}{Z_e}$
 - $x_w=\frac{d\times X_e}{Z_e}$
 
-### DETERMINARE LE DIMENSIONI DELLA WINDOW
+### Determinare le dimensioni della window
 
 Le dimensioni della window sono determinate dalla ampiezza del cono di visione che a sua volta e determinato dalla distanza $d$ tra l'osservatore e il piano di proiezione e la semi-ampiezza angolare $\alpha$ del cono di visione 
 
@@ -119,7 +119,7 @@ Inoltre il piano di vista dell'osservatore viene limitato per mezzo di un front-
 
 >[!TIP] ne consegue che per definire una matrice di proiezione sul piano di visione e necessario conoscere il formato della finestra,la posizione della camera l'angolo di visione e i piani di troncatura della camera
 
-## STRUTTURA FINALE DELLA PIPELINE DI RENDERING
+## Struttura finale della pipeline di rendering
 
 ```mermaid
 flowchart TD

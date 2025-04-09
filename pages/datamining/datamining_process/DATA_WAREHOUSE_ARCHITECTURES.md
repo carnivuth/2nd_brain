@@ -5,7 +5,7 @@ tags: []
 index: 4
 ---
 
-## REQUIREMENTS
+## Requirements
 
 ### separation
 
@@ -24,7 +24,7 @@ index: 4
 
 - the DWH should be easy to manage
 
-## SINGLE LAYER ARCHITECTURE
+## Single layer architecture
 
 ![](datamining/Pasted_image_20231010120852.png)
 
@@ -36,7 +36,7 @@ index: 4
 | the space occupation is minimized | no separation between source and analysis layers |
 
 
-## TWO LAYERS ARCHITECTURE
+## Two layers architecture
 
 ![](datamining/Pasted_image_20231010121252.png)
 
@@ -48,7 +48,7 @@ index: 4
 | source and analysis data are separated | less space optimization |
 
 
-## THREE LAYERS ARCHITECTURE
+## Three layers architecture
 
 ![](datamining/Pasted_image_20231010122320.png)
 

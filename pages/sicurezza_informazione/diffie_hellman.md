@@ -40,7 +40,7 @@ $$
 
 Se l'attaccante ascoltasse la conversazione non sarebbe a conoscenza dei parametri $a,b$ necessari per risalire alla chiave di cifratura, con i parametri noti l'attaccante dovrebbe risolvere il problema noto della teoria dei numeri [calcolo del logaritmo discreto](problemi_difficili.md#CALCOLO%20DEL%20LOGARITMO%20DISCRETO)
 
-### DH problematiche
+### Dh problematiche
 
 L'algoritmo cosi presentato mostra problematiche legate all'autenticazione del richiedente, la destinazione sa che sta concordando una chiave con chi gli ha inviato i parametri $g,A,p$ ma non e in grado di dimostrarne l'autenticita
 

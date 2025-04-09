@@ -4,7 +4,7 @@ aliases: []
 tags: []
 index: 13
 ---
-# INTERPRETI
+# Interpreti
 
 Riconoscere se una frase appartiene o meno a un linguaggio non e sufficiente, e necessario applicare anche una semantica alle frasi riconosciute
 
@@ -19,7 +19,7 @@ classDef hidden display: none;
 
 Gli interpreti suggeriscono quindi di usare la struttura generata da uno scanner/lexer per poi applicare un significato alle frasi, in questo caso la sequenza di derivazione delle frasi e fondamentale in quanto da essa dipende la semantica applicata (*[ricordiamo il caso della ricorsione sinistra](GRAMMATICHE_TIPO_2.md#PERCHÉ%20NON%20ELIMINARE%20SEMPRE%20LA%20RICORSIONE%20SINISTRA)*)
 
-## DESCRIVERE LA SEMANTICA
+## Descrivere la semantica
 
 E necessario scrivere un formalismo che ci consenta di esprimere la semantica da associare alle singole frasi riconosciute dal parser
 
@@ -29,7 +29,7 @@ Questo viene fatto per mezzo di una funzione di interpretazione che mappi gli el
 
 Per implementare una tale funzione si sfrutta la struttura data dalla grammatica e si **esprime una funzione per ogni regola sintattica**:
 
-### IMPLEMENTAZIONE
+### Implementazione
 
 Una possibile implementazione puo essere ottenuta seguendo le regole sintattiche e definendo una regola semantica per ognuna di esse:
 
@@ -60,7 +60,7 @@ public int parseExp(){
 }
 ```
 
-## INTERPRETAZIONE DIFFERITA (ABSTRACT SYNTAX TREE)
+## Interpretazione differita (abstract syntax tree)
 
 Nel caso non si intenda eseguire immediatamente la semantica ma generare un output eseguibile in un secondo momento (*compilatori/linguaggi misti*) e necessario definire una rappresentazione della frase interpretata (*solitamente un albero*)
 
@@ -74,13 +74,13 @@ Alcuni degli elementi che possono essere rimossi dal albero sono:
 
 ![](linguaggi_modelli_computazionali/Pasted%20image%2020241015174357.png)
 
-## SINTASSI ASTRATTA
+## Sintassi astratta
 
 Occorre un formalismo per poter descrivere la struttura [AST](#INTERPRETAZIONE%20DIFFERITA%20(ABSTRACT%20SYNTAX%20TREE)), questo viene fatto per mezzo di una sintassi che descrive l'output del parser questa non deve essere non ambigua in quanto descrive l'output del parser, non lo guida al riconoscimento della frase
 
 Di conseguenza, l'output del parser sara un albero composto da istanze di una data classe in base a cosa viene definito dalla sintassi dell' AST
 
-### IMPLEMENTAZIONE
+### Implementazione
 
 Una possibile implementazione può essere ottenuta partendo dal concetto precedente con la seguente gerarchia di classi
 
@@ -119,7 +119,7 @@ classDiagram
 
 In cui ogni classe implementa in metodi per la generazione del singolo sottonodo dell [AST](#INTERPRETAZIONE%20DIFFERITA%20(ABSTRACT%20SYNTAX%20TREE))
 
-## VALUTARE GLI ALBERI
+## Valutare gli alberi
 
 Gli [AST](INTERPRETI.md#INTERPRETAZIONE%20DIFFERITA%20(ABSTRACT%20SYNTAX%20TREE)) prodotti da un parser necessitano di essere di conseguenza interpretati tramite opportune operazioni di visita degli alberi, 3 possibili approcci:
 
@@ -133,7 +133,7 @@ Gli [AST](INTERPRETI.md#INTERPRETAZIONE%20DIFFERITA%20(ABSTRACT%20SYNTAX%20TREE)
 
 la casistica **in-order** genera un output in notazione infissa che risulta ambiguo per un esecutore, la migliore soluzione risulta essere la visita post-order dato che in questo modo l'albero visitato genera un output in notazione postfissa
 
-## PERCHÉ LA NOTAZIONE POSTFISSA
+## Perché la notazione postfissa
 
 La notazione postfissa ha un vantaggio intrinseco in quanto dispone in ordine operandi e poi operatore, **che e esattamente l'ordine richiesto da una cpu per svolgere le operazioni** 
 
@@ -152,11 +152,11 @@ pop a,b
 push a+b
 ```
 
-## IMPLEMENTAZIONE
+## Implementazione
 
 L'implementazione può essere condotta con 2 possibili approcci
 
-### APPROCCIO FUNZIONALE
+### Approccio funzionale
 
 si definisce una funzione che dato un nodo dell'albero ne computa la valutazione, con questa soluzione risulta semplice estendere con altre interpretazioni ma possiede scarsa leggibilità ed e molto error prone
 
@@ -166,7 +166,7 @@ public static int eval(Exp e) {
 }
 ```
 
-### APPROCCIO OOP
+### Approccio oop
 
 Ogni specializzazione dell'interfaccia `Expr` definisce i metodi per la generazione del proprio nodo dell [AST](INTERPRETI.md#INTERPRETAZIONE%20DIFFERITA%20(ABSTRACT%20SYNTAX%20TREE)), molto più leggibile e modulare ma rende complesso fornire interpretazioni diverse dello stesso [AST](#INTERPRETAZIONE%20DIFFERITA%20(ABSTRACT%20SYNTAX%20TREE)) 
 
@@ -179,7 +179,7 @@ public Interface Expr{
 ```
 
 
-## LA SOLUZIONE: VISITORS
+## La soluzione: visitors
 
 Per ovviare ai problemi delle implementazioni precedenti si introduce il pattern visitor che consente di incapsulare la logica di interpretazione in una singola funzione ma strutturandola in base alla tassonomia dell AST generato
 
@@ -209,7 +209,7 @@ void accept(Visitor v){
 }
 ```
 
-# BELLE LE ESPRESSIONI MA DEVO POTER DIRE `x=x+1` (ASSEGNAMENTO)
+# Belle le espressioni ma devo poter dire `x=x+1` (assegnamento)
 
 L'assegnamento e uno dei costrutti onnipresenti in qualunque linguaggio di programmazione, non e ne simmetrico ne riflessivo e i simboli che compaiono da entrambe le parti dell'espressione hanno un significato molto diverso
 
@@ -217,7 +217,7 @@ L'assegnamento e uno dei costrutti onnipresenti in qualunque linguaggio di progr
 
 > `...=x` il membro di destra invece specifica **il valore di un contenitore**
 
-## DISTINZIONE FRA $L$-VALUE E $R$-VALUE
+## Distinzione fra $l$-value e $r$-value
 
 Quanto detto prima porta a definire la distinzione fra il valore di destra e di sinistra:
 
@@ -226,14 +226,14 @@ Quanto detto prima porta a definire la distinzione fra il valore di destra e di 
 
 E inoltre opportuno considerare se distinguere i due valori sintatticamente in quanto la grammatica risultante in caso di non distinzione diventa [LL(2)](GRAMMATICHE_LLK.md#GRAMMATICHE%20$LL(k)$)
 
-## ASSEGNAMENTO DISTRUTTIVO VS ASSEGNAMENTO NON DISTRUTTIVO
+## Assegnamento distruttivo vs assegnamento non distruttivo
 
 L'assegnamento puo essere inteso con 2 differenti semantiche:
 
 - **distruttivo**: due assegnamenti con lo stesso membro di sinistra causano una riscrittura (*scelta preferita del paradigma imperativo*)
 - **non distruttivo**: due assegnamenti con lo stesso membro di sinistra causano un errore (*scelta preferita del paradigma dichiarativo*)
 
-## ENVIRONMENT
+## Environment
 
 Per poter implementare correttamente l'assegnamento e necessario introdurre il concetto di environment, ovvero una mappa chiave valore dove salvare $L$-VALUE $R$-VALUE
 
@@ -248,11 +248,11 @@ In questo modo la semantica dell'assegnamento diventa
 
 > *modifica la cella dell' environment indicizzata dal $L$-VALUE con il valore indicato da $R$-VALUE se presente, altrimenti creala*
 
-### MULTIPLI ENVIRONMENT
+### Multipli environment
 
 Nei linguaggi di programmazione moderni vengono sfruttati multipli ambienti in modo da limitare la vita delle variabili al tempo di vita delle strutture dati che le hanno create (*scope*)
 
-## ASSEGNAMENTO: ISTRUZIONE O ESPRESSIONE
+## Assegnamento: istruzione o espressione
 
 Un'altra fondamentale decisione da prendere e specificare se l'assegnamento sia un espressione (*ritorna un valore*) o un istruzione (*non ritorna un valore*) questo e fondamentale perché implica il supporto o meno all'assegnamento multiplo
 
@@ -273,7 +273,7 @@ che diventa:
 
 tuttavia cio non e possibile con un assegnamento inteso come istruzione
 
-### IMPLEMENTAZIONE
+### Implementazione
 
 Tutto cio si traduce in un estensione dell [AST](#INTERPRETAZIONE%20DIFFERITA%20(ABSTRACT%20SYNTAX%20TREE)) con le classi per rappresentare gli oggetti sopracitati
 

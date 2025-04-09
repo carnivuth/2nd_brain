@@ -4,7 +4,7 @@ aliases: []
 tags: []
 ---
 
-# CLOUD INFRASTRUCTURE FOR IoT
-# CLOUD INFRASTRUCTURE FOR IoT
+# Cloud infrastructure for iot
+# Cloud infrastructure for iot
 
  [NEXT](mobile_systems/wireless/WIRELESS_COMMUNICATION.md)

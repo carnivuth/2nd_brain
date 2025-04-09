@@ -19,7 +19,7 @@
 - A method to compute the distance between two classes, it can be used in decision trees
 - A method to compute the separation of the objects inside a cluster
 
-## Which of the following characteristic of data can reduce the effectiveness of DBSCAN?
+## Which of the following characteristic of data can reduce the effectiveness of dbscan?
 
 - Clusters have concavities
 - All the variables are the same range of values
@@ -47,21 +47,21 @@
 - ... is smaller than or equal to the number of objects in its ancestor
 - ... is bigger than the number of objects in its ancestor
 
-## What does K-means try to minimise?
+## What does k-means try to minimise?
 
 - The distortion, that is the sum of the squared distances of each point with respect to the points of the other clusters
 - **The distortion, that is the sum of the squared distances of each point with respect to its centroid**
 - The separation, that is the sum of the squared distances of each point with respect to its centroid
 - The separation, that is the sum of the squared distances of each cluster centroid with respect to the global centroid of the dataset
 
-## Given the following definitions: TP = True Positives; TN = True Negatives; FP = False Positives; FN = False Negatives. Which of the formulas below computes the precision of a binary classifier?
+## Given the following definitions: tp = true positives; tn = true negatives; fp = false positives; fn = false negatives. which of the formulas below computes the precision of a binary classifier?
 
 - **$TP / (TP + FP)$**
 - $(TP + TN) / (TP + FP + TN + FN)$
 - $TN / (TN + FP)$
 - $TP / (TP + FN)$
 
-## Given the two binary vectors below, which is their similarity according to the Jaccard Coefficient?
+## Given the two binary vectors below, which is their similarity according to the jaccard coefficient?
 
 ```
 1000101101
@@ -73,7 +73,7 @@
 - 0.5
 - **0.375**
 
-## Consider the transactional dataset below: Which is the support of the rule A,C->B
+## Consider the transactional dataset below: which is the support of the rule a,c->b
 
 | ID Items |
 | ---- |
@@ -110,14 +110,14 @@
 - **... gives little insight with respect to the target**
 - ... has a high correlation with respect to the target
 
-## Which of the statements below is true? (Only one)
+## Which of the statements below is true? (only one)
 
 - **Sometimes k-means stops to a configuration which does not give the minimum distortion for the chosen value of the number of clusters**
 - K-means always stop to a configuration which gives the minimum distortion for the chosen value of the number of clusters
 - K-means works well also with datasets having a very large number of attributes
 - K-means finds the number of clusters which give the minimum distortion
 
-## Which of the statements below is true? (One or more)
+## Which of the statements below is true? (one or more)
 
 - **Increasing the radius of the neighourhood can decrease the number of noise points**
 - DBSCAN always stops to a configuration which gives the optimal number of clusters
@@ -130,7 +130,7 @@
 - Map all the numeric attributes to the same range and to have a Gaussian (or normal distribution, in order to avoid that attributes with large ranges have more influence
 - Map all the numeric attributes in order to have a Gaussian (or 𝘯𝘰𝘳𝘮𝘢𝘭## 𝘥𝘪𝘴𝘵𝘳𝘪𝘣𝘶𝘵𝘪𝘰𝘯, in order to avoid that attributes with large ranges have more influence
 
-## Consider the transactional dataset below: Which is the confidence of the rule A,C->B
+## Consider the transactional dataset below: which is the confidence of the rule a,c->b
 
 | ID Items |
 | ---- |
@@ -145,7 +145,7 @@
 - 20%
 - 100%
 
-## Which of the statements below about Hierarchical Agglomerative Clustering is true?
+## Which of the statements below about hierarchical agglomerative clustering is true?
 
 - Requires the definition of Inertia of clusters
 - **Requires the definition of distance between sets of objects**
@@ -159,14 +159,14 @@
 - The slope of the activation function in a specific node
 - **A multiplying factor of the correction to be applied to the connection weights**
 
-## What are the hyperparameters of a Neural Network? (Possibly non exhaustive)
+## What are the hyperparameters of a neural network? (possibly non exhaustive)
 
 - Hidden layers structure, Output layer structure, Activation function, Number of epochs
 - Network structure, Learning rate, Backpropagation algorithm, Number of epochs
 - Input layers structure, Learning rate, Activation function, Number of epochs
 - **Hidden layers structure, Learning rate, Activation function, Number of epochs**
 
-## Which of the following preprocessing activities is useful to build a Naive Bayes classifier if the independence hypothesis is violated:
+## Which of the following preprocessing activities is useful to build a naive bayes classifier if the independence hypothesis is violated:
 
 - Discretisation
 - Normalisation
@@ -187,19 +187,19 @@
 - To eliminate parts of the tree where the decision could generate underfitting
 - To eliminate attributes which could be influenced by random effects
 
-## In a dataset with D attributes, how many subsets of attributes should be considered for feature selection according tp an exhaustive search?
+## In a dataset with d attributes, how many subsets of attributes should be considered for feature selection according tp an exhaustive search?
 
 - **$\mathcal{o}(2^{d})$**
 - $\mathcal{o}(D!)$ 
 - $\mathcal{o}(D)$
 - $\mathcal{o}(D^{2})$
-## In which mining activity the Information Gain can be useful?
+## In which mining activity the information gain can be useful?
 
 - Discovery of association rules
 - **Classification**
 - Clustering
 - Discretization
-## Given the two binary vectors below, which is their similarity according to the Simple Matching Coefficient?
+## Given the two binary vectors below, which is their similarity according to the simple matching coefficient?
 
 ```
 1000101101
@@ -216,7 +216,7 @@
 - **Map all the numeric attributes to a new range such that the mean is zero and the variance is one**
 - Map all the nominal attributes to the same range, in order to prevent the values with higher frequency from having prevailing influence
 - Remove non-standard values
-## Which of the following measure can be used as an alternative to the Information Gain?
+## Which of the following measure can be used as an alternative to the information gain?
 
 - Sihlouette Index
 - **Gini Index**
@@ -228,7 +228,7 @@
 - Reduce time and memory complexity of the mining algorithms
 - Reduce the effect of noise
 - Avoid the curse of dimensionality
-## After fitting DBSCAN with the default parameter values the results are: 0 clusters, 100% of noise points. Which will be your next trial?
+## After fitting dbscan with the default parameter values the results are: 0 clusters, 100% of noise points. which will be your next trial?
 
 - **Reduce the minimum number of objects in the neighborhood**
 - Reduce the minimum number of objects in the neighborhood and the radius of the neighborhood
@@ -240,13 +240,13 @@
 - The support of an itemset is always smaller than the support of its supersets
 - The support of an itemsets never exceeds the support if its supersets
 - The support of an itemset is always smaller than the support of its subsets
-## In feature selection, what is the Principal Component Analysis?
+## In feature selection, what is the principal component analysis?
 
 - A mathematical technique used to transform non numeric attributes into numeric attributes
 - **A mathematical technique used to transform a set of numeric attributes into a smaller set of numeric attributes which capture most of the variability in data**
 - A heuristic technique used to find a subset of the attributes which produces the same classifier
 - A mathematical technique used to find the principal attributes which determine the classification process
-## A Decision Tree is...
+## A decision tree is...
 
 - A tree-structured plan of tests on single attributes to forecast the cluster
 - **A tree-structured plan of tests on single attributes to forecast the target**
@@ -258,21 +258,21 @@
 - **Obtain a less detailed scale**
 - **Reduce the variability of data**
 - **Reduce the number of attributes or distinct values**
-## In order to reduce the dimensionality of a dataset, which is the advantage of Multi Dimensional Scaling (MDS), with respect to Principal Component Analysis (PCA)
+## In order to reduce the dimensionality of a dataset, which is the advantage of multi dimensional scaling (mds), with respect to principal component analysis (pca)
 
 - MDS requires less computational power
 - **MDS can be used also with categorical data, provided that the matrix of the distance is available, while PCA is limited to vector spaces**
 - MDS can be used with categorical data after a transformation in a vector space
 - MDS can work on any kind of data, while PCA is limited to categorical data
 
-## What is the main purpose of smoothing in Bayesian classification?
+## What is the main purpose of smoothing in bayesian classification?
 
 - **Classifying an object containing attribute values which are missing from some classes in the training set**
 - Dealing with missing values
 - Reduce the variability of the data
 - Classifying an object containing attribute values which are missing from some classes in the test set
 
-## Consider the transactional dataset below: Which is the confidence of the rule B -> E ?
+## Consider the transactional dataset below: which is the confidence of the rule b -> e ?
  
 | ID Items |
 | -------- |
@@ -286,7 +286,7 @@
 - 50%
 - **33%**
 - 20%
-## In a Decision Tree for classification, what is a lead node?
+## In a decision tree for classification, what is a lead node?
 
 - **A node which assigns a class value to the objects passing the tests on the path from the root to the node itself**
 - A node where all the objects belong to the same class
@@ -307,28 +307,28 @@ Options:
 - Leverage → 1
 - Conviction → 4
 
-## Which of the statements below best describes the strategy of Apriori in finding the frequent itemsets?
+## Which of the statements below best describes the strategy of apriori in finding the frequent itemsets?
 
 - Evaluation of the support of the itemsets in an order such that uninteresting parts of the search space are considered only at the end of the execution
 - Evaluation of the confidence of the itemsets in an order such that uninteresting parts of the search space are pruned as soon as possible
 - **Evaluation of the support of the itemsets in an order such that uninteresting parts of the search space are pruned as soon as possible**
 - Evaluation of the support of the itemsets in an order such that the interesting parts of the search space are pruned as soon as possible
 
-## What is the Gini index?
+## What is the gini index?
 
 - A measure of the entropy of a dataset
 - An accuracy measure of a dataset alternative to the Information Gain and to the Misclassification Index
 - **An impurity measure of a dataset alternative to the Information Gain and to the Misclassification Index**
 - An impurity measure of a dataset alternative to overfitting and underfitting
 
-## What measure is maximised by the Expectation Maximisation algorithm for clustering?
+## What measure is maximised by the expectation maximisation algorithm for clustering?
 
 - **The likelihood of a class label, given the attributes of the example**
 - The likelihood of an attribute, given the class label
 - The likelihood of an example
 - The support of a class
 
-## Given the following definitions: TP = True Positives; TN = True Negatives; FP = False Positives; FN = False Negatives. Which of the formulas below computes the accuracy of a binary classifier?
+## Given the following definitions: tp = true positives; tn = true negatives; fp = false positives; fn = false negatives. which of the formulas below computes the accuracy of a binary classifier?
 
 - $\frac{TN}{TN + FP}$
 - $\frac{TP + TN}{TP + FP + TN + FN}$
@@ -344,14 +344,14 @@ answer: 2
 - Reduce the number of attributes or objects
 - **Obtain a more detailed description of data**
 
-## Which of the following is a strength of the clustering algorithm DBSCAN?
+## Which of the following is a strength of the clustering algorithm dbscan?
 
 - Requires to set the number of clusters as a parameter
 - **Ability to find cluster with concavities**
 - **Ability to separate outliers from regular data**
 - Very fast by computation
 
-## Which of the following statements regarding the discovery of association rules is true? (One or more)
+## Which of the following statements regarding the discovery of association rules is true? (one or more)
 
 - **The confidence of a rule can be computed starting from the supports of the itemsets**
 - **The support of an itemset is anti-monotonic with respect to the composition of the itemset**
@@ -364,7 +364,7 @@ answer: 2
 - High dimensional spaces -> Manhattan distance
 - Boolean data -> jaccard coefficient
 
-## Which of the following is not a strength point of Dbscan with respect to K-means
+## Which of the following is not a strength point of dbscan with respect to k-means
 
 - The robustness with respect to outliers
 - The effectiveness, even in presence of noise
@@ -384,7 +384,7 @@ answer: 2
 - K-means
 - Dbscan
 
-## In a Neural Network, what is the backpropagation?
+## In a neural network, what is the backpropagation?
 
 - The technique used to adjust the node weights according to the difference between the desired output and the output generated by the network
 - The technique used to adjust the weights limiting the probability of overfitting
@@ -405,14 +405,14 @@ answer: 2
 - Triangle inequality
 - **Boundedness**
 
-## Which of the statements below is true? (One or more)
+## Which of the statements below is true? (one or more)
 
 - K-mean always stops to a configuration which gives the minimum distortion for the chosen value of the number of clusters
 - **K-means is very sensitive to the initial assignment of the centers**
 - **K-means is quite efficient even for large datasets**
 - **Sometimes k-means stops to a configuration which does not give the minimum distortion for the chosen value of the number of clusters**
 
-## Which of the following characteristic of data can reduce the effectiveness of K-Means?
+## Which of the following characteristic of data can reduce the effectiveness of k-means?
 
 - Presence of values with high frequency
 - **Presence of outliers**
@@ -426,7 +426,7 @@ answer: 2
 - **Reduce the number of distinct values in an attribute, in order to put in evidence possible patterns and regularities**
 - Reduce the range of values of a numeric attribute, to make all the attributes more comparable
 
-## Given the following definitions: TP = True Positives; TN = True Negatives; FP = False Positives; FN = False Negatives. Which of the formulas below computes the recall of a binary classifier?
+## Given the following definitions: tp = true positives; tn = true negatives; fp = false positives; fn = false negatives. which of the formulas below computes the recall of a binary classifier?
 
 - $\frac{TP}{TP + FN}$
 - $\frac{TN}{TN + FP}$
@@ -434,14 +434,14 @@ answer: 2
 - $\frac{TP + TN}{TP + FP + TN + FN}$
 
 answer: 1
-## The Information Gain is used to
+## The information gain is used to
 
 - **select the attribute which maximises, for a given training set, the ability to predict the class value**
 - select the attribute which maximises, for a given test set, the ability to predict the class value
 - select the attribute which maximises, for a given training set, the ability to predict all the other attribute values
 - select the class with maximum probability
 
-## Which is the main reason for the MinMax scaling (also known as "rescaling") of attributes?
+## Which is the main reason for the minmax scaling (also known as "rescaling") of attributes?
 
 - Change the distribution of the numeric attributes, in order to obtain gaussian distributions
 - Map all the nominal attributes to the same range in order to prevent the values with higher frequency from having prevailing influence

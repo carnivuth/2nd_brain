@@ -56,7 +56,7 @@ E possibile usare più indici e poi fare l'intersezione dei risultati
 
 In caso di predicati in disgiunzione (*condizioni in `OR`*) se anche **solo una condizione non e risolubile si deve scandire il file**, altrimenti si utilizzano gli indici e si fa l'unione del risultato
 
-## DB2, tipologie di predicato
+## Db2, tipologie di predicato
 
 Per poter valutare un interrogazione, DB2 distingue fra 4 diverse tipologie di predicati di ricerca
 

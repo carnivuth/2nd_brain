@@ -4,7 +4,7 @@ aliases: []
 tags: []
 index: 6
 ---
-# GRAMMATICHE DI TIPO 2 (CONTEXT FREE)
+# Grammatiche di tipo 2 (context free)
 
 produzioni in cui un metasimbolo può essere sostituito a prescindere dal contesto (*gli altri elementi delle forme di frase non influiscono*)
 
@@ -17,7 +17,7 @@ $$
 
 Inoltre in queste produzioni e ammessa la stringa vuota
 
-## SELF EMBEDDING
+## Self embedding
 
 Le grammatiche di tipo 2 ammettono produzioni della seguente forma
 
@@ -27,11 +27,11 @@ $$
 
 Questo permette alle grammatiche di tipo 2 di generare frasi con egual numero di simboli terminali a destra e sinistra (*parentesi*)
 
-## CONVERSIONE DI GRAMMATICHE DI TIPO 2
+## Conversione di grammatiche di tipo 2
 
 Le grammatiche di tipo 2 con produzioni che ammettono la stringa vuota possono essere convertite in grammatiche in cui  non e presente il simbolo terminale, oppure e presente la forma $S \rightarrow \epsilon$, e $S$ **non compare a destra di nessuna produzione**
 
-# ALBERI DI DERIVAZIONE
+# Alberi di derivazione
 
 Per le [grammatiche di tipo 2](linguaggi_modelli_computazionali/GRAMMATICHE_TIPO_2.md) si introduce il concetto di albero di derivazione, dato l'insieme delle produzioni $P$ si ha che :
 
@@ -55,33 +55,33 @@ D --> G
 
 Questa struttura e possibile solo per le grammatiche di tipo 2, le grammatiche di [tipo 1](GRAMMATICHE_TIPO_1.md) e [0](linguaggi_modelli_computazionali/GRAMMATICHE_TIPO_0.md) ammettendo a sinistra più di un membro genererebbero un grafo e non un albero
 
-## DERIVAZIONI CANONICHE
+## Derivazioni canoniche
 
 esistono derivazioni delle regole che formano alberi noti, la derivazione left-most che consente **nell'espansione del membro non terminale più a sinistra** e right-most che al contrario espande il membro più a destra
 
 
-## AMBIGUITÀ DI UNA FRASE
+## Ambiguità di una frase
 
 una frase si dice ambigua quando ammette due derivazioni sinistre distinte
 
-## FORME NORMALI
+## Forme normali
 
 Per i linguaggi generati da grammatiche di tipo 2 si possono evidenziare due forme comuni per le produzioni in cui:
 
 - non sono presenti produzioni che fanno rename di metasimboli (e.g. $A \rightarrow B$)
 - tutti i metasimboli e i simboli sono presenti nelle produzioni
 - se la stringa vuota non fa parte del linguaggio non esistono produzioni che la includono
-### FORMA NORMALE DI CHOMSKY
+### Forma normale di chomsky
 
 le produzioni hanno tutte la forma $A \rightarrow BC|a$
 $con \space A,B,C \in VN, \space e \space a\in VT \cup \epsilon$
 
-### FORMA NORMALE DI GREIBACH (*PER LINGUAGGI SENZA $\epsilon$*)
+### Forma normale di greibach (*per linguaggi senza $\epsilon$*)
 
 le produzioni hanno tutte la forma $A \rightarrow a\alpha$
 $con \space A \in VN, \space e \space a\in VT \space e \space \alpha \in VN^*$
 
-## IL PROBLEMA DELLA RICORSIONE SINISTRA
+## Il problema della ricorsione sinistra
 
 I linguaggi di tipo 2 possono presentare produzioni che consentono la **ricorsione sinistra**
 
@@ -91,7 +91,7 @@ $$
 
 La ricorsione sinistra rappresenta un problema per quanto riguarda la riconoscibilità del linguaggio, e sempre possibile trasformare la ricorsione sinistra in ricorsione destra.
 
-## ELIMINAZIONE DELLA RICORSIONE SINISTRA
+## Eliminazione della ricorsione sinistra
 
 - Data una grammatica come segue
 
@@ -120,7 +120,7 @@ $$
 Z \rightarrow bac|bacZ
 $$
 
-### PERCHÉ NON ELIMINARE SEMPRE LA RICORSIONE SINISTRA
+### Perché non eliminare sempre la ricorsione sinistra
 
 La ricorsione sinistra può essere sempre eliminata, tuttavia l'operazione comporta un **esplicito cambiamento delle regole che generano il linguaggio**, e di conseguenza della semantica delle frasi stesse
 

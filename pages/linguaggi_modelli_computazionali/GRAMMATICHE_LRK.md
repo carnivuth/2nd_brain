@@ -4,7 +4,7 @@ aliases:
 tags: 
 index: 14
 ---
-# ANALISI $LR(K)$
+# Analisi $lr(k)$
 
 L' analisi [LL(k)](GRAMMATICHE_LLK.md#GRAMMATICHE%20$LL(k)$), costruendo l'albero top-down, necessita di dedurre la prossima mossa da intraprendere osservando i prossimi $k$ simboli di input, di conseguenza risulta utile solo nel caso di linguaggi con $k=1$ (*nel caso dell'assegnamento $k=2$*)
 
@@ -29,7 +29,7 @@ Questo approccio rende l'analisi LR si più potente, infatti l' insieme dei ling
 
 Tuttavia l'analisi LR risulta **più complessa da progettare e computazionalmente più esosa**, esistono quindi tecniche che approssimano l'analisi LR come **SLR** o **LALR**
 
-## ARCHITETTURA DI UN PARSER $LR$
+## Architettura di un parser $lr$
 
 Un parser $RL$ ricostruisce l'albero di derivazione della frase in analisi al contrario, di conseguenza necessita di comprendere quando sia necessario fare:
 
@@ -42,11 +42,11 @@ La decisione viene presa in base a un **contesto corrente** (*stato*) in cui il 
 
 Il componente software imputato di tale compito e il **RICONOSCITORE DI CONTESTI**
 
-## ANALISI $LR(0)$
+## Analisi $lr(0)$
 
 Nel caso dell'analisi $LR$ e utile partire con il caso in cui $k=0$ ovvero non ci sono informazioni sul futuro, che nel caso dell' [analisi LL](GRAMMATICHE_LLK.md#GRAMMATICHE%20$LL(k)$) non aveva senso ma nel caso dell'analisi $LR$ si ha sempre l'informazione di contesto che può guidare il parser
 
-## CONTESTI $LR(0)$
+## Contesti $lr(0)$
 
 Vengono di conseguenza definiti i contesti $LR(0)$:
 
@@ -58,7 +58,7 @@ $$
 
 ovvero tutti i simboli che possono comparire a sinistra in una forma di frase nel momento in cui viene applicata la produzione $A \rightarrow \alpha$, data questa definizione **tutti i contesti differiscono solo per il prefisso $\beta$** (*utile per calcolare l'insieme*)
 
-### CONTESTI SINISTRI DI UNA PRODUZIONE
+### Contesti sinistri di una produzione
 
 Data la definizione  di cui sopra e possibile calcolare i contesti di una data produzione come concatenazione dell'insieme dei $\beta$ e del valore $\alpha$, l'insieme dei $\beta$ e detto l'insieme dei **contesti sinistri di $A \rightarrow \alpha$**
 
@@ -68,7 +68,7 @@ $$
 
 Quindi per trovare i contesti $LR(0)$ e sufficiente trovare i contesti sinistri delle varie produzioni e concatenarli con il valore delle produzioni stesse
 
-### CALCOLO DEI CONTESTI SINISTRI
+### Calcolo dei contesti sinistri
 
 Data la produzione $B \rightarrow \gamma A\delta$ si può dire che uno dei contributi al contesto sinistro di $A$ e dato dai contesti sinistri di $B$ concatenati al simbolo $\gamma$ :
 
@@ -147,7 +147,7 @@ F --A--> K
 classDef hidden display: none
 ```
 
-## TABELLA DI PARSING $LR(0)$
+## Tabella di parsing $lr(0)$
 
 La tabella di parsing puo essere ricostruita con le seguenti regole
 
@@ -173,7 +173,7 @@ Quindi per l'automa precedente si ha la seguente tabella di parsing
 | **14** | $r_4$ | $r_4$    | $r_4$ |          |          |          |
 | **15** | $r_5$ | $r_5$    | $r_5$ |          |          |          |
 
-## RICONOSCITORI PER LINGUAGGI $LR(0)$
+## Riconoscitori per linguaggi $lr(0)$
 
 I riconoscitori per i linguaggi $LR(0)$ data la forma di frase corrente operano come segue:
 
@@ -182,11 +182,11 @@ I riconoscitori per i linguaggi $LR(0)$ data la forma di frase corrente operano 
 
 ogni volta che avviene una riduzione l'automa riparte dall'inizio
 
-### OTTIMIZZAZIONE, LO STACK DEGLI STATI
+### Ottimizzazione, lo stack degli stati
 
 Per ottimizzare si può disporre di uno **stack degli stati** dove accumulare via via gli stati attraversati dall'automa e in fase di reduce rimuoverne tanti quanti i simboli della parte destra della produzione, in questo modo si evita di far ricominciare l'automa dall'inizio
 
-## CONDIZIONE SUFFICIENTE PER ANALISI $LR(0)$
+## Condizione sufficiente per analisi $lr(0)$
 
 Per poter effettuare con successo l'analisi $LR(0)$ date due produzioni $A \rightarrow \alpha$ e $B \rightarrow \omega$  se:
 $$\theta \in LR(0)ctx(A \rightarrow \alpha)$$
@@ -200,15 +200,15 @@ $$
 
 Ovvero ogni stato di riduzione dell'automa non deve avere archi uscenti caratterizzati da non terminali e sia etichettato
 
-## LIMITI DELL'ANALISI $LR(0)$
+## Limiti dell'analisi $lr(0)$
 
 l'analisi $LR(0)$ presenta dei limiti intrinsechi dovuti al fatto di ragionare solo sul contesto corrente e non avere **nessuna informazione sui simboli in input successivi**, per questo le grammatiche utili che rispettano la [condizione sufficiente per analisi lr(0)](#CONDIZIONE%20SUFFICIENTE%20PER%20ANALISI%20$LR(0)$) non sono molte, per ottenere un riconoscitore utile e necessario **vedere nel futuro**
 
-## ANALISI $LR(k)$
+## Analisi $lr(k)$
 
 L'analisi $LR(k)$ opera secondo le stesse logiche di [analisi LR(0)](#ANALISI%20$LR(0)$) estendendone le definizioni e ritardando le regole di riduzione di $k$ simboli, tuttavia la complessità data dal numero di stati dell'esecutore risulta di difficile gestione anche nel caso $k=1$ e richiede semplificazioni (*come $SRL$ o $LALR$*) le casistiche con $k\gt 1$ non sono neanche pensabili
 
-### ESTENSIONE DELLE DEFINIZIONI DI CONTESTO
+### Estensione delle definizioni di contesto
 
 Il contesto $LR(k)$ viene cosi definito
 
@@ -226,7 +226,7 @@ $$
 
 > il caso $k=1$ e quanto introdotto parlando di [riconoscitori LL](GRAMMATICHE_LLK.md#DIRECTOR%20SYMBOLS%20SET)
 
-### AUTOMA RICONOSCITORE
+### Automa riconoscitore
 
 L'automa riconoscitore si sviluppa similmente a quanto visto per il caso $k=0$ tuttavia il numero di stati dell'automa aumenta esponenzialmente con il numero di metasimboli e terminali dato che il numero di metasimboli della grammatica dei contesti sinistri e dato da:
 
@@ -236,11 +236,11 @@ $$
 
 con $t$ simboli terminali e $n$ simboli non terminali della grammatica
 
-## APPROSSIMANDO $LR(0)$
+## Approssimando $lr(0)$
 
 L'analisi $LR(1)$ per quanto potente risulta troppo complessa nel caso pratico, l'idea di base e quella di semplificare accorpando gli stati dell'automa che risultano simili fra loro
 
-## SIMPLE LR (SLR)
+## Simple lr (slr)
 
 Simple LR mira a semplificare l'automa riconoscitore, i contesti $SLR(0)$ sono cosi definiti
 
@@ -256,7 +256,7 @@ $$
 
 ovvero il contesto SLR è un po' più grande, e quindi più esposto a potenziali conflitti, del contesto LR completo
 
-## Look-Ahead LR (LALR)
+## Look-ahead lr (lalr)
 
 Un altra idea consiste nel accorpare assieme gli stati del parser $LR(1)$ identici al netto dei look-ahead set:
 

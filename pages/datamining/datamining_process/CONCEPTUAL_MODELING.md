@@ -5,7 +5,7 @@ tags: []
 index: 5
 ---
 
-# CONCEPTUAL MODELING
+# Conceptual modeling
 
 - DWH modeling approaches are as follow
 
@@ -14,7 +14,7 @@ index: 5
 | DATA DRIVEN APPROACH        | the model is based on the data sources available                                     |
 | MIXED APPROACH              | the requirement analysis refine the model derived by the data sources available      |
 
-## DIMENSIONAL FACT MODEL
+## Dimensional fact model
 
 ### objectives
 

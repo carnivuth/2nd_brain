@@ -5,7 +5,7 @@ tags: []
 index: 31
 ---
 
-# MORAVEC CORNER DETECTOR
+# Moravec corner detector
 
 In this detector the measure of cornerness is given by
 

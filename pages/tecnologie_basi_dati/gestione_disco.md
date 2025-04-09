@@ -5,7 +5,7 @@ aliases:
 index: 2
 ---
 
-# Gestione del disco da parte di un DBMS
+# Gestione del disco da parte di un dbms
 
 Una parte fondamentale di un DBMS per ottimizzare le performance e la gestione del disco
 
@@ -50,7 +50,7 @@ A --> B --> C --> D
 
 >[!NOTE] in questo caso il termine files non corrisponde a quello usato in sistemi operativi, la gestione di queste strutture e completamente delegata al database che può adottare soluzioni estremamente flessibili e complesse
 
-### Caso studio: DB2
+### Caso studio: db2
 
 DB2 organizza lo spazio fisico in **tablespace**, ognuno di essi composto da containers, un tablespace contiene in genere una relazione ma può contenerne di più mentre i container possono essere files, devices  oppure directory
 
@@ -207,7 +207,7 @@ In questa tipologia di file i record sono ordinati in base a un dato attributo
 
 >[!NOTE] vien da se che l'inserimento di un record dovra preservare l'ordine
 
-### Heap vs Sequential
+### Heap vs sequential
 
 | OPERATION     | HEAP COST                          | SEQUENTIAL COST                            |
 | ------------- | ---------------------------------- | ------------------------------------------ |

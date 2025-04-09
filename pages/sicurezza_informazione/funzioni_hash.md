@@ -14,7 +14,7 @@ Una funzione hash deve presentare le seguenti proprietà:
 -   **Robustezza forte alle collisioni**: deve essere infattibile trovare una qualsiasi coppia y,x tale che H(y)=H(x)
 -   **Unidirezionalità**: per ogni $h$ deve essere infattibile trovare un $x$ tale che $H(x)=h$
 
-## Compressione iterata (CI)
+## Compressione iterata (ci)
 
 E possibile implementare una funzione di hash con il seguente schema di compressione iterata (*scelta comune a molti algoritmi di hash*)
 
@@ -106,7 +106,7 @@ Questa proprieta e fondamentale per 2 motivi:
 - protocolli che prevedono l'hash di segreti.
 - impedire a un attaccante con un attacco di forza bruta di generare un messaggio e farlo apparire come firmato legittimamente da una sorgente
 
-## Algoritmi di hash basati su CI
+## Algoritmi di hash basati su ci
 
 |                              | MD5       | SHA-1       | RIREMD-160 |
 | ---------------------------- | --------- | ----------- | ---------- |

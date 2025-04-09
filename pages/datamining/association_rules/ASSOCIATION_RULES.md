@@ -5,11 +5,11 @@ tags: []
 index: 1
 ---
 
-# ASSOCIATION RULES
+# Association rules
 
 They are rules that describes situation where the presence of a given element $\{A\}$ or a combination of elements $\{A,B\}$ assure the presence of a third element $\{C\}$, they are based on statistics.
 
-## DEFINITIONS
+## Definitions
 
 - **ITEMSET**--> A collection of one or more items.
 - **K-ITEMSET** --> An itemset that contains k items.
@@ -25,9 +25,9 @@ $$
 
 $A$ is called **antecedent** and $C$ is called **consequent**
 
-## METRICS
+## Metrics
 
-### SUPPORT  $sup$
+### Support  $sup$
 
 the fraction of transaction that contains both $A$ and $C$
 
@@ -35,7 +35,7 @@ $$
 sup = \frac{(A,C)}{N}
 $$
 
-### CONFIDENCE $conf$
+### Confidence $conf$
 
 the number of times $C$ appears over transactions that contains $A$
 
@@ -43,7 +43,7 @@ $$
 conf = \frac{(A,C)}{A}
 $$
 
-#### CONFIDENCE FROM SUPPORT
+#### Confidence from support
 
 confidence can also be computed from supports as
 

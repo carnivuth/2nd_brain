@@ -5,24 +5,24 @@ tags: []
 index: 24
 ---
 
-# BINARY MORPHOLOGY
+# Binary morphology
 
 The binary morphology operators take as input a [binarized](computer_vision/BINARIZATION.md) image and make improvement before the labeling phase
 
 The idea is to slide a small kernel called structuring element
 
-## DILATION
+## Dilation
 
 The output image is obtained by sliding the kernel on each black element
 
 ![](computer_vision/Pasted_image_20240303171944.png)
-## EROSION
+## Erosion
 
 The output image is obtained by sliding the kernel on the all image leaving only the black points that contain the kernel
 
 ![](computer_vision/Pasted_image_20240303172045.png)
 
-## OPENING AND CLOSING
+## Opening and closing
 
 Erosion followed by dilation is called opening
 

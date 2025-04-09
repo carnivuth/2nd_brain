@@ -5,7 +5,7 @@ aliases:
 index: 6
 ---
 
-# Implementando i [b+tree](tecnologie_basi_dati/b+tree.md): GiST
+# Implementando i [b+tree](tecnologie_basi_dati/b+tree.md): gist
 
 Generalized search tree (*[GiST](https://en.wikipedia.org/wiki/GiST)*) e una struttura generalizzata per l'implementazione di indici, che se opportunamente istanziata puo comportarsi da diverse tipologie di albero ([b+tree](b+tree.md), [r-tree](tecnologie_basi_dati/r-tree.md))
 

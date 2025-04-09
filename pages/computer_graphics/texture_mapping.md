@@ -31,7 +31,7 @@ $$
 
 ![](computer_graphics/Pasted%20image%2020250102151554.png)
 
-### Implementazione in contesto [z-buffer](real_time_rendering.md#ALGORITMO%20Z-BUFFER)
+### Implementazione in contesto [z-buffer](real_time_rendering.md#algoritmo%20z-buffer)
 
 L'algoritmo [z-buffer](real_time_rendering.md#ALGORITMO%20Z-BUFFER) implica una computazione pixel per pixel, per implementare il texture mapping in questo contesto si applica la trasformazione inversa per ottenere un immagine del pixel (*detto **texel***), nello spazio texture
 

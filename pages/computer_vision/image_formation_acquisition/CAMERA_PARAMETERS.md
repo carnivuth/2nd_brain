@@ -5,7 +5,7 @@ tags: []
 index: 2
 ---
 
-# CAMERA PARAMETERS
+# Camera parameters
 
 here are some camera parameters, formal definition can be found at the [EMVA standard 1288](https://www.emva.org/standards-technology/emva-1288/)
 

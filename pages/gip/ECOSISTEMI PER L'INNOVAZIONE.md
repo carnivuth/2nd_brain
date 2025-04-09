@@ -1,4 +1,4 @@
-# ECOSISTEMI PER L'INNOVAZIONE
+# Ecosistemi per l'innovazione
 
 Gruppi di imprese che interagiscono tra loro creando un ambiente di open innovation in modo da creare miglioramenti collettivi ed esponenziali rispetto a quanto possano fare singolarmente da sole
 

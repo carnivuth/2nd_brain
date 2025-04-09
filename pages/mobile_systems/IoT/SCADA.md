@@ -5,18 +5,18 @@ tags: []
 index: 46
 ---
 
-# SUPERVISORY CONTROL AND DATA ACQUISITION (SCADA)
+# Supervisory control and data acquisition (scada)
 
 system for production line monitory and control created Before IoT solution that relies on a centralized architecture and periodic data reading to reduce the need of human intervention
 
 ![](mobile_systems/Pasted%20image%2020240611151503.png)
 
-## PROS
+## Pros
 
 - real-time and reliable
 - tailored to operation technicians
 
-## CONS
+## Cons
 
 - expensive, but worth for mission critical tasks
 - extensible, but within the same scope, (*e.g., an additional sensor in the same machine or an additional machine in the same plant*)

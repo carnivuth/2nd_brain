@@ -5,7 +5,7 @@ tags: []
 index: 6
 ---
 
-# CELLULAR NETWORKING
+# Cellular networking
 
 Originated from the evolution of telecom solution of communication of mobile devices, based on a grid of low powered antenna for scalability reason, frequencies can be reused in non adjacent cells The architecture is the following:
 
@@ -38,7 +38,7 @@ The range of a single cell depends on many factors such as:
 
 In common deployment scenarios cells coverage area overlaps, this enables QoS practices
 
-## TECHNOLOGY EVOLUTIONS
+## Technology evolutions
 
 With time cellular networking technology converged in the internet communication technologies
 
@@ -49,7 +49,7 @@ With time cellular networking technology converged in the internet communication
 | 3(UMTS)    |                                          |
 | 4(LTE)     |                                          |
 
-## GSM ARCHITECTURE
+## Gsm architecture
 
 ![](mobile_systems/Pasted%20image%2020240307143626.png)
 
@@ -60,7 +60,7 @@ Where:
 - **MSC** plays the role of gateway towards the **PSTN** network, the call routing is done trough the use of the **VLR** **HLR** registries
 - the **OSS** components offers services of authentication of the nodes through **AUC** and the identification of fraudulent identities with the **EIR**, it also offers network monitoring control and management through the **OMC** **NMC** **ADC**
 
-## HANDOFF
+## Handoff
 
 A big problem of cellular networking is to handle mobility of the phones during communication operations, there are various motivation that can cause an handoff procedure to be triggered:
 
@@ -92,13 +92,13 @@ G --> H
 
 The principle goal of this procedure it's service continuity so in this context wasting resources is accepted
 
-### HANDOFF PROCEDURE FOR DIFFERENT MSC
+### Handoff procedure for different msc
 
 In this particular case the call is still routed trough the MSC where it has began ANCHOR MSC, other MSC are appended to the chain as the node is moving
 
 ![](mobile_systems/Pasted%20image%2020240606103443.png)
 
-### HANDOFF TAXONOMY
+### Handoff taxonomy
 
 | TAXONOMY          | MEANING                                                                                                        |
 | ----------------- | -------------------------------------------------------------------------------------------------------------- |

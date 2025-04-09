@@ -5,10 +5,10 @@ tags: []
 index: 3
 ---
 
-# PERFORMANCE OF A CLASSIFIER
+# Performance of a classifier
 
 
-## DEFINITIONS
+## Definitions
 
 in a classification problem where **class is a binary attribute** the follow schema can be produced in order to study data
 
@@ -78,7 +78,7 @@ accuracy of the classifier
 
 if the **cost of positive and negative errors are different** than **precision and recall** should be considered
 
-## MULTI CLASS CASE
+## Multi class case
 
 in a problem with non binary class attribute the previous table can be extended, it's called **confusion matrix**
 

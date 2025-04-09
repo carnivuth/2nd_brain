@@ -5,18 +5,18 @@ tags: []
 index: 21
 ---
 
-# NO INFRASTRUCTURE POSITIONING SYSTEMS
+# No infrastructure positioning systems
 
 There are also solutions to compute position of an object without dedicated hardware
 
-## GSM BASED POSITIONING SYSTEMS
+## Gsm based positioning systems
 
 There are possible techniques of positioning based on the GSM infrastructure:
 
 - **Enhanced observed time difference**  exploits the number of base stations in visibility (*3 minimum*)
 - **Timing advance** this technique exploits handover
 
-## BLUETOOTH BASED POSITIONING SYSTEMS
+## Bluetooth based positioning systems
 
 One possible solution is to exploits the limited range of Bluetooth devices and is low costs to implement a [proximity](BASE_TECHNIQUES.md#PROXIMITY) based positioning system.
 

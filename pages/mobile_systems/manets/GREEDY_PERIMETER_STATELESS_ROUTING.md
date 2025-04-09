@@ -5,7 +5,7 @@ tags: []
 index: 14
 ---
 
-# GREEDY PERIMETER STATELESS ROUTING
+# Greedy perimeter stateless routing
 
 **GPSR** is a geographic routing protocol based on 2 big assumptions
 
@@ -14,7 +14,7 @@ index: 14
 
 **This are two big assumption that are not always guaranteed**
 
-## DATA TRANSMISSION MODES
+## Data transmission modes
 
 there are 2 possible modes for data transmission in **GPSR**
 

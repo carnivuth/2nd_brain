@@ -4,7 +4,7 @@ aliases: []
 tags: []
 ---
 
-# DATA TYPES
+# Data types
 
 |  | Data types | Description | Examples | Descriptive statistics allowed | Domain |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -14,7 +14,7 @@ tags: []
 |  | ratio | Have a univocal definition of 0 allowing all mathematical operations | temperatures in K° | geometric mean harmonic mean percentage variation | Continous |
 
 
-## INTERVAL DATA
+## Interval data
 
 - used in statistical research
 - examples:
@@ -23,10 +23,10 @@ tags: []
 	- Time
 	- IQ test
 
-### Interval vs Ratio
+### Interval vs ratio
 Interval does not preserve relative values upon scale change
 
-## ALLOWED TRANSFORMATIONS
+## Allowed transformations
 
 | data type | transformation                                                     |
 | --------- | ------------------------------------------------------------------ |
@@ -37,13 +37,13 @@ Interval does not preserve relative values upon scale change
 
 - this transformation does not change the meaning of the attribute, they are used to standardize data format.
 
-## ASYMMETRIC ATTRIBUTES
+## Asymmetric attributes
 
 - attributes where only presence is relevant (non null value)
 	- example exams
 In particular, binary asymmetric attributes are relevant in the **discovery of association rules**
 
-## GENERAL CHARACTERISTICS OF DATA SETS
+## General characteristics of data sets
 ### Dimensionality
  - the difference between having a small or a large (hundreds, thousands, . . . ) of attribute is also qualitative
 ### Sparsity
@@ -60,15 +60,15 @@ The data is organized in records
 - Transactions
 - Data matrix
 - Sparse data matrix
-## DATA QUALITY
+## Data quality
 
 - data from source layer are often dirty and full of outliers due to noise (*example web crawler activity mixed with human activity on websites*)
 	- there can be missing values due to data not being collected
 	- there can be duplicated values
 
-### DETECT OUTLIERS WITH DESCRIPTIVE STATISTICS
+### Detect outliers with descriptive statistics
 
-#### IQR = InterQuartile Range
+#### Iqr = interquartile range
 
 ```
 IQR = Q3 - Q1`
@@ -80,7 +80,7 @@ with Q1 first quartile Q3 third quartile
 
 the outliers are values outside the boundaries
 
-### HANDLING MISSING VALUES
+### Handling missing values
 
 | strategy                                              | comment                                   |
 | ----------------------------------------------------- | ----------------------------------------- |
@@ -88,7 +88,7 @@ the outliers are values outside the boundaries
 | insert all possible values weighted with probabilities | used in probabilistic learning, expensive |
 | estimate the missing values| default choise|
 
-### DUPLICATED DATA
+### Duplicated data
 
 - major issue when dealing with data merging from different sources
 

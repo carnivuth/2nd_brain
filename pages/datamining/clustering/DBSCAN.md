@@ -5,9 +5,9 @@ tags: []
 index: 7
 ---
 
-# DBSCAN (DENSITY BASED SPATIAL CLUSTERING OF APPLICATION WITH NOISE)
+# Dbscan (density based spatial clustering of application with noise)
 
-## DEFINITIONS
+## Definitions
 
 Define $\epsilon$ as the radius of an hypersphere  and a $minPoints$ threshold value
 
@@ -36,7 +36,7 @@ Define $\epsilon$ as the radius of an hypersphere  and a $minPoints$ threshold v
 	a point $p$ is density connected to point $q$ if there is a point $s$ such that $p$ and $q$ are density reachable from $s$
 
 
-## ALGORITHM
+## Algorithm
 
 ```python
 Algorithm 1 DBSCAN
@@ -81,7 +81,7 @@ ExpandCluster(SetOfPoints, Point, ClId, Eps, MinPts) : Boolean;
 END; # ExpandCluster
 ```
 
-## PARAMETERS TO TUNE
+## Parameters to tune
 
 $\epsilon$ and $minPoints$ are the parameter that need to be tuned, a good value for $minPoints$ can be $2*D$ where $D$ is the number of dimensions
 

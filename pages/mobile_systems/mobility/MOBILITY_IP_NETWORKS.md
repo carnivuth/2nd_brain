@@ -5,7 +5,7 @@ tags: []
 index: 26
 ---
 
-# MOBILITY IN IP NETWORKS
+# Mobility in ip networks
 
 The ip network infrastructure is not suitable for handling mobile nodes cause:
 

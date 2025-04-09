@@ -1,4 +1,4 @@
-# MODELLAZIONE DELL'INNOVAZIONE
+# Modellazione dell'innovazione
 
 Esistono dei modelli per prevedere l'andamento e la diffusione dell'innovazione all'interno del mercato tra cui
 

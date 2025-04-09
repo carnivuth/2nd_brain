@@ -5,7 +5,7 @@ aliases:
 index: 3
 ---
 
-# Quando la struttura del file non e sufficiente: Indici
+# Quando la struttura del file non e sufficiente: indici
 
 [L'organizzazione dei file](gestione_disco.md#Organizzazione%20dei%20file) da sola non e sufficiente, in molti casi sia [Heap file](gestione_disco.md#Heap%20file) che [Sequential file](gestione_disco.md#Sequential%20file) hanno i loro limiti, per esempio la ricerca nel primo caso e costosa e nel secondo e efficiente solo se effettuata sul campo di ordinamento del file
 

@@ -5,8 +5,8 @@ tags: []
 index: 55
 ---
 
-# PUB/SUB PROTOCOLS
-## MESSAGE QUEUE TELEMETRY TRANSPORT (MQTT)
+# Pub/sub protocols
+## Message queue telemetry transport (mqtt)
 
 protocol that implements the [pub/sub model](mobile_systems/PUB_SUB_MODEL.md) that relies on TCP to handle connections, that supports different delivery semantics for messages:
 
@@ -16,11 +16,11 @@ protocol that implements the [pub/sub model](mobile_systems/PUB_SUB_MODEL.md) th
 
 clients can also setup wills that are messages that are delivered to nodes when the node is disconnected
 
-## ADVANCED MESSAGE QUEUING PROTOCOL (AMQP)
+## Advanced message queuing protocol (amqp)
 
 protocol based on the [pub/sub model](mobile_systems/PUB_SUB_MODEL.md), richer semantics than MQTT but also heavier
 
-## DATA DISTRIBUTION SERVICE (DDS)
+## Data distribution service (dds)
 
 brokerless solution based on multicast communication that is designed for mission critical environments where performance and reliability are essentials
 

@@ -5,7 +5,7 @@ tags: []
 index: 7
 ---
 
-# SCALING
+# Scaling
 
 Task that makes data more omogeneous. It's used when there is a massive presence of outliers, which could affect too much the model during the training step.
 

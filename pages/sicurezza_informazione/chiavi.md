@@ -20,7 +20,7 @@ A & B--> C --> D
 
 In questo modo solo il possessore della chiave e in grado di riprodurre la trasformazione,e sempre possibile eseguire un attacco di forza bruta per risalire al valore della chiave ma la complessità computazionale del problema e **esponenziale in funzione della dimensione della chiave**
 
-## IMPLEMENTAZIONE DI $E$ E $S$
+## Implementazione di $e$ e $s$
 
 Le trasformazioni [E](trasformazioni.md#TRASFORMAZIONE%20$E$) e [S](trasformazioni.md#TRASFORMAZIONE%20$S$) sono implementabili per mezzo dell' utilizzo di chiavi:
 
