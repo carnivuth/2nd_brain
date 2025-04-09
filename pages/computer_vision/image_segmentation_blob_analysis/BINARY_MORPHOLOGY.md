@@ -35,4 +35,4 @@ $$
 A \bullet B = (A \oplus B) \ominus B
 $$
 
-[PREVIOUS](pages/image_segmentation_blob_analysis/COLOR_BASED_SEGMENTATION.md) [NEXT](pages/image_segmentation_blob_analysis/COMPONENTS_LABELING.md)
+[PREVIOUS](pages/image_segmentation_blob_analysis/COLOR_BASED_SEGMENTATION.md) [NEXT](image_segmentation_blob_analysis/COMPONENTS_LABELING.md)

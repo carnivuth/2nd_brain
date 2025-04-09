@@ -24,4 +24,4 @@ Several solution from different vendors are available, some of them allow edge c
 -  [EDGEX IOT PLATFORM](EDGEX_IOT_PLATFORM.md) no cloud based, edge capabilities
 - [AWS IOT PLATFORM](AWS_IOT_PLATFORM.md) cloud based no edge capabilities
 
-[PREVIOUS](pages/IoT/SCADA.md) [NEXT](pages/IoT/AWS_IOT_PLATFORM.md)
+[PREVIOUS](pages/IoT/SCADA.md) [NEXT](IoT/AWS_IOT_PLATFORM.md)

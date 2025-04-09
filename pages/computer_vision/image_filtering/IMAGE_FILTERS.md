@@ -106,4 +106,4 @@ $$
 
 So the idea behind the implementation is to slide the kernel matrix over the image and compute the convolution for each point of the image
 
-[PREVIOUS](pages/image_formation_acquisition/IMAGE_WARPING.md) [NEXT](pages/image_filtering/MEAN_FILTER.md)
+[PREVIOUS](pages/image_formation_acquisition/IMAGE_WARPING.md) [NEXT](image_filtering/MEAN_FILTER.md)

@@ -176,4 +176,4 @@ So in order to train big CNN a 2 steps approach is adopted:
 - **pre-train** the deep network with a large, general purpose dataset
 - **fine-tune** specific parts of the network with the smaller specific one dataset
 
-[PREVIOUS](pages/machine_learning_cv/DEEP_LEARNING_AND_NEURAL_NETWORKS.md) [NEXT](pages/machine_learning_cv/LENET.md)
+[PREVIOUS](pages/machine_learning_cv/DEEP_LEARNING_AND_NEURAL_NETWORKS.md) [NEXT](machine_learning_cv/LENET.md)

@@ -566,4 +566,4 @@ function show(ogg){
 show(e)
 ```
 
-[PREVIOUS](pages/PROCESSI_COMPUTAZIONALI.md) [NEXT](pages/LAMBDA_CALCOLO.md)
+[PREVIOUS](pages/PROCESSI_COMPUTAZIONALI.md) [NEXT](LAMBDA_CALCOLO.md)

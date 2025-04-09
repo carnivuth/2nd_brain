@@ -37,4 +37,4 @@ keypoints are points that contains the most information in an image, [edges](EDG
 
 ![](computer_vision/Pasted_image_20240310151838.png)
 
-[PREVIOUS](pages/image_segmentation_blob_analysis/BLOB_ANALYSIS.md) [NEXT](pages/local_features/EDGES.md)
+[PREVIOUS](pages/image_segmentation_blob_analysis/BLOB_ANALYSIS.md) [NEXT](local_features/EDGES.md)

@@ -101,4 +101,4 @@ In fase di editing la rappresentazione per mezzo di facce e vertici non e ottima
 
 ![](computer_graphics/Pasted%20image%2020250102194324.png)
 
-[PREVIOUS](pages/shadowing.md) [NEXT](pages/html5.md)
+[PREVIOUS](pages/shadowing.md) [NEXT](html5.md)

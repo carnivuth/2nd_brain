@@ -26,4 +26,4 @@ brokerless solution based on multicast communication that is designed for missio
 
 ![](mobile_systems/Pasted%20image%2020240615103454.png)
 
-[PREVIOUS](pages/IoT/PUB_SUB_MODEL.md) [NEXT](pages/IoT/REQUEST_RESPONSE.md)
+[PREVIOUS](pages/IoT/PUB_SUB_MODEL.md) [NEXT](IoT/REQUEST_RESPONSE.md)

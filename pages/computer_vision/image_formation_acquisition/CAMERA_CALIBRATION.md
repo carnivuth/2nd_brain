@@ -27,4 +27,4 @@ C --> D
 
 One of the most used methods it's the [zhang's method](ZHANG_METHOD.md)
 
-[PREVIOUS](pages/image_formation_acquisition/HOMOGRAPHY.md) [NEXT](pages/image_formation_acquisition/ZHANG_METHOD.md)
+[PREVIOUS](pages/image_formation_acquisition/HOMOGRAPHY.md) [NEXT](image_formation_acquisition/ZHANG_METHOD.md)

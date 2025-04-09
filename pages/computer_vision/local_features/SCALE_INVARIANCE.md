@@ -28,4 +28,4 @@ So each level of the Gaussian scale space is obtained by tuning the $\sigma$ par
 
 The Gaussian scale space does not give ways to find features nor their characteristic scale
 
-[PREVIOUS](pages/local_features/SHI_TOMASI_CORNER_DETECTOR.md) [NEXT](pages/local_features/SCALE_NORMALIZED_LOG.md)
+[PREVIOUS](pages/local_features/SHI_TOMASI_CORNER_DETECTOR.md) [NEXT](local_features/SCALE_NORMALIZED_LOG.md)

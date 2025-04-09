@@ -56,4 +56,4 @@ The implementation relies on a discrete representation of the parameter space as
 
 In order to compute non analytical shapes the [GENERALIZED HUGH TRANSFORM](GENERALIZED_HUGH_TRANSFORM.md) is deployed
 
-[PREVIOUS](pages/object_detection/SHAPE_BASED_MATCHING.md) [NEXT](pages/object_detection/GENERALIZED_HUGH_TRANSFORM.md)
+[PREVIOUS](pages/object_detection/SHAPE_BASED_MATCHING.md) [NEXT](object_detection/GENERALIZED_HUGH_TRANSFORM.md)

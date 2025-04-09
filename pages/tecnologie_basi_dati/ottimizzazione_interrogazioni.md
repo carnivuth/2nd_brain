@@ -124,4 +124,4 @@ close():
 	# termina e rilascia le risorse
 ```
 
-[PREVIOUS](pages/operatori_modifica.md) [NEXT](pages/ricerca_piano_accesso.md)
+[PREVIOUS](pages/operatori_modifica.md) [NEXT](ricerca_piano_accesso.md)

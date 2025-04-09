@@ -38,4 +38,4 @@ An IoT system tasks can be resumed as the following:
 - Analyze information to improve system knowledge
 - Take decisions, in a human-assisted or autonomous manner
 
-[PREVIOUS](pages/android/SOCKETS.md) [NEXT](pages/IoT/SCADA.md)
+[PREVIOUS](pages/android/SOCKETS.md) [NEXT](IoT/SCADA.md)

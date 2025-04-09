@@ -52,4 +52,4 @@ $$
 NOPS_{1D \space filter} =4(2k+1)\\
 $$
 
-[PREVIOUS](pages/image_filtering/MEAN_FILTER.md) [NEXT](pages/image_filtering/MEDIAN_FILTER.md)
+[PREVIOUS](pages/image_filtering/MEAN_FILTER.md) [NEXT](image_filtering/MEDIAN_FILTER.md)

@@ -15,4 +15,4 @@ $$
 
 ![](computer_vision/Pasted_image_20240314101650.png)
 
-[PREVIOUS](pages/local_features/SCALE_INVARIANCE.md) [NEXT](pages/local_features/DOG_DETECTOR.md)
+[PREVIOUS](pages/local_features/SCALE_INVARIANCE.md) [NEXT](local_features/DOG_DETECTOR.md)

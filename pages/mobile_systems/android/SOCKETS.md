@@ -34,4 +34,4 @@ In order to be energy efficient a best practice is to bundle the data transfers 
 
 ![](mobile_systems/Pasted%20image%2020240618124220.png)
 
-[PREVIOUS](pages/android/ALARMS.md) [NEXT](pages/IoT/IOT.md)
+[PREVIOUS](pages/android/ALARMS.md) [NEXT](IoT/IOT.md)

@@ -99,4 +99,4 @@ A 2D accumulator array is not sufficient to account for rotation and scale, the 
 
 ![](computer_vision/Pasted_image_20240428143913.png)
 
-[PREVIOUS](pages/object_detection/HOUGH_TRANSFORM.md) [NEXT](pages/object_detection/OBJECT_DETECTION_PIPELINE.md)
+[PREVIOUS](pages/object_detection/HOUGH_TRANSFORM.md) [NEXT](object_detection/OBJECT_DETECTION_PIPELINE.md)

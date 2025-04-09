@@ -217,4 +217,4 @@ In questa tipologia di file i record sono ordinati in base a un dato attributo
 | deletion      | $cost of search +1$                | $costofsearch +1$                          |
 | update        | $cost of search + 1$               | $costofsearch +1$                          |
 
-[PREVIOUS](pages/struttura_database.md) [NEXT](pages/indici.md)
+[PREVIOUS](pages/struttura_database.md) [NEXT](indici.md)
