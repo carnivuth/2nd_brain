@@ -37,7 +37,7 @@ anche in questo caso il costo dipende dalla presenza o meno di indici
 
 In caso di indice un-clustered si può decidere di ordinare i RID prima di accedere al file dati per ottimizzarne l'accesso
 
-![](Pasted%20image%2020250209173430.png)
+![](tecnologie_basi_dati/Pasted%20image%2020250209173430.png)
 
 ## Selezioni con condizioni multi-attributo
 

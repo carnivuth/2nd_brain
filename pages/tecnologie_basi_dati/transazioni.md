@@ -47,7 +47,7 @@ L'esecuzione concorrente delle transazioni può portare a 4 tipologie di inconsi
 
 Il DBMS può organizzare le operazioni di due transazioni in molteplici ordini, la struttura che mostra tale ordinamento si chiama **schedule**
 
-![](Pasted%20image%2020250208125350.png)
+![](tecnologie_basi_dati/Pasted%20image%2020250208125350.png)
 
 ### Proprietà di schedule
 
@@ -82,7 +82,7 @@ il [transaction manager](struttura_database.md#Struttura%20fisica) concede la il
 
 L'isolamento di una transazione e garantito se essa acquisisce tutti i lock necessari ad operare subito e li rilascia alla fine (*sia in caso di commit che di rollback*)
 
-![](Pasted%20image%2020250206143218.png)
+![](tecnologie_basi_dati/Pasted%20image%2020250206143218.png)
 
 Tuttavia questo può portare a situazioni di **deadlock** che possono essere risolte abortendo una transazione
 
@@ -106,7 +106,7 @@ In questa variante una transazione non può richiedere altri lock nel momento in
 - nella prima fase la transazione accresce il numero di lock acquisiti
 - nella seconda fase la transazione rilascia i lock acquisiti
 
-![](Pasted%20image%2020250208131535.png)
+![](tecnologie_basi_dati/Pasted%20image%2020250208131535.png)
 >[!WARNING] gli [schedule](#Determinare%20l'ordine%20nelle%20transazioni%20Schedule) generati dal protocollo 2PL non sono [strict](#Proprietà%20di%20schedule)
 
 ## Prevenire il problema della phantom row

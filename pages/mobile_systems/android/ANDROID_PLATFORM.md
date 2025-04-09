@@ -42,7 +42,7 @@ applications can through the wakelocks java API can influence the behavior of th
 
 Some performance critical components are implemented in C/C++ to improve performance for example the multimedia stack
 
-![](Pasted%20image%2020240507125214.png)
+![](mobile_systems/Pasted%20image%2020240507125214.png)
 
 ## DALVIK VIRTUAL MACHINE
 

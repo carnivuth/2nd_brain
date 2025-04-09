@@ -9,7 +9,7 @@ index: 34
 
 A problem for all keypoints detectors is that at different scales some features are detectable as others are not
 
-![](Pasted_image_20240310173759.png)
+![](computer_vision/Pasted_image_20240310173759.png)
 
 One of the main concept for dealing with this problem is to compute the keypoints on a set of images down-sampled from the original one and smoothed in order to change the scale of the detected features
 

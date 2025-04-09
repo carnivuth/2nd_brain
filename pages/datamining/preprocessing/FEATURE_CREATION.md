@@ -12,7 +12,7 @@ the process of creating new feature from existing ones, the goals of this transf
 - extracting new features
 - mapping data to a new space
 
-![](Pasted_image_20240107163800.png)
+![](datamining/Pasted_image_20240107163800.png)
 
 
 [PREVIOUS](SAMPLING.md)

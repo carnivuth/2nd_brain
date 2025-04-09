@@ -37,7 +37,7 @@ B --> D <--> F
 
 Nella fase di fusione vengono usati 3 buffer (*uno per l'output*) dove vengono caricati in input le pagine delle run e mergiate nella pagina di output
 
-![](Pasted%20image%2020250209155934.png)
+![](tecnologie_basi_dati/Pasted%20image%2020250209155934.png)
 ### Merge sort esterno: performance
 
 dato un numero di pagine in input $P=2^k$ il numero di passi dell'algoritmo di sort merge e $\lceil \log_{2}{P}\rceil +1$ con un costo totale (*in numero di letture scritture*) $2P(\lceil \log_2P\rceil +1)$.
@@ -77,7 +77,7 @@ $$
 
 Di conseguenza si possono organizzare le letture delle pagine in batches detti $Z$-frame da $FS$ pagine ciascuno
 
-![](Pasted%20image%2020250209163032.png)
+![](tecnologie_basi_dati/Pasted%20image%2020250209163032.png)
 
 ## Sorting con [b+tree](b+tree.md)
 

@@ -31,7 +31,7 @@ $$
 
 ## DIFFUSIONE NEL MERCATO
 
-![](Pasted%20image%2020231214185032.png)
+![](gip/Pasted%20image%2020231214185032.png)
 
 Il punto più complesso da raggiungere per le aziende è la fetta degli early majority questa è detta l'**abisso** o **the chasm**
 

@@ -20,4 +20,4 @@ Non possono essere brevettate:
 
 Per ottenere un brevetto è necessario fare domanda a uno dei macro uffici, segue un esame da parte dell'ufficio del prodotto in questione per valutarne la fattibilità 
 
-![](Pasted%20image%2020231216164426.png)
+![](gip/Pasted%20image%2020231216164426.png)

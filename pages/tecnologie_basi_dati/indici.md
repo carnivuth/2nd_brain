@@ -13,7 +13,7 @@ Per questo si introducono gli **indici**, strutture dati ausiliarie per facilita
 
 >[!TIP] il vantaggio sta nel fatto che l'indice e più piccolo -> ricerca più veloce
 
-![](Pasted%20image%2020250130171838.png)
+![](tecnologie_basi_dati/Pasted%20image%2020250130171838.png)
 
 Da un punto di vista logico un indice e una collezione di coppie $(k_i,p_i)$ dove:
 - $k$ e il valore di un attributo su cui l'indice e costruito

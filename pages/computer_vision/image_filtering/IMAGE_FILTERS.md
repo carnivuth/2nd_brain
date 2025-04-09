@@ -8,7 +8,7 @@ index: 15
 
 Image filters are operators that given a 2D input image calculate the new intensity of a pixel based on considerations on the neighborhood, an important class of filters are the [linear and translation equivariant](LTE_OPERATORS.md) filters. 
 
-![](Pasted%20image%2020241011100211.png)
+![](computer_vision/Pasted%20image%2020241011100211.png)
 
  [LTE filters](LTE_OPERATORS.md) are olso used in [CNN](CONVOLUTIONAL_NEURAL_NETWORKS.md) as feature extractors
  
@@ -44,7 +44,7 @@ $$
 h(x,y) = T(\delta(x,y))
 $$
 
-![](Pasted_image_20240229104951.png)
+![](computer_vision/Pasted_image_20240229104951.png)
 
 #### PROPERTIES
 
@@ -67,7 +67,7 @@ $$
 
 **CORRELATION IS NOT COMMUTATIVE**
 
-![](Pasted_image_20240229110950.png)
+![](computer_vision/Pasted_image_20240229110950.png)
 
 ### CONVOLUTION AND CORRELATION RELATION
 

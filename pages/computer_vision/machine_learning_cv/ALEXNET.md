@@ -9,7 +9,7 @@ index: 51
 
 [CNN](CONVOLUTIONAL_NEURAL_NETWORKS.md) that won the [ILSVRC](https://www.image-net.org/challenges/LSVRC/2012/)2012, powerfull network trained on 2 gpus
 
-![](Pasted%20image%2020241001102840.png)
+![](computer_vision/Pasted%20image%2020241001102840.png)
 
 ## STRIDE PARAMETER
 

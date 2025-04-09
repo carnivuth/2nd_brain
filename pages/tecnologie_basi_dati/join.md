@@ -101,7 +101,7 @@ AND R.RIVISTA= "sapore di vino"
 
 si basa sul fatto che entrambe le relazioni siano **ordinati sull'attributo di join** (*in caso non sia vero e necessario ordinarle*). Le due relazioni vengono scandite e accoppiate secondo la chiave di join 
 
-![](Pasted%20image%2020250213151824.png)
+![](tecnologie_basi_dati/Pasted%20image%2020250213151824.png)
 
 ```python
 result=[]

@@ -28,7 +28,7 @@ y^f = X*w^T
 $$
 
 
-![](Pasted_image_20240102171514.png)
+![](datamining/Pasted_image_20240102171514.png)
 
 ## QUALITY INDICATORS
 
@@ -66,7 +66,7 @@ when the number of feature is high overfitting is possible
 
 the target is influenced by a single feature and the relationship can't be describe by a straight line
 
-![](Pasted_image_20240102175121.png)
+![](datamining/Pasted_image_20240102175121.png)
 
 
 

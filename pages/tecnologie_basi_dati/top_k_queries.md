@@ -9,7 +9,7 @@ index: 22
 
 l'obbiettivo quando si parla di top-$k$ queries e quello di **fornire i primi $k$ risultati che più si avvicinano alla richiesta della query**
 
-![](Pasted%20image%2020250218103304.png)
+![](tecnologie_basi_dati/Pasted%20image%2020250218103304.png)
 >Gli utilizzi più frequenti di questa tecnologia si hanno dei DB scientifici, motori di ricerca e-commerce sistemi multimediali
 
 ## Approccio naive
@@ -106,11 +106,11 @@ In questo caso la situazione e più complessa:
 Se si plottano le tuple in un grafo basato sugli attributi di scoring si ottiene che le tuple che soddisfano la top-$k$  query si trovano tutte sotto una data linea
 
 > si considera di cercare macchine con i parametri di scoring più bassi possibili
-![](Pasted%20image%2020250218122553.png)
+![](tecnologie_basi_dati/Pasted%20image%2020250218122553.png)
 
 Si può generalizzare a un punto qualunque dello spazio $q$, in questo caso si ottiene che i punti che soddisfano la top-$k$ query sono quelli all'interno di una regione di spazio intorno al punto di query $q$
 
-![](Pasted%20image%2020250218122755.png)
+![](tecnologie_basi_dati/Pasted%20image%2020250218122755.png)
 
 Di conseguenza il problema delle top-$k$ query **si riduce al problema di trovare i $k$ nearest neighbors  rispetto al query point $q$**
 

@@ -15,7 +15,7 @@ Platforms for interaction with IoT environment, The main objectives are:
 - **analyze data** collected from the devices
 - **build application** that can interact with the devices and the data stream
 
-![](Pasted%20image%2020240615125256.png)
+![](mobile_systems/Pasted%20image%2020240615125256.png)
 
 Several solution from different vendors are available, some of them allow edge computation on gateway nodes some other are opensource and can interact with different cloud providers, the most noticeable ones are:
 

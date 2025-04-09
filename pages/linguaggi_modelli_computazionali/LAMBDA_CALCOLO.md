@@ -102,7 +102,7 @@ f(2)
 
 >[!ERROR] esplode lo stack, ovviamente
 
-![](Pasted%20image%2020241031114431.png)
+![](linguaggi_modelli_computazionali/Pasted%20image%2020241031114431.png)
 
 ### TEOREMA DI CHURCH-ROSSER
 

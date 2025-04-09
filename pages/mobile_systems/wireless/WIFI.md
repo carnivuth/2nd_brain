@@ -49,6 +49,6 @@ end
 
 The objective is to cover with wireless connectivity technology wide areas like cities with a mesh network
 
-![](Pasted%20image%2020240604192831.png)
+![](mobile_systems/Pasted%20image%2020240604192831.png)
 
 [PREVIOUS](pages/wireless/CSMA.md) [NEXT](pages/wireless/WIMAX.md)

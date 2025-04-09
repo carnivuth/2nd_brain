@@ -13,6 +13,6 @@ $$
 C = \min(\lambda_1,\lambda_2)
 $$
 
-![](Pasted_image_20240310172549.png)
+![](computer_vision/Pasted_image_20240310172549.png)
 
 [PREVIOUS](pages/local_features/HARRIS_CORNER_DETECTOR.md) [NEXT](pages/local_features/SCALE_INVARIANCE.md)

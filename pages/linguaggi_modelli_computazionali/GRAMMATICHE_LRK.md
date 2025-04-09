@@ -38,7 +38,7 @@ Un parser $RL$ ricostruisce l'albero di derivazione della frase in analisi al co
 
 La decisione viene presa in base a un **contesto corrente** (*stato*) in cui il riconoscitore si trova a operare
 
-![](Pasted%20image%2020241020170257.png)
+![](linguaggi_modelli_computazionali/Pasted%20image%2020241020170257.png)
 
 Il componente software imputato di tale compito e il **RICONOSCITORE DI CONTESTI**
 

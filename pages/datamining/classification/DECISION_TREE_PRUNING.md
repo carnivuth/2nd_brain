@@ -22,11 +22,11 @@ ei = \sum_{leaf}{e}
 $$
 ## BEFORE PRUNING
 
-![](Pasted_image_20231230175754.png)
+![](datamining/Pasted_image_20231230175754.png)
 
 ## AFTER PRUNING
 
-![](Pasted_image_20231230175803.png)
+![](datamining/Pasted_image_20231230175803.png)
 
 
 [PREVIOUS](DECISION_TREES.md) [NEXT](REGRESSION.md)

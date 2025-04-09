@@ -19,7 +19,7 @@ Per far si che una blockchain funzioni devono essere definiti protocolli per gar
 
 Ogni elemento della blockchain rispetta la seguente struttura
 
-![](Pasted%20image%2020240709122716.png)
+![](sicurezza_informazione/Pasted%20image%2020240709122716.png)
 
 Dove e presente un header che contiene informazioni riguardanti:
 
@@ -35,7 +35,7 @@ Con questa struttura **ogni modifica al blocco $i$ necessita di modificare tutti
 
 Il blocco dati e organizzato secondo una struttura ad albero chiamata merkle tree
 
-![](Pasted%20image%2020240709123120.png)
+![](sicurezza_informazione/Pasted%20image%2020240709123120.png)
 
 Dove le foglie dell'albero contengono i dati effettivi e i relativi genitori l'hash dei rispettivi figli, la radice dell'albero e mantenuta nel header del blocco
 
@@ -60,7 +60,7 @@ Sistema basato su blockchain per le transazioni economiche anonime fra utenti, o
 - **Miner**: nodo della rete che inserisce all'interno della blockchain nuove transazioni per mezzo della cosiddetta prof of work
 - **Wallet**: nodo della rete che contiene chiavi identita e consente di fare transazioni
 
-![](Pasted%20image%2020240709153830.png)
+![](sicurezza_informazione/Pasted%20image%2020240709153830.png)
 
 ### Protocollo di consenso
 

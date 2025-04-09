@@ -90,7 +90,7 @@ DIscovery in UPnP is achieved with the **simple service discovery protocol** (SS
 
 Nodes that offer services perform periodic broadcast communications on the network, a node that ask for services perform a discover communication and a service can respond with a unicast communication with the url and xml descriptor of the resource
 
-![](Pasted%20image%2020240616115828.png)
+![](mobile_systems/Pasted%20image%2020240616115828.png)
 
 ### SERVICE REPRESENTATION
 

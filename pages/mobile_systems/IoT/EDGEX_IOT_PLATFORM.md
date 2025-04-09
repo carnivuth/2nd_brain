@@ -9,7 +9,7 @@ index: 51
 
 Infrastructure to manage communication with different IoT devices that abstracts from the protocol details and offers a northbound API for application and CLOUD infrastructure
 
-![](Pasted%20image%2020240613162524.png)
+![](mobile_systems/Pasted%20image%2020240613162524.png)
 
 EDGEX is a microservice architecture, The principal components are:
 

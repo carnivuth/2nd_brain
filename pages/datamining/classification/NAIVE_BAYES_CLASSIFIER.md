@@ -8,7 +8,7 @@ index: 7
 
 
 Basato (su metodi statistici) particolarmente sul teorema di Bayes.
-![](Pasted_image_20231230105024.png)
+![](datamining/Pasted_image_20231230105024.png)
 
 con il training valuti Pr(H) creando il modello di classificazione mentre a runtime vedi Pr(E|H)
 
@@ -17,7 +17,7 @@ Un altro problema è che se un valore v di un attributo d non abbare negli eleme
 
 modi per evitare il problema:
 1. Laplace smoothing
-![](Pasted_image_20231230105901.png)
+![](datamining/Pasted_image_20231230105901.png)
 con alfa=0 otteniamo la formula standard non smussata, più è alto alfa maggiore importanza si da ai valori nel dataset .
 
 Nel caso di valori mancanti non è necessario cancellare le istanze:
@@ -28,10 +28,10 @@ Nel caso di valori mancanti non è necessario cancellare le istanze:
 	Assumiamo che i valori si trovino su una distribuzione Gaussiana, descriviamo la distribuzione del valore degli attributi sulla base del valor medio e della varianza degli attributi all'interno di ogni classe.
 	La distribuzione di valore per un atributo di una classe è :
 
-	![](Pasted_image_20231230111308.png)
+	![](datamining/Pasted_image_20231230111308.png)
 
 Quindi si imposta una soglia per un valore di interesse (ad esempio impostare di poter giocare a tennis se la Temperatura è superiore ai 20 gradi) e si calcola quella che viene detta Densità di Probabilità:
-![](Pasted_image_20231230111910.png)
+![](datamining/Pasted_image_20231230111910.png)
 
 Che rappresenta la Pr(E|H) del teorema di Bayes.
 Probabilità e Densità si differenziano :

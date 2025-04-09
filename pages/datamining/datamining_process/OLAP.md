@@ -15,36 +15,36 @@ index: 2
 
 - adds aggregation to the data collection
 
-	- ![](Pasted_image_20231005143104.png)
+	- ![](datamining/Pasted_image_20231005143104.png)
 
 ### drill-down
 
 - removes aggregation from the data collection
 
- ![](Pasted_image_20231005143041.png)
+ ![](datamining/Pasted_image_20231005143041.png)
 
 ### slice-and-dice
 
 - set a dimension to a specific value reducing the data collection dimensions
 
-![](Pasted_image_20231005143020.png)
+![](datamining/Pasted_image_20231005143020.png)
 
 ### pivot
 
  - change in layouts of the collection of the data
 
- ![](Pasted_image_20231005143426.png)
+ ![](datamining/Pasted_image_20231005143426.png)
 
 ### drill-across
 
  - create a liink between data co compare them
 
- ![](Pasted_image_20231005143524.png)
+ ![](datamining/Pasted_image_20231005143524.png)
 
 ### drill-through
 
  - switches from the multidimensional data model into a operational data
- ![](Pasted_image_20231005143844.png)
+ ![](datamining/Pasted_image_20231005143844.png)
 
 ## EXTRACTION TRANSFORMATION AND LOADING (ETL)
 
@@ -98,13 +98,13 @@ Each approach is more suitable for certain types of data:
 
 - they make use of dictionaries and lookup tables to fix typing errors
 
-![](Pasted_image_20231008181755.png)
+![](datamining/Pasted_image_20231008181755.png)
 
 **Aproximate merging**
 
 - needed when merging data from different sources and there is no common key
 
-![](Pasted_image_20231008181831.png)
+![](datamining/Pasted_image_20231008181831.png)
 ### TRANSFORMATION
 
 - data are altered to match the information schema on the DWH
@@ -113,7 +113,7 @@ Each approach is more suitable for certain types of data:
 
  - for relational database data are rearranged to reduce the number of queries to do on manipulation fase
 
-![](Pasted_image_20231005150109.png)
+![](datamining/Pasted_image_20231005150109.png)
 
 ### LOADING
 

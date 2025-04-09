@@ -2,7 +2,7 @@
 
 Scala di misurazione del livello di maturità di una tecnologia, inventata dalla NASA negli anni 90
 
-![](Pasted%20image%2020231216144045.png)
+![](gip/Pasted%20image%2020231216144045.png)
 
 si costituisce di 9 livelli:
 

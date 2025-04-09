@@ -103,7 +103,7 @@ Partitions are namespaces to allow the logical splitting of a DDS domain where p
 
 For a reader to receive data there is the need to share the same topic and partition as the source, **partition can also enforce a QoS policy**
 
-![](Pasted%20image%2020240618175718.png)
+![](mobile_systems/Pasted%20image%2020240618175718.png)
 
 ### RELIABILITY
 

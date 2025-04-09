@@ -6,7 +6,7 @@ Modello per rappresentare la crescita e la diffusione di un innovazione all'inte
 
 lo sviluppo dell'innovazione può essere suddiviso in 4 fasi 
 
-![](Pasted%20image%2020231214174652.png)
+![](gip/Pasted%20image%2020231214174652.png)
 
 ### FASE DI FERMENTO
 

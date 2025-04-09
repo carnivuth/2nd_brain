@@ -11,13 +11,13 @@ Per poter applicare l'algoritmo [z-buffer](real_time_rendering.md#ALGORITMO%20Z-
 
 Dati due punti $p_1,p_2$ di un segmento e le corrispettive proiezioni del piano immagine $p_{s1},p_{s2}$ si assegna come coordinata $z$ a un punto $p_s$ del segmento compreso tra $p_{s1},p_{s2}$ la coordinata $z$ del punto $p$ corrispondente al punto $p_s$
 
-![](Pasted%20image%2020241214181040.png)
+![](computer_graphics/Pasted%20image%2020241214181040.png)
 
 >[!NOTE] e la cosa più intuitiva da fare
 
 Tuttavia questo sistema funziona solo se **la proiezione effettuata e parallela e non prospettica**
 
-![](Pasted%20image%2020241214181235.png)
+![](computer_graphics/Pasted%20image%2020241214181235.png)
 
 >[!ERROR] il cono di visione nel caso della proiezione prospettica non mantiene i rapporti fra le distanze
 
@@ -40,7 +40,7 @@ $$
 
 La trasformazione di cui sopra presenta tutte le proprietà richieste, quindi dato per esempio un cono di visione di $90^{\bullet}$   (*che può essere ottenuto mediante una trasformazione di scala da un cono di visione qualunque*)
 
-![](Pasted%20image%2020241217124618.png)
+![](computer_graphics/Pasted%20image%2020241217124618.png)
 
 si ha che le linee della forma $y=mz$ vengono ruotate rispetto al punto $y=m$ mantenendo l'allineamento tra i punti
 
@@ -59,6 +59,6 @@ $$
 
 Si ottiene il seguente spazio
 
-![](Pasted%20image%2020241217130133.png)
+![](computer_graphics/Pasted%20image%2020241217130133.png)
 
 [PREVIOUS](pages/algoritmi_rasterizzazione.md) [NEXT](pages/clipping.md)

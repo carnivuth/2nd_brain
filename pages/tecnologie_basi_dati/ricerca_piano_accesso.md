@@ -92,7 +92,7 @@ il numero di valori distinti viene quindi stimato come $NK(A) = Bln(B/Z)$
 
 Fino ad ora si e dato per ipotesi che i dati di un dato attributo fossero distribuiti in maniera uniforme ma nella realtà questo e un caso molto raro, per superare questa limitazione si fa l'utilizzo di istogrammi
 
-![](Pasted%20image%2020250215184151.png)
+![](tecnologie_basi_dati/Pasted%20image%2020250215184151.png)
 
 ### Istogrammi: Tipologie
 
@@ -149,7 +149,7 @@ Lo spazio di ricerca dell'algoritmo e comunque esponenziale in $n$, e dunque nec
 - escludere i prodotti cartesiani
 - considerare solo left-deep join trees
 
-![](Pasted%20image%2020250216144138.png)
+![](tecnologie_basi_dati/Pasted%20image%2020250216144138.png)
 
 In caso di utilizzo esclusivo dei left-deep join trees lo spazio di ricerca si riduce a 
 

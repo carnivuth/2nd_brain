@@ -46,7 +46,7 @@ index: 3
 
 ## DATA LAKES STRUCTURES
 
-![](Pasted_image_20231017155132.png)
+![](datamining/Pasted_image_20231017155132.png)
 
 
 ## DATA LAKE ARCHITECTURES
@@ -56,13 +56,13 @@ index: 3
 - designed for multiple workloads
 - data are inserted in 2 pipelines one for time consuming operation (cold path) and one real-time workflows where data need to be sent to the clients faster
 
-![](Pasted_image_20231017165627.png)
+![](datamining/Pasted_image_20231017165627.png)
 
 ### kappa lake
 
 -  simplified version of lambda lake, it removes the cold path stage and replace it with a long term data storage
 
-![](Pasted_image_20231017165903.png)
+![](datamining/Pasted_image_20231017165903.png)
 
 ### delta lake
 

@@ -35,6 +35,6 @@ The algorithms for the detection and description phase must have the following p
 
 keypoints are points that contains the most information in an image, [edges](EDGES.md) are bad candidates as **along the perpendicular direction they are pretty similar and cannot be distinguished**, points that show **high variance in all directions** are best suited for the purpose such as corners
 
-![](Pasted_image_20240310151838.png)
+![](computer_vision/Pasted_image_20240310151838.png)
 
 [PREVIOUS](pages/image_segmentation_blob_analysis/BLOB_ANALYSIS.md) [NEXT](pages/local_features/EDGES.md)

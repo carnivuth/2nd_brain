@@ -123,7 +123,7 @@ La forma `DETAILED INDEXES ALL` genera informazioni utili per capire lo "stato d
 
 Il partizionamento dei dati viene svolto per diverse motivazioni tra cui suddividere il costo computazionale su piu server, escludere parti di table a priori data una query  e ridurre il numero di transazioni in conflitto
 
-![](Pasted%20image%2020250216162844.png)
+![](tecnologie_basi_dati/Pasted%20image%2020250216162844.png)
 
 Le strategie di partizionamento si dividono in due categorie
 

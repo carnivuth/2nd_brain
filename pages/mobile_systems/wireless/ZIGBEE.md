@@ -21,7 +21,7 @@ The protocol has several improvements over [BLUETOOTH](BLUETOOTH.md) as:
 
 ## TOPOLOGIES
 
-![](Pasted%20image%2020240321144834.png)
+![](mobile_systems/Pasted%20image%2020240321144834.png)
 
 ## NODES ROLES
 

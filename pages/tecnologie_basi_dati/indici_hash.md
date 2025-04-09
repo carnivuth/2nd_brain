@@ -137,7 +137,7 @@ Le strategie di hashing dinamico si categorizzano in base all'utilizzo o meno de
 
 Al verificarsi di un overflow l'area primaria viene raddoppiata e il record viene inserito nel bucket *buddy*
 
-![](Pasted%20image%2020250204164936.png)
+![](tecnologie_basi_dati/Pasted%20image%2020250204164936.png)
 
 E necessaria una struttura di supporto **directory** per comprendere quale funzione di hash deve essere utilizzata per recuperare un record, un vettore $V$ binario viene utilizzato per tenere traccia dello stato dei bucket
 
@@ -155,7 +155,7 @@ Simile al [Dynamic hashing](#Dynamic%20hashing) ma la directory e composta da $2
 
 Ogni bucket ha un valore di local depth $p^{'}$  utilizzato per segnalare il numero di bit utilizzati per allocare chiavi nel bucket
 
-![](Pasted%20image%2020250204173527.png)
+![](tecnologie_basi_dati/Pasted%20image%2020250204173527.png)
 
 In caso di overflow si procede come segue
 

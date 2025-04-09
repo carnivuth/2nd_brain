@@ -23,7 +23,7 @@ app1 ~~~ app2
 end
 ```
 
-![](Pasted%20image%2020240509151244.png)
+![](mobile_systems/Pasted%20image%2020240509151244.png)
 
 the main thread of the application executes the following looper
 

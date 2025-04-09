@@ -20,7 +20,7 @@ In generale più qualcosa è intrinseco nel tessuto dell' impresa, più e comple
 
 ci sono due possibilità di ingresso in un mercato, non è dato sapere a priori quale delle due sarà vincente:
 
-![](Pasted%20image%2020231216152425.png)
+![](gip/Pasted%20image%2020231216152425.png)
 
 ### FIRST MOVER
 

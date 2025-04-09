@@ -120,7 +120,7 @@ Il teorema di cui sopra si può applicare seguendo un principio simile a quello 
 $B_0$ non funziona con funzioni diverse dalla funzione `MAX` perche al termine degli accessi sequenziali non vi e nessun limite inferiore al valore della scoring function, di conseguenza un oggetto che non e stato rilevato da un accesso sequenziale **puo essere il match migliore**
 
 >esempio con la funzione `MIN`
-![](Pasted%20image%2020250220114742.png)
+![](tecnologie_basi_dati/Pasted%20image%2020250220114742.png)
 
 ## Algoritmo FA
 
@@ -163,7 +163,7 @@ for i in range(1,k):
 
 L'algoritmo scandisce le liste fino a che la funzione di costo computata sui valori letti $S(p_1,p_2,...p_m)$ non e inferiore dello score dell'ultimo elemento del risultato (*che e il peggiore risultato corretto*)
 
-![](Pasted%20image%2020250220124511.png)
+![](tecnologie_basi_dati/Pasted%20image%2020250220124511.png)
 
 ### Performance di TA
 
@@ -268,7 +268,7 @@ $$
 
 dove $p_j^{max}$ e definito come il primo valore visto in $L_j$ 
 
-![](Pasted%20image%2020250220144720.png)
+![](tecnologie_basi_dati/Pasted%20image%2020250220144720.png)
 
 >[!WARNING] per far si che il rank join sia instance optimal e necessario che le relazioni siano al massimo 2 e che ci sia solo uno score parziale per input
 

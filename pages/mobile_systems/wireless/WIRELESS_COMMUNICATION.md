@@ -17,7 +17,7 @@ The physical layer over wireless medium has a lot of problems due to the signal 
 
 signal can also bounce over reflective surfaces generating reflections
 
-![](Pasted%20image%2020240604175345.png)
+![](mobile_systems/Pasted%20image%2020240604175345.png)
 
 There are also meteorological conditions that can influence the signal strength.
 

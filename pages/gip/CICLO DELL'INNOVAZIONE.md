@@ -2,7 +2,7 @@
 
 L'innovazione può essere visualizzata come un ciclo di creazione e distruzione (modello di Anderson e Tushman)
 
-![](../assets/Pasted%20image%2020230928163324.png)
+![](gip/../assets/Pasted%20image%2020230928163324.png)
 
 ## ERA DI FERMENTO
 

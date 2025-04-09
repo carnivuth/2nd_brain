@@ -8,7 +8,7 @@ Innovazione che punta a migliorare i processi produttivi e le attività interne 
 
 ##  INNOVAZIONE DI PROCESSO VS INNOVAZIONE DI PRODOTTO
 
-![](Pasted%20image%2020231214161944.png)
+![](gip/Pasted%20image%2020231214161944.png)
 
 ### FASE FLUIDA
 

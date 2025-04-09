@@ -55,7 +55,7 @@ viene controllata la sintassi e il rispetto di vincoli sulla base dati (*query e
 
 l'output di questo componente e una **rappresentazione ad albero della query** simile alla forma sql con gli [Operatori logici](operatori_relazionali.md#Operatori%20logici)  come nodi dell'albero e le relazioni come foglie
 
-![](Pasted%20image%2020250215163029.png)
+![](tecnologie_basi_dati/Pasted%20image%2020250215163029.png)
 
 ## Riscrittura della query
 

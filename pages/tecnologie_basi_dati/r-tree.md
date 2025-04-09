@@ -16,13 +16,13 @@ Le foglie dell'albero sono entry nella forma  `(key, RID)`, dove il valore di ch
 
 I nodi interni dell'albero si presentano nella forma `(MBB, PID)`, dove la chiave sono le coordinate della minimal bounding box
 
-![](Pasted%20image%2020250216184643.png)
+![](tecnologie_basi_dati/Pasted%20image%2020250216184643.png)
 
 ## Concetto di MBB
 
 La minima bounding box e definita come la regione hyper-rettangolare minima che contiene un set di punti $m$
 
-![](Pasted%20image%2020250216184057.png)
+![](tecnologie_basi_dati/Pasted%20image%2020250216184057.png)
 
 Per definirla e sufficiente conoscere le coordinate di due vertici opposti
 
@@ -41,7 +41,7 @@ Per definirla e sufficiente conoscere le coordinate di due vertici opposti
 
 La ricerca con un r-tree consiste nel trovare tutti i punti che fanno parte della bounding box della query di ricerca
 
-![](Pasted%20image%2020250218100138.png)
+![](tecnologie_basi_dati/Pasted%20image%2020250218100138.png)
 
 Per implementare la ricerca e necessario implementare le API previste dalla specifica [GiST](GiST.md)
 

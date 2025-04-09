@@ -19,13 +19,13 @@ Un concetto fondamentale per le skyline query e la dominanza delle tuple:
 
 Si definiscono di conseguenza le regioni di dominanza e anti-dominanza di una tupla $t$
 
-![](Pasted%20image%2020250220161559.png)
+![](tecnologie_basi_dati/Pasted%20image%2020250220161559.png)
 
 Di conseguenza l'output della skyline query e definito come segue:
 
 >[!CITE] data una relazione $R(A_1,A_2,...,A_m)$ la sua skyline e definita come $$sky(R) = \{t | t \in R, \nexists t^{'} \in R: t^{'} \succ t\}$$
 
-![](Pasted%20image%2020250220162016.png)
+![](tecnologie_basi_dati/Pasted%20image%2020250220162016.png)
 
 ## Cosa c'e' di speciale nelle query skyline
 
@@ -125,7 +125,7 @@ In questo caso si possono sfruttare le peculiarità di questi domini
 
 Viene predisposta una matrice data da tutte le possibili combinazioni degli attributi di interesse
 
-![](Pasted%20image%2020250220174021.png)
+![](tecnologie_basi_dati/Pasted%20image%2020250220174021.png)
 
 Si scandisce il file e si marcano le tuple corrispondenti nella matrice come presenti, successivamente si determinano le dominanti tra quelle presenti e si rilegge il file fornendo in output quelle nella matrice
 

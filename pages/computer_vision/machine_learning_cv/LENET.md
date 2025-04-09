@@ -9,7 +9,7 @@ index: 50
 
 [CNN](CONVOLUTIONAL_NEURAL_NETWORKS.md) to recongnize handwritten digits.
 
-![](Pasted%20image%2020241001101124.png)
+![](computer_vision/Pasted%20image%2020241001101124.png)
 
 Principal features are:
 

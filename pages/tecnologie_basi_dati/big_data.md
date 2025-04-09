@@ -15,7 +15,7 @@ Si parla di big data quando il volume di dati da amministrare supera le capacita
 
 In queste situazioni il paradigma si sposta da un potenziamento della singola istanza che gestisce il dato a un aumento del numero di istanze (*scale out non scale up*) 
 
-![](Pasted%20image%2020250225145904.png)
+![](tecnologie_basi_dati/Pasted%20image%2020250225145904.png)
 
 Questo porta alla necessita di gestire i dati all'interno di cluster di macchine connesse in rete e limitare i flussi di trasferimento di dati non necessari, aumentando il numero di macchine e di componenti hardware aumentano anche le probabilità che ci siano guasti hardware e software, e necessario pensare sistemi in grado di operare in ambienti ostili
 

@@ -25,7 +25,7 @@ the core of a classification model is the decision function.
 
 where $\theta$ is a **set of values for the parameters** of the decision function
 
-![](Pasted_image_20231227172912.png)
+![](datamining/Pasted_image_20231227172912.png)
 
 ## VAPNIK-CHERVONENKIS DIMENSION
 
@@ -37,7 +37,7 @@ if a [classification model](#CLASSIFICATION_MODEL) is able to shatter all possib
 
 - use the training set against the classification model obtained at the previous step to calculate the accuracy
 
-![](Pasted_image_20231227174100.png)
+![](datamining/Pasted_image_20231227174100.png)
 
 
 ## CLASSIFICATION TYPES

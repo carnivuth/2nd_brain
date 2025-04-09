@@ -9,7 +9,7 @@ index: 41
 
 The model image is slid across the target image till a dissimilarity or similarity function is minimized/maximized
 
-![](Pasted_image_20240423114915.png)
+![](computer_vision/Pasted_image_20240423114915.png)
 
 ## SIMILARITY AND DISSIMILARITY FUNCTIONS
 
@@ -65,7 +65,7 @@ $$
 
 [ZNCC](#ZERO%20MEAN%20NORMALIZED%20CROSS%20CORRELATION) and [NCC](#NORMALIZED%20CROSS%20CORRELATION) are more robust to intensity changes
 
-![](Pasted_image_20240423153625.png)
+![](computer_vision/Pasted_image_20240423153625.png)
 
 ## PERFORMANCE
 

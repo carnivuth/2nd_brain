@@ -28,7 +28,7 @@ In wireless environment this approach have some issues due to the nature of the 
 
 This are particular problems that can manifest in a wireless environment
 
-![](Pasted%20image%2020240604181911.png)![](Pasted%20image%2020240604181924.png)
+![](mobile_systems/Pasted%20image%2020240604181911.png)![](Pasted%20image%2020240604181924.png)
 
 ### CSMA/CA VARIANT
 

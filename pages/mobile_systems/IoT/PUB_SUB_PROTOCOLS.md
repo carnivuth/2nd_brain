@@ -24,6 +24,6 @@ protocol based on the [pub/sub model](PUB_SUB_MODEL.md), richer semantics than M
 
 brokerless solution based on multicast communication that is designed for mission critical environments where performance and reliability are essentials
 
-![](Pasted%20image%2020240615103454.png)
+![](mobile_systems/Pasted%20image%2020240615103454.png)
 
 [PREVIOUS](pages/IoT/PUB_SUB_MODEL.md) [NEXT](pages/IoT/REQUEST_RESPONSE.md)

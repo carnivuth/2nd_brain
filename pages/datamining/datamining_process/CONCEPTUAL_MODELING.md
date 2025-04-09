@@ -39,7 +39,7 @@ index: 5
 | SECONDARY EVENT | identified by a set of n-ple dimensional attribute values, it aggregates a set of primary events |
 
 
-![](Pasted_image_20231010165953.png)
+![](datamining/Pasted_image_20231010165953.png)
 
 
 [PREVIOUS](DATA_WAREHOUSE_ARCHITECTURES.md) [NEXT](CRISP_DM_METHODOLOGY.md)

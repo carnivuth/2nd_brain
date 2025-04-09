@@ -38,7 +38,7 @@ Proprio per questo in molti linguaggi che non offrono costrutti per esprimere pr
 
 Processo attraverso il quale si riduce la memoria allocata da una tail recursion a un solo record di attivazione **sovrascrivendo sempre lo stesso record** in quanto i precedenti risultano ininfluenti
 
-![](Pasted%20image%2020241024171812.png)
+![](linguaggi_modelli_computazionali/Pasted%20image%2020241024171812.png)
 
 ## LINGUAGGI FUNZIONALI
 
