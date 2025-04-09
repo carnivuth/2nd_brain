@@ -70,4 +70,4 @@ the target is influenced by a single feature and the relationship can't be descr
 
 
 
-[PREVIOUS](DECISION_TREE_PRUNING.md) [NEXT](NAIVE_BAYES_CLASSIFIER.md)
+[PREVIOUS](DECISION_TREE_PRUNING.md) [NEXT](datamining/NAIVE_BAYES_CLASSIFIER.md)

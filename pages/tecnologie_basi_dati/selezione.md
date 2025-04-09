@@ -43,8 +43,8 @@ In caso di indice un-clustered si può decidere di ordinare i RID prima di acced
 
 In caso di condizioni multi-attributo l'utilizzo di indici non e sempre possibile, in particolare:
 
-- gli [indici hash](indici_hash.md) possono essere utilizzati solo se sono presenti termini di uguaglianza per ogni attributo chiave dell'indice
-- i [b+tree](b+tree.md) possono essere utilizzati solo se i termini presenti compongono un prefisso delle chiavi dell'albero (*si fa riferimento a [indici multi attributo](b+tree.md#Ricerche%20multi%20attributo)*)
+- gli [indici hash](tecnologie_basi_dati/indici_hash.md) possono essere utilizzati solo se sono presenti termini di uguaglianza per ogni attributo chiave dell'indice
+- i [b+tree](tecnologie_basi_dati/b+tree.md) possono essere utilizzati solo se i termini presenti compongono un prefisso delle chiavi dell'albero (*si fa riferimento a [indici multi attributo](b+tree.md#Ricerche%20multi%20attributo)*)
 
 ## Selezioni senza disgiunzione
 
@@ -76,4 +76,4 @@ Ogni tipo di predicato a effetti diversi sull'efficienza di una query, in partic
 | Riduzione numero di tuple | SI               | SI             | SI            | NO       |
 | Riduzione output finale   | SI               | SI             | SI            | SI       |
 
-[PREVIOUS](pages/sorting.md) [NEXT](pages/proiezione.md)
+[PREVIOUS](pages/sorting.md) [NEXT](tecnologie_basi_dati/pages/proiezione.md)

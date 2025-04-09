@@ -7,7 +7,7 @@ index: 53
 
 # RESNET
 
-[CNN](CONVOLUTIONAL_NEURAL_NETWORKS.md) Inspired by [VGG](VGG.md) based on the concept of [residual blocks](CONVOLUTIONAL_NEURAL_NETWORKS.md#RESIDUAL%20LEARNING%20AS%20A%20SOLUTION), each stage of a resnet consists in a combination of residual blocks
+[CNN](CONVOLUTIONAL_NEURAL_NETWORKS.md) Inspired by [VGG](computer_vision/VGG.md) based on the concept of [residual blocks](CONVOLUTIONAL_NEURAL_NETWORKS.md#RESIDUAL%20LEARNING%20AS%20A%20SOLUTION), each stage of a resnet consists in a combination of residual blocks
 
 ![](computer_vision/Pasted%20image%2020241001122748.png)
 
@@ -38,7 +38,7 @@ classDef hidden display: none;
 
 ## INCREASING DEPTH WITH BOTTLENECK RESIDUAL BLOCKS
 
-In order to increase even further the depth of a [CNN](CONVOLUTIONAL_NEURAL_NETWORKS.md) without increasing the computational cost bottleneck residual blocks are used which uses a pair of convolutional block to compress and decompress layers, this can cause information loss cause convolution and parameter learning are carried out in a compressed domain:
+In order to increase even further the depth of a [CNN](computer_vision/CONVOLUTIONAL_NEURAL_NETWORKS.md) without increasing the computational cost bottleneck residual blocks are used which uses a pair of convolutional block to compress and decompress layers, this can cause information loss cause convolution and parameter learning are carried out in a compressed domain:
 
 ```mermaid
 flowchart TD
@@ -89,7 +89,7 @@ In the training phase dropouts is not deployed because the use of batch normaliz
 | Learning Rate                    | $0.1$, divided by 10 when the validation error plateaus |
 | Weight Decay                     | $0.0001$                                                |
 | Momentum                         | $0.9$                                                   |
-| Data Augmentation, Normalization | Same as [VGG](VGG.md)                                   |
+| Data Augmentation, Normalization | Same as [VGG](computer_vision/VGG.md)                                   |
 | Initialization                   | He initilization                                        |
 
-[PREVIOUS](pages/machine_learning_cv/VGG.md)
+[PREVIOUS](computer_vision/pages/machine_learning_cv/VGG.md)

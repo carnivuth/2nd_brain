@@ -7,7 +7,7 @@ index: 17
 
 # GAUSSIAN FILTER
 
-Gaussian filter is an [LTE operator](LTE_OPERATORS.md) with a 2D Gaussian function as a impulse response (with $\mu = 0$ and a constant diagonal covariance matrix)
+Gaussian filter is an [LTE operator](computer_vision/LTE_OPERATORS.md) with a 2D Gaussian function as a impulse response (with $\mu = 0$ and a constant diagonal covariance matrix)
 
 $$
 G(x,y) = G(x)G(y) = \frac{1}{2\pi\sigma^2}e^{-\frac{x^2+y^2}{2\sigma^2}}
@@ -52,4 +52,4 @@ $$
 NOPS_{1D \space filter} =4(2k+1)\\
 $$
 
-[PREVIOUS](pages/image_filtering/MEAN_FILTER.md) [NEXT](pages/image_filtering/MEDIAN_FILTER.md)
+[PREVIOUS](pages/image_filtering/MEAN_FILTER.md) [NEXT](computer_vision/pages/image_filtering/MEDIAN_FILTER.md)

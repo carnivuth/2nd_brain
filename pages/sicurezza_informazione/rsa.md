@@ -91,4 +91,4 @@ questo consente di implementare la cosiddetta **autenticazione ad occhi chiusi**
 
 questa proprietà può essere sfruttata da un attaccante per far firmare messaggi a una destinazione che altrimenti non li firmerebbe
 
-[PREVIOUS](cifrari_asimmetrici.md) [NEXT](key_management.md)
+[PREVIOUS](cifrari_asimmetrici.md) [NEXT](sicurezza_informazione/key_management.md)

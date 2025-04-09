@@ -19,7 +19,7 @@ so the network's layer dimensions increase exponentially with the image dimensio
 
 ## CONVOLUTION TO THE RESCUE
 
-Similarly to what is done in [classical computer vision](LTE_OPERATORS.md), where convolution is used to detect features in deep learning convolution can be used in layers to detect features with filters that are learned [minimizing a loss function](CREATING_A_CLASSIFIER.md#MINIMIZING_THE_LOSS_FUNCTION)
+Similarly to what is done in [classical computer vision](computer_vision/LTE_OPERATORS.md), where convolution is used to detect features in deep learning convolution can be used in layers to detect features with filters that are learned [minimizing a loss function](CREATING_A_CLASSIFIER.md#MINIMIZING_THE_LOSS_FUNCTION)
 
 ## CONVOLUTIONAL LAYERS
 
@@ -96,7 +96,7 @@ The pooling layer introduces some more hyperparameters such as dimensions of the
 
 ![](computer_vision/Pasted_image_20240504180437.png)
 
-Example of cnn's can be [LENET](LENET.md) and [ALEXNET](ALEXNET.md)
+Example of cnn's can be [LENET](LENET.md) and [ALEXNET](computer_vision/ALEXNET.md)
 ## NUMBER OF LEARNABLE PARAMETERS
 
 For a single convolutional layer the number of learnable parameter depends on kernel dimensions and input and output activation dimensions so the size of the $W$ array can be obtained as:
@@ -107,7 +107,7 @@ $$
 
 ## THE PROBLEM WITH INCREASING DEPTH
 
-Intuitively increasing depth should take better results at the price of computation cost but as shown by [VGG](VGG.md) in real testing this is not the case
+Intuitively increasing depth should take better results at the price of computation cost but as shown by [VGG](computer_vision/VGG.md) in real testing this is not the case
 
 ![](computer_vision/Pasted_image_20240504181754.png)
 
@@ -135,7 +135,7 @@ $$
 H(x) = F(x)+x
 $$
 
-An example of this can be found in [RESNET](RESNET.md)
+An example of this can be found in [RESNET](computer_vision/RESNET.md)
 
 ### GLOBAL AVERAGE POOLING
 
@@ -176,4 +176,4 @@ So in order to train big CNN a 2 steps approach is adopted:
 - **pre-train** the deep network with a large, general purpose dataset
 - **fine-tune** specific parts of the network with the smaller specific one dataset
 
-[PREVIOUS](pages/machine_learning_cv/DEEP_LEARNING_AND_NEURAL_NETWORKS.md) [NEXT](pages/machine_learning_cv/LENET.md)
+[PREVIOUS](pages/machine_learning_cv/DEEP_LEARNING_AND_NEURAL_NETWORKS.md) [NEXT](computer_vision/pages/machine_learning_cv/LENET.md)

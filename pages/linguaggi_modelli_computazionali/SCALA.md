@@ -3,7 +3,7 @@ index: 19
 ---
 # SCALA
 
-Scala e uno degli esempi più fiorenti di [linguaggio blended](LINGUAGGI_BLENDED.md), riprende molte caratteristiche dei linguaggi funzionali e possiede inoltre un type system forte 
+Scala e uno degli esempi più fiorenti di [linguaggio blended](linguaggi_modelli_computazionali/LINGUAGGI_BLENDED.md), riprende molte caratteristiche dei linguaggi funzionali e possiede inoltre un type system forte 
 
 ## CARATTERISTICHE
 
@@ -475,7 +475,7 @@ Scala, compilando in bytecode  e eseguendo sulla JVM e direttamente interoperabi
 | estendere classi java         | usare oggetti scala (*con delle limitazioni*) |
 | usare framework java `javaFX` | usare classi scala con funzioni e chiusure    |
 
-## [INTERPRETI](INTERPRETI.md) IN SCALA: LA LIBRERIA PARSER COMBINATORS
+## [INTERPRETI](linguaggi_modelli_computazionali/INTERPRETI.md) IN SCALA: LA LIBRERIA PARSER COMBINATORS
 
 La libreria scala [`parser combinators`](https://index.scala-lang.org/scala/scala-parser-combinators) consente la creazione di parser custom per grammatiche anche **non deterministiche** (*a scapito delle performance*).
 
@@ -510,4 +510,4 @@ class MyGrammar extends JavaTokenParsers {
 In caso di grammatiche [ll(1)](GRAMMATICHE_LLK.md#GRAMMATICHE%20$LL(k)$) la libreria genera comunque un parser in grado di fare backtracking, per evitare l'inefficienza e utile specificare che non e necessario supportarlo con l'operatore `!`
 
 
-[PREVIOUS](pages/LINGUAGGI_BLENDED.md)
+[PREVIOUS](linguaggi_modelli_computazionali/pages/LINGUAGGI_BLENDED.md)

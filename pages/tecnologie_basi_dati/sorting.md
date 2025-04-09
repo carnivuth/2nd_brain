@@ -79,11 +79,11 @@ Di conseguenza si possono organizzare le letture delle pagine in batches detti $
 
 ![](tecnologie_basi_dati/Pasted%20image%2020250209163032.png)
 
-## Sorting con [b+tree](b+tree.md)
+## Sorting con [b+tree](tecnologie_basi_dati/b+tree.md)
 
-Nel caso di ordinamento con [b+tree](b+tree.md) e necessario distinguere tra le tipologie di indice
+Nel caso di ordinamento con [b+tree](tecnologie_basi_dati/b+tree.md) e necessario distinguere tra le tipologie di indice
 
 - se l'indice e clustered il costo e dato dal numero di foglie e di pagine del file dati (*costo $L+P$*)
 - se l'indice e un-clustered ogni record causa l'accesso al file dati (*costo $L+N$*), se gli attributi interessanti sono contenuti nell'indice si può evitare di accedere al file dati (*costo $L$*)
 
-[PREVIOUS](pages/operatori_relazionali.md) [NEXT](pages/selezione.md)
+[PREVIOUS](pages/operatori_relazionali.md) [NEXT](tecnologie_basi_dati/pages/selezione.md)

@@ -65,7 +65,7 @@ L'idea base di questo algoritmo consiste nell'identificare le sequenze orizzonta
 
 Per identificare il prossimo pixel sulla linea si utilizza l'algoritmo di [linea incrementale](https://it.wikipedia.org/wiki/Algoritmo_della_linea_di_Bresenham)
 
-## [Texture](texture_mapping.md) mapping
+## [Texture](computer_graphics/texture_mapping.md) mapping
 
 Il processo di texture mapping si occupa di applicare a un dato poligono un immagine sulla sua superficie, sfruttando un mapping tra i vertici di un poligono 3D e un immagine
 
@@ -124,4 +124,4 @@ Metodologia che prende in considerazione i $16$ pixel più vicini al punto in qu
 
 >[!NOTE] e il compromesso più ragionevole tra calcolo e qualità nonché quello più utilizzato in molti software di grafica
 
-[PREVIOUS](pages/real_time_rendering.md) [NEXT](pages/proiezione_prospettica.md)
+[PREVIOUS](pages/real_time_rendering.md) [NEXT](computer_graphics/pages/proiezione_prospettica.md)

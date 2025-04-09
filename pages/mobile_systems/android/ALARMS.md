@@ -26,4 +26,4 @@ Real time clock alarms are not suitable for client server interaction cause they
 
 minimize the time an alarm wake up the device and use inexact alarms that can be grouped together  and fired at the same time by the android runtime
 
-[PREVIOUS](pages/android/JOB_SCHEDULER.md) [NEXT](pages/android/SOCKETS.md)
+[PREVIOUS](pages/android/JOB_SCHEDULER.md) [NEXT](mobile_systems/pages/android/SOCKETS.md)

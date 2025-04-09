@@ -114,7 +114,7 @@ In questa variante una transazione non può richiedere altri lock nel momento in
 Tra i [problemi dell'esecuzione concorrente](#Problemi%20dell'esecuzione%20concorrente) quello della phantom row e il più complesso da gestire, alcune soluzioni prevedono:
 
 - richiedere il lock **sull'indice di tutti i record che soddisfano un dato predicato**
-- in caso di [indici](indici.md) si richiede il lock a livello di foglia che soddisfa il predicato
+- in caso di [indici](tecnologie_basi_dati/indici.md) si richiede il lock a livello di foglia che soddisfa il predicato
 
 ## Lock management: implementazione
 
@@ -181,4 +181,4 @@ I DBMS offrono la possibilità di determinare un livello di isolamento, diversi 
 
 Un DBMS dovrebbe essere in grado di gestire la concorrenza con diversi livelli di granularita, estendendo i meccanismi anche agli indici.
 
-[PREVIOUS](pages/indici_hash.md) [NEXT](pages/durability_control.md)
+[PREVIOUS](pages/indici_hash.md) [NEXT](tecnologie_basi_dati/pages/durability_control.md)

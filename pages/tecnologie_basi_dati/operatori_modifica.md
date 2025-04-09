@@ -13,7 +13,7 @@ Il costo di queste operazioni e diviso in tre componenti:
 
 - costo di accesso ai dati
 - costo di modifica
-- costo di aggiornamento di [indici](indici.md)
+- costo di aggiornamento di [indici](tecnologie_basi_dati/indici.md)
 
 ## Costo di inserimento
 
@@ -55,6 +55,6 @@ I costi sono gli stessi della [eliminazione](#Costo%20della%20eliminazione)
 In caso di aggiornamenti ai valori della chiave di un indice e necessario preservare l'ordinamento dei dati, 
 >[!WARNING] DB2 ci prova ma ammette la presenza di indici **più o meno clustered**, rendendo necessarie operazioni di riorganizzazione quando il clustering risulta fortemente deteriorato
 
->[!TIP] In  un database oracle il clustering dei dati equivale ad usare un [b+tree](b+tree.md) per organizzare i dati e gli altri indici hanno come valori delle foglie dei RID logici (*i valori della primary key*) che aggiunge un livello di indirezione
+>[!TIP] In  un database oracle il clustering dei dati equivale ad usare un [b+tree](tecnologie_basi_dati/b+tree.md) per organizzare i dati e gli altri indici hanno come valori delle foglie dei RID logici (*i valori della primary key*) che aggiunge un livello di indirezione
 
-[PREVIOUS](pages/group_by.md) [NEXT](pages/ottimizzazione_interrogazioni.md)
+[PREVIOUS](pages/group_by.md) [NEXT](tecnologie_basi_dati/pages/ottimizzazione_interrogazioni.md)

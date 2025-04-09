@@ -4,32 +4,32 @@ Knowledge base personale del corso di linguaggi e modelli computazionali
 
 ## TEORIA DEI LINGUAGGI
 
-- [teoria della computabilita](pages/COMPUTABILITA.md)
-- [linguaggi e definizioni formali](LINGUAGGI_GRAMMATICHE.md)
+- [teoria della computabilita](linguaggi_modelli_computazionali/pages/COMPUTABILITA.md)
+- [linguaggi e definizioni formali](linguaggi_modelli_computazionali/LINGUAGGI_GRAMMATICHE.md)
 
 ## CLASSIFICAZIONE DELLE GRAMMATICHE
 
-- [classificazione delle grammatiche di Chomsky](pages/CLASSIFICAZIONE_CHOMSKY.md)
-- [grammatiche di tipo 0](pages/GRAMMATICHE_TIPO_0.md)
-- [grammatiche di tipo 1](pages/GRAMMATICHE_TIPO_1.md)
-- [grammatiche di tipo 2](pages/GRAMMATICHE_TIPO_2.md)
-- [riconoscere grammatiche di tipo 2](pages/PDA.md)
-- [aggiungere la semantica alle frasi](pages/INTERPRETI.md)
-- [grammatiche llk](pages/GRAMMATICHE_LLK.md)
-- [grammatiche lrk](GRAMMATICHE_LRK.md)
-- [grammatiche regolari](pages/GRAMMATICHE_REGOLARI.md)
-- [un altra forma delle grammatiche regolari](pages/ESPRESSIONI_REGOLARI.md)
-- [riconoscere una grammatica di tipo 3](pages/RSF.md)
-- [come distinguere grammatiche di tipo 2 e 3](pages/PUMPING_LEMMA.md)
+- [classificazione delle grammatiche di Chomsky](linguaggi_modelli_computazionali/pages/CLASSIFICAZIONE_CHOMSKY.md)
+- [grammatiche di tipo 0](linguaggi_modelli_computazionali/pages/GRAMMATICHE_TIPO_0.md)
+- [grammatiche di tipo 1](linguaggi_modelli_computazionali/pages/GRAMMATICHE_TIPO_1.md)
+- [grammatiche di tipo 2](linguaggi_modelli_computazionali/pages/GRAMMATICHE_TIPO_2.md)
+- [riconoscere grammatiche di tipo 2](linguaggi_modelli_computazionali/pages/PDA.md)
+- [aggiungere la semantica alle frasi](linguaggi_modelli_computazionali/pages/INTERPRETI.md)
+- [grammatiche llk](linguaggi_modelli_computazionali/pages/GRAMMATICHE_LLK.md)
+- [grammatiche lrk](linguaggi_modelli_computazionali/GRAMMATICHE_LRK.md)
+- [grammatiche regolari](linguaggi_modelli_computazionali/pages/GRAMMATICHE_REGOLARI.md)
+- [un altra forma delle grammatiche regolari](linguaggi_modelli_computazionali/pages/ESPRESSIONI_REGOLARI.md)
+- [riconoscere una grammatica di tipo 3](linguaggi_modelli_computazionali/pages/RSF.md)
+- [come distinguere grammatiche di tipo 2 e 3](linguaggi_modelli_computazionali/pages/PUMPING_LEMMA.md)
 
 ## LINGUAGGI BLENDED
 
-- [processi computazionali nei linguaggi](PROCESSI_COMPUTAZIONALI.md)
-- [javascript](JAVASCRIPT.md)
-- [lamda calcolo](LAMBDA_CALCOLO.md)
-- [linguaggi blended](LINGUAGGI_BLENDED.md)
-- [SCALA](SCALA.md)
+- [processi computazionali nei linguaggi](linguaggi_modelli_computazionali/PROCESSI_COMPUTAZIONALI.md)
+- [javascript](linguaggi_modelli_computazionali/JAVASCRIPT.md)
+- [lamda calcolo](linguaggi_modelli_computazionali/LAMBDA_CALCOLO.md)
+- [linguaggi blended](linguaggi_modelli_computazionali/LINGUAGGI_BLENDED.md)
+- [SCALA](linguaggi_modelli_computazionali/SCALA.md)
 
 ## ESAME
 
-- [esempi per l'esame che ho usato](pages/esame/ESAME.md)
+- [esempi per l'esame che ho usato](linguaggi_modelli_computazionali/pages/esame/ESAME.md)

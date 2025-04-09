@@ -7,7 +7,7 @@ index: 25
 
 # Oltre le top-$k$: skyline queries
 
-Le query [top k](top_k_queries.md) hanno dei limiti in termine di espressività, in quanto possono solo catturare preferenze che si **traducono in valori numerici**
+Le query [top k](tecnologie_basi_dati/top_k_queries.md) hanno dei limiti in termine di espressività, in quanto possono solo catturare preferenze che si **traducono in valori numerici**
 
 ## Dominanza delle tuple
 
@@ -46,7 +46,7 @@ Inoltre l'output della query skyline **non corrisponde a quello di nessuna query
 Il problema con la valutazione delle query skyline sta nel fatto che nel caso peggiore la complessità segue $\Theta(N^2)$  per un database con $N$ oggetti, i possibili approcci sono i seguenti:
 
 - computare la skyline sfruttando una scansione sequenziale del file
-- sfruttare un [indici](indici.md)
+- sfruttare un [indici](tecnologie_basi_dati/indici.md)
 
 ## Naive nested loops
 
@@ -91,7 +91,7 @@ Questo approccio ha diversi vantaggi tra cui:
 SaLSa e un miglioramento di SFS in quanto se le tuple sono ordinate topologicamente **non e necessario leggere tutto il file**, il punto di arresto e stabilito quando nessuna tupla e nell'area di dominanza di un dato stopping point $t_{stop}$ in particolare si ha che la scelta ottimale e data da $$ t_{stop} = argmin_{t \in sky(R)}(max_i(t_{Ai}))$$ ovvero il punto della skyline per cui la coordinata maggiore e minima
 
 
-## Computare la skyline con [r-tree](r-tree.md)
+## Computare la skyline con [r-tree](tecnologie_basi_dati/r-tree.md)
 
 L'idea di base sta nel non accedere a nodi che rappresentano aree completamente dominate da punti della skyline
 
@@ -129,4 +129,4 @@ Viene predisposta una matrice data da tutte le possibili combinazioni degli attr
 
 Si scandisce il file e si marcano le tuple corrispondenti nella matrice come presenti, successivamente si determinano le dominanti tra quelle presenti e si rilegge il file fornendo in output quelle nella matrice
 
-[PREVIOUS](pages/rankSQL.md) [NEXT](pages/big_data.md)
+[PREVIOUS](pages/rankSQL.md) [NEXT](tecnologie_basi_dati/pages/big_data.md)

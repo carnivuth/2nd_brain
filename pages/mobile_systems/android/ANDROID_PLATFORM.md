@@ -67,4 +67,4 @@ Other components are available
 - **Resource Manager & Content Provider**: handle system resource and data access to them (*e.g. sqlite databases, filesystem*)
 - **Telephony, Notification & Location Manager**
 
-[PREVIOUS](pages/mobile_middleware/COMMUNICATION_PATTERNS.md) [NEXT](pages/android/ACTIVITY.md)
+[PREVIOUS](pages/mobile_middleware/COMMUNICATION_PATTERNS.md) [NEXT](mobile_systems/pages/android/ACTIVITY.md)

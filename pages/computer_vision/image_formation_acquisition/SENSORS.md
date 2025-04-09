@@ -24,4 +24,4 @@ D --> E
 
 In short **CMOS** is for low quality mass production and **CCD** is for high end quality image processing.
 
-[PREVIOUS](pages/image_formation_acquisition/IMAGE_DIGITIZATION.md) [NEXT](pages/image_formation_acquisition/LENS.md)
+[PREVIOUS](pages/image_formation_acquisition/IMAGE_DIGITIZATION.md) [NEXT](computer_vision/pages/image_formation_acquisition/LENS.md)

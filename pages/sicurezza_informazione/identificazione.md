@@ -114,4 +114,4 @@ Ci sono diverse soluzioni volte a impedire l'attacco di reflection, tutte si bas
 - **numeri di sequenza**: necessario mantenere lo stato a lungo termine, molto oneroso
 - **timestamp**: necessario accordarsi in maniera sicura su un tempo globale
 
- [NEXT](trasformazioni.md)
+ [NEXT](sicurezza_informazione/trasformazioni.md)

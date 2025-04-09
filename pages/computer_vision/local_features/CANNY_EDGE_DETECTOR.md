@@ -13,7 +13,7 @@ A first formal definition of the characteristics of a strong edge detection syst
 -  minimize distance between the found edge and the “true” edge. (**Good Localization**)
 -  detect one single edge pixel at each “true” edge.(**One Response to One Edge**)
 
-A good implementation of the Canny edge detector is obtained by [Gaussian filtering](GAUSSIAN_FILTER.md) followed by [gradient computation](EDGES.md#GRADIENT_APPROXIMATION) and [NMS](EDGES.md#NON_MAXIMA_SUPRESSION_(NMS)) along the gradient direction
+A good implementation of the Canny edge detector is obtained by [Gaussian filtering](computer_vision/GAUSSIAN_FILTER.md) followed by [gradient computation](EDGES.md#GRADIENT_APPROXIMATION) and [NMS](EDGES.md#NON_MAXIMA_SUPRESSION_(NMS)) along the gradient direction
 
 ```mermaid
 flowchart LR
@@ -53,6 +53,6 @@ assert img is not None, "file could not be read, check with os.path.exists()"
 edges = cv.Canny(img,100,200)
 ```
 
-This implementation does not perform [Gaussian smoothing](GAUSSIAN_FILTER.md) before
+This implementation does not perform [Gaussian smoothing](computer_vision/GAUSSIAN_FILTER.md) before
 
-[PREVIOUS](pages/local_features/EDGES.md) [NEXT](pages/local_features/ZERO_CROSSING_EDGE_DETECTION.md)
+[PREVIOUS](pages/local_features/EDGES.md) [NEXT](computer_vision/pages/local_features/ZERO_CROSSING_EDGE_DETECTION.md)

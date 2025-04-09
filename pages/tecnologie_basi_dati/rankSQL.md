@@ -7,7 +7,7 @@ index: 24
 
 # Introdurre il Concetto di rank nei DBMS
 
-Una delle sfide nelle query [top k](top_k_queries.md) e quello  di introdurre nei DBMS il concetto di ranking, come first class citizen, un primo approccio al problema e stato fornito dal progetto RankDB definendo i seguenti concetti:
+Una delle sfide nelle query [top k](tecnologie_basi_dati/top_k_queries.md) e quello  di introdurre nei DBMS il concetto di ranking, come first class citizen, un primo approccio al problema e stato fornito dal progetto RankDB definendo i seguenti concetti:
 
 - splitting e interleaving del ranking degli oggetti
 - relazione-rank e il principio di ranking
@@ -27,4 +27,4 @@ grazie all'operatore $\mu$ e possibile l'interleaving con altri operatori $\sigm
 
 ![](tecnologie_basi_dati/Pasted%20image%2020250220160711.png)
 
-[PREVIOUS](pages/top_k_join_queries.md) [NEXT](pages/skyline_queries.md)
+[PREVIOUS](pages/top_k_join_queries.md) [NEXT](tecnologie_basi_dati/pages/skyline_queries.md)

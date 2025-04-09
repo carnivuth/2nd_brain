@@ -22,4 +22,4 @@ Z(p)= \sum_{q \in I} e^{\frac{\Vert N_p -N_q\Vert_2^2}{h^2}}
 $$
 ![](computer_vision/Pasted_image_20240302112706.png)
 
-[PREVIOUS](pages/image_filtering/BILATERAL_FILTER.md) [NEXT](pages/image_segmentation_blob_analysis/COMPUTER_VISION_INDUSTRIAL_WORKFLOW.md)
+[PREVIOUS](pages/image_filtering/BILATERAL_FILTER.md) [NEXT](computer_vision/pages/image_segmentation_blob_analysis/COMPUTER_VISION_INDUSTRIAL_WORKFLOW.md)

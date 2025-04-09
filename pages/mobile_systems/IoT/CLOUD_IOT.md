@@ -7,4 +7,4 @@ tags: []
 # CLOUD INFRASTRUCTURE FOR IoT
 # CLOUD INFRASTRUCTURE FOR IoT
 
- [NEXT](pages/wireless/WIRELESS_COMMUNICATION.md)
+ [NEXT](mobile_systems/pages/wireless/WIRELESS_COMMUNICATION.md)

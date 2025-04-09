@@ -1,5 +1,5 @@
 Ci sono 4 principali strumenti per la prototipazione e sperimentazione
-- [Storyboard](STORYBOARD.md)
-- [Prototipi](PROTOTIPI.md)
-- [Minimum Viable Product (MVP)](MVP.md)
-- [Split Test](SPLIT%20TEST.md)
+- [Storyboard](gip/STORYBOARD.md)
+- [Prototipi](gip/PROTOTIPI.md)
+- [Minimum Viable Product (MVP)](gip/MVP.md)
+- [Split Test](gip/SPLIT%20TEST.md)

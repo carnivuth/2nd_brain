@@ -23,4 +23,4 @@ The descriptor is given by all of the histogram of the regions so the dimension 
 
 The gradient are rotated according to the canonical orientation of the gradient and each pixel is weighted by a Gaussian centered at the keypoint
 
-[PREVIOUS](pages/local_features/CANONICAL_ORIENTATION.md) [NEXT](pages/local_features/MATCHING_PROCESS.md)
+[PREVIOUS](pages/local_features/CANONICAL_ORIENTATION.md) [NEXT](computer_vision/pages/local_features/MATCHING_PROCESS.md)

@@ -91,4 +91,4 @@ G --> F --> K
 end
 ```
 
- [NEXT](trasformazioni.md)
+ [NEXT](sicurezza_informazione/trasformazioni.md)

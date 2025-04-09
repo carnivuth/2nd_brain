@@ -62,4 +62,4 @@ $$
 
 Un B-tree risulta inefficente nelle ricerche a range in quanto le entry sono contenute anche nei nodi intermedi, per risolvere questo problema si introducono i B+tree
 
-[PREVIOUS](pages/indici.md) [NEXT](pages/b+tree.md)
+[PREVIOUS](pages/indici.md) [NEXT](tecnologie_basi_dati/pages/b+tree.md)
