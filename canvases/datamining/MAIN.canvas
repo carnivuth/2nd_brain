@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"6ecf75efb9a7303c","type":"text","text":"# MACHINE LEARNING","x":1140,"y":-1040,"width":209,"height":84},
+		{"id":"42e3c71a4a1dd100","type":"text","text":"# DATA","x":280,"y":-860,"width":141,"height":41},
+		{"id":"056fd310066566d0","type":"file","file":"DATA PREPROCESSING.canvas","x":-178,"y":-722,"width":400,"height":400},
+		{"id":"d8f89172f4b02b7a","type":"text","text":"# SUPERVISED LEARNING","x":1555,"y":-722,"width":250,"height":84},
+		{"id":"b74175251077cc37","type":"file","file":"pages/preprocessing/DATA TYPES.md","x":580,"y":-680,"width":400,"height":400},
+		{"id":"2159b3b934d2c778","type":"file","file":"CLASSIFICATION.canvas","x":1480,"y":-322,"width":400,"height":400},
+		{"id":"844d1820f93a685f","type":"file","file":"CLUSTERING.canvas","x":1480,"y":-1920,"width":400,"height":400},
+		{"id":"23c88b284f06b746","type":"file","file":"pages/TIPI DI LEARNING.md","x":2179,"y":-1201,"width":401,"height":361},
+		{"id":"57ba395a7a7547b9","type":"file","file":"pages/SCELTE DI PROGETTO.md","x":2212,"y":-1560,"width":335,"height":256},
+		{"id":"b573db06b7b22ab3","type":"file","file":"DATAMINING.canvas","x":980,"y":-1960,"width":400,"height":400},
+		{"id":"dd03112cae5421cc","x":351,"y":-1704,"width":400,"height":400,"type":"file","file":"ASSOCIATION RULES.canvas"}
+	],
+	"edges":[
+		{"id":"7c13e51ede606698","fromNode":"42e3c71a4a1dd100","fromSide":"bottom","toNode":"b74175251077cc37","toSide":"top"},
+		{"id":"a3e58451df4a6fdf","fromNode":"6ecf75efb9a7303c","fromSide":"bottom","toNode":"d8f89172f4b02b7a","toSide":"top"},
+		{"id":"93aa835512150d7b","fromNode":"d8f89172f4b02b7a","fromSide":"right","toNode":"23c88b284f06b746","toSide":"left"},
+		{"id":"5eda2a39f110a092","fromNode":"d8f89172f4b02b7a","fromSide":"right","toNode":"57ba395a7a7547b9","toSide":"left"},
+		{"id":"b39f3d0a858e7fe7","fromNode":"6ecf75efb9a7303c","fromSide":"left","toNode":"42e3c71a4a1dd100","toSide":"top"},
+		{"id":"375f883cfd90fd8c","fromNode":"42e3c71a4a1dd100","fromSide":"bottom","toNode":"056fd310066566d0","toSide":"top"},
+		{"id":"5e078b1de77f1fe6","fromNode":"d8f89172f4b02b7a","fromSide":"bottom","toNode":"2159b3b934d2c778","toSide":"top"},
+		{"id":"1c6bfd13bb1b1bec","fromNode":"6ecf75efb9a7303c","fromSide":"top","toNode":"844d1820f93a685f","toSide":"bottom"},
+		{"id":"200ea5aa025638f2","fromNode":"b573db06b7b22ab3","fromSide":"bottom","toNode":"6ecf75efb9a7303c","toSide":"top"},
+		{"id":"fff4600b086f897c","fromNode":"6ecf75efb9a7303c","fromSide":"top","toNode":"b573db06b7b22ab3","toSide":"bottom"},
+		{"id":"31fd6b359665dc6c","fromNode":"6ecf75efb9a7303c","fromSide":"left","toNode":"dd03112cae5421cc","toSide":"right"}
+	]
+}
