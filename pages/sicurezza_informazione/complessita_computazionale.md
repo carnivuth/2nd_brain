@@ -21,10 +21,10 @@ Di conseguenza i problemi possono essere classificati in base agli algoritmi che
 
 La chiave di volta nel creare funzioni sicure sta nello scegliere parametri che fanno si che il problema di risalire alle informazioni protette sia **Difficile**
 
-## Dimensionamento delle [chiavi](chiavi.md)
+## Dimensionamento delle [chiavi](sicurezza_informazione/chiavi.md)
 
 Per far si che le chiavi siano sicure e necessario selezionare una dimensione per cui il problema di ricerca esaustiva diventi Difficile
 
 ![](sicurezza_informazione/Pasted%20image%2020240625151801.png)
 
- [NEXT](trasformazioni.md)
+ [NEXT](sicurezza_informazione/trasformazioni.md)

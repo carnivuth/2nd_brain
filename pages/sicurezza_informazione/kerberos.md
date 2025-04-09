@@ -50,4 +50,4 @@ C ->> V: IDC || session ticket
 
 In caso di domini multipli gestiti da più TGS e AS si predispongono delle relazioni di fiducia tra i vari AS  basati su chiavi precondivise in modo da erogare il servizio a utenti diversi da quelli del proprio dominio
 
-[PREVIOUS](ssl.md) [NEXT](pgp.md)
+[PREVIOUS](ssl.md) [NEXT](sicurezza_informazione/pgp.md)

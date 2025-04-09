@@ -26,7 +26,7 @@ for tuple in R:
 return to_be_sorted.sort().head(k)
 ```
 
->[!WARNING] questo approccio e estremamente costoso in quanto prevede il [sorting](sorting.md) di tutte le tuple, ancora peggio se la query prevede uno o più [join](join.md) 
+>[!WARNING] questo approccio e estremamente costoso in quanto prevede il [sorting](sorting.md) di tutte le tuple, ancora peggio se la query prevede uno o più [join](tecnologie_basi_dati/join.md) 
 
 Inoltre si possono verificare casi di near miss o information overload, per esempio le query
 
@@ -46,7 +46,7 @@ ORDER BY 0.8*Price + 0.2*Mileage
 
 Per la valutazione e necessario considerare due aspetti principali:
 
-- numero di relazioni da accedere, valori [aggregati](group_by.md)
+- numero di relazioni da accedere, valori [aggregati](tecnologie_basi_dati/group_by.md)
 - modalità di accesso ai dati (*indici in qualche attributo di ranking*)
 
 prendendo come riferimento la forma più semplice di query top-$k$
@@ -73,7 +73,7 @@ L'operatore top può essere implementato in due modalità
 - **top-scan** la stream di tuple in ingresso e già ordinata e di conseguenza e sufficiente fornire in output le prime $k$ tuple 
 > [!TIP] questo operatore puo lavorare in [pipeline](ottimizzazione_interrogazioni.md#Implementare%20l'esecuzione%20in%20pipeline%20Interfaccia%20a%20iteratore)
 - **top-sort** la stream non e ordinata e l'operatore la deve ordinare per poi fornire le tuple in output
->[!WARNING] questa implementazione non può lavorare in [pipeline](ottimizzazione_interrogazioni.md#Implementare%20l'esecuzione%20in%20pipeline%20Interfaccia%20a%20iteratore) in quanto necessita di fare [sorting](sorting.md)
+>[!WARNING] questa implementazione non può lavorare in [pipeline](ottimizzazione_interrogazioni.md#Implementare%20l'esecuzione%20in%20pipeline%20Interfaccia%20a%20iteratore) in quanto necessita di fare [sorting](tecnologie_basi_dati/sorting.md)
 
 ### top-sort operator
 
@@ -129,8 +129,8 @@ Il problema diventa:
 
 ## Risolvere query top-$k$ con indici
 
-Una possibilità per risolvere le query top-$k$ e quello di usare [b+tree multiattributo](b+tree.md#Ricerche%20multi%20attributo), questa soluzione non e ottimale. e molto meglio usare indici multidimensionali come i [r-tree](r-tree.md)
->[!NOTE] i b+tree multi-attributo mostrano gli stessi problemi che si hanno in caso di [window query](indici_multidimensionali.md#Limiti%20del%20[b+tree](b+tree.md))
+Una possibilità per risolvere le query top-$k$ e quello di usare [b+tree multiattributo](b+tree.md#Ricerche%20multi%20attributo), questa soluzione non e ottimale. e molto meglio usare indici multidimensionali come i [r-tree](tecnologie_basi_dati/r-tree.md)
+>[!NOTE] i b+tree multi-attributo mostrano gli stessi problemi che si hanno in caso di [window query](indici_multidimensionali.md#Limiti%20del%20[b+tree](tecnologie_basi_dati/b+tree.md))
 
 ###  Determinare se un nodo contiene foglie utili: $d_{MIN}$ limite
 
@@ -197,4 +197,4 @@ non  e detto che l'algoritmo [KNNOptimal](#Risolvere%20le%20query%20top-$k$%20al
 
 nella coda `PQ` si includono anche le tuple e **l'algoritmo termina quando il primo elemento della coda e una tupla**
 
-[PREVIOUS](pages/r-tree.md) [NEXT](top_k_join_queries.md)
+[PREVIOUS](pages/r-tree.md) [NEXT](tecnologie_basi_dati/top_k_join_queries.md)

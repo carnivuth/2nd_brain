@@ -7,7 +7,7 @@ index: 14
 
 # Rendering avanzato con webgl
 
-La pipeline grafica di [WebGL](webgl.md) consente di applicare tecniche avanzate di rendering modificandone i componenti
+La pipeline grafica di [WebGL](computer_graphics/webgl.md) consente di applicare tecniche avanzate di rendering modificandone i componenti
 
 ```mermaid
 flowchart LR
@@ -95,4 +95,4 @@ gl.stencilFunc( gl.ALWAYS, 0x1, 0x1 );
 gl.stencilOp( gl.REPLACE, gl.REPLACE, gl.REPLACE );
 ```
 
-[PREVIOUS](pages/webgl.md) [NEXT](threejs.md)
+[PREVIOUS](pages/webgl.md) [NEXT](computer_graphics/threejs.md)

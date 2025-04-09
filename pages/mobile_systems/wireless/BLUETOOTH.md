@@ -126,7 +126,7 @@ The main difference is in the protocol of discovery and advertisement on the ava
 
 All **BLE** devices implements the generic attribute (GATT) profile
 
-## BLUETOOTH VS [WIFI](WIFI.md)
+## BLUETOOTH VS [WIFI](mobile_systems/WIFI.md)
 
 | WIFI                                        | BLUETOOTH                                                   |
 | ------------------------------------------- | ----------------------------------------------------------- |
@@ -134,4 +134,4 @@ All **BLE** devices implements the generic attribute (GATT) profile
 | no discovery needed                         | need of discovery phase in order to communicate with a node |
 | communication can be done in broadcast mode | no efficient broadcast support                              |
 
-[PREVIOUS](pages/wireless/CELLULAR_NETWORKING.md) [NEXT](wireless/ZIGBEE.md)
+[PREVIOUS](pages/wireless/CELLULAR_NETWORKING.md) [NEXT](mobile_systems/wireless/ZIGBEE.md)

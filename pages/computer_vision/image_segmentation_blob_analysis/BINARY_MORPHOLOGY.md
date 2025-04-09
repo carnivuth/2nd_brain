@@ -7,7 +7,7 @@ index: 24
 
 # BINARY MORPHOLOGY
 
-The binary morphology operators take as input a [binarized](BINARIZATION.md) image and make improvement before the labeling phase
+The binary morphology operators take as input a [binarized](computer_vision/BINARIZATION.md) image and make improvement before the labeling phase
 
 The idea is to slide a small kernel called structuring element
 
@@ -35,4 +35,4 @@ $$
 A \bullet B = (A \oplus B) \ominus B
 $$
 
-[PREVIOUS](pages/image_segmentation_blob_analysis/COLOR_BASED_SEGMENTATION.md) [NEXT](image_segmentation_blob_analysis/COMPONENTS_LABELING.md)
+[PREVIOUS](pages/image_segmentation_blob_analysis/COLOR_BASED_SEGMENTATION.md) [NEXT](computer_vision/image_segmentation_blob_analysis/COMPONENTS_LABELING.md)

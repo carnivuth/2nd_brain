@@ -28,4 +28,4 @@ Java as determined a standard for positioning systems called PoSIM, under the UN
 
 ![](mobile_systems/Pasted%20image%2020240609161539.png)
 
-[PREVIOUS](pages/positioning_systems/EKAHAU.md) [NEXT](mobility/MOBILITY_IP_NETWORKS.md)
+[PREVIOUS](pages/positioning_systems/EKAHAU.md) [NEXT](mobile_systems/mobility/MOBILITY_IP_NETWORKS.md)

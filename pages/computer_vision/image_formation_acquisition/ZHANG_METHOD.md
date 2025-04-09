@@ -34,7 +34,7 @@ flowchart TD
 
 ## GETTING CORNERS IMAGE COORDINATES
 
-Corners can be detected easily from the image by using the [Harris detector](HARRIS_CORNER_DETECTOR.md)
+Corners can be detected easily from the image by using the [Harris detector](computer_vision/HARRIS_CORNER_DETECTOR.md)
 
 ## SETTING A WRF
 
@@ -42,7 +42,7 @@ so given a set of images the WRF is taken with origin at the top-left corner of 
 
 ![](computer_vision/Pasted_image_20240222173836.png)
 
-Given this setup with the **WRF** parallel to the $Z$ axis we can consider the control point to have $z=0$ so the relation with the image points **became a [HOMOGRAPHY](HOMOGRAPHY.md)**
+Given this setup with the **WRF** parallel to the $Z$ axis we can consider the control point to have $z=0$ so the relation with the image points **became a [HOMOGRAPHY](computer_vision/HOMOGRAPHY.md)**
 
 ## MAKING A GUESS FOR $H$
 
@@ -104,7 +104,7 @@ $$
 H = [h_{1},h_{2},h_{3}] = [p_{1},p_{2},p_{4}] = \lambda A[r_{1},r_{2},T]
 $$
 
-Given that $R$ is an [orthogonal matrix](ORTHOGONAL_MATRIX.md) the following relations are true
+Given that $R$ is an [orthogonal matrix](computer_vision/ORTHOGONAL_MATRIX.md) the following relations are true
 
 $$
 r_{1}^Tr_{2} = 0 \Rightarrow h_{1}^TA^{-T}A^{-1}h_{2} = 0
@@ -264,4 +264,4 @@ $$
 
 The solution to this  problem can be computed with  [Levenberg-Marquardt algorithm](https://it.wikipedia.org/wiki/Algoritmo_di_Levenberg-Marquardt)
 
-[PREVIOUS](pages/image_formation_acquisition/CAMERA_CALIBRATION.md) [NEXT](image_formation_acquisition/STEREO_CAMERA_CALIBRATION.md)
+[PREVIOUS](pages/image_formation_acquisition/CAMERA_CALIBRATION.md) [NEXT](computer_vision/image_formation_acquisition/STEREO_CAMERA_CALIBRATION.md)

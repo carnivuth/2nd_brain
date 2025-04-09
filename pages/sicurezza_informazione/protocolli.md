@@ -6,7 +6,7 @@ tags: []
 
 # Protocolli per la sicurezza
 
-Esistono diversi protocolli generati dalla combinazione delle [trasformazioni](trasformazioni.md) base a seconda delle proprietà che si vogliono garantire:
+Esistono diversi protocolli generati dalla combinazione delle [trasformazioni](sicurezza_informazione/trasformazioni.md) base a seconda delle proprietà che si vogliono garantire:
 
 ## Firma digitale
 
@@ -71,7 +71,7 @@ $$
 c = E(m|H(m|s))
 $$
 
-Questa soluzione non può essere considerata una soluzione di autenticazione, e se la cifratura utilizza [chiavi simmetriche](chiavi.md) non e considerabile non ripudiabile.
+Questa soluzione non può essere considerata una soluzione di autenticazione, e se la cifratura utilizza [chiavi simmetriche](sicurezza_informazione/chiavi.md) non e considerabile non ripudiabile.
 Inoltre questo schema costringe il destinatario a decifrare prima di autenticare il messaggio, che e una caratteristica non sempre desiderabile.
 
 ## Hash di segreto e cifratura di messaggio
@@ -87,4 +87,4 @@ $$
 
 In questo modo la destinazione può autenticare un messaggio prima di decifrarlo, tuttavia e necessario che la funzione $H$ sia sicura per impedire all'attaccante di risalire al segreto
 
- [NEXT](trasformazioni.md)
+ [NEXT](sicurezza_informazione/trasformazioni.md)

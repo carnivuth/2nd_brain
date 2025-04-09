@@ -73,4 +73,4 @@ Template matching computation is too much slow for an industrial environment, in
 
 In order for this approximation to work levels need to be chosen empirically
 
-[PREVIOUS](pages/object_detection/INSTANCE_LEVEL_OBJECT_DETECTION.md) [NEXT](object_detection/SHAPE_BASED_MATCHING.md)
+[PREVIOUS](pages/object_detection/INSTANCE_LEVEL_OBJECT_DETECTION.md) [NEXT](computer_vision/object_detection/SHAPE_BASED_MATCHING.md)

@@ -63,7 +63,7 @@ D --> B
 B --> A
 ```
 
-In questo caso sono necessari un indice su `D.name` e un indice su `E.dno` (*possibilmente [hash](indici_hash.md)*)
+In questo caso sono necessari un indice su `D.name` e un indice su `E.dno` (*possibilmente [hash](tecnologie_basi_dati/indici_hash.md)*)
 
 ### Esempio: join con filtro su due relazioni
 
@@ -91,7 +91,7 @@ WHERE E.sal BETWEEN 3000 AND 5000
 AND E.age = 25
 ```
 
-Nel primo caso un indice ([b+tree](b+tree.md)) su `age,sal` può risultare conveniente, nel secondo caso l'ordine degli attributi nella query e più rilevante, in particolare:
+Nel primo caso un indice ([b+tree](tecnologie_basi_dati/b+tree.md)) su `age,sal` può risultare conveniente, nel secondo caso l'ordine degli attributi nella query e più rilevante, in particolare:
 
 - `age,sal` entrambi i predicati sono range delimiting
 - `sal,age` il predicato su age e index-sargable 
@@ -158,4 +158,4 @@ Un aspetto fondamentale per il tuning e la gestione delle transazioni in partico
 
 a tal fine possono essere impiegati trigger o stored procedures
 
-[PREVIOUS](pages/ricerca_piano_accesso.md) [NEXT](indici_multidimensionali.md)
+[PREVIOUS](pages/ricerca_piano_accesso.md) [NEXT](tecnologie_basi_dati/indici_multidimensionali.md)

@@ -7,7 +7,7 @@ index: 13
 
 # proiezione
 
-L'[operatore](operatori_relazionali.md) di proiezione consente di eliminare attributi dal risultato di una query, data una query del tipo:
+L'[operatore](tecnologie_basi_dati/operatori_relazionali.md) di proiezione consente di eliminare attributi dal risultato di una query, data una query del tipo:
 
 ```sql
 SELECT DISTINCT R.sid, R.vid
@@ -16,7 +16,7 @@ FROM Recensioni R
 
 E necessario eliminare gli attributi non richiesti e eliminare i record duplicati, ci sono 3 approcci principali
 
-## Proiettare [ordinando](sorting.md)
+## Proiettare [ordinando](tecnologie_basi_dati/sorting.md)
 
 Una possibile soluzione e quella di sfruttare l'ordinamento, si procede come segue
 
@@ -63,10 +63,10 @@ si leggono in sequenza i file generati e si applica una nuova funzione hash (*di
 La tecnica basata su sorting risulta migliore nel caso in cui i valori risultino sbilanciati o ci siano molte tuple da eliminare
 >[!TIP] con il sorting il risultato e anche ordinato :)
 
-## Proiettare con un [indice](indici.md)
+## Proiettare con un [indice](tecnologie_basi_dati/indici.md)
 
 Questa modalità necessita che tutte le chiavi da restituire in output **siano contenuti nell'indice**, le tecniche sono le precedenti ma si attuano sull'indice e non sul file dati
 
->[!TIP] in caso di indice [b+tree](b+tree.md) se gli attributi sono un prefisso della chiave basta scandire le foglie eliminando i duplicati con costo $L$
+>[!TIP] in caso di indice [b+tree](tecnologie_basi_dati/b+tree.md) se gli attributi sono un prefisso della chiave basta scandire le foglie eliminando i duplicati con costo $L$
 
-[PREVIOUS](pages/selezione.md) [NEXT](join.md)
+[PREVIOUS](pages/selezione.md) [NEXT](tecnologie_basi_dati/join.md)

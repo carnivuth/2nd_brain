@@ -59,4 +59,4 @@ Nella modalita trasporto il payload del pacchetto originario viene incapsulato n
 
 Mentre nella modalità tunnel si prevede di avere il parchetto originario IP che viene cifrato e incapsulato in un nuovo pacchetto **che ha un'intestazione diversa da quello originale** (caso di utilizzo comune)
 
-[PREVIOUS](diffie_hellman.md) [NEXT](ssl.md)
+[PREVIOUS](diffie_hellman.md) [NEXT](sicurezza_informazione/ssl.md)

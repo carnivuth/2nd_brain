@@ -24,4 +24,4 @@ A --> B
 B --> C
 C --> D
 
- [NEXT](image_formation_acquisition/PERSPECTIVE_PROJECTION.md)
+ [NEXT](computer_vision/image_formation_acquisition/PERSPECTIVE_PROJECTION.md)

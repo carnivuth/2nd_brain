@@ -26,7 +26,7 @@ La minima bounding box e definita come la regione hyper-rettangolare minima che 
 
 Per definirla e sufficiente conoscere le coordinate di due vertici opposti
 
-## R-tree vs [b+tree](b+tree.md)
+## R-tree vs [b+tree](tecnologie_basi_dati/b+tree.md)
 
 
 | B+tree                                                 | R-tree                                                                 |
@@ -43,7 +43,7 @@ La ricerca con un r-tree consiste nel trovare tutti i punti che fanno parte dell
 
 ![](tecnologie_basi_dati/Pasted%20image%2020250218100138.png)
 
-Per implementare la ricerca e necessario implementare le API previste dalla specifica [GiST](GiST.md)
+Per implementare la ricerca e necessario implementare le API previste dalla specifica [GiST](tecnologie_basi_dati/GiST.md)
 
 - `Consistent(E,q)` ritorna true solo se `E` e `q` hanno intersezione non nulla
 - `Union(P)` l'output e la MMB che contiene tutte le entry
@@ -51,4 +51,4 @@ Per implementare la ricerca e necessario implementare le API previste dalla spec
 - `Picksplit(P)` in output vengono fornite le entry e l'output e un set di due bounding box con cardinalità inferiore, lo split viene deciso minimizzando l'area complessiva delle due [MBB](#Concetto%20di%20MBB)
 >[!WARNING] minimizzare la somma complessiva e un problema Np-hard  
 
-[PREVIOUS](pages/indici_multidimensionali.md) [NEXT](top_k_queries.md)
+[PREVIOUS](pages/indici_multidimensionali.md) [NEXT](tecnologie_basi_dati/top_k_queries.md)

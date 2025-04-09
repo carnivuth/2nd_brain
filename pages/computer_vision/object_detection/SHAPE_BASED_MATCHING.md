@@ -75,4 +75,4 @@ When the condition is verified the computation of the similarity function can be
 - No need of computing the edges on the target image which is a risky procedure
 - robustness to occlusion which can be tuned by the $S_{min}$ parameter
 
-[PREVIOUS](pages/object_detection/TEMPLATE_PATTERN_MATCHING.md) [NEXT](object_detection/HOUGH_TRANSFORM.md)
+[PREVIOUS](pages/object_detection/TEMPLATE_PATTERN_MATCHING.md) [NEXT](computer_vision/object_detection/HOUGH_TRANSFORM.md)

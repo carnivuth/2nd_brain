@@ -13,7 +13,7 @@ In this phase keypoint descriptor are compared in order to find correspondences,
 
 *Given a set $S$ of points $p_i$ in a metric space $M$ and a query point $q \in M$, find the $p_i$ closest to $q$*
 
-So in this iteration of the problem the keypoints  computed on a target image $T$ are the query point and the $S$ set of point is given by the keypoint learned from a set of training images, the metric space $M$ is the space of the [sift descriptor](SIFT_DESCRIPTOR.md) with a distance metric (usually euclidean distance)
+So in this iteration of the problem the keypoints  computed on a target image $T$ are the query point and the $S$ set of point is given by the keypoint learned from a set of training images, the metric space $M$ is the space of the [sift descriptor](computer_vision/SIFT_DESCRIPTOR.md) with a distance metric (usually euclidean distance)
 
 Is not guaranteed that the $NN$ is found due to occlusion of the image or exposure changes so a criteria for detecting correct correspondences must be set:
 
@@ -69,4 +69,4 @@ backtracking becomes computationally expensive as the dimension of the space goe
 
 Variation of the k-d tree algorithm where traversed node are inserted in a priority queue that is used in the backtracking phase to chose the node to traverse first, the queue is updated in the backtracking phase that ends at the $E_{max}$ node
 
-[PREVIOUS](pages/local_features/SIFT_DESCRIPTOR.md) [NEXT](object_detection/INSTANCE_LEVEL_OBJECT_DETECTION.md)
+[PREVIOUS](pages/local_features/SIFT_DESCRIPTOR.md) [NEXT](computer_vision/object_detection/INSTANCE_LEVEL_OBJECT_DETECTION.md)

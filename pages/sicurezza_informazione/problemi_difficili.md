@@ -18,4 +18,4 @@ $$p=\sum_{i}{k_ix_i}$$
 
 *dato un numero primo $p$ un generatore $g$ e un numero intero $A$ trovare $x$ tale per cui $A = g^x\mod{p}$* Tale problema ha una complessità sub-esponenziale per $p$ grande
 
- [NEXT](trasformazioni.md)
+ [NEXT](sicurezza_informazione/trasformazioni.md)

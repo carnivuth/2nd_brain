@@ -30,4 +30,4 @@ The median filter is good at removing impulse noise from an image as the noise p
 
 ![](computer_vision/Pasted_image_20240229174319.png)
 
-[PREVIOUS](pages/image_filtering/GAUSSIAN_FILTER.md) [NEXT](image_filtering/BILATERAL_FILTER.md)
+[PREVIOUS](pages/image_filtering/GAUSSIAN_FILTER.md) [NEXT](computer_vision/image_filtering/BILATERAL_FILTER.md)

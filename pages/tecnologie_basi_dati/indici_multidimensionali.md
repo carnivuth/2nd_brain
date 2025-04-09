@@ -13,7 +13,7 @@ Nati per soddisfare query che coinvolgono molteplici attributi, tra cui
 - query finestra $l_1 \leq A_1 \leq h_0, l_2 \leq A_2 \leq h_2, … , l_n \leq A_n \leq h_n$
 - nearest neighbor query $A_1 \approx v_1, A_2 \approx v_2, … , A_n \approx v_n$ 
 
-## Limiti del [b+tree](b+tree.md)
+## Limiti del [b+tree](tecnologie_basi_dati/b+tree.md)
 
 Supponendo di avere una window query su due attributi $A,B$ del tipo
 
@@ -25,7 +25,7 @@ AND T.B > 10
 AND T.B < 20
 ```
 
-In questo caso e possibile utilizzare un indice [b+tree](b+tree.md) su entrambi gli attributi oppure 2 indici monodimensionali su i due attributi
+In questo caso e possibile utilizzare un indice [b+tree](tecnologie_basi_dati/b+tree.md) su entrambi gli attributi oppure 2 indici monodimensionali su i due attributi
 
 >[!ERROR] In entrambi i casi si compie del lavoro inutile perché i punti spazialmente vicini non sono posti nelle stesse foglie
 
@@ -102,4 +102,4 @@ Si basa sul concetto di linearizzare lo spazio n dimensionale per mezzo delle co
 
 >[!ERROR] In questo caso preservare l'ordine locale risulta quasi impossibile
 
-[PREVIOUS](pages/progetto_fisico_tuning.md) [NEXT](r-tree.md)
+[PREVIOUS](pages/progetto_fisico_tuning.md) [NEXT](tecnologie_basi_dati/r-tree.md)

@@ -9,7 +9,7 @@ index: 20
 
 GPS is a positioning system that exploits dedicated hardware (*e.g. satellites*) for improved performance in localization capabilities
 
-The concept is to use [lateration](BASE_TECHNIQUES.md#LATERATION) in combination with [ToA](BASE_TECHNIQUES.md) using satellites with known positions
+The concept is to use [lateration](BASE_TECHNIQUES.md#LATERATION) in combination with [ToA](mobile_systems/BASE_TECHNIQUES.md) using satellites with known positions
 
 ![](mobile_systems/Pasted%20image%2020240608190728.png)
 
@@ -19,4 +19,4 @@ GPS satellites needs to have a perfect synchronized clock, $1_{\mu s}$ can achiv
 
 to reduce the error range of GPS a base station with a fixed position is used to correct the error in the satellites measures
 
-[PREVIOUS](pages/positioning_systems/MANET_POSITIONING_SYSTEMS.md) [NEXT](positioning_systems/NO_INFRASTRUCTURE_POSITIONING_SYSTEMS.md)
+[PREVIOUS](pages/positioning_systems/MANET_POSITIONING_SYSTEMS.md) [NEXT](mobile_systems/positioning_systems/NO_INFRASTRUCTURE_POSITIONING_SYSTEMS.md)

@@ -38,16 +38,16 @@ e necessario partizionare i record e calcolare le funzioni di aggregazione per o
 
 ## Group by per mezzo di sorting
 
-Una delle possibilità e quella di sfruttare tecniche di ordinamento come quelle viste per la [proiezione](proiezione.md#Proiettare%20[ordinando](sorting.md)), va sommato il costo di calcolo delle funzioni aggregate
+Una delle possibilità e quella di sfruttare tecniche di ordinamento come quelle viste per la [proiezione](proiezione.md#Proiettare%20[ordinando](tecnologie_basi_dati/sorting.md)), va sommato il costo di calcolo delle funzioni aggregate
 
 ## Group by per mezzo di indici
 
 In caso di indici sugli attributi di group by e di calcolo delle funzioni non e necessario accedere al file dati
 
->[!TIP] in caso di [b+tree](b+tree.md) se gli attributi di raggruppamento sono un prefisso della chiave si può utilizzare l'indice per accedere al file dati in maniera ordinata
+>[!TIP] in caso di [b+tree](tecnologie_basi_dati/b+tree.md) se gli attributi di raggruppamento sono un prefisso della chiave si può utilizzare l'indice per accedere al file dati in maniera ordinata
 
 ## Group by usando hashing
 
 Si costruisce una tabella di hash in memoria centrale in maniera analoga al caso della [proiezione](proiezione.md#Proiettare%20usando%20hashing)
 
-[PREVIOUS](pages/join.md) [NEXT](operatori_modifica.md)
+[PREVIOUS](pages/join.md) [NEXT](tecnologie_basi_dati/operatori_modifica.md)

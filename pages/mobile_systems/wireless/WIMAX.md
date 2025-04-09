@@ -11,4 +11,4 @@ Technology solution for metropolitan area networks man, the idea is to connect m
 
 ![](mobile_systems/Pasted%20image%2020240604192519.png)
 
-[PREVIOUS](pages/wireless/WIFI.md) [NEXT](wireless/CELLULAR_NETWORKING.md)
+[PREVIOUS](pages/wireless/WIFI.md) [NEXT](mobile_systems/wireless/CELLULAR_NETWORKING.md)

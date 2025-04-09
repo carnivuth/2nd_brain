@@ -7,7 +7,7 @@ index: 9
 
 # PERSPECTIVE PROJECTION MATRIX ($PPM$)
 
-The $PPM$ it's the linear representation of the [perspective projection](PERSPECTIVE_PROJECTION.md) in a [perspective space](PERSPECTIVE_SPACE.md)
+The $PPM$ it's the linear representation of the [perspective projection](PERSPECTIVE_PROJECTION.md) in a [perspective space](computer_vision/PERSPECTIVE_SPACE.md)
 
 Let's take the relation between points of the 3D world and the 2D image representation:
 
@@ -79,9 +79,9 @@ $$
 
 ## ADJUSTING THE $PPM$ MODEL
 
-In this form the $PPM$ does not take into account the space relation between the image plane and the 3D world (*rotation and translation*), also [digitizaiton](IMAGE_DIGITIZATION.md) effects are not considered.
+In this form the $PPM$ does not take into account the space relation between the image plane and the 3D world (*rotation and translation*), also [digitizaiton](computer_vision/IMAGE_DIGITIZATION.md) effects are not considered.
 
-### ACCOUNTING FOR [DIGITIZATION](IMAGE_DIGITIZATION.md)
+### ACCOUNTING FOR [DIGITIZATION](computer_vision/IMAGE_DIGITIZATION.md)
 
 In order to account for digitization the image coordinates are scaled by the pixel dimensions
 
@@ -179,4 +179,4 @@ So in conclusion a $PPM$ can be thought as 3 separate components:
 - the $G$ matrix which represents **the relation between the 2 different reference frames**
 - the $[I|0]$ matrix which represents **the perspective projection carried out by the pinhole camera model**
 
-[PREVIOUS](pages/image_formation_acquisition/PERSPECTIVE_SPACE.md) [NEXT](image_formation_acquisition/HOMOGRAPHY.md)
+[PREVIOUS](pages/image_formation_acquisition/PERSPECTIVE_SPACE.md) [NEXT](computer_vision/image_formation_acquisition/HOMOGRAPHY.md)

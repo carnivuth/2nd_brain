@@ -5,9 +5,9 @@ aliases:
 index: 6
 ---
 
-# Implementando i [b+tree](b+tree.md): GiST
+# Implementando i [b+tree](tecnologie_basi_dati/b+tree.md): GiST
 
-Generalized search tree (*[GiST](https://en.wikipedia.org/wiki/GiST)*) e una struttura generalizzata per l'implementazione di indici, che se opportunamente istanziata puo comportarsi da diverse tipologie di albero ([b+tree](b+tree.md), [r-tree](r-tree.md))
+Generalized search tree (*[GiST](https://en.wikipedia.org/wiki/GiST)*) e una struttura generalizzata per l'implementazione di indici, che se opportunamente istanziata puo comportarsi da diverse tipologie di albero ([b+tree](b+tree.md), [r-tree](tecnologie_basi_dati/r-tree.md))
 
 La specifica GiST modella le query come predicati e la risoluzione di una query come la ricerca nell'albero del predicato che la soddisfa
 
@@ -25,7 +25,7 @@ Le api della specifica si dividono in funzioni di chiave e funzioni d'albero, le
 
 ## Funzioni d'albero
 
-- `search` implementa la ricerca dato un predicato, utilizza la funzione `consistent`, nel caso di un  [b+tree](b+tree.md) la ricerca termina con il raggiungimento della prima foglia e lo scorrimento della lista (*il dominio di un B+tree e totalmente ordinato*)
+- `search` implementa la ricerca dato un predicato, utilizza la funzione `consistent`, nel caso di un  [b+tree](tecnologie_basi_dati/b+tree.md) la ricerca termina con il raggiungimento della prima foglia e lo scorrimento della lista (*il dominio di un B+tree e totalmente ordinato*)
 - `insert` inserisce un nodo nell'albero (*entra in gioco anche quando ci sono entry orfane*)
 - `chooseSubtree` sceglie il sottoalbero piu adatto per l'inserimento di una entry
 - `split` divide l'albero a seguito di un bilanciamento
@@ -33,4 +33,4 @@ Le api della specifica si dividono in funzioni di chiave e funzioni d'albero, le
 - `adjustKeys` aggiusta il valore delle chiavi dei nodi intermedi e controlla che il predicato dei figli corrisponda a quello del padre per mezzo di `union`
 - `condenseTree` effettua il reinserimento di entry orfane nell'albero
 
-[PREVIOUS](pages/b+tree.md) [NEXT](indici_hash.md)
+[PREVIOUS](pages/b+tree.md) [NEXT](tecnologie_basi_dati/indici_hash.md)

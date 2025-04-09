@@ -67,7 +67,7 @@ Un modo per arginare questo attacco e incrementare il contenuto informativo del 
 
 ### Possibili contromisure: impronta di impronta
 
-Un'altra possibile contromisura e l'impronta di un impronta, ne esistono diverse varianti qui si riporta HMAC meccanismo utilizzato da [IPSEC](ipsec.md) e [SSL](ssl.md)
+Un'altra possibile contromisura e l'impronta di un impronta, ne esistono diverse varianti qui si riporta HMAC meccanismo utilizzato da [IPSEC](ipsec.md) e [SSL](sicurezza_informazione/ssl.md)
 
 ```mermaid
 flowchart LR
@@ -134,4 +134,4 @@ Una possibile modalita per attaccare la resistenza debole e il seguente:
 
 Per far si che l'attacco riesca, sono necessari $2^{n/2}$ tentativi
 
-[PREVIOUS](trasformazioni.md) [NEXT](modalita_cifratura.md)
+[PREVIOUS](trasformazioni.md) [NEXT](sicurezza_informazione/modalita_cifratura.md)

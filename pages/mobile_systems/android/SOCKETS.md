@@ -7,7 +7,7 @@ index: 44
 
 # SOCKETS AND NETWORKING IN ANDROID
 
-the java solution for sockets are available in android (*e.g. `Socket` `ServerSocket`*), they require a [multi-thread solution](ASYNCHRONOUS_TECHNIQUES.md), and explicit permission in the manifest file
+the java solution for sockets are available in android (*e.g. `Socket` `ServerSocket`*), they require a [multi-thread solution](mobile_systems/ASYNCHRONOUS_TECHNIQUES.md), and explicit permission in the manifest file
 
 ## MANAGING NETWORK STATE
 
@@ -34,4 +34,4 @@ In order to be energy efficient a best practice is to bundle the data transfers 
 
 ![](mobile_systems/Pasted%20image%2020240618124220.png)
 
-[PREVIOUS](pages/android/ALARMS.md) [NEXT](IoT/IOT.md)
+[PREVIOUS](pages/android/ALARMS.md) [NEXT](mobile_systems/IoT/IOT.md)

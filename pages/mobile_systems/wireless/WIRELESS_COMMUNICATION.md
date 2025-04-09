@@ -27,4 +27,4 @@ In general it can be said that power fluctuations depends on the distance from t
 
 **layer 2 protocols need to take into account this physical layer problems**
 
- [NEXT](wireless/MEDIUM_ACCESS_CONTROL.md)
+ [NEXT](mobile_systems/wireless/MEDIUM_ACCESS_CONTROL.md)

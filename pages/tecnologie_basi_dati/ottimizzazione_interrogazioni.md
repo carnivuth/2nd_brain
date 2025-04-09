@@ -105,7 +105,7 @@ Una volta determinato il piano di accesso questo deve essere eseguito per ottene
 - **esecuzione per materializzazione** gli operatori memorizzano il loro risultato in una tabella temporanea e restituiscono all'operatore padre il risultato
 >[!ERROR] estremamente inefficiente in quanto la dimensione dei risultati intermedi può portare alla necessita di salvarli nel disco
 - **esecuzione in pipeline** ogni operatore fornisce un record all'operatore padre non appena disponibile
->[!WARNING] non e sempre possibile, per esempio l' operatore [sort](sorting.md) necessita di visionare tutto l'input prima di fornire la prima tupla di output
+>[!WARNING] non e sempre possibile, per esempio l' operatore [sort](tecnologie_basi_dati/sorting.md) necessita di visionare tutto l'input prima di fornire la prima tupla di output
 
 ### Implementare l'esecuzione in pipeline: Interfaccia a iteratore
 
@@ -124,4 +124,4 @@ close():
 	# termina e rilascia le risorse
 ```
 
-[PREVIOUS](pages/operatori_modifica.md) [NEXT](ricerca_piano_accesso.md)
+[PREVIOUS](pages/operatori_modifica.md) [NEXT](tecnologie_basi_dati/ricerca_piano_accesso.md)
