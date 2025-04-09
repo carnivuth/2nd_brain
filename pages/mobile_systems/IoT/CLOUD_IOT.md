@@ -1,0 +1,10 @@
+---
+id: CLOUD_IOT
+aliases: []
+tags: []
+---
+
+# CLOUD INFRASTRUCTURE FOR IoT
+# CLOUD INFRASTRUCTURE FOR IoT
+
+ [NEXT](pages/wireless/WIRELESS_COMMUNICATION.md)
