@@ -125,4 +125,4 @@ $$
 
 Per evitare questa vulnerabilità la chiave deve essere cambiata dopo  $2^{\frac{N}{2}}$
 
-[PREVIOUS](funzioni_hash.md) [NEXT](sicurezza_informazione/cifrari_simmetrici.md)
+[PREVIOUS](funzioni_hash.md) [NEXT](cifrari_simmetrici.md)

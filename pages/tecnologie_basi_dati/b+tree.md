@@ -5,7 +5,7 @@ aliases:
 index: 5
 ---
 
-# Migliorando i [b-tree](tecnologie_basi_dati/b-tree.md): B+tree
+# Migliorando i [b-tree](b-tree.md): B+tree
 
 I b+tree sono b-tree in cui le tuple sono contenute solo nelle foglie dell'albero, le foglie sono inoltre contenute in una lista linkata(*possibilmente sfruttando il PID*) per migliorare l'accesso al file
 
@@ -136,4 +136,4 @@ Sotto le assunzioni precedenti e dimostrabile che la formula di Yao sovrastima i
 
 ![](tecnologie_basi_dati/Pasted%20image%2020250204145210.png)
 
-[PREVIOUS](pages/b-tree.md) [NEXT](tecnologie_basi_dati/pages/GiST.md)
+[PREVIOUS](pages/b-tree.md) [NEXT](pages/GiST.md)

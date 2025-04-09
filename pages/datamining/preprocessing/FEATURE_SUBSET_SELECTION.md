@@ -34,4 +34,4 @@ here a possible architecture for feature subset selection:
 ![](datamining/Pasted_image_20240104203716.png)
 
 
-[PREVIOUS](DISTANCES.md) [NEXT](datamining/DIMENSIONALITY_REDUCTION.md)
+[PREVIOUS](DISTANCES.md) [NEXT](DIMENSIONALITY_REDUCTION.md)

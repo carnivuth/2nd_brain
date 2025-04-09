@@ -36,7 +36,7 @@ with the following parameters:
 
 The model describes how light from a single point in the 3D space is deflected from the lens before hitting the plane.
 
-If the image is on focus the image acquisition process obey to the [perspective projection](computer_vision/PERSPECTIVE_PROJECTION.md) model.
+If the image is on focus the image acquisition process obey to the [perspective projection](PERSPECTIVE_PROJECTION.md) model.
 
 ### CIRCLE OF CONFUSIONS
 
@@ -50,4 +50,4 @@ points before or after the focusing plane will appear in circles called circles 
 
 ![](computer_vision/Pasted_image_20240221202723.png)
 
-[PREVIOUS](pages/image_formation_acquisition/SENSORS.md) [NEXT](computer_vision/pages/image_formation_acquisition/LENS_DISTORTION.md)
+[PREVIOUS](pages/image_formation_acquisition/SENSORS.md) [NEXT](pages/image_formation_acquisition/LENS_DISTORTION.md)

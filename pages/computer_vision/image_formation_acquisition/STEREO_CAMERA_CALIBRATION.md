@@ -9,9 +9,9 @@ index: 13
 
 # STEREO CAMERA CALIBRATION
 
-##  WHY NOT CALIBRATE BOTH CAMERAS WITH [ZHANG](computer_vision/ZHANG_METHOD.md)
+##  WHY NOT CALIBRATE BOTH CAMERAS WITH [ZHANG](ZHANG_METHOD.md)
 
-In order to calibrate a stereo camera system the $PPM$ alone is not sufficient, the rigid motion between cameras is also needed, a first approach could be to compute the [zhang's method](computer_vision/ZHANG_METHOD.md) for both cameras but this approach as one major flaw, is not robust to noise
+In order to calibrate a stereo camera system the $PPM$ alone is not sufficient, the rigid motion between cameras is also needed, a first approach could be to compute the [zhang's method](ZHANG_METHOD.md) for both cameras but this approach as one major flaw, is not robust to noise
 
 ## BETTER SOLUTION: GUESSING
 
@@ -36,7 +36,7 @@ $$
 ## RECTIFICATION
 
 For better searching for correspondent points the images need to be perfectly aligned, this is impossible with mechanical alignment so the images are **rectified**
-This is done by virtually rotating the calibrated cameras (e.g. redefining the $PPMs$ ) about their optical center through an [homography](computer_vision/HOMOGRAPHY.md)
+This is done by virtually rotating the calibrated cameras (e.g. redefining the $PPMs$ ) about their optical center through an [homography](HOMOGRAPHY.md)
 
 ### CONSTRUCTING THE $A$ MATRIX
 
@@ -75,7 +75,7 @@ $$
 
 ### RECTIFICATION HOMOGRAPHIES
 
-Both images go trough a rotation and a change of intrinsic parameter, so they are related to the originals through [homographies](computer_vision/HOMOGRAPHY.md)
+Both images go trough a rotation and a change of intrinsic parameter, so they are related to the originals through [homographies](HOMOGRAPHY.md)
 
 So for the left camera:
 
@@ -107,7 +107,7 @@ $$
 
 ## GETTING BACK TO 3D COORDINATES
 
-with a calibrated stereo system the [depth information](computer_vision/STEREO_IMAGE_ACQUISITION.md) and also 3D coordinates can be estimated, so given the relation between 3D point and image points
+with a calibrated stereo system the [depth information](STEREO_IMAGE_ACQUISITION.md) and also 3D coordinates can be estimated, so given the relation between 3D point and image points
 
 $$
 p^{*} = \begin{bmatrix} a_{u}x +u_{0}z \\ a_{v}y +v_{0}z \\ z \end{bmatrix} = AP =
@@ -173,4 +173,4 @@ $$
 p_{2} = A_{2}T_{1\rightarrow 2}(zA_{1}^{-1}p_{1}) \space with \space T_{1\rightarrow 2}(P_{1}) =RP_{1} + T
 $$
 
-[PREVIOUS](pages/image_formation_acquisition/ZHANG_METHOD.md) [NEXT](computer_vision/pages/image_formation_acquisition/IMAGE_WARPING.md)
+[PREVIOUS](pages/image_formation_acquisition/ZHANG_METHOD.md) [NEXT](pages/image_formation_acquisition/IMAGE_WARPING.md)

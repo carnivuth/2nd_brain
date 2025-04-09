@@ -228,4 +228,4 @@ Una delle prime implementazioni della rete di Festel e DES, prevede 16 iterazion
 
 Algoritmo di cifratura a blocchi standard del settore, utilizza operazioni di sostituzione e trasposizione ma non si rifa alla rete di festel
 
-[PREVIOUS](modalita_cifratura.md) [NEXT](sicurezza_informazione/protocollo_wep.md)
+[PREVIOUS](modalita_cifratura.md) [NEXT](protocollo_wep.md)

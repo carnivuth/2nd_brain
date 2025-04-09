@@ -35,25 +35,25 @@ A common knowledge base (blackboard) is updated iteratively by different knowled
 Different nodes publish data to a broker that can be received from different nodes acting as subscribers
 
 other types of patterns specific for mobile nodes are
-- [COMMUNICATION_PATTERNS](mobile_systems/COMMUNICATION_PATTERNS.md)
-- [RESOURCE_MANAGEMENT_PATTERNS](mobile_systems/RESOURCE_MANAGEMENT_PATTERNS.md)
-- [DISTRIBUTION_PATTERNS](mobile_systems/DISTRIBUTION_PATTERNS.md)
+- [COMMUNICATION_PATTERNS](COMMUNICATION_PATTERNS.md)
+- [RESOURCE_MANAGEMENT_PATTERNS](RESOURCE_MANAGEMENT_PATTERNS.md)
+- [DISTRIBUTION_PATTERNS](DISTRIBUTION_PATTERNS.md)
 Tre categorie principali:
 - per la **distribuzione**
-	- [RemoteFacade](mobile_systems/RemoteFacade.md)
-	- [DataTransferObj](mobile_systems/DataTransferObj.md)
-	- [remoteProxy](mobile_systems/remoteProxy.md)
-	- [observer](mobile_systems/observer.md)
+	- [RemoteFacade](RemoteFacade.md)
+	- [DataTransferObj](DataTransferObj.md)
+	- [remoteProxy](remoteProxy.md)
+	- [observer](observer.md)
 - per la **gestione delle risorse** e la **sincronizzazione**
-	- [session token](mobile_systems/sessTok.md)
-	- [caching](mobile_systems/caching.md)
-	- [eager](mobile_systems/eager.md) acquisition
-	- [lazy](mobile_systems/lazy.md) acquisition
-	- [synchronization](mobile_systems/synch.md)
-	- [rendezvous & state transfer](mobile_systems/stateTransfer.md)
+	- [session token](sessTok.md)
+	- [caching](caching.md)
+	- [eager](eager.md) acquisition
+	- [lazy](lazy.md) acquisition
+	- [synchronization](synch.md)
+	- [rendezvous & state transfer](stateTransfer.md)
 - per la **comunicazione**
-	- [connection factory](mobile_systems/connFact.md)
-	- [multiplexed connection](mobile_systems/multiplexedConn.md)
-	- [client-initiated connection for push model](mobile_systems/clientInit.md)
+	- [connection factory](connFact.md)
+	- [multiplexed connection](multiplexedConn.md)
+	- [client-initiated connection for push model](clientInit.md)
 
-[PREVIOUS](pages/mobile_middleware/MOBILE_MIDDLEWARE_PRINCIPLES.md) [NEXT](mobile_systems/pages/mobile_middleware/DISTRIBUTION_PATTERNS.md)
+[PREVIOUS](pages/mobile_middleware/MOBILE_MIDDLEWARE_PRINCIPLES.md) [NEXT](pages/mobile_middleware/DISTRIBUTION_PATTERNS.md)

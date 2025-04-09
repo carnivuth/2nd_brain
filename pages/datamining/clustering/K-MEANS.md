@@ -97,11 +97,11 @@ $$
 
 ## CONS
 
-- k-means cannot work in space where [distance](datamining/DISTANCES.md) cannot be computed
+- k-means cannot work in space where [distance](DISTANCES.md) cannot be computed
 - cannot work with nominal data
 - requires the K parameter (it can be computed but it is a cost)
 - it is very sensitive to outliers
 - does not deal with noise
 - does not deal properly with non convex clusters
 
-[PREVIOUS](CLUSTERING_SCHEME_EVALUATION.md) [NEXT](datamining/HIERARCHICAL_CLUSTERING.md)
+[PREVIOUS](CLUSTERING_SCHEME_EVALUATION.md) [NEXT](HIERARCHICAL_CLUSTERING.md)

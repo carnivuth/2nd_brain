@@ -92,10 +92,10 @@ I metodi di scambio possibili sono i seguenti:
 A seconda della modalita di cifratura i peer si scambiano parametri diversi:
 
 - chiavi pubbliche nel caso di cifrari ibridi
-- valori $p,g,A$ nel caso di [diffie hellman](sicurezza_informazione/diffie_hellman.md)
+- valori $p,g,A$ nel caso di [diffie hellman](diffie_hellman.md)
 
  Alla fine del protocollo di negoziazione i peer concordano un master secret che verrà utilizzato all'interno di una stessa sessione per le comunicazioni, dal master secret si derivano le chiavi utilizzate per ogni connessione
 
 >[!NOTE] SSL non garantisce il non ripudio dei messaggi  ma solo l'autenticazione del server (*client opzionale*)
 
-[PREVIOUS](ipsec.md) [NEXT](sicurezza_informazione/kerberos.md)
+[PREVIOUS](ipsec.md) [NEXT](kerberos.md)

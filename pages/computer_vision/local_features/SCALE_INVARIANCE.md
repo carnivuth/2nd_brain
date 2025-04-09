@@ -19,7 +19,7 @@ If some mathematical properties are satisfied this set of images is called **sca
 
 A Scale-Space is a one-parameter family of images created from the original one so that the **structures at smaller scales are successively suppressed by smoothing operations**. Moreover, one would not wish to create new structures while smoothing the images. In other words, a scale-space should continuously simplify the image **without introducing artifacts**.
 
-A scale space can be obtained by [Gaussian smoothing](computer_vision/GAUSSIAN_FILTER.md) as:
+A scale space can be obtained by [Gaussian smoothing](GAUSSIAN_FILTER.md) as:
 $$
 L(x,y,\sigma)= G(x,y,\sigma)\ast I(x,y)
 $$
@@ -28,4 +28,4 @@ So each level of the Gaussian scale space is obtained by tuning the $\sigma$ par
 
 The Gaussian scale space does not give ways to find features nor their characteristic scale
 
-[PREVIOUS](pages/local_features/SHI_TOMASI_CORNER_DETECTOR.md) [NEXT](computer_vision/pages/local_features/SCALE_NORMALIZED_LOG.md)
+[PREVIOUS](pages/local_features/SHI_TOMASI_CORNER_DETECTOR.md) [NEXT](pages/local_features/SCALE_NORMALIZED_LOG.md)

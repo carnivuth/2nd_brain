@@ -60,4 +60,4 @@ transformation that turns continuous domains into discrete ones, there are many 
 
 Number are discretized in a series of values from $0$ to $k-1$
 
-[PREVIOUS](DATA_PREPROCESSING.md) [NEXT](datamining/SIMILARITY_AND_DISSIMILARITY.md)
+[PREVIOUS](DATA_PREPROCESSING.md) [NEXT](SIMILARITY_AND_DISSIMILARITY.md)

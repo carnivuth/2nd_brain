@@ -75,4 +75,4 @@ Nella realtà le luci non sono mai puntiformi, questo porta a ombre morbide come
 
 ![](computer_graphics/Pasted%20image%2020250102180827.png)
 
-[PREVIOUS](pages/texture_mapping.md) [NEXT](computer_graphics/pages/mesh_poligonali.md)
+[PREVIOUS](pages/texture_mapping.md) [NEXT](pages/mesh_poligonali.md)

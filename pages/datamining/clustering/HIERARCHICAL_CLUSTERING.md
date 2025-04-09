@@ -44,4 +44,4 @@ so in conclusion the time complexity is $\mathcal{O}(N^3)$
  - no global objective function
 
 
-[PREVIOUS](K-MEANS.md) [NEXT](datamining/MODEL_BASED_CLUSTERING.md)
+[PREVIOUS](K-MEANS.md) [NEXT](MODEL_BASED_CLUSTERING.md)

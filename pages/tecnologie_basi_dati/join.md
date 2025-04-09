@@ -21,7 +21,7 @@ Determinare la maniera più efficiente per rispondere non e banale in quanto l'o
 - ordinamento dei dati
 - quantità di buffers
 - possibilità di restituire i risultati
-> lasciamo perdere l'opzione di fare il prodotto cartesiano e applicare una [selezione](tecnologie_basi_dati/selezione.md).....
+> lasciamo perdere l'opzione di fare il prodotto cartesiano e applicare una [selezione](selezione.md).....
 
 ## Nested loop join
 
@@ -86,7 +86,7 @@ A ~~~ central_memory ~~~ N
 
 ## Sfruttando gli indici: index nested loop join
 
-e possibile utilizzare un indice per accedere alla relazione interna, il costo dipende dal tipo di indice (*[b+tree](b+tree.md) oppure [indici_hash](tecnologie_basi_dati/indici_hash.md)*) e da se l'indice e clustered o meno
+e possibile utilizzare un indice per accedere alla relazione interna, il costo dipende dal tipo di indice (*[b+tree](b+tree.md) oppure [indici_hash](indici_hash.md)*) e da se l'indice e clustered o meno
 
 ![image.png](../assets/image_1681899225713_0.png)
 
@@ -162,4 +162,4 @@ In caso di full join:
 - [Merge-scan join](#Merge-scan%20join): aggiunge le tuple dangling di entrambi gli input
 - [Hash join](#Hash%20join): per aggiungere anche le tuple dangling della relazione esterna, quando si costruisce la hash table si aggiunge un flag per tener traccia di quali tuple hanno trovato un match. Al termine si fa un passo finale sulla hash table per collezionare tutte le tuple dangling
 
-[PREVIOUS](pages/proiezione.md) [NEXT](tecnologie_basi_dati/pages/group_by.md)
+[PREVIOUS](pages/proiezione.md) [NEXT](pages/group_by.md)

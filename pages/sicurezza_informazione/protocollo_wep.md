@@ -37,4 +37,4 @@ Questo protocollo soffre del problema di [riutilizzo della chiave](cifrari_simme
 
 Inoltre il cifrario utilizzato risulta **malleabile**, l'attaccante  e in grado di manipolare il testo cifrato in modo tale che in fase di decifrazione la destinazione ottenga un testo voluto dall'attaccante
 
-[PREVIOUS](cifrari_simmetrici.md) [NEXT](sicurezza_informazione/chiavi.md)
+[PREVIOUS](cifrari_simmetrici.md) [NEXT](chiavi.md)

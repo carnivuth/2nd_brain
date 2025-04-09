@@ -36,4 +36,4 @@ note over bob: M = DK(C2)
 
 La sorgente sfrutta la chiave pubblica di bob per comunicare la chiave di sessione per effettuare poi una comunicazione per mezzo di [cifrari simmetrici](cifrari_simmetrici.md#CIFRARI%20SIMMETRICI), l'algoritmo simmetrico viene scelto dalla sorgente
 
-[PREVIOUS](chiavi.md) [NEXT](sicurezza_informazione/rsa.md)
+[PREVIOUS](chiavi.md) [NEXT](rsa.md)

@@ -6,18 +6,18 @@ pubblico questo contenuto con la speranza possa essere di aiuto, non esitate a a
 
 ## Fondamenti Crittografici
 
-- [trasformazioni](sicurezza_informazione/trasformazioni.md)
-- [cifrari_simmetrici](sicurezza_informazione/cifrari_simmetrici.md)
-- [cifrari_asimmetrici](sicurezza_informazione/cifrari_asimmetrici.md)
-- [chiavi](sicurezza_informazione/chiavi.md)
-- [key_management](sicurezza_informazione/key_management.md)
-- [identificazione](sicurezza_informazione/identificazione.md)
+- [trasformazioni](trasformazioni.md)
+- [cifrari_simmetrici](cifrari_simmetrici.md)
+- [cifrari_asimmetrici](cifrari_asimmetrici.md)
+- [chiavi](chiavi.md)
+- [key_management](key_management.md)
+- [identificazione](identificazione.md)
 
 ## Protocolli di sicurezza
 
-- [rsa](sicurezza_informazione/rsa.md)
-- [ssl](sicurezza_informazione/ssl.md)
-- [ipsec](sicurezza_informazione/ipsec.md)
-- [kerberos](sicurezza_informazione/kerberos.md)
-- [pgp](sicurezza_informazione/pgp.md)
-- [blockchain](sicurezza_informazione/blockchain.md)
+- [rsa](rsa.md)
+- [ssl](ssl.md)
+- [ipsec](ipsec.md)
+- [kerberos](kerberos.md)
+- [pgp](pgp.md)
+- [blockchain](blockchain.md)

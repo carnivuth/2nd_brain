@@ -56,4 +56,4 @@ support measures "how much" an occurrence can be considered a rule (there must b
 
 confidence measures how much a rule is represented in the transactions that contains it
 
- [NEXT](datamining/ASSOCIATION_RULES_MINING.md)
+ [NEXT](ASSOCIATION_RULES_MINING.md)

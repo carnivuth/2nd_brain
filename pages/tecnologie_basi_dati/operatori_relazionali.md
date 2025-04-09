@@ -47,4 +47,4 @@ Per poter stimare il costo di un operatore si prendono in considerazione i segue
 - $B$ = numero di pagine buffer a disposizione per l'operatore
 - $L(IX)$ = numero di pagine foglia dell’indice $IX$
 
-[PREVIOUS](pages/durability_control.md) [NEXT](tecnologie_basi_dati/pages/sorting.md)
+[PREVIOUS](pages/durability_control.md) [NEXT](pages/sorting.md)

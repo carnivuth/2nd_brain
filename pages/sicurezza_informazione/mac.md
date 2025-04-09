@@ -8,4 +8,4 @@ tags: []
 
 Algoritmo volto a preservare l'integrità e l'autenticità di un messaggio, prende in input una chiave $k$ e un messaggio $m$ e produce in output un codice identificativo univoco $mac$
 
- [NEXT](sicurezza_informazione/trasformazioni.md)
+ [NEXT](trasformazioni.md)

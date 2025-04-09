@@ -13,7 +13,7 @@ index: 5
 
 # APRIORI ALGORITHM
 
-The apriori algorithm is a strategy to prune the three of candidates of the [frequent item-set generation](datamining/FREQUENT_ITEMSET_GENERATION.md) fase it's based on the apriori priciple
+The apriori algorithm is a strategy to prune the three of candidates of the [frequent item-set generation](FREQUENT_ITEMSET_GENERATION.md) fase it's based on the apriori priciple
 
 ### APRIORI PRINCIPLE
 If an itemset is frequent, then all of its subsets must also be frequent and viceversa.
@@ -41,4 +41,4 @@ flowchart TD
 
 The $threshold$ value it's an important tuning parameter for complexity and the tradeoff element between number of valid time-sets founded and quality of the item-sets founded
 
-[PREVIOUS](FREQUENT_ITEMSET_GENERATION.md) [NEXT](datamining/FP-GROWTH.md)
+[PREVIOUS](FREQUENT_ITEMSET_GENERATION.md) [NEXT](FP-GROWTH.md)

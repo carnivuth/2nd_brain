@@ -52,4 +52,4 @@ if a [classification model](#CLASSIFICATION_MODEL) is able to shatter all possib
 
 
 
- [NEXT](datamining/TRAINING_STRATEGIES.md)
+ [NEXT](TRAINING_STRATEGIES.md)

@@ -9,14 +9,14 @@ Innovazione è l’**implementazione di un nuovo o significativamente migliorato
 
 | FORME DI INNOVAZIONE  | DESCRIZIONE                                                                                     | AUTORI DI RIFERIMENTO   |
 | --------------------- | ----------------------------------------------------------------------------------------------- | ----------------------- |
-| [DI PRODOTTO](gip/INNOVAZIONE%20DI%20PRODOTTO%20E%20DI%20PROCESSO.md)           | innovazioni incorporate in un bene fisico                                                       | Abernathy and Utterback |
-| [DI PROCESSO](gip/INNOVAZIONE%20DI%20PRODOTTO%20E%20DI%20PROCESSO.md)           | innovazioni legate a processi produttivi e modalità di svolgimento delle attività di un impresa | Abernathy and Utterback |
-| [RADICALE](gip/INNOVAZIONE%20RADICALE%20E%20INCREMENTALE.md) (aka fondamentale)             | innovazioni che stravolgono il modo di vivere dei clienti                                       | Tushman and Anderson    |
-| [INCREMENTALE](gip/INNOVAZIONE%20RADICALE%20E%20INCREMENTALE.md) (aka marginale)         | innovazioni che si limitano a migliorare o adattare soluzioni già esistenti                     | Tushman and Anderson    |
-| [COMPETENCE ENHANCING](gip/INNOVAZIONE%20COMPETENCE%20DESTROYING%20E%20ENHANCING.md)  | innovazioni realizzate per mezzo di miglioramento di competenze già acquisite                   | Tushman and Anderson    |
-| [COMPETENCE DESTROYING](gip/INNOVAZIONE%20COMPETENCE%20DESTROYING%20E%20ENHANCING.md) | innovazioni che stravolgono i principi di funzionamento del prodotto                            | Tushman and Anderson    |
-| [ARCHITETTURALE](gip/INNOVAZIONE%20ARCHITETTURALE%20E%20MODULARE.md)        | innovazioni che stravolgono l'architettura di un prodotto                                       | Henderson e Clark       |
-| [MODULARE](gip/INNOVAZIONE%20ARCHITETTURALE%20E%20MODULARE.md)              | innovazioni che mantengono l'architettura ma migliorano singoli moduli di essa                  | Henderson e Clark       |
+| [DI PRODOTTO](INNOVAZIONE%20DI%20PRODOTTO%20E%20DI%20PROCESSO.md)           | innovazioni incorporate in un bene fisico                                                       | Abernathy and Utterback |
+| [DI PROCESSO](INNOVAZIONE%20DI%20PRODOTTO%20E%20DI%20PROCESSO.md)           | innovazioni legate a processi produttivi e modalità di svolgimento delle attività di un impresa | Abernathy and Utterback |
+| [RADICALE](INNOVAZIONE%20RADICALE%20E%20INCREMENTALE.md) (aka fondamentale)             | innovazioni che stravolgono il modo di vivere dei clienti                                       | Tushman and Anderson    |
+| [INCREMENTALE](INNOVAZIONE%20RADICALE%20E%20INCREMENTALE.md) (aka marginale)         | innovazioni che si limitano a migliorare o adattare soluzioni già esistenti                     | Tushman and Anderson    |
+| [COMPETENCE ENHANCING](INNOVAZIONE%20COMPETENCE%20DESTROYING%20E%20ENHANCING.md)  | innovazioni realizzate per mezzo di miglioramento di competenze già acquisite                   | Tushman and Anderson    |
+| [COMPETENCE DESTROYING](INNOVAZIONE%20COMPETENCE%20DESTROYING%20E%20ENHANCING.md) | innovazioni che stravolgono i principi di funzionamento del prodotto                            | Tushman and Anderson    |
+| [ARCHITETTURALE](INNOVAZIONE%20ARCHITETTURALE%20E%20MODULARE.md)        | innovazioni che stravolgono l'architettura di un prodotto                                       | Henderson e Clark       |
+| [MODULARE](INNOVAZIONE%20ARCHITETTURALE%20E%20MODULARE.md)              | innovazioni che mantengono l'architettura ma migliorano singoli moduli di essa                  | Henderson e Clark       |
 | DISRUPTIVE            | innovazione che stravolge il mercato                                                            | Christensen             |
 | SUSTAINING            | innovazione che mantiene lo status quo del mercato                                              | Christensen             |
 | SIGNIFICATO           | innovazione che modifica il significato di una soluzione già esistente                          | Verganti                |

@@ -66,4 +66,4 @@ E  <--> B
 end
 ```
 
-[PREVIOUS](pages/wireless/WIRELESS_COMMUNICATION.md) [NEXT](mobile_systems/pages/wireless/CSMA.md)
+[PREVIOUS](pages/wireless/WIRELESS_COMMUNICATION.md) [NEXT](pages/wireless/CSMA.md)

@@ -93,4 +93,4 @@ Per far funzionare un simile sistema e necessario che il processo di selezione s
 
 Nel processo di selezione i nodi che concorrono per inserire il blocco devono risolvere un hash puzzle ovvero **trovare un intero nounce tale per cui l'hash del blocco sia inferiore a un certo valore**
 
-[PREVIOUS](sicurezza_informazione/pgp.md)
+[PREVIOUS](pgp.md)

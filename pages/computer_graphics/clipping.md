@@ -56,7 +56,7 @@ si procede cosi per tutti e $3$ gli assi
 
 ## Clipping di poligoni
 
-Il clipping dei singoli poligoni e più complicato che nel caso delle [singole linee](computer_graphics/clipping.md) in quanto **non e detto che dal clipping di un poligono risulti un solo poligono o un poligono con lo stesso numero di vertici**
+Il clipping dei singoli poligoni e più complicato che nel caso delle [singole linee](clipping.md) in quanto **non e detto che dal clipping di un poligono risulti un solo poligono o un poligono con lo stesso numero di vertici**
 
 ![](computer_graphics/Pasted%20image%2020241217162658.png)
 
@@ -86,8 +86,8 @@ L'algoritmo puo essere generalizzato al 3D, dato il parallelepipedo di vista (*f
 
 ![](computer_graphics/Pasted%20image%2020241217164259.png)
 
-Successivamente si effettua la [proiezione prospettica](computer_graphics/proiezione_prospettica.md) e si procede al clipping rispetto alle altre facce
+Successivamente si effettua la [proiezione prospettica](proiezione_prospettica.md) e si procede al clipping rispetto alle altre facce
 
 ![](computer_graphics/Pasted%20image%2020241217164353.png)
 
-[PREVIOUS](pages/proiezione_prospettica.md) [NEXT](computer_graphics/pages/illuminazione.md)
+[PREVIOUS](pages/proiezione_prospettica.md) [NEXT](pages/illuminazione.md)

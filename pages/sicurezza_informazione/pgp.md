@@ -11,7 +11,7 @@ Protocollo di sicurezza pensato per scambiare documenti in modo sicuro (*email e
 
 ## PGP e la riservatezza
 
-per lo scambio di informazioni viene applicato un [cifrario ibrido](cifrari_asimmetrici.md#CIFRARIO%20IBRIDO) con [rsa](sicurezza_informazione/rsa.md), i messaggi scambiati contengono il testo cifrato, la chiave k  per la cifratura simmetrica che a sua volta viene cifrata con la chiave pubblica della destinazione.
+per lo scambio di informazioni viene applicato un [cifrario ibrido](cifrari_asimmetrici.md#CIFRARIO%20IBRIDO) con [rsa](rsa.md), i messaggi scambiati contengono il testo cifrato, la chiave k  per la cifratura simmetrica che a sua volta viene cifrata con la chiave pubblica della destinazione.
 
 ## PGP e autenticazione 
 
@@ -46,4 +46,4 @@ A ogni chiave e associato un livello di fiducia che può dipendere:
 
 E previsto inoltre un meccanismo di fiducia anche per i certificati mostrati dagli intermediari.
 
-[PREVIOUS](kerberos.md) [NEXT](sicurezza_informazione/blockchain.md)
+[PREVIOUS](kerberos.md) [NEXT](blockchain.md)

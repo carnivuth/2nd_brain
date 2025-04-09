@@ -7,7 +7,7 @@ index: 13
 
 # AD HOC ON DEMAND DISTANCE VECTOR
 
-AODV tries to address the problem of the variable sized header of [DSR](mobile_systems/DINAMIC_SOURCE_ROUTING.md) by maintain a reduced routing table suitable for manets
+AODV tries to address the problem of the variable sized header of [DSR](DINAMIC_SOURCE_ROUTING.md) by maintain a reduced routing table suitable for manets
 
 ## LIMIT THE ROUTING PROBLEMS OF MANETS
 
@@ -39,7 +39,7 @@ c --> d
 
 ## ROUTE ERROR
 
-In the route error scenario the node that detects the route error situation informs the other nodes like in [DSR](mobile_systems/DYNAMIC%20SOURCE%20ROUTING.md) and they update their routing table, the message is broadcast to the neighbors route error to inform them
+In the route error scenario the node that detects the route error situation informs the other nodes like in [DSR](DYNAMIC%20SOURCE%20ROUTING.md) and they update their routing table, the message is broadcast to the neighbors route error to inform them
 
 ## LINK FAILURE DETECTION
 

@@ -40,7 +40,7 @@ oppure:
 
 ## LAMBDA CALCOLO IN JAVASCRIPT
 
-[javascript](linguaggi_modelli_computazionali/JAVASCRIPT.md) risulta essere pratico per l'implementazione del lambda calcolo in quanto vi e la possibilità di definire funzioni anonime e [chiusure](JAVASCRIPT.md#CHIUSURE)
+[javascript](JAVASCRIPT.md) risulta essere pratico per l'implementazione del lambda calcolo in quanto vi e la possibilità di definire funzioni anonime e [chiusure](JAVASCRIPT.md#CHIUSURE)
 
 ```javascript
 //il termine lambda x.<expr> puo infatti essere definito come
@@ -257,4 +257,4 @@ console.log(Z(FactGen)(3))
 
 Il lambda calcolo e un formalismo estremamente potente che ha permesso di formalizzare le funzionalità che oggi vantano i linguaggi mainstream ma non e pensato per essere utilizzato direttamente dagli utenti finali
 
-[PREVIOUS](pages/JAVASCRIPT.md) [NEXT](linguaggi_modelli_computazionali/pages/LINGUAGGI_BLENDED.md)
+[PREVIOUS](pages/JAVASCRIPT.md) [NEXT](pages/LINGUAGGI_BLENDED.md)

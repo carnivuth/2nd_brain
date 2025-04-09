@@ -7,7 +7,7 @@ index: 44
 
 # Generalized Hough transform
 
-The Generalized Hough transform (**GHT**) is a generalization aimed to apply **[HT](computer_vision/HOUGH_TRANSFORM.md)** to non analytical shapes.
+The Generalized Hough transform (**GHT**) is a generalization aimed to apply **[HT](HOUGH_TRANSFORM.md)** to non analytical shapes.
 
 ```mermaid
 flowchart LR
@@ -38,11 +38,11 @@ end
 
 ## GHT with local invariant features
 
-The most popular computer vision pipeline relies on combining GHT with local invariant features such as the [SIFT DESCRIPTOR](computer_vision/SIFT_DESCRIPTOR.md). In this pipeline Local invariant features are used instead of edges.
+The most popular computer vision pipeline relies on combining GHT with local invariant features such as the [SIFT DESCRIPTOR](SIFT_DESCRIPTOR.md). In this pipeline Local invariant features are used instead of edges.
 
 ### GHT: offline phase
 
-Detect keypoints (e.g. [DOG](DOG_DETECTOR.md)) and compute descriptors (e.g. [SIFT](computer_vision/SIFT_DESCRIPTOR.md)) in the model image:
+Detect keypoints (e.g. [DOG](DOG_DETECTOR.md)) and compute descriptors (e.g. [SIFT](SIFT_DESCRIPTOR.md)) in the model image:
 
 $$
 F = \{F_1,F_2,...,F_n\}
@@ -99,4 +99,4 @@ A 2D accumulator array is not sufficient to account for rotation and scale, the 
 
 ![](computer_vision/Pasted_image_20240428143913.png)
 
-[PREVIOUS](pages/object_detection/HOUGH_TRANSFORM.md) [NEXT](computer_vision/pages/object_detection/OBJECT_DETECTION_PIPELINE.md)
+[PREVIOUS](pages/object_detection/HOUGH_TRANSFORM.md) [NEXT](pages/object_detection/OBJECT_DETECTION_PIPELINE.md)
