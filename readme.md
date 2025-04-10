@@ -2,6 +2,8 @@
 
 Personal [obsidian](https://obsidian.md/) vault for knowledge management and persistent data storage
 
+![](assets/main.jpg)
+
 ## Usage
 
 - install [obsidian](https://obsidian.md/)
