@@ -1,6 +1,6 @@
 # Second Brain
 
-Personal second brain knowledgebase
+Personal second brain knowledge base
 
 ![](assets/main.jpg)
 
