@@ -51,7 +51,7 @@ Also the semantics with witch the communication is handled by the application co
 
 Also locators plays a role given the fact that nodes are mobile is not always possible to use locators as IP/TCP addresses, two principle type of locator are defined:
 
-- **transparent** locators implemented as URI ( *e.g. as in [REST](mobile_systems/rest.md)* )
+- **transparent** locators implemented as URI ( *e.g. as in [REST](mobile_systems/iot/rest.md)* )
 - **opaque** need of a middleware to generate and use locators
 
 ## General considerations

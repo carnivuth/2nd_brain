@@ -36,7 +36,7 @@ so for this **android is not a fully compatible linux extension**
 
 ## Power management with wakelocks
 
-applications can through the wakelocks java API can influence the behavior of the kernel power management ( *this is an example of [cross layering pattern](mobile_systems/android/mobile_middleware_principles.md#cross%20layering%20principle)* )
+applications can through the wakelocks java API can influence the behavior of the kernel power management ( *this is an example of [cross layering pattern](mobile_systems/mobile_middleware/mobile_middleware_principles.md#cross%20layering%20principle)* )
 
 ## Not all the system is java based
 

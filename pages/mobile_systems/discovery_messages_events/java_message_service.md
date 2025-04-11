@@ -35,9 +35,9 @@ D --> G
 E --> H
 ```
 
-## [RELIABILITY ](messaging.md#reliability%20and%20qos) in JMS
+## [Reliability](mobile_systems/discovery_messaging_events/messaging.md#reliability%20and%20qos) in JMS
 
-reliability is handled trough ACK messages that are given from the JMS broker to the publisher and from the consumer to the broker
+Reliability is handled trough ACK messages that are given from the JMS broker to the publisher and from the consumer to the broker
 
 ```mermaid
 flowchart LR

@@ -7,7 +7,7 @@ index: 63
 
 # Extensible messaging and presence protocol (xmpp)
 
-Protocol develop for large scale distributed application to notify if a user is connected to the application (*online status*).It's  a [pub/sub](mobile_systems/pub_sub_model.md) protocol with messages codified in xml format
+Protocol develop for large scale distributed application to notify if a user is connected to the application (*online status*).It's  a [pub/sub](mobile_systems/iot/pub_sub_model.md) protocol with messages codified in xml format
 
 XMPP is based on the client server model of interaction, where client send XML encoded data flows to the server after parameter negotiation.
 

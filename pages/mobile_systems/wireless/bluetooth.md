@@ -126,7 +126,7 @@ The main difference is in the protocol of discovery and advertisement on the ava
 
 All **BLE** devices implements the generic attribute (GATT) profile
 
-## Bluetooth vs [wifi](mobile_systems/wifi.md)
+## Bluetooth vs [wifi](mobile_systems/wireless/wifi.md)
 
 | WIFI                                        | BLUETOOTH                                                   |
 | ------------------------------------------- | ----------------------------------------------------------- |
