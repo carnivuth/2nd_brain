@@ -124,4 +124,4 @@ $$
 f(C)= \frac{\sum{f(ci)*Ci}}{C}
 $$
 
-[PREVIOUS](training_strategies.md) [NEXT](datamining/decision_trees.md)
+[PREVIOUS](datamining/classification/training_strategies.md) [NEXT](datamining/classification/decision_trees.md)

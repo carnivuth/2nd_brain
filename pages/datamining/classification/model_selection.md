@@ -38,10 +38,8 @@ $$
 P(z_{\alpha/2} \leq \frac{f-p}{\sqrt{p(1-p)/N}}\leq z_{(1-\alpha)/2}) = 1- \alpha
 $$
 
-boundaries on the curve $z$ depends on the desired confidence level $\alpha$
+Boundaries on the curve $z$ depends on the desired confidence level $\alpha$
 
 ![](datamining/Pasted_image_20231230173630.png)
 
-
-
- [NEXT](datamining/classification.md)
+[NEXT](datamining/classification/classification.md)

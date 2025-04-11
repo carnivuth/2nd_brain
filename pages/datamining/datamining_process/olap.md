@@ -105,6 +105,7 @@ Each approach is more suitable for certain types of data:
 - needed when merging data from different sources and there is no common key
 
 ![](datamining/Pasted_image_20231008181831.png)
+
 ### Transformation
 
 - data are altered to match the information schema on the DWH
@@ -120,8 +121,9 @@ Each approach is more suitable for certain types of data:
 #### Refresh
 
 - the DWH is completely rewritten with new data
+
 #### Update
 
 - only changes on source are applied to the DWH existent data are not canceled or modified
 
-[PREVIOUS](business_intelligence_and_data_warehouse.md) [NEXT](datamining/data_lakes.md)
+[PREVIOUS](datamining/datamining_process/business_intelligence_and_data_warehouse.md) [NEXT](datamining/datamining_process/data_lakes.md)

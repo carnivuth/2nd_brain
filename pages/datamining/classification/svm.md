@@ -16,4 +16,4 @@ Studiate per superare il problema dei dataset linearmente separabili-> cerca un'
 
 
 
-[PREVIOUS](linear_perceptron.md) [NEXT](datamining/reti_neurali.md)
+[PREVIOUS](datamining/classification/linear_perceptron.md) [NEXT](datamining/classification/reti_neurali.md)

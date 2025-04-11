@@ -38,7 +38,7 @@ the objective is to maximize information gain in order to obtain the best split
 
 #### Choosing the right attribute for the split
 
-the attribute with the maximum [IG](#INFORMATION_GAIN) is chosen
+the attribute with the maximum [IG](#Information%20gain) is chosen
 
 ### Build decision tree with binary splits
 
@@ -58,18 +58,17 @@ let X left = selection on X with d < t
 buildTree(X left , pleft )
 let X right = selection on sdata with d >= t
 buildTree(X right , pright )
-
 ```
 
 ### Training set error
 
-number of discordance between predictions on the training set and the actual values of the attributes
+Number of discordance between predictions on the training set and the actual values of the attributes
 
-it's a lower bound for the error rate of the predictions
+It's a lower bound for the error rate of the predictions
 
 ### Test set error
 
-same calculus of the  [training set error](#TRAINING_SET_ERROR)
+Same calculus of the  [training set error](#training%20set%20error)
 
 the value is more indicative of the expected behavior
 
@@ -87,13 +86,13 @@ $$
 
 possible causes of over-fitting can be the presence of noise on the data or a bad representative training set of the $X$ dataset.
 
-One of the possible solutions to overfitting is [decision tree pruning](datamining/decision_tree_pruning.md)
+One of the possible solutions to overfitting is [decision tree pruning](datamining/classification/decision_tree_pruning.md)
 
 ### Choosing attribute for split with the highest purity
 
-- [INFORMATION THEORY BASED METHOD](#INFORMATION_THEORY_BASED_METHOD)
-- [GINI INDEX](#GINI_INDEX)
-- [MISCLASSIFICATION ERROR](#MISCLASSIFICATION_ERROR)
+- [INFORMATION THEORY BASED METHOD](#information%20theory%20based%20method)
+- [GINI INDEX](#gini%20index)
+- [MISCLASSIFICATION ERROR](#misclassification%20error)
 
 ### Gini index
 
@@ -115,11 +114,11 @@ $$
 
 
 it's complement to 1  of the highest label frequency called accuracy
-the split is like the one of the [GINI INDEX](#GINI_INDEX)
+the split is like the one of the [GINI INDEX](#gini%20index)
 
 $$
 ME(p) = 1 - max_{j}(f_{pj})
 $$
 
 
-[PREVIOUS](performance_of_a_classifier.md) [NEXT](datamining/decision_tree_pruning.md)
+[PREVIOUS](datamining/classification/performance_of_a_classifier.md) [NEXT](datamining/classification/decision_tree_pruning.md)

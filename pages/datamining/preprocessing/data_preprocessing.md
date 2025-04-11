@@ -17,25 +17,23 @@ the process of combining 2 ore more attributes into a single one, this can be do
 - change of scale
 - more stable data
 
-## [SCALING](datamining/scaling.md)
+## [SCALING](datamining/preprocessing/scaling.md)
 
 
-## [SAMPLING](datamining/sampling.md)
+## [SAMPLING](datamining/preprocessing/sampling.md)
 
 the process of reducing the dataset dimensions making samples
-## [DIMENSIONALITY REDUCTION](datamining/dimensionality_reduction.md)
+
+## [DIMENSIONALITY REDUCTION](datamining/preprocessing/dimensionality_reduction.md)
 
 the process of reducing the number of features
 
-## [FEATURE SUBSET SELECTION](datamining/feature_subset_selection.md)
+## [FEATURE SUBSET SELECTION](datamining/preprocessing/feature_subset_selection.md)
 
 the process of selecting a subset of feature\
 
-## [FEATURE CREATION](datamining/feature_creation.md)
+## [FEATURE CREATION](datamining/preprocessing/feature_creation.md)
 
 the process of creating new features from existing data
 
-
-
-
- [NEXT](datamining/type_conversions.md)
+ [NEXT](datamining/preprocessing/type_conversions.md)

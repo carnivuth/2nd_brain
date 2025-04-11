@@ -23,6 +23,6 @@ index: 1
 
 ![](datamining/Pasted_image_20230928152914.png)
 
-this model can be explored interactively by the user through [OLAP](datamining/olap.md) queries
+this model can be explored interactively by the user through [OLAP](datamining/datamining_process/olap.md) queries
 
- [NEXT](datamining/olap.md)
+ [NEXT](datamining/datamining_process/olap.md)

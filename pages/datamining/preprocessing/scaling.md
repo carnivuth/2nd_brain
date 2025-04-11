@@ -7,9 +7,9 @@ index: 7
 
 # Scaling
 
-Task that makes data more omogeneous. It's used when there is a massive presence of outliers, which could affect too much the model during the training step.
+Task that makes data more homogeneous. It's used when there is a massive presence of outliers, which could affect too much the model during the training step.
 
-**Scalers** allow to scale values in such a way that these values have a more omogeneous distribution. The most famous one is the MinMaxScaler:
+**Scalers** allow to scale values in such a way that these values have a more homogeneous distribution. The most famous one is the `MinMaxScaler`:
 
 				`from sklearn.preprocessing import MinMaxScaler
 
@@ -31,4 +31,4 @@ USAGE:
 
 Now we have a scaled dataset!
 
-[PREVIOUS](dimensionality_reduction.md) [NEXT](datamining/sampling.md)
+[PREVIOUS](datamining/preprocessing/dimensionality_reduction.md) [NEXT](datamining/preprocessing/sampling.md)

@@ -70,7 +70,4 @@ in this phase the results of the process are put into production to gain profit 
 - Producing a final report on the project.
 - Reviewing the project and creating documentation on the experience gained.
 
-
-
-
-[PREVIOUS](datamining/conceptual_modeling.md)
+[PREVIOUS](datamining/datamining_process/conceptual_modeling.md)

@@ -20,6 +20,7 @@ where:
 $$
 ei = \sum_{leaf}{e}
 $$
+
 ## Before pruning
 
 ![](datamining/Pasted_image_20231230175754.png)
@@ -28,5 +29,4 @@ $$
 
 ![](datamining/Pasted_image_20231230175803.png)
 
-
-[PREVIOUS](decision_trees.md) [NEXT](datamining/regression.md)
+[PREVIOUS](datamining/classification/decision_trees.md) [NEXT](datamining/classification/regression.md)

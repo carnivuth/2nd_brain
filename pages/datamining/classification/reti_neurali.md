@@ -37,4 +37,4 @@ Sottrai la derivata per il parametro costante detto Learning Rate
 ![](datamining/Pasted_image_20231230150551.png)
 
 
-[PREVIOUS](datamining/svm.md)
+[PREVIOUS](datamining/classification/svm.md)

@@ -7,15 +7,13 @@ index: 1
 
 # Classification
 
-a procedure which computes an unknown parameter for a given element
+A procedure which computes an unknown parameter for a given element
 
 ## Classification model
 
-An algorithm which, given an individual for which the class is not known, computes the class. The algorithm make use of parameters for tuning
+An algorithm which, given an individual for which the class is not known, computes the class. The algorithm make use of parameters for tuning, the core of a classification model is the decision function.
 
-the core of a classification model is the decision function.
-
-- ### DECISION FUNCTION (the model)
+### Decision function (the model)
 
 	function that makes a prediction on the class element as
 
@@ -23,13 +21,13 @@ the core of a classification model is the decision function.
 	M(x,\theta) = y(x)pred
 	$$
 
-where $\theta$ is a **set of values for the parameters** of the decision function
+Where $\theta$ is a **set of values for the parameters** of the decision function
 
 ![](datamining/Pasted_image_20231227172912.png)
 
 ## Vapnik-chervonenkis dimension
 
-if a [classification model](#CLASSIFICATION_MODEL) is able to shatter all possible problems with N elements it's  Vapnik-Chervonenkis dimension is equal to $N$
+if a [classification model](#classification%20model) is able to shatter all possible problems with N elements it's  Vapnik-Chervonenkis dimension is equal to $N$
 
 ## Classification workflow
 
@@ -39,17 +37,9 @@ if a [classification model](#CLASSIFICATION_MODEL) is able to shatter all possib
 
 ![](datamining/Pasted_image_20231227174100.png)
 
-
 ## Classification types
 
-- ### CRISP
+-  **crisp** the classifier assigns to each individual one label
+- **probabilistic** the classifier assigns a probability for each of the possible labels
 
-	the classifier assigns to each individual one label
-
-- ### PROBABILISTIC
-
-	the classifier assigns a probability for each of the possible labels
-
-
-
- [NEXT](datamining/training_strategies.md)
+ [NEXT](datamining/classification/training_strategies.md)

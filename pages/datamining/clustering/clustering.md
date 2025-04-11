@@ -7,7 +7,7 @@ index: 1
 
 # Clustering
 
-Clustering manage the problem of arrange data in a series of $k$ cluster such as the intra-cluster [similarity](similarity_and_dissimilarity.md#similarity) is maximized.
+Clustering manage the problem of arrange data in a series of $k$ cluster such as the intra-cluster [similarity](datamining/preprocessing/similarity_and_dissimilarity.md#similarity) is maximized.
 
 So given a set of $N$ object with $D$ features the result of clustering is a **clustering scheme**, a function that maps each object in a $[1....k]$ clusters or to noise
 
@@ -27,7 +27,4 @@ $$
 	centroid_{d}^{k}= \frac{1}{x_{i}: clust(x_{i})=k}\sum_{x_{i}: clust(x_{i})=k}{x_{id}}
 $$
 
-
-
-
- [NEXT](datamining/clustering_scheme_evaluation.md)
+ [NEXT](datamining/clustering/clustering_scheme_evaluation.md)

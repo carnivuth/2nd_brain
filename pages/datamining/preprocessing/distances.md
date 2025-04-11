@@ -56,4 +56,4 @@ $$
 $$
 
 
-[PREVIOUS](similarity_and_dissimilarity.md) [NEXT](datamining/feature_subset_selection.md)
+[PREVIOUS](datamining/preprocessing/similarity_and_dissimilarity.md) [NEXT](datamining/preprocessing/feature_subset_selection.md)

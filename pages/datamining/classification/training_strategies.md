@@ -9,19 +9,18 @@ index: 2
 
 there are 2 main strategies for test
 
-- ### [HOLDOUT](#HOLDOUT)
+- ### [HOLDOUT](#holdout)
 
 	splitting data into training set and test set
 
-- ### [CROSS VALIDATION](#CROSS_VALIDATION)
+- ### [CROSS VALIDATION](#cross%20validation)
 
 	repeted tests with different splits
 
 ## Holdout
 
-this strategy splits the data in static groups, training and test with a test ratio parameter (typical value $2/1$ )
+this strategy splits the data in static groups, training and test with a test ratio parameter (typical value $2/1$ ), the split should be random and the proportion of classes between the data should be the same
 
- the split should be random and the proportion of classes between the data should be the same
 ### Pros
 
 - train validation loop is faster than the cross validation
@@ -30,8 +29,6 @@ this strategy splits the data in static groups, training and test with a test ra
 ### Cons
 
 - test is done with a portion of the samples
-
-
 
 ## Cross validation
 
@@ -50,4 +47,4 @@ the training set is partitioned in $k$ subsets, than the **model is trained with
 - train test loop repeated $k$ times
 
 
-[PREVIOUS](classification.md) [NEXT](datamining/performance_of_a_classifier.md)
+[PREVIOUS](datamining/classification/classification.md) [NEXT](datamining/classification/performance_of_a_classifier.md)

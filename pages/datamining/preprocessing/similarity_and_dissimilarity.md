@@ -9,11 +9,11 @@ index: 3
 
 ## Similarity
 
-numerical measure of how alike two data objects are, higher when objects are more alike ( range of $[0-1]$ )
+Numerical measure of how alike two data objects are, higher when objects are more alike ( range of $[0-1]$ )
 
 ## Dissimilarity
 
-numerical measure of how different two data objects are, lower when objects are more alike ( minimum value  $0$ upper bound varies )
+Numerical measure of how different two data objects are, lower when objects are more alike ( minimum value  $0$ upper bound varies )
 
 | ATTRIBUTE TYPE | DISSIMILARITY | SIMILARITY |
 | ---- | ---- | ---- |
@@ -21,17 +21,12 @@ numerical measure of how different two data objects are, lower when objects are 
 | ORDINAL | $$\frac{\|p-q\|}{V-1}$$ | $$1 - \frac{\|p-q\|}{V-1}$$ |
 | INTERVAL | $$\|p-q\|$$ | $$\frac{1}{1+d}$$ |
 
-
 ## Properties of similarity
 
 - $Sim(p, q) = 1 \iff p = q$
 - $Sim(p, q) = Sim(q, p)$
 
-
-
 ## Similarity between vectors
-
-
 
 ### Simple matching coefficient
 
@@ -62,5 +57,4 @@ $$
 \frac{p*q}{|p|^2*|q|^2-p*q}
 $$
 
-
-[PREVIOUS](type_conversions.md) [NEXT](datamining/distances.md)
+[PREVIOUS](datamining/preprocessing/type_conversions.md) [NEXT](datamining/preprocessing/distances.md)

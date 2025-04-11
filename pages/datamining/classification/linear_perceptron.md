@@ -5,8 +5,6 @@ tags: []
 index: 8
 ---
 
-
-
 Combinazione lineare di input pesati->rete combinatoria che in maniera ricorsiva modifica i pesi dati a ogni parametro dell'iperpiano fino a convergere al quello ottimo o ammissibile![](datamining/Pasted_image_20231230121407.png)
 
 Quindi dato un dataset con attributi numerici X e Y per classificarli in 2 classi li tracciamo come punti nel piano e cerchiamo di tracciare l'iperpiano che li divide
@@ -21,4 +19,4 @@ l'algoritmo di apprendimento:
 Ogni modifica dei pesi sposta il piano verso individui mal classificati, se l'algoritmo è classificato male e dovrebbe essere positivo aggiungo ai pesi del percettrone il valore dei suoi attributi se è negativo sottraggo.
 L'algoritmo termina solo de il dataset  è linearmente Separabile quindi è bene impostare un limite temporale ammettendo errori.
 
-[PREVIOUS](naive_bayes_classifier.md) [NEXT](datamining/svm.md)
+[PREVIOUS](datamining/classification/naive_bayes_classifier.md) [NEXT](datamining/classification/svm.md)

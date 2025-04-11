@@ -7,7 +7,7 @@ index: 3
 
 # K-means
 
-algorithm for finding the best clustering scheme
+Algorithm for finding the best clustering scheme
 
 ## Procedure
 
@@ -26,7 +26,7 @@ flowchart TD
 
 ## Distortion (*sum of square errors sse*)
 
-is the sum of all distances between an element $x_{i}$ of the dataset and it's encoded/decoded output squared
+Is the sum of all distances between an element $x_{i}$ of the dataset and it's encoded/decoded output squared
 
 $$
 \sum_{i=1}^{N}{(x_{i}-Decode(Encode(x_{i}))^2} \space with:
@@ -49,7 +49,7 @@ $$
 c_{j}= \frac{1}{|OwnedBy(c_{j})|}\sum_{i\in OwnedBy(c_{j})}{x_{i}}
 $$
 
-- each center must be the [centroid](clustering.md#centroid) of the points it owns
+- each center must be the [centroid](datamining/clustering/clustering.md#centroid) of the points it owns
 
 
 ## Choosing starting point
@@ -69,13 +69,14 @@ The best value to aim to is a compromise between the minimization of intra-clust
 
 during the clustering some clusters can become empty, so in this case there are 2 choices:
 
-- choose a new [centroid](clustering.md#centroid)  away from the empty one
-- choose a new [centroid](clustering.md#centroid) at random with the maximum **SSE** in order to split in half the cluster with the lowest quality
+- choose a new [centroid](datamining/clustering/clustering.md#centroid)  away from the empty one
+- choose a new [centroid](datamining/clustering/clustering.md#centroid) at random with the maximum **SSE** in order to split in half the cluster with the lowest quality
 
 
 ## Outliers
 
-there can be points far away from the  [centroid](clustering.md#centroid), this points are a bad influence for the [sse](#distortion_(*sum_of_square_errors_sse*)), in some cases this points need to be removed
+there can be points far away from the  [centroid](datamining/clustering/clustering.md#centroid), this points are a bad influence for the [sse](#distortion%20(*sum%20of%20square%20errors%20sse*)), in some cases this points need to be removed
+
 ## Complexity
 
 the complexity of the algorithm is :
@@ -97,11 +98,11 @@ $$
 
 ## Cons
 
-- k-means cannot work in space where [distance](datamining/distances.md) cannot be computed
+- k-means cannot work in space where [distance](datamining/preprocessing/distances.md) cannot be computed
 - cannot work with nominal data
 - requires the K parameter (it can be computed but it is a cost)
 - it is very sensitive to outliers
 - does not deal with noise
 - does not deal properly with non convex clusters
 
-[PREVIOUS](clustering_scheme_evaluation.md) [NEXT](datamining/hierarchical_clustering.md)
+[PREVIOUS](datamining/clustering/clustering_scheme_evaluation.md) [NEXT](datamining/clustering/hierarchical_clustering.md)
