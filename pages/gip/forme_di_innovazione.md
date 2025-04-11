@@ -1,6 +1,6 @@
 # Forme di innovazione
 
-## Definizione 
+## Definizione
 
 Innovazione è l’**implementazione di un nuovo o significativamente migliorato prodotto/processo, metodo di mercato, o un metodo di organizzazione nelle pratiche di business/organizzazione del luogo di lavoro/relazioni esterne**
 
