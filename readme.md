@@ -14,6 +14,18 @@ Personal [obsidian](https://obsidian.md/) vault for knowledge management and per
 
 The repository is also hosted as a [static website](https://carnivuth.github.io/2nd_brain) for browser usage
 
+## Contents
+
+- [computer graphics course notes](pages/computer_graphics/index.md)
+- [computer vision course notes](pages/computer_vision/index.md)
+- [datamining course notes](pages/datamining/index.md)
+- [artificial intelligence course notes](pages/fondamenti_intelligenza_artificiale/index.md)
+- [gip](pages/gip/index.md)
+- [linguaggi e modelli computazionali course notes](pages/linguaggi_modelli_computazionali/index.md)
+- [mobile systems course notes](pages/mobile_systems/index.md)
+- [sicurezza informazione course notes](pages/sicurezza_informazione/index.md)
+- [tecnologie basi dati course notes](pages/tecnologie_basi_dati/index.md)
+
 ## Advanced usage tips
 
 ### Runs code snippets
@@ -59,3 +71,4 @@ pip install -r requirements.txt
 - [kuri0317](https://github.com/kuri0317)
 - [claudiacitera](https://github.com/claudiacitera)
 - [Lombax99](https://github.com/Lombax99)
+
