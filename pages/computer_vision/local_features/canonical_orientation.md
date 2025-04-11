@@ -11,7 +11,7 @@ In order to obtain a reference frame for computing the descriptor of a keypoint 
 
 ![](computer_vision/Pasted_image_20240314123223.png)
 
-## [DOG](computer_vision/dog_detector.md) CANONICAL ORIENTATION
+## [DOG](computer_vision/local_features/dog_detector.md) canonical orientation
 
 Given a keypoint the orientation $\theta$ and magnitude $m$ is given by
 

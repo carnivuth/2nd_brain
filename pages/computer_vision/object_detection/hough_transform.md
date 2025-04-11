@@ -44,7 +44,7 @@ In the case of **image points that are in the same line** the projections in the
 
 So the problem of finding a line in the image can be translated in **finding the intersection of lines in the parameter space**
 
-So given an analytic description of a shape the HT maps the image point (usually edge points ) so to create curves in the parameter space. **The intersection in the parameter space means that there is an instance of the shape in the image**
+So given an analytic description of a shape the HT maps the image point (*usually edge points*) so to create curves in the parameter space. **The intersection in the parameter space means that there is an instance of the shape in the image**
 
 So the problem become **finding parameter space points in which many curves intersects**
 
@@ -54,6 +54,6 @@ The implementation relies on a discrete representation of the parameter space as
 
 ![](computer_vision/Pasted_image_20240427162503.png)
 
-In order to compute non analytical shapes the [GENERALIZED HUGH TRANSFORM](computer_vision/generalized_hugh_transform.md) is deployed
+In order to compute non analytical shapes the [GENERALIZED HUGH TRANSFORM](computer_vision/object_detection/generalized_hugh_transform.md) is deployed
 
 [PREVIOUS](computer_vision/object_detection/shape_based_matching.md) [NEXT](computer_vision/object_detection/generalized_hugh_transform.md)

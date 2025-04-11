@@ -7,7 +7,7 @@ index: 9
 
 # Perspective projection matrix ($ppm$)
 
-The $PPM$ it's the linear representation of the [perspective projection](perspective_projection.md) in a [perspective space](computer_vision/perspective_space.md)
+The $PPM$ it's the linear representation of the [perspective projection](computer_vision/image_formation_acquisition/perspective_projection.md) in a [perspective space](computer_vision/image_formation_acquisition/perspective_space.md)
 
 Let's take the relation between points of the 3D world and the 2D image representation:
 
@@ -79,9 +79,9 @@ $$
 
 ## Adjusting the $ppm$ model
 
-In this form the $PPM$ does not take into account the space relation between the image plane and the 3D world (*rotation and translation*), also [digitizaiton](computer_vision/image_digitization.md) effects are not considered.
+In this form the $PPM$ does not take into account the space relation between the image plane and the 3D world (*rotation and translation*), also [digitizaiton](computer_vision/image_formation_acquisition/image_digitization.md) effects are not considered.
 
-### Accounting for [digitization](computer_vision/image_digitization.md)
+### Accounting for [digitization](computer_vision/image_formation_acquisition/image_digitization.md)
 
 In order to account for digitization the image coordinates are scaled by the pixel dimensions
 

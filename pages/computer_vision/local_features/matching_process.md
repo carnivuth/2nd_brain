@@ -13,7 +13,7 @@ In this phase keypoint descriptor are compared in order to find correspondences,
 
 *Given a set $S$ of points $p_i$ in a metric space $M$ and a query point $q \in M$, find the $p_i$ closest to $q$*
 
-So in this iteration of the problem the keypoints  computed on a target image $T$ are the query point and the $S$ set of point is given by the keypoint learned from a set of training images, the metric space $M$ is the space of the [sift descriptor](computer_vision/sift_descriptor.md) with a distance metric (usually euclidean distance)
+So in this iteration of the problem the keypoints  computed on a target image $T$ are the query point and the $S$ set of point is given by the keypoint learned from a set of training images, the metric space $M$ is the space of the [sift descriptor](computer_vision/local_features/sift_descriptor.md) with a distance metric (usually euclidean distance)
 
 Is not guaranteed that the $NN$ is found due to occlusion of the image or exposure changes so a criteria for detecting correct correspondences must be set:
 

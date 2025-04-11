@@ -30,7 +30,7 @@ This set of equation is not bidirectional as we are representing a 3D world with
 - parallelism between line (*unless they are paralel to the image plane*)
 - depth of a point
 
-In order to recover the depth information [stereo image acquisition](computer_vision/image_formation_aquisition/stereo_image_acquisition.md) can be used
+In order to recover the depth information [stereo image acquisition](computer_vision/image_formation_acquisition/stereo_image_acquisition.md) can be used
 
 ## Vanishing points
 

@@ -7,7 +7,7 @@ index: 52
 
 # Vgg
 
-[CNN](computer_vision/convolutional_neural_networks.md) that won the second place of [ILSVRC 2014](https://www.image-net.org/challenges/LSVRC/2014/), it explores the benefits of deep and regular architectures based on a few simple design choices:
+[CNN](computer_vision/machine_learning_cv/convolutional_neural_networks.md) that won the second place of [ILSVRC 2014](https://www.image-net.org/challenges/LSVRC/2014/), it explores the benefits of deep and regular architectures based on a few simple design choices:
 
 - $3\times 3$ conv layers with $S=1, P=1$
 
@@ -23,9 +23,9 @@ A stage has the same receptive field as a single larger convolution but, given t
 
 | HYPERPARAMETER                                      | VALUE                                                                                                                                                                                                                                                                                                                     |
 | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Optimizer,Learning rate,weight decay, normalization | same as [ALEXNET](computer_vision/alexnet.md) but with $B=128$                                                                                                                                                                                                                                                                            |
+| Optimizer,Learning rate,weight decay, normalization | same as [ALEXNET](computer_vision/machine_learning_cv/alexnet.md) but with $B=128$                                                                                                                                                                                                                                                                            |
 | Epochs                                              | $74$                                                                                                                                                                                                                                                                                                                      |
-| Data Augmentation                                   | Same as [ALEXNET](computer_vision/alexnet.md) plus Scale Jittering (randomly rescale the input image to $S\times S$, with $S$ in $[256, 512]$                                                                                                                                                                                             |
+| Data Augmentation                                   | Same as [ALEXNET](computer_vision/machine_learning_cv/alexnet.md) plus Scale Jittering (randomly rescale the input image to $S\times S$, with $S$ in $[256, 512]$                                                                                                                                                                                             |
 | Initialization                                      | Deep nets are hard to train with randomly initialized weights due to instability of gradients. They train a VGG-11 with Weights $~N(0,0.01), Biases=0$. Then train VGG-16 and VGG-19 by initializing the first 4 conv layers and the last 3 FC layers with the pre-trained weights of the corresponding layers of VGG-11. |
 
 [PREVIOUS](computer_vision/machine_learning_cv/alexnet.md) [NEXT](computer_vision/machine_learning_cv/resnet.md)
