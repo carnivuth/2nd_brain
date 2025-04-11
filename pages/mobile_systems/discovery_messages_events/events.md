@@ -9,13 +9,13 @@ index: 64
 
 Events can be defined as temporary constrained massages that needs to be processed as quickly as possible
 
-## Events vs [messages](mobile_systems/messaging.md)
+## Events vs [messages](mobile_systems/discovery_messages_events/messaging.md)
 
 In a mobile environment events and messages show the same characteristics and can be handled by similar systems
 
-Follow this idea events can be seen as messages with some content in a [pub/sub](mobile_systems/pub_sub_model.md) model where publisher are the nodes where the event is generated and subscribers are the nodes that are interested to the specific event
+Follow this idea events can be seen as messages with some content in a [pub/sub](mobile_systems/iot/pub_sub_model.md) model where publisher are the nodes where the event is generated and subscribers are the nodes that are interested to the specific event
 
-All consideration for [messages](mobile_systems/messaging.md) are valid also for events, some specific events question can be:
+All consideration for [messages](mobile_systems/discovery_messages_events/messaging.md) are valid also for events, some specific events question can be:
 
 - **Anonymous communication**
 - **Possibility to use filters** (on headers or entire messages)
@@ -23,7 +23,7 @@ All consideration for [messages](mobile_systems/messaging.md) are valid also for
 -  **non-blocking operations** (polling, callback)
 ## General architecture of a event system
 
-An event system is based on a central [pub/sub service](mobile_systems/pub_sub_model.md) to achieve decoupling of the publisher and subscribers
+An event system is based on a central [pub/sub service](mobile_systems/iot/pub_sub_model.md) to achieve decoupling of the publisher and subscribers
 
 ```mermaid
 flowchart LR
@@ -50,14 +50,14 @@ E --subscribe request response--> pub_sub_service
 
 ## Event router
 
-Entity that implements the [pub/sub service](mobile_systems/pub_sub_model.md), the router achieves decoupling, implement filters trough the use of routing tables and other QoS functionalities (*delivery with deadlines,fault-tollerance,ordering* )
+Entity that implements the [pub/sub service](mobile_systems/iot/pub_sub_model.md), the router achieves decoupling, implement filters trough the use of routing tables and other QoS functionalities (*delivery with deadlines,fault-tollerance,ordering* )
 
 Possible topologies can be:
 
 - centralized
 - hierarchical
 - cyclic acyclic
-- based on [rendezvous points](design%20pattern%20and%20architectures.md#rendezvous)
+- based on [rendezvous points](mobile_systems/design%20pattern%20and%20architectures.md#rendezvous)
 
 ## Routing policies
 

@@ -7,7 +7,7 @@ index: 44
 
 # Sockets and networking in android
 
-the java solution for sockets are available in android (*e.g. `Socket` `ServerSocket`*), they require a [multi-thread solution](mobile_systems/asynchronous_techniques.md), and explicit permission in the manifest file
+the java solution for sockets are available in android (*e.g. `Socket` `ServerSocket`*), they require a [multi-thread solution](mobile_systems/android/asynchronous_techniques.md), and explicit permission in the manifest file
 
 ## Managing network state
 

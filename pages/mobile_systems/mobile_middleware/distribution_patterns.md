@@ -25,10 +25,12 @@ mobile_device --addresses--> remote_facade
 remote_facade <--complex interactions--> map_web_services
 remote_facade --directions--> mobile_device
 ```
+
 ### Pros
+
 - decoupling between Client and Server
--  no disconnection problems due to asynchronous request/response model
--  server communication details are transparent to the mobile device
+- no disconnection problems due to asynchronous request/response model
+- server communication details are transparent to the mobile device
 
 ## Data transfer object (dto)
 
@@ -67,13 +69,9 @@ C & B --register--> A
 end
 ```
 
-### Pros
-
-- decoupling between subject and observer
-- one to many communication support by design
-
-### Cons
-
-- not to much scalable since a single node as the responsibility for communication
+|PROS|CONS|
+|----|----|
+|decoupling between subject and observer|not to much scalable since a single node as the responsibility for communication|
+|one to many communication support by design||
 
 [PREVIOUS](mobile_systems/mobile_middleware/patterns.md) [NEXT](mobile_systems/mobile_middleware/resource_management_patterns.md)

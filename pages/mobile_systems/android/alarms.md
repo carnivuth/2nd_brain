@@ -11,7 +11,7 @@ Alarms are task that can be scheduled at a given time, they fires intents, it ca
 
 - Device does not have to be awake
 - Does not use resources until it goes off
-- Use with [broadcast receiver](activity.md#broadcast%20receiver) to start services and other operations
+- Use with [broadcast receiver](mobile_systems/android/activity.md#broadcast%20receiver) to start services and other operations
 
 ## Alarm types
 
