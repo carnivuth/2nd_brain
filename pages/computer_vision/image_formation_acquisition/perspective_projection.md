@@ -1,7 +1,7 @@
 ---
 id: PERSPECTIVE_PROJECTION
-aliases: 
-tags: 
+aliases:
+tags:
 index: 1
 ---
 
@@ -30,7 +30,7 @@ This set of equation is not bidirectional as we are representing a 3D world with
 - parallelism between line (*unless they are paralel to the image plane*)
 - depth of a point
 
-In order to recover the depth information [stereo image acquisition](computer_vision/stereo_image_acquisition.md) can be used
+In order to recover the depth information [stereo image acquisition](computer_vision/image_formation_aquisition/stereo_image_acquisition.md) can be used
 
 ## Vanishing points
 
@@ -41,6 +41,6 @@ of the point on the line which is infinitely distant from the optical center).
 
 with such definition all 3D lines in the image will **share the same vanishing point**
 
-in a real case application this model alone it's not sufficient, there are [real camera parameters](CAMERA_PARAMETERS.md) and  [lens effects](LENS.md) to take into account. In order to apply some computation to an image [digitization](computer_vision/image_digitization.md) is also needed.
+in a real case application this model alone it's not sufficient, there are [real camera parameters](computer_vision/image_formation_acquistion/camera_parameters.md) and  [lens effects](computer_vision/image_formation_acquistion/lens.md) to take into account. In order to apply some computation to an image [digitization](computer_vision/image_formation_acquistion/image_digitization.md) is also needed.
 
  [NEXT](computer_vision/image_formation_acquisition/camera_parameters.md)

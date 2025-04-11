@@ -17,8 +17,4 @@ The concept is that cluster are high density regions separated by low density re
 
 	define a radius and attach the number of object inside that radius one example is [dbscan](datamining/dbscan.md)
 
-
-
-
-
-[PREVIOUS](model_based_clustering.md) [NEXT](datamining/dbscan.md)
+[PREVIOUS](datamining/clustering/model_based_clustering.md) [NEXT](datamining/clustering/dbscan.md)

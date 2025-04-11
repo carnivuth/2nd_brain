@@ -1,17 +1,17 @@
 ---
 id: IMAGE_FILTERS
-aliases: 
-tags: 
+aliases:
+tags:
 index: 15
 ---
 # Image filters
 
-Image filters are operators that given a 2D input image calculate the new intensity of a pixel based on considerations on the neighborhood, an important class of filters are the [linear and translation equivariant](computer_vision/lte_operators.md) filters. 
+Image filters are operators that given a 2D input image calculate the new intensity of a pixel based on considerations on the neighborhood, an important class of filters are the **linear and translation equivariant filters**.
 
 ![](computer_vision/Pasted%20image%2020241011100211.png)
 
- [LTE filters](LTE_OPERATORS.md) are olso used in [CNN](computer_vision/convolutional_neural_networks.md) as feature extractors
- 
+ LTE filters are also used in [CNN](computer_vision/machine_learning_cv/convolutional_neural_networks.md) as feature extractors
+
 ## Linear and translation equivariant filters
 
 ### Linearity

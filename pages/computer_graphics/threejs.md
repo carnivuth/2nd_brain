@@ -1,7 +1,7 @@
 ---
 id: THREEJS
 tags: []
-aliases: 
+aliases:
 index: 15
 ---
 
@@ -32,7 +32,7 @@ G & H --> F --> E
 
 L'oggetto fondamentale e la `scene`, che contiene tutti gli elementi renderizzati dalla pipeline, nonché le **informazioni di illuminazione e posizione della camera** negli oggetti `light` e `camera`
 
-l'oggetto `mesh` rappresenta la singola [mesh 3D poligonale](computer_graphics/mesh_poligonali.md), di cui viene definita la geometria e le informazioni di colore e texture, nella scena possono essere presenti $n$ mesh 3D
+L'oggetto `mesh` rappresenta la singola [mesh 3D poligonale](computer_graphics/mesh_poligonali.md), di cui viene definita la geometria e le informazioni di colore e texture, nella scena possono essere presenti $n$ mesh 3D
 
 ## Animation loop
 
@@ -46,7 +46,7 @@ function animate() {
 // logica di aggiornamento della scena
 }
 
-// setta la funzione di cui sopra per l'esecuzione in base al refresh rate dello schermo 
+// setta la funzione di cui sopra per l'esecuzione in base al refresh rate dello schermo
 renderer.setAnimationLoop( animate );
 ```
 
@@ -54,11 +54,11 @@ Questo limita la capacita di ricezione degli input da parte dell'utente alla fre
 
 ## Manipolare la camera
 
-Per consentire la renderizzazione della scena e necessario definire un'oggetto `Camera` che definisce i parametri di proiezione (*sono disponibili diverse tipologie, prospettiva in primis per simulare la vista umana*) 
+Per consentire la renderizzazione della scena e necessario definire un'oggetto `Camera` che definisce i parametri di proiezione (*sono disponibili diverse tipologie, prospettiva in primis per simulare la vista umana*)
 
 ```javascript
 // si definisce una proiezione in prospettiva in questo caso
-const camera = new THREE.PerspectiveCamera( 
+const camera = new THREE.PerspectiveCamera(
 	75, // fov
 	window.innerWidth / window.innerHeight, // aspect ratio
 	0.1, // near

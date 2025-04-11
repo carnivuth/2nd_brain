@@ -1,13 +1,13 @@
 ---
 id: HTML5
 tags: ["canvas","webgl context"]
-aliases: 
+aliases:
 index: 11
 ---
 
-# Html5 funzioni grafiche 
+# Html5 funzioni grafiche
 
-HTML5 introdi estende e migliora le versioni HTML precedenti e introduce delle API (Application Programming Interface) per applicazioni
+HTML5 estende e migliora le versioni HTML precedenti e introduce delle API (Application Programming Interface) per applicazioni
 WEB complesse.
 
 >Un documento HTML5
@@ -79,7 +79,7 @@ La dimensione dell'elemento canvas non e la stessa della dimensione dell'area di
 	</style>
 </head>
 <body>
-	<!--in questo caso il canvas e grande 600x300 
+	<!--in questo caso il canvas e grande 600x300
 	mentre l'area di disegno 300x150-->
 	<canvas id='canvas' width='300' height='150'>
 	Canvas not supported

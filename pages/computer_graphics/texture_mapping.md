@@ -1,7 +1,7 @@
 ---
 id: TEXTURE_MAPPING
 tags: []
-aliases: 
+aliases:
 index: 8
 ---
 
@@ -31,9 +31,9 @@ $$
 
 ![](computer_graphics/Pasted%20image%2020250102151554.png)
 
-### Implementazione in contesto [z-buffer](real_time_rendering.md#algoritmo%20z-buffer)
+### Implementazione in contesto [z-buffer](computer_graphics/real_time_rendering.md#algoritmo%20z-buffer)
 
-L'algoritmo [z-buffer](real_time_rendering.md#algoritmo%20z-buffer) implica una computazione pixel per pixel, per implementare il texture mapping in questo contesto si applica la trasformazione inversa per ottenere un immagine del pixel (*detto **texel***), nello spazio texture
+L'algoritmo [z-buffer](computer_graphics/real_time_rendering.md#algoritmo%20z-buffer) implica una computazione pixel per pixel, per implementare il texture mapping in questo contesto si applica la trasformazione inversa per ottenere un immagine del pixel (*detto **texel***), nello spazio texture
 
 ## Gestire l'aliasing
 
@@ -62,7 +62,7 @@ In fase di applicazione della texture si trova il livello a cui il rapporto tra 
 
 ![](computer_graphics/Pasted%20image%2020250102153322.png)
 
-## Texture mapping con two part mapping 
+## Texture mapping con two part mapping
 
 Questo procedimento si basa su portare l'immagine in uno spazio 3D intermedio prima di attuare il mapping sul modello
 
@@ -79,7 +79,7 @@ Questa pratica consente di simulare meglio  i materiali, tuttavia e molto esosa 
 
 ### Texture procedurali
 
-Il [solid texturing](#SOLID%20TEXTURING) trova il suo miglior impiego nella generazione di texture procedurali   
+Il [solid texturing](#SOLID%20TEXTURING) trova il suo miglior impiego nella generazione di texture procedurali
 
 ![](computer_graphics/Pasted%20image%2020250102155433.png)
 

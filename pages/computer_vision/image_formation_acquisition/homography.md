@@ -34,7 +34,7 @@ y\\
 \end{bmatrix}= H\overset{\sim}M
 $$
 
-this is exploited in camera callibration with the [zhang's method](computer_vision/zhang_method.md).
+this is exploited in camera callibration with the [zhang's method](computer_vision/image_formation_acquisition/zhang_method.md).
 
 ## Properties
 
