@@ -19,9 +19,9 @@ Platforms for interaction with IoT environment, The main objectives are:
 
 Several solution from different vendors are available, some of them allow edge computation on gateway nodes some other are opensource and can interact with different cloud providers, the most noticeable ones are:
 
--  [SIEMENS MINDSPHERE](mobile_systems/siemens_mindsphere.md) cloud based no edge capabilities
-- [AZURE IOT PLATFORM](mobile_systems/azure_iot_platform.md) cloud based edge capabilities
--  [EDGEX IOT PLATFORM](mobile_systems/edgex_iot_platform.md) no cloud based, edge capabilities
-- [AWS IOT PLATFORM](mobile_systems/aws_iot_platform.md) cloud based no edge capabilities
+-  [SIEMENS MINDSPHERE](mobile_systems/iot/siemens_mindsphere.md) cloud based no edge capabilities
+- [AZURE IOT PLATFORM](mobile_systems/iot/azure_iot_platform.md) cloud based edge capabilities
+-  [EDGEX IOT PLATFORM](mobile_systems/iot/edgex_iot_platform.md) no cloud based, edge capabilities
+- [AWS IOT PLATFORM](mobile_systems/iot/aws_iot_platform.md) cloud based no edge capabilities
 
 [PREVIOUS](mobile_systems/iot/scada.md) [NEXT](mobile_systems/iot/aws_iot_platform.md)

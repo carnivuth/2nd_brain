@@ -27,7 +27,7 @@ E((internet))
 A & B -->  E
 ```
 
-- **AD HOC MODE** all nodes are potentially mobile and communicate directly, en example of ad hoc network are [manets](MANETS.canvas)
+- **AD HOC MODE** all nodes are potentially mobile and communicate directly, en example of ad hoc network are [manets](mobile_systems/manets/manets.md)
 
 ```mermaid
 flowchart LR

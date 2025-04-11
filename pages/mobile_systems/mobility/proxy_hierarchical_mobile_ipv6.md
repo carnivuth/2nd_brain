@@ -7,7 +7,7 @@ index: 30
 
 # Proxy hierarchical mobile ipv6
 
-One of the principal problems of [HMIP](mobile_systems/proxy_hierarchical_mobile_ipv6.md)  is that is not transparent to mobile nodes that need to implement it in the kernel space that is hard to push updates, PHMIP resolves this problem, it's meant to be used on limited networks where signals for handoff procedures have minimal costs
+One of the principal problems of [HMIP](mobile_systems/mobility/proxy_hierarchical_mobile_ipv6.md)  is that is not transparent to mobile nodes that need to implement it in the kernel space that is hard to push updates, PHMIP resolves this problem, it's meant to be used on limited networks where signals for handoff procedures have minimal costs
 
 The main components of PHMIP are:
 

@@ -8,7 +8,7 @@ index: 55
 # Pub/sub protocols
 ## Message queue telemetry transport (mqtt)
 
-protocol that implements the [pub/sub model](mobile_systems/pub_sub_model.md) that relies on TCP to handle connections, that supports different delivery semantics for messages:
+protocol that implements the [pub/sub model](mobile_systems/iot/pub_sub_model.md) that relies on TCP to handle connections, that supports different delivery semantics for messages:
 
 - at least ones
 - at most ones
@@ -18,7 +18,7 @@ clients can also setup wills that are messages that are delivered to nodes when 
 
 ## Advanced message queuing protocol (amqp)
 
-protocol based on the [pub/sub model](mobile_systems/pub_sub_model.md), richer semantics than MQTT but also heavier
+protocol based on the [pub/sub model](mobile_systems/iot/pub_sub_model.md), richer semantics than MQTT but also heavier
 
 ## Data distribution service (dds)
 

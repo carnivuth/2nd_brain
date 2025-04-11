@@ -78,7 +78,7 @@ Filters can be implemented at different levels:
 
 ## Java events
 
-Java implements a solution for event based distribution based on RMI (*e.g. [apache river (jini)](service_discovery.md#apache%20river%20(jini))*) where a remote event listener notifies registered consumers with a remote object:
+Java implements a solution for event based distribution based on RMI (*e.g. [apache river (jini)](mobile_systems/discovery_messages_events/service_discovery.md#apache%20river%20(jini))*) where a remote event listener notifies registered consumers with a remote object:
 
 ```java
 package net.jini.core.event;
@@ -95,7 +95,7 @@ there is also a lease mechanism and the possibility to define adapters to implem
 ## Omg distributed data service (dds)
 
 OMG specification  for data distribution service designed for real-time systems.
-The system is designed for [pub/sub](mobile_systems/pub_sub_model.md) oriented communications where the data space is accessed trough a middleware that offers general API. Content filtering and QoS negotiation are supported
+The system is designed for [pub/sub](mobile_systems/iot/pub_sub_model.md) oriented communications where the data space is accessed trough a middleware that offers general API. Content filtering and QoS negotiation are supported
 
 ### Partitions
 
@@ -121,7 +121,7 @@ Three possible specification for message storing
 
 ## General event notification architecture (gena)
 
-Primary used solution in [UPnP](service_discovery.md#universal%20plug%20and%20play%20(upnp)), for event notification, control nodes subscribe to events trough a SOAP http request and receive unicast notification
+Primary used solution in [UPnP](mobile_systems/discovery_messages_events/service_discovery.md#universal%20plug%20and%20play%20(upnp)), for event notification, control nodes subscribe to events trough a SOAP http request and receive unicast notification
 
 ```xml
 NOTIFY delivery path HTTP/1.1

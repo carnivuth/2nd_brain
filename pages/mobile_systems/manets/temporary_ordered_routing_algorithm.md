@@ -12,7 +12,7 @@ TORA is designed to work in highly dynamic environment with a lot of mobility, o
 The basic function of TORA are
 
 - **route maintenance** is done through the link reversal algorithm that limits the node involved to a local area around the fault
-- **route creation** in this phase a direct acyclic graph is created from the source to the destination, this graph is created exploiting [flooding](manets_routing.md#flooding%20(level%200%20solution))
+- **route creation** in this phase a direct acyclic graph is created from the source to the destination, this graph is created exploiting [flooding](mobile_systems/manets/manets_routing.md#flooding%20(level%200%20solution))
 - **route erasure** a packet is routed in order to invalid routes
 
 TORA maintains a local DAG for each node of the network, nodes are labeled with a height metric that is dependent on the logical time of the node

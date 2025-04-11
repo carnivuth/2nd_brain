@@ -8,7 +8,7 @@ index: 19
 # Manet positioning systems
 ## Assumption based coordinates (abc)
 
-ABC is a positioning system for a [manet](mobile_systems/manets.md) environment, it relies on the concept of **anchor node**.
+ABC is a positioning system for a [manet](mobile_systems/manets/manets.md) environment, it relies on the concept of **anchor node**.
 Each anchor node compute the relative distance between himself and the one-hop nodes around him and maintains an internal map
 
 ## Triangulation via extended range and redundant association of intermediate nodes (terrain)

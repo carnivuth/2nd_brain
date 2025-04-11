@@ -7,7 +7,7 @@ index: 31
 
 #  I-TCP
 
-[MIP](MOBILE_IP.md) [HMIPV6](HIERARCHICAL_MOBILE_IPV6.md) [PHMIPV6](mobile_systems/proxy_hierarchical_mobile_ipv6.md)  does not take in to account the problems that occurs at the transport layer as for the **TCP protocol every disconnection and reconnection is treated as a high congestion situation**, so TCP slows traffic to resolve the congestion
+[MIP](mobile_systems/mobility/mobile_ip.md) [HMIPV6](mobile_systems/mobility/hierarchical_mobile_ipv6.md) [PHMIPV6](mobile_systems/mobility/proxy_hierarchical_mobile_ipv6.md)  does not take in to account the problems that occurs at the transport layer as for the **TCP protocol every disconnection and reconnection is treated as a high congestion situation**, so TCP slows traffic to resolve the congestion
 
 The idea in I-TCP is to split the connection exploiting a middle node
 
@@ -22,7 +22,7 @@ A --I-TCP--> B --I-TCP--> C
 
 ## Handoff
 
-The handoff procedure is dependent on the [mobile ip **one**](mobile_systems/mobile_ip.md), when a mobile node register is CoA at the home agent, I-TCP handoff starts and in the meantime packets are buffered at the middle node
+The handoff procedure is dependent on the [mobile ip **one**](mobile_systems/mobility/mobile_ip.md), when a mobile node register is CoA at the home agent, I-TCP handoff starts and in the meantime packets are buffered at the middle node
 
 ## Advantages
 

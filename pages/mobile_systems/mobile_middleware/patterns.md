@@ -12,48 +12,39 @@ Mobile environment can exploit several patterns for different tasks typologies
 ## Architectural patterns
 
 inherited from non mobile environments, patterns for application's architectures that describes how component should interact
+
 ### Level-based
 
 Multi-layer sw architecture with different responsibilities “rigidly” allocated to different layers
+
 ### Client-server
 
 Most frequent pattern in distributed computing: clients use resources and services offered by server
+
 ### Peer-to-peer
 
 Any node can dynamically play the role of either client or server; functionality could be more or less symmetric
+
 ### Pipeline
 
 Pipeline as chain of processing elements aligned in such a way that output of one is offered as input for the successive one in the chain
+
 ### Multi-tier
 
 Client-server architecture where applications are run by a multiplicity of different software agents
+
 ### Blackboard
 
 A common knowledge base (blackboard) is updated iteratively by different knowledge sources, starting from including problem specification and then evolving to solution results
+
 ### Publish/subscribe
 
 Different nodes publish data to a broker that can be received from different nodes acting as subscribers
 
-other types of patterns specific for mobile nodes are
+Other types of patterns specific for mobile nodes are
+
 - [COMMUNICATION_PATTERNS](mobile_systems/communication_patterns.md)
 - [RESOURCE_MANAGEMENT_PATTERNS](mobile_systems/resource_management_patterns.md)
 - [DISTRIBUTION_PATTERNS](mobile_systems/distribution_patterns.md)
-Tre categorie principali:
-- per la **distribuzione**
-	- [RemoteFacade](mobile_systems/remotefacade.md)
-	- [DataTransferObj](mobile_systems/datatransferobj.md)
-	- [remoteProxy](mobile_systems/remoteproxy.md)
-	- [observer](mobile_systems/observer.md)
-- per la **gestione delle risorse** e la **sincronizzazione**
-	- [session token](mobile_systems/sesstok.md)
-	- [caching](mobile_systems/caching.md)
-	- [eager](mobile_systems/eager.md) acquisition
-	- [lazy](mobile_systems/lazy.md) acquisition
-	- [synchronization](mobile_systems/synch.md)
-	- [rendezvous & state transfer](mobile_systems/statetransfer.md)
-- per la **comunicazione**
-	- [connection factory](mobile_systems/connfact.md)
-	- [multiplexed connection](mobile_systems/multiplexedconn.md)
-	- [client-initiated connection for push model](mobile_systems/clientinit.md)
 
 [PREVIOUS](mobile_systems/mobile_middleware/mobile_middleware_principles.md) [NEXT](mobile_systems/mobile_middleware/distribution_patterns.md)
