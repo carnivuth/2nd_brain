@@ -41,6 +41,6 @@ of the point on the line which is infinitely distant from the optical center).
 
 with such definition all 3D lines in the image will **share the same vanishing point**
 
-in a real case application this model alone it's not sufficient, there are [real camera parameters](computer_vision/image_formation_acquistion/camera_parameters.md) and  [lens effects](computer_vision/image_formation_acquistion/lens.md) to take into account. In order to apply some computation to an image [digitization](computer_vision/image_formation_acquistion/image_digitization.md) is also needed.
+in a real case application this model alone it's not sufficient, there are [real camera parameters](computer_vision/image_formation_acquisition/camera_parameters.md) and  [lens effects](computer_vision/image_formation_acquisition/lens.md) to take into account. In order to apply some computation to an image [digitization](computer_vision/image_formation_acquisition/image_digitization.md) is also needed.
 
  [NEXT](computer_vision/image_formation_acquisition/camera_parameters.md)

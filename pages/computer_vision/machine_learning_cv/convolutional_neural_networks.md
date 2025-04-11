@@ -107,7 +107,7 @@ $$
 
 ## The problem with increasing depth
 
-Intuitively increasing depth should take better results at the price of computation cost but as shown by [VGG](computer_vision/vgg.md) in real testing this is not the case
+Intuitively increasing depth should take better results at the price of computation cost but as shown by [VGG](computer_vision/machine_learning_cv/vgg.md) in real testing this is not the case
 
 ![](computer_vision/Pasted_image_20240504181754.png)
 
@@ -167,6 +167,7 @@ classDef hidden display: none;
 ```
 
 The first convolution step is realized as a [GROUPED CONVOLUTIONS](#GROUPED%20CONVOLUTIONS)
+
 ## Transfer learning
 
 To prevent overfitting, training of a deep neural network requires too big datasets that in a lot of deployment scenarios are expensive.

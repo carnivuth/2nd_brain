@@ -38,11 +38,11 @@ end
 
 ## Ght with local invariant features
 
-The most popular computer vision pipeline relies on combining GHT with local invariant features such as the [SIFT DESCRIPTOR](computer_vision/local_features/sift_descriptor.md). In this pipeline Local invariant features are used instead of edges.
+The most popular computer vision pipeline relies on combining GHT with local invariant features such as the [sift descriptor](computer_vision/local_features/sift_descriptor.md). In this pipeline Local invariant features are used instead of edges.
 
 ### Ght: offline phase
 
-Detect keypoints (e.g. [DOG](computer_vision/object_detection/DOG_DETECTOR.md)) and compute descriptors (e.g. [SIFT](computer_vision/local_features/sift_descriptor.md)) in the model image:
+Detect keypoints (e.g. [DOG](computer_vision/local_features/dog_detector.md)) and compute descriptors (e.g. [SIFT](computer_vision/local_features/sift_descriptor.md)) in the model image:
 
 $$
 F = \{F_1,F_2,...,F_n\}
