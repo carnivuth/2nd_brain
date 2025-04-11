@@ -1,7 +1,7 @@
 ---
 id: ILLUMINAZIONE
 tags: ["modello di phong","componente ambientale","componente diffusa","componente speculare"]
-aliases: 
+aliases:
 index: 7
 ---
 
@@ -56,13 +56,13 @@ Questa componente approssima il comportamento di riflessione della luce dei mate
 
 ![](computer_graphics/Pasted%20image%2020241217173503.png)
 
-Questa componente dipende anche dalla posizione dell'osservatore 
+Questa componente dipende anche dalla posizione dell'osservatore
 
 $$
 I_r = k_sI_l (\cos(\alpha))^n
 $$
 
-dove gli scalari $n,k_s$ sono dipendenti dal materiale dell'oggetto
+Dove gli scalari $n,k_s$ sono dipendenti dal materiale dell'oggetto
 
 ## Computazione della luce
 
@@ -70,7 +70,7 @@ Nella pipeline di rendering e necessario includere un algoritmo in grado di comp
 
 ### Flat shading
 
-dato un poligono, si computa la normale per ogni faccia e si applica il modello di illuminazione al centro della faccia 
+Dato un poligono, si computa la normale per ogni faccia e si applica il modello di illuminazione al centro della faccia
 
 ![](computer_graphics/Pasted%20image%2020241217181314.png)
 
@@ -91,7 +91,7 @@ B -- per ogni poligiono --> A
 
 >[!NOTE] in questo caso la normale e definita a livello di vertice come somma delle normali delle superfici adiacenti
 
-qui un esempio di  [implementazione in webGL](webgl.md#implementazione%20dell'%20[illuminazione](computer_graphics/illuminazione.md))
+Qui un esempio di  [implementazione in webGL](computer_graphics/webgl.md#implementazione%20dell'%20illuminazione)
 
 ### Phong shading
 
@@ -103,7 +103,7 @@ A[si computano le normali dei vertici]
 B[si interpolano le normali dei vertici]
 C[si rinormalizza]
 D[si applica il modello di illuminazione alla nuova normale]
-A --> B --> C --> D 
+A --> B --> C --> D
 ```
 
-[PREVIOUS](pages/clipping.md) [NEXT](computer_graphics/texture_mapping.md)
+[PREVIOUS](computer_graphics/clipping.md) [NEXT](computer_graphics/texture_mapping.md)

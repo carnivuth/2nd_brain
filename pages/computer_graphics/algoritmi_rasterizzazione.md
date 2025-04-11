@@ -21,7 +21,7 @@ Inoltre queste vengono differenziate in base a **come il colore del pixel viene 
 
 Dato un poligono in coordinate schermo definito come segue
 
-![](computer_graphics/assets/imgs/poligono_baricentrico.png)
+![](computer_graphics/imgs/poligono_baricentrico.png)
 
 allora e possible definire un nuovo sistema di riferimento basato sui **vertici del poligono**
 
@@ -29,7 +29,7 @@ $$
 O' = p_1,u = p_2 - p_1,v = p_3 - p_1
 $$
 
-in questo sistema di riferimento tutti i punti vengono rappresentati da [combinazioni affini](trasformazioni_geometriche.md#combinazione%20affine) dei 3 vertici del poligono
+in questo sistema di riferimento tutti i punti vengono rappresentati da [combinazioni affini](computer_graphics/trasformazioni_geometriche.md#combinazione%20affine) dei 3 vertici del poligono
 
 $$
 p = \alpha p_1 +\beta p_2 +\gamma p_3, \space con
@@ -48,7 +48,7 @@ if(a >=0 && b >=0 && c >= 0){
 }
 ```
 
-Inoltre questo approccio può essere implementato in parallelo per mezzo di architetture [SIMD](https://it.wikipedia.org/wiki/SIMD) 
+Inoltre questo approccio può essere implementato in parallelo per mezzo di architetture [SIMD](https://it.wikipedia.org/wiki/SIMD)
 
 ### Recupero dell'informazione colore
 
@@ -124,4 +124,4 @@ Metodologia che prende in considerazione i $16$ pixel più vicini al punto in qu
 
 >[!NOTE] e il compromesso più ragionevole tra calcolo e qualità nonché quello più utilizzato in molti software di grafica
 
-[PREVIOUS](pages/real_time_rendering.md) [NEXT](computer_graphics/proiezione_prospettica.md)
+[PREVIOUS](computer_graphics/real_time_rendering.md) [NEXT](computer_graphics/proiezione_prospettica.md)
