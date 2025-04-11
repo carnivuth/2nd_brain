@@ -1,12 +1,12 @@
 ---
 id: GRAMMATICHE_LRK
-aliases: 
-tags: 
+aliases:
+tags:
 index: 14
 ---
 # Analisi $lr(k)$
 
-L' analisi [LL(k)](grammatiche_llk.md#grammatiche%20$ll(k)$), costruendo l'albero top-down, necessita di dedurre la prossima mossa da intraprendere osservando i prossimi $k$ simboli di input, di conseguenza risulta utile solo nel caso di linguaggi con $k=1$ (*nel caso dell'assegnamento $k=2$*)
+L' analisi [LL(k)](linguaggi_modelli_computazionali/grammatiche_llk.md#grammatiche%20$ll(k)$), costruendo l'albero top-down, necessita di dedurre la prossima mossa da intraprendere osservando i prossimi $k$ simboli di input, di conseguenza risulta utile solo nel caso di linguaggi con $k=1$ (*nel caso dell'assegnamento $k=2$*)
 
 L'analisi $LR$ invece ribalta il paradigma ricostruendo l'albero in **bottom-up**
 
@@ -25,7 +25,7 @@ end
 LL ~~~ LR
 ```
 
-Questo approccio rende l'analisi LR si più potente, infatti l' insieme dei linguaggi [contex free](linguaggi_modelli_computazionali/grammatiche_tipo_2.md) riconoscibili per mezzo dell'[analisi LL](grammatiche_llk.md#grammatiche%20$ll(k)$) e contenuto in quelli riconoscibili per mezzo dell' analisi LR.
+Questo approccio rende l'analisi LR si più potente, infatti l' insieme dei linguaggi [contex free](linguaggi_modelli_computazionali/grammatiche_tipo_2.md) riconoscibili per mezzo dell'[analisi LL](linguaggi_modelli_computazionali/grammatiche_llk.md#grammatiche%20$ll(k)$) e contenuto in quelli riconoscibili per mezzo dell' analisi LR.
 
 Tuttavia l'analisi LR risulta **più complessa da progettare e computazionalmente più esosa**, esistono quindi tecniche che approssimano l'analisi LR come **SLR** o **LALR**
 
@@ -44,7 +44,7 @@ Il componente software imputato di tale compito e il **RICONOSCITORE DI CONTESTI
 
 ## Analisi $lr(0)$
 
-Nel caso dell'analisi $LR$ e utile partire con il caso in cui $k=0$ ovvero non ci sono informazioni sul futuro, che nel caso dell' [analisi LL](grammatiche_llk.md#grammatiche%20$ll(k)$) non aveva senso ma nel caso dell'analisi $LR$ si ha sempre l'informazione di contesto che può guidare il parser
+Nel caso dell'analisi $LR$ e utile partire con il caso in cui $k=0$ ovvero non ci sono informazioni sul futuro, che nel caso dell' [analisi LL](linguaggi_modelli_computazionali/grammatiche_llk.md#grammatiche%20$ll(k)$) non aveva senso ma nel caso dell'analisi $LR$ si ha sempre l'informazione di contesto che può guidare il parser
 
 ## Contesti $lr(0)$
 
@@ -76,7 +76,7 @@ $$
 leftctx(A) \supseteq leftctx(B) \bullet \{\gamma\}
 $$
 
-Il ragionamento si può iterare fino a risalire allo scopo della grammatica che per definizione ha $leftctx(Z)=\{\epsilon\}$, inoltre dai due postulati si deriva che la **grammatica dei contesti e sempre [regolare a sinistra](ESPRESSIONI_REGOLARI.md#ESPRESSIONI%20REGOLARI%20E%20GRAMMATICHE)** (*riconoscibile da un [RSF](rsf.md#automa%20a%20stati%20finiti)*)
+Il ragionamento si può iterare fino a risalire allo scopo della grammatica che per definizione ha $leftctx(Z)=\{\epsilon\}$, inoltre dai due postulati si deriva che la **grammatica dei contesti e sempre [regolare a sinistra](linguaggi_modelli_computazionali/espressioni_regolari.md#ESPRESSIONI%20REGOLARI%20E%20GRAMMATICHE)** (*riconoscibile da un [RSF](linguaggi_modelli_computazionali/rsf.md#automa%20a%20stati%20finiti)*)
 
 Data la grammatica che segue:
 
@@ -224,7 +224,7 @@ $$
 FOLLOW_K(A)= \{k \in VT^k| S \overset{*}\Rightarrow \gamma Ak\beta \}
 $$
 
-> il caso $k=1$ e quanto introdotto parlando di [riconoscitori LL](grammatiche_llk.md#director%20symbols%20set)
+> il caso $k=1$ e quanto introdotto parlando di [riconoscitori LL](linguaggi_modelli_computazionali/grammatiche_llk.md#director%20symbols%20set)
 
 ### Automa riconoscitore
 

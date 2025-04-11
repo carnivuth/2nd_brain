@@ -19,7 +19,7 @@ Ci sono anche dei contro dovuti alla giovinezza e alla crescita troppo rapida:
 
 ### Tipi
 
-Il tipo `string` denota stringhe di caratteri Unicode **no tipo char** (*un carattere è una stringa lunga 1*), le stringhe sono **oggetti immutabili** (*java maniera*), l'operatore `+` le concatena 
+Il tipo `string` denota stringhe di caratteri Unicode **no tipo char** (*un carattere è una stringa lunga 1*), le stringhe sono **oggetti immutabili** (*java maniera*), l'operatore `+` le concatena
 
 ```javascript
 console.log("hello" + "world")
@@ -84,7 +84,7 @@ Il tipo di una variabile **non è fissato a priori**: dipende dal contenuto attu
 ```javascript
 a=18;
 typeof(a) //dà number
-a="ciao"; 
+a="ciao";
 typeof(a) //da string
 typeof(18/4) //da number
 typeof("aaa")//da string
@@ -93,7 +93,7 @@ typeof(document)//da object
 typeof(document.write)//da function
 
 // questo invece da object
-typeof([1,2,3]) 
+typeof([1,2,3])
 ```
 
 Le istruzioni sono separate o da un punto e virgola (*come in C o Java*) o da un fine riga (*come in Pascal*)
@@ -168,11 +168,11 @@ var sum = (a,b) => a+b;
 
 ### Function expression vs function declaration
 
-l'operazione di function expression assegna una funzione a una variabile (*possibile funzione anonima*)
+L'operazione di function expression assegna una funzione a una variabile (*possibile funzione anonima*)
 
 ```javascript
 var f = function g(x){ return x/10; }
-g(32) 
+g(32)
 ```
 
 >[!ERROR] ERRORE: il nome "g" è qui indefinito
@@ -186,7 +186,7 @@ g(32)
 
 ## Chiusure
 
-javascript implementa le funzioni come [first class entities](PROCESSI_COMPUTAZIONALI.md#FUNZIONI%20COME%20FIRST%20CLASS%20ENTITIES), e dunque possibile creare [chiusure](processi_computazionali.md#chiusura)
+javascript implementa le funzioni come [first class entities](linguaggi_modelli_computazionali/processi_computazionali.md#FUNZIONI%20COME%20FIRST%20CLASS%20ENTITIES), e dunque possibile creare [chiusure](linguaggi_modelli_computazionali/processi_computazionali.md#chiusura)
 
 ```javascript
 //qui la funzione a ritorna una funzione che usa come i parametri di a al suo interno (chiusura)
@@ -224,13 +224,13 @@ Grazie alle chiusure e possibile implementare nuovi '*operatori*' dove la **funz
 function oddloop(f,max){
 	var k=1
 	return function iter(){
-		if (k<max){k+=2; f(k);iter()} 
+		if (k<max){k+=2; f(k);iter()}
 	}
 }
 //la chiamata e un po bruttina :(
 oddloop((k)=>(console.log(k)),5)()
 //sfrutto il fatto che i parametri in eccesso sono ignorabili quindi posso anche eseguire funzioni senza argomenti
-oddloop(()=>(console.log("funziona :)")),5)() 
+oddloop(()=>(console.log("funziona :)")),5)()
 ```
 
 ### Chiusure e binding delle variabili
@@ -255,7 +255,7 @@ E quindi necessario usare una funzione di appoggio:
 ```javascript
 function aux(x){return function(){return x;}}
 function fillFunctionsArray(myarray){
-		for (i=4; i<7; i++) 
+		for (i=4; i<7; i++)
 			myarray[i-4] = aux(i);
 }
 
@@ -311,9 +311,9 @@ delete p.bd
 console.log(p.bd);
 ```
 
->[!QUOTE] sembrano array associativi 
+>[!QUOTE] sembrano array associativi
 
-### Metodi e proprietà di classe 
+### Metodi e proprietà di classe
 
 In java si e abituati a scrivere cose del tipo:
 
@@ -338,7 +338,7 @@ console.log(Person.computeAge())
 
 ### Proprietà private
 
-A default le proprietà di un oggetto sono tutte pubbliche, e possibile implementare una proprietà privata per mezzo di una [chiusura](processi_computazionali.md#chiusura)
+A default le proprietà di un oggetto sono tutte pubbliche, e possibile implementare una proprietà privata per mezzo di una [chiusura](linguaggi_modelli_computazionali/processi_computazionali.md#chiusura)
 
 ```javascript
 Person= function(name,bd){
@@ -363,7 +363,7 @@ classDiagram
     class oggetto{
         __proto__
     }
-``` 
+```
 
 L'oggetto padre di un oggetto dipende da chi a creato quell'oggetto (*tipicamente il costruttore*) ma può essere cambiato a runtime, tutti gli oggetti sono antenati (*direttamente o indirettamente*) a un unico padre, che e anche il padre di tutti gli oggetti dichiarati direttamente senza costruttore
 
@@ -464,7 +464,7 @@ Person= function(name,bd){
 }
 
 p= new Person ("pippo",3)
-console.log(p) 
+console.log(p)
 
 //qui cambio il prototype assegnato
 Person.prototype={
@@ -521,7 +521,7 @@ console.log(a(3,5))//commento personale: fighissimo :)
 
 I primi $n-1$ parametri del costruttore function sono gli argomenti della funzione generata mentre l'ultimo e il testo stesso della funzione
 
-questo consente di generare funzioni da letteralmente qualunque cosa (*dati da api/file/database/input utente*) con un occhio di riguardo alla arbitrary code execution 
+questo consente di generare funzioni da letteralmente qualunque cosa (*dati da api/file/database/input utente*) con un occhio di riguardo alla arbitrary code execution
 
 ### Chiamate indirette `call` `apply`
 
@@ -532,20 +532,20 @@ Vi e anche la possibilità di eseguire funzioni per via indiretta
 test = function(x, y, z){ return x + y + z }
 test(3,4,5)
 //obj irrilevante
-console.log(test.apply(undefined, [3,4,5] )) 
+console.log(test.apply(undefined, [3,4,5] ))
 console.log(test.call(undefined, 3, 4, 5 ))
 ```
 
 ## Arrays
 
-Gli array vengono generati dal costruttore `Array` 
+Gli array vengono generati dal costruttore `Array`
 
 ```javascript
 a= new Array(3,4,5)
-//si possono aggiungere campi dinamicamente 
-a["pippo"]="pluto" 
+//si possono aggiungere campi dinamicamente
+a["pippo"]="pluto"
 //funziona anche la dot notation
-console.log(a.pippo) 
+console.log(a.pippo)
 ```
 
 Gli array costituiscono la base fondante per il supporto agli oggetti che infatti sono implementati come array e possono essere interrogati con la stessa sintassi

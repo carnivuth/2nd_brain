@@ -17,7 +17,7 @@ START2:::hidden --> D --> E & F
 classDef hidden display: none;
 ```
 
-Gli interpreti suggeriscono quindi di usare la struttura generata da uno scanner/lexer per poi applicare un significato alle frasi, in questo caso la sequenza di derivazione delle frasi e fondamentale in quanto da essa dipende la semantica applicata (*[ricordiamo il caso della ricorsione sinistra](grammatiche_tipo_2.md#perché%20non%20eliminare%20sempre%20la%20ricorsione%20sinistra)*)
+Gli interpreti suggeriscono quindi di usare la struttura generata da uno scanner/lexer per poi applicare un significato alle frasi, in questo caso la sequenza di derivazione delle frasi e fondamentale in quanto da essa dipende la semantica applicata (*[ricordiamo il caso della ricorsione sinistra](linguaggi_modelli_computazionali/grammatiche_tipo_2.md#perché%20non%20eliminare%20sempre%20la%20ricorsione%20sinistra)*)
 
 ## Descrivere la semantica
 
@@ -34,7 +34,7 @@ Per implementare una tale funzione si sfrutta la struttura data dalla grammatica
 Una possibile implementazione puo essere ottenuta seguendo le regole sintattiche e definendo una regola semantica per ognuna di esse:
 
 ```java
-// FUNZIONE PER IL PARSING DELLE REGOLE 
+// FUNZIONE PER IL PARSING DELLE REGOLE
 //EXP:= TERM + TERM
 //EXP:= TERM - TERM
 public int parseExp(){
@@ -55,7 +55,7 @@ public int parseExp(){
 			t1 = t1-t2;
 		}
 		else return t1;
-	} 
+	}
 	return t1;
 }
 ```
@@ -64,7 +64,7 @@ public int parseExp(){
 
 Nel caso non si intenda eseguire immediatamente la semantica ma generare un output eseguibile in un secondo momento (*compilatori/linguaggi misti*) e necessario definire una rappresentazione della frase interpretata (*solitamente un albero*)
 
-si potrebbero usare gli [alberi di derivazione](grammatiche_tipo_2.md#alberi%20di%20derivazione) ma questi risultano ridondanti e inefficienti, si ricorre quindi a una rappresentazione ridotta chiamata **abstract syntax tree**
+si potrebbero usare gli [alberi di derivazione](linguaggi_modelli_computazionali/grammatiche_tipo_2.md#alberi%20di%20derivazione) ma questi risultano ridondanti e inefficienti, si ricorre quindi a una rappresentazione ridotta chiamata **abstract syntax tree**
 
 Alcuni degli elementi che possono essere rimossi dal albero sono:
 
@@ -96,7 +96,7 @@ classDiagram
     class Exp{
     }
     class OpExp{
-	Exp left 
+	Exp left
 	Exp right
 	#OpExp( Exp l, Exp r)
 	*myOp(): String
@@ -121,7 +121,7 @@ In cui ogni classe implementa in metodi per la generazione del singolo sottonodo
 
 ## Valutare gli alberi
 
-Gli [AST](interpreti.md#interpretazione%20differita%20(abstract%20syntax%20tree)) prodotti da un parser necessitano di essere di conseguenza interpretati tramite opportune operazioni di visita degli alberi, 3 possibili approcci:
+Gli [AST](linguaggi_modelli_computazionali/interpreti.md#interpretazione%20differita%20(abstract%20syntax%20tree)) prodotti da un parser necessitano di essere di conseguenza interpretati tramite opportune operazioni di visita degli alberi, 3 possibili approcci:
 
 - **PRE-ORDER**: si visitano prima il nodo radice e poi figlio di destra e sinistra
 - **POST-ORDER**: si visitano prima i figli e poi la radice
@@ -135,7 +135,7 @@ la casistica **in-order** genera un output in notazione infissa che risulta ambi
 
 ## Perché la notazione postfissa
 
-La notazione postfissa ha un vantaggio intrinseco in quanto dispone in ordine operandi e poi operatore, **che e esattamente l'ordine richiesto da una cpu per svolgere le operazioni** 
+La notazione postfissa ha un vantaggio intrinseco in quanto dispone in ordine operandi e poi operatore, **che e esattamente l'ordine richiesto da una cpu per svolgere le operazioni**
 
 ```
 load a, r1
@@ -168,11 +168,11 @@ public static int eval(Exp e) {
 
 ### Approccio oop
 
-Ogni specializzazione dell'interfaccia `Expr` definisce i metodi per la generazione del proprio nodo dell [AST](interpreti.md#interpretazione%20differita%20(abstract%20syntax%20tree)), molto più leggibile e modulare ma rende complesso fornire interpretazioni diverse dello stesso [ast](#interpretazione%20differita%20(abstract%20syntax%20tree)) 
+Ogni specializzazione dell'interfaccia `Expr` definisce i metodi per la generazione del proprio nodo dell [AST](linguaggi_modelli_computazionali/interpreti.md#interpretazione%20differita%20(abstract%20syntax%20tree)), molto più leggibile e modulare ma rende complesso fornire interpretazioni diverse dello stesso [ast](#interpretazione%20differita%20(abstract%20syntax%20tree))
 
 ```java
 public Interface Expr{
-	// le sottoclassi implementano 
+	// le sottoclassi implementano
 	// la specifica semantica di eval per il corrispettivo nodo
 	public abstract int eval(Exp e)
 }
@@ -213,7 +213,7 @@ void accept(Visitor v){
 
 L'assegnamento e uno dei costrutti onnipresenti in qualunque linguaggio di programmazione, non e ne simmetrico ne riflessivo e i simboli che compaiono da entrambe le parti dell'espressione hanno un significato molto diverso
 
-> `x=..` il membro di sinistra specifica **un contenitore** 
+> `x=..` il membro di sinistra specifica **un contenitore**
 
 > `...=x` il membro di destra invece specifica **il valore di un contenitore**
 
@@ -224,7 +224,7 @@ Quanto detto prima porta a definire la distinzione fra il valore di destra e di 
 - $L$-VALUE per indicare gli identificatori a sinistra dell'operazione di assegnamento
 - $R$-VALUE per indicare gli identificatori a destra dell'operazione di assegnamento
 
-E inoltre opportuno considerare se distinguere i due valori sintatticamente in quanto la grammatica risultante in caso di non distinzione diventa [LL(2)](grammatiche_llk.md#grammatiche%20$ll(k)$)
+E inoltre opportuno considerare se distinguere i due valori sintatticamente in quanto la grammatica risultante in caso di non distinzione diventa [LL(2)](linguaggi_modelli_computazionali/grammatiche_llk.md#grammatiche%20$ll(k)$)
 
 ## Assegnamento distruttivo vs assegnamento non distruttivo
 

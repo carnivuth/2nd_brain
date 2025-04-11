@@ -9,7 +9,7 @@ Sono linguaggi frutto di un mix intelligente fra i vecchi paradigmi e gli approc
 
 Sia scala che kotlin sono pensati per poter interoperare con java (*compilano in bytecode eseguibile dalla JVM ma non solo*) inoltre alcune delle caratteristiche ereditate dal modello funzionale sono:
 
-- funzioni come [first class entities](processi_computazionali.md#funzioni%20come%20first%20class%20entities) 
+- funzioni come [first class entities](linguaggi_modelli_computazionali/processi_computazionali.md#funzioni%20come%20first%20class%20entities)
 - tutto e un oggetto (*funzioni incluse*)
 - distinzione fra variabile e valore (`var`/`val`)
 - le strutture di controllo sono espressioni
@@ -62,7 +62,7 @@ classDiagram
 	`Any?` <|-- `String?`
 	`Number?` <|-- `Double?`
 	`Number?` <|-- `Int?`
-	
+
 	Any <|-- Number
 	Number <|-- Double
 	Number <|-- Int
@@ -83,15 +83,15 @@ print(y)
 
 ## Funzioni
 
-Le funzioni sono introdotte da una parola chiave prefissa (*scala:`def`,kotlin:`func`*) possono essere definite anche a top level (*senza classi wrapper*)   Inoltre la specifica di tipo e postfissa a differenza di java per facilitare l'uso del **motore di type inference** (*molto avanzato*) come gia specificato le funzioni sono [first class entities](processi_computazionali.md#funzioni%20come%20first%20class%20entities)
+Le funzioni sono introdotte da una parola chiave prefissa (*scala:`def`,kotlin:`func`*) possono essere definite anche a top level (*senza classi wrapper*)   Inoltre la specifica di tipo e postfissa a differenza di java per facilitare l'uso del **motore di type inference** (*molto avanzato*) come gia specificato le funzioni sono [first class entities](linguaggi_modelli_computazionali/processi_computazionali.md#funzioni%20come%20first%20class%20entities)
 
-Inoltre entrambi i linguaggi attuano [ottimizzazione della tail recursion](processi_computazionali.md#tail%20recursion%20optimization)
+Inoltre entrambi i linguaggi attuano [ottimizzazione della tail recursion](linguaggi_modelli_computazionali/processi_computazionali.md#tail%20recursion%20optimization)
 
 >[!NOTE] in scala e abilitata di default disattivabile con un opzione mentre in kotlin e disabilitata di default attivabile con la keyword `tailrec`
 
 ## Classi
 
-Definite con la keyword class, prevedono un costruttore primario definito in linea  con la classe (*si evita boilerplate code `this.name=name`*), inoltre in scala i membri di una classe sono public per default (*a differenza di java dove hanno visibilità package*) 
+Definite con la keyword class, prevedono un costruttore primario definito in linea  con la classe (*si evita boilerplate code `this.name=name`*), inoltre in scala i membri di una classe sono public per default (*a differenza di java dove hanno visibilità package*)
 
 ### Classi dati
 
@@ -123,7 +123,7 @@ L'operatore `import` può importare oggetti,classi,interfacce e altri package, i
 
 ## Extension methods
 
-Vi e la possibilità di estendere la definizione di una classe in un altro punto aggiungendo metodi e proprietà 
+Vi e la possibilità di estendere la definizione di una classe in un altro punto aggiungendo metodi e proprietà
 
 ```scala
 extension (i: Int)

@@ -60,9 +60,9 @@ ovvero la troncatura a un carattere della concatenazione dei due insiemi.
 
 Condizione necessaria e sufficiente per ottenere una grammatica $LL(1)$ e che il [director symbols set](#DIRECTOR%20SYMBOLS%20SET) relativi alle produzioni siano disgiunti
 
-## Grammatiche $ll(1)$ il problema della [il problema della ricorsione sinistra](grammatiche_tipo_2.md#il%20problema%20della%20ricorsione%20sinistra)
+## Grammatiche $ll(1)$ il problema della [il problema della ricorsione sinistra](linguaggi_modelli_computazionali/grammatiche_tipo_2.md#il%20problema%20della%20ricorsione%20sinistra)
 
-Le grammatiche $LL(k)$ non sono compatibili con la ricorsione a sinistra delle produzioni $A \rightarrow A\alpha | a$, che tuttavia [può essere sempre rimossa](grammatiche_tipo_2.md#eliminazione%20della%20ricorsione%20sinistra) a patto di poter fare a meno della sua capacita espressiva (*no necessita di dare una semantica alla frase*)
+Le grammatiche $LL(k)$ non sono compatibili con la ricorsione a sinistra delle produzioni $A \rightarrow A\alpha | a$, che tuttavia [può essere sempre rimossa](linguaggi_modelli_computazionali/grammatiche_tipo_2.md#eliminazione%20della%20ricorsione%20sinistra) a patto di poter fare a meno della sua capacita espressiva (*no necessita di dare una semantica alla frase*)
 
 questa problematica può essere risolta adottando tecniche di analisi più avanzate come le [grammatiche LR(k)](linguaggi_modelli_computazionali/grammatiche_lrk.md)
 

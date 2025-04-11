@@ -18,9 +18,9 @@ tags: []
 
 si dimostra per mezzo della stringa $d^ncc^n$ in cui non e identificabile il pezzo centrale per effettuare la scomposizione nei tre pezzi $xwy$ in quanto il pezzo centrale ripetuto non e in grado di generare le due parti della stringa
 
->[!NOTE] si vedeva subito anche dal fatto che la prima regola di produzione presenta [self embedding](grammatiche_tipo_2.md#self%20embedding) e il corrispondente automa a stati finiti avrebbe avuto infiniti stati
+>[!NOTE] si vedeva subito anche dal fatto che la prima regola di produzione presenta [self embedding](linguaggi_modelli_computazionali/grammatiche_tipo_2.md#self%20embedding) e il corrispondente automa a stati finiti avrebbe avuto infiniti stati
 
-### Calcolo dei [director symbols set](grammatiche_llk.md#director%20symbols%20set)
+### Calcolo dei [director symbols set](linguaggi_modelli_computazionali/grammatiche_llk.md#director%20symbols%20set)
 
 - $DSS(S -> dSAB)= \{d\}$
 - $DSS(S -> BC)= \{c,b\}$
@@ -33,7 +33,7 @@ si dimostra per mezzo della stringa $d^ncc^n$ in cui non e identificabile il pez
 
 - $C\rightarrow Cd$
 
-si ha un conflitto nei [director symbol set](grammatiche_llk.md#director%20symbols%20set) che riguardano il metasimbolo $c$ dato che si ha $dss(c \rightarrow c)$ non disgiunto con $dss(c\rightarrow cd)$ la grammatica non e $ll(1)$
+si ha un conflitto nei [director symbol set](linguaggi_modelli_computazionali/grammatiche_llk.md#director%20symbols%20set) che riguardano il metasimbolo $c$ dato che si ha $dss(c \rightarrow c)$ non disgiunto con $dss(c\rightarrow cd)$ la grammatica non e $ll(1)$
 
 > mostrare che la ricorsione sinistra si può rimuovere ma si ottiene una grammatica diversa
 
@@ -49,7 +49,7 @@ La ricorsione sinistra e rimovibile ma si ottiene una grammatica diversa, non ot
 
 > tentare l'approccio con analisi $LR(0)$  e $SLR$ per verificare se si può mantenere la ricorsione sinistra senza modificare il linguaggio
 
-### Calcolo dei [contesti sinistri](grammatiche_lrk.md#contesti%20sinistri%20di%20una%20produzione)
+### Calcolo dei [contesti sinistri](linguaggi_modelli_computazionali/grammatiche_lrk.md#contesti%20sinistri%20di%20una%20produzione)
 
 - $LEFTCTXLR(0)(Z) = \{\epsilon\}$
 - $LEFTCTXLR(0)(S) = LEFTCTXLR(0)(Z),LEFTCTXLR(0)(S)d$
@@ -57,7 +57,7 @@ La ricorsione sinistra e rimovibile ma si ottiene una grammatica diversa, non ot
 - $LEFTCTXLR(0)(B) = LEFTCTXLR(0)(S)dSA,LEFTCTXLR(0)(S),LEFTCTXLR(0)(B)b$
 - $LEFTCTXLR(0)(C) = LEFTCTXLR(0)(A),LEFTCTXLR(0)(C),LEFTCTXLR(0)(S)B$
 
-### Calcolo dei [contesti lr(0)](grammatiche_lrk.md#contesti%20$lr\(0\)$)
+### Calcolo dei [contesti lr(0)](linguaggi_modelli_computazionali/grammatiche_lrk.md#contesti%20$lr\(0\)$)
 
 - $CTXLR(0)(Z \rightarrow S) = \epsilon$
 - $CTXLR(0)(S \rightarrow dSAB) = d^*dSAB$
@@ -69,7 +69,7 @@ La ricorsione sinistra e rimovibile ma si ottiene una grammatica diversa, non ot
 - $CTXLR(0)(C \rightarrow c) =((d^*S)a^*+d^*B)^*c$
 - $CTXLR(0)(C \rightarrow Cd) = ((d^*S)a^*+d^*B)^*Cd$
 
-La grammatica in questione non risulta essere [lr(0)](grammatiche_lrk.md#analisi%20$lr\(0\)$) in quanto la regola di produzione $B \rightarrow \epsilon$ genera un conflitto shift/reduce nell'automa
+La grammatica in questione non risulta essere [lr(0)](linguaggi_modelli_computazionali/grammatiche_lrk.md#analisi%20$lr\(0\)$) in quanto la regola di produzione $B \rightarrow \epsilon$ genera un conflitto shift/reduce nell'automa
 
 > [!NOTE] per essere $LR(0)$ non devono esserci ricorsioni destre del tipo $A\rightarrow aA|a$ ne produzioni dello stesso metasimbolo che iniziano con la stessa forma di frase e si differiscono per un terminale $S\rightarrow B|Ba$, neanche le produzioni della forma $B\rightarrow bB|\epsilon$ sono corrette in quanto generano nel automa conflitti shift/reduce per via dell $\epsilon$-mossa
 
@@ -96,7 +96,7 @@ La grammatica risulta essere $SLR$
 
 ## Costrutto `lesect`
 
-costrutto per eseguire una data azione su tutti gli elementi di un array uguali a un dato target
+Costrutto per eseguire una data azione su tutti gli elementi di un array uguali a un dato target
 
 ```pseudo
 lesect(oggetto_da_iterare,target){funzione da svolgere sull'oggetto}
@@ -136,7 +136,7 @@ lesect(a,"c")(console.log)
 
 ## Il cacciavite del sistemista (`grep` dei poveri)
 
-con il potentissimo costrutto `lesect`  e la possibilità offerta da javascript di [costruire funzioni dinamicamente](javascript.md#costruire%20funzioni%20dinamicamente) si possono ricreare molti tool unix semplicemente modificando un file,
+con il potentissimo costrutto `lesect`  e la possibilità offerta da javascript di [costruire funzioni dinamicamente](linguaggi_modelli_computazionali/javascript.md#costruire%20funzioni%20dinamicamente) si possono ricreare molti tool unix semplicemente modificando un file,
 
 ```javascript
 const readline = require('readline');
@@ -152,7 +152,7 @@ try {
   const commandBody = fs.readFileSync(commandfile, 'utf8');
   var commmand= Function("x",file)
   var lines = [];
-  
+
   var rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
@@ -172,7 +172,7 @@ try {
 }
 ```
 
-e cosi possibile cambiare la semantica del costrutto `lesect` a runtime per mezzo di un semplice file javascript
+e cosi possibile cambiare la semantica del costrutto `lesect` a runtime per mezzo di un semplice file `javascript`
 
 - con questo `lesect` emula `grep`
 
@@ -195,7 +195,7 @@ echo -e "a\nb\nb" | node mktool.js poorsed.txt a c
 
 ## Tratti di scala: le reverse pipes
 
-mostrare come scala risolve il problema dell'ereditarietà multipla per mezzo dei [tratti](#TRATTI%20DI%20SCALA), e le limitazioni dei tratti parametrici
+Mostrare come scala risolve il problema dell'ereditarietà multipla per mezzo dei [tratti](linguaggi_modelli_computazionali/scala.md), e le limitazioni dei tratti parametrici
 
 ```scala
 // GIRA SOLO SU SCALA 3, TESTARE QUI https://scastie.scala-lang.org
@@ -219,11 +219,11 @@ trait sed(regex:String,replace:String) extends Pipe{
 (new Pipe("hello world")  with grep("pippo") with sed("hello","pippo") ).run()
 ```
 
-non e possibile creare reverse pipes con comandi ripetutu perche perche un tratto parametrico se esteso due volte con parametro non puo essere linearizzato
+Non e possibile creare reverse pipes con comandi ripetuti perché un tratto parametrico se esteso due volte con parametro non può essere linearizzato
 
 ```scala
 class PipeGrepSed extends Pipe("Hello world") with grep("pippo") with sed("hello","pippo")
 class PipeGrepSedGrep extends PipeGrepSed with grep("world")
 ```
 
->[!ERROR] questo non compila perche la seconda classe cerca di richiamare il costruttore del tratto `grep()` che viene già chiamato dalla classe padre
+>[!ERROR] questo non compila perché la seconda classe cerca di richiamare il costruttore del tratto `grep()` che viene già chiamato dalla classe padre

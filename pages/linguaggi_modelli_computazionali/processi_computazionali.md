@@ -32,7 +32,7 @@ console.log(factIt(1,1,n))
 
 In questo caso il risultato parziale viene mantenuto in un accumulatore, che contiene il risultato parziale delle computazione.
 
-Proprio per questo in molti linguaggi che non offrono costrutti per esprimere processi iterativi viene applicata la **ottimizzazione della tail recursion (TRO)** 
+Proprio per questo in molti linguaggi che non offrono costrutti per esprimere processi iterativi viene applicata la **ottimizzazione della tail recursion (TRO)**
 
 ### Tail recursion optimization
 
@@ -44,7 +44,7 @@ Processo attraverso il quale si riduce la memoria allocata da una tail recursion
 
 Con l'aumentare della complessità dei sistemi software i linguaggi funzionali si sono fatti sempre più sentire, sia puri che miscelati a linguaggi tradizionali (*blended*), le feature che li caratterizzano sono
 
-- distinzione variabili / valori (`var` vs `val`) 
+- distinzione variabili / valori (`var` vs `val`)
 - costrutti come espressioni
 - collezioni e oggetti immodificabili
 - funzioni come first-class entities
@@ -67,11 +67,11 @@ Nei linguaggi funzionali i costrutti vengono trattati esattamente come le espres
 Nei linguaggi tradizionali le funzioni non sono altro che dei costrutti sintattici per racchiudere la logica del programma, i linguaggi funzionali invece le elevano a cittadini di prima classe ovvero:
 
 - le funzioni possono essere dichiarate e usate al volo
-- assegnate a variabili 
-- passate a un altra funzione 
+- assegnate a variabili
+- passate a un altra funzione
 - possono essere ritornate da un altra funzione
 
-## Chiusura 
+## Chiusura
 
 Se il linguaggio supporta le [funzioni come first class entities](#FUNZIONI%20COME%20FIRST%20CLASS%20ENTITIES) e le funzioni ammettono l'uso di variabili non definite localmente (*variabili libere*) allora possono essere implementate le **chiusure**
 
@@ -90,17 +90,17 @@ si ha quindi che le variabili di una chiusura devono mantenere **il tempo di vit
 
 ### Vantaggi delle chiusure
 
-- Rappresentare e gestire uno stato privato e nascosto 
-- Creare una comunicazione nascosta 
-- Definire nuove strutture di controllo 
-- Riprogettare/semplificare API e framework di largo uso 
+- Rappresentare e gestire uno stato privato e nascosto
+- Creare una comunicazione nascosta
+- Definire nuove strutture di controllo
+- Riprogettare/semplificare API e framework di largo uso
 
 #### Chiusura lessicale vs chiusura dinamica
 
-Se il linguaggio supporta le chiusure occorre definire quale sia [l'ambiente](interpreti.md#environment) della funzione stessa in cui questo deve operare:
+Se il linguaggio supporta le chiusure occorre definire quale sia [l'ambiente](linguaggi_modelli_computazionali/interpreti.md#environment) della funzione stessa in cui questo deve operare:
 
 - si ha una catena di ambienti definita dalla struttura del programma **CATENA LESSICALE**
-- e una catena di ambienti generata a run-time data dalla sequenza di chiamate della funzione **CATENA DINAMICA** 
+- e una catena di ambienti generata a run-time data dalla sequenza di chiamate della funzione **CATENA DINAMICA**
 
 La modalita in catena dinamica ha un grosso svantaggio, ovvero riduce la leggibilita del programma in quanto per comprendere il valore di una variabile libera e necessario ripercorrere mentalmente il runtime del programma e risalire dunque al valore della variabile stessa
 
@@ -109,7 +109,7 @@ La modalita in catena dinamica ha un grosso svantaggio, ovvero riduce la leggibi
 var x = 20;
 //funzione interna che fa uso di una variabile non definita internamente
 function provaEnv(z) {
-	return z + x; 
+	return z + x;
 }
 // funzione esterna che ridefinisce la variabile richiamata dalla funzione interna
 function testEnv() {
@@ -138,7 +138,7 @@ Ogni linguaggio deve stabilire un modello per la valutazione delle funzioni che 
 Il modello per la valutazione di funzioni piu utilizzato e quello applicativo
 
 - parametri valutati subito
-- passaggi di parametri per valore 
+- passaggi di parametri per valore
 - cedimento del controllo in maniera sincrona, il chiamante attende la conclusione del chiamato prima di procedere.
 
 Il modello applicativo risulta semplice ed efficiente ma ha i suoi limiti
@@ -213,7 +213,7 @@ object CallByName {
 		if (cond) println("result = " + a );
 		else println("result = " + b );
 	}
-	 
+
 	def main(args: Array[String]) {
 		val x=5;
 		val y=4;

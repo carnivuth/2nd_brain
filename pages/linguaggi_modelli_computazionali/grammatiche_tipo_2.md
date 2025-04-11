@@ -53,7 +53,7 @@ C --> F
 D --> G
 ```
 
-Questa struttura e possibile solo per le grammatiche di tipo 2, le grammatiche di [tipo 1](GRAMMATICHE_TIPO_1.md) e [0](linguaggi_modelli_computazionali/grammatiche_tipo_0.md) ammettendo a sinistra più di un membro genererebbero un grafo e non un albero
+Questa struttura e possibile solo per le grammatiche di tipo 2, le grammatiche di [tipo 1](linguaggi_modelli_computazionali/grammatiche_tipo_1.md) e [0](linguaggi_modelli_computazionali/grammatiche_tipo_0.md) ammettendo a sinistra più di un membro genererebbero un grafo e non un albero
 
 ## Derivazioni canoniche
 

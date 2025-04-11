@@ -3,7 +3,7 @@ index: 19
 ---
 # Scala
 
-Scala e uno degli esempi più fiorenti di [linguaggio blended](linguaggi_modelli_computazionali/linguaggi_blended.md), riprende molte caratteristiche dei linguaggi funzionali e possiede inoltre un type system forte 
+Scala e uno degli esempi più fiorenti di [linguaggio blended](linguaggi_modelli_computazionali/linguaggi_blended.md), riprende molte caratteristiche dei linguaggi funzionali e possiede inoltre un type system forte
 
 ## Caratteristiche
 
@@ -72,7 +72,7 @@ scala consente di richiamare un dato operatore per mezzo della notazione infissa
 //equivalente a scrivere Array.apply("Paperino", "Pippo", "Pluto")
 val v = Array("Paperino", "Pippo", "Pluto");
 //equivalente a scrivere 0.to(2)
-for (i <- 0 to 2) println(v(i)) 
+for (i <- 0 to 2) println(v(i))
 ```
 
 Dualmente, una lista di valori fra parentesi usata come L-value in un assegnamento sottintende una chiamata implicita al metodo update dell'oggetto ricevente ergo:
@@ -98,16 +98,16 @@ def change(i:Int) : Unit = { i = 2 }
 una funzione priva di un’istruzione `return` esplicita restituisce comunque l’ultimo valore calcolato
 
 ```scala
-def increment(i:Int) : Int = i+2 
+def increment(i:Int) : Int = i+2
 println(increment(3))
 ```
 
-Scala non consente di definire funzioni con un numero variabile di argomenti  ma permette di ripetere l'ultimo argomento, con una sintassi analoga alle regular expression: `*` 
+Scala non consente di definire funzioni con un numero variabile di argomenti  ma permette di ripetere l'ultimo argomento, con una sintassi analoga alle regular expression: `*`
 
 ```scala
 def myprint(args: String*)
 ```
- 
+
 > [!NOTE] Attenzione ai tipi degli argomenti ripetuti: internamente alla funzione, l’argomento ripetuto è mappato su un array, quindi il tipo dell’argomento ripetuto è `Array` di quel tipo esternamente, però, il tipo argomento ripetuto è considerato diverso da un array e quindi incompatibile con esso
 
 ### Oggetto singleton
@@ -117,7 +117,7 @@ scala consente la definizione di oggetti singleton introdotti dalla parola chiav
 ```scala
 object Boss {
 	//Tutti i campi devono essere obbligatoriamente inizializzati
-	private val name = "The Boss"; 
+	private val name = "The Boss";
 	//Proprietà e metodi di un singleton sono pubblici per default
 	def getName() = name
 }
@@ -125,7 +125,7 @@ object Boss {
 object Main {
 	def main(args: Array[String]) {
 		//L'oggetto singleton è usabile senza doverlo creare esplicitamente
-		println(Boss.getName()) 
+		println(Boss.getName())
 	}
 }
 ```
@@ -171,7 +171,7 @@ class Counter(v:Int) {
 
 ### Funzioni e chiusure
 
-Il pieno supporto alle funzioni come [first-class objects](PROCESSI_COMPUTAZIONALI.md#FUNZIONI%20COME%20FIRST%20CLASS%20ENTITIES) comporta un altrettanto pieno supporto alle [chiusure](processi_computazionali.md#chiusura), per cui viene preferita la chiusura lessicale e le variabili libere **vengono chiuse per mezzo di riferimenti alle variabili esterne**, ciò significa che risentono dei cambiamenti ad esse
+Il pieno supporto alle funzioni come [first-class objects](linguaggi_modelli_computazionali/processi_computazionali.md#FUNZIONI%20COME%20FIRST%20CLASS%20ENTITIES) comporta un altrettanto pieno supporto alle [chiusure](linguaggi_modelli_computazionali/processi_computazionali.md#chiusura), per cui viene preferita la chiusura lessicale e le variabili libere **vengono chiuse per mezzo di riferimenti alle variabili esterne**, ciò significa che risentono dei cambiamenti ad esse
 
 ### Conversioni implicite
 
@@ -240,7 +240,7 @@ class Frazione(val num:Int,val den:Int){
 	override def toString = if(den==1) ""+num else num+"/"+den;
 }
 
-//companion object con la definizione del metodo di conversione 
+//companion object con la definizione del metodo di conversione
 object Frazione {
 	def main(args: Array[String]) : Unit = {
 		val f = new Frazione(3,5)
@@ -279,7 +279,7 @@ object TestExceptions {
 
 ### Pattern matching
 
-In scala e possibile "*smontare*" un oggetto (*object destructuring*) in un insieme di componenti che possono poi essere riferite successivamente 
+In scala e possibile "*smontare*" un oggetto (*object destructuring*) in un insieme di componenti che possono poi essere riferite successivamente
 
 ```scala
 val coppia = (12, "dozzina")
@@ -314,7 +314,7 @@ object Point{
 				case Point(x,y) => "punto "+x+","+y;
 				case o:Any => "oggetto";
 				}
-			
+
 			)
 	}
 }
@@ -325,9 +325,9 @@ object Point{
 Scala ha tutti gli strumenti per consentire la definizione di costrutti builtin:
 
 - block like syntax
-- [currying](javascript.md#currying)
-- [call by name](processi_computazionali.md#alternativa,%20modello%20call%20by%20name)
-- [chiusura](processi_computazionali.md#chiusura)
+- [currying](linguaggi_modelli_computazionali/javascript.md#currying)
+- [call by name](linguaggi_modelli_computazionali/processi_computazionali.md#alternativa,%20modello%20call%20by%20name)
+- [chiusura](linguaggi_modelli_computazionali/processi_computazionali.md#chiusura)
 
 quindi per creare il costrutto `repeat`:
 
@@ -350,7 +350,7 @@ Scala estende il concetto delle interfacce java con i **tratti**, un tratto si d
 trait tratto{}
 ```
 
-Come per le interfacce java un tratto non può generare istanze, ma al contrario delle stesse può definire codice e estendere altre classi 
+Come per le interfacce java un tratto non può generare istanze, ma al contrario delle stesse può definire codice e estendere altre classi
 
 ### Mixing dei tratti
 
@@ -419,12 +419,12 @@ L'algoritmo di linearizzazione procede come segue:
 
 ## Collections
 
-In scala le collection sono fornite in due versioni, (*per non scoraggiare troppo le migrazioni di codebase da java*) 
+In scala le collection sono fornite in due versioni, (*per non scoraggiare troppo le migrazioni di codebase da java*)
 
 - mutable (*necessario import esplicito `scala.collection.mutable`*)
 - immutable (*importate di default*)
 
-tra le collection sono disponibili `List` `Array` `Tuple` `Set` `Map` 
+tra le collection sono disponibili `List` `Array` `Tuple` `Set` `Map`
 
 ## Varianza e covarianza
 
@@ -438,18 +438,18 @@ def append[U >: T](element: U) {..}
 
 ## Tipo `option`
 
-Scala introduce il tipo `Option` come analogo degli optional di java, questo per evitare argomenti passati come null (*si ricorda che ciò in scala non  e possibile per la [gerarchia di tipi](linguaggi_blended.md#tipi)*) 
+Scala introduce il tipo `Option` come analogo degli optional di java, questo per evitare argomenti passati come null (*si ricorda che ciò in scala non  e possibile per la [gerarchia di tipi](linguaggi_modelli_computazionali/linguaggi_blended.md#tipi)*)
 
 ## Extractors
 
-Le funzionalità di [pattern matching](#PATTERN%20MATCHING) di scala come definite sopra sono utilizzabili solo per mezzo di [classi dati](linguaggi_blended.md#classi%20dati), per poterle utilizzare anche con oggetti generati da classi normali scala mette a disposizione gli **extractors**,  ovvero oggetti che definiscono un metodo `unapply()` duale di `apply()` che estrae i valori di un oggetto
+Le funzionalità di [pattern matching](#PATTERN%20MATCHING) di scala come definite sopra sono utilizzabili solo per mezzo di [classi dati](linguaggi_modelli_computazionali/linguaggi_blended.md#classi%20dati), per poterle utilizzare anche con oggetti generati da classi normali scala mette a disposizione gli **extractors**,  ovvero oggetti che definiscono un metodo `unapply()` duale di `apply()` che estrae i valori di un oggetto
 
 Il metodo in questione deve essere definito al difuori della classe interessata (il miglior candidato risulta essere il [companion object](#COMPANION%20OBJECT))
 
 ```scala
 // oggetto companion
 object Persona {
-	def unapply(p:Persona) : Option[(String,Int)] =Some(p.nome,p.year) 
+	def unapply(p:Persona) : Option[(String,Int)] =Some(p.nome,p.year)
 }
 
 // utilizzo dell extractor
@@ -496,7 +496,7 @@ class MyGrammar extends JavaTokenParsers {
 }
 ```
 
-la semantica può essere aggiunta con l'operatore `^^` 
+la semantica può essere aggiunta con l'operatore `^^`
 
 ```scala
 class MyGrammar extends JavaTokenParsers {
@@ -507,7 +507,7 @@ class MyGrammar extends JavaTokenParsers {
 }
 ```
 
-In caso di grammatiche [ll(1)](grammatiche_llk.md#grammatiche%20$ll(k)$) la libreria genera comunque un parser in grado di fare backtracking, per evitare l'inefficienza e utile specificare che non e necessario supportarlo con l'operatore `!`
+In caso di grammatiche [ll(1)](linguaggi_modelli_computazionali/grammatiche_llk.md#grammatiche%20$ll(k)$) la libreria genera comunque un parser in grado di fare backtracking, per evitare l'inefficienza e utile specificare che non e necessario supportarlo con l'operatore `!`
 
 
 [PREVIOUS](linguaggi_modelli_computazionali/linguaggi_blended.md)

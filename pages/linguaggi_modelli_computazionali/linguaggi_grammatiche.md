@@ -1,7 +1,7 @@
 ---
 id: LINGUAGGI GRAMMATICHE
-aliases: 
-tags: 
+aliases:
+tags:
 index: 2
 ---
 # Linguaggi e grammatiche
@@ -10,12 +10,12 @@ Per poter ottenere una [macchina di Turing universale](https://it.wikipedia.org/
 
 *Un linguaggio è un insieme di parole e di metodi di combinazione delle parole usate e comprese da una comunità di persone*
 
-E necessario dunque esprimere **sintassi** (*notazioni BNF EBNF*) e **semantica** del linguaggio secondo notazioni formali (*funzioni matematiche/formule logiche*) 
+E necessario dunque esprimere **sintassi** (*notazioni BNF EBNF*) e **semantica** del linguaggio secondo notazioni formali (*funzioni matematiche/formule logiche*)
 
 Da questa suddivisione si deduce quindi che una macchina di Turing universale deve adempiere a queste due operazioni
 
 - **analisi lessicale** data una frase riconoscere le singole parole (**token**) di una frase
-- **analisi sintattica** data una sequenza di token generare una rappresentazione interna della frase (*alberi [AST](interpreti.md#interpretazione%20differita%20(abstract%20syntax%20tree))*)
+- **analisi sintattica** data una sequenza di token generare una rappresentazione interna della frase (*alberi [AST](linguaggi_modelli_computazionali/interpreti.md#interpretazione%20differita%20(abstract%20syntax%20tree))*)
 - **analisi semantica** data una frase corretta applicare la semantica corretta per la data frase
 
 ## Struttura di un linguaggio
@@ -32,7 +32,7 @@ un alfabeto $A$ è un insieme finito e non vuoto di simboli atomici. Esempio: $A
 
 un stringa è una sequenza di simboli, ossia un **elemento del prodotto cartesiano** $A^n$.
 
-### Linguaggio 
+### Linguaggio
 
 Dato un alfabeto $A$ un linguaggio $L$ definito su $A$ e un insieme di stringhe su $A$
 

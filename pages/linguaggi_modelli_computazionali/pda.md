@@ -1,6 +1,6 @@
 ---
 id: PDA
-aliases: 
+aliases:
   - analisi_ricorsiva_discendente
   - push_down_automaton
 tags:
@@ -9,9 +9,9 @@ index: 11
 
 # Push down automaton
 
-Per poter riconoscere i linguaggi di [tipo 2](grammatiche_tipo_2.md) e necessario poter processare stringhe che presentino forme di [self embedding](GRAMMATICHE_TIPO_2.md#SELF%20EMBEDDING), di conseguenza un [automa a stati finiti](rsf.md#riconoscere%20[linguaggi%20di%20tipo%203](linguaggi_modelli_computazionali/grammatiche_regolari.md),%20l'automa%20a%20stati%20finiti) non sarebbe in grado in quanto dovrebbe avere un numero di stati non noto a priori (*non finiti*)
+Per poter riconoscere i linguaggi di [tipo 2](linguaggi_modelli_computazionali/grammatiche_tipo_2.md) e necessario poter processare stringhe che presentino forme di [self embedding](linguaggi_modelli_computazionali/grammatiche_tipo_2.md#SELF%20EMBEDDING), di conseguenza un [automa a stati finiti](linguaggi_modelli_computazionali/rsf.md#riconoscere%20[linguaggi%20di%20tipo%203](linguaggi_modelli_computazionali/grammatiche_regolari.md),%20l'automa%20a%20stati%20finiti) non sarebbe in grado in quanto dovrebbe avere un numero di stati non noto a priori (*non finiti*)
 
-Viene quindi introdotto il **push down automaton** (PDA), la differenza rispetto a un [automa a stati finiti](rsf.md#riconoscere%20[linguaggi%20di%20tipo%203](linguaggi_modelli_computazionali/grammatiche_regolari.md),%20l'automa%20a%20stati%20finiti) e la presenza di uno stack quindi la funzione di stato $sfn$  considera anche l'insieme dell alfabeto interno Z come ingresso $sfn:A\times Z \rightarrow S\times Z^*$
+Viene quindi introdotto il **push down automaton** (PDA), la differenza rispetto a un [automa a stati finiti](linguaggi_modelli_computazionali/rsf.md#riconoscere%20[linguaggi%20di%20tipo%203](linguaggi_modelli_computazionali/grammatiche_regolari.md),%20l'automa%20a%20stati%20finiti) e la presenza di uno stack quindi la funzione di stato $sfn$  considera anche l'insieme dell alfabeto interno Z come ingresso $sfn:A\times Z \rightarrow S\times Z^*$
 
 $$
 <A, S, S_0, sfn, Z, Z_0>
@@ -146,6 +146,6 @@ L'analisi ricorsiva discendente e applicabile solo in caso in cui la grammatica 
 - memoria del passato (*stack*)
 - ma anche **parte del input ancora da consumare**
 
-Risulta quindi necessario definire un sottoinsieme di linguaggi di [tipo 2](grammatiche_tipo_2.md) che siano riconoscibili in maniera deterministica guardando al più $k$ simboli in avanti, e il caso delle [grammatiche llk](linguaggi_modelli_computazionali/grammatiche_llk.md)
+Risulta quindi necessario definire un sottoinsieme di linguaggi di [tipo 2](linguaggi_modelli_computazionali/grammatiche_tipo_2.md) che siano riconoscibili in maniera deterministica guardando al più $k$ simboli in avanti, e il caso delle [grammatiche llk](linguaggi_modelli_computazionali/grammatiche_llk.md)
 
 [PREVIOUS](linguaggi_modelli_computazionali/rsf.md) [NEXT](linguaggi_modelli_computazionali/grammatiche_llk.md)

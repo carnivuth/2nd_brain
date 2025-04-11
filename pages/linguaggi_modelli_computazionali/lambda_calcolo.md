@@ -16,7 +16,7 @@ $$
 
 dove $L$ può esprimere **qualunque struttura dati e qualunque algoritmo**
 
-$\rightarrow$ invece rappresenta una trasformazione atomica che applica la sostituzione di testo, ovvero nella espressione 
+$\rightarrow$ invece rappresenta una trasformazione atomica che applica la sostituzione di testo, ovvero nella espressione
 
 $$
 (\lambda x.x)y
@@ -24,7 +24,7 @@ $$
 
 La semantica risulta essere *sostituisci tutte le occorrenze del parametro $x$ nel corpo della funzione  $x$* con risultato $y$, l'operazione e detta **riduzione**
 
-Notare che la grammatica cosi definita e [**ambigua**](grammatiche_tipo_2.md#ambiguità%20di%20una%20frase) e derivazioni diverse di una stessa frase portano a semantiche diverse, per esempio la frase
+Notare che la grammatica cosi definita e [**ambigua**](linguaggi_modelli_computazionali/grammatiche_tipo_2.md#ambiguità%20di%20una%20frase) e derivazioni diverse di una stessa frase portano a semantiche diverse, per esempio la frase
 
 $$
 \lambda x . xy
@@ -32,7 +32,7 @@ $$
 
 può essere interpretata come:
 
-*applicare il parametro $y$ alla funzione di corpo $x$ e parametro formale $x$ $\lambda (x.x)y$*  
+*applicare il parametro $y$ alla funzione di corpo $x$ e parametro formale $x$ $\lambda (x.x)y$*
 
 oppure:
 
@@ -40,7 +40,7 @@ oppure:
 
 ## Lambda calcolo in javascript
 
-[javascript](linguaggi_modelli_computazionali/javascript.md) risulta essere pratico per l'implementazione del lambda calcolo in quanto vi e la possibilità di definire funzioni anonime e [chiusure](javascript.md#chiusure)
+[javascript](linguaggi_modelli_computazionali/javascript.md) risulta essere pratico per l'implementazione del lambda calcolo in quanto vi e la possibilità di definire funzioni anonime e [chiusure](linguaggi_modelli_computazionali/javascript.md#chiusure)
 
 ```javascript
 //il termine lambda x.<expr> puo infatti essere definito come
@@ -53,7 +53,7 @@ console.log(f(y))
 
 ## Funzioni a più argomenti
 
-Funzioni a piu argomenti possono essere rappresentate come funzioni di funzioni sfruttando il [currying](javascript.md#currying), di conseguenza una funzione a piu argomenti:
+Funzioni a piu argomenti possono essere rappresentate come funzioni di funzioni sfruttando il [currying](linguaggi_modelli_computazionali/javascript.md#currying), di conseguenza una funzione a piu argomenti:
 
 $$
 \lambda x.\lambda y.xy
@@ -65,11 +65,11 @@ Viene interpretata come una **funzione di parametro $x$ e corpo una funzione di 
 
 Esistono alcune funzioni notevoli cosi definite:
 
-- $I ::=\lambda x.x$ 
+- $I ::=\lambda x.x$
 - $K ::=\lambda x.\lambda y.x$
 - $S ::=\lambda n.\lambda z.\lambda s(nzs)$
 - $\omega ::=\lambda x.xx$
-- $\Omega ::=\omega\omega = (\lambda x.xx)(\lambda x.xx)$ 
+- $\Omega ::=\omega\omega = (\lambda x.xx)(\lambda x.xx)$
 
 >[!NOTE] l'operatore $\Omega$ riproduce sempre se stesso
 
@@ -97,7 +97,7 @@ console.log(f(0))
 
 ```javascript
 f=function(x){ return f(x); }
-f(2) 
+f(2)
 ```
 
 >[!ERROR] esplode lo stack, ovviamente
@@ -119,7 +119,7 @@ Per rappresentare la logica booleana sono necessari:
 
 Che in lambda calcolo  divengono:
 
-- T= $\lambda x.xy$ 
+- T= $\lambda x.xy$
 - F= $\lambda x.yy$
 - NOT=$\lambda x.xFT$
 - AND=$\lambda x.\lambda y.xyF$
@@ -150,8 +150,8 @@ Come mostrato prima la procedura di riduzione non e detto porti sempre a una for
 
 Basate sul concetto di sviluppare il prima possibile i termini sulla destra
 
-- Applicative order (rightmost innermost) 
-- Call by value 
+- Applicative order (rightmost innermost)
+- Call by value
 - Call by reference
 - Call by copy-restore
 ### Strategie lazy
@@ -167,7 +167,7 @@ Basate sul applicazione dell'argomento alla funzione piuttosto che alla risoluzi
 
 Il lambda calcolo e Turing equivalente, ovvero e in grado di rappresentare
 
-- i numeri naturali 
+- i numeri naturali
 -  il concetto di successore $succ(n)=n+1$
 - il concetto di proiezione $f(x,y)=y$
 - il concetto di composizione $f(g(x))$
@@ -203,7 +203,7 @@ function Y(f) {
 }
 ```
 
-E necessario simulare la [call by name](processi_computazionali.md#alternativa,%20modello%20call%20by%20name) come già visto
+E necessario simulare la [call by name](linguaggi_modelli_computazionali/processi_computazionali.md#alternativa,%20modello%20call%20by%20name) come già visto
 
 ### Combinatore di punto fisso rivisitato $z$
 
