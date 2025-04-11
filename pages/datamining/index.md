@@ -1,7 +1,7 @@
 # Datamining
 ## Contents
-- [ASSOCIATION_RULES](datamining/association_rules/ASSOCIATION_RULES.md)
-- [CLASSIFICATION](datamining/classification/CLASSIFICATION.md)
-- [CLUSTERING](datamining/clustering/CLUSTERING.md)
-- [BUSINESS_INTELLIGENCE_AND_DATA_WAREHOUSE](datamining/datamining_process/BUSINESS_INTELLIGENCE_AND_DATA_WAREHOUSE.md)
-- [DATA_PREPROCESSING](datamining/preprocessing/DATA_PREPROCESSING.md)
+- [ASSOCIATION_RULES](datamining/association_rules/association_rules.md)
+- [CLASSIFICATION](datamining/classification/classification.md)
+- [CLUSTERING](datamining/clustering/clustering.md)
+- [BUSINESS_INTELLIGENCE_AND_DATA_WAREHOUSE](datamining/datamining_process/business_intelligence_and_data_warehouse.md)
+- [DATA_PREPROCESSING](datamining/preprocessing/data_preprocessing.md)

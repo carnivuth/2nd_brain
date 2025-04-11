@@ -11,7 +11,7 @@ In order to obtain a reference frame for computing the descriptor of a keypoint 
 
 ![](computer_vision/Pasted_image_20240314123223.png)
 
-## [DOG](computer_vision/DOG_DETECTOR.md) CANONICAL ORIENTATION
+## [DOG](computer_vision/dog_detector.md) CANONICAL ORIENTATION
 
 Given a keypoint the orientation $\theta$ and magnitude $m$ is given by
 
@@ -30,4 +30,4 @@ then the highest peak of the histogram is considered for the canonical orientati
 
 ![](computer_vision/Pasted_image_20240314122805.png)
 
-[PREVIOUS](pages/local_features/DOG_DETECTOR.md) [NEXT](computer_vision/local_features/SIFT_DESCRIPTOR.md)
+[PREVIOUS](pages/local_features/dog_detector.md) [NEXT](computer_vision/local_features/sift_descriptor.md)

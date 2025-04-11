@@ -27,7 +27,7 @@ Per gli attributi:
 
 ## Determinare la selettività di un predicato
 
-Come visto prima e fondamentale determinare la [selettività](selezione.md#Stimare%20il%20numero%20di%20risultati) di un predicato per stimarne i record in output, **assumendo una distribuzione uniforme dei valori degli attributi**
+Come visto prima e fondamentale determinare la [selettività](selezione.md#stimare%20il%20numero%20di%20risultati) di un predicato per stimarne i record in output, **assumendo una distribuzione uniforme dei valori degli attributi**
 
 | predicato                                           | Fattore di selettivita                  |
 | --------------------------------------------------- | --------------------------------------- |
@@ -68,7 +68,7 @@ Una delle metriche più fondamentali da stimare e il numero di valori distinti d
 - collezionare statistiche accurate
 > troppo costoso
 - campionare i dati
-- usare metodi hash con modelli probabilistici (alla [cardenas](b+tree.md#Modello%20di%20cardenas))
+- usare metodi hash con modelli probabilistici (alla [cardenas](b+tree.md#modello%20di%20cardenas))
 
 ### Linear counting
 

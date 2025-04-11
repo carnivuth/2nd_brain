@@ -7,7 +7,7 @@ index: 17
 
 # Ottimizzazione delle interrogazioni
 
-Per rispondere a una query il DBMS necessita di determinare qual'e il piano di accesso ottimale per tirare su i dati richiesti dal disco, Il componente dedito a questa mansione e il [query optimizer](struttura_database.md#Struttura%20fisica) che data una query genera un **piano di accesso** ottimale
+Per rispondere a una query il DBMS necessita di determinare qual'e il piano di accesso ottimale per tirare su i dati richiesti dal disco, Il componente dedito a questa mansione e il [query optimizer](struttura_database.md#struttura%20fisica) che data una query genera un **piano di accesso** ottimale
 
 ```mermaid
 flowchart LR
@@ -53,7 +53,7 @@ La query viene sottoposta a una sequenza di step da cui viene generata la rappre
 
 viene controllata la sintassi e il rispetto di vincoli sulla base dati (*query esistenti*)
 
-l'output di questo componente e una **rappresentazione ad albero della query** simile alla forma sql con gli [Operatori logici](operatori_relazionali.md#Operatori%20logici)  come nodi dell'albero e le relazioni come foglie
+l'output di questo componente e una **rappresentazione ad albero della query** simile alla forma sql con gli [Operatori logici](operatori_relazionali.md#operatori%20logici)  come nodi dell'albero e le relazioni come foglie
 
 ![](tecnologie_basi_dati/Pasted%20image%2020250215163029.png)
 

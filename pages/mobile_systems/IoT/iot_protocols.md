@@ -13,12 +13,12 @@ IoT communication protocol can be divided in 2 groups
 
 layer 2 solutions that are used to communicate with the IoT nodes
 
-- [BLUETOOTH](mobile_systems/BLUETOOTH.md)
-- [ZIGBEE](mobile_systems/ZIGBEE.md)
+- [BLUETOOTH](mobile_systems/bluetooth.md)
+- [ZIGBEE](mobile_systems/zigbee.md)
 -
 
 ## Data exchange protocols
 
 protocols for data exchange that can be used at all the levels of the architecture
 
-[PREVIOUS](pages/IoT/IOT_DEVICES.md) [NEXT](mobile_systems/IoT/PUB_SUB_MODEL.md)
+[PREVIOUS](pages/iot/iot_devices.md) [NEXT](mobile_systems/iot/pub_sub_model.md)

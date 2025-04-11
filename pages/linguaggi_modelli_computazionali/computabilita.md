@@ -81,4 +81,4 @@ E proprio qui che sta la chiave del problema, dato che i linguaggi di programmaz
 
 >[!QUOTE] In questo modo un compilatore e in grado di arrestarsi e segnalare errore se una **frase non appartiene al linguaggio**
 
- [NEXT](linguaggi_modelli_computazionali/LINGUAGGI_GRAMMATICHE.md)
+ [NEXT](linguaggi_modelli_computazionali/linguaggi_grammatiche.md)

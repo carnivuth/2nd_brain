@@ -17,7 +17,7 @@ Il costo di queste operazioni e diviso in tre componenti:
 
 ## Costo di inserimento
 
-In caso di inserimento in [file non ordinato](gestione_disco.md#Heap%20file) e necessario considerare il costo di aggiunta in fondo al file  e di modifica degli indici:
+In caso di inserimento in [file non ordinato](gestione_disco.md#heap%20file) e necessario considerare il costo di aggiunta in fondo al file  e di modifica degli indici:
 
 - $2*Nindici$ se si fanno le modifiche in maniera indipendente
 - $2*\Phi(KI,L)$ se si ordinano i record per valore di chiave
@@ -26,7 +26,7 @@ In caso di inserimento in [file non ordinato](gestione_disco.md#Heap%20file) e n
 
 In caso di eliminazione il costo di modifica dei dati dipende da come si accede ai dati 
 
-- scansione ordinata $\Phi(E,P)$ con $E = f*N$ (*fare riferimento a [questa sezione](operatori_relazionali.md#Stime%20di%20costo%20di%20un%20operatore)*) 
+- scansione ordinata $\Phi(E,P)$ con $E = f*N$ (*fare riferimento a [questa sezione](operatori_relazionali.md#stime%20di%20costo%20di%20un%20operatore)*) 
 - scansione disordinata $EK*\Phi(N/NK,EP)$ con $EK = f*NK$ (*in caso di indici un-clustered*)
 
 Il costo di modifica conseguente degli indici e stimabile come segue

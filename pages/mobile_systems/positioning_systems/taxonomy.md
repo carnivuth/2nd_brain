@@ -39,4 +39,4 @@ D((positioning system\n capabilities))
 A & B & C --> D
 ```
 
-[PREVIOUS](pages/positioning_systems/BASE_TECHNIQUES.md) [NEXT](mobile_systems/positioning_systems/MANET_POSITIONING_SYSTEMS.md)
+[PREVIOUS](pages/positioning_systems/base_techniques.md) [NEXT](mobile_systems/positioning_systems/manet_positioning_systems.md)

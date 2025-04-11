@@ -19,7 +19,7 @@ so the network's layer dimensions increase exponentially with the image dimensio
 
 ## Convolution to the rescue
 
-Similarly to what is done in [classical computer vision](computer_vision/LTE_OPERATORS.md), where convolution is used to detect features in deep learning convolution can be used in layers to detect features with filters that are learned [minimizing a loss function](CREATING_A_CLASSIFIER.md#MINIMIZING_THE_LOSS_FUNCTION)
+Similarly to what is done in [classical computer vision](computer_vision/lte_operators.md), where convolution is used to detect features in deep learning convolution can be used in layers to detect features with filters that are learned [minimizing a loss function](creating_a_classifier.md#minimizing_the_loss_function)
 
 ## Convolutional layers
 
@@ -71,7 +71,7 @@ $$
 
 ### Chaining convolutional layers
 
-Convolutional layers are a form of linear transformation (they can be expressed by matrix) so in order to take advantage of network depth there is the need to chain them with some form of non-linearity (e.g. [relu](DEEP_LEARNING_AND_NEURAL_NETWORKS.md#ACTIVATION%20FUNCTION))
+Convolutional layers are a form of linear transformation (they can be expressed by matrix) so in order to take advantage of network depth there is the need to chain them with some form of non-linearity (e.g. [relu](deep_learning_and_neural_networks.md#activation%20function))
 
 ![](computer_vision/Pasted_image_20240504173234.png)
 
@@ -96,7 +96,7 @@ The pooling layer introduces some more hyperparameters such as dimensions of the
 
 ![](computer_vision/Pasted_image_20240504180437.png)
 
-Example of cnn's can be [LENET](LENET.md) and [ALEXNET](computer_vision/ALEXNET.md)
+Example of cnn's can be [LENET](lenet.md) and [ALEXNET](computer_vision/alexnet.md)
 ## Number of learnable parameters
 
 For a single convolutional layer the number of learnable parameter depends on kernel dimensions and input and output activation dimensions so the size of the $W$ array can be obtained as:
@@ -107,7 +107,7 @@ $$
 
 ## The problem with increasing depth
 
-Intuitively increasing depth should take better results at the price of computation cost but as shown by [VGG](computer_vision/VGG.md) in real testing this is not the case
+Intuitively increasing depth should take better results at the price of computation cost but as shown by [VGG](computer_vision/vgg.md) in real testing this is not the case
 
 ![](computer_vision/Pasted_image_20240504181754.png)
 
@@ -135,11 +135,11 @@ $$
 H(x) = F(x)+x
 $$
 
-An example of this can be found in [RESNET](computer_vision/RESNET.md)
+An example of this can be found in [RESNET](computer_vision/resnet.md)
 
 ### Global average pooling
 
-In order to reduce the number of parameter at the begin of the [FC layers](DEEP_LEARNING_AND_NEURAL_NETWORKS.md#FULLY%20CONNECTED%20LAYERS) the output can be processed by average pooling
+In order to reduce the number of parameter at the begin of the [FC layers](deep_learning_and_neural_networks.md#fully%20connected%20layers) the output can be processed by average pooling
 
 ![](computer_vision/Pasted%20image%2020241001145533.png)
 
@@ -176,4 +176,4 @@ So in order to train big CNN a 2 steps approach is adopted:
 - **pre-train** the deep network with a large, general purpose dataset
 - **fine-tune** specific parts of the network with the smaller specific one dataset
 
-[PREVIOUS](pages/machine_learning_cv/DEEP_LEARNING_AND_NEURAL_NETWORKS.md) [NEXT](computer_vision/machine_learning_cv/LENET.md)
+[PREVIOUS](pages/machine_learning_cv/deep_learning_and_neural_networks.md) [NEXT](computer_vision/machine_learning_cv/lenet.md)

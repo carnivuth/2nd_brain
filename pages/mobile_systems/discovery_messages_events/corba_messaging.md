@@ -12,8 +12,8 @@ Also the CORBA project offers support for messaging infrastructure, the messagin
 
 
 - **Asynchronous Messaging Interface (AMI)** Possibility of both polling and callback (*callback is passed as CORBA object, therefore even not in the same addressing space of client*)
-- **Time Independent Invocation (TII)** to specify which CORBA objects play the role of router for the message ( *implementation of the [store and forward](MESSAGING.md#PROTOCOL%20ASPECTS) principle* )
-## [LOCATORS](MESSAGING.md#LOCATORS) IN CORBA
+- **Time Independent Invocation (TII)** to specify which CORBA objects play the role of router for the message ( *implementation of the [store and forward](messaging.md#protocol%20aspects) principle* )
+## [LOCATORS](messaging.md#locators) IN CORBA
 
 locators are implemented trough Interoperable Object Reference (IOR), with different profiles depending on binding protocol
 
@@ -37,4 +37,4 @@ voidpollsomma (out int success, out int somma)
 
 ![](mobile_systems/Pasted%20image%2020240616160048.png)
 
-[PREVIOUS](pages/discovery_messages_events/JAVA_MESSAGE_SERVICE.md) [NEXT](mobile_systems/discovery_messages_events/EXTENSIBLE_MESSAGING_AND_PRESENCE_PROTOCOL.md)
+[PREVIOUS](pages/discovery_messages_events/java_message_service.md) [NEXT](mobile_systems/discovery_messages_events/extensible_messaging_and_presence_protocol.md)

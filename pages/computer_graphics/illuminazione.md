@@ -91,7 +91,7 @@ B -- per ogni poligiono --> A
 
 >[!NOTE] in questo caso la normale e definita a livello di vertice come somma delle normali delle superfici adiacenti
 
-qui un esempio di  [implementazione in webGL](webgl.md#IMPLEMENTAZIONE%20DELL'%20[ILLUMINAZIONE](computer_graphics/ILLUMINAZIONE.md))
+qui un esempio di  [implementazione in webGL](webgl.md#implementazione%20dell'%20[illuminazione](computer_graphics/illuminazione.md))
 
 ### Phong shading
 

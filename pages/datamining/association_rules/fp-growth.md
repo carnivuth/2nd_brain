@@ -35,4 +35,4 @@ Then, FP-Growth procedes with a ***bottom-up *strategy**:
 
 
 
-[PREVIOUS](datamining/APRIORI_ALGORITHM.md)
+[PREVIOUS](datamining/apriori_algorithm.md)

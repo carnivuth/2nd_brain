@@ -59,4 +59,4 @@ $$
 
 ![](computer_vision/Pasted_image_20240229122932.png)
 
-[PREVIOUS](pages/image_filtering/IMAGE_FILTERS.md) [NEXT](computer_vision/image_filtering/GAUSSIAN_FILTER.md)
+[PREVIOUS](pages/image_filtering/image_filters.md) [NEXT](computer_vision/image_filtering/gaussian_filter.md)

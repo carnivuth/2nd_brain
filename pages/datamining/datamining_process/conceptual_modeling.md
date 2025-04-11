@@ -42,4 +42,4 @@ index: 5
 ![](datamining/Pasted_image_20231010165953.png)
 
 
-[PREVIOUS](DATA_WAREHOUSE_ARCHITECTURES.md) [NEXT](datamining/CRISP_DM_METHODOLOGY.md)
+[PREVIOUS](data_warehouse_architectures.md) [NEXT](datamining/crisp_dm_methodology.md)

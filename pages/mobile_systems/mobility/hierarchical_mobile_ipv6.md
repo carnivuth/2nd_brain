@@ -34,4 +34,4 @@ the handoff can be
 
 The mobile nodes organizes themselves in MAPS dynamically based on **service rate** and **mobility rate**
 
-[PREVIOUS](pages/mobility/MOBILE_IP.md) [NEXT](mobile_systems/mobility/PROXY_HIERARCHICAL_MOBILE_IPV6.md)
+[PREVIOUS](pages/mobility/mobile_ip.md) [NEXT](mobile_systems/mobility/proxy_hierarchical_mobile_ipv6.md)

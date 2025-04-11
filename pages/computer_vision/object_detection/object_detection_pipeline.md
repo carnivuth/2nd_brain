@@ -25,4 +25,4 @@ A --> B & C
 end
 ```
 
-[PREVIOUS](pages/object_detection/GENERALIZED_HUGH_TRANSFORM.md) [NEXT](computer_vision/machine_learning_cv/MACHINE_LEARNING_IN_COMPUTER_VISION.md)
+[PREVIOUS](pages/object_detection/generalized_hugh_transform.md) [NEXT](computer_vision/machine_learning_cv/machine_learning_in_computer_vision.md)

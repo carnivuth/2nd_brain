@@ -4,7 +4,7 @@
 
 Capacità di un Impresa di impossessarsi delle rendite dipendenti dai propri processi innovativi (non farsi rubare le idee)
 
-l'appropriabilità e funzione della complessità della **tecnologia impiegata** e dei **[meccanismi di protezione](gip/STRUMENTI%20DI%20PROPRIETÀ%20INTELLETTUALE.md)** posti a sua difesa 
+l'appropriabilità e funzione della complessità della **tecnologia impiegata** e dei **[meccanismi di protezione](gip/strumenti%20di%20proprietà%20intellettuale.md)** posti a sua difesa 
 
 elementi ad alta appropriabilità possono essere:
 
@@ -28,7 +28,7 @@ sono le aziende pionieristiche che danno per prime il via a un processo di innov
 
 #### Vantaggi
 
-- **sostenibilità del primato tecnologico**, per mezzo di [strumenti legali](gip/STRUMENTI%20DI%20PROPRIETÀ%20INTELLETTUALE.md) è possibile proteggere la propria innovazione da i competitors e avere tutti i profitti iniziali.
+- **sostenibilità del primato tecnologico**, per mezzo di [strumenti legali](gip/strumenti%20di%20proprietà%20intellettuale.md) è possibile proteggere la propria innovazione da i competitors e avere tutti i profitti iniziali.
 
 - vantaggi generali come controllo del mercato, reputazione verso i clienti, costi di sostituzione ridotti, accesso agevolato a scarse risorse, curva di apprendimento esclusiva, scelta del canale di distribuzione, definizione dello standard.
 
@@ -48,7 +48,7 @@ sono le aziende pionieristiche che danno per prime il via a un processo di innov
 	- sviluppo di prodotti complementari
 	- approvazione delle autorità possibilmente difficile.
 
-Per un first mover è fondamentale avere la capacità di appropriarsi dei guadagni derivanti dall'innovazione, per mezzo di [strumenti legali](gip/STRUMENTI%20DI%20PROPRIETÀ%20INTELLETTUALE.md), conoscenze implicite, creazione di standard tecnologici
+Per un first mover è fondamentale avere la capacità di appropriarsi dei guadagni derivanti dall'innovazione, per mezzo di [strumenti legali](gip/strumenti%20di%20proprietà%20intellettuale.md), conoscenze implicite, creazione di standard tecnologici
 
 ### Follower
 

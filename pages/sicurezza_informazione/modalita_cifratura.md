@@ -11,7 +11,7 @@ Esistono diverse modalità per l'implementazione di cifrari a blocchi:
 
 ## Electronic code book (ecb)
 
-Modalità standard di implementazione dei [cifrari a blocchi](cifrari_simmetrici.md#CIFRARI%20A%20BLOCCHI) questa si presenta a diverse vulnerabilità tra cui:
+Modalità standard di implementazione dei [cifrari a blocchi](cifrari_simmetrici.md#cifrari%20a%20blocchi) questa si presenta a diverse vulnerabilità tra cui:
 
 - blocchi identici di testo in chiaro producono blocchi identici di testo cifrato
 - la cifratura ECB risulta malleabile, e possibile modificare il cifrato per ottenere un decifrato voluto dall'attaccante
@@ -67,7 +67,7 @@ M[c3]
 end
 ```
 
-CBC fa utilizzo di un vettore di inizializzazione per impedire la ripetizione di blocchi cifrati, il vettore $IV$ deve essere usato una sola volta, deve essere casuale e imprevedibile (*proprietà di un [PRNG sicuro](Note%20Domande.md#PRNG%20crittograficamente%20sicuri)*)
+CBC fa utilizzo di un vettore di inizializzazione per impedire la ripetizione di blocchi cifrati, il vettore $IV$ deve essere usato una sola volta, deve essere casuale e imprevedibile (*proprietà di un [PRNG sicuro](note%20domande.md#prng%20crittograficamente%20sicuri)*)
 
 ### Ecb vs cbc
 
@@ -80,7 +80,7 @@ CBC fa utilizzo di un vettore di inizializzazione per impedire la ripetizione di
 
 ## Cipher feedback (cfb)
 
-Modalità di cifratura che si rifa ai [cifrari a flusso autosincronizzanti](cifrari_simmetrici.md#CIFRARI%20A%20FLUSSO) con l'utilizzo di un vettore $IV$  molto adatta alla comunicazione di flussi di dati.
+Modalità di cifratura che si rifa ai [cifrari a flusso autosincronizzanti](cifrari_simmetrici.md#cifrari%20a%20flusso) con l'utilizzo di un vettore $IV$  molto adatta alla comunicazione di flussi di dati.
 Il flusso di chiave viene ottenuto per mezzo di uno shift register (inizializzato per mezzo di $IV$) che viene cifrato con la chiave concordata
 
 ## Output feedback (ofb)

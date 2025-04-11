@@ -18,7 +18,7 @@ tags: []
 
 si dimostra per mezzo della stringa $d^ncc^n$ in cui non e identificabile il pezzo centrale per effettuare la scomposizione nei tre pezzi $xwy$ in quanto il pezzo centrale ripetuto non e in grado di generare le due parti della stringa
 
->[!NOTE] si vedeva subito anche dal fatto che la prima regola di produzione presenta [self embedding](GRAMMATICHE_TIPO_2.md#SELF%20EMBEDDING) e il corrispondente automa a stati finiti avrebbe avuto infiniti stati
+>[!NOTE] si vedeva subito anche dal fatto che la prima regola di produzione presenta [self embedding](grammatiche_tipo_2.md#self%20embedding) e il corrispondente automa a stati finiti avrebbe avuto infiniti stati
 
 ### Calcolo dei [director symbols set](grammatiche_llk.md#director%20symbols%20set)
 
@@ -33,7 +33,7 @@ si dimostra per mezzo della stringa $d^ncc^n$ in cui non e identificabile il pez
 
 - $C\rightarrow Cd$
 
-si ha un conflitto nei [director symbol set](GRAMMATICHE_LLK.md#DIRECTOR%20SYMBOLS%20SET) che riguardano il metasimbolo $C$ dato che si ha $DSS(C \rightarrow c)$ non disgiunto con $DSS(C\rightarrow Cd)$ la grammatica non e $LL(1)$
+si ha un conflitto nei [director symbol set](grammatiche_llk.md#director%20symbols%20set) che riguardano il metasimbolo $c$ dato che si ha $dss(c \rightarrow c)$ non disgiunto con $dss(c\rightarrow cd)$ la grammatica non e $ll(1)$
 
 > mostrare che la ricorsione sinistra si può rimuovere ma si ottiene una grammatica diversa
 
@@ -69,7 +69,7 @@ La ricorsione sinistra e rimovibile ma si ottiene una grammatica diversa, non ot
 - $CTXLR(0)(C \rightarrow c) =((d^*S)a^*+d^*B)^*c$
 - $CTXLR(0)(C \rightarrow Cd) = ((d^*S)a^*+d^*B)^*Cd$
 
-La grammatica in questione non risulta essere [lr(0)](GRAMMATICHE_LRK.md#ANALISI%20$LR\(0\)$) in quanto la regola di produzione $B \rightarrow \epsilon$ genera un conflitto shift/reduce nell'automa
+La grammatica in questione non risulta essere [lr(0)](grammatiche_lrk.md#analisi%20$lr\(0\)$) in quanto la regola di produzione $B \rightarrow \epsilon$ genera un conflitto shift/reduce nell'automa
 
 > [!NOTE] per essere $LR(0)$ non devono esserci ricorsioni destre del tipo $A\rightarrow aA|a$ ne produzioni dello stesso metasimbolo che iniziano con la stessa forma di frase e si differiscono per un terminale $S\rightarrow B|Ba$, neanche le produzioni della forma $B\rightarrow bB|\epsilon$ sono corrette in quanto generano nel automa conflitti shift/reduce per via dell $\epsilon$-mossa
 
@@ -136,7 +136,7 @@ lesect(a,"c")(console.log)
 
 ## Il cacciavite del sistemista (`grep` dei poveri)
 
-con il potentissimo costrutto `lesect`  e la possibilità offerta da javascript di [costruire funzioni dinamicamente](JAVASCRIPT.md#COSTRUIRE%20FUNZIONI%20DINAMICAMENTE) si possono ricreare molti tool unix semplicemente modificando un file,
+con il potentissimo costrutto `lesect`  e la possibilità offerta da javascript di [costruire funzioni dinamicamente](javascript.md#costruire%20funzioni%20dinamicamente) si possono ricreare molti tool unix semplicemente modificando un file,
 
 ```javascript
 const readline = require('readline');

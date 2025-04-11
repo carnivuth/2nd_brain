@@ -59,4 +59,4 @@ index: 4
 | more logical separation between the problem's management | more data redundancy |
 
 
-[PREVIOUS](DATA_LAKES.md) [NEXT](datamining/CONCEPTUAL_MODELING.md)
+[PREVIOUS](data_lakes.md) [NEXT](datamining/conceptual_modeling.md)

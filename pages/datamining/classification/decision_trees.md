@@ -87,7 +87,7 @@ $$
 
 possible causes of over-fitting can be the presence of noise on the data or a bad representative training set of the $X$ dataset.
 
-One of the possible solutions to overfitting is [decision tree pruning](datamining/DECISION_TREE_PRUNING.md)
+One of the possible solutions to overfitting is [decision tree pruning](datamining/decision_tree_pruning.md)
 
 ### Choosing attribute for split with the highest purity
 
@@ -122,4 +122,4 @@ ME(p) = 1 - max_{j}(f_{pj})
 $$
 
 
-[PREVIOUS](PERFORMANCE_OF_A_CLASSIFIER.md) [NEXT](datamining/DECISION_TREE_PRUNING.md)
+[PREVIOUS](performance_of_a_classifier.md) [NEXT](datamining/decision_tree_pruning.md)

@@ -44,4 +44,4 @@ boundaries on the curve $z$ depends on the desired confidence level $\alpha$
 
 
 
- [NEXT](datamining/CLASSIFICATION.md)
+ [NEXT](datamining/classification.md)

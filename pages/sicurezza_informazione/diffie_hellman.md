@@ -38,7 +38,7 @@ $$
 K \space calcolata \space da \space A
 $$
 
-Se l'attaccante ascoltasse la conversazione non sarebbe a conoscenza dei parametri $a,b$ necessari per risalire alla chiave di cifratura, con i parametri noti l'attaccante dovrebbe risolvere il problema noto della teoria dei numeri [calcolo del logaritmo discreto](problemi_difficili.md#CALCOLO%20DEL%20LOGARITMO%20DISCRETO)
+Se l'attaccante ascoltasse la conversazione non sarebbe a conoscenza dei parametri $a,b$ necessari per risalire alla chiave di cifratura, con i parametri noti l'attaccante dovrebbe risolvere il problema noto della teoria dei numeri [calcolo del logaritmo discreto](problemi_difficili.md#calcolo%20del%20logaritmo%20discreto)
 
 ### Dh problematiche
 

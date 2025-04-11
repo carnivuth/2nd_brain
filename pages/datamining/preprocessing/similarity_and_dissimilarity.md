@@ -63,4 +63,4 @@ $$
 $$
 
 
-[PREVIOUS](TYPE_CONVERSIONS.md) [NEXT](datamining/DISTANCES.md)
+[PREVIOUS](type_conversions.md) [NEXT](datamining/distances.md)

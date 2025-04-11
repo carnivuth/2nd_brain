@@ -7,7 +7,7 @@ index: 8
 
 # Rivest–shamir–adleman (rsa)
 
-cifrario asimmetrico che sfrutta il problema della [fattorizzazione di un numero primo](problemi_difficili.md#FATTORIZZAZIONE%20DI%20UN%20NUMERO%20PRIMO) in cui La chiave pubblica e formata da due numeri $n,e$ (*noti*) e la privata da $n,d$ (*privati*)
+cifrario asimmetrico che sfrutta il problema della [fattorizzazione di un numero primo](problemi_difficili.md#fattorizzazione%20di%20un%20numero%20primo) in cui la chiave pubblica e formata da due numeri $n,e$ (*noti*) e la privata da $n,d$ (*privati*)
 
 ## Generazione delle chiavi
 

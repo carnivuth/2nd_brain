@@ -7,7 +7,7 @@ index: 4
 
 # Cifrari simmetrici
 
-Cifrari che si basano su algoritmi simmetrici (*e.g. [chiavi simmetriche](chiavi.md#CHIAVI%20SIMMETRICHE)*). Nella costruzione dei cifrari simmetrici si seguono due principi fondamentali:
+Cifrari che si basano su algoritmi simmetrici (*e.g. [chiavi simmetriche](chiavi.md#chiavi%20simmetriche)*). Nella costruzione dei cifrari simmetrici si seguono due principi fondamentali:
 
 - **principio di Kerckof**: la sicurezza deve dipendere dalla chiave e non dall'algoritmo
 
@@ -52,7 +52,7 @@ end
 CIFRATURA <--sincronismo --> DECIFRATURA
 ```
 
-Un cifrario a flusso richiede l'utilizzo di [PRNG sicuri](random_number_generator.md#CRYPTOGRAPHICALLY%20SECURE%20PSEUDO%20RANDOM%20BIT%20GENERATOR%20(CSPRNG)) e la perfetta sincronia tra le due parti nell'effettuare la decifratura, inoltre essendo che si generano tanti bit di chiave quanti sono i bit del messaggio e necessario che il PRNG sia in grado di supportare un alto flusso di chiavi.
+Un cifrario a flusso richiede l'utilizzo di [PRNG sicuri](random_number_generator.md#cryptographically%20secure%20pseudo%20random%20bit%20generator%20(csprng)) e la perfetta sincronia tra le due parti nell'effettuare la decifratura, inoltre essendo che si generano tanti bit di chiave quanti sono i bit del messaggio e necessario che il PRNG sia in grado di supportare un alto flusso di chiavi.
 
 Un elemento fondamentale per la sicurezza dei cifrari a flusso e l' imprevedibilità del flusso di chiave, i PRNG anche se sicuri non possono garantirla per un periodo $T$ oltre una certa soglia.
 

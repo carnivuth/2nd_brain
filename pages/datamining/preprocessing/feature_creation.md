@@ -15,4 +15,4 @@ the process of creating new feature from existing ones, the goals of this transf
 ![](datamining/Pasted_image_20240107163800.png)
 
 
-[PREVIOUS](datamining/SAMPLING.md)
+[PREVIOUS](datamining/sampling.md)

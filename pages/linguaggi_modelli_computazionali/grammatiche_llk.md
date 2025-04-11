@@ -62,8 +62,8 @@ Condizione necessaria e sufficiente per ottenere una grammatica $LL(1)$ e che il
 
 ## Grammatiche $ll(1)$ il problema della [il problema della ricorsione sinistra](grammatiche_tipo_2.md#il%20problema%20della%20ricorsione%20sinistra)
 
-Le grammatiche $LL(k)$ non sono compatibili con la ricorsione a sinistra delle produzioni $A \rightarrow A\alpha | a$, che tuttavia [può essere sempre rimossa](GRAMMATICHE_TIPO_2.md#ELIMINAZIONE%20DELLA%20RICORSIONE%20SINISTRA) a patto di poter fare a meno della sua capacita espressiva (*no necessita di dare una semantica alla frase*)
+Le grammatiche $LL(k)$ non sono compatibili con la ricorsione a sinistra delle produzioni $A \rightarrow A\alpha | a$, che tuttavia [può essere sempre rimossa](grammatiche_tipo_2.md#eliminazione%20della%20ricorsione%20sinistra) a patto di poter fare a meno della sua capacita espressiva (*no necessita di dare una semantica alla frase*)
 
-questa problematica può essere risolta adottando tecniche di analisi più avanzate come le [grammatiche LR(k)](linguaggi_modelli_computazionali/GRAMMATICHE_LRK.md)
+questa problematica può essere risolta adottando tecniche di analisi più avanzate come le [grammatiche LR(k)](linguaggi_modelli_computazionali/grammatiche_lrk.md)
 
-[PREVIOUS](pages/PDA.md) [NEXT](linguaggi_modelli_computazionali/INTERPRETI.md)
+[PREVIOUS](pages/pda.md) [NEXT](linguaggi_modelli_computazionali/interpreti.md)

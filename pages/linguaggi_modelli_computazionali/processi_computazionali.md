@@ -97,7 +97,7 @@ si ha quindi che le variabili di una chiusura devono mantenere **il tempo di vit
 
 #### Chiusura lessicale vs chiusura dinamica
 
-Se il linguaggio supporta le chiusure occorre definire quale sia [l'ambiente](INTERPRETI.md#ENVIRONMENT) della funzione stessa in cui questo deve operare:
+Se il linguaggio supporta le chiusure occorre definire quale sia [l'ambiente](interpreti.md#environment) della funzione stessa in cui questo deve operare:
 
 - si ha una catena di ambienti definita dalla struttura del programma **CATENA LESSICALE**
 - e una catena di ambienti generata a run-time data dalla sequenza di chiamate della funzione **CATENA DINAMICA** 
@@ -224,4 +224,4 @@ object CallByName {
 }
 ```
 
-[PREVIOUS](pages/GRAMMATICHE_LRK.md) [NEXT](linguaggi_modelli_computazionali/JAVASCRIPT.md)
+[PREVIOUS](pages/grammatiche_lrk.md) [NEXT](linguaggi_modelli_computazionali/javascript.md)

@@ -35,25 +35,25 @@ A common knowledge base (blackboard) is updated iteratively by different knowled
 Different nodes publish data to a broker that can be received from different nodes acting as subscribers
 
 other types of patterns specific for mobile nodes are
-- [COMMUNICATION_PATTERNS](mobile_systems/COMMUNICATION_PATTERNS.md)
-- [RESOURCE_MANAGEMENT_PATTERNS](mobile_systems/RESOURCE_MANAGEMENT_PATTERNS.md)
-- [DISTRIBUTION_PATTERNS](mobile_systems/DISTRIBUTION_PATTERNS.md)
+- [COMMUNICATION_PATTERNS](mobile_systems/communication_patterns.md)
+- [RESOURCE_MANAGEMENT_PATTERNS](mobile_systems/resource_management_patterns.md)
+- [DISTRIBUTION_PATTERNS](mobile_systems/distribution_patterns.md)
 Tre categorie principali:
 - per la **distribuzione**
-	- [RemoteFacade](mobile_systems/RemoteFacade.md)
-	- [DataTransferObj](mobile_systems/DataTransferObj.md)
-	- [remoteProxy](mobile_systems/remoteProxy.md)
+	- [RemoteFacade](mobile_systems/remotefacade.md)
+	- [DataTransferObj](mobile_systems/datatransferobj.md)
+	- [remoteProxy](mobile_systems/remoteproxy.md)
 	- [observer](mobile_systems/observer.md)
 - per la **gestione delle risorse** e la **sincronizzazione**
-	- [session token](mobile_systems/sessTok.md)
+	- [session token](mobile_systems/sesstok.md)
 	- [caching](mobile_systems/caching.md)
 	- [eager](mobile_systems/eager.md) acquisition
 	- [lazy](mobile_systems/lazy.md) acquisition
 	- [synchronization](mobile_systems/synch.md)
-	- [rendezvous & state transfer](mobile_systems/stateTransfer.md)
+	- [rendezvous & state transfer](mobile_systems/statetransfer.md)
 - per la **comunicazione**
-	- [connection factory](mobile_systems/connFact.md)
-	- [multiplexed connection](mobile_systems/multiplexedConn.md)
-	- [client-initiated connection for push model](mobile_systems/clientInit.md)
+	- [connection factory](mobile_systems/connfact.md)
+	- [multiplexed connection](mobile_systems/multiplexedconn.md)
+	- [client-initiated connection for push model](mobile_systems/clientinit.md)
 
-[PREVIOUS](pages/mobile_middleware/MOBILE_MIDDLEWARE_PRINCIPLES.md) [NEXT](mobile_systems/mobile_middleware/DISTRIBUTION_PATTERNS.md)
+[PREVIOUS](pages/mobile_middleware/mobile_middleware_principles.md) [NEXT](mobile_systems/mobile_middleware/distribution_patterns.md)

@@ -71,9 +71,9 @@ top_operator --> filter --> Relation_R
 L'operatore top può essere implementato in due modalità
 
 - **top-scan** la stream di tuple in ingresso e già ordinata e di conseguenza e sufficiente fornire in output le prime $k$ tuple 
-> [!TIP] questo operatore puo lavorare in [pipeline](ottimizzazione_interrogazioni.md#Implementare%20l'esecuzione%20in%20pipeline%20Interfaccia%20a%20iteratore)
+> [!TIP] questo operatore puo lavorare in [pipeline](ottimizzazione_interrogazioni.md#implementare%20l'esecuzione%20in%20pipeline%20interfaccia%20a%20iteratore)
 - **top-sort** la stream non e ordinata e l'operatore la deve ordinare per poi fornire le tuple in output
->[!WARNING] questa implementazione non può lavorare in [pipeline](ottimizzazione_interrogazioni.md#Implementare%20l'esecuzione%20in%20pipeline%20Interfaccia%20a%20iteratore) in quanto necessita di fare [sorting](tecnologie_basi_dati/sorting.md)
+>[!WARNING] questa implementazione non può lavorare in [pipeline](ottimizzazione_interrogazioni.md#implementare%20l'esecuzione%20in%20pipeline%20interfaccia%20a%20iteratore) in quanto necessita di fare [sorting](tecnologie_basi_dati/sorting.md)
 
 ### top-sort operator
 
@@ -129,8 +129,8 @@ Il problema diventa:
 
 ## Risolvere query top-$k$ con indici
 
-Una possibilità per risolvere le query top-$k$ e quello di usare [b+tree multiattributo](b+tree.md#Ricerche%20multi%20attributo), questa soluzione non e ottimale. e molto meglio usare indici multidimensionali come i [r-tree](tecnologie_basi_dati/r-tree.md)
->[!NOTE] i b+tree multi-attributo mostrano gli stessi problemi che si hanno in caso di [window query](indici_multidimensionali.md#Limiti%20del%20[b+tree](tecnologie_basi_dati/b+tree.md))
+Una possibilità per risolvere le query top-$k$ e quello di usare [b+tree multiattributo](b+tree.md#ricerche%20multi%20attributo), questa soluzione non e ottimale. e molto meglio usare indici multidimensionali come i [r-tree](tecnologie_basi_dati/r-tree.md)
+>[!NOTE] i b+tree multi-attributo mostrano gli stessi problemi che si hanno in caso di [window query](indici_multidimensionali.md#limiti%20del%20[b+tree](tecnologie_basi_dati/b+tree.md))
 
 ###  Determinare se un nodo contiene foglie utili: $d_{MIN}$ limite
 

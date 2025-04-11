@@ -29,7 +29,7 @@ $$
 O' = p_1,u = p_2 - p_1,v = p_3 - p_1
 $$
 
-in questo sistema di riferimento tutti i punti vengono rappresentati da [combinazioni affini](trasformazioni_geometriche.md#COMBINAZIONE%20AFFINE) dei 3 vertici del poligono
+in questo sistema di riferimento tutti i punti vengono rappresentati da [combinazioni affini](trasformazioni_geometriche.md#combinazione%20affine) dei 3 vertici del poligono
 
 $$
 p = \alpha p_1 +\beta p_2 +\gamma p_3, \space con

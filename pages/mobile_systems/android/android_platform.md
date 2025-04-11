@@ -36,7 +36,7 @@ so for this **android is not a fully compatible linux extension**
 
 ## Power management with wakelocks
 
-applications can through the wakelocks java API can influence the behavior of the kernel power management ( *this is an example of [cross layering pattern](MOBILE_MIDDLEWARE_PRINCIPLES.md#CROSS%20LAYERING%20PRINCIPLE)* )
+applications can through the wakelocks java API can influence the behavior of the kernel power management ( *this is an example of [cross layering pattern](mobile_middleware_principles.md#cross%20layering%20principle)* )
 
 ## Not all the system is java based
 
@@ -61,10 +61,10 @@ Android offers to developers some main concept to interact with the android runt
 
 Other components are available
 
-- **Activity manager** to handle [activity lifecicle](ACTIVITY.md#ACTIVITY%20LIFECICLE) and application management
+- **Activity manager** to handle [activity lifecicle](activity.md#activity%20lifecicle) and application management
 - **package manager** to handle application management
 - **Window Manager & View System**: handle windows on the screen
 - **Resource Manager & Content Provider**: handle system resource and data access to them (*e.g. sqlite databases, filesystem*)
 - **Telephony, Notification & Location Manager**
 
-[PREVIOUS](pages/mobile_middleware/COMMUNICATION_PATTERNS.md) [NEXT](mobile_systems/android/ACTIVITY.md)
+[PREVIOUS](pages/mobile_middleware/communication_patterns.md) [NEXT](mobile_systems/android/activity.md)

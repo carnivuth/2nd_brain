@@ -15,4 +15,4 @@ Architectural pattern that relies on the client server communication model in or
 
 often implemented over HTTP, it uses the HTTP methods to make interactions and URI to identify actions or resources on the server side, data are represented in open format like XML or JSON
 
-[PREVIOUS](pages/IoT/REQUEST_RESPONSE.md) [NEXT](mobile_systems/IoT/COAP.md)
+[PREVIOUS](pages/iot/request_response.md) [NEXT](mobile_systems/iot/coap.md)

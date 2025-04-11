@@ -9,15 +9,15 @@ index: 13
 
 # Stereo camera calibration
 
-##  WHY NOT CALIBRATE BOTH CAMERAS WITH [ZHANG](computer_vision/ZHANG_METHOD.md)
+##  WHY NOT CALIBRATE BOTH CAMERAS WITH [ZHANG](computer_vision/zhang_method.md)
 
-In order to calibrate a stereo camera system the $PPM$ alone is not sufficient, the rigid motion between cameras is also needed, a first approach could be to compute the [zhang's method](computer_vision/ZHANG_METHOD.md) for both cameras but this approach as one major flaw, is not robust to noise
+In order to calibrate a stereo camera system the $PPM$ alone is not sufficient, the rigid motion between cameras is also needed, a first approach could be to compute the [zhang's method](computer_vision/zhang_method.md) for both cameras but this approach as one major flaw, is not robust to noise
 
 ## Better solution: guessing
 
 a more robust solution is to make an initial guess of $R$ and $T$ by **taking pictures of the same planar pattern** from the same position with both cameras and then refine the guess by a non-linear minimization of the reprojection error.
 
-The first guess is obtained as the median between the $R_{i}$ $T_{i}$ computed by chaining the [transformations](PERSPECTIVE_PROJECTION_MATRIX.md#ACCOUNTING%20FOR%20ROTATION%20AND%20TRANSLATION) $G_i(G_j^{-1})$
+The first guess is obtained as the median between the $R_{i}$ $T_{i}$ computed by chaining the [transformations](perspective_projection_matrix.md#accounting%20for%20rotation%20and%20translation) $g_i(g_j^{-1})$
 
 Then the guess is refined with [Levenberg-Marquardt algorithm](https://it.wikipedia.org/wiki/Algoritmo_di_Levenberg-Marquardt)
 
@@ -36,7 +36,7 @@ $$
 ## Rectification
 
 For better searching for correspondent points the images need to be perfectly aligned, this is impossible with mechanical alignment so the images are **rectified**
-This is done by virtually rotating the calibrated cameras (e.g. redefining the $PPMs$ ) about their optical center through an [homography](computer_vision/HOMOGRAPHY.md)
+This is done by virtually rotating the calibrated cameras (e.g. redefining the $PPMs$ ) about their optical center through an [homography](computer_vision/homography.md)
 
 ### Constructing the $a$ matrix
 
@@ -75,7 +75,7 @@ $$
 
 ### Rectification homographies
 
-Both images go trough a rotation and a change of intrinsic parameter, so they are related to the originals through [homographies](computer_vision/HOMOGRAPHY.md)
+Both images go trough a rotation and a change of intrinsic parameter, so they are related to the originals through [homographies](computer_vision/homography.md)
 
 So for the left camera:
 
@@ -107,7 +107,7 @@ $$
 
 ## Getting back to 3d coordinates
 
-with a calibrated stereo system the [depth information](computer_vision/STEREO_IMAGE_ACQUISITION.md) and also 3D coordinates can be estimated, so given the relation between 3D point and image points
+with a calibrated stereo system the [depth information](computer_vision/stereo_image_acquisition.md) and also 3D coordinates can be estimated, so given the relation between 3D point and image points
 
 $$
 p^{*} = \begin{bmatrix} a_{u}x +u_{0}z \\ a_{v}y +v_{0}z \\ z \end{bmatrix} = AP =
@@ -173,4 +173,4 @@ $$
 p_{2} = A_{2}T_{1\rightarrow 2}(zA_{1}^{-1}p_{1}) \space with \space T_{1\rightarrow 2}(P_{1}) =RP_{1} + T
 $$
 
-[PREVIOUS](pages/image_formation_acquisition/ZHANG_METHOD.md) [NEXT](computer_vision/image_formation_acquisition/IMAGE_WARPING.md)
+[PREVIOUS](pages/image_formation_acquisition/zhang_method.md) [NEXT](computer_vision/image_formation_acquisition/image_warping.md)

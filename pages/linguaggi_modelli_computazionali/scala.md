@@ -3,7 +3,7 @@ index: 19
 ---
 # Scala
 
-Scala e uno degli esempi più fiorenti di [linguaggio blended](linguaggi_modelli_computazionali/LINGUAGGI_BLENDED.md), riprende molte caratteristiche dei linguaggi funzionali e possiede inoltre un type system forte 
+Scala e uno degli esempi più fiorenti di [linguaggio blended](linguaggi_modelli_computazionali/linguaggi_blended.md), riprende molte caratteristiche dei linguaggi funzionali e possiede inoltre un type system forte 
 
 ## Caratteristiche
 
@@ -171,7 +171,7 @@ class Counter(v:Int) {
 
 ### Funzioni e chiusure
 
-Il pieno supporto alle funzioni come [first-class objects](PROCESSI_COMPUTAZIONALI.md#FUNZIONI%20COME%20FIRST%20CLASS%20ENTITIES) comporta un altrettanto pieno supporto alle [chiusure](PROCESSI_COMPUTAZIONALI.md#CHIUSURA), per cui viene preferita la chiusura lessicale e le variabili libere **vengono chiuse per mezzo di riferimenti alle variabili esterne**, ciò significa che risentono dei cambiamenti ad esse
+Il pieno supporto alle funzioni come [first-class objects](PROCESSI_COMPUTAZIONALI.md#FUNZIONI%20COME%20FIRST%20CLASS%20ENTITIES) comporta un altrettanto pieno supporto alle [chiusure](processi_computazionali.md#chiusura), per cui viene preferita la chiusura lessicale e le variabili libere **vengono chiuse per mezzo di riferimenti alle variabili esterne**, ciò significa che risentono dei cambiamenti ad esse
 
 ### Conversioni implicite
 
@@ -325,9 +325,9 @@ object Point{
 Scala ha tutti gli strumenti per consentire la definizione di costrutti builtin:
 
 - block like syntax
-- [currying](JAVASCRIPT.md#CURRYING)
-- [call by name](PROCESSI_COMPUTAZIONALI.md#ALTERNATIVA,%20MODELLO%20CALL%20BY%20NAME)
-- [chiusura](PROCESSI_COMPUTAZIONALI.md#CHIUSURA)
+- [currying](javascript.md#currying)
+- [call by name](processi_computazionali.md#alternativa,%20modello%20call%20by%20name)
+- [chiusura](processi_computazionali.md#chiusura)
 
 quindi per creare il costrutto `repeat`:
 
@@ -438,11 +438,11 @@ def append[U >: T](element: U) {..}
 
 ## Tipo `option`
 
-Scala introduce il tipo `Option` come analogo degli optional di java, questo per evitare argomenti passati come null (*si ricorda che ciò in scala non  e possibile per la [gerarchia di tipi](LINGUAGGI_BLENDED.md#TIPI)*) 
+Scala introduce il tipo `Option` come analogo degli optional di java, questo per evitare argomenti passati come null (*si ricorda che ciò in scala non  e possibile per la [gerarchia di tipi](linguaggi_blended.md#tipi)*) 
 
 ## Extractors
 
-Le funzionalità di [pattern matching](#PATTERN%20MATCHING) di scala come definite sopra sono utilizzabili solo per mezzo di [classi dati](LINGUAGGI_BLENDED.md#CLASSI%20DATI), per poterle utilizzare anche con oggetti generati da classi normali scala mette a disposizione gli **extractors**,  ovvero oggetti che definiscono un metodo `unapply()` duale di `apply()` che estrae i valori di un oggetto
+Le funzionalità di [pattern matching](#PATTERN%20MATCHING) di scala come definite sopra sono utilizzabili solo per mezzo di [classi dati](linguaggi_blended.md#classi%20dati), per poterle utilizzare anche con oggetti generati da classi normali scala mette a disposizione gli **extractors**,  ovvero oggetti che definiscono un metodo `unapply()` duale di `apply()` che estrae i valori di un oggetto
 
 Il metodo in questione deve essere definito al difuori della classe interessata (il miglior candidato risulta essere il [companion object](#COMPANION%20OBJECT))
 
@@ -475,7 +475,7 @@ Scala, compilando in bytecode  e eseguendo sulla JVM e direttamente interoperabi
 | estendere classi java         | usare oggetti scala (*con delle limitazioni*) |
 | usare framework java `javaFX` | usare classi scala con funzioni e chiusure    |
 
-## [INTERPRETI](linguaggi_modelli_computazionali/INTERPRETI.md) IN SCALA: LA LIBRERIA PARSER COMBINATORS
+## [INTERPRETI](linguaggi_modelli_computazionali/interpreti.md) IN SCALA: LA LIBRERIA PARSER COMBINATORS
 
 La libreria scala [`parser combinators`](https://index.scala-lang.org/scala/scala-parser-combinators) consente la creazione di parser custom per grammatiche anche **non deterministiche** (*a scapito delle performance*).
 
@@ -507,7 +507,7 @@ class MyGrammar extends JavaTokenParsers {
 }
 ```
 
-In caso di grammatiche [ll(1)](GRAMMATICHE_LLK.md#GRAMMATICHE%20$LL(k)$) la libreria genera comunque un parser in grado di fare backtracking, per evitare l'inefficienza e utile specificare che non e necessario supportarlo con l'operatore `!`
+In caso di grammatiche [ll(1)](grammatiche_llk.md#grammatiche%20$ll(k)$) la libreria genera comunque un parser in grado di fare backtracking, per evitare l'inefficienza e utile specificare che non e necessario supportarlo con l'operatore `!`
 
 
-[PREVIOUS](linguaggi_modelli_computazionali/LINGUAGGI_BLENDED.md)
+[PREVIOUS](linguaggi_modelli_computazionali/linguaggi_blended.md)

@@ -29,4 +29,4 @@ IoT devices can be classified in different categories given the following charac
 | E2       | lifetime energy limitation |
 | E9       | no energy limitation       |
 
-[PREVIOUS](pages/IoT/EDGEX_IOT_PLATFORM.md) [NEXT](mobile_systems/IoT/IOT_PROTOCOLS.md)
+[PREVIOUS](pages/iot/edgex_iot_platform.md) [NEXT](mobile_systems/iot/iot_protocols.md)

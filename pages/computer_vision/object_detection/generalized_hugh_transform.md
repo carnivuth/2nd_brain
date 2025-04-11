@@ -7,7 +7,7 @@ index: 44
 
 # Generalized hough transform
 
-The Generalized Hough transform (**GHT**) is a generalization aimed to apply **[HT](computer_vision/HOUGH_TRANSFORM.md)** to non analytical shapes.
+The Generalized Hough transform (**GHT**) is a generalization aimed to apply **[HT](computer_vision/hough_transform.md)** to non analytical shapes.
 
 ```mermaid
 flowchart LR
@@ -38,11 +38,11 @@ end
 
 ## Ght with local invariant features
 
-The most popular computer vision pipeline relies on combining GHT with local invariant features such as the [SIFT DESCRIPTOR](computer_vision/SIFT_DESCRIPTOR.md). In this pipeline Local invariant features are used instead of edges.
+The most popular computer vision pipeline relies on combining GHT with local invariant features such as the [SIFT DESCRIPTOR](computer_vision/sift_descriptor.md). In this pipeline Local invariant features are used instead of edges.
 
 ### Ght: offline phase
 
-Detect keypoints (e.g. [DOG](DOG_DETECTOR.md)) and compute descriptors (e.g. [SIFT](computer_vision/SIFT_DESCRIPTOR.md)) in the model image:
+Detect keypoints (e.g. [DOG](DOG_DETECTOR.md)) and compute descriptors (e.g. [SIFT](computer_vision/sift_descriptor.md)) in the model image:
 
 $$
 F = \{F_1,F_2,...,F_n\}
@@ -51,7 +51,7 @@ $$
 F_i = (P_i,D_i,\phi_i,S_i)
 $$
 
-Choose a reference point (eg the [barycentre](BLOB_ANALYSIS.md#BARYCENTRE))
+Choose a reference point (eg the [barycentre](blob_analysis.md#barycentre))
 
 $$
 P_C = \frac{1}{N}\sum_{i=1}^{N}P_i
@@ -70,7 +70,7 @@ $$
 
 ### Ght: online phase
 
-Detect [keypoints](FINDING_CORRESPONDENCES.md#KEYPOINTS) on the target image and compute descriptors :
+Detect [keypoints](finding_correspondences.md#keypoints) on the target image and compute descriptors :
 
 $$
 \overset{\sim}F = \{\overset{\sim}F_1,\overset{\sim}F_2,...,\overset{\sim}F_n\}
@@ -99,4 +99,4 @@ A 2D accumulator array is not sufficient to account for rotation and scale, the 
 
 ![](computer_vision/Pasted_image_20240428143913.png)
 
-[PREVIOUS](pages/object_detection/HOUGH_TRANSFORM.md) [NEXT](computer_vision/object_detection/OBJECT_DETECTION_PIPELINE.md)
+[PREVIOUS](pages/object_detection/hough_transform.md) [NEXT](computer_vision/object_detection/object_detection_pipeline.md)

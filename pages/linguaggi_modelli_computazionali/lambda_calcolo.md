@@ -24,7 +24,7 @@ $$
 
 La semantica risulta essere *sostituisci tutte le occorrenze del parametro $x$ nel corpo della funzione  $x$* con risultato $y$, l'operazione e detta **riduzione**
 
-Notare che la grammatica cosi definita e [**ambigua**](GRAMMATICHE_TIPO_2.md#AMBIGUITÀ%20DI%20UNA%20FRASE) e derivazioni diverse di una stessa frase portano a semantiche diverse, per esempio la frase
+Notare che la grammatica cosi definita e [**ambigua**](grammatiche_tipo_2.md#ambiguità%20di%20una%20frase) e derivazioni diverse di una stessa frase portano a semantiche diverse, per esempio la frase
 
 $$
 \lambda x . xy
@@ -40,7 +40,7 @@ oppure:
 
 ## Lambda calcolo in javascript
 
-[javascript](linguaggi_modelli_computazionali/JAVASCRIPT.md) risulta essere pratico per l'implementazione del lambda calcolo in quanto vi e la possibilità di definire funzioni anonime e [chiusure](JAVASCRIPT.md#CHIUSURE)
+[javascript](linguaggi_modelli_computazionali/javascript.md) risulta essere pratico per l'implementazione del lambda calcolo in quanto vi e la possibilità di definire funzioni anonime e [chiusure](javascript.md#chiusure)
 
 ```javascript
 //il termine lambda x.<expr> puo infatti essere definito come
@@ -53,7 +53,7 @@ console.log(f(y))
 
 ## Funzioni a più argomenti
 
-Funzioni a piu argomenti possono essere rappresentate come funzioni di funzioni sfruttando il [currying](JAVASCRIPT.md#CURRYING), di conseguenza una funzione a piu argomenti:
+Funzioni a piu argomenti possono essere rappresentate come funzioni di funzioni sfruttando il [currying](javascript.md#currying), di conseguenza una funzione a piu argomenti:
 
 $$
 \lambda x.\lambda y.xy
@@ -203,7 +203,7 @@ function Y(f) {
 }
 ```
 
-E necessario simulare la [call by name](PROCESSI_COMPUTAZIONALI.md#ALTERNATIVA,%20MODELLO%20CALL%20BY%20NAME) come già visto
+E necessario simulare la [call by name](processi_computazionali.md#alternativa,%20modello%20call%20by%20name) come già visto
 
 ### Combinatore di punto fisso rivisitato $z$
 
@@ -257,4 +257,4 @@ console.log(Z(FactGen)(3))
 
 Il lambda calcolo e un formalismo estremamente potente che ha permesso di formalizzare le funzionalità che oggi vantano i linguaggi mainstream ma non e pensato per essere utilizzato direttamente dagli utenti finali
 
-[PREVIOUS](pages/JAVASCRIPT.md) [NEXT](linguaggi_modelli_computazionali/LINGUAGGI_BLENDED.md)
+[PREVIOUS](pages/javascript.md) [NEXT](linguaggi_modelli_computazionali/linguaggi_blended.md)

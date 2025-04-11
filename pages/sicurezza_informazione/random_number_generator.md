@@ -61,7 +61,7 @@ Per garantire l'imprevedibilità il seguente test deve essere effettuato:
 
 ### Garantire l' indeducibilità
 
-Per garantire l' indeducibilità e necessario che le funzioni $F$ e/o $G$ siano [funzioni one-way](trasformazioni.md#COSA%20SERVE%20PER%20RENDERE%20LE%20TRASFORMAZIONI%20SICURE?) queste funzioni possono essere definite con algoritmi simmetrici (*e.g. alte performance*) o asimmetrici (*e.g. unidirezionalità dimostrabile*)
+Per garantire l' indeducibilità e necessario che le funzioni $F$ e/o $G$ siano [funzioni one-way](trasformazioni.md#cosa%20serve%20per%20rendere%20le%20trasformazioni%20sicure?) queste funzioni possono essere definite con algoritmi simmetrici (*e.g. alte performance*) o asimmetrici (*e.g. unidirezionalità dimostrabile*)
 
 ### Linee guida
 

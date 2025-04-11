@@ -17,7 +17,7 @@ START2:::hidden --> D --> E & F
 classDef hidden display: none;
 ```
 
-Gli interpreti suggeriscono quindi di usare la struttura generata da uno scanner/lexer per poi applicare un significato alle frasi, in questo caso la sequenza di derivazione delle frasi e fondamentale in quanto da essa dipende la semantica applicata (*[ricordiamo il caso della ricorsione sinistra](GRAMMATICHE_TIPO_2.md#PERCHÉ%20NON%20ELIMINARE%20SEMPRE%20LA%20RICORSIONE%20SINISTRA)*)
+Gli interpreti suggeriscono quindi di usare la struttura generata da uno scanner/lexer per poi applicare un significato alle frasi, in questo caso la sequenza di derivazione delle frasi e fondamentale in quanto da essa dipende la semantica applicata (*[ricordiamo il caso della ricorsione sinistra](grammatiche_tipo_2.md#perché%20non%20eliminare%20sempre%20la%20ricorsione%20sinistra)*)
 
 ## Descrivere la semantica
 
@@ -64,7 +64,7 @@ public int parseExp(){
 
 Nel caso non si intenda eseguire immediatamente la semantica ma generare un output eseguibile in un secondo momento (*compilatori/linguaggi misti*) e necessario definire una rappresentazione della frase interpretata (*solitamente un albero*)
 
-si potrebbero usare gli [alberi di derivazione](GRAMMATICHE_TIPO_2.md#ALBERI%20DI%20DERIVAZIONE) ma questi risultano ridondanti e inefficienti, si ricorre quindi a una rappresentazione ridotta chiamata **abstract syntax tree**
+si potrebbero usare gli [alberi di derivazione](grammatiche_tipo_2.md#alberi%20di%20derivazione) ma questi risultano ridondanti e inefficienti, si ricorre quindi a una rappresentazione ridotta chiamata **abstract syntax tree**
 
 Alcuni degli elementi che possono essere rimossi dal albero sono:
 
@@ -121,7 +121,7 @@ In cui ogni classe implementa in metodi per la generazione del singolo sottonodo
 
 ## Valutare gli alberi
 
-Gli [AST](INTERPRETI.md#INTERPRETAZIONE%20DIFFERITA%20(ABSTRACT%20SYNTAX%20TREE)) prodotti da un parser necessitano di essere di conseguenza interpretati tramite opportune operazioni di visita degli alberi, 3 possibili approcci:
+Gli [AST](interpreti.md#interpretazione%20differita%20(abstract%20syntax%20tree)) prodotti da un parser necessitano di essere di conseguenza interpretati tramite opportune operazioni di visita degli alberi, 3 possibili approcci:
 
 - **PRE-ORDER**: si visitano prima il nodo radice e poi figlio di destra e sinistra
 - **POST-ORDER**: si visitano prima i figli e poi la radice
@@ -168,7 +168,7 @@ public static int eval(Exp e) {
 
 ### Approccio oop
 
-Ogni specializzazione dell'interfaccia `Expr` definisce i metodi per la generazione del proprio nodo dell [AST](INTERPRETI.md#INTERPRETAZIONE%20DIFFERITA%20(ABSTRACT%20SYNTAX%20TREE)), molto più leggibile e modulare ma rende complesso fornire interpretazioni diverse dello stesso [AST](#INTERPRETAZIONE%20DIFFERITA%20(ABSTRACT%20SYNTAX%20TREE)) 
+Ogni specializzazione dell'interfaccia `Expr` definisce i metodi per la generazione del proprio nodo dell [AST](interpreti.md#interpretazione%20differita%20(abstract%20syntax%20tree)), molto più leggibile e modulare ma rende complesso fornire interpretazioni diverse dello stesso [ast](#interpretazione%20differita%20(abstract%20syntax%20tree)) 
 
 ```java
 public Interface Expr{
@@ -224,7 +224,7 @@ Quanto detto prima porta a definire la distinzione fra il valore di destra e di 
 - $L$-VALUE per indicare gli identificatori a sinistra dell'operazione di assegnamento
 - $R$-VALUE per indicare gli identificatori a destra dell'operazione di assegnamento
 
-E inoltre opportuno considerare se distinguere i due valori sintatticamente in quanto la grammatica risultante in caso di non distinzione diventa [LL(2)](GRAMMATICHE_LLK.md#GRAMMATICHE%20$LL(k)$)
+E inoltre opportuno considerare se distinguere i due valori sintatticamente in quanto la grammatica risultante in caso di non distinzione diventa [LL(2)](grammatiche_llk.md#grammatiche%20$ll(k)$)
 
 ## Assegnamento distruttivo vs assegnamento non distruttivo
 
@@ -311,4 +311,4 @@ interface ExpAssignVisitor extends Visitor {
 
 L'environment può essere realizzato sfruttando l'implementazione diretta delle mappe di java `Map<String,Integer>`
 
-[PREVIOUS](pages/GRAMMATICHE_LLK.md) [NEXT](linguaggi_modelli_computazionali/GRAMMATICHE_LRK.md)
+[PREVIOUS](pages/grammatiche_llk.md) [NEXT](linguaggi_modelli_computazionali/grammatiche_lrk.md)

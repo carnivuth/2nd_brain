@@ -186,7 +186,7 @@ g(32)
 
 ## Chiusure
 
-javascript implementa le funzioni come [first class entities](PROCESSI_COMPUTAZIONALI.md#FUNZIONI%20COME%20FIRST%20CLASS%20ENTITIES), e dunque possibile creare [chiusure](PROCESSI_COMPUTAZIONALI.md#CHIUSURA)
+javascript implementa le funzioni come [first class entities](PROCESSI_COMPUTAZIONALI.md#FUNZIONI%20COME%20FIRST%20CLASS%20ENTITIES), e dunque possibile creare [chiusure](processi_computazionali.md#chiusura)
 
 ```javascript
 //qui la funzione a ritorna una funzione che usa come i parametri di a al suo interno (chiusura)
@@ -199,7 +199,7 @@ console.log(z(3))
 
 ### Currying
 
-Particolare caso di chiusura in cui funzioni a $n$ argomenti vengono simulate per mezzo di chiusure di funzioni a un argomento (*utilizzato per il [lambda_calcolo](linguaggi_modelli_computazionali/LAMBDA_CALCOLO.md)*)
+Particolare caso di chiusura in cui funzioni a $n$ argomenti vengono simulate per mezzo di chiusure di funzioni a un argomento (*utilizzato per il [lambda_calcolo](linguaggi_modelli_computazionali/lambda_calcolo.md)*)
 
 ```javascript
 //esempio di implementazione della somma come currying
@@ -338,7 +338,7 @@ console.log(Person.computeAge())
 
 ### Proprietà private
 
-A default le proprietà di un oggetto sono tutte pubbliche, e possibile implementare una proprietà privata per mezzo di una [chiusura](PROCESSI_COMPUTAZIONALI.md#CHIUSURA)
+A default le proprietà di un oggetto sono tutte pubbliche, e possibile implementare una proprietà privata per mezzo di una [chiusura](processi_computazionali.md#chiusura)
 
 ```javascript
 Person= function(name,bd){
@@ -566,4 +566,4 @@ function show(ogg){
 show(e)
 ```
 
-[PREVIOUS](pages/PROCESSI_COMPUTAZIONALI.md) [NEXT](linguaggi_modelli_computazionali/LAMBDA_CALCOLO.md)
+[PREVIOUS](pages/processi_computazionali.md) [NEXT](linguaggi_modelli_computazionali/lambda_calcolo.md)

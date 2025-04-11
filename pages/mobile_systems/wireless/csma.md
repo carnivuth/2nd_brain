@@ -49,4 +49,4 @@ this solution limits collisions only to the **rts** and **cts** packets reducing
 
 ## Token ring
 
-[PREVIOUS](pages/wireless/MEDIUM_ACCESS_CONTROL.md) [NEXT](mobile_systems/wireless/WIFI.md)
+[PREVIOUS](pages/wireless/medium_access_control.md) [NEXT](mobile_systems/wireless/wifi.md)

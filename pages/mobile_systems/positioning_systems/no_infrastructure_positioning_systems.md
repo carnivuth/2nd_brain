@@ -18,7 +18,7 @@ There are possible techniques of positioning based on the GSM infrastructure:
 
 ## Bluetooth based positioning systems
 
-One possible solution is to exploits the limited range of Bluetooth devices and is low costs to implement a [proximity](BASE_TECHNIQUES.md#PROXIMITY) based positioning system.
+One possible solution is to exploits the limited range of Bluetooth devices and is low costs to implement a [proximity](base_techniques.md#proximity) based positioning system.
 
 One possible solution is to place Bluetooth devices at the point of interests (PoI) and devices can compute their position by connecting to a BT POI and computing the RSSI
 
@@ -26,4 +26,4 @@ One possible solution is to place Bluetooth devices at the point of interests (P
 
 This method allow different levels of privacy for the device that can scan in silent mode the PoI
 
-[PREVIOUS](pages/positioning_systems/GLOBAL_POSITIONING_SYSTEM.md) [NEXT](mobile_systems/positioning_systems/ACTIVE_BAT.md)
+[PREVIOUS](pages/positioning_systems/global_positioning_system.md) [NEXT](mobile_systems/positioning_systems/active_bat.md)

@@ -73,4 +73,4 @@ in this phase the results of the process are put into production to gain profit 
 
 
 
-[PREVIOUS](datamining/CONCEPTUAL_MODELING.md)
+[PREVIOUS](datamining/conceptual_modeling.md)

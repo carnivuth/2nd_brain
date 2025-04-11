@@ -31,4 +31,4 @@ Given the nature of MANETS a lot of challenges comes up
 - Energy constraints
 - Easy “snooping” of wireless transmissions (associated security issues)
 
-[PREVIOUS](pages/wireless/ZIGBEE.md) [NEXT](mobile_systems/manets/WIFI_DIRECT.md)
+[PREVIOUS](pages/wireless/zigbee.md) [NEXT](mobile_systems/manets/wifi_direct.md)

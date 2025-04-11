@@ -12,7 +12,7 @@ Appunti personali del corso di tecnologie e basi di dati dei professori Patella 
 - [migliorare la ricerca: indici](tecnologie_basi_dati/indici.md)
 - [b-tree](tecnologie_basi_dati/b-tree.md)
 - [b+tree](tecnologie_basi_dati/b+tree.md)
-- [implementare gli indici ad albero: GiST](tecnologie_basi_dati/GiST.md)
+- [implementare gli indici ad albero: GiST](tecnologie_basi_dati/gist.md)
 - [indici hash](tecnologie_basi_dati/indici_hash.md)
 
 ## Transazioni
@@ -42,7 +42,7 @@ Appunti personali del corso di tecnologie e basi di dati dei professori Patella 
 
 - [query top k](tecnologie_basi_dati/top_k_queries.md)
 - [query top k con più relazioni](tecnologie_basi_dati/top_k_join_queries.md)
-- [introdurre il concetto di ranking](tecnologie_basi_dati/rankSQL.md)
+- [introdurre il concetto di ranking](tecnologie_basi_dati/ranksql.md)
 
 ## Skyline queries
 

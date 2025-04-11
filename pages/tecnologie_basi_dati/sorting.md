@@ -7,7 +7,7 @@ index: 11
 
 # Ordinare i dati: sort
 
-L'azione di sort dei dati non e un operatore dell'algebra ma risulta molto utile per risolvere alcune situazioni tra cui query `ORDER BY`, [bulk loading](b+tree.md#Bulk%20loading) degli indici e operatori di `JOIN` e `GROUP BY`.
+L'azione di sort dei dati non e un operatore dell'algebra ma risulta molto utile per risolvere alcune situazioni tra cui query `ORDER BY`, [bulk loading](b+tree.md#bulk%20loading) degli indici e operatori di `JOIN` e `GROUP BY`.
 
 Gli algoritmi di sort possono essere suddivisi in base alla memoria in cui vengono svolti:
 

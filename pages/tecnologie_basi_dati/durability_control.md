@@ -73,7 +73,7 @@ Nel momento in cui le modifiche registrate in un record di update vengono elimin
 
 Per far si che il log risulti efficace il DBMS per ogni operazione deve scrivere sul log **PRIMA** di salvare le modifiche di una pagina sul disco (*write-ahead logging*)
 
-La responsabilità di garantire il WAL e affidata al [buffer manager](struttura_database.md#Struttura%20fisica)
+La responsabilità di garantire il WAL e affidata al [buffer manager](struttura_database.md#struttura%20fisica)
 
 ![image.png](../assets/image_1680172466593_0.png)
 

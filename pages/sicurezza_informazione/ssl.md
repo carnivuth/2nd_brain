@@ -85,7 +85,7 @@ Questi due messaggi hanno l’obiettivo di concordare quali meccanismi verranno 
 I metodi di scambio possibili sono i seguenti:
 
 - [[rsa]] con cifrario ibrido
-- [algoritmo diffie-hellman ](key_management.md#ALGORITMO%20DIFFIE-HELLMAN%20(VERSIONE%20ANONIMA)) in tutte le varianti (*da evitare quella anonima*)
+- [algoritmo diffie-hellman ](key_management.md#algoritmo%20diffie-hellman%20(versione%20anonima)) in tutte le varianti (*da evitare quella anonima*)
 
 ## Scambio dei parametri
 

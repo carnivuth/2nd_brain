@@ -15,10 +15,10 @@ The concept is that cluster are high density regions separated by low density re
 
 - ### OBJECT BASED
 
-	define a radius and attach the number of object inside that radius one example is [dbscan](datamining/DBSCAN.md)
+	define a radius and attach the number of object inside that radius one example is [dbscan](datamining/dbscan.md)
 
 
 
 
 
-[PREVIOUS](MODEL_BASED_CLUSTERING.md) [NEXT](datamining/DBSCAN.md)
+[PREVIOUS](model_based_clustering.md) [NEXT](datamining/dbscan.md)

@@ -21,12 +21,12 @@ E necessario eliminare gli attributi non richiesti e eliminare i record duplicat
 Una possibile soluzione e quella di sfruttare l'ordinamento, si procede come segue
 
 - si legge il file rimuovendo gli attributi non richiesti
-- si ordina per mezzo del [merge sort](sorting.md#Merge%20sort%20esterno)
+- si ordina per mezzo del [merge sort](sorting.md#merge%20sort%20esterno)
 - si eliminano i duplicati
 
 costo complessivo dato da $P(R) +P(T) + 2P(T)\lceil \log_ZP(T)\rceil + P(T)$
 
->[!TIP] si possono squashare la rimozione degli attributi con la fase di sorting e l'eliminazione dei duplicati nella fase di merging del [merge sort](sorting.md#Merge%20sort%20esterno)
+>[!TIP] si possono squashare la rimozione degli attributi con la fase di sorting e l'eliminazione dei duplicati nella fase di merging del [merge sort](sorting.md#merge%20sort%20esterno)
 
 ## Proiettare usando hashing
 

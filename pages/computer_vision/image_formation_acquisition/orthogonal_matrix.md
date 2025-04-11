@@ -14,4 +14,4 @@ $$QT=Q^{−1}$$
 
  The determinant of any orthogonal matrix is either $+1$ or $−1$. as a linear transformation, an orthogonal matrix preserves the inner product of vectors, and therefore acts as an isometry of euclidean space, such as a rotation, reflection or rotoreflection. in other words, it is a unitary transformation. 
 
- [NEXT](computer_vision/image_formation_acquisition/PERSPECTIVE_PROJECTION.md)
+ [NEXT](computer_vision/image_formation_acquisition/perspective_projection.md)

@@ -7,7 +7,7 @@ index: 32
 
 # Harris corner detector
 
-This detector relies on a continuous reformulation of the [Moravec](computer_vision/MORAVEC_CORNER_DETECTOR.md) neighbor differences.
+This detector relies on a continuous reformulation of the [Moravec](computer_vision/moravec_corner_detector.md) neighbor differences.
 A generic infinitesimal shift from the point location can be described as
 
 $$
@@ -88,4 +88,4 @@ B --> C
 
 In order to weights better the points in the neighborhood the weight function $w(x,y)$ used is a Gaussian function
 
-[PREVIOUS](pages/local_features/MORAVEC_CORNER_DETECTOR.md) [NEXT](computer_vision/local_features/SHI_TOMASI_CORNER_DETECTOR.md)
+[PREVIOUS](pages/local_features/moravec_corner_detector.md) [NEXT](computer_vision/local_features/shi_tomasi_corner_detector.md)

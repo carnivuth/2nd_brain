@@ -15,7 +15,7 @@ Element that allow multiple background tasks to be grouped together, in order to
 
 the `JobService` class relies on 2 methods that are called on the main thread `onStartJob()` and `onStopJob()`
 
-here an example using [async tasks](ASYNCHRONOUS_TECHNIQUES.md#ASYNC%20TASK):
+here an example using [async tasks](asynchronous_techniques.md#async%20task):
 
 ```java
 public class MyJobService extends JobService {
@@ -41,4 +41,4 @@ public class MyJobService extends JobService {
 - network type
 - if task requires the device to be plugged
 
-[PREVIOUS](pages/android/ASYNCHRONOUS_TECHNIQUES.md) [NEXT](mobile_systems/android/ALARMS.md)
+[PREVIOUS](pages/android/asynchronous_techniques.md) [NEXT](mobile_systems/android/alarms.md)

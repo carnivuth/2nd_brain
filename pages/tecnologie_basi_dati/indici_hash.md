@@ -7,7 +7,7 @@ index: 7
 
 # Indici hash
 
-a differenza degli [Indici ordinati](indici.md#Indici%20ordinati) gli indici hash non mantengono l'associazione `key -> RID` in maniera esplicita ma sfruttano una funzione hash
+a differenza degli [Indici ordinati](indici.md#indici%20ordinati) gli indici hash non mantengono l'associazione `key -> RID` in maniera esplicita ma sfruttano una funzione hash
 
 ```mermaid
 flowchart LR
@@ -198,4 +198,4 @@ Uno dei problemi del [Linear hashing](#Linear%20hashing) risiede nel fatto che l
 
 L'idea alla base dello spiral hashing punta a concentrare i record nella prima sezione della primary area sfruttando una funzione esponenziale
 
-[PREVIOUS](pages/GiST.md) [NEXT](tecnologie_basi_dati/transazioni.md)
+[PREVIOUS](pages/gist.md) [NEXT](tecnologie_basi_dati/transazioni.md)

@@ -43,7 +43,7 @@ La ricerca con un r-tree consiste nel trovare tutti i punti che fanno parte dell
 
 ![](tecnologie_basi_dati/Pasted%20image%2020250218100138.png)
 
-Per implementare la ricerca e necessario implementare le API previste dalla specifica [GiST](tecnologie_basi_dati/GiST.md)
+Per implementare la ricerca e necessario implementare le API previste dalla specifica [GiST](tecnologie_basi_dati/gist.md)
 
 - `Consistent(E,q)` ritorna true solo se `E` e `q` hanno intersezione non nulla
 - `Union(P)` l'output e la MMB che contiene tutte le entry

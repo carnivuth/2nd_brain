@@ -29,4 +29,4 @@ $$
 ![](datamining/Pasted_image_20231230175803.png)
 
 
-[PREVIOUS](DECISION_TREES.md) [NEXT](datamining/REGRESSION.md)
+[PREVIOUS](decision_trees.md) [NEXT](datamining/regression.md)

@@ -7,7 +7,7 @@ index: 33
 
 # Shi tomasi corner detector
 
-It's a variant of the [Harris  corner detector](computer_vision/HARRIS_CORNER_DETECTOR.md)  that works better in finding corners in video frame inputs
+It's a variant of the [Harris  corner detector](computer_vision/harris_corner_detector.md)  that works better in finding corners in video frame inputs
 
 $$
 C = \min(\lambda_1,\lambda_2)
@@ -15,4 +15,4 @@ $$
 
 ![](computer_vision/Pasted_image_20240310172549.png)
 
-[PREVIOUS](pages/local_features/HARRIS_CORNER_DETECTOR.md) [NEXT](computer_vision/local_features/SCALE_INVARIANCE.md)
+[PREVIOUS](pages/local_features/harris_corner_detector.md) [NEXT](computer_vision/local_features/scale_invariance.md)

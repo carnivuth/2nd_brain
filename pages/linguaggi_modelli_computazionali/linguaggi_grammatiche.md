@@ -15,7 +15,7 @@ E necessario dunque esprimere **sintassi** (*notazioni BNF EBNF*) e **semantica*
 Da questa suddivisione si deduce quindi che una macchina di Turing universale deve adempiere a queste due operazioni
 
 - **analisi lessicale** data una frase riconoscere le singole parole (**token**) di una frase
-- **analisi sintattica** data una sequenza di token generare una rappresentazione interna della frase (*alberi [AST](INTERPRETI.md#INTERPRETAZIONE%20DIFFERITA%20(ABSTRACT%20SYNTAX%20TREE))*)
+- **analisi sintattica** data una sequenza di token generare una rappresentazione interna della frase (*alberi [AST](interpreti.md#interpretazione%20differita%20(abstract%20syntax%20tree))*)
 - **analisi semantica** data una frase corretta applicare la semantica corretta per la data frase
 
 ## Struttura di un linguaggio
@@ -87,4 +87,4 @@ $$
 
 quando due grammatiche producono lo stesso linguaggio si dice che sono equivalenti, stabilire se due grammatiche sono equivalenti e un problema indecidibile, inoltre **grammatiche diverse ma equivalenti potrebbero necessitare di riconoscitori diversi**
 
-[PREVIOUS](pages/COMPUTABILITA.md) [NEXT](linguaggi_modelli_computazionali/CLASSIFICAZIONE_CHOMSKY.md)
+[PREVIOUS](pages/computabilita.md) [NEXT](linguaggi_modelli_computazionali/classificazione_chomsky.md)

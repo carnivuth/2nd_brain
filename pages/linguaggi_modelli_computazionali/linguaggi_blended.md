@@ -9,7 +9,7 @@ Sono linguaggi frutto di un mix intelligente fra i vecchi paradigmi e gli approc
 
 Sia scala che kotlin sono pensati per poter interoperare con java (*compilano in bytecode eseguibile dalla JVM ma non solo*) inoltre alcune delle caratteristiche ereditate dal modello funzionale sono:
 
-- funzioni come [first class entities](PROCESSI_COMPUTAZIONALI.md#FUNZIONI%20COME%20FIRST%20CLASS%20ENTITIES) 
+- funzioni come [first class entities](processi_computazionali.md#funzioni%20come%20first%20class%20entities) 
 - tutto e un oggetto (*funzioni incluse*)
 - distinzione fra variabile e valore (`var`/`val`)
 - le strutture di controllo sono espressioni
@@ -83,9 +83,9 @@ print(y)
 
 ## Funzioni
 
-Le funzioni sono introdotte da una parola chiave prefissa (*scala:`def`,kotlin:`func`*) possono essere definite anche a top level (*senza classi wrapper*)   Inoltre la specifica di tipo e postfissa a differenza di java per facilitare l'uso del **motore di type inference** (*molto avanzato*) come gia specificato le funzioni sono [first class entities](PROCESSI_COMPUTAZIONALI.md#FUNZIONI%20COME%20FIRST%20CLASS%20ENTITIES)
+Le funzioni sono introdotte da una parola chiave prefissa (*scala:`def`,kotlin:`func`*) possono essere definite anche a top level (*senza classi wrapper*)   Inoltre la specifica di tipo e postfissa a differenza di java per facilitare l'uso del **motore di type inference** (*molto avanzato*) come gia specificato le funzioni sono [first class entities](processi_computazionali.md#funzioni%20come%20first%20class%20entities)
 
-Inoltre entrambi i linguaggi attuano [ottimizzazione della tail recursion](PROCESSI_COMPUTAZIONALI.md#TAIL%20RECURSION%20OPTIMIZATION)
+Inoltre entrambi i linguaggi attuano [ottimizzazione della tail recursion](processi_computazionali.md#tail%20recursion%20optimization)
 
 >[!NOTE] in scala e abilitata di default disattivabile con un opzione mentre in kotlin e disabilitata di default attivabile con la keyword `tailrec`
 
@@ -142,4 +142,4 @@ Questo rende si le classi ridefinibili dinamicamente ma riduce la leggibilità d
 
 Sia scala che kotlin consentono di omettere il separatore `;` quando ovvio, inoltre scala supporta il principio d'accesso uniforme e la quiet syntax (*bidonata alla python maniera*)
 
-[PREVIOUS](pages/LAMBDA_CALCOLO.md) [NEXT](linguaggi_modelli_computazionali/SCALA.md)
+[PREVIOUS](pages/lambda_calcolo.md) [NEXT](linguaggi_modelli_computazionali/scala.md)

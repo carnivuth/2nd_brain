@@ -136,4 +136,4 @@ Sotto le assunzioni precedenti e dimostrabile che la formula di Yao sovrastima i
 
 ![](tecnologie_basi_dati/Pasted%20image%2020250204145210.png)
 
-[PREVIOUS](pages/b-tree.md) [NEXT](tecnologie_basi_dati/GiST.md)
+[PREVIOUS](pages/b-tree.md) [NEXT](tecnologie_basi_dati/gist.md)

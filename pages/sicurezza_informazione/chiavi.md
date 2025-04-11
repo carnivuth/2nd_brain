@@ -7,7 +7,7 @@ index: 6
 
 # Chiavi
 
-Le chiavi sono parametri che consentono di rendere [segrete](trasformazioni.md#FUNZIONI%20SEGRETE) le trasformazioni per la sicurezza
+Le chiavi sono parametri che consentono di rendere [segrete](trasformazioni.md#funzioni%20segrete) le trasformazioni per la sicurezza
 
 ```mermaid
 flowchart LR
@@ -22,7 +22,7 @@ In questo modo solo il possessore della chiave e in grado di riprodurre la trasf
 
 ## Implementazione di $e$ e $s$
 
-Le trasformazioni [E](trasformazioni.md#TRASFORMAZIONE%20$E$) e [S](trasformazioni.md#TRASFORMAZIONE%20$S$) sono implementabili per mezzo dell' utilizzo di chiavi:
+Le trasformazioni [E](trasformazioni.md#TRASFORMAZIONE%20$E$) e [S](trasformazioni.md#trasformazione%20$s$) sono implementabili per mezzo dell' utilizzo di chiavi:
 
 ```mermaid
 ---
@@ -82,7 +82,7 @@ Per una coppia di chiavi asimmetriche devono essere garantite proprietà diverse
 - **chiave pubblica**: integrità autenticità
 - **chiave privata**: riservatezza e integrità
 
->[!IMPORTANT] Una caratteristica fondamentale e che dalla chiave pubblica non deve essere possibile risalire alla chiave privata (*e.g. la chiave pubblica deve essere generata da una [one way function](trasformazioni.md#COSA%20SERVE%20PER%20RENDERE%20LE%20TRASFORMAZIONI%20SICURE?)*)
+>[!IMPORTANT] Una caratteristica fondamentale e che dalla chiave pubblica non deve essere possibile risalire alla chiave privata (*e.g. la chiave pubblica deve essere generata da una [one way function](trasformazioni.md#cosa%20serve%20per%20rendere%20le%20trasformazioni%20sicure?)*)
 
 ## Amministrazione delle chiavi
 

@@ -29,8 +29,8 @@ $$
 
 ## Warping to compensate lens distortion
 
-once the lens distortion parameter are computed by [camera calibration](computer_vision/CAMERA_CALIBRATION.md) it's possible to get back the un-distorted points by a backward warp
+once the lens distortion parameter are computed by [camera calibration](computer_vision/camera_calibration.md) it's possible to get back the un-distorted points by a backward warp
 
 ![](computer_vision/Pasted_image_20240227164313.png)
 
-[PREVIOUS](pages/image_formation_acquisition/STEREO_CAMERA_CALIBRATION.md) [NEXT](computer_vision/image_filtering/IMAGE_FILTERS.md)
+[PREVIOUS](pages/image_formation_acquisition/stereo_camera_calibration.md) [NEXT](computer_vision/image_filtering/image_filters.md)

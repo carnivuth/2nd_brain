@@ -136,7 +136,7 @@ Il costo  e la somma del numero di pagine di entrambe le relazioni $P(R)+P(S)$
 
 ## Hash join
 
-il vantaggio del [Merge-scan join](#Merge-scan%20join) è che viene ridotto il numero di confronti fra i record delle relazioni, lo stesso obbiettivo si può ottenere con una funzione di hash sui valor degli attributi di join, la strategia e quella vista per la [proiezione fatta con hashing](proiezione.md#Proiettare%20usando%20hashing), mentre la fase di matching può essere realizzata per mezzo del [block nested loop join](#Matching%20nel%20block%20nested%20loop%20join)
+il vantaggio del [Merge-scan join](#Merge-scan%20join) è che viene ridotto il numero di confronti fra i record delle relazioni, lo stesso obbiettivo si può ottenere con una funzione di hash sui valor degli attributi di join, la strategia e quella vista per la [proiezione fatta con hashing](proiezione.md#proiettare%20usando%20hashing), mentre la fase di matching può essere realizzata per mezzo del [block nested loop join](#matching%20nel%20block%20nested%20loop%20join)
 
 >[!WARNING] sia hash join che merge scan join sono utilizzabili solo per equi join
 

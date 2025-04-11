@@ -25,7 +25,7 @@ B --> C --> D & E
 
 ## Per fragment operations
 
-Fase della pipeline che consente di eseguire operazioni custom sui fragment per mezzo di **buffer** un esempio e il [test di profondità](real_time_rendering.md#ALGORITMO%20Z-BUFFER) 
+Fase della pipeline che consente di eseguire operazioni custom sui fragment per mezzo di **buffer** un esempio e il [test di profondità](real_time_rendering.md#algoritmo%20z-buffer) 
 
 Le operazioni svolte in questa fase prendono il nome di test, ognuna di esse e associata a un buffer di memoria che viene utilizzato per eseguire le operazioni sui fragment
 
@@ -51,7 +51,7 @@ gl.enable(gl.SCISSOR_TEST);
 
 ### Depth test
 
-Implementa l'algoritmo [algoritmo z-buffer](real_time_rendering.md#ALGORITMO%20Z-BUFFER)
+Implementa l'algoritmo [algoritmo z-buffer](real_time_rendering.md#algoritmo%20z-buffer)
 
 ```javascript
 gl.enable( gl.DEPTH_TEST );

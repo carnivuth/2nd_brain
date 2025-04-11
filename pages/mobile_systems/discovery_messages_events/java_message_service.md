@@ -35,7 +35,7 @@ D --> G
 E --> H
 ```
 
-## [RELIABILITY ](MESSAGING.md#RELIABILITY%20AND%20QoS) in JMS
+## [RELIABILITY ](messaging.md#reliability%20and%20qos) in JMS
 
 reliability is handled trough ACK messages that are given from the JMS broker to the publisher and from the consumer to the broker
 
@@ -63,4 +63,4 @@ JMS allow to specify store semantics of a message:
 - **PERSISTENT** messages are guaranteed that are saved at the JMS provider side
 - **NON_PERSISTENT** messages are not saved on persistent storage
 
-[PREVIOUS](pages/discovery_messages_events/MESSAGING.md) [NEXT](mobile_systems/discovery_messages_events/CORBA_MESSAGING.md)
+[PREVIOUS](pages/discovery_messages_events/messaging.md) [NEXT](mobile_systems/discovery_messages_events/corba_messaging.md)

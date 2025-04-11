@@ -28,4 +28,4 @@ This filter takes into account the bi-dimensional distance and the difference in
 
 As shown in the image this filter is good in the edges cause it does not introduce blur in the image cause it takes into account range distance
 
-[PREVIOUS](pages/image_filtering/MEDIAN_FILTER.md) [NEXT](computer_vision/image_filtering/NON-LOCAL_MEAN_FILTER.md)
+[PREVIOUS](pages/image_filtering/median_filter.md) [NEXT](computer_vision/image_filtering/non-local_mean_filter.md)

@@ -7,4 +7,4 @@ tags: []
 # Cloud infrastructure for iot
 # Cloud infrastructure for iot
 
- [NEXT](mobile_systems/wireless/WIRELESS_COMMUNICATION.md)
+ [NEXT](mobile_systems/wireless/wireless_communication.md)

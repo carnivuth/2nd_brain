@@ -24,4 +24,4 @@ B --> A
 ```
 a ogni grammatica regolare corrisponde un automa in grado di riconoscerla
 
-[PREVIOUS](pages/GRAMMATICHE_TIPO_2.md) [NEXT](linguaggi_modelli_computazionali/ESPRESSIONI_REGOLARI.md)
+[PREVIOUS](pages/grammatiche_tipo_2.md) [NEXT](linguaggi_modelli_computazionali/espressioni_regolari.md)

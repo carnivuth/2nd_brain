@@ -7,7 +7,7 @@ index: 23
 
 # Radar
 
-Positioning system for indoor environment based on RSSI computation and fingerprinting, it exploits a [scene analisys](BASE_TECHNIQUES.md#SCENE%20ANALYSIS)
+Positioning system for indoor environment based on RSSI computation and fingerprinting, it exploits a [scene analisys](base_techniques.md#scene%20analysis)
 
 ![](mobile_systems/Pasted%20image%2020240609155153.png)
 
@@ -19,4 +19,4 @@ A central server collects data sent by devices in UDP packets containing orienta
 
 mobile nodes send periodically UDP packets to the server that compares the packets to the dataset collected in the offline phase
 
-[PREVIOUS](pages/positioning_systems/ACTIVE_BAT.md) [NEXT](mobile_systems/positioning_systems/EKAHAU.md)
+[PREVIOUS](pages/positioning_systems/active_bat.md) [NEXT](mobile_systems/positioning_systems/ekahau.md)

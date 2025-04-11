@@ -7,7 +7,7 @@ index: 3
 
 # Quando la struttura del file non e sufficiente: indici
 
-[L'organizzazione dei file](gestione_disco.md#Organizzazione%20dei%20file) da sola non e sufficiente, in molti casi sia [Heap file](gestione_disco.md#Heap%20file) che [Sequential file](gestione_disco.md#Sequential%20file) hanno i loro limiti, per esempio la ricerca nel primo caso e costosa e nel secondo e efficiente solo se effettuata sul campo di ordinamento del file
+[L'organizzazione dei file](gestione_disco.md#Organizzazione%20dei%20file) da sola non e sufficiente, in molti casi sia [Heap file](gestione_disco.md#Heap%20file) che [Sequential file](gestione_disco.md#sequential%20file) hanno i loro limiti, per esempio la ricerca nel primo caso e costosa e nel secondo e efficiente solo se effettuata sul campo di ordinamento del file
 
 Per questo si introducono gli **indici**, strutture dati ausiliarie per facilitare l'accesso ai dati in fase di ricerca per uno specifico termine di ricerca
 

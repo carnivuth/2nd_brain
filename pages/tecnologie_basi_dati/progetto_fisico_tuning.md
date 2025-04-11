@@ -75,7 +75,7 @@ AND D.name = 'Toy'
 AND E.age = 25
 ```
 
-In questo caso se si possiede un indice su `E.age` potrebbe non essere necessario l'indice per fare [index nested loop join](join.md#Sfruttando%20gli%20indici%20index%20nested%20loop%20join), dipende da quanto e selettivo
+In questo caso se si possiede un indice su `E.age` potrebbe non essere necessario l'indice per fare [index nested loop join](join.md#sfruttando%20gli%20indici%20index%20nested%20loop%20join), dipende da quanto e selettivo
 
 ### Esempio: indici per query range
 
@@ -98,7 +98,7 @@ Nel primo caso un indice ([b+tree](tecnologie_basi_dati/b+tree.md)) su `age,sal`
 
 ## Data clustering
 
-Come mostrato in precedenza DB2 contempla la presenza [di indici non perfettamente clustered](operatori_modifica.md#Update%20della%20clustering%20key), di conseguenza e necessario che attributi scegliere per un indice clustered e determinare il livello di clustering desiderato
+Come mostrato in precedenza DB2 contempla la presenza [di indici non perfettamente clustered](operatori_modifica.md#update%20della%20clustering%20key), di conseguenza e necessario che attributi scegliere per un indice clustered e determinare il livello di clustering desiderato
 
 >[!TIP] Le query di range sono quelle che **beneficiano maggiormente dalla clusterizzazione di un indice**, insieme alle ricerche `=`  su attributi non chiave traggono vantaggio da indici clustered in caso di molti duplicati
 

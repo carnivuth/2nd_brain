@@ -31,7 +31,7 @@ STOP AFTER 2
 
 ## Caso di studio per le top-$k$ 1-1 join queries
 
-Il caso di studio che ha portato alla realizzazione delle prima soluzione per questa casistica e stato quello in cui le partizioni di $R$ non sono virtuali (*[database partizionato](progetto_fisico_tuning.md#Partizionamento%20dei%20dati)*) detto anche il **middleware scenario**, definito come segue
+Il caso di studio che ha portato alla realizzazione delle prima soluzione per questa casistica e stato quello in cui le partizioni di $R$ non sono virtuali (*[database partizionato](progetto_fisico_tuning.md#partizionamento%20dei%20dati)*) detto anche il **middleware scenario**, definito come segue
 
 - si ha un set di sorgenti di dati
 - la query coinvolge due o più di queste sorgenti
@@ -113,7 +113,7 @@ E possibile fermare l'algoritmo prima di effettuare $k$ round a patto che sia ve
 
 ## Migliorando [b0](#algoritmo%20$b_0$): maxoptimal
 
-Il teorema di cui sopra si può applicare seguendo un principio simile a quello visto per [KNNOptimal](top_k_queries.md#Risolvere%20le%20query%20top-$k$%20algoritmo%20KNNOptimal) dove ad ogni step si effettua un accesso ordinato sulla lista dove $p_j$ e massimo (*la più promettente*)
+Il teorema di cui sopra si può applicare seguendo un principio simile a quello visto per [KNNOptimal](top_k_queries.md#risolvere%20le%20query%20top-$k$%20algoritmo%20knnoptimal) dove ad ogni step si effettua un accesso ordinato sulla lista dove $p_j$ e massimo (*la più promettente*)
 
 ## Perche [b0](#algoritmo%20$b_0$) non funziona con altre scoring function
 
@@ -272,4 +272,4 @@ dove $p_j^{max}$ e definito come il primo valore visto in $L_j$
 
 >[!WARNING] per far si che il rank join sia instance optimal e necessario che le relazioni siano al massimo 2 e che ci sia solo uno score parziale per input
 
-[PREVIOUS](pages/top_k_queries.md) [NEXT](tecnologie_basi_dati/rankSQL.md)
+[PREVIOUS](pages/top_k_queries.md) [NEXT](tecnologie_basi_dati/ranksql.md)

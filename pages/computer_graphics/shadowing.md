@@ -46,9 +46,9 @@ Nel caso in cui il piano non sia cartesiano e necessario proiettare i vertici de
 
 ## Ombre nello [z-buffer](real_time_rendering.md#algoritmo%20z-buffer): shadow-buffer
 
-Per implementare le ombre nello [z-buffer](real_time_rendering.md#ALGORITMO%20Z-BUFFER) si ricorre a un algoritmo detto **shadow-buffer**
+Per implementare le ombre nello [z-buffer](real_time_rendering.md#algoritmo%20z-buffer) si ricorre a un algoritmo detto **shadow-buffer**
 
-Lo shadow buffer e un buffer in memoria che computa l'algoritmo [z-buffer](real_time_rendering.md#ALGORITMO%20Z-BUFFER) ma dal punto di vista della sorgente luminosa
+Lo shadow buffer e un buffer in memoria che computa l'algoritmo [z-buffer](real_time_rendering.md#algoritmo%20z-buffer) ma dal punto di vista della sorgente luminosa
 
 ```mermaid
 flowchart TD
@@ -67,7 +67,7 @@ B --no --> D
 
 ## Gestire l'aliasing
 
-Quando si computano le ombre si hanno sempre problemi di aliasing dovuti al fatto che l'algoritmo [shadow buffer](#OMBRE%20NELLO%20[Z-BUFFER](REAL_TIME_RENDERING.md%20ALGORITMO%20Z-BUFFER)%20SHADOW-BUFFER) compie una decisione netta sul mettere in ombra o meno un pixel, in questo caso si applicano tecniche simili a quanto visto per le [textures](texture_mapping.md#GESTIRE%20L'ALIASING)
+Quando si computano le ombre si hanno sempre problemi di aliasing dovuti al fatto che l'algoritmo [shadow buffer](#OMBRE%20NELLO%20[Z-BUFFER](REAL_TIME_RENDERING.md%20ALGORITMO%20Z-BUFFER)%20SHADOW-BUFFER) compie una decisione netta sul mettere in ombra o meno un pixel, in questo caso si applicano tecniche simili a quanto visto per le [textures](texture_mapping.md#gestire%20l'aliasing)
 
 ## Luci non puntiformi
 

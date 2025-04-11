@@ -31,4 +31,4 @@ USAGE:
 
 Now we have a scaled dataset!
 
-[PREVIOUS](DIMENSIONALITY_REDUCTION.md) [NEXT](datamining/SAMPLING.md)
+[PREVIOUS](dimensionality_reduction.md) [NEXT](datamining/sampling.md)
