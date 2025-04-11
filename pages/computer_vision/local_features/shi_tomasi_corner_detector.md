@@ -15,4 +15,4 @@ $$
 
 ![](computer_vision/Pasted_image_20240310172549.png)
 
-[PREVIOUS](pages/local_features/harris_corner_detector.md) [NEXT](computer_vision/local_features/scale_invariance.md)
+[PREVIOUS](computer_vision/local_features/harris_corner_detector.md) [NEXT](computer_vision/local_features/scale_invariance.md)

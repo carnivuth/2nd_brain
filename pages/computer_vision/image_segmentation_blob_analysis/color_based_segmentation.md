@@ -61,4 +61,4 @@ $$
 
 The mahalanobis distance weights the differences between the color components unequally (inversely proportional to the learned variances ), This as the effect of lower the consideration of sparse components
 
-[PREVIOUS](pages/image_segmentation_blob_analysis/binarization.md) [NEXT](computer_vision/image_segmentation_blob_analysis/binary_morphology.md)
+[PREVIOUS](computer_vision/image_segmentation_blob_analysis/binarization.md) [NEXT](computer_vision/image_segmentation_blob_analysis/binary_morphology.md)

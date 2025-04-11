@@ -1,7 +1,7 @@
 ---
 id: CLIPPING
 tags: []
-aliases: 
+aliases:
 index: 6
 ---
 
@@ -36,7 +36,7 @@ Data una linea come segue
 
 ![](computer_graphics/Pasted%20image%2020241217161734.png)
 
-si identifica il valore del parametro $t$ che fa eccedere la linea rispetto a una data coordinata (*in questo caso la coordinata $y$*) 
+si identifica il valore del parametro $t$ che fa eccedere la linea rispetto a una data coordinata (*in questo caso la coordinata $y$*)
 
 $$
 y_{max} = y_0 + (y_1-y_0)t \Rightarrow t = \frac{y_{max} - y_0}{y_1-y_0}
@@ -72,9 +72,9 @@ sequenceDiagram
 participant algorithm
 loop viewport sides
 	loop vertex
-		algorithm ->> algorithm: compute clipping wrt viewport side for the given poligon side 
+		algorithm ->> algorithm: compute clipping wrt viewport side for the given poligon side
 		algorithm ->> algorithm: add new vertex if necessary
-	 end 
+	 end
  end
 ```
 
@@ -90,4 +90,4 @@ Successivamente si effettua la [proiezione prospettica](computer_graphics/proiez
 
 ![](computer_graphics/Pasted%20image%2020241217164353.png)
 
-[PREVIOUS](pages/proiezione_prospettica.md) [NEXT](computer_graphics/illuminazione.md)
+[PREVIOUS](computer_graphics/proiezione_prospettica.md) [NEXT](computer_graphics/illuminazione.md)

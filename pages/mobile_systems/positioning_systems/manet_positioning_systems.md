@@ -17,4 +17,4 @@ This solution relies on exploiting the maps of the anchor nodes to create a mult
 
 ![](mobile_systems/Pasted%20image%2020240608190212.png)
 
-[PREVIOUS](pages/positioning_systems/taxonomy.md) [NEXT](mobile_systems/positioning_systems/global_positioning_system.md)
+[PREVIOUS](mobile_systems/positioning_systems/taxonomy.md) [NEXT](mobile_systems/positioning_systems/global_positioning_system.md)

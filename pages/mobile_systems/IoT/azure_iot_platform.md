@@ -29,4 +29,4 @@ D --> E
 A & B & C --> D
 ```
 
-[PREVIOUS](pages/iot/aws_iot_platform.md) [NEXT](mobile_systems/iot/siemens_mindsphere.md)
+[PREVIOUS](mobile_systems/iot/aws_iot_platform.md) [NEXT](mobile_systems/iot/siemens_mindsphere.md)

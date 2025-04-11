@@ -15,4 +15,4 @@ The problem can be declined in many variants, for example the object can appear 
 
 Typical problems to address in this situation are intensity changes, rotation and occlusion
 
-[PREVIOUS](pages/local_features/matching_process.md) [NEXT](computer_vision/object_detection/template_pattern_matching.md)
+[PREVIOUS](computer_vision/local_features/matching_process.md) [NEXT](computer_vision/object_detection/template_pattern_matching.md)

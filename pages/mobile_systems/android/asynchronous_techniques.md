@@ -88,4 +88,4 @@ UI_thread ~~~ background_thread
 
 The android UI toolkit is not thread safe so manipulation in concurrent threads are not guaranteed to be consistent
 
-[PREVIOUS](pages/android/threading_model.md) [NEXT](mobile_systems/android/job_scheduler.md)
+[PREVIOUS](mobile_systems/android/threading_model.md) [NEXT](mobile_systems/android/job_scheduler.md)

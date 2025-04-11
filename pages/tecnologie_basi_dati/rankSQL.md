@@ -27,4 +27,4 @@ grazie all'operatore $\mu$ e possibile l'interleaving con altri operatori $\sigm
 
 ![](tecnologie_basi_dati/Pasted%20image%2020250220160711.png)
 
-[PREVIOUS](pages/top_k_join_queries.md) [NEXT](tecnologie_basi_dati/skyline_queries.md)
+[PREVIOUS](tecnologie_basi_dati/top_k_join_queries.md) [NEXT](tecnologie_basi_dati/skyline_queries.md)

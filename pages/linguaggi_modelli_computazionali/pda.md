@@ -148,4 +148,4 @@ L'analisi ricorsiva discendente e applicabile solo in caso in cui la grammatica 
 
 Risulta quindi necessario definire un sottoinsieme di linguaggi di [tipo 2](grammatiche_tipo_2.md) che siano riconoscibili in maniera deterministica guardando al più $k$ simboli in avanti, e il caso delle [grammatiche llk](linguaggi_modelli_computazionali/grammatiche_llk.md)
 
-[PREVIOUS](pages/rsf.md) [NEXT](linguaggi_modelli_computazionali/grammatiche_llk.md)
+[PREVIOUS](linguaggi_modelli_computazionali/rsf.md) [NEXT](linguaggi_modelli_computazionali/grammatiche_llk.md)

@@ -30,4 +30,4 @@ to address this flows Android use a proprietary implementation to address this i
 
 ![](mobile_systems/Pasted%20image%2020240616164345.png)
 
-[PREVIOUS](pages/discovery_messages_events/corba_messaging.md) [NEXT](mobile_systems/discovery_messages_events/events.md)
+[PREVIOUS](mobile_systems/discovery_messages_events/corba_messaging.md) [NEXT](mobile_systems/discovery_messages_events/events.md)

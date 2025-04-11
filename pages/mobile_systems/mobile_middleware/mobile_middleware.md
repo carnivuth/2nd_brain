@@ -30,4 +30,4 @@ A mobile middleware **has lot of differences to address due to the different dep
 - partial visibility of location change
 - modifications in the QoS levels currently available
 
-[PREVIOUS](pages/mobility/i_tcp.md) [NEXT](mobile_systems/mobile_middleware/mobile_middleware_principles.md)
+[PREVIOUS](mobile_systems/mobility/i_tcp.md) [NEXT](mobile_systems/mobile_middleware/mobile_middleware_principles.md)

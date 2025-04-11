@@ -15,4 +15,4 @@ One of the improvements over [RADAR](mobile_systems/radar.md) is the rail tracki
 
 In the ekahau solution nodes ask to be located at the central server
 
-[PREVIOUS](pages/positioning_systems/radar.md) [NEXT](mobile_systems/positioning_systems/multiple_positioning_systems_solutions.md)
+[PREVIOUS](mobile_systems/positioning_systems/radar.md) [NEXT](mobile_systems/positioning_systems/multiple_positioning_systems_solutions.md)

@@ -64,4 +64,4 @@ $$
 
 The radial coefficients $k_{1} k_{2}....$  the optical center $(x_c,y_c)$ and the tangential distortion coefficients $p_1,p_2$ are the set of lens distortion parameters that need to be accounted for a realistic modeling of the camera. (for the sake of simplicity the distortion center is taken to coincide with the optical center)
 
-[PREVIOUS](pages/image_formation_acquisition/lens.md) [NEXT](computer_vision/image_formation_acquisition/stereo_image_acquisition.md)
+[PREVIOUS](computer_vision/image_formation_acquisition/lens.md) [NEXT](computer_vision/image_formation_acquisition/stereo_image_acquisition.md)

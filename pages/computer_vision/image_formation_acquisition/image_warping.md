@@ -33,4 +33,4 @@ once the lens distortion parameter are computed by [camera calibration](computer
 
 ![](computer_vision/Pasted_image_20240227164313.png)
 
-[PREVIOUS](pages/image_formation_acquisition/stereo_camera_calibration.md) [NEXT](computer_vision/image_filtering/image_filters.md)
+[PREVIOUS](computer_vision/image_formation_acquisition/stereo_camera_calibration.md) [NEXT](computer_vision/image_filtering/image_filters.md)

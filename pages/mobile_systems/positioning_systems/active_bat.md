@@ -16,4 +16,4 @@ positioning system based on the use of RF and ultra sound technologies (US) wher
 - physical absolute, ti exploits [ToA](mobile_systems/base_techniques.md) to compute position
 - suitable for indoor environments
 
-[PREVIOUS](pages/positioning_systems/no_infrastructure_positioning_systems.md) [NEXT](mobile_systems/positioning_systems/radar.md)
+[PREVIOUS](mobile_systems/positioning_systems/no_infrastructure_positioning_systems.md) [NEXT](mobile_systems/positioning_systems/radar.md)

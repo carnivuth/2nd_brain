@@ -124,4 +124,4 @@ $$
 
 La ricorsione sinistra può essere sempre eliminata, tuttavia l'operazione comporta un **esplicito cambiamento delle regole che generano il linguaggio**, e di conseguenza della semantica delle frasi stesse
 
-[PREVIOUS](pages/grammatiche_tipo_1.md) [NEXT](linguaggi_modelli_computazionali/grammatiche_regolari.md)
+[PREVIOUS](linguaggi_modelli_computazionali/grammatiche_tipo_1.md) [NEXT](linguaggi_modelli_computazionali/grammatiche_regolari.md)

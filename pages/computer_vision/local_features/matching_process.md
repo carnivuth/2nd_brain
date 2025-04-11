@@ -69,4 +69,4 @@ backtracking becomes computationally expensive as the dimension of the space goe
 
 Variation of the k-d tree algorithm where traversed node are inserted in a priority queue that is used in the backtracking phase to chose the node to traverse first, the queue is updated in the backtracking phase that ends at the $E_{max}$ node
 
-[PREVIOUS](pages/local_features/sift_descriptor.md) [NEXT](computer_vision/object_detection/instance_level_object_detection.md)
+[PREVIOUS](computer_vision/local_features/sift_descriptor.md) [NEXT](computer_vision/object_detection/instance_level_object_detection.md)

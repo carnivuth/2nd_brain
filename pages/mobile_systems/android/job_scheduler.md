@@ -41,4 +41,4 @@ public class MyJobService extends JobService {
 - network type
 - if task requires the device to be plugged
 
-[PREVIOUS](pages/android/asynchronous_techniques.md) [NEXT](mobile_systems/android/alarms.md)
+[PREVIOUS](mobile_systems/android/asynchronous_techniques.md) [NEXT](mobile_systems/android/alarms.md)

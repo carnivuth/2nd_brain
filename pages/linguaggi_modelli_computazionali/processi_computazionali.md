@@ -224,4 +224,4 @@ object CallByName {
 }
 ```
 
-[PREVIOUS](pages/grammatiche_lrk.md) [NEXT](linguaggi_modelli_computazionali/javascript.md)
+[PREVIOUS](linguaggi_modelli_computazionali/grammatiche_lrk.md) [NEXT](linguaggi_modelli_computazionali/javascript.md)

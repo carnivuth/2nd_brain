@@ -264,4 +264,4 @@ Un altra idea consiste nel accorpare assieme gli stati del parser $LR(1)$ identi
 
 - **CONTRO**: possono apparire conflitti reduce/reduce, tipicamente gestibili.
 
-[PREVIOUS](pages/interpreti.md) [NEXT](linguaggi_modelli_computazionali/processi_computazionali.md)
+[PREVIOUS](linguaggi_modelli_computazionali/interpreti.md) [NEXT](linguaggi_modelli_computazionali/processi_computazionali.md)

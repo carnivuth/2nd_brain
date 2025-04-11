@@ -179,4 +179,4 @@ So in conclusion a $PPM$ can be thought as 3 separate components:
 - the $G$ matrix which represents **the relation between the 2 different reference frames**
 - the $[I|0]$ matrix which represents **the perspective projection carried out by the pinhole camera model**
 
-[PREVIOUS](pages/image_formation_acquisition/perspective_space.md) [NEXT](computer_vision/image_formation_acquisition/homography.md)
+[PREVIOUS](computer_vision/image_formation_acquisition/perspective_space.md) [NEXT](computer_vision/image_formation_acquisition/homography.md)

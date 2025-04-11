@@ -32,4 +32,4 @@ a point is detected as a feature if it's DoG is an extreme of its 26 neighbors
 
 In order to localize keypoints in an accurate way and remove unstable point [filter procedures](computer_vision/image_filters.md) are needed
 
-[PREVIOUS](pages/local_features/scale_normalized_log.md) [NEXT](computer_vision/local_features/canonical_orientation.md)
+[PREVIOUS](computer_vision/local_features/scale_normalized_log.md) [NEXT](computer_vision/local_features/canonical_orientation.md)

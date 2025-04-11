@@ -18,4 +18,4 @@ there are 2 possible solution to handle the problem:
 - **location update** the network infrastructure is informed of the mobile node position
 - **location search** the network infrastructure search and updates the node position
 
-[PREVIOUS](pages/positioning_systems/multiple_positioning_systems_solutions.md) [NEXT](mobile_systems/mobility/host_identity_protocol.md)
+[PREVIOUS](mobile_systems/positioning_systems/multiple_positioning_systems_solutions.md) [NEXT](mobile_systems/mobility/host_identity_protocol.md)

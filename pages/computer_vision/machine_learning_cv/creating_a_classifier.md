@@ -152,4 +152,4 @@ For a lot of application capture all the variability with one template is imposs
 
 ![](computer_vision/Pasted_image_20240502210718.png)
 
-[PREVIOUS](pages/machine_learning_cv/machine_learning_in_computer_vision.md) [NEXT](computer_vision/machine_learning_cv/deep_learning_and_neural_networks.md)
+[PREVIOUS](computer_vision/machine_learning_cv/machine_learning_in_computer_vision.md) [NEXT](computer_vision/machine_learning_cv/deep_learning_and_neural_networks.md)

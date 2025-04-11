@@ -197,4 +197,4 @@ non  e detto che l'algoritmo [KNNOptimal](#Risolvere%20le%20query%20top-$k$%20al
 
 nella coda `PQ` si includono anche le tuple e **l'algoritmo termina quando il primo elemento della coda e una tupla**
 
-[PREVIOUS](pages/r-tree.md) [NEXT](tecnologie_basi_dati/top_k_join_queries.md)
+[PREVIOUS](tecnologie_basi_dati/r-tree.md) [NEXT](tecnologie_basi_dati/top_k_join_queries.md)

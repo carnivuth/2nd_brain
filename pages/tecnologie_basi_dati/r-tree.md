@@ -51,4 +51,4 @@ Per implementare la ricerca e necessario implementare le API previste dalla spec
 - `Picksplit(P)` in output vengono fornite le entry e l'output e un set di due bounding box con cardinalità inferiore, lo split viene deciso minimizzando l'area complessiva delle due [MBB](#Concetto%20di%20MBB)
 >[!WARNING] minimizzare la somma complessiva e un problema Np-hard  
 
-[PREVIOUS](pages/indici_multidimensionali.md) [NEXT](tecnologie_basi_dati/top_k_queries.md)
+[PREVIOUS](tecnologie_basi_dati/indici_multidimensionali.md) [NEXT](tecnologie_basi_dati/top_k_queries.md)

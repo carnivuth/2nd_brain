@@ -18,4 +18,4 @@ Principal features are:
 - no padding, [average pooling](convolutional_neural_networks.md#pooling%20layers)
 - 2 [fully connected layers](deep_learning_and_neural_networks.md#fully%20connected%20layers) where each unit compute the distance between the input and the parameter vector
 
-[PREVIOUS](pages/machine_learning_cv/convolutional_neural_networks.md) [NEXT](computer_vision/machine_learning_cv/alexnet.md)
+[PREVIOUS](computer_vision/machine_learning_cv/convolutional_neural_networks.md) [NEXT](computer_vision/machine_learning_cv/alexnet.md)

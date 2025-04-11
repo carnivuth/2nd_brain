@@ -1,7 +1,7 @@
 ---
 id: WEBGL
 tags: []
-aliases: 
+aliases:
 index: 13
 ---
 
@@ -34,7 +34,7 @@ L'elaborazione accelerata viene realizzata per mezzo di programmi, detti **shade
 Il linguaggio GLSL permette i seguenti tipi
 
 ```glsl
-void 
+void
 bool
 int //tipo di dato intero con segno
 float
@@ -106,7 +106,7 @@ gl.vertexAttribPointer(coord, 3, gl.FLOAT, false, 0, 0);
 
 ## Rendering 3d
 
-Per poter renderizzare un oggetto 3D e necessario implementare la [pipeline di vista](trasformazioni_vista.md) con scaling e [proiezione prospettica](computer_graphics/proiezione_prospettica.md), che si traduce nel definire le matrici $VM$ $S$ e applicare la [trasformazione magica](proiezione_prospettica.md#trasformazione%20magica)
+Per poter renderizzare un oggetto 3D e necessario implementare la [pipeline di vista](computer_graphics/trasformazioni_vista.md) con scaling e [proiezione prospettica](computer_graphics/proiezione_prospettica.md), che si traduce nel definire le matrici $VM$ $S$ e applicare la [trasformazione magica](computer_graphics/proiezione_prospettica.md#trasformazione%20magica)
 
 ```javascript
 // computazione della matrice di proiezione in prospettiva
@@ -140,15 +140,15 @@ view_matrix[14]=view_matrix[14]-5;//zoom
  'vColor=color;'+
  '}';
 
-// compilazione e linking degli shader 
-// associazione attributi oggetti 
+// compilazione e linking degli shader
+// associazione attributi oggetti
 ```
 
 >[!NOTE] l'asse $z$ nello spazio di proiezione di webGL e invertito
 
 ## Implementazione dell' [illuminazione](computer_graphics/illuminazione.md)
 
-L'illuminazione deve essere implementata con opportuni shader/vertex program (*l'esempio che segue implementa il [gouraud shading](illuminazione.md#gouraud%20shading)*):
+L'illuminazione deve essere implementata con opportuni shader/vertex program (*l'esempio che segue implementa il [gouraud shading](computer_graphics/illuminazione.md#gouraud%20shading)*):
 
 ```glsl
 //vertex-shader
@@ -178,11 +178,11 @@ void main(){
 	gl_Position = projection * vertPos4;
 	vec3 N = normalize(normalInterp);
 	vec3 L = normalize(lightPos - vertPos);
-	
+
 	// Lambert's cosine law
 	float lambertian = max(dot(N, L), 0.0);
 	float specular = 0.0;
-	
+
 	if(lambertian > 0.0) {
 		vec3 R = reflect(-L, N);
 		// Reflected light vector
@@ -214,4 +214,4 @@ void main( ) {.
 }
 ```
 
-[PREVIOUS](pages/xwindow_system.md) [NEXT](computer_graphics/rendering_avanzato_webgl.md)
+[PREVIOUS](computer_graphics/xwindow_system.md) [NEXT](computer_graphics/rendering_avanzato_webgl.md)

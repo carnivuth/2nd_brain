@@ -30,4 +30,4 @@ then the highest peak of the histogram is considered for the canonical orientati
 
 ![](computer_vision/Pasted_image_20240314122805.png)
 
-[PREVIOUS](pages/local_features/dog_detector.md) [NEXT](computer_vision/local_features/sift_descriptor.md)
+[PREVIOUS](computer_vision/local_features/dog_detector.md) [NEXT](computer_vision/local_features/sift_descriptor.md)

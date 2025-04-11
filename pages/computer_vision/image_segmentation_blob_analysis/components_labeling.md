@@ -41,4 +41,4 @@ A new label is propagated throughout a connected component starting from a “se
 
 ![](computer_vision/Pasted_image_20240303174654.png)
 
-[PREVIOUS](pages/image_segmentation_blob_analysis/binary_morphology.md) [NEXT](computer_vision/image_segmentation_blob_analysis/blob_analysis.md)
+[PREVIOUS](computer_vision/image_segmentation_blob_analysis/binary_morphology.md) [NEXT](computer_vision/image_segmentation_blob_analysis/blob_analysis.md)

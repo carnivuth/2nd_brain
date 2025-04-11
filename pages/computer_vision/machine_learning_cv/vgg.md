@@ -28,4 +28,4 @@ A stage has the same receptive field as a single larger convolution but, given t
 | Data Augmentation                                   | Same as [ALEXNET](computer_vision/alexnet.md) plus Scale Jittering (randomly rescale the input image to $S\times S$, with $S$ in $[256, 512]$                                                                                                                                                                                             |
 | Initialization                                      | Deep nets are hard to train with randomly initialized weights due to instability of gradients. They train a VGG-11 with Weights $~N(0,0.01), Biases=0$. Then train VGG-16 and VGG-19 by initializing the first 4 conv layers and the last 3 FC layers with the pre-trained weights of the corresponding layers of VGG-11. |
 
-[PREVIOUS](pages/machine_learning_cv/alexnet.md) [NEXT](computer_vision/machine_learning_cv/resnet.md)
+[PREVIOUS](computer_vision/machine_learning_cv/alexnet.md) [NEXT](computer_vision/machine_learning_cv/resnet.md)

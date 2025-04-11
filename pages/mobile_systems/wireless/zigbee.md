@@ -38,4 +38,4 @@ The zigbee protocol offers to possible solution for physical channel management
 - [CSMA/CA](csma.md#csma/ca%20variant)
 - Beacon enabled network where the **PAN COORDINATOR** sends periodic messages, this solution is similar to what [BLUETOOTH](mobile_systems/bluetooth.md) does, is better suited for sensors communication
 
-[PREVIOUS](pages/wireless/bluetooth.md) [NEXT](mobile_systems/manets/manets.md)
+[PREVIOUS](mobile_systems/wireless/bluetooth.md) [NEXT](mobile_systems/manets/manets.md)

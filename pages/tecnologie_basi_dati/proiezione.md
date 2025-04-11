@@ -69,4 +69,4 @@ Questa modalità necessita che tutte le chiavi da restituire in output **siano c
 
 >[!TIP] in caso di indice [b+tree](tecnologie_basi_dati/b+tree.md) se gli attributi sono un prefisso della chiave basta scandire le foglie eliminando i duplicati con costo $L$
 
-[PREVIOUS](pages/selezione.md) [NEXT](tecnologie_basi_dati/join.md)
+[PREVIOUS](tecnologie_basi_dati/selezione.md) [NEXT](tecnologie_basi_dati/join.md)

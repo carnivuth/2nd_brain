@@ -130,4 +130,4 @@ D[trasformazione window viewport]
 A --> B --> C --> D
 ```
 
-[PREVIOUS](pages/trasformazioni_geometriche.md) [NEXT](computer_graphics/real_time_rendering.md)
+[PREVIOUS](computer_graphics/trasformazioni_geometriche.md) [NEXT](computer_graphics/real_time_rendering.md)

@@ -26,4 +26,4 @@ PUB/SUB has the following properties
 - **time decoupling** no need for the nodes to be connected at the same time
 - **synchronization decoupling**  no need for the nodes to halt the operation flow to receive communications
 
-[PREVIOUS](pages/iot/iot_protocols.md) [NEXT](mobile_systems/iot/pub_sub_protocols.md)
+[PREVIOUS](mobile_systems/iot/iot_protocols.md) [NEXT](mobile_systems/iot/pub_sub_protocols.md)

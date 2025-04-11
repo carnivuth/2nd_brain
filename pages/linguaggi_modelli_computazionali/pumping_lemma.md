@@ -32,4 +32,4 @@ Dove la componente centrale $y$ può essere ripetuta (*pompata*) per ottenere le
 
 $$xy^iw \in L \forall i \geq 0$$
 
-[PREVIOUS](pages/espressioni_regolari.md) [NEXT](linguaggi_modelli_computazionali/rsf.md)
+[PREVIOUS](linguaggi_modelli_computazionali/espressioni_regolari.md) [NEXT](linguaggi_modelli_computazionali/rsf.md)

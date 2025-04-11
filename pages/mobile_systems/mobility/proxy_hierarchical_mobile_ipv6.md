@@ -25,4 +25,4 @@ The main components of PHMIP are:
 
 ![](mobile_systems/Pasted%20image%2020240608155305.png)
 
-[PREVIOUS](pages/mobility/hierarchical_mobile_ipv6.md) [NEXT](mobile_systems/mobility/i_tcp.md)
+[PREVIOUS](mobile_systems/mobility/hierarchical_mobile_ipv6.md) [NEXT](mobile_systems/mobility/i_tcp.md)

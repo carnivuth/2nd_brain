@@ -76,4 +76,4 @@ Ogni tipo di predicato a effetti diversi sull'efficienza di una query, in partic
 | Riduzione numero di tuple | SI               | SI             | SI            | NO       |
 | Riduzione output finale   | SI               | SI             | SI            | SI       |
 
-[PREVIOUS](pages/sorting.md) [NEXT](tecnologie_basi_dati/proiezione.md)
+[PREVIOUS](tecnologie_basi_dati/sorting.md) [NEXT](tecnologie_basi_dati/proiezione.md)

@@ -162,4 +162,4 @@ In caso di full join:
 - [Merge-scan join](#Merge-scan%20join): aggiunge le tuple dangling di entrambi gli input
 - [Hash join](#Hash%20join): per aggiungere anche le tuple dangling della relazione esterna, quando si costruisce la hash table si aggiunge un flag per tener traccia di quali tuple hanno trovato un match. Al termine si fa un passo finale sulla hash table per collezionare tutte le tuple dangling
 
-[PREVIOUS](pages/proiezione.md) [NEXT](tecnologie_basi_dati/group_by.md)
+[PREVIOUS](tecnologie_basi_dati/proiezione.md) [NEXT](tecnologie_basi_dati/group_by.md)

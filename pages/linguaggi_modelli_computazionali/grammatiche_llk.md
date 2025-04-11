@@ -66,4 +66,4 @@ Le grammatiche $LL(k)$ non sono compatibili con la ricorsione a sinistra delle p
 
 questa problematica può essere risolta adottando tecniche di analisi più avanzate come le [grammatiche LR(k)](linguaggi_modelli_computazionali/grammatiche_lrk.md)
 
-[PREVIOUS](pages/pda.md) [NEXT](linguaggi_modelli_computazionali/interpreti.md)
+[PREVIOUS](linguaggi_modelli_computazionali/pda.md) [NEXT](linguaggi_modelli_computazionali/interpreti.md)

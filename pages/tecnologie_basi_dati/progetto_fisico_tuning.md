@@ -158,4 +158,4 @@ Un aspetto fondamentale per il tuning e la gestione delle transazioni in partico
 
 a tal fine possono essere impiegati trigger o stored procedures
 
-[PREVIOUS](pages/ricerca_piano_accesso.md) [NEXT](tecnologie_basi_dati/indici_multidimensionali.md)
+[PREVIOUS](tecnologie_basi_dati/ricerca_piano_accesso.md) [NEXT](tecnologie_basi_dati/indici_multidimensionali.md)

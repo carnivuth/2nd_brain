@@ -56,4 +56,4 @@ Tre categorie principali:
 	- [multiplexed connection](mobile_systems/multiplexedconn.md)
 	- [client-initiated connection for push model](mobile_systems/clientinit.md)
 
-[PREVIOUS](pages/mobile_middleware/mobile_middleware_principles.md) [NEXT](mobile_systems/mobile_middleware/distribution_patterns.md)
+[PREVIOUS](mobile_systems/mobile_middleware/mobile_middleware_principles.md) [NEXT](mobile_systems/mobile_middleware/distribution_patterns.md)

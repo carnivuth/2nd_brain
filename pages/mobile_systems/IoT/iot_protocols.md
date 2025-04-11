@@ -21,4 +21,4 @@ layer 2 solutions that are used to communicate with the IoT nodes
 
 protocols for data exchange that can be used at all the levels of the architecture
 
-[PREVIOUS](pages/iot/iot_devices.md) [NEXT](mobile_systems/iot/pub_sub_model.md)
+[PREVIOUS](mobile_systems/iot/iot_devices.md) [NEXT](mobile_systems/iot/pub_sub_model.md)

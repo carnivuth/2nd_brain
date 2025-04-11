@@ -88,4 +88,4 @@ B --> C
 
 In order to weights better the points in the neighborhood the weight function $w(x,y)$ used is a Gaussian function
 
-[PREVIOUS](pages/local_features/moravec_corner_detector.md) [NEXT](computer_vision/local_features/shi_tomasi_corner_detector.md)
+[PREVIOUS](computer_vision/local_features/moravec_corner_detector.md) [NEXT](computer_vision/local_features/shi_tomasi_corner_detector.md)

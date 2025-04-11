@@ -19,4 +19,4 @@ The output is the lowest difference computed between the neighborhood of $p$ and
 
 ![](computer_vision/Pasted_image_20240310153802.png)
 
-[PREVIOUS](pages/local_features/zero_crossing_edge_detection.md) [NEXT](computer_vision/local_features/harris_corner_detector.md)
+[PREVIOUS](computer_vision/local_features/zero_crossing_edge_detection.md) [NEXT](computer_vision/local_features/harris_corner_detector.md)

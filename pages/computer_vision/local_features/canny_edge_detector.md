@@ -55,4 +55,4 @@ edges = cv.Canny(img,100,200)
 
 This implementation does not perform [Gaussian smoothing](computer_vision/gaussian_filter.md) before
 
-[PREVIOUS](pages/local_features/edges.md) [NEXT](computer_vision/local_features/zero_crossing_edge_detection.md)
+[PREVIOUS](computer_vision/local_features/edges.md) [NEXT](computer_vision/local_features/zero_crossing_edge_detection.md)

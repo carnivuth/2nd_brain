@@ -74,4 +74,4 @@ also QoS politics need to be taken into account, possible solution can be ACK ba
 
 Also in order delivery semantics can be dropped to improve performance
 
-[PREVIOUS](pages/discovery_messages_events/service_discovery.md) [NEXT](mobile_systems/discovery_messages_events/java_message_service.md)
+[PREVIOUS](mobile_systems/discovery_messages_events/service_discovery.md) [NEXT](mobile_systems/discovery_messages_events/java_message_service.md)

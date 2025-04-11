@@ -18,4 +18,4 @@ Ogni espressione regolare coincide con una corrispondente [grammatica regolare](
 
 ![image.png](image_1681653433735_0.png)
 
-[PREVIOUS](pages/grammatiche_regolari.md) [NEXT](linguaggi_modelli_computazionali/pumping_lemma.md)
+[PREVIOUS](linguaggi_modelli_computazionali/grammatiche_regolari.md) [NEXT](linguaggi_modelli_computazionali/pumping_lemma.md)

@@ -50,4 +50,4 @@ In caso di indici sugli attributi di group by e di calcolo delle funzioni non e 
 
 Si costruisce una tabella di hash in memoria centrale in maniera analoga al caso della [proiezione](proiezione.md#proiettare%20usando%20hashing)
 
-[PREVIOUS](pages/join.md) [NEXT](tecnologie_basi_dati/operatori_modifica.md)
+[PREVIOUS](tecnologie_basi_dati/join.md) [NEXT](tecnologie_basi_dati/operatori_modifica.md)

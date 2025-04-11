@@ -181,4 +181,4 @@ A --> B & C --> D --> E --> F --> G
 
 There is a final thresholding step in order to avoid detection of unwanted edges.
 
-[PREVIOUS](pages/local_features/finding_correspondences.md) [NEXT](computer_vision/local_features/canny_edge_detector.md)
+[PREVIOUS](computer_vision/local_features/finding_correspondences.md) [NEXT](computer_vision/local_features/canny_edge_detector.md)
