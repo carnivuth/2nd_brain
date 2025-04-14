@@ -11,5 +11,6 @@
   "vimMode": true,
   "showLineNumber": true,
   "propertiesInDocument": "source",
-  "readableLineLength": false
+  "readableLineLength": false,
+  "newLinkFormat": "absolute"
 }

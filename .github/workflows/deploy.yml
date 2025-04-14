@@ -31,31 +31,18 @@ jobs:
       - name: clone repo
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Fetch all history for git info
+          fetch-depth: 0
 
-      - name: Clone quartz
-        uses: GuillaumeFalourd/clone-github-repo-action@v2.3
-        with:
-          branch: 'v4'
-          owner: 'jackyzha0'
-          repository: 'quartz'
+      - name: install make
+        run: sudo apt install -y make
 
-      - name: build
-        run: >
-          cd $HOME
-          && git clone https://github.com/jackyzha0/quartz
-          && cp $GITHUB_WORKSPACE/quartz.config.ts quartz
-          && cp $GITHUB_WORKSPACE/quartz.layout.ts quartz
-          && cd quartz
-          && npm install
-          && npx quartz create -s $GITHUB_WORKSPACE -X copy -l shortest
-          && rm -rf content/quartz
-          && npx quartz build
+      - name: run make
+        run: make build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: /home/runner/quartz/public
+          path: build/public
 
   deploy:
     needs: build
