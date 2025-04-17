@@ -7,13 +7,13 @@ index: 53
 
 # Resnet
 
-[CNN](computer_vision/machine_learning_cv/convolutional_neural_networks.md) Inspired by [VGG](computer_vision/machine_learning_cv/vgg.md) based on the concept of [residual blocks](computer_vision/machine_learning_cv/convolutional_neural_networks.md#residual%20learning%20as%20a%20solution), each stage of a resnet consists in a combination of residual blocks
+[CNN](pages/computer_vision/machine_learning_cv/convolutional_neural_networks.md) Inspired by [VGG](pages/computer_vision/machine_learning_cv/vgg.md) based on the concept of [residual blocks](pages/computer_vision/machine_learning_cv/convolutional_neural_networks.md#residual%20learning%20as%20a%20solution), each stage of a resnet consists in a combination of residual blocks
 
 ![](computer_vision/Pasted%20image%2020241001122748.png)
 
 ## Residual block structure
 
-each residual block (*RB*) contains 2 stages of $3 \times 3$ convolution and [ReLU](computer_vision/machine_learning_cv/deep_learning_and_neural_networks.md#activation%20function) non-linearity, the input of a RB block is summed to the output
+each residual block (*RB*) contains 2 stages of $3 \times 3$ convolution and [ReLU](pages/computer_vision/machine_learning_cv/deep_learning_and_neural_networks.md#activation%20function) non-linearity, the input of a RB block is summed to the output
 
 The first RB in most stages halves the spatial resolution (*$S=2$ conv + $2\times 2$ max
 pool*) and doubles the number of channels.
@@ -38,7 +38,7 @@ classDef hidden display: none;
 
 ## Increasing depth with bottleneck residual blocks
 
-In order to increase even further the depth of a [CNN](computer_vision/machine_learning_cv/convolutional_neural_networks.md) without increasing the computational cost bottleneck residual blocks are used which uses a pair of convolutional block to compress and decompress layers, this can cause information loss cause convolution and parameter learning are carried out in a compressed domain:
+In order to increase even further the depth of a [CNN](pages/computer_vision/machine_learning_cv/convolutional_neural_networks.md) without increasing the computational cost bottleneck residual blocks are used which uses a pair of convolutional block to compress and decompress layers, this can cause information loss cause convolution and parameter learning are carried out in a compressed domain:
 
 ```mermaid
 flowchart TD
@@ -59,7 +59,7 @@ classDef hidden display: none;
 
 ### Avoid the information loss
 
-in order to overcome the limitation of [bottleneck residual blocks](#INCREASING%20DEPTH%20WITH%20BOTTLENECK%20RESIDUAL%20BLOCKS) mobilenet-v2 improved the model by using inverted blocks
+in order to overcome the limitation of [bottleneck residual blocks](#Increasing%20depth%20with%20bottleneck%20residual%20blocks) mobilenet-v2 improved the model by using inverted blocks
 
 ```mermaid
 flowchart TD
@@ -77,7 +77,7 @@ G --> END:::hidden
 classDef hidden display: none;
 ```
 
-To improve performance the convolution step is performed as a [depthwise convolutions](computer_vision/machine_learning_cv/convolutional_neural_networks.md#depthwise%20separable%20convolutions), another improvement (*proved by experimental evidence*) is the absence of non linear blocks between residual blocks
+To improve performance the convolution step is performed as a [depthwise convolutions](pages/computer_vision/machine_learning_cv/convolutional_neural_networks.md#depthwise%20separable%20convolutions), another improvement (*proved by experimental evidence*) is the absence of non linear blocks between residual blocks
 ## Resnet training
 
 In the training phase dropouts is not deployed because the use of batch normalization acts as regularizer
@@ -89,7 +89,7 @@ In the training phase dropouts is not deployed because the use of batch normaliz
 | Learning Rate                    | $0.1$, divided by 10 when the validation error plateaus |
 | Weight Decay                     | $0.0001$                                                |
 | Momentum                         | $0.9$                                                   |
-| Data Augmentation, Normalization | Same as [VGG](computer_vision/machine_learning_cv//vgg.md)                                   |
+| Data Augmentation, Normalization | Same as [VGG](pages/computer_vision/machine_learning_cv//vgg.md)                                   |
 | Initialization                   | He initilization                                        |
 
-[PREVIOUS](computer_vision/machine_learning_cv/vgg.md)
+[PREVIOUS](pages/computer_vision/machine_learning_cv/vgg.md)

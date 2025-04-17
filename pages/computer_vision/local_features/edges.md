@@ -111,15 +111,15 @@ There are some operator with some additional features
 
 - **Prewitt operator** which takes into account central differences (better for diagonal edges)
 $$
-\overset{\sim}I_x(i,j) = \mu_x(i+1,j)+\mu_x(i-1,j) 
+\overset{\sim}I_x(i,j) = \mu_x(i+1,j)+\mu_x(i-1,j)
 $$
 $$
-\overset{\sim}I_y(i,j) = \mu_y(i+1,j)+\mu_y(i-1,j) 
+\overset{\sim}I_y(i,j) = \mu_y(i+1,j)+\mu_y(i-1,j)
 $$
 
 - **Sobel operator** which Weights more the point on the center in order to improve isotropy
 $$
-\overset{\sim}I_x(i,j) = \mu_x(i+1,j)+\mu_x(i-1,j) 
+\overset{\sim}I_x(i,j) = \mu_x(i+1,j)+\mu_x(i-1,j)
 $$
 $$
 \mu_x(i,j) = \frac{1}{k+2}[I(i+1,j)+kI(i-1,j)+I(i-1,j)]
@@ -181,4 +181,4 @@ A --> B & C --> D --> E --> F --> G
 
 There is a final thresholding step in order to avoid detection of unwanted edges.
 
-[PREVIOUS](computer_vision/local_features/finding_correspondences.md) [NEXT](computer_vision/local_features/canny_edge_detector.md)
+[PREVIOUS](pages/computer_vision/local_features/finding_correspondences.md) [NEXT](pages/computer_vision/local_features/canny_edge_detector.md)

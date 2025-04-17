@@ -25,7 +25,7 @@ $$
 z_{l} = z_{r} = z
 $$
 
-The [perspective projection](computer_vision/image_formation_acquisition/perspective_projection.md) model the relation between image points and 3D ones can be described as follows:
+The [perspective projection](pages/computer_vision/image_formation_acquisition/perspective_projection.md) model the relation between image points and 3D ones can be described as follows:
 
 $$
 u_{L} = x_{L}*\frac{f}{z}
@@ -56,6 +56,6 @@ $$
 In order to apply this model the **correspondences between the points of the 2 images need to be computed**, this is not an easy task nether computationally or conceptually, also the models **relays on the 2 images being horizontally aligned**, and to obtained this some computation is needed.
 
 fortunately, the search space for correspondences is always 1 dimensional as 2 points share always the same $y$ coordinate.
-To address the horizontal alignment problem a [homography](computer_vision/image_formation_acquisition/homography.md) called **rectification** is used on the images to warp them and obtain something horizontally aligned.
+To address the horizontal alignment problem a [homography](pages/computer_vision/image_formation_acquisition/homography.md) called **rectification** is used on the images to warp them and obtain something horizontally aligned.
 
-[PREVIOUS](computer_vision/image_formation_acquisition/lens_distortion.md) [NEXT](computer_vision/image_formation_acquisition/perspective_space.md)
+[PREVIOUS](pages/computer_vision/image_formation_acquisition/lens_distortion.md) [NEXT](pages/computer_vision/image_formation_acquisition/perspective_space.md)

@@ -12,13 +12,13 @@ $$
 DoG(x,y,\sigma) = (G(x,y,k\sigma) - G(x,y,\sigma))\ast I(x,y) = L(x,y,k\sigma) -L(x,y,\sigma)
 $$
 
-This approach is more computational efficient of computing [LOG](computer_vision/local_features/scale_normalized_log.md), and it's a good approximation of the results
+This approach is more computational efficient of computing [LOG](pages/computer_vision/local_features/scale_normalized_log.md), and it's a good approximation of the results
 
 ![](computer_vision/Pasted_image_20240314102352.png)
 
 ## Dog computing
 
-Computation of dog is done by down-sampling and [gaussian smoothing](computer_vision/image_filtering/gaussian_filter.md) the input image in order to obtain the scale space and then by computing differences between adjacent scale levels
+Computation of dog is done by down-sampling and [gaussian smoothing](pages/computer_vision/image_filtering/gaussian_filter.md) the input image in order to obtain the scale space and then by computing differences between adjacent scale levels
 
 ![](computer_vision/Pasted_image_20240314103452.png)
 
@@ -30,6 +30,6 @@ a point is detected as a feature if it's DoG is an extreme of its 26 neighbors
 
 ## Dog improvements with filters
 
-In order to localize keypoints in an accurate way and remove unstable point [filter procedures](computer_vision/image_filtering/image_filters.md) are needed
+In order to localize keypoints in an accurate way and remove unstable point [filter procedures](pages/computer_vision/image_filtering/image_filters.md) are needed
 
-[PREVIOUS](computer_vision/local_features/scale_normalized_log.md) [NEXT](computer_vision/local_features/canonical_orientation.md)
+[PREVIOUS](pages/computer_vision/local_features/scale_normalized_log.md) [NEXT](pages/computer_vision/local_features/canonical_orientation.md)

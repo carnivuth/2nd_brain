@@ -98,4 +98,4 @@ $$
 
 In order to artificially increase the size of datasets operation on the input image are performed without altering the label such as image rotation,crop,cutout
 
-[PREVIOUS](computer_vision/object_detection/object_detection_pipeline.md) [NEXT](computer_vision/machine_learning_cv/creating_a_classifier.md)
+[PREVIOUS](pages/computer_vision/object_detection/object_detection_pipeline.md) [NEXT](pages/computer_vision/machine_learning_cv/creating_a_classifier.md)

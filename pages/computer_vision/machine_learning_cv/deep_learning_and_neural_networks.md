@@ -79,4 +79,4 @@ $$
 y_i = \phi(\sum_{j=1}^{D}{W_{ij}x_j +b_i})
 $$
 
-[PREVIOUS](computer_vision/machine_learning_cv/creating_a_classifier.md) [NEXT](computer_vision/machine_learning_cv/convolutional_neural_networks.md)
+[PREVIOUS](pages/computer_vision/machine_learning_cv/creating_a_classifier.md) [NEXT](pages/computer_vision/machine_learning_cv/convolutional_neural_networks.md)

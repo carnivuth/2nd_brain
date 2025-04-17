@@ -2,7 +2,7 @@
 id: PERSPECTIVE_SPACE
 aliases:
   - point-to-infinity
-tags: 
+tags:
 index: 8
 ---
 
@@ -75,4 +75,4 @@ The class $(x,y,z,0)$ represents all of the possible points to infinity. This re
 
 The perspective space definition can be extended to a $N$-dimensional space $R_{n}\rightarrow P_{n}$
 
-[PREVIOUS](computer_vision/image_formation_acquisition/stereo_image_acquisition.md) [NEXT](computer_vision/image_formation_acquisition/perspective_projection_matrix.md)
+[PREVIOUS](pages/computer_vision/image_formation_acquisition/stereo_image_acquisition.md) [NEXT](pages/computer_vision/image_formation_acquisition/perspective_projection_matrix.md)

@@ -23,4 +23,4 @@ C --> D
 D --> E
 ```
 
-[PREVIOUS](computer_vision/image_filtering/non-local_mean_filter.md) [NEXT](computer_vision/image_segmentation_blob_analysis/binarization.md)
+[PREVIOUS](pages/computer_vision/image_filtering/non-local_mean_filter.md) [NEXT](pages/computer_vision/image_segmentation_blob_analysis/binarization.md)

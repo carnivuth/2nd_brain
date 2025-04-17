@@ -51,7 +51,7 @@ The NCC represents the cosine between the vectors $\Vert \overset{\sim}I(i,j)\Ve
 
 ### Zero mean normalized cross correlation
 
-This is a variant of the [NCC](#NORMALIZED_CROSS_CORRELATION) that takes in to account the mean value of the intensity
+This is a variant of the [NCC](#Normalized_cross_correlation) that takes in to account the mean value of the intensity
 
 $$
 NCC(i,j) = \frac{\sum_{m=0}^{M-1}{\sum_{m=0}^{M-1} (I(i+m,j+n)-\mu(\overset \sim I))\ast (T(m,n)- \mu(T))}}{
@@ -63,7 +63,7 @@ $$
 
 ## Sad vs sdd vs ncc vs zncc
 
-[ZNCC](#ZERO%20MEAN%20NORMALIZED%20CROSS%20CORRELATION) and [NCC](#NORMALIZED%20CROSS%20CORRELATION) are more robust to intensity changes
+[ZNCC](#Zero%20mean%20normalized%20cross%20correlation) and [NCC](#Normalized%20cross%20correlation) are more robust to intensity changes
 
 ![](computer_vision/Pasted_image_20240423153625.png)
 
@@ -73,4 +73,4 @@ Template matching computation is too much slow for an industrial environment, in
 
 In order for this approximation to work levels need to be chosen empirically
 
-[PREVIOUS](computer_vision/object_detection/instance_level_object_detection.md) [NEXT](computer_vision/object_detection/shape_based_matching.md)
+[PREVIOUS](pages/computer_vision/object_detection/instance_level_object_detection.md) [NEXT](pages/computer_vision/object_detection/shape_based_matching.md)

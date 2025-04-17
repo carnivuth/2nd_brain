@@ -23,5 +23,6 @@ of the camera`"]
 A --> B
 B --> C
 C --> D
+```
 
- [NEXT](computer_vision/image_formation_acquisition/perspective_projection.md)
+[NEXT](pages/computer_vision/image_formation_acquisition/perspective_projection.md)

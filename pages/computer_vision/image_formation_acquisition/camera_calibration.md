@@ -7,7 +7,7 @@ index: 11
 
 # Camera calibration
 
-It's necessary to recover the [PPM](computer_vision/image_formation_acquisition/perspective_projection_matrix.md) parameters from the system in order to use the camera model, this process is called camera calibration.
+It's necessary to recover the [PPM](pages/computer_vision/image_formation_acquisition/perspective_projection_matrix.md) parameters from the system in order to use the camera model, this process is called camera calibration.
 
 The basic idea behind this process is to **set up a linear system of equation given a set of 3D-2D correspondences** such that the solution is the unknown camera parameters
 
@@ -25,6 +25,6 @@ A --> B & C
 C --> D
 ```
 
-One of the most used methods it's the [zhang's method](computer_vision/image_formation_acquisition/zhang_method.md)
+One of the most used methods it's the [zhang's method](pages/computer_vision/image_formation_acquisition/zhang_method.md)
 
-[PREVIOUS](computer_vision/image_formation_acquisition/homography.md) [NEXT](computer_vision/image_formation_acquisition/zhang_method.md)
+[PREVIOUS](pages/computer_vision/image_formation_acquisition/homography.md) [NEXT](pages/computer_vision/image_formation_acquisition/zhang_method.md)

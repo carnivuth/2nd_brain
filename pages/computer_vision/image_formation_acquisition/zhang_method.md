@@ -34,7 +34,7 @@ flowchart TD
 
 ## Getting corners image coordinates
 
-Corners can be detected easily from the image by using the [Harris detector](computer_vision/local_features/harris_corner_detector.md)
+Corners can be detected easily from the image by using the [Harris detector](pages/computer_vision/local_features/harris_corner_detector.md)
 
 ## Setting a wrf
 
@@ -42,7 +42,7 @@ so given a set of images the WRF is taken with origin at the top-left corner of 
 
 ![](computer_vision/Pasted_image_20240222173836.png)
 
-Given this setup with the **WRF** parallel to the $Z$ axis we can consider the control point to have $z=0$ so the relation with the image points **became a [HOMOGRAPHY](computer_vision/image_formation_acquisition/homography.md)**
+Given this setup with the **WRF** parallel to the $Z$ axis we can consider the control point to have $z=0$ so the relation with the image points **became a [homography](pages/computer_vision/image_formation_acquisition/homography.md)**
 
 ## Making a guess for $h$
 
@@ -104,7 +104,7 @@ $$
 H = [h_{1},h_{2},h_{3}] = [p_{1},p_{2},p_{4}] = \lambda A[r_{1},r_{2},T]
 $$
 
-Given that $R$ is an [orthogonal matrix](computer_vision/image_formation_acquisition/orthogonal_matrix.md) the following relations are true
+Given that $R$ is an [orthogonal matrix](pages/computer_vision/image_formation_acquisition/orthogonal_matrix.md) the following relations are true
 
 $$
 r_{1}^Tr_{2} = 0 \Rightarrow h_{1}^TA^{-T}A^{-1}h_{2} = 0
@@ -264,4 +264,4 @@ $$
 
 The solution to this  problem can be computed with  [Levenberg-Marquardt algorithm](https://it.wikipedia.org/wiki/Algoritmo_di_Levenberg-Marquardt)
 
-[PREVIOUS](computer_vision/image_formation_acquisition/camera_calibration.md) [NEXT](computer_vision/image_formation_acquisition/stereo_camera_calibration.md)
+[PREVIOUS](pages/computer_vision/image_formation_acquisition/camera_calibration.md) [NEXT](pages/computer_vision/image_formation_acquisition/stereo_camera_calibration.md)

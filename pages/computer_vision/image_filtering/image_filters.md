@@ -8,9 +8,9 @@ index: 15
 
 Image filters are operators that given a 2D input image calculate the new intensity of a pixel based on considerations on the neighborhood, an important class of filters are the **linear and translation equivariant filters**.
 
-![](computer_vision/Pasted%20image%2020241011100211.png)
+![](pages/computer_vision/Pasted%20image%2020241011100211.png)
 
- LTE filters are also used in [CNN](computer_vision/machine_learning_cv/convolutional_neural_networks.md) as feature extractors
+ LTE filters are also used in [CNN](pages/computer_vision/machine_learning_cv/convolutional_neural_networks.md) as feature extractors
 
 ## Linear and translation equivariant filters
 
@@ -106,4 +106,4 @@ $$
 
 So the idea behind the implementation is to slide the kernel matrix over the image and compute the convolution for each point of the image
 
-[PREVIOUS](computer_vision/image_formation_acquisition/image_warping.md) [NEXT](computer_vision/image_filtering/mean_filter.md)
+[PREVIOUS](pages/computer_vision/image_formation_acquisition/image_warping.md) [NEXT](pages/computer_vision/image_filtering/mean_filter.md)

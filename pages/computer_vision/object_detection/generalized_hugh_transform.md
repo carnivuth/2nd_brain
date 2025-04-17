@@ -7,7 +7,7 @@ index: 44
 
 # Generalized hough transform
 
-The Generalized Hough transform (**GHT**) is a generalization aimed to apply **[GHT](computer_vision/object_detection/hough_transform.md)** to non analytical shapes.
+The Generalized Hough transform (**GHT**) is a generalization aimed to apply **[GHT](pages/computer_vision/object_detection/hough_transform.md)** to non analytical shapes.
 
 ```mermaid
 flowchart LR
@@ -38,11 +38,11 @@ end
 
 ## Ght with local invariant features
 
-The most popular computer vision pipeline relies on combining GHT with local invariant features such as the [sift descriptor](computer_vision/local_features/sift_descriptor.md). In this pipeline Local invariant features are used instead of edges.
+The most popular computer vision pipeline relies on combining GHT with local invariant features such as the [sift descriptor](pages/computer_vision/local_features/sift_descriptor.md). In this pipeline Local invariant features are used instead of edges.
 
 ### Ght: offline phase
 
-Detect keypoints (e.g. [DOG](computer_vision/local_features/dog_detector.md)) and compute descriptors (e.g. [SIFT](computer_vision/local_features/sift_descriptor.md)) in the model image:
+Detect keypoints (e.g. [DOG](pages/computer_vision/local_features/dog_detector.md)) and compute descriptors (e.g. [SIFT](pages/computer_vision/local_features/sift_descriptor.md)) in the model image:
 
 $$
 F = \{F_1,F_2,...,F_n\}
@@ -51,7 +51,7 @@ $$
 F_i = (P_i,D_i,\phi_i,S_i)
 $$
 
-Choose a reference point (eg the [barycentre](computer_vision/image_segmentation_blob_analysis/blob_analysis.md#barycentre))
+Choose a reference point (eg the [barycentre](pages/computer_vision/image_segmentation_blob_analysis/blob_analysis.md#barycentre))
 
 $$
 P_C = \frac{1}{N}\sum_{i=1}^{N}P_i
@@ -70,7 +70,7 @@ $$
 
 ### Ght: online phase
 
-Detect [keypoints](computer_vision/local_features/finding_correspondences.md#keypoints) on the target image and compute descriptors :
+Detect [keypoints](pages/computer_vision/local_features/finding_correspondences.md#keypoints) on the target image and compute descriptors :
 
 $$
 \overset{\sim}F = \{\overset{\sim}F_1,\overset{\sim}F_2,...,\overset{\sim}F_n\}
@@ -93,10 +93,11 @@ $$
 $$
 A[\overset{\sim}P_{C_j} ] ++
 $$
+
 ## 2D accumulator array issues
 
 A 2D accumulator array is not sufficient to account for rotation and scale, the solution is to use a 4D accumulator array in order to account for scale and rotation
 
 ![](computer_vision/Pasted_image_20240428143913.png)
 
-[PREVIOUS](computer_vision/object_detection/hough_transform.md) [NEXT](computer_vision/object_detection/object_detection_pipeline.md)
+[PREVIOUS](pages/computer_vision/object_detection/hough_transform.md) [NEXT](pages/computer_vision/object_detection/object_detection_pipeline.md)
