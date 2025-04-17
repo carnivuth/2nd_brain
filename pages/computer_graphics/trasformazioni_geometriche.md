@@ -2,7 +2,7 @@
 index: 1
 id: trasformazioni_geometriche
 tags: ["trasformazioni geometriche di base","rotazione","traslazione","scala","trasformazione affine","spazio affine"]
-aliases: 
+aliases:
 ---
 
 # Trasformazioni geometriche
@@ -168,9 +168,9 @@ p_x \\
 p_y \\
 p_z \\
 1 \\
-\end{bmatrix} 
+\end{bmatrix}
 $$
 
 I vantaggi di poter utilizzare trasformazioni lineari sono molteplici, si può ottimizzare la computazione sfruttando le proprietà di linearità, inoltre le trasformazioni possono essere combinate in un unica matrice che può essere applicata in più punti
 
- [NEXT](computer_graphics/trasformazioni_vista.md)
+ [NEXT](pages/computer_graphics/trasformazioni_vista.md)

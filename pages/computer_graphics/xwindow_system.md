@@ -1,7 +1,7 @@
 ---
 id: XWINDOW_SYSTEM
 tags: []
-aliases: 
+aliases:
 index: 12
 ---
 
@@ -24,7 +24,7 @@ A & B --communicates to server trough x protocol --> C
 ```
 
 Dove i client accedono alle risorse esposte dal server via rete che si occupa di implementare la pipeline di renderizzazione.
-Il sistema e' pensato per interazioni via rete, (*architetture con client poco prestanti e server potenti*) 
+Il sistema e' pensato per interazioni via rete, (*architetture con client poco prestanti e server potenti*)
 
 ## X protocol
 
@@ -34,4 +34,4 @@ Il protocollo x prevede 3 tipi di messaggi:
 - **risposte** (*server -> client*) ottenute dal server in seguito a una richiesta
 - **eventi** (*server -> client*) il server notifica i client in maniera asincrona e proattiva
 
-[PREVIOUS](computer_graphics/html5.md) [NEXT](computer_graphics/webgl.md)
+[PREVIOUS](pages/computer_graphics/html5.md) [NEXT](pages/computer_graphics/webgl.md)

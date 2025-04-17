@@ -1,14 +1,14 @@
 ---
 id: trasformazioni_vista
 tags: ["proiezioni geometriche"]
-aliases: 
+aliases:
 index: 2
 ---
 # Trasformazioni di vista
 
 Per poter renderizzare un oggetto 3D in uno schermo esprimerlo per mezzo delle sue coordinate non e sufficiente, e necessario poter trasformare le coordinate dell'oggetto in coordinate del piano immagine
 
-Questo processo si chiama **trasformazione di vista** 
+Questo processo si chiama **trasformazione di vista**
 
 ```mermaid
 flowchart LR
@@ -93,7 +93,7 @@ J[obliqua]
 A --> B & C
 B --> D & H
 C --> E & F & G
-H --> I & J 
+H --> I & J
 ```
 
 ### Proiezione a 3 punti di fuga
@@ -109,7 +109,7 @@ In questo tipo di proiezione si ha che:
 
 ### Determinare le dimensioni della window
 
-Le dimensioni della window sono determinate dalla ampiezza del cono di visione che a sua volta e determinato dalla distanza $d$ tra l'osservatore e il piano di proiezione e la semi-ampiezza angolare $\alpha$ del cono di visione 
+Le dimensioni della window sono determinate dalla ampiezza del cono di visione che a sua volta e determinato dalla distanza $d$ tra l'osservatore e il piano di proiezione e la semi-ampiezza angolare $\alpha$ del cono di visione
 
 ![](computer_graphics/Pasted%20image%2020241210151427.png)
 
@@ -130,4 +130,4 @@ D[trasformazione window viewport]
 A --> B --> C --> D
 ```
 
-[PREVIOUS](computer_graphics/trasformazioni_geometriche.md) [NEXT](computer_graphics/real_time_rendering.md)
+[PREVIOUS](pages/computer_graphics/trasformazioni_geometriche.md) [NEXT](pages/computer_graphics/real_time_rendering.md)

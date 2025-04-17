@@ -46,9 +46,9 @@ Nel caso in cui il piano non sia cartesiano e necessario proiettare i vertici de
 
 ## Ombre nello z-buffer: shadow-buffer
 
-Per implementare le ombre nello [z-buffer](computer_graphics/real_time_rendering.md#algoritmo%20z-buffer) si ricorre a un algoritmo detto **shadow-buffer**
+Per implementare le ombre nello [z-buffer](pages/computer_graphics/real_time_rendering.md#algoritmo%20z-buffer) si ricorre a un algoritmo detto **shadow-buffer**
 
-Lo shadow buffer e un buffer in memoria che computa l'algoritmo [z-buffer](computer_graphics/real_time_rendering.md#algoritmo%20z-buffer) ma dal punto di vista della sorgente luminosa
+Lo shadow buffer e un buffer in memoria che computa l'algoritmo [z-buffer](pages/computer_graphics/real_time_rendering.md#algoritmo%20z-buffer) ma dal punto di vista della sorgente luminosa
 
 ```mermaid
 flowchart TD
@@ -67,7 +67,7 @@ B --no --> D
 
 ## Gestire l'aliasing
 
-Quando si computano le ombre si hanno sempre problemi di aliasing dovuti al fatto che l'algoritmo [shadow buffer](#ombre%20nello%20z-buffer%20shadow-buffer) compie una decisione netta sul mettere in ombra o meno un pixel, in questo caso si applicano tecniche simili a quanto visto per le [textures](computer_graphics/texture_mapping.md#gestire%20l'aliasing)
+Quando si computano le ombre si hanno sempre problemi di aliasing dovuti al fatto che l'algoritmo [shadow buffer](#ombre%20nello%20z-buffer%20shadow-buffer) compie una decisione netta sul mettere in ombra o meno un pixel, in questo caso si applicano tecniche simili a quanto visto per le [textures](pages/computer_graphics/texture_mapping.md#gestire%20l'aliasing)
 
 ## Luci non puntiformi
 
@@ -75,4 +75,4 @@ Nella realtà le luci non sono mai puntiformi, questo porta a ombre morbide come
 
 ![](computer_graphics/Pasted%20image%2020250102180827.png)
 
-[PREVIOUS](computer_graphics/texture_mapping.md) [NEXT](computer_graphics/mesh_poligonali.md)
+[PREVIOUS](pages/computer_graphics/texture_mapping.md) [NEXT](pages/computer_graphics/mesh_poligonali.md)

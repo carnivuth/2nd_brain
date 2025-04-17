@@ -1,13 +1,13 @@
 ---
 id: MESH_3D_POLIGONALI
 tags: []
-aliases: 
+aliases:
 index: 10
 ---
 
 # Mesh 3d poligonali
 
-In computer graphics gli oggetti 3D vengono approssimati da una rappresentazione della loro superficie detta **B-Rep** (*Boundary representation*) 
+In computer graphics gli oggetti 3D vengono approssimati da una rappresentazione della loro superficie detta **B-Rep** (*Boundary representation*)
 La superficie si assume sia una **[varietà](https://it.wikipedia.org/wiki/Variet%C3%A0_(geometria)) due-dimensionale(two-manifold)** (*l’intorno di ogni punto della superficie è omeomorfo ad un disco piano*)
 
 Data questa rappresentazione di un oggetto 3D una Mesh 3D e una **approssimazione** per mezzo di poligoni (*in genere triangoli per semplificazione implementativa*)
@@ -46,7 +46,7 @@ L’orientazione di due facce adiacenti è coerente **se i due vertici del loro 
 
 ## Mesh chiusa vs mesh aperta
 
-Una mesh aperta si contraddistingue da una mesh chiusa perché **presenta lati vertici e facce di bordo** 
+Una mesh aperta si contraddistingue da una mesh chiusa perché **presenta lati vertici e facce di bordo**
 
 ![](computer_graphics/Pasted%20image%2020250102191003.png)
 
@@ -82,7 +82,7 @@ D --> E & G
 
 ## Editing di mesh 3d
 
-L'editing di una mesh 3D e quel processo attraverso il quale si applicano modifiche a una mesh 3D aggiungendo rimuovendo facce,vertici e poligoni 
+L'editing di una mesh 3D e quel processo attraverso il quale si applicano modifiche a una mesh 3D aggiungendo rimuovendo facce,vertici e poligoni
 
 Le operazioni di editing che non alterano la topologia della mesh vengono detti **operatori di Eulero** alcuni esempi di tali operazioni sono:
 
@@ -101,4 +101,4 @@ In fase di editing la rappresentazione per mezzo di facce e vertici non e ottima
 
 ![](computer_graphics/Pasted%20image%2020250102194324.png)
 
-[PREVIOUS](computer_graphics/shadowing.md) [NEXT](computer_graphics/html5.md)
+[PREVIOUS](pages/computer_graphics/shadowing.md) [NEXT](pages/computer_graphics/html5.md)
