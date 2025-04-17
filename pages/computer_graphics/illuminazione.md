@@ -40,7 +40,7 @@ $$
 
 Tipica dei materiali opachi, caratterizzata dal fatto che la luce che colpisce un punto si **riflette in tutte le direzioni allo stesso modo**
 
-![](pages/computer_graphics/Pasted%20image%2020241217172957.png)
+![](computer_graphics/Pasted%20image%2020241217172957.png)
 
 Questa componente dipende strettamente dall'angolo tra la normale del punto e la direzione del raggio di luce che colpisce l'oggetto
 
@@ -54,7 +54,7 @@ $$
 
 Questa componente approssima il comportamento di riflessione della luce dei materiali lucidi che **non e omogenea in tutte le direzioni**
 
-![](pages/computer_graphics/Pasted%20image%2020241217173503.png)
+![](computer_graphics/Pasted%20image%2020241217173503.png)
 
 Questa componente dipende anche dalla posizione dell'osservatore
 
@@ -72,7 +72,7 @@ Nella pipeline di rendering e necessario includere un algoritmo in grado di comp
 
 Dato un poligono, si computa la normale per ogni faccia e si applica il modello di illuminazione al centro della faccia
 
-![](pages/computer_graphics/Pasted%20image%2020241217181314.png)
+![](computer_graphics/Pasted%20image%2020241217181314.png)
 
 Questa risulta essere una delle soluzioni più semplici, ma il risultato ottenuto e abbastanza mediocre, inoltre il risultato soffre dell'effetto di band match
 
