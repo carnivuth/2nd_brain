@@ -6,7 +6,7 @@ index: 7
 ---
 # Grammatiche regolari (tipo 3)
 
-grammatiche le cui  produzioni ammettono un solo simbolo non terminale nel membro di destra.
+Grammatiche le cui  produzioni ammettono un solo simbolo non terminale nel membro di destra.
 
 | LINEARI A DESTRA             | LINEARI A SINISTRA          |
 | ---------------------------- | --------------------------- |
@@ -22,6 +22,7 @@ B[ESPRESSIONI REGOLARI]
 A --> B
 B --> A
 ```
+
 a ogni grammatica regolare corrisponde un automa in grado di riconoscerla
 
 [PREVIOUS](pages/linguaggi_modelli_computazionali/grammatiche_tipo_2.md) [NEXT](pages/linguaggi_modelli_computazionali/espressioni_regolari.md)
