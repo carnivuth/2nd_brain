@@ -55,4 +55,4 @@ Si puo ache esprimere come segue:
 
 In questo modo si possono interpretare il grafo di un automa come produzioni di una grammatica
 
-[PREVIOUS](linguaggi_modelli_computazionali/pumping_lemma.md) [NEXT](linguaggi_modelli_computazionali/pda.md)
+[PREVIOUS](pages/linguaggi_modelli_computazionali/pumping_lemma.md) [NEXT](pages/linguaggi_modelli_computazionali/pda.md)

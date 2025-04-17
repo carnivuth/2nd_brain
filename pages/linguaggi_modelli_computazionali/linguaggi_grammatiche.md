@@ -87,4 +87,4 @@ $$
 
 quando due grammatiche producono lo stesso linguaggio si dice che sono equivalenti, stabilire se due grammatiche sono equivalenti e un problema indecidibile, inoltre **grammatiche diverse ma equivalenti potrebbero necessitare di riconoscitori diversi**
 
-[PREVIOUS](linguaggi_modelli_computazionali/computabilita.md) [NEXT](linguaggi_modelli_computazionali/classificazione_chomsky.md)
+[PREVIOUS](pages/linguaggi_modelli_computazionali/computabilita.md) [NEXT](pages/linguaggi_modelli_computazionali/classificazione_chomsky.md)

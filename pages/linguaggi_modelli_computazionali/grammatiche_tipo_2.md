@@ -33,7 +33,7 @@ Le grammatiche di tipo 2 con produzioni che ammettono la stringa vuota possono e
 
 # Alberi di derivazione
 
-Per le [grammatiche di tipo 2](linguaggi_modelli_computazionali/grammatiche_tipo_2.md) si introduce il concetto di albero di derivazione, dato l'insieme delle produzioni $P$ si ha che :
+Per le [grammatiche di tipo 2](pages/linguaggi_modelli_computazionali/grammatiche_tipo_2.md) si introduce il concetto di albero di derivazione, dato l'insieme delle produzioni $P$ si ha che :
 
 - la radice dell'albero e lo scopo della grammatica
 - dato il nodo $S$ e i suoi figli $A_1....A_N$ significa che nella grammatica e presente una regola di produzione $S \rightarrow a_1 ... a_N$ dove $a_i$ sono i simboli associati ai nodi $A_i$
@@ -53,7 +53,7 @@ C --> F
 D --> G
 ```
 
-Questa struttura e possibile solo per le grammatiche di tipo 2, le grammatiche di [tipo 1](linguaggi_modelli_computazionali/grammatiche_tipo_1.md) e [0](linguaggi_modelli_computazionali/grammatiche_tipo_0.md) ammettendo a sinistra più di un membro genererebbero un grafo e non un albero
+Questa struttura e possibile solo per le grammatiche di tipo 2, le grammatiche di [tipo 1](pages/linguaggi_modelli_computazionali/grammatiche_tipo_1.md) e [0](pages/linguaggi_modelli_computazionali/grammatiche_tipo_0.md) ammettendo a sinistra più di un membro genererebbero un grafo e non un albero
 
 ## Derivazioni canoniche
 
@@ -124,4 +124,4 @@ $$
 
 La ricorsione sinistra può essere sempre eliminata, tuttavia l'operazione comporta un **esplicito cambiamento delle regole che generano il linguaggio**, e di conseguenza della semantica delle frasi stesse
 
-[PREVIOUS](linguaggi_modelli_computazionali/grammatiche_tipo_1.md) [NEXT](linguaggi_modelli_computazionali/grammatiche_regolari.md)
+[PREVIOUS](pages/linguaggi_modelli_computazionali/grammatiche_tipo_1.md) [NEXT](pages/linguaggi_modelli_computazionali/grammatiche_regolari.md)

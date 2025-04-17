@@ -199,7 +199,7 @@ console.log(z(3))
 
 ### Currying
 
-Particolare caso di chiusura in cui funzioni a $n$ argomenti vengono simulate per mezzo di chiusure di funzioni a un argomento (*utilizzato per il [lambda_calcolo](linguaggi_modelli_computazionali/lambda_calcolo.md)*)
+Particolare caso di chiusura in cui funzioni a $n$ argomenti vengono simulate per mezzo di chiusure di funzioni a un argomento (*utilizzato per il [lambda_calcolo](pages/linguaggi_modelli_computazionali/lambda_calcolo.md)*)
 
 ```javascript
 //esempio di implementazione della somma come currying
@@ -566,4 +566,4 @@ function show(ogg){
 show(e)
 ```
 
-[PREVIOUS](linguaggi_modelli_computazionali/processi_computazionali.md) [NEXT](linguaggi_modelli_computazionali/lambda_calcolo.md)
+[PREVIOUS](pages/linguaggi_modelli_computazionali/processi_computazionali.md) [NEXT](pages/linguaggi_modelli_computazionali/lambda_calcolo.md)

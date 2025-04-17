@@ -14,8 +14,8 @@ Le espressioni regolari sono un formalismo per distinguere una particolare tipol
 
 ## Espressioni regolari e grammatiche
 
-Ogni espressione regolare coincide con una corrispondente [grammatica regolare](linguaggi_modelli_computazionali/grammatiche_regolari.md), rispetto a una grammatica di tipo 3, **l'espressione regolare mostra cosa si ottiene da un linguaggio** mentre la **grammatica mostra il come si ottiene**
+Ogni espressione regolare coincide con una corrispondente [grammatica regolare](pages/linguaggi_modelli_computazionali/grammatiche_regolari.md), rispetto a una grammatica di tipo 3, **l'espressione regolare mostra cosa si ottiene da un linguaggio** mentre la **grammatica mostra il come si ottiene**
 
 ![image.png](image_1681653433735_0.png)
 
-[PREVIOUS](linguaggi_modelli_computazionali/grammatiche_regolari.md) [NEXT](linguaggi_modelli_computazionali/pumping_lemma.md)
+[PREVIOUS](pages/linguaggi_modelli_computazionali/grammatiche_regolari.md) [NEXT](pages/linguaggi_modelli_computazionali/pumping_lemma.md)

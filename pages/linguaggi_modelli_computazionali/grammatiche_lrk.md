@@ -25,7 +25,7 @@ end
 LL ~~~ LR
 ```
 
-Questo approccio rende l'analisi LR si più potente, infatti l' insieme dei linguaggi [contex free](linguaggi_modelli_computazionali/grammatiche_tipo_2.md) riconoscibili per mezzo dell'[analisi LL](linguaggi_modelli_computazionali/grammatiche_llk.md#grammatiche%20$ll(k)$) e contenuto in quelli riconoscibili per mezzo dell' analisi LR.
+Questo approccio rende l'analisi LR si più potente, infatti l' insieme dei linguaggi [contex free](pages/linguaggi_modelli_computazionali/grammatiche_tipo_2.md) riconoscibili per mezzo dell'[analisi LL](linguaggi_modelli_computazionali/grammatiche_llk.md#grammatiche%20$ll(k)$) e contenuto in quelli riconoscibili per mezzo dell' analisi LR.
 
 Tuttavia l'analisi LR risulta **più complessa da progettare e computazionalmente più esosa**, esistono quindi tecniche che approssimano l'analisi LR come **SLR** o **LALR**
 
@@ -264,4 +264,4 @@ Un altra idea consiste nel accorpare assieme gli stati del parser $LR(1)$ identi
 
 - **CONTRO**: possono apparire conflitti reduce/reduce, tipicamente gestibili.
 
-[PREVIOUS](linguaggi_modelli_computazionali/interpreti.md) [NEXT](linguaggi_modelli_computazionali/processi_computazionali.md)
+[PREVIOUS](pages/linguaggi_modelli_computazionali/interpreti.md) [NEXT](pages/linguaggi_modelli_computazionali/processi_computazionali.md)

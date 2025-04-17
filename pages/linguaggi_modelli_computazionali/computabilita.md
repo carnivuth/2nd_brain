@@ -30,7 +30,7 @@ $$
 
 Con questo formalismo definito si può traslare la il problema della ricerca dei problemi risolubili su quello delle funzioni computabili e, riprendendo la tesi di Church-Turing:
 
-### Funzione computabile 
+### Funzione computabile
 
 Una funzione $f: A\rightarrow B$ è computabile se esiste una MdT che
 - data sul nastro una rappresentazione di $x\in A$ dopo un **numero finito di passi**
@@ -38,7 +38,7 @@ Una funzione $f: A\rightarrow B$ è computabile se esiste una MdT che
 
 Date le definizioni viene spontaneo chiedersi se tutte le funzioni siano computabili o se esistano invece funzioni definibili ma non computabili  per far cio occorre confrontare i due insiemi
 
-Si fa presto dato che l’insieme delle funzioni dai naturali ai naturali 
+Si fa presto dato che l’insieme delle funzioni dai naturali ai naturali
 
 $$
 F = \{ f: N → N \}
@@ -56,7 +56,7 @@ Tale problema, perfettamente definibile e tuttavia non computabile
 
 >[!QUOTE] Ma allora come deve essere un linguaggio per far si che la MdT possa computarlo?
 
-Poiché un linguaggio è un insieme di frasi, ci interessa indagare in generale il problema della **generabilità vs. decidibilità di un insieme**. 
+Poiché un linguaggio è un insieme di frasi, ci interessa indagare in generale il problema della **generabilità vs. decidibilità di un insieme**.
 
 ### Insieme numerabile
 
@@ -81,4 +81,4 @@ E proprio qui che sta la chiave del problema, dato che i linguaggi di programmaz
 
 >[!QUOTE] In questo modo un compilatore e in grado di arrestarsi e segnalare errore se una **frase non appartiene al linguaggio**
 
- [NEXT](linguaggi_modelli_computazionali/linguaggi_grammatiche.md)
+ [NEXT](pages/linguaggi_modelli_computazionali/linguaggi_grammatiche.md)

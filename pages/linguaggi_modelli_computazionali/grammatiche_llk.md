@@ -64,6 +64,6 @@ Condizione necessaria e sufficiente per ottenere una grammatica $LL(1)$ e che il
 
 Le grammatiche $LL(k)$ non sono compatibili con la ricorsione a sinistra delle produzioni $A \rightarrow A\alpha | a$, che tuttavia [può essere sempre rimossa](linguaggi_modelli_computazionali/grammatiche_tipo_2.md#eliminazione%20della%20ricorsione%20sinistra) a patto di poter fare a meno della sua capacita espressiva (*no necessita di dare una semantica alla frase*)
 
-questa problematica può essere risolta adottando tecniche di analisi più avanzate come le [grammatiche LR(k)](linguaggi_modelli_computazionali/grammatiche_lrk.md)
+questa problematica può essere risolta adottando tecniche di analisi più avanzate come le [grammatiche LR(k)](pages/linguaggi_modelli_computazionali/grammatiche_lrk.md)
 
-[PREVIOUS](linguaggi_modelli_computazionali/pda.md) [NEXT](linguaggi_modelli_computazionali/interpreti.md)
+[PREVIOUS](pages/linguaggi_modelli_computazionali/pda.md) [NEXT](pages/linguaggi_modelli_computazionali/interpreti.md)

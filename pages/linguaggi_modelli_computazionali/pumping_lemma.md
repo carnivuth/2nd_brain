@@ -6,7 +6,7 @@ index: 9
 ---
 # Pumping lemma
 
-è una condizione necessaria (*ma non sufficiente*) per dimostrare che un linguaggio è di [tipo 2](linguaggi_modelli_computazionali/grammatiche_tipo_2.md) o di [tipo 3](linguaggi_modelli_computazionali/grammatiche_regolari.md), si basa sul concetto che in un linguaggio infinito a un certo punto **deve essere presente una stringa motore che viene ripetuta $n$ volte** (*pompata*) per ottenere nuove stringhe del linguaggio
+è una condizione necessaria (*ma non sufficiente*) per dimostrare che un linguaggio è di [tipo 2](pages/linguaggi_modelli_computazionali/grammatiche_tipo_2.md) o di [tipo 3](pages/linguaggi_modelli_computazionali/grammatiche_regolari.md), si basa sul concetto che in un linguaggio infinito a un certo punto **deve essere presente una stringa motore che viene ripetuta $n$ volte** (*pompata*) per ottenere nuove stringhe del linguaggio
 
 Se $L$ e un linguaggio di tipo 2 esiste un intero $N$ tale che per ogni stringa $z: len(z)\geq N$ per cui:
 
@@ -32,4 +32,4 @@ Dove la componente centrale $y$ può essere ripetuta (*pompata*) per ottenere le
 
 $$xy^iw \in L \forall i \geq 0$$
 
-[PREVIOUS](linguaggi_modelli_computazionali/espressioni_regolari.md) [NEXT](linguaggi_modelli_computazionali/rsf.md)
+[PREVIOUS](pages/linguaggi_modelli_computazionali/espressioni_regolari.md) [NEXT](pages/linguaggi_modelli_computazionali/rsf.md)

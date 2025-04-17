@@ -43,7 +43,7 @@ oppure:
 
 ## Lambda calcolo in javascript
 
-[javascript](linguaggi_modelli_computazionali/javascript.md) risulta essere pratico per l'implementazione del lambda calcolo in quanto vi e la possibilità di definire funzioni anonime e [chiusure](linguaggi_modelli_computazionali/javascript.md#chiusure)
+[javascript](pages/linguaggi_modelli_computazionali/javascript.md) risulta essere pratico per l'implementazione del lambda calcolo in quanto vi e la possibilità di definire funzioni anonime e [chiusure](linguaggi_modelli_computazionali/javascript.md#chiusure)
 
 ```javascript
 //il termine lambda x.<expr> puo infatti essere definito come
@@ -260,4 +260,4 @@ console.log(Z(FactGen)(3))
 
 Il lambda calcolo e un formalismo estremamente potente che ha permesso di formalizzare le funzionalità che oggi vantano i linguaggi mainstream ma non e pensato per essere utilizzato direttamente dagli utenti finali
 
-[PREVIOUS](linguaggi_modelli_computazionali/javascript.md) [NEXT](linguaggi_modelli_computazionali/linguaggi_blended.md)
+[PREVIOUS](pages/linguaggi_modelli_computazionali/javascript.md) [NEXT](pages/linguaggi_modelli_computazionali/linguaggi_blended.md)

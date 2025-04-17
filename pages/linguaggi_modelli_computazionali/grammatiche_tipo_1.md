@@ -15,4 +15,4 @@ $$
 \alpha \neq \epsilon
 $$
 
-[PREVIOUS](linguaggi_modelli_computazionali/grammatiche_tipo_0.md) [NEXT](linguaggi_modelli_computazionali/grammatiche_tipo_2.md)
+[PREVIOUS](pages/linguaggi_modelli_computazionali/grammatiche_tipo_0.md) [NEXT](pages/linguaggi_modelli_computazionali/grammatiche_tipo_2.md)
