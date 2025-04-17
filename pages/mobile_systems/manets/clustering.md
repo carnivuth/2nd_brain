@@ -40,4 +40,4 @@ creating optimal clusters is an np-complete problem so forget about optimal clus
 
 Clusterhead plays a delicate role in a cluster, the role is suitable for less mobile nodes, with less energy restrictions
 
-[PREVIOUS](mobile_systems/manets/temporary_ordered_routing_algorithm.md) [NEXT](mobile_systems/positioning_systems/base_techniques.md)
+[PREVIOUS](pages/mobile_systems/manets/temporary_ordered_routing_algorithm.md) [NEXT](pages/mobile_systems/positioning_systems/base_techniques.md)

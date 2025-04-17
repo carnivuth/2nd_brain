@@ -87,4 +87,4 @@ Application component that handles the broadcast message, they register to diffe
 
 it's important to limit the range of the broadcast messages to avoid leaks and enforce permissions
 
-[PREVIOUS](mobile_systems/android/android_platform.md) [NEXT](mobile_systems/android/threading_model.md)
+[PREVIOUS](pages/mobile_systems/android/android_platform.md) [NEXT](pages/mobile_systems/android/threading_model.md)

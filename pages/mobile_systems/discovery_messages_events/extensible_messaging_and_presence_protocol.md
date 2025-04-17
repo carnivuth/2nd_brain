@@ -7,7 +7,7 @@ index: 63
 
 # Extensible messaging and presence protocol (xmpp)
 
-Protocol develop for large scale distributed application to notify if a user is connected to the application (*online status*).It's  a [pub/sub](mobile_systems/iot/pub_sub_model.md) protocol with messages codified in xml format
+Protocol develop for large scale distributed application to notify if a user is connected to the application (*online status*).It's  a [pub/sub](pages/mobile_systems/iot/pub_sub_model.md) protocol with messages codified in xml format
 
 XMPP is based on the client server model of interaction, where client send XML encoded data flows to the server after parameter negotiation.
 
@@ -30,4 +30,4 @@ to address this flows Android use a proprietary implementation to address this i
 
 ![](assets/mobile_systems/Pasted%20image%2020240616164345.png)
 
-[PREVIOUS](mobile_systems/discovery_messages_events/corba_messaging.md) [NEXT](mobile_systems/discovery_messages_events/events.md)
+[PREVIOUS](pages/mobile_systems/discovery_messages_events/corba_messaging.md) [NEXT](pages/mobile_systems/discovery_messages_events/events.md)

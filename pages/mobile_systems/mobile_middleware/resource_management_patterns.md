@@ -140,4 +140,4 @@ Pattern that allows the infrastructure to manage handover situations exploiting 
 
 ![](assets/mobile_systems/Pasted%20image%2020240608191524.png)
 
-[PREVIOUS](mobile_systems/mobile_middleware/distribution_patterns.md) [NEXT](mobile_systems/mobile_middleware/communication_patterns.md)
+[PREVIOUS](pages/mobile_systems/mobile_middleware/distribution_patterns.md) [NEXT](pages/mobile_systems/mobile_middleware/communication_patterns.md)

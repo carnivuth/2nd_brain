@@ -43,8 +43,8 @@ Different nodes publish data to a broker that can be received from different nod
 
 Other types of patterns specific for mobile nodes are
 
-- [COMMUNICATION_PATTERNS](mobile_systems/communication_patterns.md)
-- [RESOURCE_MANAGEMENT_PATTERNS](mobile_systems/resource_management_patterns.md)
-- [DISTRIBUTION_PATTERNS](mobile_systems/distribution_patterns.md)
+- [COMMUNICATION_PATTERNS](pages/mobile_systems/communication_patterns.md)
+- [RESOURCE_MANAGEMENT_PATTERNS](pages/mobile_systems/resource_management_patterns.md)
+- [DISTRIBUTION_PATTERNS](pages/mobile_systems/distribution_patterns.md)
 
 [PREVIOUS](mobile_systems/mobile_middleware/mobile_middleware_principles.md) [NEXT](mobile_systems/mobile_middleware/distribution_patterns.md)

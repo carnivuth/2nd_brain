@@ -63,4 +63,4 @@ JMS allow to specify store semantics of a message:
 - **PERSISTENT** messages are guaranteed that are saved at the JMS provider side
 - **NON_PERSISTENT** messages are not saved on persistent storage
 
-[PREVIOUS](mobile_systems/discovery_messages_events/messaging.md) [NEXT](mobile_systems/discovery_messages_events/corba_messaging.md)
+[PREVIOUS](pages/mobile_systems/discovery_messages_events/messaging.md) [NEXT](pages/mobile_systems/discovery_messages_events/corba_messaging.md)

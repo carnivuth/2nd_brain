@@ -57,4 +57,4 @@ D((CH))
 D --> A --> B --> C --> B --> A --> D
 ```
 
-[PREVIOUS](mobile_systems/mobility/host_identity_protocol.md) [NEXT](mobile_systems/mobility/hierarchical_mobile_ipv6.md)
+[PREVIOUS](pages/mobile_systems/mobility/host_identity_protocol.md) [NEXT](pages/mobile_systems/mobility/hierarchical_mobile_ipv6.md)

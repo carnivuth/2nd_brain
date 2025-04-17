@@ -14,7 +14,7 @@ Service discovery is the procedure that allow an application to search for avail
 
 ## Apache river (jini)
 
-Java solution for service discovery, based on a central node playing the role of service broker where nodes register and discover services (*similar to the [pub/sub model](mobile_systems/iot/pub_sub_model.md)*)
+Java solution for service discovery, based on a central node playing the role of service broker where nodes register and discover services (*similar to the [pub/sub model](pages/mobile_systems/iot/pub_sub_model.md)*)
 
 ```mermaid
 flowchart TD
@@ -140,4 +140,4 @@ sequenceDiagram
     Device->>ControlPoint: Notification with GENA in unicast
 ```
 
-[PREVIOUS](mobile_systems/iot/coap.md) [NEXT](mobile_systems/discovery_messages_events/messaging.md)
+[PREVIOUS](pages/mobile_systems/iot/coap.md) [NEXT](pages/mobile_systems/discovery_messages_events/messaging.md)

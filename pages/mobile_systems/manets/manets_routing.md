@@ -63,4 +63,4 @@ There are a lot of disadvantages of course
 - high overhead
 - low reliability
 
-[PREVIOUS](mobile_systems/manets/wifi_direct.md) [NEXT](mobile_systems/manets/dinamic_source_routing.md)
+[PREVIOUS](pages/mobile_systems/manets/wifi_direct.md) [NEXT](pages/mobile_systems/manets/dinamic_source_routing.md)

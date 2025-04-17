@@ -51,7 +51,7 @@ Also the semantics with witch the communication is handled by the application co
 
 Also locators plays a role given the fact that nodes are mobile is not always possible to use locators as IP/TCP addresses, two principle type of locator are defined:
 
-- **transparent** locators implemented as URI ( *e.g. as in [REST](mobile_systems/iot/rest.md)* )
+- **transparent** locators implemented as URI ( *e.g. as in [REST](pages/mobile_systems/iot/rest.md)* )
 - **opaque** need of a middleware to generate and use locators
 
 ## General considerations
@@ -74,4 +74,4 @@ also QoS politics need to be taken into account, possible solution can be ACK ba
 
 Also in order delivery semantics can be dropped to improve performance
 
-[PREVIOUS](mobile_systems/discovery_messages_events/service_discovery.md) [NEXT](mobile_systems/discovery_messages_events/java_message_service.md)
+[PREVIOUS](pages/mobile_systems/discovery_messages_events/service_discovery.md) [NEXT](pages/mobile_systems/discovery_messages_events/java_message_service.md)

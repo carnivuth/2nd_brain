@@ -7,7 +7,7 @@ index: 31
 
 #  I-TCP
 
-[MIP](mobile_systems/mobility/mobile_ip.md) [HMIPV6](mobile_systems/mobility/hierarchical_mobile_ipv6.md) [PHMIPV6](mobile_systems/mobility/proxy_hierarchical_mobile_ipv6.md)  does not take in to account the problems that occurs at the transport layer as for the **TCP protocol every disconnection and reconnection is treated as a high congestion situation**, so TCP slows traffic to resolve the congestion
+[MIP](pages/mobile_systems/mobility/mobile_ip.md) [HMIPV6](pages/mobile_systems/mobility/hierarchical_mobile_ipv6.md) [PHMIPV6](pages/mobile_systems/mobility/proxy_hierarchical_mobile_ipv6.md)  does not take in to account the problems that occurs at the transport layer as for the **TCP protocol every disconnection and reconnection is treated as a high congestion situation**, so TCP slows traffic to resolve the congestion
 
 The idea in I-TCP is to split the connection exploiting a middle node
 
@@ -22,7 +22,7 @@ A --I-TCP--> B --I-TCP--> C
 
 ## Handoff
 
-The handoff procedure is dependent on the [mobile ip **one**](mobile_systems/mobility/mobile_ip.md), when a mobile node register is CoA at the home agent, I-TCP handoff starts and in the meantime packets are buffered at the middle node
+The handoff procedure is dependent on the [mobile ip **one**](pages/mobile_systems/mobility/mobile_ip.md), when a mobile node register is CoA at the home agent, I-TCP handoff starts and in the meantime packets are buffered at the middle node
 
 ## Advantages
 
@@ -34,4 +34,4 @@ The handoff procedure is dependent on the [mobile ip **one**](mobile_systems/mob
 - Breaks the end to end principle for witch only the endpoint of the communication are aware of the communication channel
 - the middle node maintains state
 
-[PREVIOUS](mobile_systems/mobility/proxy_hierarchical_mobile_ipv6.md) [NEXT](mobile_systems/mobile_middleware/mobile_middleware.md)
+[PREVIOUS](pages/mobile_systems/mobility/proxy_hierarchical_mobile_ipv6.md) [NEXT](pages/mobile_systems/mobile_middleware/mobile_middleware.md)
