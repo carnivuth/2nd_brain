@@ -40,7 +40,7 @@ The repository comes pre-installed with a plugin for snippet execution, the plug
 
 ### Language and computational models exam
 
-In the repo is present also my [language and computational models exam](pages/linguaggi_modelli_computazionali/esame/ESAME.md) *dated 3/12/2024*, with some example code to verify behavior, the node engine is required
+In the repo is present also my [language and computational models exam](pages/linguaggi_modelli_computazionali/esame/esame.md) *dated 3/12/2024*, with some example code to verify behavior, the node engine is required
 
 ### Datamining example codes
 
@@ -71,4 +71,3 @@ pip install -r requirements.txt
 - [kuri0317](https://github.com/kuri0317)
 - [claudiacitera](https://github.com/claudiacitera)
 - [Lombax99](https://github.com/Lombax99)
-
