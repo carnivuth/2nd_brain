@@ -27,7 +27,7 @@ E((internet))
 A & B -->  E
 ```
 
-- **AD HOC MODE** all nodes are potentially mobile and communicate directly, en example of ad hoc network are [manets](mobile_systems/manets/manets.md)
+- **AD HOC MODE** all nodes are potentially mobile and communicate directly, en example of ad hoc network are [manets](pages/mobile_systems/manets/manets.md)
 
 ```mermaid
 flowchart LR
@@ -51,4 +51,4 @@ The objective is to cover with wireless connectivity technology wide areas like 
 
 ![](assets/mobile_systems/Pasted%20image%2020240604192831.png)
 
-[PREVIOUS](mobile_systems/wireless/csma.md) [NEXT](mobile_systems/wireless/wimax.md)
+[PREVIOUS](pages/mobile_systems/wireless/csma.md) [NEXT](pages/mobile_systems/wireless/wimax.md)

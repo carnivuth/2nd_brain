@@ -22,4 +22,4 @@ possible interaction with this model can be:
 - **pull** actuators request configurations from the server
 - **push** sensors send data to the server
 
-[PREVIOUS](mobile_systems/iot/pub_sub_protocols.md) [NEXT](mobile_systems/iot/rest.md)
+[PREVIOUS](pages/mobile_systems/iot/pub_sub_protocols.md) [NEXT](pages/mobile_systems/iot/rest.md)
