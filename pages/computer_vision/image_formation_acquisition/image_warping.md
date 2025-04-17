@@ -9,7 +9,7 @@ index: 14
 
 The image points are converted by a pair of functions $f_{u}(u,v),f_{v}(u,v)$ into a new image
 
-![](computer_vision/Pasted_image_20240227160817.png)
+![](assets/computer_vision/Pasted_image_20240227160817.png)
 
 $$
 \begin{cases}
@@ -31,6 +31,6 @@ $$
 
 once the lens distortion parameter are computed by [camera calibration](pages/computer_vision/image_formation_acquisition/camera_calibration.md) it's possible to get back the un-distorted points by a backward warp
 
-![](computer_vision/Pasted_image_20240227164313.png)
+![](assets/computer_vision/Pasted_image_20240227164313.png)
 
 [PREVIOUS](pages/computer_vision/image_formation_acquisition/stereo_camera_calibration.md) [NEXT](pages/computer_vision/image_filtering/image_filters.md)

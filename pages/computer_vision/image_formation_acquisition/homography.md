@@ -48,19 +48,19 @@ $$
 $$
 
 
-![](computer_vision/Pasted_image_20240222102217.png)
+![](assets/computer_vision/Pasted_image_20240222102217.png)
 
 ### Rotation relation
 
 Any two images taken by a camera rotating about the optical center are related by homography
 
-![](computer_vision/Pasted_image_20231021104939.png)
+![](assets/computer_vision/Pasted_image_20231021104939.png)
 
 ### Intrinsic parameter relation
 
 any two images taken by two different cameras (different $A$ matrix so different intrinsic parameters) in a fixed pose are related by homography
 
-![](computer_vision/Pasted_image_20231021105132.png)
+![](assets/computer_vision/Pasted_image_20231021105132.png)
 
 In conclusion we can say that if the camera is imaging a planar scene we can find relations between images that are taken from different angles or with different camera sensors
 

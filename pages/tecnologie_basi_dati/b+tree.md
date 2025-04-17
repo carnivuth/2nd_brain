@@ -1,7 +1,11 @@
 ---
 id: b+tree
-tags: ["b+tree","indici ordinati","modello di cardenas","modello di yao"]
-aliases: 
+aliases: []
+tags:
+  - b+tree
+  - indici ordinati
+  - modello di cardenas
+  - modello di yao
 index: 5
 ---
 
@@ -48,7 +52,7 @@ La cancellazione segue le stesse logiche dell'inserimento ma in questo caso il p
 
 ## Occupazione in memoria
 
-Ogni nodo intermedio contiene  al più $2d$ chiavi e $2d+1$ PID, di conseguenza l'ordine dell'albero e uguale a 
+Ogni nodo intermedio contiene  al più $2d$ chiavi e $2d+1$ PID, di conseguenza l'ordine dell'albero e uguale a
 
 $$
 d = \Big\lfloor \frac{pagesize - PIDsize}{2(keysize + PIDsize)}\Big\rfloor
@@ -84,7 +88,7 @@ Si possono sfruttare indici in diverse modalità per accedere ai dati
 - usare un indice su uno dei due attributi e verificare la condizione sull'altro
 - usare due indici e calcolare l'intersezione dei due risultati
 
-entrambi i sistemi possono vanificare il vantaggio di usare indici, un alternativa consiste nell'usare **indici multi attributo** 
+entrambi i sistemi possono vanificare il vantaggio di usare indici, un alternativa consiste nell'usare **indici multi attributo**
 
 > [!WARNING] tali indici non sono vantaggiosi per fare ricerche ranged sui successivi $n-1$ campi della chiave
 
@@ -111,7 +115,7 @@ Nel caso il B+tree venga utilizzato come indice secondario e necessario determin
 - quante foglie contengono il risultato di una query
 - quante pagine dati contengono record risultato
 
->[!NOTE] si assume che i valori della chiave siano distribuiti in maniera uniforme e che i record nelle pagine siano a loro volta distribuiti in maniera uniforme 
+>[!NOTE] si assume che i valori della chiave siano distribuiti in maniera uniforme e che i record nelle pagine siano a loro volta distribuiti in maniera uniforme
 
 
 ### Modello di cardenas
@@ -119,7 +123,7 @@ Nel caso il B+tree venga utilizzato come indice secondario e necessario determin
 Il numero di pagine in media a cui e necessario accedere per recuperare $R$ in $P$ pagine e dato dal seguente modello
 
 $$
-\Phi(R,P)=P(1-(1-\frac{1}{P})^R) 
+\Phi(R,P)=P(1-(1-\frac{1}{P})^R)
 $$
 
 Tale modello assume pagine di dimensione infinita, che porta a una sottostima nel numero effettivo di pagine da leggere
@@ -134,6 +138,6 @@ $$
 
 Sotto le assunzioni precedenti e dimostrabile che la formula di Yao sovrastima i costi di accesso, tuttavia per query che implicano un alto numero di record $R$ Il modello di Yao e piu costoso del modello di Cardenas
 
-![](tecnologie_basi_dati/Pasted%20image%2020250204145210.png)
+![](assets/tecnologie_basi_dati/Pasted%20image%2020250204145210.png)
 
 [PREVIOUS](tecnologie_basi_dati/b-tree.md) [NEXT](tecnologie_basi_dati/gist.md)

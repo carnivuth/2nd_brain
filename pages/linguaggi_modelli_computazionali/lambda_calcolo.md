@@ -1,4 +1,7 @@
 ---
+id: lambda_calcolo
+aliases: []
+tags: []
 index: 17
 ---
 # Lambda calcolo
@@ -102,7 +105,7 @@ f(2)
 
 >[!ERROR] esplode lo stack, ovviamente
 
-![](linguaggi_modelli_computazionali/Pasted%20image%2020241031114431.png)
+![](assets/linguaggi_modelli_computazionali/Pasted%20image%2020241031114431.png)
 
 ### Teorema di church-rosser
 

@@ -25,7 +25,7 @@ given 2 reference points $ref_1,ref_2$ **TDoA** is the set of points where
 
 $$ToA(ref_1)=ToA(ref_2)$$
 
-![](mobile_systems/Pasted%20image%2020240608180440.png)
+![](assets/mobile_systems/Pasted%20image%2020240608180440.png)
 
 ### Lateration
 
@@ -42,13 +42,13 @@ b^2=a^2+c^2-2ac*\cos{\beta}
 }
 $$
 
-![](mobile_systems/Pasted%20image%2020240608180918.png)
+![](assets/mobile_systems/Pasted%20image%2020240608180918.png)
 
 ### Proximity
 
 The current position is determined by the closest reference point to the node, ToA or RSSI can be deployed
 
-![](mobile_systems/Pasted%20image%2020240608181056.png)
+![](assets/mobile_systems/Pasted%20image%2020240608181056.png)
 
 ### Scene analysis
 

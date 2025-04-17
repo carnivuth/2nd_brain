@@ -1,6 +1,6 @@
 ---
 id: STEREO_CAMERA_CALIBRATION
-aliases:
+aliases: []
 tags:
   - rectification
   - retrieve_3D_coordinates
@@ -31,7 +31,7 @@ $$
 \overset{\sim}P_{L} = A_{L}[I|0] \Rightarrow \overset{\sim}P_{R} = A_{R}[R|T]
 $$
 
-![](computer_vision/Pasted_image_20240227155232.png)
+![](assets/computer_vision/Pasted_image_20240227155232.png)
 
 ## Rectification
 
@@ -160,7 +160,7 @@ $$
 
 Now it's also possible to compute an image point $P$ of a given 3D space taken by another camera by getting the 3D coordinates and then translating by a rotation and a translation function
 
-![](computer_vision/Pasted_image_20240227155548.png)
+![](assets/computer_vision/Pasted_image_20240227155548.png)
 
 $$
 p_{2} = AT_{1\rightarrow 2}(zA^{-1}p_{1}) \space with \space T_{1\rightarrow 2}(P_{1}) =RP_{1} + T

@@ -9,7 +9,7 @@ index: 50
 
 Siemens cloud and edge based solution for IoT
 
-![](mobile_systems/Pasted%20image%2020240613162502.png)
+![](assets/mobile_systems/Pasted%20image%2020240613162502.png)
 
 ### Handle connection to devices
 

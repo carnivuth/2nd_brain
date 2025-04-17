@@ -11,7 +11,7 @@ GPS is a positioning system that exploits dedicated hardware (*e.g. satellites*)
 
 The concept is to use [lateration](mobile_systems/positioning_systems/base_techniques.md#lateration) in combination with [toa](mobile_systems/positioning_systems/base_techniques.md) using satellites with known positions
 
-![](mobile_systems/Pasted%20image%2020240608190728.png)
+![](assets/mobile_systems/Pasted%20image%2020240608190728.png)
 
 GPS satellites needs to have a perfect synchronized clock, $1_{\mu s}$ can achive an error of around 300 meters
 

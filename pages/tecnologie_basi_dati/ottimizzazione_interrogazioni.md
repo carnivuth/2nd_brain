@@ -1,7 +1,11 @@
 ---
 id: ottimizzazione_interrogazioni
-tags: ["ottimizzazione delle interrogazioni","interfaccia a iteratore","esecuzione per materializzazione","esecuzione in pipeline"]
-aliases: 
+aliases: []
+tags:
+  - ottimizzazione delle interrogazioni
+  - interfaccia a iteratore
+  - esecuzione per materializzazione
+  - esecuzione in pipeline
 index: 17
 ---
 
@@ -55,11 +59,11 @@ viene controllata la sintassi e il rispetto di vincoli sulla base dati (*query e
 
 l'output di questo componente e una **rappresentazione ad albero della query** simile alla forma sql con gli [Operatori logici](operatori_relazionali.md#operatori%20logici)  come nodi dell'albero e le relazioni come foglie
 
-![](tecnologie_basi_dati/Pasted%20image%2020250215163029.png)
+![](assets/tecnologie_basi_dati/Pasted%20image%2020250215163029.png)
 
 ## Riscrittura della query
 
-Successivamente la query viene riscritta in una forma equivalente sfruttando le proprietà dell'algebra relazionale 
+Successivamente la query viene riscritta in una forma equivalente sfruttando le proprietà dell'algebra relazionale
 
 >[!WARNING] in questa fase l'ottimizzazione e **puramente semantica**! non si fanno considerazioni sui costi di accesso
 
@@ -112,15 +116,15 @@ Una volta determinato il piano di accesso questo deve essere eseguito per ottene
 Per implementare l'esecuzione in pipeline gli operatori fisici sono implementati come **iteratori**  con la seguente interfaccia
 
 ```python
-open(): 
+open():
 	# inizializza, alloca buffer, passa parametri e richiama ricorsivamente open sui figli
-hasNext(): 
+hasNext():
 	# verifica se ci sono altre tuple
-next(): 
+next():
 	# richiede la prossima tupla
-reset(): 
+reset():
 	#  riparte dalla prima tupla (es. nested loops)
-close(): 
+close():
 	# termina e rilascia le risorse
 ```
 

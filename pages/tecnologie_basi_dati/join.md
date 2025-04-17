@@ -1,7 +1,11 @@
 ---
 id: join
-tags: ["indexed nested loop join","paged nested loop join","block nested loop join","merge-scan join"]
-aliases: 
+aliases: []
+tags:
+  - indexed nested loop join
+  - paged nested loop join
+  - block nested loop join
+  - merge-scan join
 index: 14
 ---
 
@@ -34,7 +38,7 @@ for r in R:
 			# add to result
 ```
 
-Il costo e tuttavia esorbitante in quanto si ha 
+Il costo e tuttavia esorbitante in quanto si ha
 
 $$
 P(R) + TP(R)\times P(R)\times P(S)
@@ -80,7 +84,7 @@ K((H))
 end
 N[(relazione S)]
 A ~~~ central_memory ~~~ N
- F --> g & h & i & j ~~~ k 
+ F --> g & h & i & j ~~~ k
  K --> g
 ```
 
@@ -99,9 +103,9 @@ AND R.RIVISTA= "sapore di vino"
 
 ## Merge-scan join
 
-si basa sul fatto che entrambe le relazioni siano **ordinati sull'attributo di join** (*in caso non sia vero e necessario ordinarle*). Le due relazioni vengono scandite e accoppiate secondo la chiave di join 
+si basa sul fatto che entrambe le relazioni siano **ordinati sull'attributo di join** (*in caso non sia vero e necessario ordinarle*). Le due relazioni vengono scandite e accoppiate secondo la chiave di join
 
-![](tecnologie_basi_dati/Pasted%20image%2020250213151824.png)
+![](assets/tecnologie_basi_dati/Pasted%20image%2020250213151824.png)
 
 ```python
 result=[]
@@ -120,7 +124,7 @@ while !F.empty() and G.empty():
         while ! F.empty() and f_1.A = g.B:
 			result.append(f)
 			f_1 = F.next()
-      
+
         g_1 = G.next()
         while ! G.empty() and g_1.B = f.A
 			result.append(g)

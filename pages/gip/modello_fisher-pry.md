@@ -1,3 +1,9 @@
+---
+id: modello_fisher-pry
+aliases: []
+tags: []
+---
+
 # Modello fisher-pry
 
  modello utilizzato per prevedere l'andamento delle performance tecnologiche e del cambio tecnologico
@@ -31,7 +37,7 @@ $$
 
 ## Diffusione nel mercato
 
-![](gip/Pasted%20image%2020231214185032.png)
+![](assets/gip/Pasted%20image%2020231214185032.png)
 
 Il punto più complesso da raggiungere per le aziende è la fetta degli early majority questa è detta l'**abisso** o **the chasm**
 

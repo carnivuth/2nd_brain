@@ -33,7 +33,7 @@ $$
 \mu(i,j)= \frac{\sum_{m=-k}^{m=k}{\sum_{n=-k}^{n=k}{I(i+m,j+n)}}}{(2k+1)^2} = \frac{s(i,j)}{(2k+1)^2}
 $$
 
-![](computer_vision/Pasted_image_20240229121850.png)
+![](assets/computer_vision/Pasted_image_20240229121850.png)
 
 Now it's true to say that the $s(i,j+1)$ value is obtainable by the precedent value by adding and subtracting differences in the box
 
@@ -57,6 +57,6 @@ $$
 \Delta(i-1,j-1) = V^{+}(i,j+1) - V^{-}(i-1,j+1)
 $$
 
-![](computer_vision/Pasted_image_20240229122932.png)
+![](assets/computer_vision/Pasted_image_20240229122932.png)
 
 [PREVIOUS](pages/computer_vision/image_filtering/image_filters.md) [NEXT](pages/computer_vision/image_filtering/gaussian_filter.md)

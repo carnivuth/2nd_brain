@@ -28,6 +28,6 @@ XMPP is not designed for message exchange but given the popularity is a good can
 
 to address this flows Android use a proprietary implementation to address this issues
 
-![](mobile_systems/Pasted%20image%2020240616164345.png)
+![](assets/mobile_systems/Pasted%20image%2020240616164345.png)
 
 [PREVIOUS](mobile_systems/discovery_messages_events/corba_messaging.md) [NEXT](mobile_systems/discovery_messages_events/events.md)

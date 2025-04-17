@@ -21,7 +21,7 @@ The protocol has several improvements over [bluetooth](mobile_systems/wireless/b
 
 ## Topologies
 
-![](mobile_systems/Pasted%20image%2020240321144834.png)
+![](assets/mobile_systems/Pasted%20image%2020240321144834.png)
 
 ## Nodes roles
 

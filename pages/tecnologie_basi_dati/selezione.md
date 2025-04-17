@@ -1,7 +1,12 @@
 ---
 id: selezione
-tags: ["selezione","stima risultati","selezione con disgiunzione","selezione con disgiunzione","tipologie di predicati DB2"]
-aliases: 
+aliases: []
+tags:
+  - selezione
+  - stima risultati
+  - selezione con disgiunzione
+  - selezione con disgiunzione
+  - tipologie di predicati DB2
 index: 12
 ---
 
@@ -37,7 +42,7 @@ anche in questo caso il costo dipende dalla presenza o meno di indici
 
 In caso di indice un-clustered si può decidere di ordinare i RID prima di accedere al file dati per ottimizzarne l'accesso
 
-![](tecnologie_basi_dati/Pasted%20image%2020250209173430.png)
+![](assets/tecnologie_basi_dati/Pasted%20image%2020250209173430.png)
 
 ## Selezioni con condizioni multi-attributo
 

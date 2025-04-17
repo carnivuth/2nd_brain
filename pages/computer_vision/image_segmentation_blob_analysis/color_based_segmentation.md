@@ -28,7 +28,7 @@ $$
 
 and then the segmentation become a classification task where the foreground pixels are the ones in a 3d sphere with center $\mu$
 
-![](computer_vision/Pasted_image_20240303160809.png)
+![](assets/computer_vision/Pasted_image_20240303160809.png)
 
 ## Mahalanobis distance
 

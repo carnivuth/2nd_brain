@@ -1,7 +1,10 @@
 ---
 id: progetto_fisico_tuning
-tags: ["data clustering","data partitioning","selezione di indici"]
-aliases: 
+aliases: []
+tags:
+  - data clustering
+  - data partitioning
+  - selezione di indici
 index: 19
 ---
 
@@ -16,10 +19,10 @@ La valutazione del progetto fisico di  un db avviene tramite la misura delle pre
 
 Alcune delle problematiche principali affrontate sono:
 
-- **Selezione degli indici** Su quali attributi conviene costruire un indice? 
+- **Selezione degli indici** Su quali attributi conviene costruire un indice?
 >[!NOTE] Un indice può velocizzare alcune query, ma tipicamente rallenta le transazioni
 - **Data clustering**Conviene mantenere i dati ordinati? Su quale attributo?
-- **Data partitioning** Conviene partizionare i dati? 
+- **Data partitioning** Conviene partizionare i dati?
 >[!TIP] Fondamentale in ambito distribuito, ma importante anche in DBMS centralizzati
 - **Modifiche dello schema logico** per migliorare le prestazioni (*Denormalizzazione, replicazione*)
 - **Riscrittura di query/transazioni** SQL server-side (*trigger, stored procedures*)
@@ -94,7 +97,7 @@ AND E.age = 25
 Nel primo caso un indice ([b+tree](tecnologie_basi_dati/b+tree.md)) su `age,sal` può risultare conveniente, nel secondo caso l'ordine degli attributi nella query e più rilevante, in particolare:
 
 - `age,sal` entrambi i predicati sono range delimiting
-- `sal,age` il predicato su age e index-sargable 
+- `sal,age` il predicato su age e index-sargable
 
 ## Data clustering
 
@@ -111,8 +114,8 @@ Le informazioni statistiche su tabelle e indici sono fondamentali per permettere
 In DB2 si usa il **comando `RUNSTATS`**
 
 ```sql
-RUNSTATS ON TABLE MySchema.TableName 
-WITH DISTRIBUTION ON ALL COLUMNS 
+RUNSTATS ON TABLE MySchema.TableName
+WITH DISTRIBUTION ON ALL COLUMNS
 AND DETAILED INDEXES ALL
 ```
 
@@ -123,7 +126,7 @@ La forma `DETAILED INDEXES ALL` genera informazioni utili per capire lo "stato d
 
 Il partizionamento dei dati viene svolto per diverse motivazioni tra cui suddividere il costo computazionale su piu server, escludere parti di table a priori data una query  e ridurre il numero di transazioni in conflitto
 
-![](tecnologie_basi_dati/Pasted%20image%2020250216162844.png)
+![](assets/tecnologie_basi_dati/Pasted%20image%2020250216162844.png)
 
 Le strategie di partizionamento si dividono in due categorie
 

@@ -9,7 +9,7 @@ index: 53
 
 [CNN](pages/computer_vision/machine_learning_cv/convolutional_neural_networks.md) Inspired by [VGG](pages/computer_vision/machine_learning_cv/vgg.md) based on the concept of [residual blocks](pages/computer_vision/machine_learning_cv/convolutional_neural_networks.md#residual%20learning%20as%20a%20solution), each stage of a resnet consists in a combination of residual blocks
 
-![](computer_vision/Pasted%20image%2020241001122748.png)
+![](assets/computer_vision/Pasted%20image%2020241001122748.png)
 
 ## Residual block structure
 
@@ -22,7 +22,7 @@ pool*) and doubles the number of channels.
 
 Input layer and output of a RB block are tensors of different shapes and cannot be added together
 
-![](computer_vision/Pasted%20image%2020241001123433.png)
+![](assets/computer_vision/Pasted%20image%2020241001123433.png)
 
 In order to address this situation a stage is added in the shortcut branch to increase the number of layers of the input
 

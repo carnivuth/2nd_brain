@@ -15,7 +15,7 @@ design a function that takes image as input and responds with a label
 
 The idea is to scan linearly the image pixels:
 
-![](computer_vision/Pasted_image_20240430113112.png)
+![](assets/computer_vision/Pasted_image_20240430113112.png)
 
 so the classifier becomes:
 
@@ -38,7 +38,7 @@ where $W$ is a matrix of size $(3 \times M \times N)\times nlabels$  and scores 
 
 This type of linear classifier can be realize with the template matching approach Where templates are rows of the $W$ matrix
 
-![](computer_vision/Pasted_image_20240502100950.png)
+![](assets/computer_vision/Pasted_image_20240502100950.png)
 
 ## Loss function for a linear classifier
 
@@ -114,7 +114,7 @@ for $e = 1,..,E$ epochs:
 
 The learning rate can influence the convergence speed of the training procedure:
 
-![](computer_vision/Pasted_image_20240502121915.png)
+![](assets/computer_vision/Pasted_image_20240502121915.png)
 
 ### Gradient descent limits
 
@@ -150,6 +150,6 @@ With this parameter the update becomes a mean of the previous ones smoothing the
 
 For a lot of application capture all the variability with one template is impossible, there is the need of something more meaningful than row pixels. There is the need to transform pixels in some form of feature
 
-![](computer_vision/Pasted_image_20240502210718.png)
+![](assets/computer_vision/Pasted_image_20240502210718.png)
 
 [PREVIOUS](pages/computer_vision/machine_learning_cv/machine_learning_in_computer_vision.md) [NEXT](pages/computer_vision/machine_learning_cv/deep_learning_and_neural_networks.md)

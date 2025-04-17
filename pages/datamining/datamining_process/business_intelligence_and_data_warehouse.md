@@ -7,7 +7,7 @@ index: 1
 
 - process of transforming data into something useful for decision making
 
-![](datamining/Pasted_image_20230928151132.png)
+![](assets/datamining/Pasted_image_20230928151132.png)
 
 ## Data warehouse (dwh)
 
@@ -21,7 +21,7 @@ index: 1
 
 -  in a DWH data are organized in a multidimensional structure that store data based in categories
 
-![](datamining/Pasted_image_20230928152914.png)
+![](assets/datamining/Pasted_image_20230928152914.png)
 
 this model can be explored interactively by the user through [OLAP](pages/datamining/datamining_process/olap.md) queries
 

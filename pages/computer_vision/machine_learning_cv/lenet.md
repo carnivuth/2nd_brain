@@ -9,7 +9,7 @@ index: 50
 
 [CNN](pages/computer_vision/machine_learning_cv/convolutional_neural_networks.md) to recognize handwritten digits.
 
-![](computer_vision/Pasted%20image%2020241001101124.png)
+![](assets/computer_vision/Pasted%20image%2020241001101124.png)
 
 Principal features are:
 

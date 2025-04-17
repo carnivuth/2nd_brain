@@ -51,7 +51,7 @@ With time cellular networking technology converged in the internet communication
 
 ## Gsm architecture
 
-![](mobile_systems/Pasted%20image%2020240307143626.png)
+![](assets/mobile_systems/Pasted%20image%2020240307143626.png)
 
 Where:
 
@@ -96,7 +96,7 @@ The principle goal of this procedure it's service continuity so in this context 
 
 In this particular case the call is still routed trough the MSC where it has began ANCHOR MSC, other MSC are appended to the chain as the node is moving
 
-![](mobile_systems/Pasted%20image%2020240606103443.png)
+![](assets/mobile_systems/Pasted%20image%2020240606103443.png)
 
 ### Handoff taxonomy
 

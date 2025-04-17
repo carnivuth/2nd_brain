@@ -1,7 +1,11 @@
 ---
 id: ricerca_piano_accesso
-tags: ["programmazione dinamica","database profile","istogrammi","join ordering"]
-aliases: 
+aliases: []
+tags:
+  - programmazione dinamica
+  - database profile
+  - istogrammi
+  - join ordering
 index: 18
 ---
 
@@ -38,13 +42,13 @@ Come visto prima e fondamentale determinare la [selettività](selezione.md#stima
 
 ## Selettività in caso di più operatori
 
-In caso di combinazione di operatori **se si conoscono le selettività dei singoli operatori** si può stimare la combinazione come 
+In caso di combinazione di operatori **se si conoscono le selettività dei singoli operatori** si può stimare la combinazione come
 
 $$
 f = f_1 \times f_2 \times f_3 \times ... \times f_n
 $$
 
->[!WARNING] La cosa e più complessa se si hanno i fattori combinati degli operatori  
+>[!WARNING] La cosa e più complessa se si hanno i fattori combinati degli operatori
 
 ## Selettività del [join](tecnologie_basi_dati/join.md)
 
@@ -92,7 +96,7 @@ il numero di valori distinti viene quindi stimato come $NK(A) = Bln(B/Z)$
 
 Fino ad ora si e dato per ipotesi che i dati di un dato attributo fossero distribuiti in maniera uniforme ma nella realtà questo e un caso molto raro, per superare questa limitazione si fa l'utilizzo di istogrammi
 
-![](tecnologie_basi_dati/Pasted%20image%2020250215184151.png)
+![](assets/tecnologie_basi_dati/Pasted%20image%2020250215184151.png)
 
 ### Istogrammi: tipologie
 
@@ -121,13 +125,13 @@ $$
 JT_{n+1} = \frac{2n!}{n!}
 $$
 
-Se si considerano anche tutte le possibili implementazioni di join si deve aggiungere un fattore $m^n$ 
+Se si considerano anche tutte le possibili implementazioni di join si deve aggiungere un fattore $m^n$
 
 >[!ERROR] lo spazio di ricerca cresce esponenzialmente
 
 ## Programmazione dinamica
 
-La tecnica più utilizzata per ridurre lo spazio di ricerca e basata sul **principio di ottimalita** 
+La tecnica più utilizzata per ridurre lo spazio di ricerca e basata sul **principio di ottimalita**
 
 >[!CITE] dati 2 percorsi parziali $P_1$ e $P_2$ che hanno origine in $S$ e arrivano entrambi in un nodo $V$, se $costo(P_1) \lt costo(P_2)$, allora $P_2$ non può essere esteso in modo tale da generare un percorso di costo minimo da $S$ a $T$
 
@@ -149,9 +153,9 @@ Lo spazio di ricerca dell'algoritmo e comunque esponenziale in $n$, e dunque nec
 - escludere i prodotti cartesiani
 - considerare solo left-deep join trees
 
-![](tecnologie_basi_dati/Pasted%20image%2020250216144138.png)
+![](assets/tecnologie_basi_dati/Pasted%20image%2020250216144138.png)
 
-In caso di utilizzo esclusivo dei left-deep join trees lo spazio di ricerca si riduce a 
+In caso di utilizzo esclusivo dei left-deep join trees lo spazio di ricerca si riduce a
 
 $$
 JTLD\_DP_n = \sum_{k=1}^{n} \binom{n}{k} = n \times 2^{n-1}

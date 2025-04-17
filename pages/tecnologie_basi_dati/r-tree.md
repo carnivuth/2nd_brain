@@ -1,7 +1,11 @@
 ---
 id: r-tree
-tags: ["r-tree vs b+tree","minimum bounding box","MBB","search with r-tree"]
-aliases: 
+aliases: []
+tags:
+  - r-tree vs b+tree
+  - minimum bounding box
+  - MBB
+  - search with r-tree
 index: 21
 ---
 
@@ -16,13 +20,13 @@ Le foglie dell'albero sono entry nella forma  `(key, RID)`, dove il valore di ch
 
 I nodi interni dell'albero si presentano nella forma `(MBB, PID)`, dove la chiave sono le coordinate della minimal bounding box
 
-![](tecnologie_basi_dati/Pasted%20image%2020250216184643.png)
+![](assets/tecnologie_basi_dati/Pasted%20image%2020250216184643.png)
 
 ## Concetto di mbb
 
 La minima bounding box e definita come la regione hyper-rettangolare minima che contiene un set di punti $m$
 
-![](tecnologie_basi_dati/Pasted%20image%2020250216184057.png)
+![](assets/tecnologie_basi_dati/Pasted%20image%2020250216184057.png)
 
 Per definirla e sufficiente conoscere le coordinate di due vertici opposti
 
@@ -41,7 +45,7 @@ Per definirla e sufficiente conoscere le coordinate di due vertici opposti
 
 La ricerca con un r-tree consiste nel trovare tutti i punti che fanno parte della bounding box della query di ricerca
 
-![](tecnologie_basi_dati/Pasted%20image%2020250218100138.png)
+![](assets/tecnologie_basi_dati/Pasted%20image%2020250218100138.png)
 
 Per implementare la ricerca e necessario implementare le API previste dalla specifica [GiST](tecnologie_basi_dati/gist.md)
 
@@ -49,6 +53,6 @@ Per implementare la ricerca e necessario implementare le API previste dalla spec
 - `Union(P)` l'output e la MMB che contiene tutte le entry
 -  `Penalty(E1,E2)` Se il punto si trova dentro la bounding box la penalty e `0` altrimenti e data dal aumento di dimensione della bounding box stessa
 - `Picksplit(P)` in output vengono fornite le entry e l'output e un set di due bounding box con cardinalità inferiore, lo split viene deciso minimizzando l'area complessiva delle due [MBB](#Concetto%20di%20MBB)
->[!WARNING] minimizzare la somma complessiva e un problema Np-hard  
+>[!WARNING] minimizzare la somma complessiva e un problema Np-hard
 
 [PREVIOUS](tecnologie_basi_dati/indici_multidimensionali.md) [NEXT](tecnologie_basi_dati/top_k_queries.md)

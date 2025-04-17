@@ -17,6 +17,6 @@ Where $N$ is the neighborhood around the point and its neighbors
 
 The output is the lowest difference computed between the neighborhood of $p$ and the neighborhoods of the neighbor points $q$
 
-![](computer_vision/Pasted_image_20240310153802.png)
+![](assets/computer_vision/Pasted_image_20240310153802.png)
 
 [PREVIOUS](pages/computer_vision/local_features/zero_crossing_edge_detection.md) [NEXT](pages/computer_vision/local_features/harris_corner_detector.md)

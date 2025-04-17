@@ -19,7 +19,7 @@ This comes with the cost of lower bandwidth so lower data transfer rate
 
 Bluetooth is a complex stack of protocols at different layer and devices can implement only a subset of functionality and not all
 
-![](mobile_systems/Pasted%20image%2020240312123425.png)
+![](assets/mobile_systems/Pasted%20image%2020240312123425.png)
 
 ## Architecture
 
@@ -74,7 +74,7 @@ Time is divided by time slots in which only 2 nodes can communicate This is done
 
 The master decide which node can communicate, the master can communicate in all the odd slots
 
-![](mobile_systems/Pasted%20image%2020240312130107.png)
+![](assets/mobile_systems/Pasted%20image%2020240312130107.png)
 
 ### Sco channels
 

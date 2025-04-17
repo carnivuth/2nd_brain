@@ -9,7 +9,7 @@ index: 22
 
 positioning system based on the use of RF and ultra sound technologies (US) where a central server triggers a badge via RF communication and the badge sends an US signal that is captured by sensors that compute position
 
-![](mobile_systems/Pasted%20image%2020240609151742.png)
+![](assets/mobile_systems/Pasted%20image%2020240609151742.png)
 
 ## Properties
 

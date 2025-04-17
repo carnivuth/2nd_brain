@@ -1,7 +1,10 @@
 ---
 id: sorting
-tags: ["sort merge", "sort merge a z vie", "sort merge con indici"]
-aliases: 
+aliases: []
+tags:
+  - sort merge
+  - sort merge a z vie
+  - sort merge con indici
 index: 11
 ---
 
@@ -29,7 +32,7 @@ C[run]
 D[run]
 F((merge))
 end
-A --> B --> C  -->F  
+A --> B --> C  -->F
 B --> D <--> F
 ```
 
@@ -37,7 +40,7 @@ B --> D <--> F
 
 Nella fase di fusione vengono usati 3 buffer (*uno per l'output*) dove vengono caricati in input le pagine delle run e mergiate nella pagina di output
 
-![](tecnologie_basi_dati/Pasted%20image%2020250209155934.png)
+![](assets/tecnologie_basi_dati/Pasted%20image%2020250209155934.png)
 ### Merge sort esterno: performance
 
 dato un numero di pagine in input $P=2^k$ il numero di passi dell'algoritmo di sort merge e $\lceil \log_{2}{P}\rceil +1$ con un costo totale (*in numero di letture scritture*) $2P(\lceil \log_2P\rceil +1)$.
@@ -56,7 +59,7 @@ flowchart TD
 A[leggi z run dal disco]
 B[fondi le run sul buffer di output]
 C[scrivi il buffer di output sul disco]
-A --> B --> C -- ripeti per finio a che non resta una sola run --> A 
+A --> B --> C -- ripeti per finio a che non resta una sola run --> A
 ```
 
 ### Determinare il valore di $z$
@@ -69,15 +72,15 @@ La scelta piu immediata per determinare il valore di $Z$ sarebbe farlo piu grand
 Distinguendo tra i due tipi di letture si ha che:
 
 $$
-costo \space letture \space sequenziali = (C + X)T_t 
+costo \space letture \space sequenziali = (C + X)T_t
 $$
 $$
-costo \space letture \space random = X(C + 1)T_t 
+costo \space letture \space random = X(C + 1)T_t
 $$
 
 Di conseguenza si possono organizzare le letture delle pagine in batches detti $Z$-frame da $FS$ pagine ciascuno
 
-![](tecnologie_basi_dati/Pasted%20image%2020250209163032.png)
+![](assets/tecnologie_basi_dati/Pasted%20image%2020250209163032.png)
 
 ## Sorting con [b+tree](tecnologie_basi_dati/b+tree.md)
 

@@ -1,7 +1,7 @@
 ---
 id: top_k_join_queries
+aliases: []
 tags: []
-aliases: 
 index: 23
 ---
 
@@ -61,10 +61,10 @@ C --> E
 ```
 >[!TIP] il caso del **middleware scenario** non e diverso dal caso delle top-$k$ join 1-1 query, con la differenza che nel caso delle query gli input sono locali, tuttavia le logiche algoritmiche sono le stesse :)
 
-### input di query top-$k$: assunzioni 
+### input di query top-$k$: assunzioni
 
 - Si da per certo che le sorgenti dati (*nel caso locale le relazioni*) supportino un accesso ordinato per il parametro di ranking parziale $j$
-- inoltre gli oggetti sono identificati  in maniera globale fra le sorgenti dati per mezzo della OID 
+- inoltre gli oggetti sono identificati  in maniera globale fra le sorgenti dati per mezzo della OID
 - tutte le sorgenti hanno lo stesso set di oggetti
 
 ### Scoring functions
@@ -86,10 +86,10 @@ Output: the top-k objects according to the MAX scoring function
 # B is a main-memory buffer
 B = []
 for j in range(1,m):
-	
+
 	# the set of objects "seen" on Lj
 	Obj[j] = {}
-	
+
 	for i in range(1,k):
 		# get the best k objects from each list
 		t = getNextLj();
@@ -97,11 +97,11 @@ for j in range(1,m):
 		if t.OID not in B:
 			# adds t to the buffer
 			B.append(t)
-		else: 
+		else:
 			# join t with the entry in B having the same OID;
 # for each object with at least one partial score compute MAX using the available scores
 for object in Obj:
-	MAX(object) 
+	MAX(object)
 return #the k objects with maximum score
 ```
 
@@ -109,7 +109,7 @@ return #the k objects with maximum score
 
 E possibile fermare l'algoritmo prima di effettuare $k$ round a patto che sia verificata la seguente condizione
 
->[!CITE] un algoritmo per top-$k$ 1-1 join queries che usa la funzione `MAX` come scoring function può essere stoppato se $Res[k].score \geq \max_j(p_j)$ 
+>[!CITE] un algoritmo per top-$k$ 1-1 join queries che usa la funzione `MAX` come scoring function può essere stoppato se $Res[k].score \geq \max_j(p_j)$
 
 ## Migliorando [b0](#algoritmo%20$b_0$): maxoptimal
 
@@ -120,7 +120,7 @@ Il teorema di cui sopra si può applicare seguendo un principio simile a quello 
 $B_0$ non funziona con funzioni diverse dalla funzione `MAX` perche al termine degli accessi sequenziali non vi e nessun limite inferiore al valore della scoring function, di conseguenza un oggetto che non e stato rilevato da un accesso sequenziale **puo essere il match migliore**
 
 >esempio con la funzione `MIN`
-![](tecnologie_basi_dati/Pasted%20image%2020250220114742.png)
+![](assets/tecnologie_basi_dati/Pasted%20image%2020250220114742.png)
 
 ## Algoritmo fa
 
@@ -137,7 +137,7 @@ L'algoritmo recupera i primi $k$ score parziali dalle $m$ liste e per ogni ogget
 L'algoritmo risulta computazionalmente esoso in quanto non viene sfruttata la funzione di scoring per ridurre lo spazio di ricerca, e non vengono anticipati i random access
 
 
-## Algoritmo ta 
+## Algoritmo ta
 
 L'algoritmo TA e un miglioramento dell'[Algoritmo FA](#Algoritmo%20FA), basato su threshold, in particolare
 
@@ -163,7 +163,7 @@ for i in range(1,k):
 
 L'algoritmo scandisce le liste fino a che la funzione di costo computata sui valori letti $S(p_1,p_2,...p_m)$ non e inferiore dello score dell'ultimo elemento del risultato (*che e il peggiore risultato corretto*)
 
-![](tecnologie_basi_dati/Pasted%20image%2020250220124511.png)
+![](assets/tecnologie_basi_dati/Pasted%20image%2020250220124511.png)
 
 ### Performance di ta
 
@@ -212,7 +212,7 @@ $$
 S^+(o^{'}) \leq S^-(o) \forall o^{'} \notin Res, o \in Res
 $$
 
->[!TIP] Ovvero tutti i valori visti non in res hanno un valore massimo di $S$ minore di quelli nel risultato 
+>[!TIP] Ovvero tutti i valori visti non in res hanno un valore massimo di $S$ minore di quelli nel risultato
 
 ### Ottenere le score corrette: nra*
 
@@ -256,19 +256,19 @@ Se si dispone di indici per ogni attributo di join l'algoritmo risulta simile a 
 
 ### Caso difficile: non sono concessi accessi randomici
 
-In questo caso e necessario adoperare solo per letture sequenziali (*sulla linea di quanto visto per [NRA*](#Ottenere%20le%20score%20corrette%20NRA*)*) 
+In questo caso e necessario adoperare solo per letture sequenziali (*sulla linea di quanto visto per [NRA*](#Ottenere%20le%20score%20corrette%20NRA*)*)
 
 ## Rank-join
 
-si computa una threshold $T$  definita come 
+si computa una threshold $T$  definita come
 
 $$
 \max(S(p_1,p_2^{max},...,,p_m^{max}),S(p_1^{max},p_2,...,,p_m^{max}),S(p_1^{max},p_2^{max},...,,p_m))
 $$
 
-dove $p_j^{max}$ e definito come il primo valore visto in $L_j$ 
+dove $p_j^{max}$ e definito come il primo valore visto in $L_j$
 
-![](tecnologie_basi_dati/Pasted%20image%2020250220144720.png)
+![](assets/tecnologie_basi_dati/Pasted%20image%2020250220144720.png)
 
 >[!WARNING] per far si che il rank join sia instance optimal e necessario che le relazioni siano al massimo 2 e che ci sia solo uno score parziale per input
 

@@ -9,7 +9,7 @@ index: 37
 
 In order to obtain a reference frame for computing the descriptor of a keypoint a local reference frame is needed, one solution is to chose the direction in which most of the gradient is found
 
-![](computer_vision/Pasted_image_20240314123223.png)
+![](assets/computer_vision/Pasted_image_20240314123223.png)
 
 ## [DOG](pages/computer_vision/local_features/dog_detector.md) canonical orientation
 
@@ -28,6 +28,6 @@ The contribution of a single point is obtained  by the **gradient magnitude weig
 
 then the highest peak of the histogram is considered for the canonical orientation with the 2 neighbors
 
-![](computer_vision/Pasted_image_20240314122805.png)
+![](assets/computer_vision/Pasted_image_20240314122805.png)
 
 [PREVIOUS](pages/computer_vision/local_features/dog_detector.md) [NEXT](pages/computer_vision/local_features/sift_descriptor.md)

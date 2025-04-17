@@ -40,6 +40,6 @@ $$
 
 Boundaries on the curve $z$ depends on the desired confidence level $\alpha$
 
-![](datamining/Pasted_image_20231230173630.png)
+![](assets/datamining/Pasted_image_20231230173630.png)
 
 [NEXT](pages/datamining/classification/classification.md)

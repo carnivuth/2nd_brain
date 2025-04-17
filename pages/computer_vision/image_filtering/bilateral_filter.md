@@ -1,7 +1,7 @@
 ---
 id: BILATERAL_FILTER
-aliases:
-tags:
+aliases: []
+tags: []
 index: 19
 ---
 
@@ -22,9 +22,9 @@ $$
 
 This filter takes into account the bi-dimensional distance and the difference in pixel intensity of the points in the $S$ neighborhood
 
-![](computer_vision/Pasted_image_20240302110646.png)
+![](assets/computer_vision/Pasted_image_20240302110646.png)
 
-![](computer_vision/Pasted_image_20240302112042.png)
+![](assets/computer_vision/Pasted_image_20240302112042.png)
 
 As shown in the image this filter is good in the edges cause it does not introduce blur in the image cause it takes into account range distance
 

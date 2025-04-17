@@ -1,10 +1,16 @@
+---
+id: proprieta_intellettuale
+aliases: []
+tags: []
+---
+
 # Proprietà intellettuale
 
 ## Appropriabilità
 
 Capacità di un Impresa di impossessarsi delle rendite dipendenti dai propri processi innovativi (non farsi rubare le idee)
 
-l'appropriabilità e funzione della complessità della **tecnologia impiegata** e dei **[meccanismi di protezione](gip/strumenti%20di%20proprietà%20intellettuale.md)** posti a sua difesa 
+l'appropriabilità e funzione della complessità della **tecnologia impiegata** e dei **[meccanismi di protezione](gip/strumenti%20di%20proprietà%20intellettuale.md)** posti a sua difesa
 
 elementi ad alta appropriabilità possono essere:
 
@@ -12,7 +18,7 @@ elementi ad alta appropriabilità possono essere:
 
 - la **conoscenza** di una data tecnologia
 
-- il **capitale intellettuale** radicato in un impresa 
+- il **capitale intellettuale** radicato in un impresa
 
 In generale più qualcosa è intrinseco nel tessuto dell' impresa, più e complesso imitarlo per altre imprese
 
@@ -20,7 +26,7 @@ In generale più qualcosa è intrinseco nel tessuto dell' impresa, più e comple
 
 ci sono due possibilità di ingresso in un mercato, non è dato sapere a priori quale delle due sarà vincente:
 
-![](gip/Pasted%20image%2020231216152425.png)
+![](assets/gip/Pasted%20image%2020231216152425.png)
 
 ### First mover
 
@@ -35,10 +41,10 @@ sono le aziende pionieristiche che danno per prime il via a un processo di innov
 #### Svantaggi
 
 - **rischio di impresa** dovuto all'introduzione di una novità nel mercato che non si sa come sarà recepita dai clienti
-	- Incertezza domanda 
-	- Cambiamenti fabbisogni acquirenti 
-	- Specificità investimenti iniziali 
-	- Discontinuità tecnologiche 
+	- Incertezza domanda
+	- Cambiamenti fabbisogni acquirenti
+	- Specificità investimenti iniziali
+	- Discontinuità tecnologiche
 	- Imitazioni a basso costo
 
 - **costi di innovazione** non indifferenti

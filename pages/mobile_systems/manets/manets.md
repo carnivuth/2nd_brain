@@ -18,7 +18,7 @@ Manets are network with the following caracteristics
 - Any node can play the role of potential router
 - Multi-hop communications
 
-![](mobile_systems/Pasted%20image%2020240321154522.png)
+![](assets/mobile_systems/Pasted%20image%2020240321154522.png)
 
 Given the nature of MANETS a lot of challenges comes up
 

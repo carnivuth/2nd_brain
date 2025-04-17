@@ -1,7 +1,8 @@
 ---
 id: trasformazioni_vista
-tags: ["proiezioni geometriche"]
-aliases:
+aliases: []
+tags:
+  - proiezioni geometriche
 index: 2
 ---
 # Trasformazioni di vista
@@ -18,7 +19,7 @@ C[sdr della finestra]
 A --> B --> C
 ```
 
-![](computer_graphics/Pasted%20image%2020241210144200.png)
+![](assets/computer_graphics/Pasted%20image%2020241210144200.png)
 
 ## Dal mondo all'osservatore
 
@@ -100,7 +101,7 @@ H --> I & J
 
 La proiezione a 3 punti di fuga si ha quando l'osservatore non e allineato con nessun asse del sistema di riferimento del mondo (*caso più generale*)
 
-![](computer_graphics/Pasted%20image%2020241210153005.png)
+![](assets/computer_graphics/Pasted%20image%2020241210153005.png)
 
 In questo tipo di proiezione si ha che:
 
@@ -111,11 +112,11 @@ In questo tipo di proiezione si ha che:
 
 Le dimensioni della window sono determinate dalla ampiezza del cono di visione che a sua volta e determinato dalla distanza $d$ tra l'osservatore e il piano di proiezione e la semi-ampiezza angolare $\alpha$ del cono di visione
 
-![](computer_graphics/Pasted%20image%2020241210151427.png)
+![](assets/computer_graphics/Pasted%20image%2020241210151427.png)
 
 Inoltre il piano di vista dell'osservatore viene limitato per mezzo di un front-plane e un back-plane
 
-![](computer_graphics/Pasted%20image%2020241210151712.png)
+![](assets/computer_graphics/Pasted%20image%2020241210151712.png)
 
 >[!TIP] ne consegue che per definire una matrice di proiezione sul piano di visione e necessario conoscere il formato della finestra,la posizione della camera l'angolo di visione e i piani di troncatura della camera
 

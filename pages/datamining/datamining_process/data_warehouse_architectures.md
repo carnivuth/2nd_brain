@@ -26,7 +26,7 @@ index: 4
 
 ## Single layer architecture
 
-![](datamining/Pasted_image_20231010120852.png)
+![](assets/datamining/Pasted_image_20231010120852.png)
 
 - the goal is to minimize the data collected in the DWH by reducing the separation between source layer and analysis layer
 - to achieve this, a middleware software need to abstract the complexity and the divergency of the Source layer data
@@ -38,7 +38,7 @@ index: 4
 
 ## Two layers architecture
 
-![](datamining/Pasted_image_20231010121252.png)
+![](assets/datamining/Pasted_image_20231010121252.png)
 
 - in this architecture data are extracted from source layers trough ETL and are inserted in a data warehouse layer where they are stored and accessed by the analysis layer
 - the source and the analysis layer are separated but there is more space occupied
@@ -50,7 +50,7 @@ index: 4
 
 ## Three layers architecture
 
-![](datamining/Pasted_image_20231010122320.png)
+![](assets/datamining/Pasted_image_20231010122320.png)
 
 - the reconciled layer is added to the two layers architecture that creates a consistent model of the data and separate data extraction problem and integration problem
 

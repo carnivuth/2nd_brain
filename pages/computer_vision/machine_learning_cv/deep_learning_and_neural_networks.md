@@ -59,7 +59,7 @@ where the $\phi()$ is the activation function and $W$ is a weight vector of size
 ### Activation function
 
 non linear functions used in the layers to perform the features computation examples are:
-![](computer_vision/Pasted_image_20240504153813.png)
+![](assets/computer_vision/Pasted_image_20240504153813.png)
 
 with equations:
 $$
@@ -71,7 +71,7 @@ $$
 
 Networks where the input of the $L_i$ layer is the output of all the nodes of the $L_{i-1}$ layer
 
-![](computer_vision/Pasted_image_20240504155414.png)
+![](assets/computer_vision/Pasted_image_20240504155414.png)
 
 the output of the $y_i$ node can be described as :
 

@@ -1,12 +1,18 @@
+---
+id: curve_s
+aliases: []
+tags: []
+---
+
 # Curve ad s
 
 Modello per rappresentare la crescita e la diffusione di un innovazione all'interno del mercato
 
 ## Sviluppo dell'innovazione
 
-lo sviluppo dell'innovazione può essere suddiviso in 4 fasi 
+lo sviluppo dell'innovazione può essere suddiviso in 4 fasi
 
-![](gip/Pasted%20image%2020231214174652.png)
+![](assets/gip/Pasted%20image%2020231214174652.png)
 
 ### Fase di fermento
 

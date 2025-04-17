@@ -9,7 +9,7 @@ index: 46
 
 system for production line monitory and control created Before IoT solution that relies on a centralized architecture and periodic data reading to reduce the need of human intervention
 
-![](mobile_systems/Pasted%20image%2020240611151503.png)
+![](assets/mobile_systems/Pasted%20image%2020240611151503.png)
 
 ## Pros
 

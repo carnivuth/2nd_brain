@@ -23,6 +23,6 @@ The main components of PHMIP are:
 - **Mobile Node Identifier (MN-ID)**  unique identifier assigned to mobile nodes
 - **Home Network Prefix** prefix assigned to mobile nodes from LMA
 
-![](mobile_systems/Pasted%20image%2020240608155305.png)
+![](assets/mobile_systems/Pasted%20image%2020240608155305.png)
 
 [PREVIOUS](mobile_systems/mobility/hierarchical_mobile_ipv6.md) [NEXT](mobile_systems/mobility/i_tcp.md)

@@ -1,7 +1,7 @@
 ---
 id: skyline_queries
+aliases: []
 tags: []
-aliases: 
 index: 25
 ---
 
@@ -13,19 +13,19 @@ Le query [top k](tecnologie_basi_dati/top_k_queries.md) hanno dei limiti in term
 
 Un concetto fondamentale per le skyline query e la dominanza delle tuple:
 
->[!CITE] data una relazione $R(A_1,A_2,...,A_m,...)$ dove $A_i$ sono gli attributi di rank una tupla $t$ domina una tupla $t^{'}$ ($t \succ t^{'}$) quando $$\forall j \in [1,m] t_{Aj} \leq t^{'}_{Aj} \land \exists j: t_{Aj} \lt t^{'}_{Aj}$$ 
+>[!CITE] data una relazione $R(A_1,A_2,...,A_m,...)$ dove $A_i$ sono gli attributi di rank una tupla $t$ domina una tupla $t^{'}$ ($t \succ t^{'}$) quando $$\forall j \in [1,m] t_{Aj} \leq t^{'}_{Aj} \land \exists j: t_{Aj} \lt t^{'}_{Aj}$$
 
 >ovvero $t$ ha valori non peggiori di $t^{'}$ e almeno un valore di $t$ e strettamente migliore di $t^{'}$
 
 Si definiscono di conseguenza le regioni di dominanza e anti-dominanza di una tupla $t$
 
-![](tecnologie_basi_dati/Pasted%20image%2020250220161559.png)
+![](assets/tecnologie_basi_dati/Pasted%20image%2020250220161559.png)
 
 Di conseguenza l'output della skyline query e definito come segue:
 
 >[!CITE] data una relazione $R(A_1,A_2,...,A_m)$ la sua skyline e definita come $$sky(R) = \{t | t \in R, \nexists t^{'} \in R: t^{'} \succ t\}$$
 
-![](tecnologie_basi_dati/Pasted%20image%2020250220162016.png)
+![](assets/tecnologie_basi_dati/Pasted%20image%2020250220162016.png)
 
 ## Cosa c'e' di speciale nelle query skyline
 
@@ -37,9 +37,9 @@ $$
 
 Inoltre l'output della query skyline **non corrisponde a quello di nessuna query top-$k$**
 
->[!CITE] Data una relazione $R(A_1,...,A_m)$ non esiste nessuna funzione di distanza $d$ che per tutte le istanze possibili di $R$ contiene tutti i punti della skyline nelle prime $k$ posizioni 
+>[!CITE] Data una relazione $R(A_1,...,A_m)$ non esiste nessuna funzione di distanza $d$ che per tutte le istanze possibili di $R$ contiene tutti i punti della skyline nelle prime $k$ posizioni
 
->[!TIP] Quindi la skyline ha più potere espressivo 
+>[!TIP] Quindi la skyline ha più potere espressivo
 
 ## Valutare le query skyline
 
@@ -58,8 +58,8 @@ for t in R:
 	undominated := true;
 	# comparazione con tutte le tuple di R
 	for c in R:
-		if c.dominates(t): 
-			undominated = False 
+		if c.dominates(t):
+			undominated = False
 			break
 	# aggiunge la tupla se non dominata
 	if undominated:
@@ -125,7 +125,7 @@ In questo caso si possono sfruttare le peculiarità di questi domini
 
 Viene predisposta una matrice data da tutte le possibili combinazioni degli attributi di interesse
 
-![](tecnologie_basi_dati/Pasted%20image%2020250220174021.png)
+![](assets/tecnologie_basi_dati/Pasted%20image%2020250220174021.png)
 
 Si scandisce il file e si marcano le tuple corrispondenti nella matrice come presenti, successivamente si determinano le dominanti tra quelle presenti e si rilegge il file fornendo in output quelle nella matrice
 

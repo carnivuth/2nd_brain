@@ -1,8 +1,14 @@
+---
+id: ciclo_innovazione
+aliases: []
+tags: []
+---
+
 # Ciclo dell'innovazione
 
 L'innovazione può essere visualizzata come un ciclo di creazione e distruzione (modello di Anderson e Tushman)
 
-![](gip/../assets/Pasted%20image%2020230928163324.png)
+![](assets/gip/../assets/Pasted%20image%2020230928163324.png)
 
 ## Era di fermento
 

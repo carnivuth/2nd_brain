@@ -1,14 +1,14 @@
 ---
 id: IMAGE_FILTERS
-aliases:
-tags:
+aliases: []
+tags: []
 index: 15
 ---
 # Image filters
 
 Image filters are operators that given a 2D input image calculate the new intensity of a pixel based on considerations on the neighborhood, an important class of filters are the **linear and translation equivariant filters**.
 
-![](pages/computer_vision/Pasted%20image%2020241011100211.png)
+![](assets/computer_vision/Pasted%20image%2020241011100211.png)
 
  LTE filters are also used in [CNN](pages/computer_vision/machine_learning_cv/convolutional_neural_networks.md) as feature extractors
 
@@ -44,7 +44,7 @@ $$
 h(x,y) = T(\delta(x,y))
 $$
 
-![](computer_vision/Pasted_image_20240229104951.png)
+![](assets/computer_vision/Pasted_image_20240229104951.png)
 
 #### Properties
 
@@ -67,7 +67,7 @@ $$
 
 **CORRELATION IS NOT COMMUTATIVE**
 
-![](computer_vision/Pasted_image_20240229110950.png)
+![](assets/computer_vision/Pasted_image_20240229110950.png)
 
 ### Convolution and correlation relation
 

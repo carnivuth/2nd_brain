@@ -12,7 +12,7 @@ Patterns that handle communication between nodes in a mobile environment
 
 Pattern that resolves the problem of reaching the client from the server for server -> client push interactions. the client starts a connection to the server that updates the client status (*e.g. AJAX interaction*)
 
-![](mobile_systems/Pasted%20image%2020240608151433.png)
+![](assets/mobile_systems/Pasted%20image%2020240608151433.png)
 
 ## Connection factory
 

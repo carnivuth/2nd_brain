@@ -25,7 +25,7 @@ E necessario scrivere un formalismo che ci consenta di esprimere la semantica da
 
 Questo viene fatto per mezzo di una funzione di interpretazione che mappi gli elementi del linguaggio (*DOMINIO*) all'insieme dei possibili significati (*CODOMINIO*)
 
-![](linguaggi_modelli_computazionali/Pasted%20image%2020241015172342.png)
+![](assets/linguaggi_modelli_computazionali/Pasted%20image%2020241015172342.png)
 
 Per implementare una tale funzione si sfrutta la struttura data dalla grammatica e si **esprime una funzione per ogni regola sintattica**:
 
@@ -72,7 +72,7 @@ Alcuni degli elementi che possono essere rimossi dal albero sono:
 - nodi non terminali con un unico figlio (*$EXPR\rightarrow NUM$*)
 - nodi terminali senza significato (parentesi)
 
-![](linguaggi_modelli_computazionali/Pasted%20image%2020241015174357.png)
+![](assets/linguaggi_modelli_computazionali/Pasted%20image%2020241015174357.png)
 
 ## Sintassi astratta
 

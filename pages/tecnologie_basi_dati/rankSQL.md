@@ -1,7 +1,7 @@
 ---
 id: rankSQL
+aliases: []
 tags: []
-aliases: 
 index: 24
 ---
 
@@ -13,11 +13,11 @@ Una delle sfide nelle query [top k](tecnologie_basi_dati/top_k_queries.md) e que
 - relazione-rank e il principio di ranking
 - rank-algebra pensata per le relazioni-rank
 
-## Relazione rank 
+## Relazione rank
 
 Una relazione rank e definita come segue
 
->[!CITE] data una relazione $R$ e una funzione di scoring monotona $S(p_1,p_2,...,p_m)$  una relazione rank  $R_P$ si definisce come una relazione dove gli oggetti sono ordinati per valore decrescente di $S_P^+(t)$ dove $S_P^+(t)$ e definito come il massimo possibile score della tupla $t$ 
+>[!CITE] data una relazione $R$ e una funzione di scoring monotona $S(p_1,p_2,...,p_m)$  una relazione rank  $R_P$ si definisce come una relazione dove gli oggetti sono ordinati per valore decrescente di $S_P^+(t)$ dove $S_P^+(t)$ e definito come il massimo possibile score della tupla $t$
 
 ## Rank algebra
 
@@ -25,6 +25,6 @@ Pensata come estensione per supportare le [Relazioni rank](#Relazione%20rank), i
 
 grazie all'operatore $\mu$ e possibile l'interleaving con altri operatori $\sigma(\mu(R_P))$
 
-![](tecnologie_basi_dati/Pasted%20image%2020250220160711.png)
+![](assets/tecnologie_basi_dati/Pasted%20image%2020250220160711.png)
 
 [PREVIOUS](tecnologie_basi_dati/top_k_join_queries.md) [NEXT](tecnologie_basi_dati/skyline_queries.md)

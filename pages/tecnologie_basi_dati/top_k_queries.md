@@ -1,7 +1,8 @@
 ---
 id: top_k_queries
-tags: ["knnoptimal"]
-aliases: 
+aliases: []
+tags:
+  - knnoptimal
 index: 22
 ---
 
@@ -9,7 +10,7 @@ index: 22
 
 l'obbiettivo quando si parla di top-$k$ queries e quello di **fornire i primi $k$ risultati che più si avvicinano alla richiesta della query**
 
-![](tecnologie_basi_dati/Pasted%20image%2020250218103304.png)
+![](assets/tecnologie_basi_dati/Pasted%20image%2020250218103304.png)
 >Gli utilizzi più frequenti di questa tecnologia si hanno dei DB scientifici, motori di ricerca e-commerce sistemi multimediali
 
 ## Approccio naive
@@ -26,7 +27,7 @@ for tuple in R:
 return to_be_sorted.sort().head(k)
 ```
 
->[!WARNING] questo approccio e estremamente costoso in quanto prevede il [sorting](sorting.md) di tutte le tuple, ancora peggio se la query prevede uno o più [join](tecnologie_basi_dati/join.md) 
+>[!WARNING] questo approccio e estremamente costoso in quanto prevede il [sorting](sorting.md) di tutte le tuple, ancora peggio se la query prevede uno o più [join](tecnologie_basi_dati/join.md)
 
 Inoltre si possono verificare casi di near miss o information overload, per esempio le query
 
@@ -39,7 +40,7 @@ SELECT * FROM UsedCarsTable
 WHERE Vehicle = ‘Audi/A4’
 ORDER BY 0.8*Price + 0.2*Mileage
 ```
- 
+
  soffrono rispettivamente di escludere elementi con prezzo di poco maggiore ma un numero di chilometri estremamente basso (near-miss) e l'altra di dare in output tutti i veicoli di un dato modello (information overload)
 
 ## Valutazione di una query top-$k$
@@ -55,7 +56,7 @@ prendendo come riferimento la forma più semplice di query top-$k$
 SELECT <some attributes>
 FROM R
 WHERE <Boolean conditions>
-ORDER BY S(<some attributes>) 
+ORDER BY S(<some attributes>)
 STOP AFTER k
 ```
 
@@ -70,7 +71,7 @@ top_operator --> filter --> Relation_R
 
 L'operatore top può essere implementato in due modalità
 
-- **top-scan** la stream di tuple in ingresso e già ordinata e di conseguenza e sufficiente fornire in output le prime $k$ tuple 
+- **top-scan** la stream di tuple in ingresso e già ordinata e di conseguenza e sufficiente fornire in output le prime $k$ tuple
 > [!TIP] questo operatore puo lavorare in [pipeline](ottimizzazione_interrogazioni.md#implementare%20l'esecuzione%20in%20pipeline%20interfaccia%20a%20iteratore)
 - **top-sort** la stream non e ordinata e l'operatore la deve ordinare per poi fornire le tuple in output
 >[!WARNING] questa implementazione non può lavorare in [pipeline](ottimizzazione_interrogazioni.md#implementare%20l'esecuzione%20in%20pipeline%20interfaccia%20a%20iteratore) in quanto necessita di fare [sorting](tecnologie_basi_dati/sorting.md)
@@ -106,11 +107,11 @@ In questo caso la situazione e più complessa:
 Se si plottano le tuple in un grafo basato sugli attributi di scoring si ottiene che le tuple che soddisfano la top-$k$  query si trovano tutte sotto una data linea
 
 > si considera di cercare macchine con i parametri di scoring più bassi possibili
-![](tecnologie_basi_dati/Pasted%20image%2020250218122553.png)
+![](assets/tecnologie_basi_dati/Pasted%20image%2020250218122553.png)
 
 Si può generalizzare a un punto qualunque dello spazio $q$, in questo caso si ottiene che i punti che soddisfano la top-$k$ query sono quelli all'interno di una regione di spazio intorno al punto di query $q$
 
-![](tecnologie_basi_dati/Pasted%20image%2020250218122755.png)
+![](assets/tecnologie_basi_dati/Pasted%20image%2020250218122755.png)
 
 Di conseguenza il problema delle top-$k$ query **si riduce al problema di trovare i $k$ nearest neighbors  rispetto al query point $q$**
 
@@ -152,7 +153,7 @@ Per risolvere le query con il modello sopracitato si introduce l'algoritmo KNNOp
 
 ```python
 # query point input
-q = {} 
+q = {}
 
 # Initialize pq with [ptr(rn),0];
 PQ = []
@@ -165,7 +166,7 @@ while PQ.len() != 0:
 	if N is leaf:
 		for t in N:
 			if d(q,t) < rNN:
-			
+
 				# save tuple for result
 				result = t
 				# update search radius

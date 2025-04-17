@@ -9,7 +9,7 @@ index: 51
 
 [CNN](pages/computer_vision/machine_learning_cv/convolutional_neural_networks.md) that won the [ILSVRC](https://www.image-net.org/challenges/LSVRC/2012/)2012, powerfull network trained on 2 gpus
 
-![](computer_vision/Pasted%20image%2020241001102840.png)
+![](assets/computer_vision/Pasted%20image%2020241001102840.png)
 
 ## Stride parameter
 

@@ -20,12 +20,12 @@ where:
 - $v$ is the speed
 - $\epsilon$ is the accuracy
 
-![](mobile_systems/Pasted%20image%2020240609161400.png)
+![](assets/mobile_systems/Pasted%20image%2020240609161400.png)
 
 ## Java world solution
 
 Java as determined a standard for positioning systems called PoSIM, under the UNIBO implementation architechture
 
-![](mobile_systems/Pasted%20image%2020240609161539.png)
+![](assets/mobile_systems/Pasted%20image%2020240609161539.png)
 
 [PREVIOUS](mobile_systems/positioning_systems/ekahau.md) [NEXT](mobile_systems/mobility/mobility_ip_networks.md)

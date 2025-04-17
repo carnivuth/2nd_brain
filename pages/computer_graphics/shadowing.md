@@ -1,7 +1,7 @@
 ---
 id: SHADOWING
+aliases: []
 tags: []
-aliases:
 index: 9
 ---
 
@@ -9,7 +9,7 @@ index: 9
 
 Lo shadowing e la pratica di computare le ombre dato un oggetto, una fonte luminosa e un osservatore, un punto e in ombra se la fonte luminosa non lo raggiunge ed e visibile dall'osservatore
 
-![](computer_graphics/Pasted%20image%2020250102164748.png)
+![](assets/computer_graphics/Pasted%20image%2020250102164748.png)
 
 Le ombre variano molto a seconda delle dimensioni dell'oggetto, le condizioni di illuminazione e la posizione dell'osservatore, risultano perciò molto complesse da computare
 
@@ -17,7 +17,7 @@ Le ombre variano molto a seconda delle dimensioni dell'oggetto, le condizioni di
 
 L'ombra e quella che una fonte luminosa proietta nei punti non direttamente raggiungibili da essa, mentre la penombra e una zona di punti non raggiunti completamente dalla luce
 
-![](computer_graphics/Pasted%20image%2020250102165219.png)
+![](assets/computer_graphics/Pasted%20image%2020250102165219.png)
 
 >[!WARNING] Per poter avere condizioni di penombra la fonte luminosa **non deve essere puntiforme**!
 
@@ -31,7 +31,7 @@ Algoritmo che punta a disegnare data una fonte luminosa e un oggetto una geometr
 
 IN questo caso speciale e sufficiente trovare la coordinata $X$ sul piano del punto $P$ ottenuto come proiezione e lo si può fare con una similitudine fra triangoli:
 
-![](computer_graphics/Pasted%20image%2020250102171118.png)
+![](assets/computer_graphics/Pasted%20image%2020250102171118.png)
 
 si ha quindi che i triangoli di lati $L,V$ e $L,P$ sono paragonabili
 
@@ -61,7 +61,7 @@ B --yes--> C
 B --no --> D
 ```
 
-![](computer_graphics/Pasted%20image%2020250102175751.png)
+![](assets/computer_graphics/Pasted%20image%2020250102175751.png)
 
 >[!WARNING] Lo shadow buffer risulta **fattibile solo per scene con singole fonti di luce** in quanto per poter computare multiple fonti si necessita di una fonte di luce per ognuna di esse
 
@@ -73,6 +73,6 @@ Quando si computano le ombre si hanno sempre problemi di aliasing dovuti al fatt
 
 Nella realtà le luci non sono mai puntiformi, questo porta a ombre morbide come visto in [precedenza](#ombra%20vs%20penombra) in questo caso si adottano tecniche di blur delle ombre per simulare l'effetto di una luce non puntiforme
 
-![](computer_graphics/Pasted%20image%2020250102180827.png)
+![](assets/computer_graphics/Pasted%20image%2020250102180827.png)
 
 [PREVIOUS](pages/computer_graphics/texture_mapping.md) [NEXT](pages/computer_graphics/mesh_poligonali.md)

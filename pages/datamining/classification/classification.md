@@ -23,7 +23,7 @@ An algorithm which, given an individual for which the class is not known, comput
 
 Where $\theta$ is a **set of values for the parameters** of the decision function
 
-![](datamining/Pasted_image_20231227172912.png)
+![](assets/datamining/Pasted_image_20231227172912.png)
 
 ## Vapnik-chervonenkis dimension
 
@@ -35,7 +35,7 @@ if a [classification model](#classification%20model) is able to shatter all poss
 
 - use the training set against the classification model obtained at the previous step to calculate the accuracy
 
-![](datamining/Pasted_image_20231227174100.png)
+![](assets/datamining/Pasted_image_20231227174100.png)
 
 ## Classification types
 

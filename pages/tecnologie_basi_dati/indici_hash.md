@@ -1,7 +1,8 @@
 ---
 id: Indici hash
+aliases:
+  - indici hash
 tags: []
-aliases: ["indici hash"]
 index: 7
 ---
 
@@ -73,11 +74,11 @@ $$
 
 ## Dimensionare l'indice hash: load factor
 
-Data una stima $N$ dei record e una capacita $C$ dei bucket, determinare il parametro **load factor** $d$ definisce il numero di bucket $P$ come 
+Data una stima $N$ dei record e una capacita $C$ dei bucket, determinare il parametro **load factor** $d$ definisce il numero di bucket $P$ come
 
 $$
 P = \frac{N}{d*C}
-$$ 
+$$
 >[!TIP] un valore alto di $d$ riduce il numero di record nell'area di overflow
 
 ## Gestire l'overflow
@@ -116,8 +117,8 @@ C -- insert -->B
 Possibili tecniche di open addressing sono
 
 - **linear probing** ad ogni step viene aggiunto un valore costante $s$ $H_j(k_i) = (H(k_i) +s \times j)\% P$
-- **quadratic probing** come il linear probing ma l'incremento e lineare $a + b(2j +1)$ 
-- **double hashing** vengono usate due funzioni hash per generare l'indirizzamento $H_j(k_i) = (h_{j-1} + H^{''}(k_i))\%P \space per \space j \gt 0$ e $H_0(k_i) =H^{'}(k_i)$ 
+- **quadratic probing** come il linear probing ma l'incremento e lineare $a + b(2j +1)$
+- **double hashing** vengono usate due funzioni hash per generare l'indirizzamento $H_j(k_i) = (h_{j-1} + H^{''}(k_i))\%P \space per \space j \gt 0$ e $H_0(k_i) =H^{'}(k_i)$
 
 >[!WARNING] la tecnica di double hashing ha un side effect in memoria secondaria dovuto all'alta variabilità degli indirizzamenti generati, pagine conseguenti sono disposte in settori non consecutivi del disco, aumentando la latenza
 
@@ -137,7 +138,7 @@ Le strategie di hashing dinamico si categorizzano in base all'utilizzo o meno de
 
 Al verificarsi di un overflow l'area primaria viene raddoppiata e il record viene inserito nel bucket *buddy*
 
-![](tecnologie_basi_dati/Pasted%20image%2020250204164936.png)
+![](assets/tecnologie_basi_dati/Pasted%20image%2020250204164936.png)
 
 E necessaria una struttura di supporto **directory** per comprendere quale funzione di hash deve essere utilizzata per recuperare un record, un vettore $V$ binario viene utilizzato per tenere traccia dello stato dei bucket
 
@@ -155,7 +156,7 @@ Simile al [Dynamic hashing](#Dynamic%20hashing) ma la directory e composta da $2
 
 Ogni bucket ha un valore di local depth $p^{'}$  utilizzato per segnalare il numero di bit utilizzati per allocare chiavi nel bucket
 
-![](tecnologie_basi_dati/Pasted%20image%2020250204173527.png)
+![](assets/tecnologie_basi_dati/Pasted%20image%2020250204173527.png)
 
 In caso di overflow si procede come segue
 
@@ -165,7 +166,7 @@ A{se p' < p}
 B{se p' = p}
 C[si splittano i record nel bucket p'+1]
 D[si raddoppiano i bucket incrementando p]
-A -- si --> C 
+A -- si --> C
 A -- no --> B
 B --> D --> C
 ```

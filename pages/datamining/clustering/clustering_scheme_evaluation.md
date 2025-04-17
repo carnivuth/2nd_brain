@@ -60,7 +60,7 @@ silhouette is a lot expensive to compute due to it's nature
 
 [silhouette](#silhouette) and [sse](pages/datamining/clustering/k-means.md#distortion_(*sum_of_square_errors_sse*)) can be used in order to find the best value parameter, the best points to look are the minimums of the relation between sse and $k$ and the maximums in the relation between silhouette and $k$
 
-![](datamining/Pasted_image_20240116140806.png)
+![](assets/datamining/Pasted_image_20240116140806.png)
 
 
 ## Comparing clustering schemes

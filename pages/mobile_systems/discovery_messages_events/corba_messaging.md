@@ -27,7 +27,7 @@ voidsendpoll_somma (in int i, in int j)
 voidpollsomma (out int success, out int somma)
 ```
 
-![](mobile_systems/Pasted%20image%2020240616160030.png)
+![](assets/mobile_systems/Pasted%20image%2020240616160030.png)
 
 For the Polling approach the application decides when to interrogate the CORBA support to retrieve the operation result:
 
@@ -36,6 +36,6 @@ voidsendpoll_somma (in int i, in int j)
 voidpollsomma (out int success, out int somma)
 ```
 
-![](mobile_systems/Pasted%20image%2020240616160048.png)
+![](assets/mobile_systems/Pasted%20image%2020240616160048.png)
 
 [PREVIOUS](mobile_systems/discovery_messages_events/java_message_service.md) [NEXT](mobile_systems/discovery_messages_events/extensible_messaging_and_presence_protocol.md)

@@ -9,7 +9,7 @@ index: 49
 
 Microsoft cloud solution for IoT application, the main component is the azure IoT hub that communicates with the IoT devices and redirect the dataflow to the cloud components
 
-![](mobile_systems/Pasted%20image%2020240613162421.png)
+![](assets/mobile_systems/Pasted%20image%2020240613162421.png)
 
 ## Azure iot edge
 

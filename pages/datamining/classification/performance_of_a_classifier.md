@@ -70,7 +70,7 @@ accuracy of the classifier
 	2*\frac{precision*recall}{precision + recall}
 	$$
 
-![](datamining/Pasted_image_20231230184224.png)
+![](assets/datamining/Pasted_image_20231230184224.png)
 
 **accuracy** gives an inital idea of the performance but **can be misleading when classes are unbalanced**
 

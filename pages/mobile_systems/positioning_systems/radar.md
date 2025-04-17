@@ -9,7 +9,7 @@ index: 23
 
 Positioning system for indoor environment based on RSSI computation and fingerprinting, it exploits a [scene analisys](mobile_systems/positioning_systems/base_techniques.md#scene%20analysis)
 
-![](mobile_systems/Pasted%20image%2020240609155153.png)
+![](assets/mobile_systems/Pasted%20image%2020240609155153.png)
 
 ## Offline phase
 

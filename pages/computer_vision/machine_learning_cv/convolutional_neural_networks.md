@@ -38,7 +38,7 @@ $$
 y(i,j) = \sum_{m=-1}^{m=1}\sum_{l=-1}^{l=1} {w(m,l)x(i+m,j+l)}
 $$
 
-![](computer_vision/Pasted_image_20240504170704.png)
+![](assets/computer_vision/Pasted_image_20240504170704.png)
 
 ### Color image as inputs
 
@@ -67,34 +67,34 @@ This approach can be generalized, obtaining the **general structure of a convolu
 $$
 [K^k\times I](i,j) = \sum_{n=1}^{C_{in}}\sum_{m}\sum_{l}K^k_n(m,l)I_n(i+m,j+l)+ b^k\space with \space k=1..C_{out}
 $$
-![](computer_vision/Pasted_image_20240504173105.png)
+![](assets/computer_vision/Pasted_image_20240504173105.png)
 
 ### Chaining convolutional layers
 
 Convolutional layers are a form of linear transformation (they can be expressed by matrix) so in order to take advantage of network depth there is the need to chain them with some form of non-linearity (e.g. [relu](pages/computer_vision/machine_learning_cv/deep_learning_and_neural_networks.md#activation%20function))
 
-![](computer_vision/Pasted_image_20240504173234.png)
+![](assets/computer_vision/Pasted_image_20240504173234.png)
 
 The main advantage of chaining is that with each level of depth the number of input pixels that the layer takes into account (e.g. the **receptive field**) gets larger and larger enabling the network to detect larger patterns
 
-![](computer_vision/Pasted_image_20240504175829.png)
+![](assets/computer_vision/Pasted_image_20240504175829.png)
 
 ### Strided convolution
 
 Convolution can be computed every $S$ (stride) positions in both directions
 
-![](computer_vision/Pasted_image_20240504180313.png )
+![](assets/computer_vision/Pasted_image_20240504180313.png )
 ## Pooling layers
 
 Pooling layers are layers with handcrafted functions that aggregates the input neighboring values in order to downsample the output
 
-![](computer_vision/Pasted_image_20240504180153.png)
+![](assets/computer_vision/Pasted_image_20240504180153.png)
 
 The pooling layer introduces some more hyperparameters such as dimensions of the kernel and stride
 
 ## Cnn final structure
 
-![](computer_vision/Pasted_image_20240504180437.png)
+![](assets/computer_vision/Pasted_image_20240504180437.png)
 
 Example of cnn's can be [LENET](pages/computer_vision/machine_learning_cv/lenet.md) and [ALEXNET](pages/computer_vision/machine_learning_cv/alexnet.md)
 
@@ -110,7 +110,7 @@ $$
 
 Intuitively increasing depth should take better results at the price of computation cost but as shown by [VGG](pages/computer_vision/machine_learning_cv/vgg.md) in real testing this is not the case
 
-![](computer_vision/Pasted_image_20240504181754.png)
+![](assets/computer_vision/Pasted_image_20240504181754.png)
 
 ### Residual learning as a solution
 
@@ -142,13 +142,13 @@ An example of this can be found in [RESNET](pages/computer_vision/machine_learni
 
 In order to reduce the number of parameter at the begin of the [FC layers](pages/computer_vision/machine_learning_cv/deep_learning_and_neural_networks.md#fully%20connected%20layers) the output can be processed by average pooling
 
-![](computer_vision/Pasted%20image%2020241001145533.png)
+![](assets/computer_vision/Pasted%20image%2020241001145533.png)
 
 ### Grouped convolutions
 
 In order to improve the computational costs kernels are split into $G$ groups and each group process $\frac{C_{in}}{G}$ input channels, with this required flops and number of parameters are scaled by a $G$ factor
 
-![](computer_vision/Pasted_image_20240505120419.png)
+![](assets/computer_vision/Pasted_image_20240505120419.png)
 
 ## Depthwise separable convolutions
 

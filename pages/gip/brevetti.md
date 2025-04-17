@@ -1,3 +1,9 @@
+---
+id: brevetti
+aliases: []
+tags: []
+---
+
 # Brevetti
 
 Gestiti da appositi uffici brevettuali, hanno lo scopo di proteggere invenzioni e prodotti questi ultimi devono rispettare le seguenti caratteristiche
@@ -18,6 +24,6 @@ Non possono essere brevettate:
 
 ## Modalità di ottenimento
 
-Per ottenere un brevetto è necessario fare domanda a uno dei macro uffici, segue un esame da parte dell'ufficio del prodotto in questione per valutarne la fattibilità 
+Per ottenere un brevetto è necessario fare domanda a uno dei macro uffici, segue un esame da parte dell'ufficio del prodotto in questione per valutarne la fattibilità
 
-![](gip/Pasted%20image%2020231216164426.png)
+![](assets/gip/Pasted%20image%2020231216164426.png)

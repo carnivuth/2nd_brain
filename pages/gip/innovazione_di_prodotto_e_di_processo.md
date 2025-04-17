@@ -1,4 +1,10 @@
-# Innovazione di prodotto (abernathy & utterback) 
+---
+id: innovazione_di_prodotto_e_di_processo
+aliases: []
+tags: []
+---
+
+# Innovazione di prodotto (abernathy & utterback)
 
 innovazione che punta a creare un bene o un servizio in grado di generare nuova rendita per l'azienda (es. sviluppo di un veicolo ibrido)
 
@@ -8,7 +14,7 @@ Innovazione che punta a migliorare i processi produttivi e le attività interne 
 
 ##  INNOVAZIONE DI PROCESSO VS INNOVAZIONE DI PRODOTTO
 
-![](gip/Pasted%20image%2020231214161944.png)
+![](assets/gip/Pasted%20image%2020231214161944.png)
 
 ### Fase fluida
 
@@ -16,7 +22,7 @@ nella prima fase l'innovazione del prodotto è tanta in quanto ancora in fase di
 
 ### Fase transitoria
 
-in questa fase si ha un incremento dell'innovazione del processo per ridurre costi di produzione e vendere il prodotto su larga scala 
+in questa fase si ha un incremento dell'innovazione del processo per ridurre costi di produzione e vendere il prodotto su larga scala
 
 ### Fase specifica
 

@@ -1,7 +1,10 @@
 ---
 id: GENERALIZED_HUGH_TRANSFORM
 aliases: []
-tags: ["ght process","sift descriptor","object detection"]
+tags:
+  - ght process
+  - sift descriptor
+  - object detection
 index: 44
 ---
 
@@ -34,7 +37,7 @@ a --> b --> c --> d --> e --repeat for all edges--> c
 end
 ```
 
-![](computer_vision/Pasted_image_20240427172424.png)
+![](assets/computer_vision/Pasted_image_20240427172424.png)
 
 ## Ght with local invariant features
 
@@ -98,6 +101,6 @@ $$
 
 A 2D accumulator array is not sufficient to account for rotation and scale, the solution is to use a 4D accumulator array in order to account for scale and rotation
 
-![](computer_vision/Pasted_image_20240428143913.png)
+![](assets/computer_vision/Pasted_image_20240428143913.png)
 
 [PREVIOUS](pages/computer_vision/object_detection/hough_transform.md) [NEXT](pages/computer_vision/object_detection/object_detection_pipeline.md)

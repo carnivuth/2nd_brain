@@ -1,7 +1,7 @@
 ---
 id: big_data
+aliases: []
 tags: []
-aliases: 
 index: 26
 ---
 
@@ -13,9 +13,9 @@ Si parla di big data quando il volume di dati da amministrare supera le capacita
 - analisi di dati di grandi banche dati
 - accentratori di flussi di dati
 
-In queste situazioni il paradigma si sposta da un potenziamento della singola istanza che gestisce il dato a un aumento del numero di istanze (*scale out non scale up*) 
+In queste situazioni il paradigma si sposta da un potenziamento della singola istanza che gestisce il dato a un aumento del numero di istanze (*scale out non scale up*)
 
-![](tecnologie_basi_dati/Pasted%20image%2020250225145904.png)
+![](assets/tecnologie_basi_dati/Pasted%20image%2020250225145904.png)
 
 Questo porta alla necessita di gestire i dati all'interno di cluster di macchine connesse in rete e limitare i flussi di trasferimento di dati non necessari, aumentando il numero di macchine e di componenti hardware aumentano anche le probabilità che ci siano guasti hardware e software, e necessario pensare sistemi in grado di operare in ambienti ostili
 
@@ -32,7 +32,7 @@ Per gestire i dati in questi scenari si fa uso di filesystem distribuiti, questi
 - la directory e replicata
 - tutti i nodi del cluster sanno dove sono le copie della directory
 
-una delle implementazioni più note e quella di **HADHOOP** 
+una delle implementazioni più note e quella di **HADHOOP**
 
 ## Gestire la concorrenza: map reduce
 
@@ -49,12 +49,12 @@ C[map]
 D[aggregation layer]
 E{{reduce}}
 F{{reduce}}
-A & B & C --> D --> E & F 
+A & B & C --> D --> E & F
 ```
 
 Le operazioni di map e reduce sono eseguite su nodi in parallelo,  secondo un paradigma SIMD
 
-I nodi vengono assegnati al cluster in base a dove si trovano i dati in input interessati dall'elaborazione, in questo caso si utilizzano 
+I nodi vengono assegnati al cluster in base a dove si trovano i dati in input interessati dall'elaborazione, in questo caso si utilizzano
 
 ## Map reduce, execution
 

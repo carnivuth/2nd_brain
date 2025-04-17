@@ -23,10 +23,10 @@ $$
 
 ## Before pruning
 
-![](datamining/Pasted_image_20231230175754.png)
+![](assets/datamining/Pasted_image_20231230175754.png)
 
 ## After pruning
 
-![](datamining/Pasted_image_20231230175803.png)
+![](assets/datamining/Pasted_image_20231230175803.png)
 
 [PREVIOUS](pages/datamining/classification/decision_trees.md) [NEXT](pages/datamining/classification/regression.md)

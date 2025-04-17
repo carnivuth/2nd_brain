@@ -13,6 +13,6 @@ $$
 F(x,y,\sigma) = \sigma^2\nabla^2L(x,y,\sigma) = \sigma^2(\nabla^2G(x,y,\sigma)\ast I(x,y))
 $$
 
-![](computer_vision/Pasted_image_20240314101650.png)
+![](assets/computer_vision/Pasted_image_20240314101650.png)
 
 [PREVIOUS](pages/computer_vision/local_features/scale_invariance.md) [NEXT](pages/computer_vision/local_features/dog_detector.md)

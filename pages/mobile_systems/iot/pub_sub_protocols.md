@@ -24,6 +24,6 @@ protocol based on the [pub/sub model](mobile_systems/iot/pub_sub_model.md), rich
 
 brokerless solution based on multicast communication that is designed for mission critical environments where performance and reliability are essentials
 
-![](mobile_systems/Pasted%20image%2020240615103454.png)
+![](assets/mobile_systems/Pasted%20image%2020240615103454.png)
 
 [PREVIOUS](mobile_systems/iot/pub_sub_model.md) [NEXT](mobile_systems/iot/request_response.md)

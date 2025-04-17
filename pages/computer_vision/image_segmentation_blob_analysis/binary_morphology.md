@@ -15,12 +15,12 @@ The idea is to slide a small kernel called structuring element
 
 The output image is obtained by sliding the kernel on each black element
 
-![](computer_vision/Pasted_image_20240303171944.png)
+![](assets/computer_vision/Pasted_image_20240303171944.png)
 ## Erosion
 
 The output image is obtained by sliding the kernel on the all image leaving only the black points that contain the kernel
 
-![](computer_vision/Pasted_image_20240303172045.png)
+![](assets/computer_vision/Pasted_image_20240303172045.png)
 
 ## Opening and closing
 

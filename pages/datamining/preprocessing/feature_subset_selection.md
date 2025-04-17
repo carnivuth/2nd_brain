@@ -31,7 +31,7 @@ the process of selecting a subset of attributes from the dataset, it could be us
 
 here a possible architecture for feature subset selection:
 
-![](datamining/Pasted_image_20240104203716.png)
+![](assets/datamining/Pasted_image_20240104203716.png)
 
 
 [PREVIOUS](pages/datamining/preprocessing/distances.md) [NEXT](pages/datamining/preprocessing/dimensionality_reduction.md)

@@ -11,7 +11,7 @@ In order to address the loss of depth information, given 2 images of a 3D scene 
 
 so given the following model:
 
-![](computer_vision/Pasted_image_20240221203033.png)
+![](assets/computer_vision/Pasted_image_20240221203033.png)
 
 The relation between the 2 images is only an horizontal translation
 
