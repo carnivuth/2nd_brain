@@ -1,9 +1,3 @@
----
-id: index
-aliases: []
-tags: []
----
-
 # Datamining
 
 Personal notes on datamining and machine learning course of professor Sartori Claudio
