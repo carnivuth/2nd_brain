@@ -57,4 +57,4 @@ $$
 \frac{p*q}{|p|^2*|q|^2-p*q}
 $$
 
-[PREVIOUS](datamining/preprocessing/type_conversions.md) [NEXT](datamining/preprocessing/distances.md)
+[PREVIOUS](pages/datamining/preprocessing/type_conversions.md) [NEXT](pages/datamining/preprocessing/distances.md)

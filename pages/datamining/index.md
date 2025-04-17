@@ -25,6 +25,7 @@ Personal notes on datamining and machine learning course of professor Sartori Cl
 [scaling](pages/datamining/preprocessing/scaling.md)
 [type conversions](pages/datamining/preprocessing/type_conversions.md)
 [similarity and dissimilarity](pages/datamining/preprocessing/similarity_and_dissimilarity.md)
+[label encoding](pages/datamining/preprocessing/label_encoding.md)
 
 ### Classification techniques
 

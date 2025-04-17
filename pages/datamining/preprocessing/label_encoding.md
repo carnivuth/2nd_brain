@@ -5,16 +5,16 @@ Transforming in a numerical quantity the features that represent categories.
 there are 2 types of encoders
 ## Encoders applied to predictors
 
-- ### ONE HOT ENCODER  
-  		   
+- ### ONE HOT ENCODER
+
 	It transforms features in a set of columns that integrate the predictor X:
-	
+
 	-  it counts all the categories within the features;
 	-  it replaces the analyzed features with as many columns as there are categories;
 	-  all the new columns values will be 0 or 1. For every sample (X's rows), it will be put the 1 value only if the column corresponds to the represented category.
 
 	here a usage example:
-	
+
 	```python
 	from sklearn.preprocessing import OneHotEncoder
 	ohe = OneHotEncoder() # creating object
@@ -23,7 +23,7 @@ there are 2 types of encoders
 	ohe.transform(X) # apply the transformation
 	```
 
-- ### ORDINAL ENCODER  
+- ### ORDINAL ENCODER
 
 	- it locates all the categories available;
 	-  it assignes an incremental value to every category

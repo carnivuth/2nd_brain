@@ -126,4 +126,4 @@ Each approach is more suitable for certain types of data:
 
 - only changes on source are applied to the DWH existent data are not canceled or modified
 
-[PREVIOUS](datamining/datamining_process/business_intelligence_and_data_warehouse.md) [NEXT](datamining/datamining_process/data_lakes.md)
+[PREVIOUS](pages/datamining/pages/datamining_process/business_intelligence_and_data_warehouse.md) [NEXT](pages/datamining/pages/datamining_process/data_lakes.md)

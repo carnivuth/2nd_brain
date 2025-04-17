@@ -20,4 +20,4 @@ flowchart TD
 
 ```
 
-[PREVIOUS](datamining/clustering/hierarchical_clustering.md) [NEXT](datamining/clustering/density_based_clustering.md)
+[PREVIOUS](pages/datamining/clustering/hierarchical_clustering.md) [NEXT](pages/datamining/clustering/density_based_clustering.md)

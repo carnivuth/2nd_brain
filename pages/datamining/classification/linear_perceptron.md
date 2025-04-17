@@ -19,4 +19,4 @@ l'algoritmo di apprendimento:
 Ogni modifica dei pesi sposta il piano verso individui mal classificati, se l'algoritmo è classificato male e dovrebbe essere positivo aggiungo ai pesi del percettrone il valore dei suoi attributi se è negativo sottraggo.
 L'algoritmo termina solo de il dataset  è linearmente Separabile quindi è bene impostare un limite temporale ammettendo errori.
 
-[PREVIOUS](datamining/classification/naive_bayes_classifier.md) [NEXT](datamining/classification/svm.md)
+[PREVIOUS](pages/datamining/classification/naive_bayes_classifier.md) [NEXT](pages/datamining/classification/svm.md)

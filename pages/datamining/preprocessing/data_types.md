@@ -92,4 +92,4 @@ the outliers are values outside the boundaries
 
 - major issue when dealing with data merging from different sources
 
- [NEXT](datamining/preprocessing/data_preprocessing.md)
+ [NEXT](pages/datamining/preprocessing/data_preprocessing.md)

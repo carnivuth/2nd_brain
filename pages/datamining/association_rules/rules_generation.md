@@ -11,7 +11,7 @@ The goal of this phase is, given an item-set $L$ to find all non empty $f$ subse
 
 It'important to understand how to generate rules with an high $conf$ from a given item-set
 
-so from [this formula](datamining/association_rules/association_rules.md#confidence_from_support) we can say that for rules generated from the same item-sets:
+so from [this formula](pages/datamining/association_rules/association_rules.md#confidence_from_support) we can say that for rules generated from the same item-sets:
 
 $$
 conf(ABC \rightarrow D) \geq conf(AB \rightarrow CD) \geq conf(A \rightarrow BCD)
@@ -65,4 +65,4 @@ $$
 
 it's the ratio that $A$ occurs without $C$  if $A$ and $C$ where independent, higher value means that the rules is violated less often (in the assumption that the $A$ and $C$ are independent)
 
-[PREVIOUS](datamining/association_rules/association_rules_mining.md) [NEXT](datamining/association_rules/frequent_itemset_generation.md)
+[PREVIOUS](pages/datamining/association_rules/association_rules_mining.md) [NEXT](pages/datamining/association_rules/frequent_itemset_generation.md)

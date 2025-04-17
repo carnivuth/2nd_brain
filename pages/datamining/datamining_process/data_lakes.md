@@ -75,4 +75,4 @@ advanced features like:
 - Schema enforcement and evolution.
 - DBMS-like operations: updates, deletes, inserts, upserts (insert, on conflict update).
 
-[PREVIOUS](datamining/datamining_process/olap.md) [NEXT](datamining/datamining_process/data_warehouse_architectures.md)
+[PREVIOUS](pages/datamining/datamining_process/olap.md) [NEXT](pages/datamining/datamining_process/data_warehouse_architectures.md)

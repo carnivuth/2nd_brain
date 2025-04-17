@@ -11,9 +11,9 @@ Clustering scheme evaluation is important in order to comprehend the quality of 
 
 ## Measurement criteria
 
-### Cohesion [(sse)](datamining/clustering/k-means.md#distortion_(*sum_of_square_errors_sse*))
+### Cohesion [(sse)](pages/datamining/clustering/k-means.md#distortion_(*sum_of_square_errors_sse*))
 
-the sum of the proximities between the element of the clusters and the geometric center (**prototype**), the prototype could be a [centroid](datamining/clustering/clustering.md#centroid) or a medoid in context where mean is not defined
+the sum of the proximities between the element of the clusters and the geometric center (**prototype**), the prototype could be a [centroid](pages/datamining/clustering/clustering.md#centroid) or a medoid in context where mean is not defined
 
 ### Separation (ssb)
 
@@ -58,16 +58,16 @@ silhouette is a lot expensive to compute due to it's nature
 
 ## Searching for the best $k$ value (the elbow method)
 
-[silhouette](#silhouette) and [sse](datamining/clustering/k-means.md#distortion_(*sum_of_square_errors_sse*)) can be used in order to find the best value parameter, the best points to look are the minimums of the relation between sse and $k$ and the maximums in the relation between silhouette and $k$
+[silhouette](#silhouette) and [sse](pages/datamining/clustering/k-means.md#distortion_(*sum_of_square_errors_sse*)) can be used in order to find the best value parameter, the best points to look are the minimums of the relation between sse and $k$ and the maximums in the relation between silhouette and $k$
 
 ![](datamining/Pasted_image_20240116140806.png)
 
 
 ## Comparing clustering schemes
 
-The concept is similar to the ones used to test [classification](datamining/classification/classification.md#classification_workflow), there is a known partition of the dataset similar to the data to be clustered called **gold standard** and a labeling scheme $y_{g}(.)$
+The concept is similar to the ones used to test [classification](pages/datamining/classification/classification.md#classification_workflow), there is a known partition of the dataset similar to the data to be clustered called **gold standard** and a labeling scheme $y_{g}(.)$
 
 $y_{g}(.)$ acts as a test set but for clustering so we can compare a clustering scheme to it and gain information about the quality of the clustering
 
 
-[PREVIOUS](datamining/clustering/clustering.md) [NEXT](datamining/clustering/k-means.md)
+[PREVIOUS](pages/datamining/clustering/clustering.md) [NEXT](pages/datamining/clustering/k-means.md)

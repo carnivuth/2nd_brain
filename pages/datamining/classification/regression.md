@@ -68,4 +68,4 @@ the target is influenced by a single feature and the relationship can't be descr
 
 ![](datamining/Pasted_image_20240102175121.png)
 
-[PREVIOUS](datamining/classification/decision_tree_pruning.md) [NEXT](datamining/classification/naive_bayes_classifier.md)
+[PREVIOUS](pages/datamining/classification/decision_tree_pruning.md) [NEXT](pages/datamining/classification/naive_bayes_classifier.md)

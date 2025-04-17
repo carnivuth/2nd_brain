@@ -42,4 +42,4 @@ if a [classification model](#classification%20model) is able to shatter all poss
 -  **crisp** the classifier assigns to each individual one label
 - **probabilistic** the classifier assigns a probability for each of the possible labels
 
- [NEXT](datamining/classification/training_strategies.md)
+ [NEXT](pages/datamining/classification/training_strategies.md)

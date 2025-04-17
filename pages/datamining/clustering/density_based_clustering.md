@@ -11,10 +11,10 @@ The concept is that cluster are high density regions separated by low density re
 
 - ### GRID BASED
 
-	based on splitting the dataset in regularly spaced grids and count the number of object inside each grid
+based on splitting the dataset in regularly spaced grids and count the number of object inside each grid
 
 - ### OBJECT BASED
 
-	define a radius and attach the number of object inside that radius one example is [dbscan](datamining/clustering/dbscan.md)
+define a radius and attach the number of object inside that radius one example is [dbscan](pages/datamining/clustering/dbscan.md)
 
-[PREVIOUS](datamining/clustering/model_based_clustering.md) [NEXT](datamining/clustering/dbscan.md)
+[PREVIOUS](pages/datamining/clustering/model_based_clustering.md) [NEXT](pages/datamining/clustering/dbscan.md)

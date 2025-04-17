@@ -46,4 +46,4 @@ the probability of sampling at least an element for each class is independent fr
 
 this is important when using a small dataset for cross-validation or train test splits cause there could be not enough data for the partition
 
-[PREVIOUS](datamining/preprocessing/scaling.md) [NEXT](datamining/preprocessing/feature_creation.md)
+[PREVIOUS](pages/datamining/preprocessing/scaling.md) [NEXT](pages/datamining/preprocessing/feature_creation.md)

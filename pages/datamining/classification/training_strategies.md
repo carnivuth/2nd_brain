@@ -47,4 +47,4 @@ the training set is partitioned in $k$ subsets, than the **model is trained with
 - train test loop repeated $k$ times
 
 
-[PREVIOUS](datamining/classification/classification.md) [NEXT](datamining/classification/performance_of_a_classifier.md)
+[PREVIOUS](pages/datamining/classification/classification.md) [NEXT](pages/datamining/classification/performance_of_a_classifier.md)

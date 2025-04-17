@@ -37,4 +37,4 @@ Probabilità e Densità si differenziano :
 	- La densità si può assumere come la probabilità che la variabile assuma un valore nell'intorno della soglia (diverso da 0)
 	- Se un valore è mancante la deviazione standard è basata solo sui valori presenti
 
-[PREVIOUS](datamining/classification/regression.md) [NEXT](datamining/classification/linear_perceptron.md)
+[PREVIOUS](pages/datamining/classification/regression.md) [NEXT](pages/datamining/classification/linear_perceptron.md)

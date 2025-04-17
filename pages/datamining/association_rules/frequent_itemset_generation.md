@@ -23,7 +23,7 @@ it's extremely computational expensive.
 
 There are other strategies that aims to reduce the computational cost of this operation such as:
 
-- reducing the number  of candidates by pruning ([apriori algorithm](datamining/association_rules/apriori_algorithm.md))
+- reducing the number  of candidates by pruning ([apriori algorithm](pages/datamining/association_rules/apriori_algorithm.md))
 - reducing the number of comparisons $NM$
 
 ### Brute-force approach
@@ -39,4 +39,4 @@ The brute-force approach generates each item-set in the graph above. Then, it co
 	- Use efficient data structures to store the candidates or transactions
 	- No need to match every candidate against every transaction
 
-[PREVIOUS](datamining/association_rules/rules_generation.md) [NEXT](datamining/association_rules/apriori_algorithm.md)
+[PREVIOUS](pages/datamining/association_rules/rules_generation.md) [NEXT](pages/datamining/association_rules/apriori_algorithm.md)
