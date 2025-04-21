@@ -57,3 +57,37 @@ Deployment on a kubernetes cluster is done trough the use of the api server usin
 - configurations
 
 > [!NOTE] pods are the minimum unit of deployment in kubernetes
+
+# Installation using `kubeadm`
+
+To install the control plane on a linux machine do the following (*package manager updates are locked*)
+
+```bash
+sudo apt-get update                                                                 
+sudo apt-get install -y apt-transport-https ca-certificates curl gpg                
+echo 'deb [signed-by=/etc/apt/keyrings/kubernetes-apt-keyring.gpg] https://pkgs.k8s.io/core:/stable:/v1.32/deb/ /' | sudo tee /etc/apt/sources.list.d/kubernetes.list
+sudo apt-get update
+sudo apt-get install -y kubelet kubeadm kubectl
+sudo apt-mark hold kubelet kubeadm kubectl
+```
+
+This will install necessary components on a node to run the control plane, then initialize the cluster using the `kubeadm` command
+
+```bash
+# enable forwarding
+sysctl net.ipv4.ip_forward=1 && echo 'net.ipv4.ip_forward=1' >> /etc/sysctl.conf
+# install containerd
+apt install containerd
+# init kluster
+kubeadm init
+```
+
+### Configuring worker nodes
+
+In worker nodes after installing the `kubeadm` tool, init the kubelet process
+
+```bash
+systemctl enable --now kubelet
+```
+
+then join the kluster using `kubeadm join` command
