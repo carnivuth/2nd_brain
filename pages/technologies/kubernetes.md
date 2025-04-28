@@ -1,3 +1,9 @@
+---
+id: kubernetes
+aliases: []
+tags: []
+---
+
 # Kubernetes
 
 Kubernetes is a container orchestrator for managing high scale deployment challenges
@@ -63,8 +69,8 @@ Deployment on a kubernetes cluster is done trough the use of the api server usin
 To install the control plane on a linux machine do the following (*package manager updates are locked*)
 
 ```bash
-sudo apt-get update                                                                 
-sudo apt-get install -y apt-transport-https ca-certificates curl gpg                
+sudo apt-get update
+sudo apt-get install -y apt-transport-https ca-certificates curl gpg
 echo 'deb [signed-by=/etc/apt/keyrings/kubernetes-apt-keyring.gpg] https://pkgs.k8s.io/core:/stable:/v1.32/deb/ /' | sudo tee /etc/apt/sources.list.d/kubernetes.list
 sudo apt-get update
 sudo apt-get install -y kubelet kubeadm kubectl
