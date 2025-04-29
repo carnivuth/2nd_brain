@@ -47,7 +47,7 @@ end
 control_plane --> worker_1 & worker_2 & worker_3
 ```
 
-Where the **control plane** node manages the worker nodes that run pods, pods are managed trough a container runtime (*for example `containerd`*) that runs the contianers, the control plane is  also responsible for managing deployments
+Where the **control plane** node manages the worker nodes that run pods, pods are managed trough a container runtime (*for example `containerd`*) that runs the containers, the control plane is  also responsible for managing deployments
 
 ## Networking in a kubernetes cluster
 
