@@ -1,6 +1,8 @@
 ---
 id: GRAMMATICHE_LLK
-aliases: [starter_symbol_set,director_symbol_set]
+aliases:
+  - starter_symbol_set
+  - director_symbol_set
 tags: []
 index: 12
 ---
@@ -25,7 +27,7 @@ Condizione **necessaria** (sufficiente per le grammatiche senza $\epsilon -rules
 
 ## Il problema delle $\epsilon$
 
-Le grammatiche che presentano produzioni in grado di annullare un metasimbolo non sono considerate dalla definizione di [starter symbols set](#STARTER%20SYMBOLS%20SET), dato che in caso di produzione vuota e necessario considerare il metasimbolo successivo per verificare il determinismo della produzione
+Le grammatiche che presentano produzioni in grado di annullare un metasimbolo non sono considerate dalla definizione di [starter symbols set](pages/linguaggi_modelli_computazionali/grammatiche_llk.md#STARTER%20SYMBOLS%20SET), dato che in caso di produzione vuota e necessario considerare il metasimbolo successivo per verificare il determinismo della produzione
 
 $$
 S \rightarrow AB|c
@@ -37,11 +39,11 @@ $$
 B \rightarrow b|dc
 $$
 
-in questa grammatica lo [starter symbols set](#STARTER%20SYMBOLS%20SET) di $S$ e dipendente anche dal metasimbolo $B$ perché e necessario considerare che il metasimbolo $A$ può essere eliminato
+in questa grammatica lo [starter symbols set](pages/linguaggi_modelli_computazionali/grammatiche_llk.md#STARTER%20SYMBOLS%20SET) di $S$ e dipendente anche dal metasimbolo $B$ perché e necessario considerare che il metasimbolo $A$ può essere eliminato
 
 ## Director symbols set
 
-Per ovviare a questo problema si estende la nozione di [starter symbols set](#STARTER%20SYMBOLS%20SET), dato l'insieme $SS(\alpha)$ e l'insieme $FOLLOW(A)$ definito:
+Per ovviare a questo problema si estende la nozione di [starter symbols set](pages/linguaggi_modelli_computazionali/grammatiche_llk.md#STARTER%20SYMBOLS%20SET), dato l'insieme $SS(\alpha)$ e l'insieme $FOLLOW(A)$ definito:
 
 $$
 FOLLOW(A) = \{a \in VT | S \rightarrow \gamma Aa\beta\}, con \space \gamma,\beta \in V^*
@@ -58,11 +60,11 @@ ovvero la troncatura a un carattere della concatenazione dei due insiemi.
 
 ## Come ottenere una grammatica $ll(1)$
 
-Condizione necessaria e sufficiente per ottenere una grammatica $LL(1)$ e che il [director symbols set](#DIRECTOR%20SYMBOLS%20SET) relativi alle produzioni siano disgiunti
+Condizione necessaria e sufficiente per ottenere una grammatica $LL(1)$ e che il [director symbols set](pages/linguaggi_modelli_computazionali/grammatiche_llk.md#DIRECTOR%20SYMBOLS%20SET) relativi alle produzioni siano disgiunti
 
-## Grammatiche $ll(1)$ il problema della [il problema della ricorsione sinistra](linguaggi_modelli_computazionali/grammatiche_tipo_2.md#il%20problema%20della%20ricorsione%20sinistra)
+## Grammatiche $ll(1)$ il problema della [il problema della ricorsione sinistra](pages/linguaggi_modelli_computazionali/grammatiche_tipo_2.md#il%20problema%20della%20ricorsione%20sinistra)
 
-Le grammatiche $LL(k)$ non sono compatibili con la ricorsione a sinistra delle produzioni $A \rightarrow A\alpha | a$, che tuttavia [può essere sempre rimossa](linguaggi_modelli_computazionali/grammatiche_tipo_2.md#eliminazione%20della%20ricorsione%20sinistra) a patto di poter fare a meno della sua capacita espressiva (*no necessita di dare una semantica alla frase*)
+Le grammatiche $LL(k)$ non sono compatibili con la ricorsione a sinistra delle produzioni $A \rightarrow A\alpha | a$, che tuttavia [può essere sempre rimossa](pages/linguaggi_modelli_computazionali/grammatiche_tipo_2.md#eliminazione%20della%20ricorsione%20sinistra) a patto di poter fare a meno della sua capacita espressiva (*no necessita di dare una semantica alla frase*)
 
 questa problematica può essere risolta adottando tecniche di analisi più avanzate come le [grammatiche LR(k)](pages/linguaggi_modelli_computazionali/grammatiche_lrk.md)
 

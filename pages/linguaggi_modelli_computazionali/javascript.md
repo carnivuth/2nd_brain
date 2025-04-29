@@ -1,4 +1,7 @@
 ---
+id: javascript
+aliases: []
+tags: []
 index: 16
 ---
 >eh beh era anche ora di impararlo..... stavolta sul serio
@@ -186,7 +189,7 @@ g(32)
 
 ## Chiusure
 
-javascript implementa le funzioni come [first class entities](linguaggi_modelli_computazionali/processi_computazionali.md#FUNZIONI%20COME%20FIRST%20CLASS%20ENTITIES), e dunque possibile creare [chiusure](linguaggi_modelli_computazionali/processi_computazionali.md#chiusura)
+javascript implementa le funzioni come [first class entities](pages/linguaggi_modelli_computazionali/processi_computazionali.md#FUNZIONI%20COME%20FIRST%20CLASS%20ENTITIES), e dunque possibile creare [chiusure](pages/linguaggi_modelli_computazionali/processi_computazionali.md#chiusura)
 
 ```javascript
 //qui la funzione a ritorna una funzione che usa come i parametri di a al suo interno (chiusura)
@@ -338,7 +341,7 @@ console.log(Person.computeAge())
 
 ### Proprietà private
 
-A default le proprietà di un oggetto sono tutte pubbliche, e possibile implementare una proprietà privata per mezzo di una [chiusura](linguaggi_modelli_computazionali/processi_computazionali.md#chiusura)
+A default le proprietà di un oggetto sono tutte pubbliche, e possibile implementare una proprietà privata per mezzo di una [chiusura](pages/linguaggi_modelli_computazionali/processi_computazionali.md#chiusura)
 
 ```javascript
 Person= function(name,bd){

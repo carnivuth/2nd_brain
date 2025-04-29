@@ -1,7 +1,7 @@
 ---
 id: LINGUAGGI GRAMMATICHE
-aliases:
-tags:
+aliases: []
+tags: []
 index: 2
 ---
 # Linguaggi e grammatiche
@@ -15,7 +15,7 @@ E necessario dunque esprimere **sintassi** (*notazioni BNF EBNF*) e **semantica*
 Da questa suddivisione si deduce quindi che una macchina di Turing universale deve adempiere a queste due operazioni
 
 - **analisi lessicale** data una frase riconoscere le singole parole (**token**) di una frase
-- **analisi sintattica** data una sequenza di token generare una rappresentazione interna della frase (*alberi [AST](linguaggi_modelli_computazionali/interpreti.md#interpretazione%20differita%20(abstract%20syntax%20tree))*)
+- **analisi sintattica** data una sequenza di token generare una rappresentazione interna della frase (*alberi [AST](pages/linguaggi_modelli_computazionali/interpreti.md#interpretazione%20differita%20(abstract%20syntax%20tree))*)
 - **analisi semantica** data una frase corretta applicare la semantica corretta per la data frase
 
 ## Struttura di un linguaggio
@@ -46,7 +46,7 @@ $$
 
 #### Chiusura positiva di un alfabeto
 
-la [chiusura](#CHIUSURA%20DI%20UN%20ALFABETO) escludendo la stringa vuota
+la [chiusura](pages/linguaggi_modelli_computazionali/linguaggi_grammatiche.md#CHIUSURA%20DI%20UN%20ALFABETO) escludendo la stringa vuota
 
 $$
 A^+=A^* - \{\epsilon \}

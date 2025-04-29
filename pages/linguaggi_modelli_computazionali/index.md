@@ -1,3 +1,9 @@
+---
+id: index
+aliases: []
+tags: []
+---
+
 # Linguaggi e modelli computazionali
 
 Knowledge base personale del corso di linguaggi e modelli computazionali

@@ -27,7 +27,7 @@ $$
 
 La semantica risulta essere *sostituisci tutte le occorrenze del parametro $x$ nel corpo della funzione  $x$* con risultato $y$, l'operazione e detta **riduzione**
 
-Notare che la grammatica cosi definita e [**ambigua**](linguaggi_modelli_computazionali/grammatiche_tipo_2.md#ambiguità%20di%20una%20frase) e derivazioni diverse di una stessa frase portano a semantiche diverse, per esempio la frase
+Notare che la grammatica cosi definita e [**ambigua**](pages/linguaggi_modelli_computazionali/grammatiche_tipo_2.md#ambiguità%20di%20una%20frase) e derivazioni diverse di una stessa frase portano a semantiche diverse, per esempio la frase
 
 $$
 \lambda x . xy
@@ -43,7 +43,7 @@ oppure:
 
 ## Lambda calcolo in javascript
 
-[javascript](pages/linguaggi_modelli_computazionali/javascript.md) risulta essere pratico per l'implementazione del lambda calcolo in quanto vi e la possibilità di definire funzioni anonime e [chiusure](linguaggi_modelli_computazionali/javascript.md#chiusure)
+[javascript](pages/linguaggi_modelli_computazionali/javascript.md) risulta essere pratico per l'implementazione del lambda calcolo in quanto vi e la possibilità di definire funzioni anonime e [chiusure](pages/linguaggi_modelli_computazionali/javascript.md#chiusure)
 
 ```javascript
 //il termine lambda x.<expr> puo infatti essere definito come
@@ -56,7 +56,7 @@ console.log(f(y))
 
 ## Funzioni a più argomenti
 
-Funzioni a piu argomenti possono essere rappresentate come funzioni di funzioni sfruttando il [currying](linguaggi_modelli_computazionali/javascript.md#currying), di conseguenza una funzione a piu argomenti:
+Funzioni a piu argomenti possono essere rappresentate come funzioni di funzioni sfruttando il [currying](pages/linguaggi_modelli_computazionali/javascript.md#currying), di conseguenza una funzione a piu argomenti:
 
 $$
 \lambda x.\lambda y.xy
@@ -206,7 +206,7 @@ function Y(f) {
 }
 ```
 
-E necessario simulare la [call by name](linguaggi_modelli_computazionali/processi_computazionali.md#alternativa,%20modello%20call%20by%20name) come già visto
+E necessario simulare la [call by name](pages/linguaggi_modelli_computazionali/processi_computazionali.md#alternativa,%20modello%20call%20by%20name) come già visto
 
 ### Combinatore di punto fisso rivisitato $z$
 
