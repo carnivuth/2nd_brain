@@ -4,10 +4,10 @@ Appunti del corso di gestione e innovazione dei progetti
 
 ## Content
 
-- [domande aperte](domande_aperte.md)
-- [forme innovazione](forme_innovazione.md)
-- [modellazione innovazione](modellazione_innovazione.md)
-- [prototipi](prototipi.md)
-- [technology readiness levels](technology_readiness_levels.md)
-- [proprieta intellettuale](proprieta_intellettuale.md)
-- [strumenti per la proprieta intellettuale](strumenti_proprieta_intellettuale.md)
+- [domande aperte](pages/gip/domande_aperte.md)
+- [forme innovazione](pages/gip/forme_innovazione.md)
+- [modellazione innovazione](pages/gip/modellazione_innovazione.md)
+- [prototipi](pages/gip/prototipi.md)
+- [technology readiness levels](pages/gip/technology_readiness_levels.md)
+- [proprieta intellettuale](pages/gip/proprieta_intellettuale.md)
+- [strumenti per la proprieta intellettuale](pages/gip/strumenti_proprieta_intellettuale.md)
