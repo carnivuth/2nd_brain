@@ -1,5 +1,5 @@
 ---
-id: nvim_lsp
+id: nvim
 aliases: []
 tags:
   - neovim
@@ -7,9 +7,12 @@ tags:
   - dotfiles
 ---
 
-Brief guide to [neovim](https://neovim.io/) LSP server configuration
+# Neovim
 
-## Language server protocol recap
+Neovim is a vim fork with builtin lsp client, support for lua scripting, and retro compatibility with the old vimscript language
+
+
+## Language server protocol in neovim
 
 it's a standard protocol  to manage interaction between code editors and process providing code completion and  syntax highlighting
 
