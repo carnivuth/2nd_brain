@@ -11,7 +11,6 @@ tags:
 
 Neovim is a vim fork with builtin lsp client, support for lua scripting, and retro compatibility with the old vimscript language
 
-
 ## Language server protocol in neovim
 
 it's a standard protocol  to manage interaction between code editors and process providing code completion and  syntax highlighting
@@ -86,3 +85,22 @@ require('lspconfig').ansiblels.setup{
 ```
 
 The `pattern` objects requires a [lua pattern](https://www.lua.org/manual/5.1/manual.html#5.4.1) as argument
+
+## Quick command reference
+
+- To add argument to the command line inside vim (*e.g. to add file and also buffers*)
+
+```vim
+" path expansion is allowed
+:argadd [path/to/file/]
+```
+
+- To run a specific command in all open buffers
+
+```vim
+" run find and replace
+bufdo %s/\](assets\/pages\/\(.*\/Pasted.*\))/](assets\/\1)/gc | update |bw
+
+" indent
+bufdo execute "normal! ggvG=l" | update |bw
+```
