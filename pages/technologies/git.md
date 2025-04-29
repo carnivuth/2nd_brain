@@ -1,8 +1,16 @@
 ---
-id: git_hooks
+id: git
 aliases: []
-tags: []
+tags:
+  - version control
+  - hooks
 ---
+
+# Git
+
+Git is an extremely scalable version control system.
+
+## Git hooks
 
 Git hooks are a special git feature that allow for script execution when some particular event is fired, they can be useful to automate some development operation needed to start the actual work (*update dev environment, setup packages,ecc...*) or as a very simple update system for software deployed directly as a git repo (*see my [personal dotfiles](https://github.com/carnivuth/scripts) for reference*).
 
