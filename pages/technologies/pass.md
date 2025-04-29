@@ -7,6 +7,8 @@ tags:
   - gpg
 ---
 
+# Password store
+
 `pass` is a handy program to manage passwords locally to a specific environment, it basically manage a local directory of text files encrypted with `gpg`
 
 In order to initialize pass a `gpg` key is needed
