@@ -1,10 +1,10 @@
 ---
 id: PATTERNS
-next: "pages/mobile_systems/mobile_middleware/distribution_patterns.md"
-previous: "pages/mobile_systems/mobile_middleware/mobile_middleware_principles.md"
 aliases: []
 tags: []
 index: 34
+next: pages/mobile_systems/mobile_middleware/distribution_patterns.md
+previous: pages/mobile_systems/mobile_middleware/mobile_middleware_principles.md
 ---
 
 # Patterns
@@ -45,6 +45,6 @@ Different nodes publish data to a broker that can be received from different nod
 
 Other types of patterns specific for mobile nodes are
 
-- [COMMUNICATION_PATTERNS](pages/mobile_systems/communication_patterns.md)
-- [RESOURCE_MANAGEMENT_PATTERNS](pages/mobile_systems/resource_management_patterns.md)
-- [DISTRIBUTION_PATTERNS](pages/mobile_systems/distribution_patterns.md)
+- [COMMUNICATION_PATTERNS](pages/mobile_systems/mobile_middleware/communication_patterns.md)
+- [RESOURCE_MANAGEMENT_PATTERNS](pages/mobile_systems/mobile_middleware/resource_management_patterns.md)
+- [DISTRIBUTION_PATTERNS](pages/mobile_systems/mobile_middleware/distribution_patterns.md)

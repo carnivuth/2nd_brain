@@ -1,7 +1,5 @@
 ---
 id: transazioni
-next: "pages/tecnologie_basi_dati/durability_control.md"
-previous: "pages/tecnologie_basi_dati/indici_hash.md"
 aliases: []
 tags:
   - transazioni
@@ -15,6 +13,8 @@ tags:
   - S2PL
   - 2PL
 index: 8
+next: pages/tecnologie_basi_dati/durability_control.md
+previous: pages/tecnologie_basi_dati/indici_hash.md
 ---
 
 # transazioni
@@ -26,7 +26,7 @@ Le transazioni sono operazioni logiche che portano il db da uno stato consistent
 - **Isolation** l'esecuzione di una transazione non deve interferire con l'esecuzione di un altra
 - **Durability** le modifiche apportate da una transazione devono essere persistenti
 
-Garantire tali proprietà e compito dei  [componenti del DBMS](struttura_database.md#struttura%20fisica)
+Garantire tali proprietà e compito dei  [componenti del DBMS](pages/tecnologie_basi_dati/struttura_database.md#struttura%20fisica)
 
 Una transazione e composta da una moltitudine di operazioni che portano la base dati in stati intermedi
 
@@ -80,7 +80,7 @@ Uno dei sistemi più comuni per gestire gli accessi concorrenti e quello di util
 - **shared** lock per l'accesso in lettura
 - **exclusive**  lock per l'accesso in scrittura
 
-il [transaction manager](struttura_database.md#struttura%20fisica) concede la il lock alla transazione secondo il seguente schema
+il [transaction manager](pages/tecnologie_basi_dati/struttura_database.md#struttura%20fisica) concede la il lock alla transazione secondo il seguente schema
 
 |                      | lock S concesso | lock X concesso |
 | -------------------- | --------------- | --------------- |
@@ -126,11 +126,11 @@ In questa variante una transazione non può richiedere altri lock nel momento in
 Tra i [problemi dell'esecuzione concorrente](#Problemi%20dell'esecuzione%20concorrente) quello della phantom row e il più complesso da gestire, alcune soluzioni prevedono:
 
 - richiedere il lock **sull'indice di tutti i record che soddisfano un dato predicato**
-- in caso di [indici](tecnologie_basi_dati/indici.md) si richiede il lock a livello di foglia che soddisfa il predicato
+- in caso di [indici](pages/tecnologie_basi_dati/indici.md) si richiede il lock a livello di foglia che soddisfa il predicato
 
 ## Lock management: implementazione
 
-Per poter implementare la gestione dei lock il [lock manager](struttura_database.md#struttura%20fisica)  mantiene in memoria:
+Per poter implementare la gestione dei lock il [lock manager](pages/tecnologie_basi_dati/struttura_database.md#struttura%20fisica)  mantiene in memoria:
 
 - una **tabella delle transazioni attive** con una lista di lock per ogni transazione
 - una **tabella dei lock** dove per ogni oggetto viene segnato il tipo di lock, il numero della transazione che lo detiene e una lista di richieste per quel dato lock

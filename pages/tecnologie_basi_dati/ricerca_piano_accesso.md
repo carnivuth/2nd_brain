@@ -1,7 +1,5 @@
 ---
 id: ricerca_piano_accesso
-next: "pages/tecnologie_basi_dati/progetto_fisico_tuning.md"
-previous: "pages/tecnologie_basi_dati/ottimizzazione_interrogazioni.md"
 aliases: []
 tags:
   - programmazione dinamica
@@ -9,6 +7,8 @@ tags:
   - istogrammi
   - join ordering
 index: 18
+next: pages/tecnologie_basi_dati/progetto_fisico_tuning.md
+previous: pages/tecnologie_basi_dati/ottimizzazione_interrogazioni.md
 ---
 
 ## Ricerca del piano di accesso ottimale
@@ -33,7 +33,7 @@ Per gli attributi:
 
 ## Determinare la selettività di un predicato
 
-Come visto prima e fondamentale determinare la [selettività](selezione.md#stimare%20il%20numero%20di%20risultati) di un predicato per stimarne i record in output, **assumendo una distribuzione uniforme dei valori degli attributi**
+Come visto prima e fondamentale determinare la [selettività](pages/tecnologie_basi_dati/selezione.md#stimare%20il%20numero%20di%20risultati) di un predicato per stimarne i record in output, **assumendo una distribuzione uniforme dei valori degli attributi**
 
 | predicato                                           | Fattore di selettivita                  |
 | --------------------------------------------------- | --------------------------------------- |
@@ -52,7 +52,7 @@ $$
 
 >[!WARNING] La cosa e più complessa se si hanno i fattori combinati degli operatori
 
-## Selettività del [join](tecnologie_basi_dati/join.md)
+## Selettività del [join](pages/tecnologie_basi_dati/join.md)
 
 La selettività del join si stima come $f_j*N(R)*N(S)$, in caso di equi join si assume che tutti i valori dell'attributo di join della relazione con meno valori si mappino in una tupla di output quindi si ha
 
@@ -62,7 +62,7 @@ $$
 
 >[!TIP] nel caso di chiave primaria si ha che la cardinalità e pari a $N(S)$ dato che $f_j = \frac{1}{N(R)}$
 
-## Cardinalità della [proiezione](tecnologie_basi_dati/proiezione.md)
+## Cardinalità della [proiezione](pages/tecnologie_basi_dati/proiezione.md)
 
 - Se si proietta su un attributo solo di $A$ si ha che $E = NK(A)$
 - Se si proietta su un attributo chiave o non si hanno informazioni si ha il caso peggiore  $E = N(R)$
@@ -74,7 +74,7 @@ Una delle metriche più fondamentali da stimare e il numero di valori distinti d
 - collezionare statistiche accurate
 > troppo costoso
 - campionare i dati
-- usare metodi hash con modelli probabilistici (alla [cardenas](b+tree.md#modello%20di%20cardenas))
+- usare metodi hash con modelli probabilistici (alla [cardenas](pages/tecnologie_basi_dati/b+tree.md#modello%20di%20cardenas))
 
 ### Linear counting
 
@@ -113,13 +113,13 @@ Ci sono diverse tipologie di istogrammi
 In caso di query su una singola relazione (*presente una sola tabella nella clausola `FROM`*) e necessario gestire solo selezioni e proiezioni, ci sono 4 casistiche possibili:
 
 - Scansione sequenziale
-- Uso di un solo [indici](tecnologie_basi_dati/indici.md) (*eventualmente clustered*)
-- Uso di più [indici](tecnologie_basi_dati/indici.md)
+- Uso di un solo [indici](pages/tecnologie_basi_dati/indici.md) (*eventualmente clustered*)
+- Uso di più [indici](pages/tecnologie_basi_dati/indici.md)
 - Uso solo di un indice (*non si accede ai dati*)
 
 ## Ottimizzare query con più relazioni
 
-In caso di relazioni multiple  e necessario comprendere come ordinare le operazioni di [join](tecnologie_basi_dati/join.md), date le sue proprietà lo spazio di ricerca e **esponenziale nel numero $n$ di relazioni**
+In caso di relazioni multiple  e necessario comprendere come ordinare le operazioni di [join](pages/tecnologie_basi_dati/join.md), date le sue proprietà lo spazio di ricerca e **esponenziale nel numero $n$ di relazioni**
 
 date $n$ relazioni il numero di possibili join trees sono dati da
 
@@ -206,7 +206,7 @@ dove $n$ può assumere i seguenti valori:
 - $7$ Similar to 5 but without the heuristic rules
 - $9$ A maximal amount of optimization is performed to generate an access plan.
 
-## Gestione del [group by](tecnologie_basi_dati/group_by.md)
+## Gestione del [group by](pages/tecnologie_basi_dati/group_by.md)
 
 Nei DBMS moderni il group by viene gestito al termine dell'esecuzione dei join, tuttavia vi e la possibilità di farne il push down a patto che **i valori delle funzioni aggregate non cambino**
 [PREVIOUS](pages/tecnologie_basi_dati/ottimizzazione_interrogazioni.md)

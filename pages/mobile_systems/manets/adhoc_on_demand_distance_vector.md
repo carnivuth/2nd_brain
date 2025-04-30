@@ -1,15 +1,15 @@
 ---
 id: ADHOC_ON_DEMAND_DISTANCE_VECTOR
-next: "pages/mobile_systems/manets/greedy_perimeter_stateless_routing.md"
-previous: "pages/mobile_systems/manets/dinamic_source_routing.md"
 aliases: []
 tags: []
 index: 13
+next: pages/mobile_systems/manets/greedy_perimeter_stateless_routing.md
+previous: pages/mobile_systems/manets/dinamic_source_routing.md
 ---
 
 # Ad hoc on demand distance vector
 
-AODV tries to address the problem of the variable sized header of [DSR](pages/mobile_systems/manets/dinamic_source_routing.md) by maintain a reduced routing table suitable for manets
+AODV tries to address the problem of the variable sized header of [DSR](pages/mobile_systems/manets/dynamic_source_routing.md) by maintain a reduced routing table suitable for manets
 
 ## Limit the routing problems of manets
 
@@ -41,7 +41,7 @@ c --> d
 
 ## Route error
 
-In the route error scenario the node that detects the route error situation informs the other nodes like in [DSR](pages/mobile_systems/mantes/dynamic_source_routing.md) and they update their routing table, the message is broadcast to the neighbors route error to inform them
+In the route error scenario the node that detects the route error situation informs the other nodes like in [DSR](pages/mobile_systems/manets/dynamic_source_routing.md) and they update their routing table, the message is broadcast to the neighbors route error to inform them
 
 ## Link failure detection
 

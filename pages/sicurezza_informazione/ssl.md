@@ -1,10 +1,10 @@
 ---
 id: SSL
-next: "pages/sicurezza_informazione/kerberos.md"
-previous: "pages/sicurezza_informazione/ipsec.md"
 aliases: []
 tags: []
 index: 12
+next: pages/sicurezza_informazione/kerberos.md
+previous: pages/sicurezza_informazione/ipsec.md
 ---
 
 # Secure socket layer (ssl)
@@ -87,14 +87,14 @@ Questi due messaggi hanno l’obiettivo di concordare quali meccanismi verranno 
 I metodi di scambio possibili sono i seguenti:
 
 - [[rsa]] con cifrario ibrido
-- [algoritmo diffie-hellman ](key_management.md#algoritmo%20diffie-hellman%20(versione%20anonima)) in tutte le varianti (*da evitare quella anonima*)
+- [algoritmo diffie-hellman ](pages/sicurezza_informazione/key_management.md#algoritmo%20diffie-hellman%20(versione%20anonima)) in tutte le varianti (*da evitare quella anonima*)
 
 ## Scambio dei parametri
 
 A seconda della modalita di cifratura i peer si scambiano parametri diversi:
 
 - chiavi pubbliche nel caso di cifrari ibridi
-- valori $p,g,A$ nel caso di [diffie hellman](sicurezza_informazione/diffie_hellman.md)
+- valori $p,g,A$ nel caso di [diffie hellman](pages/sicurezza_informazione/diffie_hellman.md)
 
  Alla fine del protocollo di negoziazione i peer concordano un master secret che verrà utilizzato all'interno di una stessa sessione per le comunicazioni, dal master secret si derivano le chiavi utilizzate per ogni connessione
 

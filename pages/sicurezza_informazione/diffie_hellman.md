@@ -1,10 +1,10 @@
 ---
 id: diffie_hellman
-next: "pages/sicurezza_informazione/ipsec.md"
-previous: "pages/sicurezza_informazione/key_management.md"
 aliases: []
 tags: []
 index: 10
+next: pages/sicurezza_informazione/ipsec.md
+previous: pages/sicurezza_informazione/key_management.md
 ---
 
 # Algoritmo diffie-hellman (versione anonima)
@@ -31,16 +31,16 @@ $$
 K \space calcolata \space da \space B =
 $$
 $$
-A^b\mod{p} =(g^a\mod{p})^b\mod{p} = 
+A^b\mod{p} =(g^a\mod{p})^b\mod{p} =
 $$
 $$
-(g^b\mod{p})^a \mod{p} = B^a\mod{p} = 
+(g^b\mod{p})^a \mod{p} = B^a\mod{p} =
 $$
 $$
 K \space calcolata \space da \space A
 $$
 
-Se l'attaccante ascoltasse la conversazione non sarebbe a conoscenza dei parametri $a,b$ necessari per risalire alla chiave di cifratura, con i parametri noti l'attaccante dovrebbe risolvere il problema noto della teoria dei numeri [calcolo del logaritmo discreto](problemi_difficili.md#calcolo%20del%20logaritmo%20discreto)
+Se l'attaccante ascoltasse la conversazione non sarebbe a conoscenza dei parametri $a,b$ necessari per risalire alla chiave di cifratura, con i parametri noti l'attaccante dovrebbe risolvere il problema noto della teoria dei numeri [calcolo del logaritmo discreto](pages/sicurezza_informazione/problemi_difficili.md#calcolo%20del%20logaritmo%20discreto)
 
 ### Dh problematiche
 

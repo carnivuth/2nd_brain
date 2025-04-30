@@ -1,18 +1,18 @@
 ---
 id: sorting
-next: "pages/tecnologie_basi_dati/selezione.md"
-previous: "pages/tecnologie_basi_dati/operatori_relazionali.md"
 aliases: []
 tags:
   - sort merge
   - sort merge a z vie
   - sort merge con indici
 index: 11
+next: pages/tecnologie_basi_dati/selezione.md
+previous: pages/tecnologie_basi_dati/operatori_relazionali.md
 ---
 
 # Ordinare i dati: sort
 
-L'azione di sort dei dati non e un operatore dell'algebra ma risulta molto utile per risolvere alcune situazioni tra cui query `ORDER BY`, [bulk loading](b+tree.md#bulk%20loading) degli indici e operatori di `JOIN` e `GROUP BY`.
+L'azione di sort dei dati non e un operatore dell'algebra ma risulta molto utile per risolvere alcune situazioni tra cui query `ORDER BY`, [bulk loading](pages/tecnologie_basi_dati/b+tree.md#bulk%20loading) degli indici e operatori di `JOIN` e `GROUP BY`.
 
 Gli algoritmi di sort possono essere suddivisi in base alla memoria in cui vengono svolti:
 
@@ -84,9 +84,9 @@ Di conseguenza si possono organizzare le letture delle pagine in batches detti $
 
 ![](assets/tecnologie_basi_dati/Pasted%20image%2020250209163032.png)
 
-## Sorting con [b+tree](tecnologie_basi_dati/b+tree.md)
+## Sorting con [b+tree](pages/tecnologie_basi_dati/b+tree.md)
 
-Nel caso di ordinamento con [b+tree](tecnologie_basi_dati/b+tree.md) e necessario distinguere tra le tipologie di indice
+Nel caso di ordinamento con [b+tree](pages/tecnologie_basi_dati/b+tree.md) e necessario distinguere tra le tipologie di indice
 
 - se l'indice e clustered il costo e dato dal numero di foglie e di pagine del file dati (*costo $L+P$*)
 - se l'indice e un-clustered ogni record causa l'accesso al file dati (*costo $L+N$*), se gli attributi interessanti sono contenuti nell'indice si può evitare di accedere al file dati (*costo $L$*)

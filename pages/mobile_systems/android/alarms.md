@@ -1,10 +1,10 @@
 ---
 id: ALARMS
-next: "pages/mobile_systems/android/sockets.md"
-previous: "pages/mobile_systems/android/job_scheduler.md"
 aliases: []
 tags: []
 index: 43
+next: pages/mobile_systems/android/sockets.md
+previous: pages/mobile_systems/android/job_scheduler.md
 ---
 
 # Alarms
@@ -13,7 +13,7 @@ Alarms are task that can be scheduled at a given time, they fires intents, it ca
 
 - Device does not have to be awake
 - Does not use resources until it goes off
-- Use with [broadcast receiver](mobile_systems/android/activity.md#broadcast%20receiver) to start services and other operations
+- Use with [broadcast receiver](pages/mobile_systems/android/activity.md#broadcast%20receiver) to start services and other operations
 
 ## Alarm types
 

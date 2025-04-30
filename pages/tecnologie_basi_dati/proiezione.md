@@ -1,15 +1,17 @@
 ---
 id: proiezione
-next: "pages/tecnologie_basi_dati/join.md"
-previous: "pages/tecnologie_basi_dati/selezione.md"
-tags: ["proiezione con sorting","proiezione con hashing"]
-aliases: 
+aliases: []
+tags:
+  - proiezione con sorting
+  - proiezione con hashing
 index: 13
+next: pages/tecnologie_basi_dati/join.md
+previous: pages/tecnologie_basi_dati/selezione.md
 ---
 
 # proiezione
 
-L'[operatore](tecnologie_basi_dati/operatori_relazionali.md) di proiezione consente di eliminare attributi dal risultato di una query, data una query del tipo:
+L'[operatore](pages/tecnologie_basi_dati/operatori_relazionali.md) di proiezione consente di eliminare attributi dal risultato di una query, data una query del tipo:
 
 ```sql
 SELECT DISTINCT R.sid, R.vid
@@ -18,21 +20,21 @@ FROM Recensioni R
 
 E necessario eliminare gli attributi non richiesti e eliminare i record duplicati, ci sono 3 approcci principali
 
-## Proiettare [ordinando](tecnologie_basi_dati/sorting.md)
+## Proiettare [ordinando](pages/tecnologie_basi_dati/sorting.md)
 
 Una possibile soluzione e quella di sfruttare l'ordinamento, si procede come segue
 
 - si legge il file rimuovendo gli attributi non richiesti
-- si ordina per mezzo del [merge sort](sorting.md#merge%20sort%20esterno)
+- si ordina per mezzo del [merge sort](pages/tecnologie_basi_dati/sorting.md#merge%20sort%20esterno)
 - si eliminano i duplicati
 
 costo complessivo dato da $P(R) +P(T) + 2P(T)\lceil \log_ZP(T)\rceil + P(T)$
 
->[!TIP] si possono squashare la rimozione degli attributi con la fase di sorting e l'eliminazione dei duplicati nella fase di merging del [merge sort](sorting.md#merge%20sort%20esterno)
+>[!TIP] si possono squashare la rimozione degli attributi con la fase di sorting e l'eliminazione dei duplicati nella fase di merging del [merge sort](pages/tecnologie_basi_dati/sorting.md#merge%20sort%20esterno)
 
 ## Proiettare usando hashing
 
-Fattibile solo se si hanno un alto numero di pagine, il processo si divide in due fasi 
+Fattibile solo se si hanno un alto numero di pagine, il processo si divide in due fasi
 
 ### Fase di partizionamento
 
@@ -65,10 +67,10 @@ si leggono in sequenza i file generati e si applica una nuova funzione hash (*di
 La tecnica basata su sorting risulta migliore nel caso in cui i valori risultino sbilanciati o ci siano molte tuple da eliminare
 >[!TIP] con il sorting il risultato e anche ordinato :)
 
-## Proiettare con un [indice](tecnologie_basi_dati/indici.md)
+## Proiettare con un [indice](pages/tecnologie_basi_dati/indici.md)
 
 Questa modalità necessita che tutte le chiavi da restituire in output **siano contenuti nell'indice**, le tecniche sono le precedenti ma si attuano sull'indice e non sul file dati
 
->[!TIP] in caso di indice [b+tree](tecnologie_basi_dati/b+tree.md) se gli attributi sono un prefisso della chiave basta scandire le foglie eliminando i duplicati con costo $L$
+>[!TIP] in caso di indice [b+tree](pages/tecnologie_basi_dati/b+tree.md) se gli attributi sono un prefisso della chiave basta scandire le foglie eliminando i duplicati con costo $L$
 [PREVIOUS](pages/tecnologie_basi_dati/selezione.md)
 [NEXT](pages/tecnologie_basi_dati/join.md)

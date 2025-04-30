@@ -1,7 +1,5 @@
 ---
 id: r-tree
-next: "pages/tecnologie_basi_dati/top_k_queries.md"
-previous: "pages/tecnologie_basi_dati/indici_multidimensionali.md"
 aliases: []
 tags:
   - r-tree vs b+tree
@@ -9,6 +7,8 @@ tags:
   - MBB
   - search with r-tree
 index: 21
+next: pages/tecnologie_basi_dati/top_k_queries.md
+previous: pages/tecnologie_basi_dati/indici_multidimensionali.md
 ---
 
 # R-tree
@@ -32,7 +32,7 @@ La minima bounding box e definita come la regione hyper-rettangolare minima che 
 
 Per definirla e sufficiente conoscere le coordinate di due vertici opposti
 
-## R-tree vs [b+tree](tecnologie_basi_dati/b+tree.md)
+## R-tree vs [b+tree](pages/tecnologie_basi_dati/b+tree.md)
 
 
 | B+tree                                                 | R-tree                                                                 |
@@ -49,7 +49,7 @@ La ricerca con un r-tree consiste nel trovare tutti i punti che fanno parte dell
 
 ![](assets/tecnologie_basi_dati/Pasted%20image%2020250218100138.png)
 
-Per implementare la ricerca e necessario implementare le API previste dalla specifica [GiST](tecnologie_basi_dati/gist.md)
+Per implementare la ricerca e necessario implementare le API previste dalla specifica [GiST](pages/tecnologie_basi_dati/gist.md)
 
 - `Consistent(E,q)` ritorna true solo se `E` e `q` hanno intersezione non nulla
 - `Union(P)` l'output e la MMB che contiene tutte le entry

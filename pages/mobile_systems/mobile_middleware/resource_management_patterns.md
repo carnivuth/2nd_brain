@@ -117,6 +117,7 @@ Optimistic approach that relies on version numbers, that are associated to a res
 - **update propagation**;
 - **changes detection**;
 - **reconciliation**
+
 ### Rendezvous
 
 Pattern that allow nodes to synchronize data by meeting at randezvous points

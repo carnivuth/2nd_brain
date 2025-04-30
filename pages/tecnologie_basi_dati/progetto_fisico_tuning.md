@@ -1,13 +1,13 @@
 ---
 id: progetto_fisico_tuning
-next: "pages/tecnologie_basi_dati/indici_multidimensionali.md"
-previous: "pages/tecnologie_basi_dati/ricerca_piano_accesso.md"
 aliases: []
 tags:
   - data clustering
   - data partitioning
   - selezione di indici
 index: 19
+next: pages/tecnologie_basi_dati/indici_multidimensionali.md
+previous: pages/tecnologie_basi_dati/ricerca_piano_accesso.md
 ---
 
 # progetto fisico e tuning del DB
@@ -68,7 +68,7 @@ D --> B
 B --> A
 ```
 
-In questo caso sono necessari un indice su `D.name` e un indice su `E.dno` (*possibilmente [hash](tecnologie_basi_dati/indici_hash.md)*)
+In questo caso sono necessari un indice su `D.name` e un indice su `E.dno` (*possibilmente [hash](pages/tecnologie_basi_dati/indici_hash.md)*)
 
 ### Esempio: join con filtro su due relazioni
 
@@ -80,7 +80,7 @@ AND D.name = 'Toy'
 AND E.age = 25
 ```
 
-In questo caso se si possiede un indice su `E.age` potrebbe non essere necessario l'indice per fare [index nested loop join](join.md#sfruttando%20gli%20indici%20index%20nested%20loop%20join), dipende da quanto e selettivo
+In questo caso se si possiede un indice su `E.age` potrebbe non essere necessario l'indice per fare [index nested loop join](pages/tecnologie_basi_dati/join.md#sfruttando%20gli%20indici%20index%20nested%20loop%20join), dipende da quanto e selettivo
 
 ### Esempio: indici per query range
 
@@ -96,14 +96,14 @@ WHERE E.sal BETWEEN 3000 AND 5000
 AND E.age = 25
 ```
 
-Nel primo caso un indice ([b+tree](tecnologie_basi_dati/b+tree.md)) su `age,sal` può risultare conveniente, nel secondo caso l'ordine degli attributi nella query e più rilevante, in particolare:
+Nel primo caso un indice ([b+tree](pages/tecnologie_basi_dati/b+tree.md)) su `age,sal` può risultare conveniente, nel secondo caso l'ordine degli attributi nella query e più rilevante, in particolare:
 
 - `age,sal` entrambi i predicati sono range delimiting
 - `sal,age` il predicato su age e index-sargable
 
 ## Data clustering
 
-Come mostrato in precedenza DB2 contempla la presenza [di indici non perfettamente clustered](operatori_modifica.md#update%20della%20clustering%20key), di conseguenza e necessario che attributi scegliere per un indice clustered e determinare il livello di clustering desiderato
+Come mostrato in precedenza DB2 contempla la presenza [di indici non perfettamente clustered](pages/tecnologie_basi_dati/operatori_modifica.md#update%20della%20clustering%20key), di conseguenza e necessario che attributi scegliere per un indice clustered e determinare il livello di clustering desiderato
 
 >[!TIP] Le query di range sono quelle che **beneficiano maggiormente dalla clusterizzazione di un indice**, insieme alle ricerche `=`  su attributi non chiave traggono vantaggio da indici clustered in caso di molti duplicati
 

@@ -1,10 +1,10 @@
 ---
 id: JOB_SCHEDULER
-next: "pages/mobile_systems/android/alarms.md"
-previous: "pages/mobile_systems/android/asynchronous_techniques.md"
 aliases: []
 tags: []
 index: 42
+next: pages/mobile_systems/android/alarms.md
+previous: pages/mobile_systems/android/asynchronous_techniques.md
 ---
 
 # Job scheduler
@@ -17,7 +17,7 @@ Element that allow multiple background tasks to be grouped together, in order to
 
 the `JobService` class relies on 2 methods that are called on the main thread `onStartJob()` and `onStopJob()`
 
-here an example using [async tasks](mobile_systems/android/asynchronous_techniques.md#async%20task):
+here an example using [async tasks](pages/mobile_systems/android/asynchronous_techniques.md#async%20task):
 
 ```java
 public class MyJobService extends JobService {

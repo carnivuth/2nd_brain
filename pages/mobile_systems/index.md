@@ -16,7 +16,7 @@
 - [connect mobile devices on the fly: MANETS](pages/mobile_systems/manets/manets.md)
 - [wifi solution for manets: wifi direct](pages/mobile_systems/manets/wifi_direct.md)
 - [how routing is done in manets](pages/mobile_systems/manets/manets_routing.md)
-- [first approach: DSR](pages/mobile_systems/manets/dinamic_source_routing.md)
+- [first approach: DSR](pages/mobile_systems/manets/dynamic_source_routing.md)
 - [second approach: ODV](pages/mobile_systems/manets/adhoc_on_demand_distance_vector.md)
 - [greedy perimeter stateless routing](pages/mobile_systems/manets/greedy_perimeter_stateless_routing.md)
 - [temporary ordered routing algorithm](pages/mobile_systems/manets/temporary_ordered_routing_algorithm.md)

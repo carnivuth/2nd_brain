@@ -1,10 +1,10 @@
 ---
 id: ZIGBEE
-next: "pages/mobile_systems/manets/manets.md"
-previous: "pages/mobile_systems/wireless/bluetooth.md"
 aliases: []
 tags: []
 index: 8
+next: pages/mobile_systems/manets/manets.md
+previous: pages/mobile_systems/wireless/bluetooth.md
 ---
 
 # Zigbee (ieee 802.15.4)
@@ -37,5 +37,5 @@ In a [zigbee](pages/mobile_systems/wireless/zigbee.md) network a node can play d
 
 The zigbee protocol offers to possible solution for physical channel management
 
-- [CSMA/CA](mobile_systems/wireless/csma.md#csma/ca%20variant)
+- [CSMA/CA](pages/mobile_systems/wireless/csma.md#csma/ca%20variant)
 - Beacon enabled network where the **PAN COORDINATOR** sends periodic messages, this solution is similar to what [BLUETOOTH](pages/mobile_systems/wireless/bluetooth.md) does, is better suited for sensors communication

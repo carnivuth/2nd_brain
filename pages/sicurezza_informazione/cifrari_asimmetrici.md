@@ -1,10 +1,10 @@
 ---
 id: cifrari_asimmetrici
-next: "pages/sicurezza_informazione/rsa.md"
-previous: "pages/sicurezza_informazione/chiavi.md"
 aliases: []
 tags: []
 index: 7
+next: pages/sicurezza_informazione/rsa.md
+previous: pages/sicurezza_informazione/chiavi.md
 ---
 
 # Cifrari asimmetrici
@@ -36,4 +36,4 @@ note over bob: K = DPR(C1)
 note over bob: M = DK(C2)
 ```
 
-La sorgente sfrutta la chiave pubblica di bob per comunicare la chiave di sessione per effettuare poi una comunicazione per mezzo di [cifrari simmetrici](cifrari_simmetrici.md#cifrari%20simmetrici), l'algoritmo simmetrico viene scelto dalla sorgente
+La sorgente sfrutta la chiave pubblica di bob per comunicare la chiave di sessione per effettuare poi una comunicazione per mezzo di [cifrari simmetrici](pages/sicurezza_informazione/cifrari_simmetrici.md#cifrari%20simmetrici), l'algoritmo simmetrico viene scelto dalla sorgente

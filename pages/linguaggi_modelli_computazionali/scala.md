@@ -1,6 +1,9 @@
 ---
+id: scala
+aliases: []
+tags: []
 index: 19
-previous: "pages/linguaggi_modelli_computazionali/linguaggi_blended.md"
+previous: pages/linguaggi_modelli_computazionali/linguaggi_blended.md
 ---
 # Scala
 
@@ -172,7 +175,7 @@ class Counter(v:Int) {
 
 ### Funzioni e chiusure
 
-Il pieno supporto alle funzioni come [first-class objects](linguaggi_modelli_computazionali/processi_computazionali.md#FUNZIONI%20COME%20FIRST%20CLASS%20ENTITIES) comporta un altrettanto pieno supporto alle [chiusure](linguaggi_modelli_computazionali/processi_computazionali.md#chiusura), per cui viene preferita la chiusura lessicale e le variabili libere **vengono chiuse per mezzo di riferimenti alle variabili esterne**, ciò significa che risentono dei cambiamenti ad esse
+Il pieno supporto alle funzioni come [first-class objects](pages/linguaggi_modelli_computazionali/processi_computazionali.md#FUNZIONI%20COME%20FIRST%20CLASS%20ENTITIES) comporta un altrettanto pieno supporto alle [chiusure](pages/linguaggi_modelli_computazionali/processi_computazionali.md#chiusura), per cui viene preferita la chiusura lessicale e le variabili libere **vengono chiuse per mezzo di riferimenti alle variabili esterne**, ciò significa che risentono dei cambiamenti ad esse
 
 ### Conversioni implicite
 
@@ -326,9 +329,9 @@ object Point{
 Scala ha tutti gli strumenti per consentire la definizione di costrutti builtin:
 
 - block like syntax
-- [currying](linguaggi_modelli_computazionali/javascript.md#currying)
-- [call by name](linguaggi_modelli_computazionali/processi_computazionali.md#alternativa,%20modello%20call%20by%20name)
-- [chiusura](linguaggi_modelli_computazionali/processi_computazionali.md#chiusura)
+- [currying](pages/linguaggi_modelli_computazionali/javascript.md#currying)
+- [call by name](pages/linguaggi_modelli_computazionali/processi_computazionali.md#alternativa,%20modello%20call%20by%20name)
+- [chiusura](pages/linguaggi_modelli_computazionali/processi_computazionali.md#chiusura)
 
 quindi per creare il costrutto `repeat`:
 
@@ -439,11 +442,11 @@ def append[U >: T](element: U) {..}
 
 ## Tipo `option`
 
-Scala introduce il tipo `Option` come analogo degli optional di java, questo per evitare argomenti passati come null (*si ricorda che ciò in scala non  e possibile per la [gerarchia di tipi](linguaggi_modelli_computazionali/linguaggi_blended.md#tipi)*)
+Scala introduce il tipo `Option` come analogo degli optional di java, questo per evitare argomenti passati come null (*si ricorda che ciò in scala non  e possibile per la [gerarchia di tipi](pages/linguaggi_modelli_computazionali/linguaggi_blended.md#tipi)*)
 
 ## Extractors
 
-Le funzionalità di [pattern matching](#PATTERN%20MATCHING) di scala come definite sopra sono utilizzabili solo per mezzo di [classi dati](linguaggi_modelli_computazionali/linguaggi_blended.md#classi%20dati), per poterle utilizzare anche con oggetti generati da classi normali scala mette a disposizione gli **extractors**,  ovvero oggetti che definiscono un metodo `unapply()` duale di `apply()` che estrae i valori di un oggetto
+Le funzionalità di [pattern matching](#PATTERN%20MATCHING) di scala come definite sopra sono utilizzabili solo per mezzo di [classi dati](pages/linguaggi_modelli_computazionali/linguaggi_blended.md#classi%20dati), per poterle utilizzare anche con oggetti generati da classi normali scala mette a disposizione gli **extractors**,  ovvero oggetti che definiscono un metodo `unapply()` duale di `apply()` che estrae i valori di un oggetto
 
 Il metodo in questione deve essere definito al difuori della classe interessata (il miglior candidato risulta essere il [companion object](#COMPANION%20OBJECT))
 
@@ -508,5 +511,5 @@ class MyGrammar extends JavaTokenParsers {
 }
 ```
 
-In caso di grammatiche [ll(1)](linguaggi_modelli_computazionali/grammatiche_llk.md#grammatiche%20$ll(k)$) la libreria genera comunque un parser in grado di fare backtracking, per evitare l'inefficienza e utile specificare che non e necessario supportarlo con l'operatore `!`
+In caso di grammatiche [ll(1)](pages/linguaggi_modelli_computazionali/grammatiche_llk.md#grammatiche%20$ll(k)$) la libreria genera comunque un parser in grado di fare backtracking, per evitare l'inefficienza e utile specificare che non e necessario supportarlo con l'operatore `!`
 [PREVIOUS](pages/linguaggi_modelli_computazionali/linguaggi_blended.md)

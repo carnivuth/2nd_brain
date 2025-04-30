@@ -1,9 +1,9 @@
 ---
 id: EVENTS
-previous: "pages/mobile_systems/discovery_messages_events/extensible_messaging_and_presence_protocol.md"
 aliases: []
 tags: []
 index: 64
+previous: pages/mobile_systems/discovery_messages_events/extensible_messaging_and_presence_protocol.md
 ---
 
 # Events
@@ -58,7 +58,7 @@ Possible topologies can be:
 - centralized
 - hierarchical
 - cyclic acyclic
-- based on [rendezvous points](mobile_systems/design%20pattern%20and%20architectures.md#rendezvous)
+- based on [rendezvous points](pages/mobile_systems/mobile_middleware/resource_management_patterns.md#Rendezvous)
 
 ## Routing policies
 
@@ -79,7 +79,7 @@ Filters can be implemented at different levels:
 
 ## Java events
 
-Java implements a solution for event based distribution based on RMI (*e.g. [apache river (jini)](mobile_systems/discovery_messages_events/service_discovery.md#apache%20river%20(jini))*) where a remote event listener notifies registered consumers with a remote object:
+Java implements a solution for event based distribution based on RMI (*e.g. [apache river (jini)](pages/mobile_systems/discovery_messages_events/service_discovery.md#apache%20river%20(jini))*) where a remote event listener notifies registered consumers with a remote object:
 
 ```java
 package net.jini.core.event;
@@ -122,7 +122,7 @@ Three possible specification for message storing
 
 ## General event notification architecture (gena)
 
-Primary used solution in [UPnP](mobile_systems/discovery_messages_events/service_discovery.md#universal%20plug%20and%20play%20(upnp)), for event notification, control nodes subscribe to events trough a SOAP http request and receive unicast notification
+Primary used solution in [UPnP](pages/mobile_systems/discovery_messages_events/service_discovery.md#universal%20plug%20and%20play%20(upnp)), for event notification, control nodes subscribe to events trough a SOAP http request and receive unicast notification
 
 ```xml
 NOTIFY delivery path HTTP/1.1

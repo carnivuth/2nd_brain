@@ -1,15 +1,15 @@
 ---
 id: rsa
-next: "pages/sicurezza_informazione/key_management.md"
-previous: "pages/sicurezza_informazione/cifrari_asimmetrici.md"
 aliases: []
 tags: []
 index: 8
+next: pages/sicurezza_informazione/key_management.md
+previous: pages/sicurezza_informazione/cifrari_asimmetrici.md
 ---
 
 # Rivest–shamir–adleman (rsa)
 
-cifrario asimmetrico che sfrutta il problema della [fattorizzazione di un numero primo](problemi_difficili.md#fattorizzazione%20di%20un%20numero%20primo) in cui la chiave pubblica e formata da due numeri $n,e$ (*noti*) e la privata da $n,d$ (*privati*)
+cifrario asimmetrico che sfrutta il problema della [fattorizzazione di un numero primo](pages/sicurezza_informazione/problemi_difficili.md#fattorizzazione%20di%20un%20numero%20primo) in cui la chiave pubblica e formata da due numeri $n,e$ (*noti*) e la privata da $n,d$ (*privati*)
 
 ## Generazione delle chiavi
 

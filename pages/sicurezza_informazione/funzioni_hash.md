@@ -1,10 +1,10 @@
 ---
 id: funzioni_hash
-next: "pages/sicurezza_informazione/modalita_cifratura.md"
-previous: "pages/sicurezza_informazione/trasformazioni.md"
 aliases: []
 tags: []
 index: 2
+next: pages/sicurezza_informazione/modalita_cifratura.md
+previous: pages/sicurezza_informazione/trasformazioni.md
 ---
 
 # Funzioni hash
@@ -55,7 +55,7 @@ il messaggio viene suddiviso in blocchi e compresso insieme all'output della com
 
 ### Rompere la compressione iterata: attacco con length extension
 
-In uno scenario dove l'[autenticazione e implementata per mezzo della funzione hash](protocolli.md#hash%20di%20un%20segreto), la compressione iterata consente all' attaccante di generare messaggi e valori di hash validi senza conoscere il segreto $S$ quando il messaggio inviato sul canale e della forma:
+In uno scenario dove l'[autenticazione e implementata per mezzo della funzione hash](pages/sicurezza_informazione/protocolli.md#hash%20di%20un%20segreto), la compressione iterata consente all' attaccante di generare messaggi e valori di hash validi senza conoscere il segreto $S$ quando il messaggio inviato sul canale e della forma:
 
 $$ m|H(S|m)$$
 
@@ -69,7 +69,7 @@ Un modo per arginare questo attacco e incrementare il contenuto informativo del 
 
 ### Possibili contromisure: impronta di impronta
 
-Un'altra possibile contromisura e l'impronta di un impronta, ne esistono diverse varianti qui si riporta HMAC meccanismo utilizzato da [IPSEC](ipsec.md) e [SSL](sicurezza_informazione/ssl.md)
+Un'altra possibile contromisura e l'impronta di un impronta, ne esistono diverse varianti qui si riporta HMAC meccanismo utilizzato da [IPSEC](pages/sicurezza_informazione/ipsec.md) e [SSL](pages/sicurezza_informazione/ssl.md)
 
 ```mermaid
 flowchart LR
@@ -97,7 +97,7 @@ In questa iterazione il segreto $AB$ viene posto in xor a due valori costanti ch
 
 ## Resistenza alle collisioni
 
-Questa proprietà e fondamentale per l'utilizzo della funzione hash negli scenari di [firma digitale](protocolli.md#firma%20digitale) in cui viene intrapresa la firma dell' hash di un messaggio.
+Questa proprietà e fondamentale per l'utilizzo della funzione hash negli scenari di [firma digitale](pages/sicurezza_informazione/protocolli.md#firma%20digitale) in cui viene intrapresa la firma dell' hash di un messaggio.
 
 Se infatti non valesse la proprietà di resistenza alle collisioni l'attaccante potrebbe generare un testo $m^*$ tale per cui $H(m)=H(m^*)$ e indurre la sorgente a firmare un testo a lei non favorevole
 

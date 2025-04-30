@@ -1,13 +1,13 @@
 ---
 id: protocolli
-next: "pages/sicurezza_informazione/trasformazioni.md"
 aliases: []
 tags: []
+next: pages/sicurezza_informazione/trasformazioni.md
 ---
 
 # Protocolli per la sicurezza
 
-Esistono diversi protocolli generati dalla combinazione delle [trasformazioni](sicurezza_informazione/trasformazioni.md) base a seconda delle proprietà che si vogliono garantire:
+Esistono diversi protocolli generati dalla combinazione delle [trasformazioni](pages/sicurezza_informazione/trasformazioni.md) base a seconda delle proprietà che si vogliono garantire:
 
 ## Firma digitale
 
@@ -72,7 +72,7 @@ $$
 c = E(m|H(m|s))
 $$
 
-Questa soluzione non può essere considerata una soluzione di autenticazione, e se la cifratura utilizza [chiavi simmetriche](sicurezza_informazione/chiavi.md) non e considerabile non ripudiabile.
+Questa soluzione non può essere considerata una soluzione di autenticazione, e se la cifratura utilizza [chiavi simmetriche](pages/sicurezza_informazione/chiavi.md) non e considerabile non ripudiabile.
 Inoltre questo schema costringe il destinatario a decifrare prima di autenticare il messaggio, che e una caratteristica non sempre desiderabile.
 
 ## Hash di segreto e cifratura di messaggio

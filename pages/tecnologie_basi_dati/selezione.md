@@ -1,7 +1,5 @@
 ---
 id: selezione
-next: "pages/tecnologie_basi_dati/proiezione.md"
-previous: "pages/tecnologie_basi_dati/sorting.md"
 aliases: []
 tags:
   - selezione
@@ -10,6 +8,8 @@ tags:
   - selezione con disgiunzione
   - tipologie di predicati DB2
 index: 12
+next: pages/tecnologie_basi_dati/proiezione.md
+previous: pages/tecnologie_basi_dati/sorting.md
 ---
 
 # Selezione
@@ -38,7 +38,7 @@ anche in questo caso il costo dipende dalla presenza o meno di indici
 
 - se non ci sono indici si deve leggere tutto il file dati (*costo $P$*)
 - indice clustered (costo $h-1 + f*L + f*P$)
-- indice un-clustered (costo $h-1 + f*L + E *\Phi(N/NK,P)$) (*si fa uso del [Modello di cardenas](b+tree.md#modello%20di%20cardenas)*)
+- indice un-clustered (costo $h-1 + f*L + E *\Phi(N/NK,P)$) (*si fa uso del [Modello di cardenas](pages/tecnologie_basi_dati/b+tree.md#modello%20di%20cardenas)*)
 
 ## Selezione alternativa con indice un-clustered
 
@@ -50,8 +50,8 @@ In caso di indice un-clustered si può decidere di ordinare i RID prima di acced
 
 In caso di condizioni multi-attributo l'utilizzo di indici non e sempre possibile, in particolare:
 
-- gli [indici hash](tecnologie_basi_dati/indici_hash.md) possono essere utilizzati solo se sono presenti termini di uguaglianza per ogni attributo chiave dell'indice
-- i [b+tree](tecnologie_basi_dati/b+tree.md) possono essere utilizzati solo se i termini presenti compongono un prefisso delle chiavi dell'albero (*si fa riferimento a [indici multi attributo](b+tree.md#ricerche%20multi%20attributo)*)
+- gli [indici hash](pages/tecnologie_basi_dati/indici_hash.md) possono essere utilizzati solo se sono presenti termini di uguaglianza per ogni attributo chiave dell'indice
+- i [b+tree](pages/tecnologie_basi_dati/b+tree.md) possono essere utilizzati solo se i termini presenti compongono un prefisso delle chiavi dell'albero (*si fa riferimento a [indici multi attributo](pages/tecnologie_basi_dati/b+tree.md#ricerche%20multi%20attributo)*)
 
 ## Selezioni senza disgiunzione
 

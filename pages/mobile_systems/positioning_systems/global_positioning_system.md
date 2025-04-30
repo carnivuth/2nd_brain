@@ -1,17 +1,17 @@
 ---
 id: GLOBAL_POSITIONING_SYSTEM
-next: "pages/mobile_systems/positioning_systems/no_infrastructure_positioning_systems.md"
-previous: "pages/mobile_systems/positioning_systems/manet_positioning_systems.md"
 aliases: []
 tags: []
 index: 20
+next: pages/mobile_systems/positioning_systems/no_infrastructure_positioning_systems.md
+previous: pages/mobile_systems/positioning_systems/manet_positioning_systems.md
 ---
 
 # Global positioning system (gps)
 
 GPS is a positioning system that exploits dedicated hardware (*e.g. satellites*) for improved performance in localization capabilities
 
-The concept is to use [lateration](mobile_systems/positioning_systems/base_techniques.md#lateration) in combination with [toa](pages/mobile_systems/positioning_systems/base_techniques.md) using satellites with known positions
+The concept is to use [lateration](pages/mobile_systems/positioning_systems/base_techniques.md#lateration) in combination with [toa](pages/mobile_systems/positioning_systems/base_techniques.md) using satellites with known positions
 
 ![](assets/mobile_systems/Pasted%20image%2020240608190728.png)
 

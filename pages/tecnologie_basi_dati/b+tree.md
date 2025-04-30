@@ -1,7 +1,5 @@
 ---
 id: b+tree
-next: "pages/tecnologie_basi_dati/GiST.md"
-previous: "pages/tecnologie_basi_dati/b-tree.md"
 aliases: []
 tags:
   - b+tree
@@ -9,9 +7,11 @@ tags:
   - modello di cardenas
   - modello di yao
 index: 5
+next: pages/tecnologie_basi_dati/GiST.md
+previous: pages/tecnologie_basi_dati/b-tree.md
 ---
 
-# Migliorando i [b-tree](tecnologie_basi_dati/b-tree.md): b+tree
+# Migliorando i [b-tree](pages/tecnologie_basi_dati/b-tree.md): b+tree
 
 I b+tree sono b-tree in cui le tuple sono contenute solo nelle foglie dell'albero, le foglie sono inoltre contenute in una lista linkata(*possibilmente sfruttando il PID*) per migliorare l'accesso al file
 
@@ -142,4 +142,4 @@ Sotto le assunzioni precedenti e dimostrabile che la formula di Yao sovrastima i
 
 ![](assets/tecnologie_basi_dati/Pasted%20image%2020250204145210.png)
 [PREVIOUS](pages/tecnologie_basi_dati/b-tree.md)
-[NEXT](pages/tecnologie_basi_dati/GiST.md)
+[NEXT](pages/tecnologie_basi_dati/gist.md)

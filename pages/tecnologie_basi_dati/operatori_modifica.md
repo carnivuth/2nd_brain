@@ -1,10 +1,10 @@
 ---
 id: operatori_modifica
-next: "pages/tecnologie_basi_dati/ottimizzazione_interrogazioni.md"
-previous: "pages/tecnologie_basi_dati/group_by.md"
+aliases: []
 tags: []
-aliases: 
 index: 16
+next: pages/tecnologie_basi_dati/ottimizzazione_interrogazioni.md
+previous: pages/tecnologie_basi_dati/group_by.md
 ---
 
 # Operatori di modifica
@@ -15,20 +15,20 @@ Il costo di queste operazioni e diviso in tre componenti:
 
 - costo di accesso ai dati
 - costo di modifica
-- costo di aggiornamento di [indici](tecnologie_basi_dati/indici.md)
+- costo di aggiornamento di [indici](pages/tecnologie_basi_dati/indici.md)
 
 ## Costo di inserimento
 
-In caso di inserimento in [file non ordinato](gestione_disco.md#heap%20file) e necessario considerare il costo di aggiunta in fondo al file  e di modifica degli indici:
+In caso di inserimento in [file non ordinato](pages/tecnologie_basi_dati/gestione_disco.md#heap%20file) e necessario considerare il costo di aggiunta in fondo al file  e di modifica degli indici:
 
 - $2*Nindici$ se si fanno le modifiche in maniera indipendente
 - $2*\Phi(KI,L)$ se si ordinano i record per valore di chiave
 
 ## Costo della eliminazione
 
-In caso di eliminazione il costo di modifica dei dati dipende da come si accede ai dati 
+In caso di eliminazione il costo di modifica dei dati dipende da come si accede ai dati
 
-- scansione ordinata $\Phi(E,P)$ con $E = f*N$ (*fare riferimento a [questa sezione](operatori_relazionali.md#stime%20di%20costo%20di%20un%20operatore)*) 
+- scansione ordinata $\Phi(E,P)$ con $E = f*N$ (*fare riferimento a [questa sezione](pages/tecnologie_basi_dati/operatori_relazionali.md#stime%20di%20costo%20di%20un%20operatore)*)
 - scansione disordinata $EK*\Phi(N/NK,EP)$ con $EK = f*NK$ (*in caso di indici un-clustered*)
 
 Il costo di modifica conseguente degli indici e stimabile come segue
@@ -54,9 +54,9 @@ I costi sono gli stessi della [eliminazione](#Costo%20della%20eliminazione)
 
 ### Update della clustering key
 
-In caso di aggiornamenti ai valori della chiave di un indice e necessario preservare l'ordinamento dei dati, 
+In caso di aggiornamenti ai valori della chiave di un indice e necessario preservare l'ordinamento dei dati,
 >[!WARNING] DB2 ci prova ma ammette la presenza di indici **più o meno clustered**, rendendo necessarie operazioni di riorganizzazione quando il clustering risulta fortemente deteriorato
 
->[!TIP] In  un database oracle il clustering dei dati equivale ad usare un [b+tree](tecnologie_basi_dati/b+tree.md) per organizzare i dati e gli altri indici hanno come valori delle foglie dei RID logici (*i valori della primary key*) che aggiunge un livello di indirezione
+>[!TIP] In  un database oracle il clustering dei dati equivale ad usare un [b+tree](pages/tecnologie_basi_dati/b+tree.md) per organizzare i dati e gli altri indici hanno come valori delle foglie dei RID logici (*i valori della primary key*) che aggiunge un livello di indirezione
 [PREVIOUS](pages/tecnologie_basi_dati/group_by.md)
 [NEXT](pages/tecnologie_basi_dati/ottimizzazione_interrogazioni.md)

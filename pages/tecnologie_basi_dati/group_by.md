@@ -1,16 +1,20 @@
 ---
 id: group_by
-next: "pages/tecnologie_basi_dati/operatori_modifica.md"
-previous: "pages/tecnologie_basi_dati/join.md"
-tags: ["funzioni aggregate","group by ordinando","group by con hashing", "group by con indice"]
-aliases: 
+aliases: []
+tags:
+  - funzioni aggregate
+  - group by ordinando
+  - group by con hashing
+  - group by con indice
 index: 15
+next: pages/tecnologie_basi_dati/operatori_modifica.md
+previous: pages/tecnologie_basi_dati/join.md
 ---
 
 # Funzioni aggregate
 
  in caso di funzioni aggregate come
- 
+
 ```sql
 SELECT AVG(eta)
 FROM Sommelier S
@@ -40,16 +44,16 @@ e necessario partizionare i record e calcolare le funzioni di aggregazione per o
 
 ## Group by per mezzo di sorting
 
-Una delle possibilità e quella di sfruttare tecniche di ordinamento come quelle viste per la [proiezione](proiezione.md#proiettare%20[ordinando](tecnologie_basi_dati/sorting.md)), va sommato il costo di calcolo delle funzioni aggregate
+Una delle possibilità e quella di sfruttare tecniche di ordinamento come quelle viste per la [proiezione](pages/tecnologie_basi_dati/proiezione.md#proiettare%20[ordinando](pages/tecnologie_basi_dati/sorting.md)), va sommato il costo di calcolo delle funzioni aggregate
 
 ## Group by per mezzo di indici
 
 In caso di indici sugli attributi di group by e di calcolo delle funzioni non e necessario accedere al file dati
 
->[!TIP] in caso di [b+tree](tecnologie_basi_dati/b+tree.md) se gli attributi di raggruppamento sono un prefisso della chiave si può utilizzare l'indice per accedere al file dati in maniera ordinata
+>[!TIP] in caso di [b+tree](pages/tecnologie_basi_dati/b+tree.md) se gli attributi di raggruppamento sono un prefisso della chiave si può utilizzare l'indice per accedere al file dati in maniera ordinata
 
 ## Group by usando hashing
 
-Si costruisce una tabella di hash in memoria centrale in maniera analoga al caso della [proiezione](proiezione.md#proiettare%20usando%20hashing)
+Si costruisce una tabella di hash in memoria centrale in maniera analoga al caso della [proiezione](pages/tecnologie_basi_dati/proiezione.md#proiettare%20usando%20hashing)
 [PREVIOUS](pages/tecnologie_basi_dati/join.md)
 [NEXT](pages/tecnologie_basi_dati/operatori_modifica.md)

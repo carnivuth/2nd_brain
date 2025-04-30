@@ -1,16 +1,16 @@
 ---
 id: Indici hash
-next: "pages/tecnologie_basi_dati/transazioni.md"
-previous: "pages/tecnologie_basi_dati/GiST.md"
 aliases:
   - indici hash
 tags: []
 index: 7
+next: pages/tecnologie_basi_dati/transazioni.md
+previous: pages/tecnologie_basi_dati/GiST.md
 ---
 
 # Indici hash
 
-a differenza degli [Indici ordinati](indici.md#indici%20ordinati) gli indici hash non mantengono l'associazione `key -> RID` in maniera esplicita ma sfruttano una funzione hash
+a differenza degli [Indici ordinati](pages/tecnologie_basi_dati/indici.md#indici%20ordinati) gli indici hash non mantengono l'associazione `key -> RID` in maniera esplicita ma sfruttano una funzione hash
 
 ```mermaid
 flowchart LR
@@ -200,5 +200,5 @@ In questa modalità l'area di overflow viene gestita per mezzo del [Linear hashi
 Uno dei problemi del [Linear hashing](#Linear%20hashing) risiede nel fatto che la probabilità che dei bucket che non hanno subito uno split nella espansione corrente e' alta.
 
 L'idea alla base dello spiral hashing punta a concentrare i record nella prima sezione della primary area sfruttando una funzione esponenziale
-[PREVIOUS](pages/tecnologie_basi_dati/GiST.md)
+[PREVIOUS](pages/tecnologie_basi_dati/gist.md)
 [NEXT](pages/tecnologie_basi_dati/transazioni.md)

@@ -1,7 +1,5 @@
 ---
 id: join
-next: "pages/tecnologie_basi_dati/group_by.md"
-previous: "pages/tecnologie_basi_dati/proiezione.md"
 aliases: []
 tags:
   - indexed nested loop join
@@ -9,6 +7,8 @@ tags:
   - block nested loop join
   - merge-scan join
 index: 14
+next: pages/tecnologie_basi_dati/group_by.md
+previous: pages/tecnologie_basi_dati/proiezione.md
 ---
 
 # Join
@@ -27,7 +27,7 @@ Determinare la maniera più efficiente per rispondere non e banale in quanto l'o
 - ordinamento dei dati
 - quantità di buffers
 - possibilità di restituire i risultati
-> lasciamo perdere l'opzione di fare il prodotto cartesiano e applicare una [selezione](tecnologie_basi_dati/selezione.md).....
+> lasciamo perdere l'opzione di fare il prodotto cartesiano e applicare una [selezione](pages/tecnologie_basi_dati/selezione.md).....
 
 ## Nested loop join
 
@@ -92,9 +92,10 @@ A ~~~ central_memory ~~~ N
 
 ## Sfruttando gli indici: index nested loop join
 
-e possibile utilizzare un indice per accedere alla relazione interna, il costo dipende dal tipo di indice (*[b+tree](b+tree.md) oppure [indici_hash](tecnologie_basi_dati/indici_hash.md)*) e da se l'indice e clustered o meno
+e possibile utilizzare un indice per accedere alla relazione interna, il costo dipende dal tipo di indice (*[b+tree](pages/tecnologie_basi_dati/b+tree.md) oppure [indici_hash](pages/tecnologie_basi_dati/indici_hash.md)*) e da se l'indice e clustered o meno
 
-![image.png](../assets/image_1681899225713_0.png)
+
+![image.png](assets/image_1681899225713_0.png)
 
 >[!TIP]  si possono sfruttare operazioni di push down delle selezioni per alleggerire l'esecuzione di query di ricerca
 ```sql
@@ -142,7 +143,7 @@ Il costo  e la somma del numero di pagine di entrambe le relazioni $P(R)+P(S)$
 
 ## Hash join
 
-il vantaggio del [Merge-scan join](#Merge-scan%20join) è che viene ridotto il numero di confronti fra i record delle relazioni, lo stesso obbiettivo si può ottenere con una funzione di hash sui valor degli attributi di join, la strategia e quella vista per la [proiezione fatta con hashing](proiezione.md#proiettare%20usando%20hashing), mentre la fase di matching può essere realizzata per mezzo del [block nested loop join](#matching%20nel%20block%20nested%20loop%20join)
+il vantaggio del [Merge-scan join](#Merge-scan%20join) è che viene ridotto il numero di confronti fra i record delle relazioni, lo stesso obbiettivo si può ottenere con una funzione di hash sui valor degli attributi di join, la strategia e quella vista per la [proiezione fatta con hashing](pages/tecnologie_basi_dati/proiezione.md#proiettare%20usando%20hashing), mentre la fase di matching può essere realizzata per mezzo del [block nested loop join](#matching%20nel%20block%20nested%20loop%20join)
 
 >[!WARNING] sia hash join che merge scan join sono utilizzabili solo per equi join
 

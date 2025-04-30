@@ -1,10 +1,10 @@
 ---
 id: processi_computazionali
-next: "pages/linguaggi_modelli_computazionali/javascript.md"
-previous: "pages/linguaggi_modelli_computazionali/grammatiche_lrk.md"
 aliases: []
 tags: []
 index: 15
+next: pages/linguaggi_modelli_computazionali/javascript.md
+previous: pages/linguaggi_modelli_computazionali/grammatiche_lrk.md
 ---
 # Costrutti linguistici e processi computazionali
 
@@ -102,7 +102,7 @@ si ha quindi che le variabili di una chiusura devono mantenere **il tempo di vit
 
 #### Chiusura lessicale vs chiusura dinamica
 
-Se il linguaggio supporta le chiusure occorre definire quale sia [l'ambiente](linguaggi_modelli_computazionali/interpreti.md#environment) della funzione stessa in cui questo deve operare:
+Se il linguaggio supporta le chiusure occorre definire quale sia [l'ambiente](pages/linguaggi_modelli_computazionali/interpreti.md#environment) della funzione stessa in cui questo deve operare:
 
 - si ha una catena di ambienti definita dalla struttura del programma **CATENA LESSICALE**
 - e una catena di ambienti generata a run-time data dalla sequenza di chiamate della funzione **CATENA DINAMICA**

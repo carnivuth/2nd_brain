@@ -1,10 +1,10 @@
 ---
 id: JAVA_MESSAGE_SERVICE
-next: "pages/mobile_systems/discovery_messages_events/corba_messaging.md"
-previous: "pages/mobile_systems/discovery_messages_events/messaging.md"
 aliases: []
 tags: []
 index: 61
+next: pages/mobile_systems/discovery_messages_events/corba_messaging.md
+previous: pages/mobile_systems/discovery_messages_events/messaging.md
 ---
 
 # Java message service (jms)
@@ -37,7 +37,7 @@ D --> G
 E --> H
 ```
 
-## [Reliability](mobile_systems/discovery_messaging_events/messaging.md#reliability%20and%20qos) in JMS
+## [Reliability](pages/mobile_systems/discovery_messages_events/messaging.md#reliability%20and%20qos) in JMS
 
 Reliability is handled trough ACK messages that are given from the JMS broker to the publisher and from the consumer to the broker
 

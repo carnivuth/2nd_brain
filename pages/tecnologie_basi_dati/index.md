@@ -12,7 +12,7 @@ Appunti personali del corso di tecnologie e basi di dati dei professori Patella 
 - [migliorare la ricerca: indici](tecnologie_basi_dati/indici.md)
 - [b-tree](tecnologie_basi_dati/b-tree.md)
 - [b+tree](tecnologie_basi_dati/b+tree.md)
-- [implementare gli indici ad albero: GiST](tecnologie_basi_dati/gist.md)
+- [implementare gli indici ad albero: GiST](pages/tecnologie_basi_dati/gist.md)
 - [indici hash](tecnologie_basi_dati/indici_hash.md)
 
 ## Transazioni

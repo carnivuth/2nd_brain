@@ -1,10 +1,10 @@
 ---
 id: NO_INFRASTRUCTURE_POSITIONING_SYSTEMS
-next: "pages/mobile_systems/positioning_systems/active_bat.md"
-previous: "pages/mobile_systems/positioning_systems/global_positioning_system.md"
 aliases: []
 tags: []
 index: 21
+next: pages/mobile_systems/positioning_systems/active_bat.md
+previous: pages/mobile_systems/positioning_systems/global_positioning_system.md
 ---
 
 # No infrastructure positioning systems
@@ -20,7 +20,7 @@ There are possible techniques of positioning based on the GSM infrastructure:
 
 ## Bluetooth based positioning systems
 
-One possible solution is to exploits the limited range of Bluetooth devices and is low costs to implement a [proximity](mobile_systems/positioning_systems/base_techniques.md#proximity) based positioning system.
+One possible solution is to exploits the limited range of Bluetooth devices and is low costs to implement a [proximity](pages/mobile_systems/positioning_systems/base_techniques.md#proximity) based positioning system.
 
 One possible solution is to place Bluetooth devices at the point of interests (PoI) and devices can compute their position by connecting to a BT POI and computing the RSSI
 

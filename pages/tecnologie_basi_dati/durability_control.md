@@ -1,15 +1,18 @@
 ---
 id: durability_control
-next: "pages/tecnologie_basi_dati/operatori_relazionali.md"
-previous: "pages/tecnologie_basi_dati/transazioni.md"
-tags: ["transazioni","WAL","ARIES"]
-aliases: 
+aliases: []
+tags:
+  - transazioni
+  - WAL
+  - ARIES
 index: 9
+next: pages/tecnologie_basi_dati/operatori_relazionali.md
+previous: pages/tecnologie_basi_dati/transazioni.md
 ---
 
 # Garantire la durabilità di una transazione
 
-Per poter garantire le proprietà di [atomicità e durabilità](transazioni.md#transazioni) di una transazione e necessario garantire che gli effetti di una transazione sopravvivano a un crash del sistema:
+Per poter garantire le proprietà di [atomicità e durabilità](pages/tecnologie_basi_dati/transazioni.md#transazioni) di una transazione e necessario garantire che gli effetti di una transazione sopravvivano a un crash del sistema:
 
 I crash del sistema si dividono in 3 tipologie:
 
@@ -75,9 +78,9 @@ Nel momento in cui le modifiche registrate in un record di update vengono elimin
 
 Per far si che il log risulti efficace il DBMS per ogni operazione deve scrivere sul log **PRIMA** di salvare le modifiche di una pagina sul disco (*write-ahead logging*)
 
-La responsabilità di garantire il WAL e affidata al [buffer manager](struttura_database.md#struttura%20fisica)
+La responsabilità di garantire il WAL e affidata al [buffer manager](pages/tecnologie_basi_dati/struttura_database.md#struttura%20fisica)
 
-![image.png](../assets/image_1680172466593_0.png)
+![image.png](assets/image_1680172466593_0.png)
 
 ## Log e gestione dei fallimenti delle transazioni
 

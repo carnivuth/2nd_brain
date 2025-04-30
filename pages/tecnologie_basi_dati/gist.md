@@ -1,15 +1,18 @@
 ---
 id: GiST
-next: "pages/tecnologie_basi_dati/indici_hash.md"
-previous: "pages/tecnologie_basi_dati/b+tree.md"
-tags: ["implementazione r-tree","implementazione b+tree","GiST"]
-aliases: 
+aliases: []
+tags:
+  - implementazione r-tree
+  - implementazione b+tree
+  - GiST
 index: 6
+next: pages/tecnologie_basi_dati/indici_hash.md
+previous: pages/tecnologie_basi_dati/b+tree.md
 ---
 
-# Implementando i [b+tree](tecnologie_basi_dati/b+tree.md): gist
+# Implementando i [b+tree](pages/tecnologie_basi_dati/b+tree.md): gist
 
-Generalized search tree (*[GiST](https://en.wikipedia.org/wiki/GiST)*) e una struttura generalizzata per l'implementazione di indici, che se opportunamente istanziata puo comportarsi da diverse tipologie di albero ([b+tree](b+tree.md), [r-tree](tecnologie_basi_dati/r-tree.md))
+Generalized search tree (*[GiST](https://en.wikipedia.org/wiki/GiST)*) e una struttura generalizzata per l'implementazione di indici, che se opportunamente istanziata può comportarsi da diverse tipologie di albero ([b+tree](pages/tecnologie_basi_dati/b+tree.md), [r-tree](pages/tecnologie_basi_dati/r-tree.md))
 
 La specifica GiST modella le query come predicati e la risoluzione di una query come la ricerca nell'albero del predicato che la soddisfa
 
@@ -24,10 +27,10 @@ Le api della specifica si dividono in funzioni di chiave e funzioni d'albero, le
 - `compress(E)/decompress(E)` comprimono/decomprimono una entry
 - `penalty(E1,E2)` restituisce il costo di inserimento della entry `E1` nella entry `E2`, usata come metrica per determinare la politica di inserimento
 - `pickSplit` implementa il processo decisionale per determinare dove l'albero viene splittato
-
+pages/
 ## Funzioni d'albero
 
-- `search` implementa la ricerca dato un predicato, utilizza la funzione `consistent`, nel caso di un  [b+tree](tecnologie_basi_dati/b+tree.md) la ricerca termina con il raggiungimento della prima foglia e lo scorrimento della lista (*il dominio di un B+tree e totalmente ordinato*)
+- `search` implementa la ricerca dato un predicato, utilizza la funzione `consistent`, nel caso di un  [b+tree](pages/tecnologie_basi_dati/b+tree.md) la ricerca termina con il raggiungimento della prima foglia e lo scorrimento della lista (*il dominio di un B+tree e totalmente ordinato*)
 - `insert` inserisce un nodo nell'albero (*entra in gioco anche quando ci sono entry orfane*)
 - `chooseSubtree` sceglie il sottoalbero piu adatto per l'inserimento di una entry
 - `split` divide l'albero a seguito di un bilanciamento
