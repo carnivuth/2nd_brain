@@ -162,3 +162,5 @@ Un aspetto fondamentale per il tuning e la gestione delle transazioni in partico
 - **SQL server-side**: Spostare lato server quante più operazioni possibili, al fine di ridurre il flusso di comunicazione client-server
 
 a tal fine possono essere impiegati trigger o stored procedures
+[PREVIOUS](pages/tecnologie_basi_dati/ricerca_piano_accesso.md)
+[NEXT](pages/tecnologie_basi_dati/indici_multidimensionali.md)

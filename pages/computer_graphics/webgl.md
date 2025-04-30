@@ -215,3 +215,5 @@ void main( ) {.
 	gl_FragColor = color;
 }
 ```
+[PREVIOUS](pages/computer_graphics/xwindow_system.md)
+[NEXT](pages/computer_graphics/rendering_avanzato_webgl.md)

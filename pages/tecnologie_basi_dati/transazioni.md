@@ -192,3 +192,5 @@ I DBMS offrono la possibilità di determinare un livello di isolamento, diversi 
 ## Gestire la concorrenza con granularita
 
 Un DBMS dovrebbe essere in grado di gestire la concorrenza con diversi livelli di granularita, estendendo i meccanismi anche agli indici.
+[PREVIOUS](pages/tecnologie_basi_dati/indici_hash.md)
+[NEXT](pages/tecnologie_basi_dati/durability_control.md)

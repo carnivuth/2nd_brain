@@ -33,3 +33,5 @@ Se $L$ e un linguaggio di tipo 3 esiste un intero $N$ tale che per ogni stringa 
 Dove la componente centrale $y$ può essere ripetuta (*pompata*) per ottenere le altre frasi del linguaggio
 
 $$xy^iw \in L \forall i \geq 0$$
+[PREVIOUS](pages/linguaggi_modelli_computazionali/espressioni_regolari.md)
+[NEXT](pages/linguaggi_modelli_computazionali/rsf.md)

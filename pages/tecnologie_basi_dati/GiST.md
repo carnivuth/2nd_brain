@@ -34,3 +34,5 @@ Le api della specifica si dividono in funzioni di chiave e funzioni d'albero, le
 - `delete` elimina una entry dall'albero
 - `adjustKeys` aggiusta il valore delle chiavi dei nodi intermedi e controlla che il predicato dei figli corrisponda a quello del padre per mezzo di `union`
 - `condenseTree` effettua il reinserimento di entry orfane nell'albero
+[PREVIOUS](pages/tecnologie_basi_dati/b+tree.md)
+[NEXT](pages/tecnologie_basi_dati/indici_hash.md)

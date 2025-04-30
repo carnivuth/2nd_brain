@@ -63,3 +63,5 @@ $$
 ### Limitazioni di un b-tree
 
 Un B-tree risulta inefficente nelle ricerche a range in quanto le entry sono contenute anche nei nodi intermedi, per risolvere questo problema si introducono i B+tree
+[PREVIOUS](pages/tecnologie_basi_dati/indici.md)
+[NEXT](pages/tecnologie_basi_dati/b+tree.md)

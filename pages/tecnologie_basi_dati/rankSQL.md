@@ -28,3 +28,5 @@ Pensata come estensione per supportare le [Relazioni rank](#Relazione%20rank), i
 grazie all'operatore $\mu$ e possibile l'interleaving con altri operatori $\sigma(\mu(R_P))$
 
 ![](assets/tecnologie_basi_dati/Pasted%20image%2020250220160711.png)
+[PREVIOUS](pages/tecnologie_basi_dati/top_k_join_queries.md)
+[NEXT](pages/tecnologie_basi_dati/skyline_queries.md)

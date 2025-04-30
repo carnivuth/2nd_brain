@@ -125,3 +125,5 @@ $$
 ### Perché non eliminare sempre la ricorsione sinistra
 
 La ricorsione sinistra può essere sempre eliminata, tuttavia l'operazione comporta un **esplicito cambiamento delle regole che generano il linguaggio**, e di conseguenza della semantica delle frasi stesse
+[PREVIOUS](pages/linguaggi_modelli_computazionali/grammatiche_tipo_1.md)
+[NEXT](pages/linguaggi_modelli_computazionali/grammatiche_regolari.md)
