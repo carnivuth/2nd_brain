@@ -1,8 +1,9 @@
 ---
 id: <%tp.file.title%>
 tags: []
-aliases: 
-index:
+aliases:
+previous:
+next:
 ---
 
 # <%tp.file.title%>
