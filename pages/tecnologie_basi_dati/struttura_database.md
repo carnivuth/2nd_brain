@@ -1,5 +1,6 @@
 ---
 id: struttura database
+next: "pages/tecnologie_basi_dati/gestione_disco.md"
 tags: ["struttura fisica","struttura logica","ottimizzazione di accesso"]
 aliases: 
 index: 1
@@ -77,5 +78,3 @@ T_a = latency + \frac{data\space size}{transfer \space speed}
 $$
 
 Di conseguenza una grossa parte del lavoro dietro alla modellazione di un database risiede nell'**organizzazione dei dati nel disco in modo da ottimizzarne l'accesso**
-
- [NEXT](tecnologie_basi_dati/gestione_disco.md)

@@ -1,5 +1,7 @@
 ---
 id: TEXTURE_MAPPING
+next: "pages/computer_graphics/shadowing.md"
+previous: "pages/computer_graphics/illuminazione.md"
 aliases: []
 tags: []
 index: 8
@@ -82,5 +84,3 @@ Questa pratica consente di simulare meglio  i materiali, tuttavia e molto esosa 
 Il [solid texturing](#SOLID%20TEXTURING) trova il suo miglior impiego nella generazione di texture procedurali
 
 ![](assets/computer_graphics/Pasted%20image%2020250102155433.png)
-
-[PREVIOUS](pages/computer_graphics/illuminazione.md) [NEXT](pages/computer_graphics/shadowing.md)

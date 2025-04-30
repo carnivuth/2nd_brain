@@ -1,5 +1,6 @@
 ---
 id: trasformazioni
+next: "pages/sicurezza_informazione/funzioni_hash.md"
 aliases: []
 tags: []
 index: 1
@@ -131,5 +132,3 @@ Per rendere segreta una funzione si possono sfruttare diversi approcci:
 - segretare un parametro
 
 Segretare un parametro e la scelta vincente in quanto gli algoritmi di cifratura sono complessi e necessitano di essere condivisi dalle due parti e segretare la macchina e estremamente costoso si fa dunque uso di [chiavi](sicurezza_informazione/chiavi.md)
-
- [NEXT](sicurezza_informazione/funzioni_hash.md)

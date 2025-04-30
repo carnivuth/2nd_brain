@@ -1,5 +1,7 @@
 ---
 id: b-tree
+next: "pages/tecnologie_basi_dati/b+tree.md"
+previous: "pages/tecnologie_basi_dati/indici.md"
 tags: ["indici", "b-tree", "indici ordinati"]
 aliases: 
 index: 4
@@ -61,5 +63,3 @@ $$
 ### Limitazioni di un b-tree
 
 Un B-tree risulta inefficente nelle ricerche a range in quanto le entry sono contenute anche nei nodi intermedi, per risolvere questo problema si introducono i B+tree
-
-[PREVIOUS](tecnologie_basi_dati/indici.md) [NEXT](tecnologie_basi_dati/b+tree.md)

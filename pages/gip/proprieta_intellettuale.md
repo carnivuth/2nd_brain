@@ -1,5 +1,7 @@
 ---
 id: proprieta_intellettuale
+next: "pages/gip/strumenti_proprieta_intellettuale.md"
+previous: "pages/gip/technology_readiness_levels.md"
 aliases: []
 tags: []
 index: 5

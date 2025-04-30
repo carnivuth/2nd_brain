@@ -1,5 +1,7 @@
 ---
 id: funzioni_hash
+next: "pages/sicurezza_informazione/modalita_cifratura.md"
+previous: "pages/sicurezza_informazione/trasformazioni.md"
 aliases: []
 tags: []
 index: 2
@@ -133,5 +135,3 @@ Una possibile modalita per attaccare la resistenza debole e il seguente:
 - l'attaccante ha una firma valida per $M'$
 
 Per far si che l'attacco riesca, sono necessari $2^{n/2}$ tentativi
-
-[PREVIOUS](trasformazioni.md) [NEXT](sicurezza_informazione/modalita_cifratura.md)

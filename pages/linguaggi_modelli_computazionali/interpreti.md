@@ -1,5 +1,7 @@
 ---
 id: INTERPRETI
+next: "pages/linguaggi_modelli_computazionali/grammatiche_lrk.md"
+previous: "pages/linguaggi_modelli_computazionali/grammatiche_llk.md"
 aliases: []
 tags: []
 index: 13
@@ -310,5 +312,3 @@ interface ExpAssignVisitor extends Visitor {
 ```
 
 L'environment può essere realizzato sfruttando l'implementazione diretta delle mappe di java `Map<String,Integer>`
-
-[PREVIOUS](pages/linguaggi_modelli_computazionali/grammatiche_llk.md) [NEXT](pages/linguaggi_modelli_computazionali/grammatiche_lrk.md)

@@ -1,5 +1,7 @@
 ---
 id: selezione
+next: "pages/tecnologie_basi_dati/proiezione.md"
+previous: "pages/tecnologie_basi_dati/sorting.md"
 aliases: []
 tags:
   - selezione
@@ -80,5 +82,3 @@ Ogni tipo di predicato a effetti diversi sull'efficienza di una query, in partic
 | Riduzione Data I/O        | SI               | SI             | NO            | NO       |
 | Riduzione numero di tuple | SI               | SI             | SI            | NO       |
 | Riduzione output finale   | SI               | SI             | SI            | SI       |
-
-[PREVIOUS](tecnologie_basi_dati/sorting.md) [NEXT](tecnologie_basi_dati/proiezione.md)

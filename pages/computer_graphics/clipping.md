@@ -1,5 +1,7 @@
 ---
 id: CLIPPING
+next: "pages/computer_graphics/illuminazione.md"
+previous: "pages/computer_graphics/proiezione_prospettica.md"
 aliases: []
 tags: []
 index: 6
@@ -89,5 +91,3 @@ L'algoritmo puo essere generalizzato al 3D, dato il parallelepipedo di vista (*f
 Successivamente si effettua la [proiezione prospettica](pages/computer_graphics/proiezione_prospettica.md) e si procede al clipping rispetto alle altre facce
 
 ![](assets/computer_graphics/Pasted%20image%2020241217164353.png)
-
-[PREVIOUS](pages/computer_graphics/proiezione_prospettica.md) [NEXT](pages/computer_graphics/illuminazione.md)

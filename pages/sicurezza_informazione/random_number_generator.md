@@ -1,5 +1,6 @@
 ---
 id: random_number_generator
+next: "pages/sicurezza_informazione/trasformazioni.md"
 aliases: []
 tags: []
 ---
@@ -90,5 +91,3 @@ H --> G & F
 G --> F --> K
 end
 ```
-
- [NEXT](sicurezza_informazione/trasformazioni.md)

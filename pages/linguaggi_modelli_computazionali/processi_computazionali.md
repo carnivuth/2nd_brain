@@ -1,5 +1,7 @@
 ---
 id: processi_computazionali
+next: "pages/linguaggi_modelli_computazionali/javascript.md"
+previous: "pages/linguaggi_modelli_computazionali/grammatiche_lrk.md"
 aliases: []
 tags: []
 index: 15
@@ -226,5 +228,3 @@ object CallByName {
 	}
 }
 ```
-
-[PREVIOUS](pages/linguaggi_modelli_computazionali/grammatiche_lrk.md) [NEXT](pages/linguaggi_modelli_computazionali/javascript.md)

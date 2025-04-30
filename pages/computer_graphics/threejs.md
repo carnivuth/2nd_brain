@@ -1,5 +1,6 @@
 ---
 id: THREEJS
+previous: "pages/computer_graphics/rendering_avanzato_webgl.md"
 tags: []
 aliases:
 index: 15
@@ -65,5 +66,3 @@ const camera = new THREE.PerspectiveCamera(
 	1000  // far
 );
 ```
-
-[PREVIOUS](pages/computer_graphics/rendering_avanzato_webgl.md)

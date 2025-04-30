@@ -1,5 +1,7 @@
 ---
 id: modellazione_innovazione
+next: "pages/gip/prototipi.md"
+previous: "pages/gip/forme_innovazione.md"
 aliases: []
 tags: []
 index: 2

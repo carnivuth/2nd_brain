@@ -1,5 +1,7 @@
 ---
 id: GRAMMATICHE_LRK
+next: "pages/linguaggi_modelli_computazionali/processi_computazionali.md"
+previous: "pages/linguaggi_modelli_computazionali/interpreti.md"
 aliases: []
 tags: []
 index: 14
@@ -263,5 +265,3 @@ Un altra idea consiste nel accorpare assieme gli stati del parser $LR(1)$ identi
 - **PRO**: è una trasformazione sempre possibile, spesso molto conveniente perché il parser LALR ha molti meno stati dell'LR
 
 - **CONTRO**: possono apparire conflitti reduce/reduce, tipicamente gestibili.
-
-[PREVIOUS](pages/linguaggi_modelli_computazionali/interpreti.md) [NEXT](pages/linguaggi_modelli_computazionali/processi_computazionali.md)

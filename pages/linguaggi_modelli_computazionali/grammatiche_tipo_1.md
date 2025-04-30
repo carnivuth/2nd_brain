@@ -1,5 +1,7 @@
 ---
 id: GRAMMATICHE DI TIPO 1
+next: "pages/linguaggi_modelli_computazionali/grammatiche_tipo_2.md"
+previous: "pages/linguaggi_modelli_computazionali/grammatiche_tipo_0.md"
 aliases: []
 tags: []
 index: 5
@@ -14,5 +16,3 @@ $$
 $$
 \alpha \neq \epsilon
 $$
-
-[PREVIOUS](pages/linguaggi_modelli_computazionali/grammatiche_tipo_0.md) [NEXT](pages/linguaggi_modelli_computazionali/grammatiche_tipo_2.md)

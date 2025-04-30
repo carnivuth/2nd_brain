@@ -1,5 +1,7 @@
 ---
 id: linguaggi_blended
+next: "pages/linguaggi_modelli_computazionali/scala.md"
+previous: "pages/linguaggi_modelli_computazionali/lambda_calcolo.md"
 aliases: []
 tags: []
 index: 18
@@ -144,5 +146,3 @@ Questo rende si le classi ridefinibili dinamicamente ma riduce la leggibilità d
 ## "ALLEGGERIMENTI" ALLA SINTASSI
 
 Sia scala che kotlin consentono di omettere il separatore `;` quando ovvio, inoltre scala supporta il principio d'accesso uniforme e la quiet syntax (*bidonata alla python maniera*)
-
-[PREVIOUS](pages/linguaggi_modelli_computazionali/lambda_calcolo.md) [NEXT](pages/linguaggi_modelli_computazionali/scala.md)

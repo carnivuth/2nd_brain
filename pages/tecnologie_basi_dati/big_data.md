@@ -1,5 +1,6 @@
 ---
 id: big_data
+previous: "pages/tecnologie_basi_dati/skyline_queries.md"
 aliases: []
 tags: []
 index: 26
@@ -59,4 +60,3 @@ I nodi vengono assegnati al cluster in base a dove si trovano i dati in input in
 ## Map reduce, execution
 
 Al momento dell'esecuzione, il supporto runtime crea un processo **jobtracker** che a sua volta crea un certo numero di **tasktracker** distribuiti nei vari nodi del cluster
-[PREVIOUS](tecnologie_basi_dati/skyline_queries.md)

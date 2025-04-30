@@ -1,5 +1,7 @@
 ---
 id: diffie_hellman
+next: "pages/sicurezza_informazione/ipsec.md"
+previous: "pages/sicurezza_informazione/key_management.md"
 aliases: []
 tags: []
 index: 10
@@ -53,5 +55,3 @@ Con questa soluzione non e garantita l'identificazione delle parti, ma in caso d
 ## Variante ephemeral
 
 In questa variante viene utilizzata la firma digitale per mezzo di chiavi asimmetriche per garantire l' autenticità dei parametri scambiati, che vengono firmati con la suddetta chiave e inviati insieme al certificato della chiave pubblica, anche in questo caso non e possibile verificare l'identita dei mittenti ma **in caso di intrusione gli interlocutori non concordano lo stesso segreto**
-
-[PREVIOUS](key_management.md) [NEXT](sicurezza_informazione/ipsec.md)

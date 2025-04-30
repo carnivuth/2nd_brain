@@ -1,5 +1,7 @@
 ---
 id: gestione_disco
+next: "pages/tecnologie_basi_dati/indici.md"
+previous: "pages/tecnologie_basi_dati/struttura_database.md"
 aliases: []
 tags:
   - livello fisico
@@ -221,5 +223,3 @@ In questa tipologia di file i record sono ordinati in base a un dato attributo
 |               | $2$                                | $costofsearch +1$                          |
 | deletion      | $cost of search +1$                | $costofsearch +1$                          |
 | update        | $cost of search + 1$               | $costofsearch +1$                          |
-
-[PREVIOUS](tecnologie_basi_dati/struttura_database.md) [NEXT](tecnologie_basi_dati/indici.md)

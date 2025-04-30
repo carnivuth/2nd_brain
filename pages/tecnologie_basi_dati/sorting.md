@@ -1,5 +1,7 @@
 ---
 id: sorting
+next: "pages/tecnologie_basi_dati/selezione.md"
+previous: "pages/tecnologie_basi_dati/operatori_relazionali.md"
 aliases: []
 tags:
   - sort merge
@@ -88,5 +90,3 @@ Nel caso di ordinamento con [b+tree](tecnologie_basi_dati/b+tree.md) e necessari
 
 - se l'indice e clustered il costo e dato dal numero di foglie e di pagine del file dati (*costo $L+P$*)
 - se l'indice e un-clustered ogni record causa l'accesso al file dati (*costo $L+N$*), se gli attributi interessanti sono contenuti nell'indice si può evitare di accedere al file dati (*costo $L$*)
-
-[PREVIOUS](tecnologie_basi_dati/operatori_relazionali.md) [NEXT](tecnologie_basi_dati/selezione.md)

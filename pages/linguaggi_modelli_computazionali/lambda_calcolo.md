@@ -1,5 +1,7 @@
 ---
 id: lambda_calcolo
+next: "pages/linguaggi_modelli_computazionali/linguaggi_blended.md"
+previous: "pages/linguaggi_modelli_computazionali/javascript.md"
 aliases: []
 tags: []
 index: 17
@@ -259,5 +261,3 @@ console.log(Z(FactGen)(3))
 ## In conclusione
 
 Il lambda calcolo e un formalismo estremamente potente che ha permesso di formalizzare le funzionalità che oggi vantano i linguaggi mainstream ma non e pensato per essere utilizzato direttamente dagli utenti finali
-
-[PREVIOUS](pages/linguaggi_modelli_computazionali/javascript.md) [NEXT](pages/linguaggi_modelli_computazionali/linguaggi_blended.md)

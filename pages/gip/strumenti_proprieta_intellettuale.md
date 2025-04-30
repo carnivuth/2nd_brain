@@ -1,5 +1,6 @@
 ---
 id: strumenti_proprieta_intellettuale
+previous: "pages/gip/proprieta_intellettuale.md"
 aliases: []
 tags: []
 index: 6

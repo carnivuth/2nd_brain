@@ -1,5 +1,7 @@
 ---
 id: technology_readiness_levels
+next: "pages/gip/proprieta_intellettuale.md"
+previous: "pages/gip/prototipi.md"
 aliases: []
 tags: []
 index: 4

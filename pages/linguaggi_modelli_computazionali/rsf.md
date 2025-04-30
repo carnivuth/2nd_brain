@@ -1,5 +1,7 @@
 ---
 id: RICONOSCERE_LINGUAGGI_TIPO_3
+next: "pages/linguaggi_modelli_computazionali/pda.md"
+previous: "pages/linguaggi_modelli_computazionali/pumping_lemma.md"
 aliases:
   - RSF
 tags: []
@@ -54,5 +56,3 @@ Si puo ache esprimere come segue:
 > *l'automa dallo stato $C$ genera la stringa a e si sposta nello stato $A$*
 
 In questo modo si possono interpretare il grafo di un automa come produzioni di una grammatica
-
-[PREVIOUS](pages/linguaggi_modelli_computazionali/pumping_lemma.md) [NEXT](pages/linguaggi_modelli_computazionali/pda.md)

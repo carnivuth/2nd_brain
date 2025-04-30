@@ -1,5 +1,7 @@
 ---
 id: prototipi
+next: "pages/gip/technology_readiness_levels.md"
+previous: "pages/gip/modellazione_innovazione.md"
 aliases: []
 tags: []
 index: 3

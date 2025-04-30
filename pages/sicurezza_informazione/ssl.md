@@ -1,5 +1,7 @@
 ---
 id: SSL
+next: "pages/sicurezza_informazione/kerberos.md"
+previous: "pages/sicurezza_informazione/ipsec.md"
 aliases: []
 tags: []
 index: 12
@@ -97,5 +99,3 @@ A seconda della modalita di cifratura i peer si scambiano parametri diversi:
  Alla fine del protocollo di negoziazione i peer concordano un master secret che verrà utilizzato all'interno di una stessa sessione per le comunicazioni, dal master secret si derivano le chiavi utilizzate per ogni connessione
 
 >[!NOTE] SSL non garantisce il non ripudio dei messaggi  ma solo l'autenticazione del server (*client opzionale*)
-
-[PREVIOUS](ipsec.md) [NEXT](sicurezza_informazione/kerberos.md)

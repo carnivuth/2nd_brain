@@ -1,5 +1,7 @@
 ---
 id: kerberos
+next: "pages/sicurezza_informazione/pgp.md"
+previous: "pages/sicurezza_informazione/ssl.md"
 aliases: []
 tags: []
 index: 13
@@ -49,5 +51,3 @@ C ->> V: IDC || session ticket
 ## Domini multipli
 
 In caso di domini multipli gestiti da più TGS e AS si predispongono delle relazioni di fiducia tra i vari AS  basati su chiavi precondivise in modo da erogare il servizio a utenti diversi da quelli del proprio dominio
-
-[PREVIOUS](ssl.md) [NEXT](sicurezza_informazione/pgp.md)

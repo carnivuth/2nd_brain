@@ -1,5 +1,7 @@
 ---
 id: pgp
+next: "pages/sicurezza_informazione/blockchain.md"
+previous: "pages/sicurezza_informazione/kerberos.md"
 aliases: []
 tags: []
 index: 14
@@ -45,5 +47,3 @@ A ogni chiave e associato un livello di fiducia che può dipendere:
 - dall'intermediario che ha fornito la chiave
 
 E previsto inoltre un meccanismo di fiducia anche per i certificati mostrati dagli intermediari.
-
-[PREVIOUS](kerberos.md) [NEXT](sicurezza_informazione/blockchain.md)

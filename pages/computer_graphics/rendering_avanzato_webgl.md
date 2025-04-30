@@ -1,5 +1,7 @@
 ---
 id: RENDERING_AVANZATO_WEBGL
+next: "pages/computer_graphics/threejs.md"
+previous: "pages/computer_graphics/webgl.md"
 tags: []
 aliases:
 index: 14
@@ -94,5 +96,3 @@ gl.stencilFunc( gl.ALWAYS, 0x1, 0x1 );
 // operazione da applicare agli elementi che passano lo stencil test
 gl.stencilOp( gl.REPLACE, gl.REPLACE, gl.REPLACE );
 ```
-
-[PREVIOUS](pages/computer_graphics/webgl.md) [NEXT](pages/computer_graphics/threejs.md)

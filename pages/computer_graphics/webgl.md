@@ -1,5 +1,7 @@
 ---
 id: WEBGL
+next: "pages/computer_graphics/rendering_avanzato_webgl.md"
+previous: "pages/computer_graphics/xwindow_system.md"
 aliases: []
 tags: []
 index: 13
@@ -213,5 +215,3 @@ void main( ) {.
 	gl_FragColor = color;
 }
 ```
-
-[PREVIOUS](pages/computer_graphics/xwindow_system.md) [NEXT](pages/computer_graphics/rendering_avanzato_webgl.md)

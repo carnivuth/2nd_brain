@@ -1,5 +1,7 @@
 ---
 id: protocollo_wep
+next: "pages/sicurezza_informazione/chiavi.md"
+previous: "pages/sicurezza_informazione/cifrari_simmetrici.md"
 aliases: []
 tags: []
 index: 5
@@ -36,5 +38,3 @@ J & B --> G --> I --> L
 Questo protocollo soffre del problema di [riutilizzo della chiave](cifrari_simmetrici.md#riutilizzo%20delle%20chiavi) in quanto essa risulta essere la composizione di una parte statica e una dinamica che tuttavia si esaurisce in contesti di comunicazione molto pesanti (*e.g. molti byte da trasferire, comunicazioni wireless*)
 
 Inoltre il cifrario utilizzato risulta **malleabile**, l'attaccante  e in grado di manipolare il testo cifrato in modo tale che in fase di decifrazione la destinazione ottenga un testo voluto dall'attaccante
-
-[PREVIOUS](cifrari_simmetrici.md) [NEXT](sicurezza_informazione/chiavi.md)

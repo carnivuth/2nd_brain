@@ -1,5 +1,7 @@
 ---
 id: HTML5
+next: "pages/computer_graphics/xwindow_system.md"
+previous: "pages/computer_graphics/mesh_poligonali.md"
 tags: ["canvas","webgl context"]
 aliases:
 index: 11
@@ -91,5 +93,3 @@ La dimensione dell'elemento canvas non e la stessa della dimensione dell'area di
 >[!ERROR] Se il canvas è più piccolo della superficie di disegno, punti a coordinate differenti potrebbero essere visualizzati come lo stesso pixel;
 
 >[!ERROR] Se invece il canvas è più grande della superficie di disegno, il disegno di un punto potrebbe essere reso come più pixel.
-
-[PREVIOUS](pages/computer_graphics/mesh_poligonali.md) [NEXT](pages/computer_graphics/xwindow_system.md)

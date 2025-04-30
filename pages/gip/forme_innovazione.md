@@ -1,5 +1,6 @@
 ---
 id: forme_di_innovazione
+next: "pages/gip/modellazione_innovazione.md"
 aliases: []
 tags: []
 index: 1

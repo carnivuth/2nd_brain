@@ -1,5 +1,7 @@
 ---
 id: ottimizzazione_interrogazioni
+next: "pages/tecnologie_basi_dati/ricerca_piano_accesso.md"
+previous: "pages/tecnologie_basi_dati/operatori_modifica.md"
 aliases: []
 tags:
   - ottimizzazione delle interrogazioni
@@ -127,5 +129,3 @@ reset():
 close():
 	# termina e rilascia le risorse
 ```
-
-[PREVIOUS](tecnologie_basi_dati/operatori_modifica.md) [NEXT](tecnologie_basi_dati/ricerca_piano_accesso.md)

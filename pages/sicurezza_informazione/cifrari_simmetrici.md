@@ -1,5 +1,7 @@
 ---
 id: cifrari_simmetrici
+next: "pages/sicurezza_informazione/protocollo_wep.md"
+previous: "pages/sicurezza_informazione/modalita_cifratura.md"
 aliases: []
 tags: []
 index: 4
@@ -227,5 +229,3 @@ Una delle prime implementazioni della rete di Festel e DES, prevede 16 iterazion
 ### Aes
 
 Algoritmo di cifratura a blocchi standard del settore, utilizza operazioni di sostituzione e trasposizione ma non si rifa alla rete di festel
-
-[PREVIOUS](modalita_cifratura.md) [NEXT](sicurezza_informazione/protocollo_wep.md)

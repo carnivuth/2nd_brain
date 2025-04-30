@@ -1,5 +1,7 @@
 ---
 id: proiezione
+next: "pages/tecnologie_basi_dati/join.md"
+previous: "pages/tecnologie_basi_dati/selezione.md"
 tags: ["proiezione con sorting","proiezione con hashing"]
 aliases: 
 index: 13
@@ -68,5 +70,3 @@ La tecnica basata su sorting risulta migliore nel caso in cui i valori risultino
 Questa modalità necessita che tutte le chiavi da restituire in output **siano contenuti nell'indice**, le tecniche sono le precedenti ma si attuano sull'indice e non sul file dati
 
 >[!TIP] in caso di indice [b+tree](tecnologie_basi_dati/b+tree.md) se gli attributi sono un prefisso della chiave basta scandire le foglie eliminando i duplicati con costo $L$
-
-[PREVIOUS](tecnologie_basi_dati/selezione.md) [NEXT](tecnologie_basi_dati/join.md)

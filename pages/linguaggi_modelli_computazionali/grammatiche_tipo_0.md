@@ -1,5 +1,7 @@
 ---
 id: GRAMMATICHE DI TIPO 0
+next: "pages/linguaggi_modelli_computazionali/grammatiche_tipo_1.md"
+previous: "pages/linguaggi_modelli_computazionali/classificazione_chomsky.md"
 aliases: []
 tags: []
 index: 4
@@ -26,5 +28,3 @@ $$
 ## Rami di derivazione morti
 
 nelle grammatiche di Tipo 0 è possibile arrivare a una **stringa in cui non è possibile applicare altre produzioni**, in questo caso si parla di ramo di derivazione morto
-
-[PREVIOUS](pages/linguaggi_modelli_computazionali/classificazione_chomsky.md) [NEXT](pages/linguaggi_modelli_computazionali/grammatiche_tipo_1.md)

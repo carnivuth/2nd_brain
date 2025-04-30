@@ -1,5 +1,7 @@
 ---
 id: operatori_relazionali
+next: "pages/tecnologie_basi_dati/sorting.md"
+previous: "pages/tecnologie_basi_dati/durability_control.md"
 tags: ["operatori relazionali","operatori logici", "operatori fisici"]
 aliases: 
 index: 10
@@ -46,5 +48,3 @@ Per poter stimare il costo di un operatore si prendono in considerazione i segue
 - $TP(R)$ = numero di tuple per pagina
 - $B$ = numero di pagine buffer a disposizione per l'operatore
 - $L(IX)$ = numero di pagine foglia dell’indice $IX$
-
-[PREVIOUS](tecnologie_basi_dati/durability_control.md) [NEXT](tecnologie_basi_dati/sorting.md)

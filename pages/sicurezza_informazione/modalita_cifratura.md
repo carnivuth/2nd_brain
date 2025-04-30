@@ -1,5 +1,7 @@
 ---
 id: modalita_cifratura
+next: "pages/sicurezza_informazione/cifrari_simmetrici.md"
+previous: "pages/sicurezza_informazione/funzioni_hash.md"
 aliases: []
 tags: []
 index: 3
@@ -124,5 +126,3 @@ m_i \oplus m_j = c_i \oplus c_j
 $$
 
 Per evitare questa vulnerabilità la chiave deve essere cambiata dopo  $2^{\frac{N}{2}}$
-
-[PREVIOUS](funzioni_hash.md) [NEXT](sicurezza_informazione/cifrari_simmetrici.md)

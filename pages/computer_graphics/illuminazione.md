@@ -1,5 +1,7 @@
 ---
 id: ILLUMINAZIONE
+next: "pages/computer_graphics/texture_mapping.md"
+previous: "pages/computer_graphics/clipping.md"
 aliases: []
 tags:
   - modello di phong
@@ -109,5 +111,3 @@ C[si rinormalizza]
 D[si applica il modello di illuminazione alla nuova normale]
 A --> B --> C --> D
 ```
-
-[PREVIOUS](pages/computer_graphics/clipping.md) [NEXT](pages/computer_graphics/texture_mapping.md)

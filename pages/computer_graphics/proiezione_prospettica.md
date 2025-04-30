@@ -1,5 +1,7 @@
 ---
 id: PROIEZIONE_PROSPETTICA
+next: "pages/computer_graphics/clipping.md"
+previous: "pages/computer_graphics/algoritmi_rasterizzazione.md"
 aliases: []
 tags: []
 index: 5
@@ -60,5 +62,3 @@ $$
 Si ottiene il seguente spazio
 
 ![](assets/computer_graphics/Pasted%20image%2020241217130133.png)
-
-[PREVIOUS](pages/computer_graphics/algoritmi_rasterizzazione.md) [NEXT](pages/computer_graphics/clipping.md)

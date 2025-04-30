@@ -1,5 +1,7 @@
 ---
 id: key_management
+next: "pages/sicurezza_informazione/diffie_hellman.md"
+previous: "pages/sicurezza_informazione/rsa.md"
 aliases: []
 tags: []
 index: 9

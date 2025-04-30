@@ -1,5 +1,7 @@
 ---
 id: rankSQL
+next: "pages/tecnologie_basi_dati/skyline_queries.md"
+previous: "pages/tecnologie_basi_dati/top_k_join_queries.md"
 aliases: []
 tags: []
 index: 24
@@ -26,5 +28,3 @@ Pensata come estensione per supportare le [Relazioni rank](#Relazione%20rank), i
 grazie all'operatore $\mu$ e possibile l'interleaving con altri operatori $\sigma(\mu(R_P))$
 
 ![](assets/tecnologie_basi_dati/Pasted%20image%2020250220160711.png)
-
-[PREVIOUS](tecnologie_basi_dati/top_k_join_queries.md) [NEXT](tecnologie_basi_dati/skyline_queries.md)

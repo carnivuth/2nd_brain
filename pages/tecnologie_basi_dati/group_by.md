@@ -1,5 +1,7 @@
 ---
 id: group_by
+next: "pages/tecnologie_basi_dati/operatori_modifica.md"
+previous: "pages/tecnologie_basi_dati/join.md"
 tags: ["funzioni aggregate","group by ordinando","group by con hashing", "group by con indice"]
 aliases: 
 index: 15
@@ -49,5 +51,3 @@ In caso di indici sugli attributi di group by e di calcolo delle funzioni non e 
 ## Group by usando hashing
 
 Si costruisce una tabella di hash in memoria centrale in maniera analoga al caso della [proiezione](proiezione.md#proiettare%20usando%20hashing)
-
-[PREVIOUS](tecnologie_basi_dati/join.md) [NEXT](tecnologie_basi_dati/operatori_modifica.md)

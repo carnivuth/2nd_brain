@@ -1,5 +1,7 @@
 ---
 id: chiavi
+next: "pages/sicurezza_informazione/cifrari_asimmetrici.md"
+previous: "pages/sicurezza_informazione/protocollo_wep.md"
 aliases: []
 tags: []
 index: 6
@@ -114,5 +116,3 @@ E -->I
 ```
 
 In questo schema la chiave viene generata per mezzo di un RNG, cifrata per mezzo della hash della passphrase e salvata in memoria, in fase di cifratura questa viene decifrata e utilizzata
-
-[PREVIOUS](protocollo_wep.md) [NEXT](sicurezza_informazione/cifrari_asimmetrici.md)

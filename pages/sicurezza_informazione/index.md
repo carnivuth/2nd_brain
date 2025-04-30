@@ -1,5 +1,6 @@
 # Sicurezza dell'informazione
 
+next: "pages/sicurezza_informazione/trasformazioni.md"
 Appunti personali sul corso di sicurezza dell'informazione della professoressa Montanari Rebecca.
 
 pubblico questo contenuto con la speranza possa essere di aiuto, non esitate a aprire una issue sulla repository se volete contribuire ho trovate imprecisioni.
