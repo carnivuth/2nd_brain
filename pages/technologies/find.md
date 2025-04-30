@@ -44,3 +44,4 @@ find . -not -regex 'REGEX'
 ```bash
 find . -name 'REGEX'
 ```
+[<](pages/tecnologie_basi_dati/b+tree.md) [>](pages/tecnologie_basi_dati/indici_hash.md)

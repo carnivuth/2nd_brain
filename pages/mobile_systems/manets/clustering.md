@@ -41,3 +41,4 @@ there are several ways to elect a **clusterhead**
 creating optimal clusters is an np-complete problem so forget about optimal clustering and in a Manet situation where nodes are highly mobile there is no certain that a cluster will not become sub-optimal in the long run.
 
 Clusterhead plays a delicate role in a cluster, the role is suitable for less mobile nodes, with less energy restrictions
+[<](pages/mobile_systems/manets/temporary_ordered_routing_algorithm.md) [>](pages/mobile_systems/positioning_systems/base_techniques.md)

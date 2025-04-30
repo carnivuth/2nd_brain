@@ -51,3 +51,4 @@ fi
 ```
 
 Now man can be browsed with vim keybindings and for quick oneliners the `tldr` command can be used
+[<](pages/tecnologie_basi_dati/b+tree.md) [>](pages/tecnologie_basi_dati/indici_hash.md)

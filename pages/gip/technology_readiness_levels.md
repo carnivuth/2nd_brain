@@ -26,5 +26,4 @@ si costituisce di 9 livelli:
  - **TRL 9** dimostrazione di funzionamento completa in ambiente operativo reale
 
 >[!NOTE] TRL 1 identifica le prime fasi di sperimentazione mentre TRL 9 rappresenta il target dove vengono rilasciati i primi prodotti
-[PREVIOUS](pages/gip/prototipi.md)
-[NEXT](pages/gip/proprieta_intellettuale.md)
+[<](pages/gip/prototipi.md) [>](pages/gip/proprieta_intellettuale.md)

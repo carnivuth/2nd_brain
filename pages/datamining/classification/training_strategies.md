@@ -45,6 +45,4 @@ the training set is partitioned in $k$ subsets, than the **model is trained with
 ### Cons
 
 - train test loop repeated $k$ times
-
-
-[PREVIOUS](pages/datamining/classification/classification.md) [NEXT](pages/datamining/classification/performance_of_a_classifier.md)
+[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)

@@ -48,3 +48,4 @@ Other types of patterns specific for mobile nodes are
 - [COMMUNICATION_PATTERNS](pages/mobile_systems/mobile_middleware/communication_patterns.md)
 - [RESOURCE_MANAGEMENT_PATTERNS](pages/mobile_systems/mobile_middleware/resource_management_patterns.md)
 - [DISTRIBUTION_PATTERNS](pages/mobile_systems/mobile_middleware/distribution_patterns.md)
+[<](pages/mobile_systems/mobile_middleware/mobile_middleware_principles.md) [>](pages/mobile_systems/mobile_middleware/distribution_patterns.md)

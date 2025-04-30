@@ -68,6 +68,4 @@ silhouette is a lot expensive to compute due to it's nature
 The concept is similar to the ones used to test [classification](pages/datamining/classification/classification.md#classification_workflow), there is a known partition of the dataset similar to the data to be clustered called **gold standard** and a labeling scheme $y_{g}(.)$
 
 $y_{g}(.)$ acts as a test set but for clustering so we can compare a clustering scheme to it and gain information about the quality of the clustering
-
-
-[PREVIOUS](pages/datamining/clustering/clustering.md) [NEXT](pages/datamining/clustering/k-means.md)
+[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)

@@ -88,5 +88,4 @@ L_G = \{ s \in VT^{*}: S\Rightarrow s\}
 $$
 
 quando due grammatiche producono lo stesso linguaggio si dice che sono equivalenti, stabilire se due grammatiche sono equivalenti e un problema indecidibile, inoltre **grammatiche diverse ma equivalenti potrebbero necessitare di riconoscitori diversi**
-[PREVIOUS](pages/linguaggi_modelli_computazionali/computabilita.md)
-[NEXT](pages/linguaggi_modelli_computazionali/classificazione_chomsky.md)
+[<](pages/linguaggi_modelli_computazionali/computabilita.md) [>](pages/linguaggi_modelli_computazionali/classificazione_chomsky.md)

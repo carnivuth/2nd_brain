@@ -251,5 +251,4 @@ Personal mathjax symbols reference
 | \\( \overleftrightarrow{xy} \\) | `\overleftrightarrow{xy}` |
 | \\( \dot{x} \\)                 | `\dot{x}`                 |
 | \\( \ddot{x} \\)                | `\ddot{x}`                |
-
-
+[<](pages/tecnologie_basi_dati/b+tree.md) [>](pages/tecnologie_basi_dati/indici_hash.md)

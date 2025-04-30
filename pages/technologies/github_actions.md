@@ -94,3 +94,4 @@ Action can require certain permission to operate inside the repository
       contents: write
 # -------
 ```
+[<](pages/tecnologie_basi_dati/b+tree.md) [>](pages/tecnologie_basi_dati/indici_hash.md)

@@ -53,3 +53,4 @@ At test time, averaging predictions (*i.e. softmax*) across 10 patches (*central
 | Data Augmentation     | Colour Jittering, Random Crop,Horizontal Flip                                   |
 | InitializationWeights | $~N(0,0.01)$, Biases: 1 (*conv2,conv4,conv5, fc6,fc7,fc8*) or 0 (*conv1,conv3*) |
 | Normalization         | Centering (Subtraction of the Mean RGB colour in the training set)              |
+[<](pages/computer_vision/machine_learning_cv/lenet.md) [>](pages/computer_vision/machine_learning_cv/vgg.md)

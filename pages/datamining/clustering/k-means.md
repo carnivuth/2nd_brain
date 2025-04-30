@@ -104,5 +104,4 @@ $$
 - it is very sensitive to outliers
 - does not deal with noise
 - does not deal properly with non convex clusters
-
-[PREVIOUS](pages/datamining/clustering/clustering_scheme_evaluation.md) [NEXT](pages/datamining/clustering/hierarchical_clustering.md)
+[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)

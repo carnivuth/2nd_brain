@@ -62,3 +62,4 @@ To backup keys in a text based format run
 ```bash
 gpg --output backupkeys.pgp --armor --export-secret-keys --export-options export-backup [gpg_id]
 ```
+[<](pages/tecnologie_basi_dati/b+tree.md) [>](pages/tecnologie_basi_dati/indici_hash.md)

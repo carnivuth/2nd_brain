@@ -58,3 +58,4 @@ C((MH))
 D((CH))
 D --> A --> B --> C --> B --> A --> D
 ```
+[<](pages/mobile_systems/mobility/host_identity_protocol.md) [>](pages/mobile_systems/mobility/hierarchical_mobile_ipv6.md)

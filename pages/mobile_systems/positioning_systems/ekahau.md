@@ -16,3 +16,4 @@ One of the improvements over [RADAR](pages/mobile_systems/positioning_systems/ra
 ![](assets/mobile_systems/Pasted%20image%2020240609160620.png)
 
 In the ekahau solution nodes ask to be located at the central server
+[<](pages/mobile_systems/positioning_systems/radar.md) [>](pages/mobile_systems/positioning_systems/multiple_positioning_systems_solutions.md)

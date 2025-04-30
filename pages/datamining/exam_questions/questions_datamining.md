@@ -166,3 +166,4 @@
 - The data must be accurately structured, in order to provide fast answers to complex queries
 - **The storage must be scalable and cheap, at the expenses of latency**
 - Ensure high quality of data through an accurate cleaning and transformation step
+[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)

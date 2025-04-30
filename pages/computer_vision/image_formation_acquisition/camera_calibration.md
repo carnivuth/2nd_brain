@@ -28,3 +28,4 @@ C --> D
 ```
 
 One of the most used methods it's the [zhang's method](pages/computer_vision/image_formation_acquisition/zhang_method.md)
+[<](pages/computer_vision/image_formation_acquisition/homography.md) [>](pages/computer_vision/image_formation_acquisition/zhang_method.md)

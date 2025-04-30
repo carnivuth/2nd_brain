@@ -57,6 +57,4 @@ index: 4
 | PROS                                                     | CONS                 |
 |----------------------------------------------------------|----------------------|
 | more logical separation between the problem's management | more data redundancy |
-
-
-[PREVIOUS](pages/datamining/datamining_process/data_lakes.md) [NEXT](pages/datamining/datamining_process/conceptual_modeling.md)
+[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)

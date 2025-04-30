@@ -75,3 +75,4 @@ end
 |----|----|
 |decoupling between subject and observer|not to much scalable since a single node as the responsibility for communication|
 |one to many communication support by design||
+[<](pages/mobile_systems/mobile_middleware/patterns.md) [>](pages/mobile_systems/mobile_middleware/resource_management_patterns.md)

@@ -31,3 +31,4 @@ $$
 This solution needs to filter out the noise, this is done through convolution with Gaussian function
 
 $$\overset{\sim}I(x,y) = I(x,y)\ast G(x,y)$$
+[<](pages/computer_vision/local_features/canny_edge_detector.md) [>](pages/computer_vision/local_features/moravec_corner_detector.md)

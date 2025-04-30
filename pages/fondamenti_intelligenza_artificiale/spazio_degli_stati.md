@@ -4,4 +4,4 @@
 - #####insieme  di azioni
 	- insieme delle azioni da intraprendere
 - #####cammino
-	- sequenza di azioni che conduce da uno stato a un altro
+[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)

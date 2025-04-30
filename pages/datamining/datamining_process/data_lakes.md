@@ -74,5 +74,4 @@ advanced features like:
 - Unified batch and streaming source and sink.
 - Schema enforcement and evolution.
 - DBMS-like operations: updates, deletes, inserts, upserts (insert, on conflict update).
-
-[PREVIOUS](pages/datamining/datamining_process/olap.md) [NEXT](pages/datamining/datamining_process/data_warehouse_architectures.md)
+[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)

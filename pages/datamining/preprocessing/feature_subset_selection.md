@@ -32,6 +32,4 @@ the process of selecting a subset of attributes from the dataset, it could be us
 here a possible architecture for feature subset selection:
 
 ![](assets/datamining/Pasted_image_20240104203716.png)
-
-
-[PREVIOUS](pages/datamining/preprocessing/distances.md) [NEXT](pages/datamining/preprocessing/dimensionality_reduction.md)
+[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)

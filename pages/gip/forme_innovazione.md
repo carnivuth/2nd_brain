@@ -86,4 +86,4 @@ ci sono diversi fattori che determinano la **velocità di diffusione** di un'inn
 - l'esistenza di **leggi restrittive**
 - **Dinamiche di competizione**
 - **Capacita di gestione dello sviluppo del prodotto**
-[NEXT](pages/gip/modellazione_innovazione.md)
+[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md) [>](pages/gip/modellazione_innovazione.md)

@@ -512,4 +512,4 @@ class MyGrammar extends JavaTokenParsers {
 ```
 
 In caso di grammatiche [ll(1)](pages/linguaggi_modelli_computazionali/grammatiche_llk.md#grammatiche%20$ll(k)$) la libreria genera comunque un parser in grado di fare backtracking, per evitare l'inefficienza e utile specificare che non e necessario supportarlo con l'operatore `!`
-[PREVIOUS](pages/linguaggi_modelli_computazionali/linguaggi_blended.md)
+[<](pages/linguaggi_modelli_computazionali/linguaggi_blended.md)

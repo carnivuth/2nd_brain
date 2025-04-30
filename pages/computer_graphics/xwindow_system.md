@@ -35,5 +35,4 @@ Il protocollo x prevede 3 tipi di messaggi:
 - **richieste** (*client -> server*) effettuate per accedere alle risorse, asincrone (*dispatch*)
 - **risposte** (*server -> client*) ottenute dal server in seguito a una richiesta
 - **eventi** (*server -> client*) il server notifica i client in maniera asincrona e proattiva
-[PREVIOUS](pages/computer_graphics/html5.md)
-[NEXT](pages/computer_graphics/webgl.md)
+[<](pages/computer_graphics/html5.md) [>](pages/computer_graphics/webgl.md)

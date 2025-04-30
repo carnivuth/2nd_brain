@@ -43,4 +43,4 @@
 					- se tutti i nodi sono ordinati per posizionare per primi i nodi migliori si passa da b^d a b^(d/2)
 					- l'albero può essere esplorato fino al doppio della profondità
 -
--
+[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)

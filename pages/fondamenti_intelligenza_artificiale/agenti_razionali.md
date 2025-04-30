@@ -49,4 +49,4 @@ La ricerca di una soluzione viene eseguita per mezzo di algoritmi di ricerca
 		- ipotesi molto forti e semplificative poco applicabili alla realta
 	- PROBLEMA A STATI MULTIPLI
 		- lo stato non è completamente noto all'agente a priori
-		- l'effetto delle azioni non è noto a priori
+[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)

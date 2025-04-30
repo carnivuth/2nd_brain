@@ -59,5 +59,4 @@ transformation that turns continuous domains into discrete ones, there are many 
 ### Numeric to k values conversion
 
 Number are discretized in a series of values from $0$ to $k-1$
-
-[PREVIOUS](pages/datamining/preprocessing/data_preprocessing.md) [NEXT](pages/datamining/preprocessing/similarity_and_dissimilarity.md)
+[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)

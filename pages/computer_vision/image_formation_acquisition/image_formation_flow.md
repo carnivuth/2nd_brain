@@ -25,3 +25,4 @@ A --> B
 B --> C
 C --> D
 ```
+[<](pages/computer_vision/image_formation_acquisition/camera_parameters.md) [>](pages/computer_vision/image_formation_acquisition/sensors.md) [>](pages/computer_vision/image_formation_acquisition/perspective_projection.md)

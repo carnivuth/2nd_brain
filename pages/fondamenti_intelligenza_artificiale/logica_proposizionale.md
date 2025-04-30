@@ -44,4 +44,4 @@
 			- la strategia **non è completa**
 			- ![image.png](../assets/image_1682582637711_0.png)
 		-
-	- [[CLAUSOLE DI HORN]]
+[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)

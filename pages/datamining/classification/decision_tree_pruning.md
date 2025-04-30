@@ -28,5 +28,4 @@ $$
 ## After pruning
 
 ![](assets/datamining/Pasted_image_20231230175803.png)
-
-[PREVIOUS](pages/datamining/classification/decision_trees.md) [NEXT](pages/datamining/classification/regression.md)
+[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)

@@ -97,3 +97,4 @@ systemctl enable --now kubelet
 ```
 
 then join the kluster using `kubeadm join` command
+[<](pages/tecnologie_basi_dati/b+tree.md) [>](pages/tecnologie_basi_dati/indici_hash.md)

@@ -119,6 +119,4 @@ the split is like the one of the [GINI INDEX](#gini%20index)
 $$
 ME(p) = 1 - max_{j}(f_{pj})
 $$
-
-
-[PREVIOUS](pages/datamining/classification/performance_of_a_classifier.md) [NEXT](pages/datamining/classification/decision_tree_pruning.md)
+[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)

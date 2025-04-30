@@ -41,5 +41,4 @@ $$
 Boundaries on the curve $z$ depends on the desired confidence level $\alpha$
 
 ![](assets/datamining/Pasted_image_20231230173630.png)
-
-[NEXT](pages/datamining/classification/classification.md)
+[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)

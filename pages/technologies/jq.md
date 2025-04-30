@@ -27,3 +27,4 @@ Personal `jq` expression language reference
 jq -c '.[]' input.json | while read i; do
 done
 ```
+[<](pages/tecnologie_basi_dati/b+tree.md) [>](pages/tecnologie_basi_dati/indici_hash.md)

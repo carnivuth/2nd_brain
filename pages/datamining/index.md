@@ -70,3 +70,4 @@ Personal notes on datamining and machine learning course of professor Sartori Cl
 
 - [questions machine learning](pages/datamining/questions_machine_learning.md)
 - [questions datamining](pages/datamining/questions_datamining.md)
+[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)

@@ -26,3 +26,4 @@ The main components of PHMIP are:
 - **Home Network Prefix** prefix assigned to mobile nodes from LMA
 
 ![](assets/mobile_systems/Pasted%20image%2020240608155305.png)
+[<](pages/mobile_systems/mobility/hierarchical_mobile_ipv6.md) [>](pages/mobile_systems/mobility/i_tcp.md)

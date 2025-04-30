@@ -200,5 +200,4 @@ In questa modalità l'area di overflow viene gestita per mezzo del [Linear hashi
 Uno dei problemi del [Linear hashing](#Linear%20hashing) risiede nel fatto che la probabilità che dei bucket che non hanno subito uno split nella espansione corrente e' alta.
 
 L'idea alla base dello spiral hashing punta a concentrare i record nella prima sezione della primary area sfruttando una funzione esponenziale
-[PREVIOUS](pages/tecnologie_basi_dati/gist.md)
-[NEXT](pages/tecnologie_basi_dati/transazioni.md)
+[<](pages/tecnologie_basi_dati/b-tree.md) [>](pages/tecnologie_basi_dati/transazioni.md)

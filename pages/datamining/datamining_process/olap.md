@@ -125,5 +125,4 @@ Each approach is more suitable for certain types of data:
 #### Update
 
 - only changes on source are applied to the DWH existent data are not canceled or modified
-
-[PREVIOUS](pages/datamining/datamining_process/business_intelligence_and_data_warehouse.md) [NEXT](pages/datamining/datamining_process/data_lakes.md)
+[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)

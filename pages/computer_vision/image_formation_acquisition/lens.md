@@ -51,3 +51,4 @@ $$
 points before or after the focusing plane will appear in circles called circles of confusion
 
 ![](assets/computer_vision/Pasted_image_20240221202723.png)
+[<](pages/computer_vision/image_formation_acquisition/sensors.md) [>](pages/computer_vision/image_formation_acquisition/lens_distortion.md)

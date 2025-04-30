@@ -36,5 +36,4 @@ Probabilità e Densità si differenziano :
 	- Su domini continui la probabilità che una variabile assuma esattamente un valore è 0
 	- La densità si può assumere come la probabilità che la variabile assuma un valore nell'intorno della soglia (diverso da 0)
 	- Se un valore è mancante la deviazione standard è basata solo sui valori presenti
-
-[PREVIOUS](pages/datamining/classification/regression.md) [NEXT](pages/datamining/classification/linear_perceptron.md)
+[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)

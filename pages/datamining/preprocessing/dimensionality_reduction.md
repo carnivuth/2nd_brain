@@ -21,5 +21,4 @@ the scope of this processing is to:
 procedure to extract important variables from the dataset and reduce dimensionality. The new dataset will contains the attributes that capture most of the data variation
 
 the PCA algorithm uses [singular value decomposition](https://en.wikipedia.org/wiki/Singular_value_decomposition) to find the attributes that capture most of the data variation and reduce the number of dimensions in the dataset to make it more suitable for ML processes
-
-[PREVIOUS](pages/datamining/preprocessing/feature_subset_selection.md) [NEXT](pages/datamining/preprocessing/scaling.md)
+[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)

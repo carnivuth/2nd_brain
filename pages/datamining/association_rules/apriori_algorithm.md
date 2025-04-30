@@ -34,5 +34,4 @@ flowchart TD
 ```
 
 The $threshold$ value it's an important tuning parameter for complexity and the tradeoff element between number of valid time-sets founded and quality of the item-sets founded
-
-[PREVIOUS](pages/datamining/association_rules/frequent_itemset_generation.md) [NEXT](pages/datamining/association_rules/fp-growth.md)
+[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)

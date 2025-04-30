@@ -76,3 +76,4 @@ The class $(x,y,z,0)$ represents all of the possible points to infinity. This re
 ## Definition extension
 
 The perspective space definition can be extended to a $N$-dimensional space $R_{n}\rightarrow P_{n}$
+[<](pages/computer_vision/image_formation_acquisition/stereo_image_acquisition.md) [>](pages/computer_vision/image_formation_acquisition/perspective_projection_matrix.md)

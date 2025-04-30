@@ -91,5 +91,4 @@ the outliers are values outside the boundaries
 ### Duplicated data
 
 - major issue when dealing with data merging from different sources
-
- [NEXT](pages/datamining/preprocessing/data_preprocessing.md)
+[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)

@@ -227,3 +227,4 @@ class PipeGrepSedGrep extends PipeGrepSed with grep("world")
 ```
 
 >[!ERROR] questo non compila perché la seconda classe cerca di richiamare il costruttore del tratto `grep()` che viene già chiamato dalla classe padre
+[<](pages/gip/prototipi.md) [>](pages/gip/proprieta_intellettuale.md)

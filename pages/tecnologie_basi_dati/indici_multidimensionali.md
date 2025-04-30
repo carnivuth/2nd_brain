@@ -107,5 +107,4 @@ Si basa sul concetto di linearizzare lo spazio n dimensionale per mezzo delle co
 ![](assets/tecnologie_basi_dati/Pasted%20image%2020250216183530.png)
 
 >[!ERROR] In questo caso preservare l'ordine locale risulta quasi impossibile
-[PREVIOUS](pages/tecnologie_basi_dati/progetto_fisico_tuning.md)
-[NEXT](pages/tecnologie_basi_dati/r-tree.md)
+[<](pages/tecnologie_basi_dati/progetto_fisico_tuning.md) [>](pages/tecnologie_basi_dati/r-tree.md)

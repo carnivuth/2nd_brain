@@ -51,3 +51,4 @@ Appunti personali del corso di tecnologie e basi di dati dei professori Patella 
 ## Big data
 
 - [big data](tecnologie_basi_dati/big_data.md)
+[<](pages/sicurezza_informazione/funzioni_hash.md) [>](pages/sicurezza_informazione/cifrari_simmetrici.md)

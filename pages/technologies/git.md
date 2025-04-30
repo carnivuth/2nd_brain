@@ -63,3 +63,4 @@ function configure_hook(){
 #!/bin/bash
 ./scripts.sh
 ```
+[<](pages/tecnologie_basi_dati/b+tree.md) [>](pages/tecnologie_basi_dati/indici_hash.md)

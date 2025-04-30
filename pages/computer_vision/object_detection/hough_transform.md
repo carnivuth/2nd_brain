@@ -57,3 +57,4 @@ The implementation relies on a discrete representation of the parameter space as
 ![](assets/computer_vision/Pasted_image_20240427162503.png)
 
 In order to compute non analytical shapes the [GENERALIZED HUGH TRANSFORM](pages/computer_vision/object_detection/generalized_hugh_transform.md) is deployed
+[<](pages/computer_vision/object_detection/shape_based_matching.md) [>](pages/computer_vision/object_detection/generalized_hugh_transform.md)

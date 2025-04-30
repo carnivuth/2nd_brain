@@ -114,3 +114,4 @@ Ci sono diverse soluzioni volte a impedire l'attacco di reflection, tutte si bas
 - **numeri random**: in questa soluzione l'identificatore deve mantenere dello stato temporaneamente fino al termine della sessione
 - **numeri di sequenza**: necessario mantenere lo stato a lungo termine, molto oneroso
 - **timestamp**: necessario accordarsi in maniera sicura su un tempo globale
+[<](pages/sicurezza_informazione/pgp.md) [>](pages/sicurezza_informazione/trasformazioni.md)

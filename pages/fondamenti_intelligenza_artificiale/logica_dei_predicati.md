@@ -103,4 +103,4 @@
 		- questa assunzione rende la teoria **NON MONOTONA**
 		- questo concetto viene sfruttato in generale in molti contesti, si basa su un ipotesi di onniscenza della base di conoscenza (*se qualcosa non è dimostrabile allora è vero il contrario*)
 		-
-	-
+[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)

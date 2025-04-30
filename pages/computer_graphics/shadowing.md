@@ -76,5 +76,4 @@ Quando si computano le ombre si hanno sempre problemi di aliasing dovuti al fatt
 Nella realtà le luci non sono mai puntiformi, questo porta a ombre morbide come visto in [precedenza](#ombra%20vs%20penombra) in questo caso si adottano tecniche di blur delle ombre per simulare l'effetto di una luce non puntiforme
 
 ![](assets/computer_graphics/Pasted%20image%2020250102180827.png)
-[PREVIOUS](pages/computer_graphics/texture_mapping.md)
-[NEXT](pages/computer_graphics/mesh_poligonali.md)
+[<](pages/computer_graphics/texture_mapping.md) [>](pages/computer_graphics/mesh_poligonali.md)

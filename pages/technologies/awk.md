@@ -71,3 +71,4 @@ match regex element and put beckrefs in an array
 ```bash
 awk '{$1=""; print $0}'
 ```
+[<](pages/tecnologie_basi_dati/b+tree.md) [>](pages/tecnologie_basi_dati/indici_hash.md)

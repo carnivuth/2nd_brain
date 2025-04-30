@@ -92,3 +92,4 @@ Le soluzioni con un KDC hanno delle problematiche intrinseche:
 - il KDC deve essere un elemento fidato per tutti i membri della rete
 
 Per sopperire al problema del collo di bottiglia si può sfruttare il principio di località dove un KDC si occupa di una porzione ristretta della rete (*e.g. DNS*) e stabilire relazioni di fiducia tra i vari KDC
+[<](pages/sicurezza_informazione/rsa.md) [>](pages/sicurezza_informazione/diffie_hellman.md)

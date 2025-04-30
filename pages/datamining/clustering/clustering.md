@@ -26,5 +26,4 @@ A point which is the center of gravity of the cluster, for each cluster $k$ and 
 $$
 	centroid_{d}^{k}= \frac{1}{x_{i}: clust(x_{i})=k}\sum_{x_{i}: clust(x_{i})=k}{x_{id}}
 $$
-
- [NEXT](pages/datamining/clustering/clustering_scheme_evaluation.md)
+[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)

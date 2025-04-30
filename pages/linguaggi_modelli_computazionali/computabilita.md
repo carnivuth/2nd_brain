@@ -81,4 +81,4 @@ E proprio qui che sta la chiave del problema, dato che i linguaggi di programmaz
 **giusta o sbagliata senza entrare in ciclo infinito**
 
 >[!QUOTE] In questo modo un compilatore e in grado di arrestarsi e segnalare errore se una **frase non appartiene al linguaggio**
-[NEXT](pages/linguaggi_modelli_computazionali/linguaggi_grammatiche.md)
+[<](pages/linguaggi_modelli_computazionali/linguaggi_grammatiche.md) [>](pages/linguaggi_modelli_computazionali/grammatiche_tipo_0.md) [>](pages/linguaggi_modelli_computazionali/linguaggi_grammatiche.md)

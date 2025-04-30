@@ -104,3 +104,4 @@ bufdo %s/\](assets\/pages\/\(.*\/Pasted.*\))/](assets\/\1)/gc | update |bw
 " indent
 bufdo execute "normal! ggvG=l" | update |bw
 ```
+[<](pages/tecnologie_basi_dati/b+tree.md) [>](pages/tecnologie_basi_dati/indici_hash.md)

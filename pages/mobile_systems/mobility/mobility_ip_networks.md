@@ -19,3 +19,4 @@ there are 2 possible solution to handle the problem:
 
 - **location update** the network infrastructure is informed of the mobile node position
 - **location search** the network infrastructure search and updates the node position
+[<](pages/mobile_systems/positioning_systems/multiple_positioning_systems_solutions.md) [>](pages/mobile_systems/mobility/host_identity_protocol.md)

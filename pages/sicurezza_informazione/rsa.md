@@ -92,3 +92,4 @@ questo consente di implementare la cosiddetta **autenticazione ad occhi chiusi**
 - Il destinatario di $m$ può verificare che è autenticato da T: $(c3)^{eT} \mod nT = m$
 
 questa proprietà può essere sfruttata da un attaccante per far firmare messaggi a una destinazione che altrimenti non li firmerebbe
+[<](pages/sicurezza_informazione/cifrari_asimmetrici.md) [>](pages/sicurezza_informazione/key_management.md)

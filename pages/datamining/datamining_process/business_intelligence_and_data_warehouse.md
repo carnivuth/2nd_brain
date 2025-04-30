@@ -24,5 +24,4 @@ index: 1
 ![](assets/datamining/Pasted_image_20230928152914.png)
 
 this model can be explored interactively by the user through [OLAP](pages/datamining/datamining_process/olap.md) queries
-
- [NEXT](pages/datamining/datamining_process/olap.md)
+[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)

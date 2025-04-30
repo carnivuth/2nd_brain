@@ -2,4 +2,4 @@
 - training set
 	- insieme di esempi di allenamento per far acquisire la conoscenza al sistema
 - test set
-	- set di esempi diverso dal training set per testare le capacita di generalizzazione del sistema
+[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)

@@ -93,5 +93,4 @@ Un'innovazione di prodotto ha un regime di appropriabilità più debole rispetto
 
 - trasformazione del gap tecnologico in altri vantaggi, come avere una reputazione verso i clienti, costi di sostituzione ridotti, possibilità di scegliere il canale di distribuzione, di definizione di uno standard, accesso agevolato a risorse limitate, curva di apprendimento esclusiva, profitti iniziali
 ## D: definire il concetto di modello di business
-
-**R:** Il modello di business è la rappresentazione della logica che si trova sotto lo sviluppo dell'attività di impresa; quindi serve per creare valore per l'impresa, sfruttando la creazione di valore per il cliente.
+[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)

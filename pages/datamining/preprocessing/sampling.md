@@ -45,5 +45,4 @@ the probability of sampling at least an element for each class is independent fr
 ![](assets/datamining/Pasted_image_20240104121302.png)
 
 this is important when using a small dataset for cross-validation or train test splits cause there could be not enough data for the partition
-
-[PREVIOUS](pages/datamining/preprocessing/scaling.md) [NEXT](pages/datamining/preprocessing/feature_creation.md)
+[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)

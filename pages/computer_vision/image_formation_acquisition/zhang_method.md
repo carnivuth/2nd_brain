@@ -265,3 +265,4 @@ $$
 $$
 
 The solution to this  problem can be computed with  [Levenberg-Marquardt algorithm](https://it.wikipedia.org/wiki/Algoritmo_di_Levenberg-Marquardt)
+[<](pages/computer_vision/image_formation_acquisition/camera_calibration.md) [>](pages/computer_vision/image_formation_acquisition/stereo_camera_calibration.md)

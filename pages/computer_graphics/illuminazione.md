@@ -111,5 +111,4 @@ C[si rinormalizza]
 D[si applica il modello di illuminazione alla nuova normale]
 A --> B --> C --> D
 ```
-[PREVIOUS](pages/computer_graphics/clipping.md)
-[NEXT](pages/computer_graphics/texture_mapping.md)
+[<](pages/computer_graphics/clipping.md) [>](pages/computer_graphics/texture_mapping.md)

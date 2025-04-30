@@ -23,3 +23,4 @@ $$
 Z(p)= \sum_{q \in I} e^{\frac{\Vert N_p -N_q\Vert_2^2}{h^2}}
 $$
 ![](assets/computer_vision/Pasted_image_20240302112706.png)
+[<](pages/computer_vision/image_filtering/bilateral_filter.md) [>](pages/computer_vision/image_segmentation_blob_analysis/computer_vision_industrial_workflow.md)
