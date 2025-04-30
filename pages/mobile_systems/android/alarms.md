@@ -1,5 +1,7 @@
 ---
 id: ALARMS
+next: "pages/mobile_systems/android/sockets.md"
+previous: "pages/mobile_systems/android/job_scheduler.md"
 aliases: []
 tags: []
 index: 43
@@ -25,5 +27,3 @@ Alarms are task that can be scheduled at a given time, they fires intents, it ca
 Real time clock alarms are not suitable for client server interaction cause they can cause burst of requests
 
 minimize the time an alarm wake up the device and use inexact alarms that can be grouped together  and fired at the same time by the android runtime
-
-[PREVIOUS](pages/mobile_systems/android/job_scheduler.md) [NEXT](pages/mobile_systems/android/sockets.md)

@@ -1,5 +1,7 @@
 ---
 id: WIFI
+next: "pages/mobile_systems/wireless/wimax.md"
+previous: "pages/mobile_systems/wireless/csma.md"
 aliases: []
 tags: []
 index: 4
@@ -50,5 +52,3 @@ end
 The objective is to cover with wireless connectivity technology wide areas like cities with a mesh network
 
 ![](assets/mobile_systems/Pasted%20image%2020240604192831.png)
-
-[PREVIOUS](pages/mobile_systems/wireless/csma.md) [NEXT](pages/mobile_systems/wireless/wimax.md)

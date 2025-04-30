@@ -1,5 +1,7 @@
 ---
 id: PROXY_HIERARCHICAL_MOBILE_IPV6
+next: "pages/mobile_systems/mobility/i_tcp.md"
+previous: "pages/mobile_systems/mobility/hierarchical_mobile_ipv6.md"
 aliases: []
 tags: []
 index: 30
@@ -24,5 +26,3 @@ The main components of PHMIP are:
 - **Home Network Prefix** prefix assigned to mobile nodes from LMA
 
 ![](assets/mobile_systems/Pasted%20image%2020240608155305.png)
-
-[PREVIOUS](pages/mobile_systems/mobility/hierarchical_mobile_ipv6.md) [NEXT](pages/mobile_systems/mobility/i_tcp.md)

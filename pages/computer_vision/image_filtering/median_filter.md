@@ -1,5 +1,7 @@
 ---
 id: MEDIAN_FILTER
+next: "pages/computer_vision/image_filtering/bilateral_filter.md"
+previous: "pages/computer_vision/image_filtering/gaussian_filter.md"
 aliases: []
 tags: []
 index: 18
@@ -29,5 +31,3 @@ The median value is the value in the middle of the range ($124$)
 The median filter is good at removing impulse noise from an image as the noise point frequently fall into the higher or lower range, is not good at managing gaussian noise cause it does not introduce new values
 
 ![](assets/computer_vision/Pasted_image_20240229174319.png)
-
-[PREVIOUS](pages/computer_vision/image_filtering/gaussian_filter.md) [NEXT](pages/computer_vision/image_filtering/bilateral_filter.md)

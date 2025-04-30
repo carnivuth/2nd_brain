@@ -1,5 +1,7 @@
 ---
 id: NON-LOCAL_MEAN_FILTER
+next: "pages/computer_vision/image_segmentation_blob_analysis/computer_vision_industrial_workflow.md"
+previous: "pages/computer_vision/image_filtering/bilateral_filter.md"
 aliases: []
 tags: []
 index: 20
@@ -21,5 +23,3 @@ $$
 Z(p)= \sum_{q \in I} e^{\frac{\Vert N_p -N_q\Vert_2^2}{h^2}}
 $$
 ![](assets/computer_vision/Pasted_image_20240302112706.png)
-
-[PREVIOUS](pages/computer_vision/image_filtering/bilateral_filter.md) [NEXT](pages/computer_vision/image_segmentation_blob_analysis/computer_vision_industrial_workflow.md)

@@ -1,5 +1,7 @@
 ---
 id: REST
+next: "pages/mobile_systems/iot/coap.md"
+previous: "pages/mobile_systems/iot/request_response.md"
 aliases: []
 tags: []
 index: 57
@@ -14,5 +16,3 @@ Architectural pattern that relies on the client server communication model in or
 - caching possibilities
 
 often implemented over HTTP, it uses the HTTP methods to make interactions and URI to identify actions or resources on the server side, data are represented in open format like XML or JSON
-
-[PREVIOUS](pages/mobile_systems/iot/request_response.md) [NEXT](pages/mobile_systems/iot/coap.md)

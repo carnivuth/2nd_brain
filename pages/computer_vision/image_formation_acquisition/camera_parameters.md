@@ -1,5 +1,7 @@
 ---
 id: CAMERA_PARAMETERS
+next: "pages/computer_vision/image_formation_acquisition/image_digitization.md"
+previous: "pages/computer_vision/image_formation_acquisition/perspective_projection.md"
 aliases: []
 tags: []
 index: 2
@@ -53,5 +55,3 @@ $$
 ## quantum efficiency
 
 ratio between photons that are collected by the camera and  photons that hit the sensors
-
-[PREVIOUS](pages/computer_vision/image_formation_acquisition/perspective_projection.md) [NEXT](pages/computer_vision/image_formation_acquisition/image_digitization.md)

@@ -1,5 +1,7 @@
 ---
 id: ZERO_CROSSING_EDGE_DETECTION
+next: "pages/computer_vision/local_features/moravec_corner_detector.md"
+previous: "pages/computer_vision/local_features/canny_edge_detector.md"
 aliases: []
 tags: []
 index: 30
@@ -29,5 +31,3 @@ $$
 This solution needs to filter out the noise, this is done through convolution with Gaussian function
 
 $$\overset{\sim}I(x,y) = I(x,y)\ast G(x,y)$$
-
-[PREVIOUS](pages/computer_vision/local_features/canny_edge_detector.md) [NEXT](pages/computer_vision/local_features/moravec_corner_detector.md)

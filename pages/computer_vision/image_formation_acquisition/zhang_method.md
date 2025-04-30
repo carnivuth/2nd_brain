@@ -1,5 +1,7 @@
 ---
 id: ZHANG_METHOD
+next: "pages/computer_vision/image_formation_acquisition/stereo_camera_calibration.md"
+previous: "pages/computer_vision/image_formation_acquisition/camera_calibration.md"
 aliases: []
 tags: []
 index: 12
@@ -263,5 +265,3 @@ $$
 $$
 
 The solution to this  problem can be computed with  [Levenberg-Marquardt algorithm](https://it.wikipedia.org/wiki/Algoritmo_di_Levenberg-Marquardt)
-
-[PREVIOUS](pages/computer_vision/image_formation_acquisition/camera_calibration.md) [NEXT](pages/computer_vision/image_formation_acquisition/stereo_camera_calibration.md)

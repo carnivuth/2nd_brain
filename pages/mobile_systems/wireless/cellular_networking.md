@@ -1,5 +1,7 @@
 ---
 id: CELLULAR_NETWORKING
+next: "pages/mobile_systems/wireless/bluetooth.md"
+previous: "pages/mobile_systems/wireless/wimax.md"
 aliases: []
 tags: []
 index: 6
@@ -110,5 +112,3 @@ In this particular case the call is still routed trough the MSC where it has beg
 | PROACTIVE         | Handoff is started before the node exits the coverage area                                                     |
 | HARD              | The handoff procedure does not allow the mobile node to be connected to multiple BSS in the same time interval |
 | SOFT              | The handoff procedure allow the mobile node to be connected to multiple BSS in the same time interval          |
-
-[PREVIOUS](pages/mobile_systems/wireless/wimax.md) [NEXT](pages/mobile_systems/wireless/bluetooth.md)

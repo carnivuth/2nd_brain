@@ -1,5 +1,7 @@
 ---
 id: CREATING_A_CLASSIFIER
+next: "pages/computer_vision/machine_learning_cv/deep_learning_and_neural_networks.md"
+previous: "pages/computer_vision/machine_learning_cv/machine_learning_in_computer_vision.md"
 aliases: []
 tags: []
 index: 47
@@ -151,5 +153,3 @@ With this parameter the update becomes a mean of the previous ones smoothing the
 For a lot of application capture all the variability with one template is impossible, there is the need of something more meaningful than row pixels. There is the need to transform pixels in some form of feature
 
 ![](assets/computer_vision/Pasted_image_20240502210718.png)
-
-[PREVIOUS](pages/computer_vision/machine_learning_cv/machine_learning_in_computer_vision.md) [NEXT](pages/computer_vision/machine_learning_cv/deep_learning_and_neural_networks.md)

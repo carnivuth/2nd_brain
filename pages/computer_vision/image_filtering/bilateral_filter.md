@@ -1,5 +1,7 @@
 ---
 id: BILATERAL_FILTER
+next: "pages/computer_vision/image_filtering/non-local_mean_filter.md"
+previous: "pages/computer_vision/image_filtering/median_filter.md"
 aliases: []
 tags: []
 index: 19
@@ -27,5 +29,3 @@ This filter takes into account the bi-dimensional distance and the difference in
 ![](assets/computer_vision/Pasted_image_20240302112042.png)
 
 As shown in the image this filter is good in the edges cause it does not introduce blur in the image cause it takes into account range distance
-
-[PREVIOUS](pages/computer_vision/image_filtering/median_filter.md) [NEXT](pages/computer_vision/image_filtering/non-local_mean_filter.md)

@@ -1,5 +1,7 @@
 ---
 id: MOBILE_IP
+next: "pages/mobile_systems/mobility/hierarchical_mobile_ipv6.md"
+previous: "pages/mobile_systems/mobility/host_identity_protocol.md"
 aliases: []
 tags: []
 index: 28
@@ -56,5 +58,3 @@ C((MH))
 D((CH))
 D --> A --> B --> C --> B --> A --> D
 ```
-
-[PREVIOUS](pages/mobile_systems/mobility/host_identity_protocol.md) [NEXT](pages/mobile_systems/mobility/hierarchical_mobile_ipv6.md)

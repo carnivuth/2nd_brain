@@ -1,5 +1,6 @@
 ---
 id: WIRELESS_COMMUNICATION
+next: "pages/mobile_systems/wireless/medium_access_control.md"
 aliases: []
 tags: []
 index: 1
@@ -26,5 +27,3 @@ In real scenarios with mobile nodes, mathematical models cannot be used to estim
 In general it can be said that power fluctuations depends on the distance from the transmitter.
 
 **layer 2 protocols need to take into account this physical layer problems**
-
- [NEXT](pages/mobile_systems/wireless/medium_access_control.md)

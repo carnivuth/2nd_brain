@@ -1,5 +1,7 @@
 ---
 id: JOB_SCHEDULER
+next: "pages/mobile_systems/android/alarms.md"
+previous: "pages/mobile_systems/android/asynchronous_techniques.md"
 aliases: []
 tags: []
 index: 42
@@ -40,5 +42,3 @@ public class MyJobService extends JobService {
 - period
 - network type
 - if task requires the device to be plugged
-
-[PREVIOUS](pages/mobile_systems/android/asynchronous_techniques.md) [NEXT](pages/mobile_systems/android/alarms.md)

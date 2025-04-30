@@ -1,5 +1,7 @@
 ---
 id: MANET_POSITIONING_SYSTEMS
+next: "pages/mobile_systems/positioning_systems/global_positioning_system.md"
+previous: "pages/mobile_systems/positioning_systems/taxonomy.md"
 aliases: []
 tags: []
 index: 19
@@ -16,5 +18,3 @@ Each anchor node compute the relative distance between himself and the one-hop n
 This solution relies on exploiting the maps of the anchor nodes to create a multi hop map of the nodes position
 
 ![](assets/mobile_systems/Pasted%20image%2020240608190212.png)
-
-[PREVIOUS](pages/mobile_systems/positioning_systems/taxonomy.md) [NEXT](pages/mobile_systems/positioning_systems/global_positioning_system.md)

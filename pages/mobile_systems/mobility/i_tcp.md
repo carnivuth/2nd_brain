@@ -1,5 +1,7 @@
 ---
 id: I_TCP
+next: "pages/mobile_systems/mobile_middleware/mobile_middleware.md"
+previous: "pages/mobile_systems/mobility/proxy_hierarchical_mobile_ipv6.md"
 aliases: []
 tags: []
 index: 31
@@ -33,5 +35,3 @@ The handoff procedure is dependent on the [mobile ip **one**](pages/mobile_syste
 
 - Breaks the end to end principle for witch only the endpoint of the communication are aware of the communication channel
 - the middle node maintains state
-
-[PREVIOUS](pages/mobile_systems/mobility/proxy_hierarchical_mobile_ipv6.md) [NEXT](pages/mobile_systems/mobile_middleware/mobile_middleware.md)

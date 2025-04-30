@@ -1,5 +1,7 @@
 ---
 id: TEMPLATE_PATTERN_MATCHING
+next: "pages/computer_vision/object_detection/shape_based_matching.md"
+previous: "pages/computer_vision/object_detection/instance_level_object_detection.md"
 aliases: []
 tags: []
 index: 41
@@ -72,5 +74,3 @@ $$
 Template matching computation is too much slow for an industrial environment, in order to speed up computation an image pyramid is deployed
 
 In order for this approximation to work levels need to be chosen empirically
-
-[PREVIOUS](pages/computer_vision/object_detection/instance_level_object_detection.md) [NEXT](pages/computer_vision/object_detection/shape_based_matching.md)

@@ -1,5 +1,6 @@
 ---
 id: IMAGE_FORMATION_FLOW
+next: "pages/computer_vision/image_formation_acquisition/perspective_projection.md"
 aliases: []
 tags: []
 ---
@@ -24,5 +25,3 @@ A --> B
 B --> C
 C --> D
 ```
-
-[NEXT](pages/computer_vision/image_formation_acquisition/perspective_projection.md)

@@ -1,5 +1,7 @@
 ---
 id: ACTIVE_BAT
+next: "pages/mobile_systems/positioning_systems/radar.md"
+previous: "pages/mobile_systems/positioning_systems/no_infrastructure_positioning_systems.md"
 aliases: []
 tags: []
 index: 22
@@ -15,5 +17,3 @@ positioning system based on the use of RF and ultra sound technologies (US) wher
 
 - physical absolute, ti exploits [ToA](pages/mobile_systems/positioning_systems/base_techniques.md) to compute position
 - suitable for indoor environments
-
-[PREVIOUS](pages/mobile_systems/positioning_systems/no_infrastructure_positioning_systems.md) [NEXT](pages/mobile_systems/positioning_systems/radar.md)

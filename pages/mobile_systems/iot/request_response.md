@@ -1,5 +1,7 @@
 ---
 id: REQUEST_RESPONSE
+next: "pages/mobile_systems/iot/rest.md"
+previous: "pages/mobile_systems/iot/pub_sub_protocols.md"
 aliases: []
 tags: []
 index: 56
@@ -21,5 +23,3 @@ possible interaction with this model can be:
 
 - **pull** actuators request configurations from the server
 - **push** sensors send data to the server
-
-[PREVIOUS](pages/mobile_systems/iot/pub_sub_protocols.md) [NEXT](pages/mobile_systems/iot/rest.md)

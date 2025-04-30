@@ -1,5 +1,7 @@
 ---
 id: MANETS_ROUTING
+next: "pages/mobile_systems/manets/dinamic_source_routing.md"
+previous: "pages/mobile_systems/manets/wifi_direct.md"
 aliases: []
 tags: []
 index: 11
@@ -62,5 +64,3 @@ There are a lot of disadvantages of course
 
 - high overhead
 - low reliability
-
-[PREVIOUS](pages/mobile_systems/manets/wifi_direct.md) [NEXT](pages/mobile_systems/manets/dinamic_source_routing.md)

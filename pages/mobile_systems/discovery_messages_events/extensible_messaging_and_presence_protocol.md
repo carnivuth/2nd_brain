@@ -1,5 +1,7 @@
 ---
 id: EXTENSIBLE_MESSAGING_AND_PRESENCE_PROTOCOL
+next: "pages/mobile_systems/discovery_messages_events/events.md"
+previous: "pages/mobile_systems/discovery_messages_events/corba_messaging.md"
 aliases: []
 tags: []
 index: 63
@@ -29,5 +31,3 @@ XMPP is not designed for message exchange but given the popularity is a good can
 to address this flows Android use a proprietary implementation to address this issues
 
 ![](assets/mobile_systems/Pasted%20image%2020240616164345.png)
-
-[PREVIOUS](pages/mobile_systems/discovery_messages_events/corba_messaging.md) [NEXT](pages/mobile_systems/discovery_messages_events/events.md)

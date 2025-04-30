@@ -1,5 +1,7 @@
 ---
 id: BLOB_ANALYSIS
+next: "pages/computer_vision/local_features/finding_correspondences.md"
+previous: "pages/computer_vision/image_segmentation_blob_analysis/components_labeling.md"
 aliases: []
 tags: []
 index: 26
@@ -56,5 +58,3 @@ $$
 $$
 R =\frac{A}{A_{LW}} \space with \space A_{LW} = \frac{\pi}{4}LW
 $$
-
-[PREVIOUS](pages/computer_vision/image_segmentation_blob_analysis/components_labeling.md) [NEXT](pages/computer_vision/local_features/finding_correspondences.md)

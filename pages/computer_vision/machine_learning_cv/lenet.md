@@ -1,5 +1,7 @@
 ---
 id: LENET
+next: "pages/computer_vision/machine_learning_cv/alexnet.md"
+previous: "pages/computer_vision/machine_learning_cv/convolutional_neural_networks.md"
 aliases: []
 tags: []
 index: 50
@@ -17,5 +19,3 @@ Principal features are:
 - decrease of spatial dimension and an increase of layers dimension alongside the layers
 - no padding, [average pooling](pages/computer_vision/machine_learning_cv/convolutional_neural_networks.md#pooling%20layers)
 - 2 [fully connected layers](pages/computer_vision/machine_learning_cv/deep_learning_and_neural_networks.md#fully%20connected%20layers) where each unit compute the distance between the input and the parameter vector
-
-[PREVIOUS](pages/computer_vision/machine_learning_cv/convolutional_neural_networks.md) [NEXT](pages/computer_vision/machine_learning_cv/alexnet.md)

@@ -1,5 +1,7 @@
 ---
 id: INSTANCE_LEVEL_OBJECT_DETECTION
+next: "pages/computer_vision/object_detection/template_pattern_matching.md"
+previous: "pages/computer_vision/local_features/matching_process.md"
 aliases: []
 tags: []
 index: 40
@@ -14,5 +16,3 @@ Instance level object detection is a common problem in computer vision industria
 The problem can be declined in many variants, for example the object can appear multiple times in the target image and there can be multiple of them
 
 Typical problems to address in this situation are intensity changes, rotation and occlusion
-
-[PREVIOUS](pages/computer_vision/local_features/matching_process.md) [NEXT](pages/computer_vision/object_detection/template_pattern_matching.md)

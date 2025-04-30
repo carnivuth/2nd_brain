@@ -1,5 +1,7 @@
 ---
 id: SENSORS
+next: "pages/computer_vision/image_formation_acquisition/lens.md"
+previous: "pages/computer_vision/image_formation_acquisition/image_digitization.md"
 aliases: []
 tags: []
 index: 4
@@ -23,5 +25,3 @@ D --> E
 ```
 
 In short **CMOS** is for low quality mass production and **CCD** is for high end quality image processing.
-
-[PREVIOUS](pages/computer_vision/image_formation_acquisition/image_digitization.md) [NEXT](pages/computer_vision/image_formation_acquisition/lens.md)

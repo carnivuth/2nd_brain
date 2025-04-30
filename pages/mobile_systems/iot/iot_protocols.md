@@ -1,5 +1,7 @@
 ---
 id: IOT_PROTOCOLS
+next: "pages/mobile_systems/iot/pub_sub_model.md"
+previous: "pages/mobile_systems/iot/iot_devices.md"
 aliases: []
 tags: []
 index: 53
@@ -20,5 +22,3 @@ layer 2 solutions that are used to communicate with the IoT nodes
 ## Data exchange protocols
 
 protocols for data exchange that can be used at all the levels of the architecture
-
-[PREVIOUS](pages/mobile_systems/iot/iot_devices.md) [NEXT](pages/mobile_systems/iot/pub_sub_model.md)

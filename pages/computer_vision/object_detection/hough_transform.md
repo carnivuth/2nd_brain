@@ -1,5 +1,7 @@
 ---
 id: HOUGH_TRANSFORM
+next: "pages/computer_vision/object_detection/generalized_hugh_transform.md"
+previous: "pages/computer_vision/object_detection/shape_based_matching.md"
 aliases: []
 tags: []
 index: 43
@@ -55,5 +57,3 @@ The implementation relies on a discrete representation of the parameter space as
 ![](assets/computer_vision/Pasted_image_20240427162503.png)
 
 In order to compute non analytical shapes the [GENERALIZED HUGH TRANSFORM](pages/computer_vision/object_detection/generalized_hugh_transform.md) is deployed
-
-[PREVIOUS](pages/computer_vision/object_detection/shape_based_matching.md) [NEXT](pages/computer_vision/object_detection/generalized_hugh_transform.md)

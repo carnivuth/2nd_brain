@@ -1,5 +1,7 @@
 ---
 id: CSMA
+next: "pages/mobile_systems/wireless/wifi.md"
+previous: "pages/mobile_systems/wireless/medium_access_control.md"
 aliases: []
 tags: []
 index: 3
@@ -48,5 +50,3 @@ this solution limits collisions only to the **rts** and **cts** packets reducing
 
 
 ## Token ring
-
-[PREVIOUS](pages/mobile_systems/wireless/medium_access_control.md) [NEXT](pages/mobile_systems/wireless/wifi.md)

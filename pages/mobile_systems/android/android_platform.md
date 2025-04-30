@@ -1,5 +1,7 @@
 ---
 id: ANDROID_PLATFORM
+next: "pages/mobile_systems/android/activity.md"
+previous: "pages/mobile_systems/mobile_middleware/communication_patterns.md"
 aliases: []
 tags: []
 index: 38
@@ -66,5 +68,3 @@ Other components are available
 - **Window Manager & View System**: handle windows on the screen
 - **Resource Manager & Content Provider**: handle system resource and data access to them (*e.g. sqlite databases, filesystem*)
 - **Telephony, Notification & Location Manager**
-
-[PREVIOUS](pages/mobile_systems/mobile_middleware/communication_patterns.md) [NEXT](pages/mobile_systems/android/activity.md)

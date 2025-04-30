@@ -1,5 +1,7 @@
 ---
 id: CAMERA_CALIBRATION
+next: "pages/computer_vision/image_formation_acquisition/zhang_method.md"
+previous: "pages/computer_vision/image_formation_acquisition/homography.md"
 aliases: []
 tags: []
 index: 11
@@ -26,5 +28,3 @@ C --> D
 ```
 
 One of the most used methods it's the [zhang's method](pages/computer_vision/image_formation_acquisition/zhang_method.md)
-
-[PREVIOUS](pages/computer_vision/image_formation_acquisition/homography.md) [NEXT](pages/computer_vision/image_formation_acquisition/zhang_method.md)

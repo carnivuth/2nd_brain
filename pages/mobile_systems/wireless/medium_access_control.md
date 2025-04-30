@@ -1,5 +1,7 @@
 ---
 id: MEDIUM_ACCESS_CONTROL
+next: "pages/mobile_systems/wireless/csma.md"
+previous: "pages/mobile_systems/wireless/wireless_communication.md"
 aliases: []
 tags: []
 index: 2
@@ -65,5 +67,3 @@ D  <--> E
 E  <--> B
 end
 ```
-
-[PREVIOUS](pages/mobile_systems/wireless/wireless_communication.md) [NEXT](pages/mobile_systems/wireless/csma.md)

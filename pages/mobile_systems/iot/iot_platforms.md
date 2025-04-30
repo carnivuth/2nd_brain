@@ -1,5 +1,7 @@
 ---
 id: IOT_PLATFORMS
+next: "pages/mobile_systems/iot/aws_iot_platform.md"
+previous: "pages/mobile_systems/iot/scada.md"
 aliases: []
 tags: []
 index: 47
@@ -23,5 +25,3 @@ Several solution from different vendors are available, some of them allow edge c
 - [AZURE IOT PLATFORM](pages/mobile_systems/iot/azure_iot_platform.md) cloud based edge capabilities
 -  [EDGEX IOT PLATFORM](pages/mobile_systems/iot/edgex_iot_platform.md) no cloud based, edge capabilities
 - [AWS IOT PLATFORM](pages/mobile_systems/iot/aws_iot_platform.md) cloud based no edge capabilities
-
-[PREVIOUS](pages/mobile_systems/iot/scada.md) [NEXT](pages/mobile_systems/iot/aws_iot_platform.md)

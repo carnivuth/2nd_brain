@@ -1,5 +1,7 @@
 ---
 id: ASYNCHRONOUS_TECHNIQUES
+next: "pages/mobile_systems/android/job_scheduler.md"
+previous: "pages/mobile_systems/android/threading_model.md"
 aliases: []
 tags: []
 index: 41
@@ -87,5 +89,3 @@ UI_thread ~~~ background_thread
 ## Why only one thread to manage ui?
 
 The android UI toolkit is not thread safe so manipulation in concurrent threads are not guaranteed to be consistent
-
-[PREVIOUS](pages/mobile_systems/android/threading_model.md) [NEXT](pages/mobile_systems/android/job_scheduler.md)

@@ -1,5 +1,7 @@
 ---
 id: OBJECT_DETECTION_PIPELINE
+next: "pages/computer_vision/machine_learning_cv/machine_learning_in_computer_vision.md"
+previous: "pages/computer_vision/object_detection/generalized_hugh_transform.md"
 aliases:
 tags:
 index: 45
@@ -24,5 +26,3 @@ A[MODEL GALLERY]
 A --> B & C
 end
 ```
-
-[PREVIOUS](pages/computer_vision/object_detection/generalized_hugh_transform.md) [NEXT](pages/computer_vision/machine_learning_cv/machine_learning_in_computer_vision.md)

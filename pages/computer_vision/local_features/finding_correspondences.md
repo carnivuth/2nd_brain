@@ -1,5 +1,7 @@
 ---
 id: FINDING_CORRESPONDENCES
+next: "pages/computer_vision/local_features/edges.md"
+previous: "pages/computer_vision/image_segmentation_blob_analysis/blob_analysis.md"
 aliases: []
 tags: []
 index: 27
@@ -36,5 +38,3 @@ The algorithms for the detection and description phase must have the following p
 keypoints are points that contains the most information in an image, [edges](pages/computer_vision/local_features/edges.md) are bad candidates as **along the perpendicular direction they are pretty similar and cannot be distinguished**, points that show **high variance in all directions** are best suited for the purpose such as corners
 
 ![](assets/computer_vision/Pasted_image_20240310151838.png)
-
-[PREVIOUS](pages/computer_vision/image_segmentation_blob_analysis/blob_analysis.md) [NEXT](pages/computer_vision/local_features/edges.md)

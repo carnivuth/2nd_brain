@@ -1,5 +1,7 @@
 ---
 id: HARRIS_CORNER_DETECTOR
+next: "pages/computer_vision/local_features/shi_tomasi_corner_detector.md"
+previous: "pages/computer_vision/local_features/moravec_corner_detector.md"
 aliases: []
 tags: []
 index: 32
@@ -87,5 +89,3 @@ B --> C
 ```
 
 In order to weights better the points in the neighborhood the weight function $w(x,y)$ used is a Gaussian function
-
-[PREVIOUS](pages/computer_vision/local_features/moravec_corner_detector.md) [NEXT](pages/computer_vision/local_features/shi_tomasi_corner_detector.md)

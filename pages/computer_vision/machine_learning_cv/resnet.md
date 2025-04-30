@@ -1,5 +1,6 @@
 ---
 id: RESNET
+previous: "pages/computer_vision/machine_learning_cv/vgg.md"
 aliases: []
 tags: []
 index: 53
@@ -91,5 +92,3 @@ In the training phase dropouts is not deployed because the use of batch normaliz
 | Momentum                         | $0.9$                                                   |
 | Data Augmentation, Normalization | Same as [VGG](pages/computer_vision/machine_learning_cv//vgg.md)                                   |
 | Initialization                   | He initilization                                        |
-
-[PREVIOUS](pages/computer_vision/machine_learning_cv/vgg.md)

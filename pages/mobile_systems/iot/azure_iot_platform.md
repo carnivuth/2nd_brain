@@ -1,5 +1,7 @@
 ---
 id: AZURE_IOT_PLATFORM
+next: "pages/mobile_systems/iot/siemens_mindsphere.md"
+previous: "pages/mobile_systems/iot/aws_iot_platform.md"
 aliases: []
 tags: []
 index: 49
@@ -28,5 +30,3 @@ E[(IoT hub)]
 D --> E
 A & B & C --> D
 ```
-
-[PREVIOUS](pages/mobile_systems/iot/aws_iot_platform.md) [NEXT](pages/mobile_systems/iot/siemens_mindsphere.md)

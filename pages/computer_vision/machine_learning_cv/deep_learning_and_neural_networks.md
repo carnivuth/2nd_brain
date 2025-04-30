@@ -1,5 +1,7 @@
 ---
 id: DEEP_LEARNING_AND_NEURAL_NETWORKS
+next: "pages/computer_vision/machine_learning_cv/convolutional_neural_networks.md"
+previous: "pages/computer_vision/machine_learning_cv/creating_a_classifier.md"
 aliases: []
 tags: []
 index: 48
@@ -78,5 +80,3 @@ the output of the $y_i$ node can be described as :
 $$
 y_i = \phi(\sum_{j=1}^{D}{W_{ij}x_j +b_i})
 $$
-
-[PREVIOUS](pages/computer_vision/machine_learning_cv/creating_a_classifier.md) [NEXT](pages/computer_vision/machine_learning_cv/convolutional_neural_networks.md)

@@ -1,5 +1,7 @@
 ---
 id: HOMOGRAPHY
+next: "pages/computer_vision/image_formation_acquisition/camera_calibration.md"
+previous: "pages/computer_vision/image_formation_acquisition/perspective_projection_matrix.md"
 aliases: []
 tags: []
 index: 10
@@ -63,5 +65,3 @@ any two images taken by two different cameras (different $A$ matrix so different
 ![](assets/computer_vision/Pasted_image_20231021105132.png)
 
 In conclusion we can say that if the camera is imaging a planar scene we can find relations between images that are taken from different angles or with different camera sensors
-
-[PREVIOUS](pages/computer_vision/image_formation_acquisition/perspective_projection_matrix.md) [NEXT](pages/computer_vision/image_formation_acquisition/camera_calibration.md)

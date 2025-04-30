@@ -1,5 +1,7 @@
 ---
 id: PUB_SUB_MODEL
+next: "pages/mobile_systems/iot/pub_sub_protocols.md"
+previous: "pages/mobile_systems/iot/iot_protocols.md"
 aliases: []
 tags: []
 index: 54
@@ -25,5 +27,3 @@ PUB/SUB has the following properties
 - **space decoupling** No need for the nodes to know each other
 - **time decoupling** no need for the nodes to be connected at the same time
 - **synchronization decoupling**  no need for the nodes to halt the operation flow to receive communications
-
-[PREVIOUS](pages/mobile_systems/iot/iot_protocols.md) [NEXT](pages/mobile_systems/iot/pub_sub_protocols.md)

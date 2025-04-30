@@ -1,5 +1,7 @@
 ---
 id: COLOR_BASED_SEGMENTATION
+next: "pages/computer_vision/image_segmentation_blob_analysis/binary_morphology.md"
+previous: "pages/computer_vision/image_segmentation_blob_analysis/binarization.md"
 aliases: []
 tags: []
 index: 23
@@ -60,5 +62,3 @@ d_M(I(p),\mu) = (\frac{(I_r(p) - \mu_r)^2}{\sigma^2_{rr}} + \frac{(I_g(p) - \mu_
 $$
 
 The mahalanobis distance weights the differences between the color components unequally (inversely proportional to the learned variances ), This as the effect of lower the consideration of sparse components
-
-[PREVIOUS](pages/computer_vision/image_segmentation_blob_analysis/binarization.md) [NEXT](pages/computer_vision/image_segmentation_blob_analysis/binary_morphology.md)

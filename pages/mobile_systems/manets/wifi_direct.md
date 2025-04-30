@@ -1,5 +1,7 @@
 ---
 id: WIFI_DIRECT
+next: "pages/mobile_systems/manets/manets_routing.md"
+previous: "pages/mobile_systems/manets/manets.md"
 aliases: []
 tags: []
 index: 10
@@ -65,5 +67,3 @@ Two ways to implement power saving capabilities
 ## Security
 
 WiFi direct uses WPS to implement a simple layer of security that has minimum user interaction requirements (*ask pin or ask for confirmation*)
-
-[PREVIOUS](pages/mobile_systems/manets/manets.md) [NEXT](pages/mobile_systems/manets/manets_routing.md)

@@ -1,5 +1,7 @@
 ---
 id: MESSAGING
+next: "pages/mobile_systems/discovery_messages_events/java_message_service.md"
+previous: "pages/mobile_systems/discovery_messages_events/service_discovery.md"
 aliases: []
 tags: []
 index: 60
@@ -73,5 +75,3 @@ also QoS politics need to be taken into account, possible solution can be ACK ba
 - Piggy-backed
 
 Also in order delivery semantics can be dropped to improve performance
-
-[PREVIOUS](pages/mobile_systems/discovery_messages_events/service_discovery.md) [NEXT](pages/mobile_systems/discovery_messages_events/java_message_service.md)

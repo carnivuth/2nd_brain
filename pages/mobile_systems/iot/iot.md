@@ -1,5 +1,7 @@
 ---
 id: IOT
+next: "pages/mobile_systems/iot/scada.md"
+previous: "pages/mobile_systems/android/sockets.md"
 aliases: []
 tags: []
 index: 45
@@ -37,5 +39,3 @@ An IoT system tasks can be resumed as the following:
 - Store and aggregate information
 - Analyze information to improve system knowledge
 - Take decisions, in a human-assisted or autonomous manner
-
-[PREVIOUS](pages/mobile_systems/android/sockets.md) [NEXT](pages/mobile_systems/iot/scada.md)

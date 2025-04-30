@@ -1,5 +1,6 @@
 ---
 id: EVENTS
+previous: "pages/mobile_systems/discovery_messages_events/extensible_messaging_and_presence_protocol.md"
 aliases: []
 tags: []
 index: 64
@@ -138,5 +139,3 @@ SEQ: event key
 	Other (possible) names of variable and associated values
 </e:propertyset>
 ```
-
-[PREVIOUS](pages/mobile_systems/discovery_messages_events/extensible_messaging_and_presence_protocol.md)

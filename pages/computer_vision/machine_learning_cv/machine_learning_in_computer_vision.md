@@ -1,5 +1,7 @@
 ---
 id: MACHINE_LEARNING_IN_COMPUTER_VISION
+next: "pages/computer_vision/machine_learning_cv/creating_a_classifier.md"
+previous: "pages/computer_vision/object_detection/object_detection_pipeline.md"
 aliases: []
 tags: []
 index: 46
@@ -97,5 +99,3 @@ $$
 ## Data augmentation
 
 In order to artificially increase the size of datasets operation on the input image are performed without altering the label such as image rotation,crop,cutout
-
-[PREVIOUS](pages/computer_vision/object_detection/object_detection_pipeline.md) [NEXT](pages/computer_vision/machine_learning_cv/creating_a_classifier.md)

@@ -1,5 +1,7 @@
 ---
 id: GLOBAL_POSITIONING_SYSTEM
+next: "pages/mobile_systems/positioning_systems/no_infrastructure_positioning_systems.md"
+previous: "pages/mobile_systems/positioning_systems/manet_positioning_systems.md"
 aliases: []
 tags: []
 index: 20
@@ -18,5 +20,3 @@ GPS satellites needs to have a perfect synchronized clock, $1_{\mu s}$ can achiv
 ## Differential gps
 
 to reduce the error range of GPS a base station with a fixed position is used to correct the error in the satellites measures
-
-[PREVIOUS](pages/mobile_systems/positioning_systems/manet_positioning_systems.md) [NEXT](pages/mobile_systems/positioning_systems/no_infrastructure_positioning_systems.md)

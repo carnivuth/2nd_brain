@@ -1,5 +1,7 @@
 ---
 id: ADHOC_ON_DEMAND_DISTANCE_VECTOR
+next: "pages/mobile_systems/manets/greedy_perimeter_stateless_routing.md"
+previous: "pages/mobile_systems/manets/dinamic_source_routing.md"
 aliases: []
 tags: []
 index: 13

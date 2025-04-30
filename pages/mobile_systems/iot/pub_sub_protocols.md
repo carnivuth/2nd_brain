@@ -1,5 +1,7 @@
 ---
 id: PUB_SUB_PROTOCOLS
+next: "pages/mobile_systems/iot/request_response.md"
+previous: "pages/mobile_systems/iot/pub_sub_model.md"
 aliases: []
 tags: []
 index: 55
@@ -25,5 +27,3 @@ protocol based on the [pub/sub model](pages/mobile_systems/iot/pub_sub_model.md)
 brokerless solution based on multicast communication that is designed for mission critical environments where performance and reliability are essentials
 
 ![](assets/mobile_systems/Pasted%20image%2020240615103454.png)
-
-[PREVIOUS](pages/mobile_systems/iot/pub_sub_model.md) [NEXT](pages/mobile_systems/iot/request_response.md)

@@ -1,5 +1,7 @@
 ---
 id: EDGEX_IOT_PLATFORM
+next: "pages/mobile_systems/iot/iot_devices.md"
+previous: "pages/mobile_systems/iot/siemens_mindsphere.md"
 aliases: []
 tags: []
 index: 51
@@ -18,5 +20,3 @@ EDGEX is a microservice architecture, The principal components are:
 - **core-command** exec command on the nodes
 - **device services** bottom elements of the infrastructure, they pull data from specific protocols and transform them in events that can be managed by the core-data component
 - **registry service** service to monitor the status and perform healthchecks of the other edegex microservices (*e.g. [consul](https://www.consul.io/)* )
-
-[PREVIOUS](pages/mobile_systems/iot/siemens_mindsphere.md) [NEXT](pages/mobile_systems/iot/iot_devices.md)

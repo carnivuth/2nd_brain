@@ -1,5 +1,7 @@
 ---
 id: BINARY_MORPHOLOGY
+next: "pages/computer_vision/image_segmentation_blob_analysis/components_labeling.md"
+previous: "pages/computer_vision/image_segmentation_blob_analysis/color_based_segmentation.md"
 aliases: []
 tags: []
 index: 24
@@ -34,5 +36,3 @@ Dilation followed by erosion is called closing
 $$
 A \bullet B = (A \oplus B) \ominus B
 $$
-
-[PREVIOUS](pages/computer_vision/image_segmentation_blob_analysis/color_based_segmentation.md) [NEXT](pages/computer_vision/image_segmentation_blob_analysis/components_labeling.md)

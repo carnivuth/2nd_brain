@@ -1,5 +1,7 @@
 ---
 id: PERSPECTIVE_PROJECTION_MATRIX
+next: "pages/computer_vision/image_formation_acquisition/homography.md"
+previous: "pages/computer_vision/image_formation_acquisition/perspective_space.md"
 aliases: []
 tags: []
 index: 9
@@ -178,5 +180,3 @@ So in conclusion a $PPM$ can be thought as 3 separate components:
 - the $A$ matrix which represents **the intrinsic properties of the image sensor**
 - the $G$ matrix which represents **the relation between the 2 different reference frames**
 - the $[I|0]$ matrix which represents **the perspective projection carried out by the pinhole camera model**
-
-[PREVIOUS](pages/computer_vision/image_formation_acquisition/perspective_space.md) [NEXT](pages/computer_vision/image_formation_acquisition/homography.md)

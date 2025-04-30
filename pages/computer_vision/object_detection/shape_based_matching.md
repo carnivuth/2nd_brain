@@ -1,5 +1,7 @@
 ---
 id: SHAPE_BASED_MATCHING
+next: "pages/computer_vision/object_detection/hough_transform.md"
+previous: "pages/computer_vision/object_detection/template_pattern_matching.md"
 aliases: []
 tags: []
 index: 42
@@ -74,5 +76,3 @@ When the condition is verified the computation of the similarity function can be
 - Intensity invariant as the similarity function is based on gradient direction only
 - No need of computing the edges on the target image which is a risky procedure
 - robustness to occlusion which can be tuned by the $S_{min}$ parameter
-
-[PREVIOUS](pages/computer_vision/object_detection/template_pattern_matching.md) [NEXT](pages/computer_vision/object_detection/hough_transform.md)

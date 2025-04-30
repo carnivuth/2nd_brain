@@ -1,5 +1,6 @@
 ---
 id: PERSPECTIVE_PROJECTION
+next: "pages/computer_vision/image_formation_acquisition/camera_parameters.md"
 aliases: []
 tags: []
 index: 1
@@ -42,5 +43,3 @@ of the point on the line which is infinitely distant from the optical center).
 with such definition all 3D lines in the image will **share the same vanishing point**
 
 in a real case application this model alone it's not sufficient, there are [real camera parameters](pages/computer_vision/image_formation_acquisition/camera_parameters.md) and  [lens effects](pages/computer_vision/image_formation_acquisition/lens.md) to take into account. In order to apply some computation to an image [digitization](pages/computer_vision/image_formation_acquisition/image_digitization.md) is also needed.
-
- [NEXT](pages/computer_vision/image_formation_acquisition/camera_parameters.md)

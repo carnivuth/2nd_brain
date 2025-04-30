@@ -1,5 +1,7 @@
 ---
 id: MEAN_FILTER
+next: "pages/computer_vision/image_filtering/gaussian_filter.md"
+previous: "pages/computer_vision/image_filtering/image_filters.md"
 aliases: []
 tags: []
 index: 16
@@ -58,5 +60,3 @@ $$
 $$
 
 ![](assets/computer_vision/Pasted_image_20240229122932.png)
-
-[PREVIOUS](pages/computer_vision/image_filtering/image_filters.md) [NEXT](pages/computer_vision/image_filtering/gaussian_filter.md)

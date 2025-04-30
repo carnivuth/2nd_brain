@@ -1,5 +1,7 @@
 ---
 id: NO_INFRASTRUCTURE_POSITIONING_SYSTEMS
+next: "pages/mobile_systems/positioning_systems/active_bat.md"
+previous: "pages/mobile_systems/positioning_systems/global_positioning_system.md"
 aliases: []
 tags: []
 index: 21
@@ -25,5 +27,3 @@ One possible solution is to place Bluetooth devices at the point of interests (P
 ![](assets/mobile_systems/Pasted%20image%2020240609154600.png)
 
 This method allow different levels of privacy for the device that can scan in silent mode the PoI
-
-[PREVIOUS](pages/mobile_systems/positioning_systems/global_positioning_system.md) [NEXT](pages/mobile_systems/positioning_systems/active_bat.md)

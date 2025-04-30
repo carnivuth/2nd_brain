@@ -1,5 +1,7 @@
 ---
 id: SIEMENS_MINDSPHERE
+next: "pages/mobile_systems/iot/edgex_iot_platform.md"
+previous: "pages/mobile_systems/iot/azure_iot_platform.md"
 aliases: []
 tags: []
 index: 50
@@ -47,5 +49,3 @@ C --gets routes and\n access roules--> D
 - **MindConnect API**: API to send data securely from the shop floor devices to Mindsphere. Only agents that supports HTTP processing, TLS and JSON parsing have the requirements to communicate. It allows also to set the configuration for both the data source from which retrieve the data and the data model to be shared
 
 - **OPC UA PubSub Service**: specific module that provides MQTT- based API to agents to upload data according to OPC UA specification
-
-[PREVIOUS](pages/mobile_systems/iot/azure_iot_platform.md) [NEXT](pages/mobile_systems/iot/edgex_iot_platform.md)

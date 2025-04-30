@@ -1,5 +1,7 @@
 ---
 id: MANETS
+next: "pages/mobile_systems/manets/wifi_direct.md"
+previous: "pages/mobile_systems/wireless/zigbee.md"
 aliases: []
 tags: []
 index: 9
@@ -30,5 +32,3 @@ Given the nature of MANETS a lot of challenges comes up
 - Network partitioning is possibly frequent
 - Energy constraints
 - Easy “snooping” of wireless transmissions (associated security issues)
-
-[PREVIOUS](pages/mobile_systems/wireless/zigbee.md) [NEXT](pages/mobile_systems/manets/wifi_direct.md)

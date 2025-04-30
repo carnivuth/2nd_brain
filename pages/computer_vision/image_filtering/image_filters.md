@@ -1,5 +1,7 @@
 ---
 id: IMAGE_FILTERS
+next: "pages/computer_vision/image_filtering/mean_filter.md"
+previous: "pages/computer_vision/image_formation_acquisition/image_warping.md"
 aliases: []
 tags: []
 index: 15
@@ -105,5 +107,3 @@ O(i,j) = \sum_{m=-k}^{+k}{\sum_{n=-k}^{+k}{K(m,n)I(i-m,j-n)}} \space with
 $$
 
 So the idea behind the implementation is to slide the kernel matrix over the image and compute the convolution for each point of the image
-
-[PREVIOUS](pages/computer_vision/image_formation_acquisition/image_warping.md) [NEXT](pages/computer_vision/image_filtering/mean_filter.md)

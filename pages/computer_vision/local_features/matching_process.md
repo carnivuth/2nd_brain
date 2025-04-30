@@ -1,5 +1,7 @@
 ---
 id: MATCHING_PROCESS
+next: "pages/computer_vision/object_detection/instance_level_object_detection.md"
+previous: "pages/computer_vision/local_features/sift_descriptor.md"
 aliases:
   - k-d tree
   - BFF
@@ -68,5 +70,3 @@ backtracking becomes computationally expensive as the dimension of the space goe
 ### Best bin first (bff)
 
 Variation of the k-d tree algorithm where traversed node are inserted in a priority queue that is used in the backtracking phase to chose the node to traverse first, the queue is updated in the backtracking phase that ends at the $E_{max}$ node
-
-[PREVIOUS](pages/computer_vision/local_features/sift_descriptor.md) [NEXT](pages/computer_vision/object_detection/instance_level_object_detection.md)

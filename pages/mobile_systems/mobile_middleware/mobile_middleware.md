@@ -1,5 +1,7 @@
 ---
 id: MOBILE_MIDDLEWARE
+next: "pages/mobile_systems/mobile_middleware/mobile_middleware_principles.md"
+previous: "pages/mobile_systems/mobility/i_tcp.md"
 aliases: []
 tags: []
 index: 32
@@ -29,5 +31,3 @@ A mobile middleware **has lot of differences to address due to the different dep
 - provisioning of some level/degree of visibility of running conditions to lower layers
 - partial visibility of location change
 - modifications in the QoS levels currently available
-
-[PREVIOUS](pages/mobile_systems/mobility/i_tcp.md) [NEXT](pages/mobile_systems/mobile_middleware/mobile_middleware_principles.md)

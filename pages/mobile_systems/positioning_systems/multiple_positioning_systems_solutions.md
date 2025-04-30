@@ -1,5 +1,7 @@
 ---
 id: MULTIPLE_POSITIONING_SYSTEMS_SOLUTIONS
+next: "pages/mobile_systems/mobility/mobility_ip_networks.md"
+previous: "pages/mobile_systems/positioning_systems/ekahau.md"
 aliases: []
 tags: []
 index: 25
@@ -27,5 +29,3 @@ where:
 Java as determined a standard for positioning systems called PoSIM, under the UNIBO implementation architechture
 
 ![](assets/mobile_systems/Pasted%20image%2020240609161539.png)
-
-[PREVIOUS](pages/mobile_systems/positioning_systems/ekahau.md) [NEXT](pages/mobile_systems/mobility/mobility_ip_networks.md)

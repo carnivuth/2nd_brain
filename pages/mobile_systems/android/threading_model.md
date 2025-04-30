@@ -1,5 +1,7 @@
 ---
 id: THREADING_MODEL
+next: "pages/mobile_systems/android/asynchronous_techniques.md"
+previous: "pages/mobile_systems/android/activity.md"
 aliases: []
 tags: []
 index: 40
@@ -46,5 +48,3 @@ Android defines different group threads with different scheduling priorities
 - visible
 - service
 - background
-
-[PREVIOUS](pages/mobile_systems/android/activity.md) [NEXT](pages/mobile_systems/android/asynchronous_techniques.md)

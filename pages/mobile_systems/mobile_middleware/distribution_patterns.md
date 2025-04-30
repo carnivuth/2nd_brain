@@ -1,5 +1,7 @@
 ---
 id: DISTRIBUTION_PATTERNS
+next: "pages/mobile_systems/mobile_middleware/resource_management_patterns.md"
+previous: "pages/mobile_systems/mobile_middleware/patterns.md"
 aliases: []
 tags: []
 index: 35
@@ -73,5 +75,3 @@ end
 |----|----|
 |decoupling between subject and observer|not to much scalable since a single node as the responsibility for communication|
 |one to many communication support by design||
-
-[PREVIOUS](pages/mobile_systems/mobile_middleware/patterns.md) [NEXT](pages/mobile_systems/mobile_middleware/resource_management_patterns.md)

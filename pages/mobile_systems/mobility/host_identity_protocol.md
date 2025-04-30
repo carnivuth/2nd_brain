@@ -1,5 +1,7 @@
 ---
 id: HOST_IDENTITY_PROTOCOL
+next: "pages/mobile_systems/mobility/mobile_ip.md"
+previous: "pages/mobile_systems/mobility/mobility_ip_networks.md"
 aliases: []
 tags: []
 index: 27
@@ -28,5 +30,3 @@ A --> B --> C --> D
 end
 B --> HIP
 ```
-
-[PREVIOUS](pages/mobile_systems/mobility/mobility_ip_networks.md) [NEXT](pages/mobile_systems/mobility/mobile_ip.md)

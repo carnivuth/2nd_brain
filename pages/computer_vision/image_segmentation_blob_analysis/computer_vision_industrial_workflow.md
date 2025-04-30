@@ -1,5 +1,7 @@
 ---
 id: COMPUTER_VISION_INDUSTRIAL_WORKFLOW
+next: "pages/computer_vision/image_segmentation_blob_analysis/binarization.md"
+previous: "pages/computer_vision/image_filtering/non-local_mean_filter.md"
 aliases: []
 tags: []
 index: 21
@@ -22,5 +24,3 @@ B --> C
 C --> D
 D --> E
 ```
-
-[PREVIOUS](pages/computer_vision/image_filtering/non-local_mean_filter.md) [NEXT](pages/computer_vision/image_segmentation_blob_analysis/binarization.md)

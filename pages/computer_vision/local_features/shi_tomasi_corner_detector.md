@@ -1,5 +1,6 @@
 ---
 id: SHI_TOMASI_CORNER_DETECTOR
+previous: "pages/computer_vision/local_features/harris_corner_detector.md"
 aliases: []
 tags: []
 index: 33
@@ -14,5 +15,3 @@ C = \min(\lambda_1,\lambda_2)
 $$
 
 ![](assets/computer_vision/Pasted_image_20240310172549.png)
-
-[PREVIOUS](pages/computer_vision/local_features/harris_corner_detector.md) [NEXT](pages/computer_vision/local_features/scale_invariance.md)

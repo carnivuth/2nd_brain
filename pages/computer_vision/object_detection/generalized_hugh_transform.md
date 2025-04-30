@@ -1,5 +1,7 @@
 ---
 id: GENERALIZED_HUGH_TRANSFORM
+next: "pages/computer_vision/object_detection/object_detection_pipeline.md"
+previous: "pages/computer_vision/object_detection/hough_transform.md"
 aliases: []
 tags:
   - ght process
@@ -102,5 +104,3 @@ $$
 A 2D accumulator array is not sufficient to account for rotation and scale, the solution is to use a 4D accumulator array in order to account for scale and rotation
 
 ![](assets/computer_vision/Pasted_image_20240428143913.png)
-
-[PREVIOUS](pages/computer_vision/object_detection/hough_transform.md) [NEXT](pages/computer_vision/object_detection/object_detection_pipeline.md)

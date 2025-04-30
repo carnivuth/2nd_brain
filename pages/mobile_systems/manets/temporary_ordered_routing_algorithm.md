@@ -1,5 +1,7 @@
 ---
 id: TEMPORARY_ORDERED_ROUTING_ALGORITHM
+next: "pages/mobile_systems/manets/clustering.md"
+previous: "pages/mobile_systems/manets/greedy_perimeter_stateless_routing.md"
 aliases: []
 tags: []
 index: 15
@@ -21,5 +23,3 @@ TORA maintains a local DAG for each node of the network, nodes are labeled with 
 | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | Less control overload cause control packets are limited to a small portion of the network | local changes results in non optimal routing                                   |
 |                                                                                           | the concurrent deletion and deduction of routes can results in temporary loops |
-
-[PREVIOUS](pages/mobile_systems/manets/greedy_perimeter_stateless_routing.md) [NEXT](pages/mobile_systems/manets/clustering.md)

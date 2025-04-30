@@ -1,5 +1,7 @@
 ---
 id: ACTIVITY
+next: "pages/mobile_systems/android/threading_model.md"
+previous: "pages/mobile_systems/android/android_platform.md"
 aliases: []
 tags: []
 index: 39
@@ -86,5 +88,3 @@ Application component that handles the broadcast message, they register to diffe
 ### Security aspects
 
 it's important to limit the range of the broadcast messages to avoid leaks and enforce permissions
-
-[PREVIOUS](pages/mobile_systems/android/android_platform.md) [NEXT](pages/mobile_systems/android/threading_model.md)

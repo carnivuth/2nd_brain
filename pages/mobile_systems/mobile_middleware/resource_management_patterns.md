@@ -1,5 +1,7 @@
 ---
 id: RESOURCE_MANAGEMENT_PATTERNS
+next: "pages/mobile_systems/mobile_middleware/communication_patterns.md"
+previous: "pages/mobile_systems/mobile_middleware/distribution_patterns.md"
 aliases: []
 tags: []
 index: 36
@@ -139,5 +141,3 @@ in Real scenarios sincronization is used only between 2 nodes
 Pattern that allows the infrastructure to manage handover situations exploiting [RENDEZVOUS](#RENDEZVOUS) to update clients
 
 ![](assets/mobile_systems/Pasted%20image%2020240608191524.png)
-
-[PREVIOUS](pages/mobile_systems/mobile_middleware/distribution_patterns.md) [NEXT](pages/mobile_systems/mobile_middleware/communication_patterns.md)

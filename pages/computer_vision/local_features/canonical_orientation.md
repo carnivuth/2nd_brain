@@ -1,5 +1,7 @@
 ---
 id: CANONICAL_ORIENTATION
+next: "pages/computer_vision/local_features/sift_descriptor.md"
+previous: "pages/computer_vision/local_features/dog_detector.md"
 aliases: []
 tags: []
 index: 37
@@ -29,5 +31,3 @@ The contribution of a single point is obtained  by the **gradient magnitude weig
 then the highest peak of the histogram is considered for the canonical orientation with the 2 neighbors
 
 ![](assets/computer_vision/Pasted_image_20240314122805.png)
-
-[PREVIOUS](pages/computer_vision/local_features/dog_detector.md) [NEXT](pages/computer_vision/local_features/sift_descriptor.md)

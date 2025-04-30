@@ -1,5 +1,7 @@
 ---
 id: RADAR
+next: "pages/mobile_systems/positioning_systems/ekahau.md"
+previous: "pages/mobile_systems/positioning_systems/active_bat.md"
 aliases: []
 tags: []
 index: 23
@@ -18,5 +20,3 @@ A central server collects data sent by devices in UDP packets containing orienta
 ## Online phase
 
 mobile nodes send periodically UDP packets to the server that compares the packets to the dataset collected in the offline phase
-
-[PREVIOUS](pages/mobile_systems/positioning_systems/active_bat.md) [NEXT](pages/mobile_systems/positioning_systems/ekahau.md)

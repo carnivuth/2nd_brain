@@ -1,5 +1,7 @@
 ---
 id: MOBILE_MIDDLEWARE_PRINCIPLES
+next: "pages/mobile_systems/mobile_middleware/patterns.md"
+previous: "pages/mobile_systems/mobile_middleware/mobile_middleware.md"
 aliases: []
 tags: []
 index: 33
@@ -69,5 +71,3 @@ with no addition of new interfaces. Two or more layers are coupled at design tim
 Usually to achieve layers-joint optimization of the configuration of parameters (*joint tuning*) and to obtain better overall performance
 
 ![](assets/mobile_systems/Pasted%20image%2020240611101358.png)
-
-[PREVIOUS](pages/mobile_systems/mobile_middleware/mobile_middleware.md) [NEXT](pages/mobile_systems/mobile_middleware/patterns.md)

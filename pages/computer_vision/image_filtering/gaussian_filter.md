@@ -1,5 +1,7 @@
 ---
 id: GAUSSIAN_FILTER
+next: "pages/computer_vision/image_filtering/median_filter.md"
+previous: "pages/computer_vision/image_filtering/mean_filter.md"
 aliases: []
 tags: []
 index: 17
@@ -51,5 +53,3 @@ $$
 $$
 NOPS_{1D \space filter} =4(2k+1)\\
 $$
-
-[PREVIOUS](pages/computer_vision/image_filtering/mean_filter.md) [NEXT](pages/computer_vision/image_filtering/median_filter.md)

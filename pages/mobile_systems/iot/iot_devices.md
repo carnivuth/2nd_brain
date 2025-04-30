@@ -1,5 +1,7 @@
 ---
 id: IOT_DEVICES
+next: "pages/mobile_systems/iot/iot_protocols.md"
+previous: "pages/mobile_systems/iot/edgex_iot_platform.md"
 aliases: []
 tags: []
 index: 52
@@ -28,5 +30,3 @@ IoT devices can be classified in different categories given the following charac
 | E1       | period energy limitation   |
 | E2       | lifetime energy limitation |
 | E9       | no energy limitation       |
-
-[PREVIOUS](pages/mobile_systems/iot/edgex_iot_platform.md) [NEXT](pages/mobile_systems/iot/iot_protocols.md)

@@ -1,5 +1,7 @@
 ---
 id: DOG_DETECTOR
+next: "pages/computer_vision/local_features/canonical_orientation.md"
+previous: "pages/computer_vision/local_features/scale_normalized_log.md"
 aliases: []
 tags: []
 index: 36
@@ -31,5 +33,3 @@ a point is detected as a feature if it's DoG is an extreme of its 26 neighbors
 ## Dog improvements with filters
 
 In order to localize keypoints in an accurate way and remove unstable point [filter procedures](pages/computer_vision/image_filtering/image_filters.md) are needed
-
-[PREVIOUS](pages/computer_vision/local_features/scale_normalized_log.md) [NEXT](pages/computer_vision/local_features/canonical_orientation.md)
