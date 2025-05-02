@@ -27,4 +27,10 @@ Personal `jq` expression language reference
 jq -c '.[]' input.json | while read i; do
 done
 ```
+
+- filter an array of object based on a parameter
+
+```bash
+jq '.[] | select(.param_name) | "\(.param_to_print)"'
+```
 [<](pages/tecnologie_basi_dati/b+tree.md) [>](pages/tecnologie_basi_dati/indici_hash.md)

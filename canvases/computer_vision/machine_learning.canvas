@@ -1,13 +1,13 @@
 {
 	"nodes":[
-		{"id":"d7dd715aa0324627","type":"file","file":"pages/machine_learning_cv/MACHINE_LEARNING_IN_COMPUTER_VISION.md","x":-180,"y":-320,"width":400,"height":400},
-		{"id":"7ebea9b5f78913cd","type":"file","file":"pages/machine_learning_cv/CREATING_A_CLASSIFIER.md","x":-180,"y":180,"width":400,"height":400},
-		{"id":"6895b65a5559ef7c","type":"file","file":"pages/machine_learning_cv/DEEP_LEARNING_AND_NEURAL_NETWORKS.md","x":-180,"y":740,"width":400,"height":400},
-		{"id":"ccc750492f5016da","type":"file","file":"pages/machine_learning_cv/CONVOLUTIONAL_NEURAL_NETWORKS.md","x":-180,"y":1280,"width":400,"height":400},
-		{"id":"2a6710ab9736502b","type":"file","file":"pages/machine_learning_cv/LENET.md","x":-1160,"y":1920,"width":400,"height":400},
-		{"id":"cfb6d845957c0962","type":"file","file":"pages/machine_learning_cv/ALEXNET.md","x":-1160,"y":2640,"width":400,"height":400},
-		{"id":"38d775dbe14641a0","type":"file","file":"pages/machine_learning_cv/VGG.md","x":800,"y":1920,"width":400,"height":400},
-		{"id":"3614dc2b9b55110d","type":"file","file":"pages/machine_learning_cv/RESNET.md","x":800,"y":2640,"width":400,"height":400}
+		{"id":"d7dd715aa0324627","type":"file","file":"pages/computer_vision/machine_learning_cv/machine_learning_in_computer_vision.md","x":-180,"y":-320,"width":400,"height":400},
+		{"id":"7ebea9b5f78913cd","type":"file","file":"pages/computer_vision/machine_learning_cv/creating_a_classifier.md","x":-180,"y":180,"width":400,"height":400},
+		{"id":"6895b65a5559ef7c","type":"file","file":"pages/computer_vision/machine_learning_cv/deep_learning_and_neural_networks.md","x":-180,"y":740,"width":400,"height":400},
+		{"id":"ccc750492f5016da","type":"file","file":"pages/computer_vision/machine_learning_cv/convolutional_neural_networks.md","x":-180,"y":1280,"width":400,"height":400},
+		{"id":"2a6710ab9736502b","type":"file","file":"pages/computer_vision/machine_learning_cv/lenet.md","x":-1160,"y":1920,"width":400,"height":400},
+		{"id":"cfb6d845957c0962","type":"file","file":"pages/computer_vision/machine_learning_cv/alexnet.md","x":-1160,"y":2640,"width":400,"height":400},
+		{"id":"38d775dbe14641a0","type":"file","file":"pages/computer_vision/machine_learning_cv/vgg.md","x":800,"y":1920,"width":400,"height":400},
+		{"id":"3614dc2b9b55110d","type":"file","file":"pages/computer_vision/machine_learning_cv/resnet.md","x":800,"y":2640,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"099657c3313fdf38","fromNode":"7ebea9b5f78913cd","fromSide":"bottom","toNode":"6895b65a5559ef7c","toSide":"top","label":"SURPASSING LIMITS OF\nLINEAR CLASSIFICATION"},
