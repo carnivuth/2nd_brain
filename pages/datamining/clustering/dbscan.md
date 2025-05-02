@@ -84,4 +84,4 @@ END; # ExpandCluster
 ## Parameters to tune
 
 $\epsilon$ and $minPoints$ are the parameter that need to be tuned, a good value for $minPoints$ can be $2*D$ where $D$ is the number of dimensions
-[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)
+

@@ -123,4 +123,4 @@ these measures can be weighted:
 $$
 f(C)= \frac{\sum{f(ci)*Ci}}{C}
 $$
-[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)
+

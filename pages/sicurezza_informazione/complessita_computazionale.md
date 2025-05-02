@@ -27,4 +27,4 @@ La chiave di volta nel creare funzioni sicure sta nello scegliere parametri che 
 Per far si che le chiavi siano sicure e necessario selezionare una dimensione per cui il problema di ricerca esaustiva diventi Difficile
 
 ![](assets/sicurezza_informazione/Pasted%20image%2020240625151801.png)
-[<](pages/sicurezza_informazione/ipsec.md) [>](pages/sicurezza_informazione/kerberos.md) [>](pages/sicurezza_informazione/funzioni_hash.md) [>](pages/sicurezza_informazione/trasformazioni.md)
+[>](pages/sicurezza_informazione/trasformazioni.md)

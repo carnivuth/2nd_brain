@@ -36,4 +36,4 @@ Dilation followed by erosion is called closing
 $$
 A \bullet B = (A \oplus B) \ominus B
 $$
-[<](pages/computer_vision/image_segmentation_blob_analysis/color_based_segmentation.md) [>](pages/computer_vision/image_segmentation_blob_analysis/components_labeling.md)
+[<](pages/computer_vision/image_segmentation_blob_analysis/color_based_segmentation.md)[>](pages/computer_vision/image_segmentation_blob_analysis/components_labeling.md)

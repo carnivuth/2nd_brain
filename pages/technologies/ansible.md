@@ -7,6 +7,7 @@ tags:
   - playbooks
   - inventories
   - ansible vault
+next: pages/technologies/awk.md
 ---
 
 Personal snippets for ansible playbooks development and reference
@@ -56,4 +57,4 @@ Personal snippets for ansible playbooks development and reference
         msg: "{{ foo }} is undefined"
       when: foo is undefined
 ```
-[<](pages/tecnologie_basi_dati/b+tree.md) [>](pages/tecnologie_basi_dati/indici_hash.md)
+[>](pages/technologies/awk.md)

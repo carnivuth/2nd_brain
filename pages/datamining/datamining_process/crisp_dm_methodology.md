@@ -69,4 +69,4 @@ in this phase the results of the process are put into production to gain profit 
 - Planning monitoring and maintenance.
 - Producing a final report on the project.
 - Reviewing the project and creating documentation on the experience gained.
-[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)
+

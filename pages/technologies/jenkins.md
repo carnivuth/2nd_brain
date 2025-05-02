@@ -6,6 +6,8 @@ tags:
   - github
   - jenkinsfile
   - jenkins pipeline
+next: pages/technologies/jq.md
+previous: pages/technologies/git.md
 ---
 
 # Jenkins
@@ -81,4 +83,4 @@ pipeline {
 ```
 
 - Configure Jenkins to add GitHub hooks automatically to the repository
-[<](pages/tecnologie_basi_dati/b+tree.md) [>](pages/tecnologie_basi_dati/indici_hash.md)
+[<](pages/technologies/git.md)[>](pages/technologies/jq.md)

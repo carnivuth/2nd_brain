@@ -209,4 +209,4 @@ dove $n$ può assumere i seguenti valori:
 ## Gestione del [group by](pages/tecnologie_basi_dati/group_by.md)
 
 Nei DBMS moderni il group by viene gestito al termine dell'esecuzione dei join, tuttavia vi e la possibilità di farne il push down a patto che **i valori delle funzioni aggregate non cambino**
-[<](pages/tecnologie_basi_dati/ottimizzazione_interrogazioni.md) [>](pages/tecnologie_basi_dati/progetto_fisico_tuning.md)
+[<](pages/tecnologie_basi_dati/ottimizzazione_interrogazioni.md)[>](pages/tecnologie_basi_dati/progetto_fisico_tuning.md)

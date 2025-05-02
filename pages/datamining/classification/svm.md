@@ -13,4 +13,4 @@ Studiate per superare il problema dei dataset linearmente separabili-> cerca un'
 	![](assets/datamining/Pasted_image_20231230124428.png)
 
 - Oppure ancora si possono usare le Reti Neurali: composte da numerosi percettori collocati in gerarchia.
-[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)
+

@@ -3,6 +3,7 @@ id: terraform
 aliases: []
 tags: []
 index: 16
+previous: pages/technologies/proxmox.md
 ---
 
 Terraform is a tool for IaC (*infrastructure as code*) that can work with multiple cloud platforms and virtualizers here i will wrote down some snippets and best practices
@@ -63,4 +64,4 @@ resource "proxmox_lxc" "ct-test" {
 this will produce the following output on the proxmox host
 
 ![](/images/Pasted%20image%2020241117151330.png)
-[<](pages/tecnologie_basi_dati/b+tree.md) [>](pages/tecnologie_basi_dati/indici_hash.md)
+[<](pages/technologies/proxmox.md)

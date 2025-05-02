@@ -32,4 +32,4 @@ Given the nature of MANETS a lot of challenges comes up
 - Network partitioning is possibly frequent
 - Energy constraints
 - Easy “snooping” of wireless transmissions (associated security issues)
-[<](pages/mobile_systems/wireless/zigbee.md) [>](pages/mobile_systems/manets/wifi_direct.md)
+[<](pages/mobile_systems/wireless/zigbee.md)[>](pages/mobile_systems/manets/wifi_direct.md)

@@ -6,6 +6,8 @@ tags:
   - make
   - makefile
   - make best practices
+next: pages/technologies/man.md
+previous: pages/technologies/kubernetes.md
 ---
 
 Make is a powerful build system with the simple concept of transforming files in other files based on a recipe
@@ -45,4 +47,4 @@ clean:
 
 build: $(patsubst %.mmd,%.png,$(wildcard *.mmd))
 ```
-[<](pages/tecnologie_basi_dati/b+tree.md) [>](pages/tecnologie_basi_dati/indici_hash.md)
+[<](pages/technologies/kubernetes.md)[>](pages/technologies/man.md)

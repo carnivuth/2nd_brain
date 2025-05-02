@@ -80,4 +80,4 @@ the output of the $y_i$ node can be described as :
 $$
 y_i = \phi(\sum_{j=1}^{D}{W_{ij}x_j +b_i})
 $$
-[<](pages/computer_vision/machine_learning_cv/creating_a_classifier.md) [>](pages/computer_vision/machine_learning_cv/convolutional_neural_networks.md)
+[<](pages/computer_vision/machine_learning_cv/creating_a_classifier.md)[>](pages/computer_vision/machine_learning_cv/convolutional_neural_networks.md)

@@ -39,4 +39,4 @@ Knowledge base personale del corso di linguaggi e modelli computazionali
 ## Esame
 
 - [esempi per l'esame che ho usato](linguaggi_modelli_computazionali/esame/esame.md)
-[<](pages/gip/prototipi.md) [>](pages/gip/proprieta_intellettuale.md)
+

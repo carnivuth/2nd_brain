@@ -72,4 +72,4 @@ La tecnica basata su sorting risulta migliore nel caso in cui i valori risultino
 Questa modalità necessita che tutte le chiavi da restituire in output **siano contenuti nell'indice**, le tecniche sono le precedenti ma si attuano sull'indice e non sul file dati
 
 >[!TIP] in caso di indice [b+tree](pages/tecnologie_basi_dati/b+tree.md) se gli attributi sono un prefisso della chiave basta scandire le foglie eliminando i duplicati con costo $L$
-[<](pages/tecnologie_basi_dati/selezione.md) [>](pages/tecnologie_basi_dati/join.md)
+[<](pages/tecnologie_basi_dati/selezione.md)[>](pages/tecnologie_basi_dati/join.md)

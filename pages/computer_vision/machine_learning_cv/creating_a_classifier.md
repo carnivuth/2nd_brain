@@ -153,4 +153,4 @@ With this parameter the update becomes a mean of the previous ones smoothing the
 For a lot of application capture all the variability with one template is impossible, there is the need of something more meaningful than row pixels. There is the need to transform pixels in some form of feature
 
 ![](assets/computer_vision/Pasted_image_20240502210718.png)
-[<](pages/computer_vision/machine_learning_cv/machine_learning_in_computer_vision.md) [>](pages/computer_vision/machine_learning_cv/deep_learning_and_neural_networks.md)
+[<](pages/computer_vision/machine_learning_cv/machine_learning_in_computer_vision.md)[>](pages/computer_vision/machine_learning_cv/deep_learning_and_neural_networks.md)

@@ -38,4 +38,4 @@ The brute-force approach generates each item-set in the graph above. Then, it co
 - Reduce the **number of comparisons** NM
 	- Use efficient data structures to store the candidates or transactions
 	- No need to match every candidate against every transaction
-[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)
+

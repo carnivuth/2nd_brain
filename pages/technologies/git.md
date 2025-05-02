@@ -4,6 +4,8 @@ aliases: []
 tags:
   - version control
   - hooks
+next: pages/technologies/jenkins.md
+previous: pages/technologies/github_actions.md
 ---
 
 # Git
@@ -63,4 +65,4 @@ function configure_hook(){
 #!/bin/bash
 ./scripts.sh
 ```
-[<](pages/tecnologie_basi_dati/b+tree.md) [>](pages/tecnologie_basi_dati/indici_hash.md)
+[<](pages/technologies/github_actions.md)[>](pages/technologies/jenkins.md)

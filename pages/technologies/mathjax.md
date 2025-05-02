@@ -3,6 +3,8 @@ id: mathjax
 aliases: []
 tags:
   - guide
+next: pages/technologies/nvim.md
+previous: pages/technologies/man.md
 ---
 
 Personal mathjax symbols reference
@@ -251,4 +253,4 @@ Personal mathjax symbols reference
 | \\( \overleftrightarrow{xy} \\) | `\overleftrightarrow{xy}` |
 | \\( \dot{x} \\)                 | `\dot{x}`                 |
 | \\( \ddot{x} \\)                | `\ddot{x}`                |
-[<](pages/tecnologie_basi_dati/b+tree.md) [>](pages/tecnologie_basi_dati/indici_hash.md)
+[<](pages/technologies/man.md)[>](pages/technologies/nvim.md)

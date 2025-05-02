@@ -41,4 +41,4 @@ if a [classification model](#classification%20model) is able to shatter all poss
 
 -  **crisp** the classifier assigns to each individual one label
 - **probabilistic** the classifier assigns a probability for each of the possible labels
-[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)
+

@@ -12,4 +12,4 @@ Appunti del corso di gestione e innovazione dei progetti
 - [strumenti per la proprieta intellettuale](pages/gip/strumenti_proprieta_intellettuale.md)
 
 [domande aperte in preparazione alla prova finale](pages/gip/domande_aperte.md)
-[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)
+

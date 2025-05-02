@@ -5,6 +5,8 @@ tags:
   - neovim
   - lsp
   - dotfiles
+next: pages/technologies/pass.md
+previous: pages/technologies/mathjax.md
 ---
 
 # Neovim
@@ -104,4 +106,4 @@ bufdo %s/\](assets\/pages\/\(.*\/Pasted.*\))/](assets\/\1)/gc | update |bw
 " indent
 bufdo execute "normal! ggvG=l" | update |bw
 ```
-[<](pages/tecnologie_basi_dati/b+tree.md) [>](pages/tecnologie_basi_dati/indici_hash.md)
+[<](pages/technologies/mathjax.md)[>](pages/technologies/pass.md)

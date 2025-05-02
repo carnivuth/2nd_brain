@@ -68,4 +68,4 @@ Other components are available
 - **Window Manager & View System**: handle windows on the screen
 - **Resource Manager & Content Provider**: handle system resource and data access to them (*e.g. sqlite databases, filesystem*)
 - **Telephony, Notification & Location Manager**
-[<](pages/mobile_systems/mobile_middleware/communication_patterns.md) [>](pages/mobile_systems/android/activity.md)
+[<](pages/mobile_systems/mobile_middleware/communication_patterns.md)[>](pages/mobile_systems/android/activity.md)

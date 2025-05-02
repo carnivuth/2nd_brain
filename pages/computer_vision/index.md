@@ -66,4 +66,4 @@
 - [alexnet](pages/computer_vision/machine_learning_cv/alexnet.md)
 - [vgg](pages/computer_vision/machine_learning_cv/vgg.md)
 - [resnet](pages/computer_vision/machine_learning_cv/resnet.md)
-[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)
+

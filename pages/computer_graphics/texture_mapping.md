@@ -84,4 +84,4 @@ Questa pratica consente di simulare meglio  i materiali, tuttavia e molto esosa 
 Il [solid texturing](#SOLID%20TEXTURING) trova il suo miglior impiego nella generazione di texture procedurali
 
 ![](assets/computer_graphics/Pasted%20image%2020250102155433.png)
-[<](pages/computer_graphics/illuminazione.md) [>](pages/computer_graphics/shadowing.md)
+[<](pages/computer_graphics/illuminazione.md)[>](pages/computer_graphics/shadowing.md)

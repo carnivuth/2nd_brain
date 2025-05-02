@@ -67,4 +67,4 @@ when the number of feature is high overfitting is possible
 the target is influenced by a single feature and the relationship can't be describe by a straight line
 
 ![](assets/datamining/Pasted_image_20240102175121.png)
-[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)
+

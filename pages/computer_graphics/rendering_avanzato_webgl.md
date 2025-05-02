@@ -96,4 +96,4 @@ gl.stencilFunc( gl.ALWAYS, 0x1, 0x1 );
 // operazione da applicare agli elementi che passano lo stencil test
 gl.stencilOp( gl.REPLACE, gl.REPLACE, gl.REPLACE );
 ```
-[<](pages/computer_graphics/webgl.md) [>](pages/computer_graphics/threejs.md)
+[<](pages/computer_graphics/webgl.md)[>](pages/computer_graphics/threejs.md)

@@ -38,4 +38,4 @@ Ci sono inoltre diverse nomenclature applicate agli indici
 ## E nel disco? come rappresentare gli indici
 
 Gli indici esattamente come il data file sono strutture dati che vanno caricate dal disco in memoria centrale, e necessario di conseguenza rappresentarle in maniera efficiente per non perdere i vantaggi di ricerca del indice.
-[<](pages/tecnologie_basi_dati/gestione_disco.md) [>](pages/tecnologie_basi_dati/b-tree.md)
+[<](pages/tecnologie_basi_dati/gestione_disco.md)[>](pages/tecnologie_basi_dati/b-tree.md)

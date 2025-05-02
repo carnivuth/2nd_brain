@@ -35,4 +35,4 @@ la modifica in retroazione fatta vuole minimizzare l'errore E(w) seguendo il gra
 
 Sottrai la derivata per il parametro costante detto Learning Rate
 ![](assets/datamining/Pasted_image_20231230150551.png)
-[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)
+

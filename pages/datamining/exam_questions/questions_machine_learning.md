@@ -468,4 +468,4 @@ answer: 1
 - They are strictly correlated, if, changing the clustering scheme, one increases, then the other does the same
 - It is possible to optimise them (i.e. minimise SSE and maximise SSB) separately
 - **They are strictly correlated, if, changing the clustering scheme, one increases, then the other decreases**
-[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)
+

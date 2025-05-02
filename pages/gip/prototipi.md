@@ -31,4 +31,4 @@ viene usato nelle presentazioni ai clienti per ottenere feedback, consiste in un
 ### Split Test
 
 esperimento controllato in cui 2 varianti di un prodotto sono sottoposte a test su due gruppi distinti di utilizzatori con l'obiettivo di identificare i cambiamenti nel prodotto che incrementano in modo statisticamente significativo la risposta positiva degli utenti
-[<](pages/gip/modellazione_innovazione.md) [>](pages/gip/technology_readiness_levels.md)
+[<](pages/gip/modellazione_innovazione.md)[>](pages/gip/technology_readiness_levels.md)

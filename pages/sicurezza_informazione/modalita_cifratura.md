@@ -126,4 +126,4 @@ m_i \oplus m_j = c_i \oplus c_j
 $$
 
 Per evitare questa vulnerabilità la chiave deve essere cambiata dopo  $2^{\frac{N}{2}}$
-[<](pages/sicurezza_informazione/funzioni_hash.md) [>](pages/sicurezza_informazione/cifrari_simmetrici.md)
+[<](pages/sicurezza_informazione/funzioni_hash.md)[>](pages/sicurezza_informazione/cifrari_simmetrici.md)

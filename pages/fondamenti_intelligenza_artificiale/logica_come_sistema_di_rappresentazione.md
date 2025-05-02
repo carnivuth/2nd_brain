@@ -23,4 +23,4 @@
 		- [[LOGICA DEI PREDICATI]]
 	- ### DIFFERENZE
 		- la principale differenza sta nella maggiore espressività nella logica dei predicati che consente di definire **variabili e quantificazioni**
-[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)
+

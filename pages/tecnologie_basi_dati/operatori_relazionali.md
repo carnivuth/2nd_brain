@@ -48,4 +48,4 @@ Per poter stimare il costo di un operatore si prendono in considerazione i segue
 - $TP(R)$ = numero di tuple per pagina
 - $B$ = numero di pagine buffer a disposizione per l'operatore
 - $L(IX)$ = numero di pagine foglia dell’indice $IX$
-[<](pages/tecnologie_basi_dati/durability_control.md) [>](pages/tecnologie_basi_dati/sorting.md)
+[<](pages/tecnologie_basi_dati/durability_control.md)[>](pages/tecnologie_basi_dati/sorting.md)

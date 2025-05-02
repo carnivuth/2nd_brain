@@ -78,4 +78,4 @@ T_a = latency + \frac{data\space size}{transfer \space speed}
 $$
 
 Di conseguenza una grossa parte del lavoro dietro alla modellazione di un database risiede nell'**organizzazione dei dati nel disco in modo da ottimizzarne l'accesso**
-[<](pages/tecnologie_basi_dati/durability_control.md) [>](pages/tecnologie_basi_dati/sorting.md) [>](pages/tecnologie_basi_dati/gestione_disco.md)
+[>](pages/tecnologie_basi_dati/gestione_disco.md)

@@ -64,4 +64,4 @@ conv(A \rightarrow C) = \frac{1 - sup(C)}{1 - conf(A \rightarrow C)}
 $$
 
 it's the ratio that $A$ occurs without $C$  if $A$ and $C$ where independent, higher value means that the rules is violated less often (in the assumption that the $A$ and $C$ are independent)
-[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)
+

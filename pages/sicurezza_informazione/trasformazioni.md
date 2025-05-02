@@ -132,4 +132,4 @@ Per rendere segreta una funzione si possono sfruttare diversi approcci:
 - segretare un parametro
 
 Segretare un parametro e la scelta vincente in quanto gli algoritmi di cifratura sono complessi e necessitano di essere condivisi dalle due parti e segretare la macchina e estremamente costoso si fa dunque uso di [chiavi](pages/sicurezza_informazione/chiavi.md)
-[<](pages/sicurezza_informazione/ipsec.md) [>](pages/sicurezza_informazione/kerberos.md) [>](pages/sicurezza_informazione/funzioni_hash.md)
+[>](pages/sicurezza_informazione/funzioni_hash.md)

@@ -4,6 +4,8 @@ aliases: []
 tags:
   - oneliners
   - command guide
+next: pages/technologies/find.md
+previous: pages/technologies/ansible.md
 ---
 
 `awk` is a language for text parsing and manipulation, it's often used as a tokenizer in bash pipes but it can do a lot more of that
@@ -71,4 +73,4 @@ match regex element and put beckrefs in an array
 ```bash
 awk '{$1=""; print $0}'
 ```
-[<](pages/tecnologie_basi_dati/b+tree.md) [>](pages/tecnologie_basi_dati/indici_hash.md)
+[<](pages/technologies/ansible.md)[>](pages/technologies/find.md)

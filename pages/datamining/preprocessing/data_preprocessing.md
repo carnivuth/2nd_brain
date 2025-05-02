@@ -35,4 +35,4 @@ the process of selecting a subset of feature\
 ## [FEATURE CREATION](pages/datamining/preprocessing/feature_creation.md)
 
 the process of creating new features from existing data
-[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)
+

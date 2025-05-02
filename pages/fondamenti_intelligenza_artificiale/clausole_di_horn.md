@@ -13,4 +13,4 @@
 	- ![image.png](../assets/image_1682584114152_0.png)
 	- ![image.png](../assets/image_1682584203876_0.png)
 	- ![image.png](../assets/image_1682584605717_0.png)
-[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)
+

@@ -15,6 +15,8 @@ tags:
   - cloud init
   - provisioning
   - infrastructure as code
+next: pages/technologies/terraform.md
+previous: pages/technologies/pass.md
 ---
 
 # Proxmox
@@ -104,4 +106,4 @@ qm set 9000 --agent enabled=1
 ```bash
 qm template 9000
 ```
-[<](pages/tecnologie_basi_dati/b+tree.md) [>](pages/tecnologie_basi_dati/indici_hash.md)
+[<](pages/technologies/pass.md)[>](pages/technologies/terraform.md)

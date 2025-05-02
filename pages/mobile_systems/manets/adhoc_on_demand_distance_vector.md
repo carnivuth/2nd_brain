@@ -54,4 +54,4 @@ In order to avoid the excessive flooding if an intermediate node has already the
 ### Using dsn to avoid loops
 
 So in order to avoid loops, an integer value is introduced (DSN) that is incremented with each propagation of a route request packet, if the
-[<](pages/mobile_systems/manets/greedy_perimeter_stateless_routing.md) [>](pages/mobile_systems/manets/clustering.md) [>](pages/mobile_systems/manets/greedy_perimeter_stateless_routing.md)
+[>](pages/mobile_systems/manets/greedy_perimeter_stateless_routing.md)

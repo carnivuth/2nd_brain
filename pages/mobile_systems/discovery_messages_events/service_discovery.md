@@ -141,4 +141,4 @@ sequenceDiagram
     Device->>ControlPoint: HTTP over SOAP response
     Device->>ControlPoint: Notification with GENA in unicast
 ```
-[<](pages/mobile_systems/iot/coap.md) [>](pages/mobile_systems/discovery_messages_events/messaging.md)
+[<](pages/mobile_systems/iot/coap.md)[>](pages/mobile_systems/discovery_messages_events/messaging.md)

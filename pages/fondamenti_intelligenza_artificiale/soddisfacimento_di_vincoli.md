@@ -89,4 +89,4 @@
 	- si aggiunge una variabile che rappresenta la **funzione obbiettivo**
 	- ogni volta che viene risolto il CSP si aggiorna il vincolo della funzione obbiettivo, una volta che sono esplorate tutte le soluzioni si ottiene la funzione obbiettivo
 	-
-[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)
+

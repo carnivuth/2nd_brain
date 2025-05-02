@@ -19,4 +19,4 @@ this approach is based on the fact that rules that are generated from the same i
 
 - **[frequent itemset generation](pages/datamining/association_rules/frequent_itemset_generation.md)** -> in the first step all item-set that have $sup \gt threshold$ are generated (**this step is still computational expensive**)
 - **RULE GENERATION** -> in the second step rules with high confidence are generated from the previous generated item-sets
-[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)
+

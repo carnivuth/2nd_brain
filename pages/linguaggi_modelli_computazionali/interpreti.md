@@ -312,4 +312,4 @@ interface ExpAssignVisitor extends Visitor {
 ```
 
 L'environment può essere realizzato sfruttando l'implementazione diretta delle mappe di java `Map<String,Integer>`
-[<](pages/linguaggi_modelli_computazionali/grammatiche_llk.md) [>](pages/linguaggi_modelli_computazionali/grammatiche_lrk.md)
+[<](pages/linguaggi_modelli_computazionali/grammatiche_llk.md)[>](pages/linguaggi_modelli_computazionali/grammatiche_lrk.md)

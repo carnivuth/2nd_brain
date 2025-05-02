@@ -54,4 +54,4 @@ The Mahlanobis distance between two points p and q decreases if, keeping the sam
 $$
 \sqrt{(p-q)\sum^{-1}{(p-q)^T}}
 $$
-[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)
+

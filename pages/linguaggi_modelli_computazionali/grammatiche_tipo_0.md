@@ -28,4 +28,4 @@ $$
 ## Rami di derivazione morti
 
 nelle grammatiche di Tipo 0 è possibile arrivare a una **stringa in cui non è possibile applicare altre produzioni**, in questo caso si parla di ramo di derivazione morto
-[<](pages/linguaggi_modelli_computazionali/classificazione_chomsky.md) [>](pages/linguaggi_modelli_computazionali/grammatiche_tipo_1.md)
+[<](pages/linguaggi_modelli_computazionali/classificazione_chomsky.md)[>](pages/linguaggi_modelli_computazionali/grammatiche_tipo_1.md)

@@ -273,4 +273,4 @@ dove $p_j^{max}$ e definito come il primo valore visto in $L_j$
 ![](assets/tecnologie_basi_dati/Pasted%20image%2020250220144720.png)
 
 >[!WARNING] per far si che il rank join sia instance optimal e necessario che le relazioni siano al massimo 2 e che ci sia solo uno score parziale per input
-[<](pages/tecnologie_basi_dati/top_k_queries.md) [>](pages/tecnologie_basi_dati/rankSQL.md)
+[<](pages/tecnologie_basi_dati/top_k_queries.md)[>](pages/tecnologie_basi_dati/rankSQL.md)

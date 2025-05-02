@@ -3,6 +3,8 @@ id: find
 aliases: []
 tags:
   - oneliners
+next: pages/technologies/github_actions.md
+previous: pages/technologies/awk.md
 ---
 
 The `find` command is handy tool to manage files inside the file system, the command structure is:
@@ -44,4 +46,4 @@ find . -not -regex 'REGEX'
 ```bash
 find . -name 'REGEX'
 ```
-[<](pages/tecnologie_basi_dati/b+tree.md) [>](pages/tecnologie_basi_dati/indici_hash.md)
+[<](pages/technologies/awk.md)[>](pages/technologies/github_actions.md)

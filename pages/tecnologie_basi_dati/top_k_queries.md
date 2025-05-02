@@ -199,4 +199,4 @@ STOP AFTER 5;
 non  e detto che l'algoritmo [KNNOptimal](#Risolvere%20le%20query%20top-$k$%20algoritmo%20KNNOptimal) restituisca tuple concordi con il parametro di filtering, per supportare la casistica si utilizza una variante del [KNNOptimal](#Risolvere%20le%20query%20top-$k$%20algoritmo%20KNNOptimal) con supporto al **distance browsing**
 
 nella coda `PQ` si includono anche le tuple e **l'algoritmo termina quando il primo elemento della coda e una tupla**
-[<](pages/tecnologie_basi_dati/r-tree.md) [>](pages/tecnologie_basi_dati/top_k_join_queries.md)
+[<](pages/tecnologie_basi_dati/r-tree.md)[>](pages/tecnologie_basi_dati/top_k_join_queries.md)

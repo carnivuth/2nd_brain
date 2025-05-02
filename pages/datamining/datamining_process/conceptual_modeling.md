@@ -40,4 +40,4 @@ index: 5
 
 
 ![](assets/datamining/Pasted_image_20231010165953.png)
-[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)
+

@@ -16,4 +16,4 @@ based on splitting the dataset in regularly spaced grids and count the number of
 - ### OBJECT BASED
 
 define a radius and attach the number of object inside that radius one example is [dbscan](pages/datamining/clustering/dbscan.md)
-[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)
+

@@ -58,4 +58,4 @@ $$
 $$
 R =\frac{A}{A_{LW}} \space with \space A_{LW} = \frac{\pi}{4}LW
 $$
-[<](pages/computer_vision/image_segmentation_blob_analysis/components_labeling.md) [>](pages/computer_vision/local_features/finding_correspondences.md)
+[<](pages/computer_vision/image_segmentation_blob_analysis/components_labeling.md)[>](pages/computer_vision/local_features/finding_correspondences.md)

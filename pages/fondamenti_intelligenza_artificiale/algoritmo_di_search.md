@@ -6,4 +6,4 @@
 			- lo stato raggiunto puo appartenere a un insieme di stati goal
 			- altre volte la descrizione dello stato di goal puo essere astratto
 			- si puo voler raggiungere la soluzione migliore
-[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)
+

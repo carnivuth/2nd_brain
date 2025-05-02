@@ -40,4 +40,4 @@ C[deployment environment]
 D((positioning system\n capabilities))
 A & B & C --> D
 ```
-[<](pages/mobile_systems/positioning_systems/base_techniques.md) [>](pages/mobile_systems/positioning_systems/manet_positioning_systems.md)
+[<](pages/mobile_systems/positioning_systems/base_techniques.md)[>](pages/mobile_systems/positioning_systems/manet_positioning_systems.md)

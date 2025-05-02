@@ -15,4 +15,4 @@ F(x,y,\sigma) = \sigma^2\nabla^2L(x,y,\sigma) = \sigma^2(\nabla^2G(x,y,\sigma)\a
 $$
 
 ![](assets/computer_vision/Pasted_image_20240314101650.png)
-[<](pages/computer_vision/local_features/zero_crossing_edge_detection.md) [>](pages/computer_vision/local_features/harris_corner_detector.md) [>](pages/computer_vision/image_formation_acquisition/perspective_projection.md) [>](pages/computer_vision/local_features/dog_detector.md)
+[>](pages/computer_vision/local_features/dog_detector.md)

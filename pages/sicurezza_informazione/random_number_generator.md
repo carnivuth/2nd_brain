@@ -91,4 +91,4 @@ H --> G & F
 G --> F --> K
 end
 ```
-[<](pages/sicurezza_informazione/cifrari_simmetrici.md) [>](pages/sicurezza_informazione/chiavi.md) [>](pages/sicurezza_informazione/trasformazioni.md)
+[>](pages/sicurezza_informazione/trasformazioni.md)

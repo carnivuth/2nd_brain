@@ -52,4 +52,4 @@ le.fit(y) # fit the data
 le.classes # show classes founded
 le.transform(y) # apply the transformation
 ```
-[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)
+

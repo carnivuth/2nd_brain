@@ -5,6 +5,8 @@ tags:
   - github
   - automation
   - ci/cd
+next: pages/technologies/git.md
+previous: pages/technologies/find.md
 ---
 
 `Github` offers a CI service called `github actions`, the service runs workflows defined for the repo in a dedicated server called workers, workflows are defined in yaml format under the folder `.github/workflows/`.
@@ -94,4 +96,4 @@ Action can require certain permission to operate inside the repository
       contents: write
 # -------
 ```
-[<](pages/tecnologie_basi_dati/b+tree.md) [>](pages/tecnologie_basi_dati/indici_hash.md)
+[<](pages/technologies/find.md)[>](pages/technologies/git.md)

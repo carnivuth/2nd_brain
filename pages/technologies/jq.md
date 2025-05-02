@@ -5,6 +5,8 @@ tags:
   - snippets
   - jq
   - bash scripting
+next: pages/technologies/kubernetes.md
+previous: pages/technologies/jenkins.md
 ---
 
 Personal `jq` expression language reference
@@ -33,4 +35,4 @@ done
 ```bash
 jq '.[] | select(.param_name) | "\(.param_to_print)"'
 ```
-[<](pages/tecnologie_basi_dati/b+tree.md) [>](pages/tecnologie_basi_dati/indici_hash.md)
+[<](pages/technologies/jenkins.md)[>](pages/technologies/kubernetes.md)

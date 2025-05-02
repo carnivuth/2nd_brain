@@ -20,4 +20,4 @@ EDGEX is a microservice architecture, The principal components are:
 - **core-command** exec command on the nodes
 - **device services** bottom elements of the infrastructure, they pull data from specific protocols and transform them in events that can be managed by the core-data component
 - **registry service** service to monitor the status and perform healthchecks of the other edegex microservices (*e.g. [consul](https://www.consul.io/)* )
-[<](pages/mobile_systems/iot/siemens_mindsphere.md) [>](pages/mobile_systems/iot/iot_devices.md)
+[<](pages/mobile_systems/iot/siemens_mindsphere.md)[>](pages/mobile_systems/iot/iot_devices.md)

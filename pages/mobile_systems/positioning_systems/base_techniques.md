@@ -68,4 +68,4 @@ Several things can cause error in position measurement such as:
 - **Non Line of Sight (NLOS)** a node is not in direct visibility
 - **clock skew**  clock are not synchronized
 - **fading** due to obstacle presence
-[<](pages/mobile_systems/manets/clustering.md) [>](pages/mobile_systems/positioning_systems/taxonomy.md)
+[<](pages/mobile_systems/manets/clustering.md)[>](pages/mobile_systems/positioning_systems/taxonomy.md)

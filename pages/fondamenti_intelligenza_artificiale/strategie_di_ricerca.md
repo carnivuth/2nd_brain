@@ -20,4 +20,4 @@
 - #### PROFONDITA
 	- la profondita del nodo di partenza è 0 e la profondita di un nodo x è quella del suo genitore +1
 - [[STRATEGIE NON INFORMATE]]
-[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)
+

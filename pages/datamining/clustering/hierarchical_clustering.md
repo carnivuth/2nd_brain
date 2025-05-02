@@ -42,4 +42,4 @@ so in conclusion the time complexity is $\mathcal{O}(N^3)$
 
  - poor scaling due to high complexity
  - no global objective function
-[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)
+

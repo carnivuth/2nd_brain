@@ -22,4 +22,4 @@
 		- ![image.png](../assets/image_1681373341960_0.png)
 		- #### TEOREMA SULLA PATH CONSISTENZA
 			- se ogni cammino di lunghezza 2 è path consistente allora lo è tutta la rete
-[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)
+

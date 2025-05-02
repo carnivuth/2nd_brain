@@ -19,4 +19,4 @@ flowchart TD
 	B-->|repeat until the parameters \n do not change|A
 
 ```
-[<](pages/computer_vision/object_detection/instance_level_object_detection.md) [>](pages/computer_vision/object_detection/shape_based_matching.md)
+

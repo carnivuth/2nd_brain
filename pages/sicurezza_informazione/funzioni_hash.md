@@ -135,4 +135,4 @@ Una possibile modalita per attaccare la resistenza debole e il seguente:
 - l'attaccante ha una firma valida per $M'$
 
 Per far si che l'attacco riesca, sono necessari $2^{n/2}$ tentativi
-[<](pages/sicurezza_informazione/trasformazioni.md) [>](pages/sicurezza_informazione/modalita_cifratura.md)
+[<](pages/sicurezza_informazione/trasformazioni.md)[>](pages/sicurezza_informazione/modalita_cifratura.md)

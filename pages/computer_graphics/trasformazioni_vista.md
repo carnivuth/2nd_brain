@@ -132,4 +132,4 @@ C[passaggio al sdr della window]
 D[trasformazione window viewport]
 A --> B --> C --> D
 ```
-[<](pages/computer_graphics/trasformazioni_geometriche.md) [>](pages/computer_graphics/real_time_rendering.md)
+[<](pages/computer_graphics/trasformazioni_geometriche.md)[>](pages/computer_graphics/real_time_rendering.md)
