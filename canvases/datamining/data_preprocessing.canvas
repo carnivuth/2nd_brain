@@ -1,15 +1,15 @@
 {
 	"nodes":[
-		{"id":"dd7768016b37b514","type":"file","file":"pages/preprocessing/TYPE CONVERSIONS.md","x":-1600,"y":-60,"width":400,"height":400},
-		{"id":"d7262774c5d64ddb","type":"file","file":"pages/preprocessing/DATA PREPROCESSING.md","x":-680,"y":40,"width":360,"height":200},
-		{"id":"10b4c510401968cd","type":"text","text":"# PROXIMITY","x":-612,"y":440,"width":225,"height":50},
-		{"id":"7fd5b35f882fb209","type":"file","file":"pages/preprocessing/SIMILARITY AND DISSIMILARITY.md","x":-387,"y":732,"width":400,"height":400},
-		{"id":"9938201f0bcc2a77","type":"file","file":"pages/preprocessing/DISTANCES.md","x":-1012,"y":732,"width":400,"height":400},
-		{"id":"ff325faa12fdff6f","type":"file","file":"pages/preprocessing/SCALING.md","x":-680,"y":-1040,"width":360,"height":314},
-		{"id":"bd5cc2c186c6513e","type":"file","file":"pages/preprocessing/FEATURE SUBSET SELECTION.md","x":-1380,"y":-560,"width":360,"height":314},
-		{"id":"4048a2750f515f64","type":"file","file":"pages/preprocessing/DIMENSIONALITY REDUCTION.md","x":-1160,"y":-960,"width":360,"height":314},
-		{"id":"94839b4b2a1dec51","type":"file","file":"pages/preprocessing/SAMPLING.md","x":-200,"y":-960,"width":360,"height":314},
-		{"id":"fbf4d8f8a68b0c3b","type":"file","file":"pages/preprocessing/FEATURE CREATION.md","x":0,"y":-560,"width":360,"height":314}
+		{"id":"dd7768016b37b514","type":"file","file":"pages/datamining/preprocessing/type_conversions.md","x":-1600,"y":-60,"width":400,"height":400},
+		{"id":"d7262774c5d64ddb","type":"file","file":"pages/datamining/preprocessing/data_preprocessing.md","x":-680,"y":40,"width":360,"height":200},
+		{"id":"10b4c510401968cd","type":"text","text":"#_PROXIMITY","x":-612,"y":440,"width":225,"height":50},
+		{"id":"7fd5b35f882fb209","type":"file","file":"pages/datamining/preprocessing/similarity_and_dissimilarity.md","x":-387,"y":732,"width":400,"height":400},
+		{"id":"9938201f0bcc2a77","type":"file","file":"pages/datamining/preprocessing/distances.md","x":-1012,"y":732,"width":400,"height":400},
+		{"id":"ff325faa12fdff6f","type":"file","file":"pages/datamining/preprocessing/scaling.md","x":-680,"y":-1040,"width":360,"height":314},
+		{"id":"bd5cc2c186c6513e","type":"file","file":"pages/datamining/preprocessing/feature_subset_selection.md","x":-1380,"y":-560,"width":360,"height":314},
+		{"id":"4048a2750f515f64","type":"file","file":"pages/datamining/preprocessing/dimensionality_reduction.md","x":-1160,"y":-960,"width":360,"height":314},
+		{"id":"94839b4b2a1dec51","type":"file","file":"pages/datamining/preprocessing/sampling.md","x":-200,"y":-960,"width":360,"height":314},
+		{"id":"fbf4d8f8a68b0c3b","type":"file","file":"pages/datamining/preprocessing/feature_creation.md","x":0,"y":-560,"width":360,"height":314}
 	],
 	"edges":[
 		{"id":"4c3e9cf3050d1b64","fromNode":"d7262774c5d64ddb","fromSide":"top","toNode":"bd5cc2c186c6513e","toSide":"bottom"},

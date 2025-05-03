@@ -1,13 +1,13 @@
 {
 	"nodes":[
 		{"id":"62029534e347712e","x":-71,"y":720,"width":250,"height":60,"type":"text","text":""},
-		{"id":"8e2416943415ef41","type":"file","file":"pages/clustering/CLUSTERING.md","x":200,"y":-560,"width":400,"height":400},
-		{"id":"40816fe9c0e47511","type":"file","file":"pages/clustering/CLUSTERING SCHEME EVALUATION.md","x":200,"y":-1080,"width":400,"height":400},
-		{"id":"3ac605a1beac5257","type":"file","file":"pages/clustering/HIERARCHICAL CLUSTERING.md","x":1120,"y":40,"width":400,"height":400},
-		{"id":"317631dcd0f55fe4","type":"file","file":"pages/clustering/K-MEANS.md","x":520,"y":40,"width":400,"height":400},
-		{"id":"060df3fcd3fc11ae","type":"file","file":"pages/clustering/DENSITY BASED CLUSTERING.md","x":-140,"y":40,"width":400,"height":400},
-		{"id":"ba157654103239ca","x":-740,"y":40,"width":400,"height":400,"type":"file","file":"pages/clustering/MODEL BASED CLUSTERING.md"},
-		{"id":"31ae5581dec70746","type":"file","file":"pages/clustering/DBSCAN.md","x":-140,"y":640,"width":400,"height":400}
+		{"id":"8e2416943415ef41","type":"file","file":"pages/datamining/clustering/clustering.md","x":200,"y":-560,"width":400,"height":400},
+		{"id":"40816fe9c0e47511","type":"file","file":"pages/datamining/clustering/clustering_scheme_evaluation.md","x":200,"y":-1080,"width":400,"height":400},
+		{"id":"3ac605a1beac5257","type":"file","file":"pages/datamining/clustering/hierarchical_clustering.md","x":1120,"y":40,"width":400,"height":400},
+		{"id":"317631dcd0f55fe4","type":"file","file":"pages/datamining/clustering/K-means.md","x":520,"y":40,"width":400,"height":400},
+		{"id":"060df3fcd3fc11ae","type":"file","file":"pages/datamining/clustering/density_based_clustering.md","x":-140,"y":40,"width":400,"height":400},
+		{"id":"ba157654103239ca","x":-740,"y":40,"width":400,"height":400,"type":"file","file":"pages/datamining/clustering/model_based_clustering.md"},
+		{"id":"31ae5581dec70746","type":"file","file":"pages/datamining/clustering/dbscan.md","x":-140,"y":640,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"e7bcd385802a47e3","fromNode":"8e2416943415ef41","fromSide":"bottom","toNode":"317631dcd0f55fe4","toSide":"top"},
