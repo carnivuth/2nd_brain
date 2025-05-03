@@ -60,3 +60,4 @@ transformation that turns continuous domains into discrete ones, there are many 
 
 Number are discretized in a series of values from $0$ to $k-1$
 
+

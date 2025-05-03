@@ -40,3 +40,4 @@ Knowledge base personale del corso di linguaggi e modelli computazionali
 
 - [esempi per l'esame che ho usato](linguaggi_modelli_computazionali/esame/esame.md)
 
+

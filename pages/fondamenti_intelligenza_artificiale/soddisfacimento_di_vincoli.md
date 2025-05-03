@@ -90,3 +90,4 @@
 	- ogni volta che viene risolto il CSP si aggiorna il vincolo della funzione obbiettivo, una volta che sono esplorate tutte le soluzioni si ottiene la funzione obbiettivo
 	-
 
+

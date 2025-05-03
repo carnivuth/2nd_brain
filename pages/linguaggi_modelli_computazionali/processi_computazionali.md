@@ -228,4 +228,5 @@ object CallByName {
 	}
 }
 ```
+
 [<](pages/linguaggi_modelli_computazionali/grammatiche_lrk.md)[>](pages/linguaggi_modelli_computazionali/javascript.md)

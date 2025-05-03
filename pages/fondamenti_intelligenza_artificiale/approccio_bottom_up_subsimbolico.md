@@ -5,3 +5,4 @@
 		- le motivazioni delle decisioni non sono esplicite
 		- la logica è nascosta nella rete
 
+

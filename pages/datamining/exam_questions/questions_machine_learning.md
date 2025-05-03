@@ -469,3 +469,4 @@ answer: 1
 - It is possible to optimise them (i.e. minimise SSE and maximise SSB) separately
 - **They are strictly correlated, if, changing the clustering scheme, one increases, then the other decreases**
 
+

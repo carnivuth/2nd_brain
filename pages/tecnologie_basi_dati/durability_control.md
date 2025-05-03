@@ -179,4 +179,5 @@ C --> D
 E --> F
 ```
 >[!TIP] scrivere [compensation record](#Log) nella fase di undo semplifica la procedura in caso di guasti ripetuti, dato che si e in grado di comprendere alla prossima esecuzione della procedura che le modifiche alle pagine sono già state apportate
+
 [<](pages/tecnologie_basi_dati/transazioni.md)[>](pages/tecnologie_basi_dati/operatori_relazionali.md)

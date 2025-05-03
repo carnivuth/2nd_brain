@@ -23,4 +23,5 @@ TORA maintains a local DAG for each node of the network, nodes are labeled with 
 | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | Less control overload cause control packets are limited to a small portion of the network | local changes results in non optimal routing                                   |
 |                                                                                           | the concurrent deletion and deduction of routes can results in temporary loops |
+
 [<](pages/mobile_systems/manets/greedy_perimeter_stateless_routing.md)[>](pages/mobile_systems/manets/clustering.md)

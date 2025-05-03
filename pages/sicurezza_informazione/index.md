@@ -21,4 +21,5 @@ pubblico questo contenuto con la speranza possa essere di aiuto, non esitate a a
 - [ipsec](sicurezza_informazione/ipsec.md)
 - [kerberos](sicurezza_informazione/kerberos.md)
 - [pgp](sicurezza_informazione/pgp.md)
+
 [>](pages/sicurezza_informazione/trasformazioni.md)

@@ -261,4 +261,5 @@ console.log(Z(FactGen)(3))
 ## In conclusione
 
 Il lambda calcolo e un formalismo estremamente potente che ha permesso di formalizzare le funzionalità che oggi vantano i linguaggi mainstream ma non e pensato per essere utilizzato direttamente dagli utenti finali
+
 [<](pages/linguaggi_modelli_computazionali/javascript.md)[>](pages/linguaggi_modelli_computazionali/linguaggi_blended.md)

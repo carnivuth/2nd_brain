@@ -13,3 +13,4 @@ Appunti del corso di gestione e innovazione dei progetti
 
 [domande aperte in preparazione alla prova finale](pages/gip/domande_aperte.md)
 
+

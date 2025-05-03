@@ -96,4 +96,5 @@ Action can require certain permission to operate inside the repository
       contents: write
 # -------
 ```
+
 [<](pages/technologies/find.md)[>](pages/technologies/git.md)

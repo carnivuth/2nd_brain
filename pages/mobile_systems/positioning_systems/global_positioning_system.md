@@ -20,4 +20,5 @@ GPS satellites needs to have a perfect synchronized clock, $1_{\mu s}$ can achiv
 ## Differential gps
 
 to reduce the error range of GPS a base station with a fixed position is used to correct the error in the satellites measures
+
 [<](pages/mobile_systems/positioning_systems/manet_positioning_systems.md)[>](pages/mobile_systems/positioning_systems/no_infrastructure_positioning_systems.md)

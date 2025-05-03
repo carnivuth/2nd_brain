@@ -46,4 +46,5 @@ find . -not -regex 'REGEX'
 ```bash
 find . -name 'REGEX'
 ```
+
 [<](pages/technologies/awk.md)[>](pages/technologies/github_actions.md)

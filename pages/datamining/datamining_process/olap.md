@@ -126,3 +126,4 @@ Each approach is more suitable for certain types of data:
 
 - only changes on source are applied to the DWH existent data are not canceled or modified
 
+

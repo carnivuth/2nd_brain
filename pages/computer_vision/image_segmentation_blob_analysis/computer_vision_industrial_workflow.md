@@ -24,4 +24,5 @@ B --> C
 C --> D
 D --> E
 ```
+
 [<](pages/computer_vision/image_filtering/non-local_mean_filter.md)[>](pages/computer_vision/image_segmentation_blob_analysis/binarization.md)

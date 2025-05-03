@@ -14,3 +14,4 @@ Studiate per superare il problema dei dataset linearmente separabili-> cerca un'
 
 - Oppure ancora si possono usare le Reti Neurali: composte da numerosi percettori collocati in gerarchia.
 
+

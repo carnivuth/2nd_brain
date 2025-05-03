@@ -30,4 +30,5 @@ E[(IoT hub)]
 D --> E
 A & B & C --> D
 ```
+
 [<](pages/mobile_systems/iot/aws_iot_platform.md)[>](pages/mobile_systems/iot/siemens_mindsphere.md)

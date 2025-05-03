@@ -77,4 +77,5 @@ In alcuni casi può essere vincente una strategia di **libera diffusione delle t
 | [Diritti d'autore](#Diritti%20d'autore) | vita autore + 70 anni          | opere dell’ingegno di carattere creativo + software e progetti d'ingegneria                                                    | NO*                  |
 | [Design](#Design)                       | 25 anni                        | forma dei prodotti                                                                                                             | SI                   |
 | [Trade secrets](#Trade%20secrets)       | finché rimane segreto          |                                                                                                                                | NO                   |
+
 [<](pages/gip/proprieta_intellettuale.md)

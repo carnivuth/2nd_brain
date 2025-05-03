@@ -27,3 +27,4 @@ $$
 	centroid_{d}^{k}= \frac{1}{x_{i}: clust(x_{i})=k}\sum_{x_{i}: clust(x_{i})=k}{x_{id}}
 $$
 
+

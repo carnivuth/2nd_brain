@@ -26,4 +26,5 @@ A[MODEL GALLERY]
 A --> B & C
 end
 ```
+
 [<](pages/computer_vision/object_detection/generalized_hugh_transform.md)[>](pages/computer_vision/machine_learning_cv/machine_learning_in_computer_vision.md)

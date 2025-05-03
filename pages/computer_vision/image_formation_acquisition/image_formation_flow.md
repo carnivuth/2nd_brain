@@ -25,4 +25,5 @@ A --> B
 B --> C
 C --> D
 ```
+
 [>](pages/computer_vision/image_formation_acquisition/perspective_projection.md)

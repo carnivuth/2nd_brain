@@ -64,4 +64,5 @@ To backup keys in a text based format run
 ```bash
 gpg --output backupkeys.pgp --armor --export-secret-keys --export-options export-backup [gpg_id]
 ```
+
 [<](pages/technologies/nvim.md)[>](pages/technologies/proxmox.md)

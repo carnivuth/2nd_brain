@@ -64,4 +64,5 @@ resource "proxmox_lxc" "ct-test" {
 this will produce the following output on the proxmox host
 
 ![](/images/Pasted%20image%2020241117151330.png)
+
 [<](pages/technologies/proxmox.md)

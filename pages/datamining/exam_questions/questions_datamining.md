@@ -167,3 +167,4 @@
 - **The storage must be scalable and cheap, at the expenses of latency**
 - Ensure high quality of data through an accurate cleaning and transformation step
 
+

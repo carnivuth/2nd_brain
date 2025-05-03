@@ -25,3 +25,4 @@ index: 1
 
 this model can be explored interactively by the user through [OLAP](pages/datamining/datamining_process/olap.md) queries
 
+

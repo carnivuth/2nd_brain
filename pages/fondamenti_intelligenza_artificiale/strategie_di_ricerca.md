@@ -21,3 +21,4 @@
 	- la profondita del nodo di partenza è 0 e la profondita di un nodo x è quella del suo genitore +1
 - [[STRATEGIE NON INFORMATE]]
 
+

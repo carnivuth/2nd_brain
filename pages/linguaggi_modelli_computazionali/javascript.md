@@ -570,4 +570,5 @@ function show(ogg){
 }
 show(e)
 ```
+
 [<](pages/linguaggi_modelli_computazionali/processi_computazionali.md)[>](pages/linguaggi_modelli_computazionali/lambda_calcolo.md)

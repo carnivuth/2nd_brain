@@ -99,4 +99,5 @@ systemctl enable --now kubelet
 ```
 
 then join the kluster using `kubeadm join` command
+
 [<](pages/technologies/jq.md)[>](pages/technologies/make.md)

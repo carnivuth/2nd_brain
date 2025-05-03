@@ -46,3 +46,4 @@ the training set is partitioned in $k$ subsets, than the **model is trained with
 
 - train test loop repeated $k$ times
 
+

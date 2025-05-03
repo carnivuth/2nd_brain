@@ -39,4 +39,5 @@ voidpollsomma (out int success, out int somma)
 ```
 
 ![](assets/mobile_systems/Pasted%20image%2020240616160048.png)
+
 [<](pages/mobile_systems/discovery_messages_events/java_message_service.md)[>](pages/mobile_systems/discovery_messages_events/extensible_messaging_and_presence_protocol.md)

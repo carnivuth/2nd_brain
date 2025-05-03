@@ -69,3 +69,4 @@ The concept is similar to the ones used to test [classification](pages/dataminin
 
 $y_{g}(.)$ acts as a test set but for clustering so we can compare a clustering scheme to it and gain information about the quality of the clustering
 
+

@@ -89,4 +89,5 @@ UI_thread ~~~ background_thread
 ## Why only one thread to manage ui?
 
 The android UI toolkit is not thread safe so manipulation in concurrent threads are not guaranteed to be consistent
+
 [<](pages/mobile_systems/android/threading_model.md)[>](pages/mobile_systems/android/job_scheduler.md)

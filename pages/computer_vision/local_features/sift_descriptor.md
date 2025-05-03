@@ -24,4 +24,5 @@ A --> B --> C
 The descriptor is given by all of the histogram of the regions so the dimension space of a SIFT descriptor is $R^{128}$
 
 The gradient are rotated according to the canonical orientation of the gradient and each pixel is weighted by a Gaussian centered at the keypoint
+
 [<](pages/computer_vision/local_features/canonical_orientation.md)[>](pages/computer_vision/local_features/matching_process.md)

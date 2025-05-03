@@ -31,4 +31,5 @@ A mobile middleware **has lot of differences to address due to the different dep
 - provisioning of some level/degree of visibility of running conditions to lower layers
 - partial visibility of location change
 - modifications in the QoS levels currently available
+
 [<](pages/mobile_systems/mobility/i_tcp.md)[>](pages/mobile_systems/mobile_middleware/mobile_middleware_principles.md)

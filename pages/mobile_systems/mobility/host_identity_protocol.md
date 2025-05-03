@@ -30,4 +30,5 @@ A --> B --> C --> D
 end
 B --> HIP
 ```
+
 [<](pages/mobile_systems/mobility/mobility_ip_networks.md)[>](pages/mobile_systems/mobility/mobile_ip.md)

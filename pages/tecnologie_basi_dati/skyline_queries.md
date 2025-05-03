@@ -130,4 +130,5 @@ Viene predisposta una matrice data da tutte le possibili combinazioni degli attr
 ![](assets/tecnologie_basi_dati/Pasted%20image%2020250220174021.png)
 
 Si scandisce il file e si marcano le tuple corrispondenti nella matrice come presenti, successivamente si determinano le dominanti tra quelle presenti e si rilegge il file fornendo in output quelle nella matrice
+
 [<](pages/tecnologie_basi_dati/rankSQL.md)[>](pages/tecnologie_basi_dati/big_data.md)

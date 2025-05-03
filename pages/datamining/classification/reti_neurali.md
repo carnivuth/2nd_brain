@@ -36,3 +36,4 @@ la modifica in retroazione fatta vuole minimizzare l'errore E(w) seguendo il gra
 Sottrai la derivata per il parametro costante detto Learning Rate
 ![](assets/datamining/Pasted_image_20231230150551.png)
 
+

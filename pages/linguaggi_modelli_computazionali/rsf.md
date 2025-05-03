@@ -56,4 +56,5 @@ Si puo ache esprimere come segue:
 > *l'automa dallo stato $C$ genera la stringa a e si sposta nello stato $A$*
 
 In questo modo si possono interpretare il grafo di un automa come produzioni di una grammatica
+
 [<](pages/linguaggi_modelli_computazionali/pumping_lemma.md)[>](pages/linguaggi_modelli_computazionali/pda.md)

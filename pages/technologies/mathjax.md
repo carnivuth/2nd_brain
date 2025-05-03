@@ -253,4 +253,5 @@ Personal mathjax symbols reference
 | \\( \overleftrightarrow{xy} \\) | `\overleftrightarrow{xy}` |
 | \\( \dot{x} \\)                 | `\dot{x}`                 |
 | \\( \ddot{x} \\)                | `\ddot{x}`                |
+
 [<](pages/technologies/man.md)[>](pages/technologies/nvim.md)

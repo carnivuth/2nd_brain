@@ -64,4 +64,5 @@ There are a lot of disadvantages of course
 
 - high overhead
 - low reliability
+
 [<](pages/mobile_systems/manets/wifi_direct.md)

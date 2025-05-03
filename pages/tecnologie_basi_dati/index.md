@@ -52,3 +52,4 @@ Appunti personali del corso di tecnologie e basi di dati dei professori Patella 
 
 - [big data](tecnologie_basi_dati/big_data.md)
 
+

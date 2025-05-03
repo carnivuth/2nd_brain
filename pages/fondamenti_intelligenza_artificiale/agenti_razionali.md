@@ -50,3 +50,4 @@ La ricerca di una soluzione viene eseguita per mezzo di algoritmi di ricerca
 	- PROBLEMA A STATI MULTIPLI
 		- lo stato non è completamente noto all'agente a priori
 
+

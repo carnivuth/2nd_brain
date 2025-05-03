@@ -20,4 +20,5 @@ A central server collects data sent by devices in UDP packets containing orienta
 ## Online phase
 
 mobile nodes send periodically UDP packets to the server that compares the packets to the dataset collected in the offline phase
+
 [<](pages/mobile_systems/positioning_systems/active_bat.md)[>](pages/mobile_systems/positioning_systems/ekahau.md)

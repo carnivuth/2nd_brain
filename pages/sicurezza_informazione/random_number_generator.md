@@ -91,4 +91,5 @@ H --> G & F
 G --> F --> K
 end
 ```
+
 [>](pages/sicurezza_informazione/trasformazioni.md)

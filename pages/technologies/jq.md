@@ -35,4 +35,5 @@ done
 ```bash
 jq '.[] | select(.param_name) | "\(.param_to_print)"'
 ```
+
 [<](pages/technologies/jenkins.md)[>](pages/technologies/kubernetes.md)

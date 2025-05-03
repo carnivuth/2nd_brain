@@ -83,4 +83,5 @@ pipeline {
 ```
 
 - Configure Jenkins to add GitHub hooks automatically to the repository
+
 [<](pages/technologies/git.md)[>](pages/technologies/jq.md)

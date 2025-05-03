@@ -223,4 +223,5 @@ In questa tipologia di file i record sono ordinati in base a un dato attributo
 |               | $2$                                | $costofsearch +1$                          |
 | deletion      | $cost of search +1$                | $costofsearch +1$                          |
 | update        | $cost of search + 1$               | $costofsearch +1$                          |
+
 [<](pages/tecnologie_basi_dati/struttura_database.md)[>](pages/tecnologie_basi_dati/indici.md)

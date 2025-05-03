@@ -42,4 +42,5 @@ A connected region is a connected (foreground/background) region if all pixels i
 A new label is propagated throughout a connected component starting from a “seed” pixel. Propagation is typically carried out by a iterative procedure which requires scanning the image multiple times.this solution is not efficient
 
 ![](assets/computer_vision/Pasted_image_20240303174654.png)
+
 [<](pages/computer_vision/image_segmentation_blob_analysis/binary_morphology.md)[>](pages/computer_vision/image_segmentation_blob_analysis/blob_analysis.md)

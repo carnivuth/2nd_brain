@@ -22,3 +22,4 @@ procedure to extract important variables from the dataset and reduce dimensional
 
 the PCA algorithm uses [singular value decomposition](https://en.wikipedia.org/wiki/Singular_value_decomposition) to find the attributes that capture most of the data variation and reduce the number of dimensions in the dataset to make it more suitable for ML processes
 
+

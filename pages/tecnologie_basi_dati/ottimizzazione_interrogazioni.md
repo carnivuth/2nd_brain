@@ -129,4 +129,5 @@ reset():
 close():
 	# termina e rilascia le risorse
 ```
+
 [<](pages/tecnologie_basi_dati/operatori_modifica.md)[>](pages/tecnologie_basi_dati/ricerca_piano_accesso.md)

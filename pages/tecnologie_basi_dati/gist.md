@@ -37,4 +37,5 @@ pages/
 - `delete` elimina una entry dall'albero
 - `adjustKeys` aggiusta il valore delle chiavi dei nodi intermedi e controlla che il predicato dei figli corrisponda a quello del padre per mezzo di `union`
 - `condenseTree` effettua il reinserimento di entry orfane nell'albero
+
 [<](pages/tecnologie_basi_dati/b+tree.md)[>](pages/tecnologie_basi_dati/indici_hash.md)

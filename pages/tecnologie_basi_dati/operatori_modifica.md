@@ -58,4 +58,5 @@ In caso di aggiornamenti ai valori della chiave di un indice e necessario preser
 >[!WARNING] DB2 ci prova ma ammette la presenza di indici **più o meno clustered**, rendendo necessarie operazioni di riorganizzazione quando il clustering risulta fortemente deteriorato
 
 >[!TIP] In  un database oracle il clustering dei dati equivale ad usare un [b+tree](pages/tecnologie_basi_dati/b+tree.md) per organizzare i dati e gli altri indici hanno come valori delle foglie dei RID logici (*i valori della primary key*) che aggiunge un livello di indirezione
+
 [<](pages/tecnologie_basi_dati/group_by.md)[>](pages/tecnologie_basi_dati/ottimizzazione_interrogazioni.md)

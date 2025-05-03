@@ -47,4 +47,5 @@ clean:
 
 build: $(patsubst %.mmd,%.png,$(wildcard *.mmd))
 ```
+
 [<](pages/technologies/kubernetes.md)[>](pages/technologies/man.md)

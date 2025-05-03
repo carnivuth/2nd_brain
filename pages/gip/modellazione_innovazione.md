@@ -91,4 +91,5 @@ L'innovazione può essere visualizzata come un ciclo di creazione e distruzione 
 - **Era di cambiamento incrementale** esiste un disegno dominante e le aziende si impegnano a applicare miglioramenti in maniera incrementale in attesa della prossima fase di fermento
 
 ![](assets/gip/Pasted%20image%2020230928163324.png)
+
 [<](pages/gip/forme_innovazione.md)[>](pages/gip/prototipi.md)

@@ -17,3 +17,4 @@ based on splitting the dataset in regularly spaced grids and count the number of
 
 define a radius and attach the number of object inside that radius one example is [dbscan](pages/datamining/clustering/dbscan.md)
 
+

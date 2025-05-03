@@ -62,4 +62,5 @@ Per un first mover è fondamentale avere la capacità di appropriarsi dei guadag
 ### Follower
 
 sono coloro che seguono l'innovazione portata da altre imprese
+
 [<](pages/gip/technology_readiness_levels.md)[>](pages/gip/strumenti_proprieta_intellettuale.md)

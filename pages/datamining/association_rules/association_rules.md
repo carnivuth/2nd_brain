@@ -56,3 +56,4 @@ Support measures "how much" an occurrence can be considered a rule (there must b
 
 Confidence measures how much a rule is represented in the transactions that contains it
 
+

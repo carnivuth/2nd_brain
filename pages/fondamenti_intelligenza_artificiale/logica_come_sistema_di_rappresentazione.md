@@ -24,3 +24,4 @@
 	- ### DIFFERENZE
 		- la principale differenza sta nella maggiore espressività nella logica dei predicati che consente di definire **variabili e quantificazioni**
 
+

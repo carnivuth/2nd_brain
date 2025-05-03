@@ -85,3 +85,4 @@ END; # ExpandCluster
 
 $\epsilon$ and $minPoints$ are the parameter that need to be tuned, a good value for $minPoints$ can be $2*D$ where $D$ is the number of dimensions
 
+

@@ -57,4 +57,5 @@ Personal snippets for ansible playbooks development and reference
         msg: "{{ foo }} is undefined"
       when: foo is undefined
 ```
+
 [>](pages/technologies/awk.md)

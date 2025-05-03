@@ -42,3 +42,4 @@ Boundaries on the curve $z$ depends on the desired confidence level $\alpha$
 
 ![](assets/datamining/Pasted_image_20231230173630.png)
 
+

@@ -87,4 +87,5 @@ c= E(m)|H(E(m)|s) \space (es. \space IPSEC) \\
 $$
 
 In questo modo la destinazione può autenticare un messaggio prima di decifrarlo, tuttavia e necessario che la funzione $H$ sia sicura per impedire all'attaccante di risalire al segreto
+
 [>](pages/sicurezza_informazione/trasformazioni.md)

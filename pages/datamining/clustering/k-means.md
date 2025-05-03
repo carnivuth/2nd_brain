@@ -105,3 +105,4 @@ $$
 - does not deal with noise
 - does not deal properly with non convex clusters
 
+

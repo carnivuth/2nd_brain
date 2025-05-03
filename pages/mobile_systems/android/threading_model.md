@@ -48,4 +48,5 @@ Android defines different group threads with different scheduling priorities
 - visible
 - service
 - background
+
 [<](pages/mobile_systems/android/activity.md)[>](pages/mobile_systems/android/asynchronous_techniques.md)

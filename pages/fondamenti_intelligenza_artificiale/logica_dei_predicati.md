@@ -104,3 +104,4 @@
 		- questo concetto viene sfruttato in generale in molti contesti, si basa su un ipotesi di onniscenza della base di conoscenza (*se qualcosa non è dimostrabile allora è vero il contrario*)
 		-
 
+

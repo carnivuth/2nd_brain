@@ -94,3 +94,4 @@ Un'innovazione di prodotto ha un regime di appropriabilità più debole rispetto
 - trasformazione del gap tecnologico in altri vantaggi, come avere una reputazione verso i clienti, costi di sostituzione ridotti, possibilità di scegliere il canale di distribuzione, di definizione di uno standard, accesso agevolato a risorse limitate, curva di apprendimento esclusiva, profitti iniziali
 ## D: definire il concetto di modello di business
 
+

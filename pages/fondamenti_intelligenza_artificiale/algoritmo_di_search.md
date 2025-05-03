@@ -7,3 +7,4 @@
 			- altre volte la descrizione dello stato di goal puo essere astratto
 			- si puo voler raggiungere la soluzione migliore
 
+

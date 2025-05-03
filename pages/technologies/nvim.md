@@ -106,4 +106,5 @@ bufdo %s/\](assets\/pages\/\(.*\/Pasted.*\))/](assets\/\1)/gc | update |bw
 " indent
 bufdo execute "normal! ggvG=l" | update |bw
 ```
+
 [<](pages/technologies/mathjax.md)[>](pages/technologies/pass.md)

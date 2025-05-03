@@ -104,4 +104,5 @@ $$
 A 2D accumulator array is not sufficient to account for rotation and scale, the solution is to use a 4D accumulator array in order to account for scale and rotation
 
 ![](assets/computer_vision/Pasted_image_20240428143913.png)
+
 [<](pages/computer_vision/object_detection/hough_transform.md)[>](pages/computer_vision/object_detection/object_detection_pipeline.md)

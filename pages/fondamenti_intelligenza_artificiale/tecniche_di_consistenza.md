@@ -23,3 +23,4 @@
 		- #### TEOREMA SULLA PATH CONSISTENZA
 			- se ogni cammino di lunghezza 2 è path consistente allora lo è tutta la rete
 
+

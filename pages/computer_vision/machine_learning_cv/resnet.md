@@ -92,4 +92,5 @@ In the training phase dropouts is not deployed because the use of batch normaliz
 | Momentum                         | $0.9$                                                   |
 | Data Augmentation, Normalization | Same as [VGG](pages/computer_vision/machine_learning_cv//vgg.md)                                   |
 | Initialization                   | He initilization                                        |
+
 [<](pages/computer_vision/machine_learning_cv/vgg.md)

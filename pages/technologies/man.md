@@ -53,4 +53,5 @@ fi
 ```
 
 Now man can be browsed with vim keybindings and for quick oneliners the `tldr` command can be used
+
 [<](pages/technologies/make.md)[>](pages/technologies/mathjax.md)

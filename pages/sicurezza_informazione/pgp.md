@@ -47,4 +47,5 @@ A ogni chiave e associato un livello di fiducia che può dipendere:
 - dall'intermediario che ha fornito la chiave
 
 E previsto inoltre un meccanismo di fiducia anche per i certificati mostrati dagli intermediari.
+
 [<](pages/sicurezza_informazione/kerberos.md)[>](pages/sicurezza_informazione/blockchain.md)

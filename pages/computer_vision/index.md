@@ -67,3 +67,4 @@
 - [vgg](pages/computer_vision/machine_learning_cv/vgg.md)
 - [resnet](pages/computer_vision/machine_learning_cv/resnet.md)
 
+
