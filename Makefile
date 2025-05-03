@@ -1,3 +1,5 @@
+.DEFAULT_GOAL=build
+.PHONY: build clean
 
 BUILDDIR=./build
 
@@ -22,6 +24,3 @@ build: clean setup
 serve: setup
 	cd $(BUILDDIR); \
 	npx quartz build --serve
-
-.PHONY: build clean
-.DEFAULT: build
