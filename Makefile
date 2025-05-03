@@ -1,4 +1,4 @@
-.DEFAULT_GOAL=build
+.DEFAULT_GOAL=serve
 .PHONY: build clean
 
 BUILDDIR=./build
