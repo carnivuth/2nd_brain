@@ -42,7 +42,7 @@ Personal notes on datamining and machine learning course of professor Sartori Cl
 - [model selection](pages/datamining/classification/model_selection.md)
 - [naive bayes classifier](pages/datamining/classification/naive_bayes_classifier.md)
 - [regression](pages/datamining/classification/regression.md)
-- [performance of a classifier](pages/datamining/classification/performance_of_a_classifier.md)
+- [performance of a classifier](pages/datamining/classification/classifier_performance.md)
 - [svm](pages/datamining/classification/svm.md)
 - [reti neurali](pages/datamining/classification/reti_neurali.md)
 - [training strategies](pages/datamining/classification/training_strategies.md)
