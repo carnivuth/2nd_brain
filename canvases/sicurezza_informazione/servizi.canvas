@@ -1,10 +1,10 @@
 {
 	"nodes":[
 		{"id":"bcb9be94e0ca2bc0","x":-160,"y":-140,"width":336,"height":123,"type":"text","text":"# SERVIZI PER LA RISERVATEZZA E L'AUTENTICAZOINE"},
-		{"id":"755c3610cc4ecb20","x":520,"y":600,"width":400,"height":400,"type":"file","file":"pages/kerberos.md"},
-		{"id":"a8bd9ca78efb4685","x":-880,"y":600,"width":400,"height":400,"type":"file","file":"pages/pgp.md"},
-		{"id":"4649127966cb12ff","x":-880,"y":-278,"width":400,"height":400,"type":"file","file":"pages/ipsec.md"},
-		{"id":"937173fea4ddff13","x":520,"y":-278,"width":400,"height":400,"type":"file","file":"pages/ssl.md"}
+		{"id":"755c3610cc4ecb20","x":520,"y":600,"width":400,"height":400,"type":"file","file":"pages/sicurezza_informazione/kerberos.md"},
+		{"id":"a8bd9ca78efb4685","x":-880,"y":600,"width":400,"height":400,"type":"file","file":"pages/sicurezza_informazione/pgp.md"},
+		{"id":"4649127966cb12ff","x":-880,"y":-278,"width":400,"height":400,"type":"file","file":"pages/sicurezza_informazione/ipsec.md"},
+		{"id":"937173fea4ddff13","x":520,"y":-278,"width":400,"height":400,"type":"file","file":"pages/sicurezza_informazione/ssl.md"}
 	],
 	"edges":[
 		{"id":"e497e32867cc3349","fromNode":"bcb9be94e0ca2bc0","fromSide":"left","toNode":"4649127966cb12ff","toSide":"right","label":"SERVIZIO\nA LIVELLO 3"},

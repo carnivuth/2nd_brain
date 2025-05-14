@@ -3,12 +3,12 @@
 		{"id":"0398ad276239d31a","type":"text","text":"# [TRASFORMAZIONE E](trasformazioni.md#TRASFORMAZIONE%20$E$)","x":-80,"y":-580,"width":357,"height":41},
 		{"id":"bcd9e7ad996cc307","type":"text","text":"# [TRASFORMAZIONE S](trasformazioni.md#TRASFORMAZIONE%20$S$)","x":400,"y":-580,"width":359,"height":41},
 		{"id":"f724489844bb21f3","type":"text","text":"# [TRASFORMAZIONE H](trasformazioni.md#TRASFORMAZIONE%20$H$)","x":860,"y":-580,"width":361,"height":41},
-		{"id":"e970684affc33e18","type":"file","file":"pages/trasformazioni.md","x":380,"y":-400,"width":400,"height":400},
-		{"id":"c0579bf12f88bccf","type":"file","file":"pages/chiavi.md","x":-360,"y":-400,"width":400,"height":400},
-		{"id":"464b7a2339583d9b","type":"file","file":"pages/funzioni_hash.md","x":841,"y":-1200,"width":400,"height":400},
-		{"id":"873b3aef63d3144a","type":"file","file":"pages/cifrari_simmetrici.md","x":-101,"y":-1240,"width":400,"height":400},
-		{"id":"f4f76c64d71adf79","type":"file","file":"pages/protocollo_wep.md","x":-101,"y":-1800,"width":400,"height":400},
-		{"id":"faa8123452317d3a","type":"file","file":"pages/modalita_cifratura.md","x":-800,"y":-1240,"width":400,"height":400}
+		{"id":"e970684affc33e18","type":"file","file":"pages/sicurezza_informazione/trasformazioni.md","x":380,"y":-400,"width":400,"height":400},
+		{"id":"c0579bf12f88bccf","type":"file","file":"pages/sicurezza_informazione/chiavi.md","x":-360,"y":-400,"width":400,"height":400},
+		{"id":"464b7a2339583d9b","type":"file","file":"pages/sicurezza_informazione/funzioni_hash.md","x":841,"y":-1200,"width":400,"height":400},
+		{"id":"873b3aef63d3144a","type":"file","file":"pages/sicurezza_informazione/cifrari_simmetrici.md","x":-101,"y":-1240,"width":400,"height":400},
+		{"id":"f4f76c64d71adf79","type":"file","file":"pages/sicurezza_informazione/protocollo_wep.md","x":-101,"y":-1800,"width":400,"height":400},
+		{"id":"faa8123452317d3a","type":"file","file":"pages/sicurezza_informazione/modalita_cifratura.md","x":-800,"y":-1240,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"0e1e0bd3d9ee0f7e","fromNode":"e970684affc33e18","fromSide":"top","toNode":"bcd9e7ad996cc307","toSide":"bottom"},

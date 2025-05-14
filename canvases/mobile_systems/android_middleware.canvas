@@ -1,16 +1,16 @@
 {
 	"nodes":[
-		{"id":"dc33b34038340988","type":"file","file":"pages/android/THREADING_MODEL.md","x":960,"y":806,"width":400,"height":400},
-		{"id":"8d4c7727dcab4871","type":"file","file":"pages/android/ASYNCHRONOUS_TECHNIQUES.md","x":960,"y":1600,"width":400,"height":400},
-		{"id":"84ed97c600d6428c","type":"file","file":"pages/android/ANDROID_PLATFORM.md","x":43,"y":806,"width":400,"height":400,"color":"4"},
-		{"id":"2f3888fc15bbcf72","type":"file","file":"pages/android/ACTIVITY.md","x":44,"y":1600,"width":400,"height":400},
+		{"id":"dc33b34038340988","type":"file","file":"pages/mobile_systems/android/THREADING_MODEL.md","x":960,"y":806,"width":400,"height":400},
+		{"id":"8d4c7727dcab4871","type":"file","file":"pages/mobile_systems/android/ASYNCHRONOUS_TECHNIQUES.md","x":960,"y":1600,"width":400,"height":400},
+		{"id":"84ed97c600d6428c","type":"file","file":"pages/mobile_systems/android/ANDROID_PLATFORM.md","x":43,"y":806,"width":400,"height":400,"color":"4"},
+		{"id":"2f3888fc15bbcf72","type":"file","file":"pages/mobile_systems/android/ACTIVITY.md","x":44,"y":1600,"width":400,"height":400},
 		{"id":"9f275432c7b8fa3c","type":"text","text":"# [ASYNC TASK](ASYNCHRONOUS_TECHNIQUES.md#ASYNC%20TASK)","x":836,"y":2300,"width":249,"height":60},
 		{"id":"2f6e7009a0528101","type":"text","text":"# [THREADS](ASYNCHRONOUS_TECHNIQUES.md#THREADS)","x":1260,"y":2300,"width":201,"height":60},
-		{"id":"812c2f163eabe753","type":"file","file":"pages/android/ALARMS.md","x":-760,"y":806,"width":400,"height":400},
-		{"id":"8d5e25e1979405f1","type":"file","file":"pages/android/JOB_SCHEDULER.md","x":1920,"y":806,"width":400,"height":400},
+		{"id":"812c2f163eabe753","type":"file","file":"pages/mobile_systems/android/ALARMS.md","x":-760,"y":806,"width":400,"height":400},
+		{"id":"8d5e25e1979405f1","type":"file","file":"pages/mobile_systems/android/JOB_SCHEDULER.md","x":1920,"y":806,"width":400,"height":400},
 		{"id":"16b43b8d41849257","type":"text","text":"# [SERVICE](ASYNCHRONOUS_TECHNIQUES.md#SERVICE)","x":1307,"y":2460,"width":187,"height":60},
 		{"id":"2f94c7f4c97c3136","type":"text","text":"# [HANDLER](ASYNCHRONOUS_TECHNIQUES.md#HANDLER)","x":820,"y":2460,"width":200,"height":60},
-		{"id":"3fb8f2cc5d1d47e9","type":"file","file":"pages/android/SOCKETS.md","x":43,"y":80,"width":400,"height":400}
+		{"id":"3fb8f2cc5d1d47e9","type":"file","file":"pages/mobile_systems/android/SOCKETS.md","x":43,"y":80,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"fa7ebf0c80b42f70","fromNode":"84ed97c600d6428c","fromSide":"bottom","toNode":"2f3888fc15bbcf72","toSide":"top","label":"APPLICATIONS\nMAIN COMPONENT"},

@@ -1,15 +1,15 @@
 {
 	"nodes":[
-		{"id":"32d9597803c324f2","type":"file","file":"pages/chiavi.md","x":-800,"y":-681,"width":400,"height":400},
+		{"id":"32d9597803c324f2","type":"file","file":"pages/sicurezza_informazione/chiavi.md","x":-800,"y":-681,"width":400,"height":400},
 		{"id":"b9dab6af7c573099","type":"text","text":"# CIFRARI","x":-97,"y":-20,"width":177,"height":60},
-		{"id":"93e1b96a2a03de6d","type":"file","file":"pages/key_management.md","x":-208,"y":-681,"width":400,"height":400},
-		{"id":"ca92d89c76b5c609","type":"file","file":"pages/diffie_hellman.md","x":-208,"y":-1280,"width":400,"height":400},
+		{"id":"93e1b96a2a03de6d","type":"file","file":"pages/sicurezza_informazione/key_management.md","x":-208,"y":-681,"width":400,"height":400},
+		{"id":"ca92d89c76b5c609","type":"file","file":"pages/sicurezza_informazione/diffie_hellman.md","x":-208,"y":-1280,"width":400,"height":400},
 		{"id":"cc318c032c401116","type":"text","text":"# [CIFRARI A BLOCCHI](Note%20Domande.md#CIFRARI%20A%20BLOCCHI)","x":-49,"y":880,"width":338,"height":60},
-		{"id":"7069e11d279885be","type":"file","file":"pages/cifrari_asimmetrici.md","x":-800,"y":240,"width":400,"height":400},
-		{"id":"04b0fb617d572044","type":"file","file":"pages/rsa.md","x":-800,"y":880,"width":400,"height":400},
-		{"id":"b827dc2cbaff7f49","type":"file","file":"pages/cifrari_simmetrici.md","x":359,"y":240,"width":400,"height":400},
+		{"id":"7069e11d279885be","type":"file","file":"pages/sicurezza_informazione/cifrari_asimmetrici.md","x":-800,"y":240,"width":400,"height":400},
+		{"id":"04b0fb617d572044","type":"file","file":"pages/sicurezza_informazione/rsa.md","x":-800,"y":880,"width":400,"height":400},
+		{"id":"b827dc2cbaff7f49","type":"file","file":"pages/sicurezza_informazione/cifrari_simmetrici.md","x":359,"y":240,"width":400,"height":400},
 		{"id":"18ec6238a0ed8407","type":"text","text":"# [CIFRARI A FLUSSO](cifrari_simmetrici.md#CIFRARI%20A%20FLUSSO)","x":800,"y":880,"width":323,"height":60},
-		{"id":"f5230eae8d8d8fd3","type":"file","file":"pages/modalita_cifratura.md","x":-80,"y":1160,"width":400,"height":400}
+		{"id":"f5230eae8d8d8fd3","type":"file","file":"pages/sicurezza_informazione/modalita_cifratura.md","x":-80,"y":1160,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"f8f60ced591f0b18","fromNode":"b9dab6af7c573099","fromSide":"bottom","toNode":"b827dc2cbaff7f49","toSide":"top"},
