@@ -7,7 +7,7 @@ pubblico questo contenuto con la speranza possa essere di aiuto, non esitate a a
 
 ## Fondamenti crittografici
 
-- [trasformazioni](sicurezza_informazione/trasformazioni.md)
+- [trasformazioni](pages/sicurezza_informazione/trasformazioni.md)
 - [cifrari_simmetrici](sicurezza_informazione/cifrari_simmetrici.md)
 - [cifrari_asimmetrici](sicurezza_informazione/cifrari_asimmetrici.md)
 - [chiavi](sicurezza_informazione/chiavi.md)
