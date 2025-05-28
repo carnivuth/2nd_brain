@@ -36,12 +36,24 @@ In order to divide tracks in album folder run the following oneliners
 
 >[!TIP] this will create folder based on ALBUM metadata
 ```bash
-find . -type f | parallel 'ffmpeg -i {} -f ffmetadata' 2>&1 | grep 'ALBUM ' |awk -F':' '{$1=""; print $0}' | while read dir; do mkdir -p "$dir"; done
+find . -type f | parallel 'ffmpeg -i {} -f ffmetadata' 2>&1 | grep 'ALBUM ' |awk -F':' '{$1=""; print $0}' | while read dir; do
+    if [[ -d "$dir" ]]; then
+        echo "$dir already exists"
+    else
+        mkdir -p "$dir";
+    fi
+done
 ```
 
 >[!TIP] this will move tracks in ALBUM folder according to metadata
 ```bash
-find . -type f | while read f; do ALBUM="$(ffmpeg -i "$f" -f ffmetadata 2>&1 | grep 'ALBUM ' | awk -F':' '{$1="";print $0}' | awk '{$1=$1;print}')"; mv "$f" "$ALBUM"; done
+find . -type f | while read f; do ALBUM="$(ffmpeg -i "$f" -f ffmetadata 2>&1 | grep 'ALBUM ' | awk -F':' '{$1="";print $0}' | awk '{$1=$1;print}')";
+if [[ -f "$ALBUM/$f" ]]; then
+    echo "$ALBUM/$f already exists";
+else
+    mv "$f" "$ALBUM/";
+fi
+done
 ```
 
 ## Creating smart playlists
