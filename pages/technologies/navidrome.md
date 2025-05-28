@@ -2,8 +2,7 @@
 id: navidrome
 tags: []
 aliases:
-previous:
-next:
+previous: pages/technologies/terraform.md
 ---
 
 # navidrome
@@ -35,3 +34,4 @@ this json files are composed by a sequence of statements in the form
 ```
 
 The tracks with metadata that matches the statement are included inside the smart playlist, here a complete list of [fields and operators](https://www.navidrome.org/docs/usage/smartplaylists/#additional-resources)
+[<](pages/technologies/terraform.md)

@@ -4,6 +4,7 @@ aliases: []
 tags: []
 index: 16
 previous: pages/technologies/proxmox.md
+next: pages/technologies/navidrome.md
 ---
 
 Terraform is a tool for IaC (*infrastructure as code*) that can work with multiple cloud platforms and virtualizers here i will wrote down some snippets and best practices
@@ -65,4 +66,4 @@ this will produce the following output on the proxmox host
 
 ![](/images/Pasted%20image%2020241117151330.png)
 
-[<](pages/technologies/proxmox.md)
+[<](pages/technologies/proxmox.md)[>](pages/technologies/navidrome.md)
