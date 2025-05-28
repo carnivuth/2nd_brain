@@ -107,4 +107,14 @@ bufdo %s/\](assets\/pages\/\(.*\/Pasted.*\))/](assets\/\1)/gc | update |bw
 bufdo execute "normal! ggvG=l" | update |bw
 ```
 
+- replace visually highlighted text without overwrite content inside default register
+
+```vimscript
+v
+"  highlight text
+yv
+"  highlight text to overwrite
+P
+```
+
 [<](pages/technologies/mathjax.md)[>](pages/technologies/pass.md)
