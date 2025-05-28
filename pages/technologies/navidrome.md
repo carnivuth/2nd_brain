@@ -9,6 +9,40 @@ previous: pages/technologies/terraform.md
 
  Here i will store some tips and tricks about [navidrome](https://www.navidrome.org/), a subsonic compatible musing streaming services that i use every day
 
+## Manage metadata
+
+In order to work properly navidrome needs that tracks have metadata populated, to compile them there are a pletora of software, one of them beeing [picard](https://picard.musicbrainz.org/).
+
+### Collection file structure
+
+To keep things ordered and clean files inside the collection folder are organized as follows
+
+```txt
+collection/
+├── album 1
+│   └── track 1
+├── album 2
+│   ├── track 1
+│   └── track 2
+├── playlists
+│   ├── ....nsp
+│   ├── ....nsp
+│   └── ....nsp
+.....
+```
+
+In order to divide tracks in album folder run the following oneliners
+
+>[!TIP] this will create folder based on ALBUM metadata
+```bash
+find . -type f | parallel 'ffmpeg -i {} -f ffmetadata' 2>&1 | grep 'ALBUM ' |awk -F':' '{$1=""; print $0}' | while read dir; do mkdir -p "$dir"; done
+```
+
+>[!TIP] this will move tracks in ALBUM folder according to metadata
+```bash
+find . -type f | while read f; do ALBUM="$(ffmpeg -i "$f" -f ffmetadata 2>&1 | grep 'ALBUM ' | awk -F':' '{$1="";print $0}' | awk '{$1=$1;print}')"; mv "$f" "$ALBUM"; done
+```
+
 ## Creating smart playlists
 
 Smart playlists are ways of grouping tracks together based on metadata values, they are defined inside `json` files with the `.nsp` extension
