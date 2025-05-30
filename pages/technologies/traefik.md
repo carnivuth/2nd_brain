@@ -68,3 +68,4 @@ services:
 ### labels
 
 Possible labels for routers when using the docker provider can be found [here](https://doc.traefik.io/traefik/routing/routers/#rule)
+[<](pages/technologies/navidrome.md)
