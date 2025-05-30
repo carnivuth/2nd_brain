@@ -3,7 +3,7 @@ id: navidrome
 tags: []
 aliases:
 previous: pages/technologies/hetzner.md
-
+next: pages/technologies/traefik.md
 ---
 
 # navidrome
